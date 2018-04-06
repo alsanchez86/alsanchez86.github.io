@@ -9,6 +9,6 @@ package-lock.json
 .vscode
 .grunt
 
-# node_modules
-# bower_components
+node_modules
+bower_components
 # dist
