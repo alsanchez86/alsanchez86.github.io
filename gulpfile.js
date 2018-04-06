@@ -12,11 +12,15 @@ var gulp = require('gulp'),
 
 gulp.task('css:sass', function () {
     return gulp.src([
+            pkg.node_modules + 'font-awesome/css/font-awesome.css',
             pkg.css + 'sass/main.scss'
         ])
         .pipe(
             sass.sync()
             .on('error', sass.logError)
+        )
+        .pipe(
+            concat("main.css")
         )
         .pipe(
             gulp.dest(pkg.dist + 'css/')
@@ -72,7 +76,7 @@ gulp.task('js:custom', function () {
         );
 });
 
-gulp.task('js:concat', function() {
+gulp.task('js:concat', function () {
     return gulp.src([
             pkg.dist + 'js/lib.js',
             pkg.dist + 'js/custom.js'
@@ -85,16 +89,16 @@ gulp.task('js:concat', function() {
         );
 });
 
-gulp.task('js:min', function() {
+gulp.task('js:min', function () {
     return gulp.src([
             pkg.dist + 'js/**/*.js',
             '!' + pkg.dist + 'js/**/*.min.js'
         ])
         .pipe(
             uglify()
-                .on('error', function(e){
-                    console.log(e);
-                })
+            .on('error', function (e) {
+                console.log(e);
+            })
         )
         .pipe(
             rename({
