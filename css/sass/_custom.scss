@@ -1,4 +1,6 @@
-// Body
+// All
+html {}
+
 body {}
 
 // Text
@@ -15,7 +17,6 @@ body {}
 // Header page
 div.header-page {
     padding: 0.9rem 0;
-
     .as-icon {
         margin: 0.3rem 1rem 0.5rem 1rem;
         padding: 0.5rem 0.65rem;
@@ -25,12 +26,9 @@ div.header-page {
 // Main nav
 div.main-nav {
     font-size: 1.15rem;
-
     ul.nav {
         li.nav-item {
-            a.nav-link {
-
-            }
+            a.nav-link {}
         }
     }
 }
@@ -42,7 +40,6 @@ div.rrss-header-menu {
             a.nav-link {
                 @include link($gray-300, $gray-400);
                 padding: 0.6rem 0.7rem;
-
                 font-size: 1rem;
             }
         }
@@ -58,32 +55,48 @@ div.main-section {
 div.footer {
     @include text($roboto, 0.875rem, 400, normal, $gray-500, center);
     padding: 2rem 0 3rem 0;
-
     a {
         @include link($gray-500, $gray-500);
     }
-
     span.footer-copy {
         display: block;
     }
-
     span.as-icon {
         display: inline-block;
         margin: 1rem 0.8rem 0.5rem 0.8rem;
         padding: 0.2rem 0.4rem;
-
         background-color: $gray-200;
         color: $white;
     }
 }
 
 // GRID COMPONENT
-@include media-breakpoint-only(xs) {}
+@include media-breakpoint-only(xs) {
+    html {
+        font-size: $font-size-xs;
+    }
+}
 
-@include media-breakpoint-only(sm) {}
+@include media-breakpoint-only(sm) {
+    html {
+        font-size: $font-size-sm;
+    }
+}
 
-@include media-breakpoint-only(md) {}
+@include media-breakpoint-only(md) {
+    html {
+        font-size: $font-size-md;
+    }
+}
 
-@include media-breakpoint-only(lg) {}
+@include media-breakpoint-only(lg) {
+    html {
+        font-size: $font-size-lg;
+    }
+}
 
-@include media-breakpoint-only(xl) {}
+@include media-breakpoint-only(xl) {
+    html {
+        font-size: $font-size-xl;
+    }
+}
