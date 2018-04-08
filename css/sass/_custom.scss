@@ -15,9 +15,23 @@ body {}
 // Header page
 div.header-page {
     padding: 0.9rem 0;
+
     .as-icon {
-        margin: 0.5rem 1rem;
+        margin: 0.3rem 1rem 0.5rem 1rem;
         padding: 0.5rem 0.65rem;
+    }
+}
+
+// Main nav
+div.main-nav {
+    font-size: 1.15rem;
+
+    ul.nav {
+        li.nav-item {
+            a.nav-link {
+
+            }
+        }
     }
 }
 
@@ -27,7 +41,9 @@ div.rrss-header-menu {
         li.nav-item {
             a.nav-link {
                 @include link($gray-300, $gray-400);
-                font-size: 1.25rem;
+                padding: 0.6rem 0.7rem;
+
+                font-size: 1rem;
             }
         }
     }
@@ -40,16 +56,22 @@ div.main-section {
 
 // Footer
 div.footer {
-    @include text($roboto, 0.875rem, 400, normal, $gray-500);
+    @include text($roboto, 0.875rem, 400, normal, $gray-500, center);
     padding: 2rem 0 3rem 0;
 
     a {
         @include link($gray-500, $gray-500);
     }
 
+    span.footer-copy {
+        display: block;
+    }
+
     span.as-icon {
-        margin: 0.5rem 0.8rem;
+        display: inline-block;
+        margin: 1rem 0.8rem 0.5rem 0.8rem;
         padding: 0.2rem 0.4rem;
+
         background-color: $gray-200;
         color: $white;
     }
