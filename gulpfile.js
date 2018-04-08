@@ -12,7 +12,6 @@ var gulp = require('gulp'),
 
 gulp.task('css:sass', function () {
     return gulp.src([
-            pkg.node_modules + 'font-awesome/css/font-awesome.css',
             pkg.css + 'sass/main.scss'
         ])
         .pipe(

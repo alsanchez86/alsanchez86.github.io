@@ -16,57 +16,106 @@
 <body>
     <div class="content">
         <div class="container">
-            <header>
-                <h1>
-                    <b>Ángel Sánchez</b> página personal.
-                </h1>
-            </header>
+            <div class="header-page">
+                <div class="row">
+                    <div class="col-md-8">
+                        <header>
+                            <!-- Main nav -->
+                            <nav>
+                                <!-- <ul class="nav flex-column"> -->
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link as-icon" href="/inicio">
+                                            AS
+                                        </a>
+                                    </li>
 
-            <h2>En construcción...</h2>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="/inicio">inicio</a>
+                                    </li>
 
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Launch demo modal
-            </button>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/skills">skills</a>
+                                    </li>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/portfolio">portfolio</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/blog">blog</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </header>
+                    </div>
+
+                    <div class="col-md-4">
+                        <!-- RRSS -->
+                        <div class="rrss-header-menu">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://github.com/alsanchez86" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mailto:sanchezpizarro86@gmail.com" target="_blank">
+                                        <i class="fas fa-envelope-square"></i>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.linkedin.com/in/sanchezpizarro/" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://twitter.com/_sanchezpizarro" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-secondary">Secondary</button>
-            <button type="button" class="btn btn-success">Success</button>
-            <button type="button" class="btn btn-danger">Danger</button>
-            <button type="button" class="btn btn-warning">Warning</button>
-            <button type="button" class="btn btn-info">Info</button>
-            <button type="button" class="btn btn-light">Light</button>
-            <button type="button" class="btn btn-dark">Dark</button>
+            <!-- Main section -->
+            <section>
+                <div class="main-section">
+                    <header>
+                        <h1 class="text-center">En construcción...</h1>
+                    </header>
 
+                    <p class="text-center">
+                        Email de contacto:
+                        <a href="mailto:sanchezpizarro86@gmail.com">sanchezpizarro.com</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Footer -->
             <footer>
-
+                <div class="footer">
+                    <p class="text-center">
+                        &copy;sanchezpizarro.com
+                        <br>
+                        <span class="as-icon">AS</span>
+                    </p>
+                </div>
             </footer>
         </div>
     </div>
 
+    <!-- Main js -->
     <!-- <script src="dist/js/main.min.js"></script> -->
     <script src="dist/js/main.js"></script>
+    <!-- Font awesome CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
