@@ -20,7 +20,13 @@ div.header-page {
     .as-icon {
         display: inline-block;
         margin: 0.3rem 1rem 0.5rem 1rem;
-        padding: 0.5rem 0.65rem;
+        padding: 0.65rem;
+
+        line-height: 100%;
+
+        span.fa-times-span {
+            display: none;
+        }
     }
 }
 
@@ -78,35 +84,81 @@ div.footer {
         font-size: $font-size-xs;
     }
 
+    // Main nav
     div.main-nav {
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        height: 100%;
         width: 100%;
-        opacity: 0.9;
 
         font-size: 3rem;
         text-align: center;
 
-        ul.nav {
-            flex-direction: column !important;
+        // open
+        &.main-nav-open {
+            height: 100%;
+            opacity: 0.9;
 
-            li.nav-item {
-                &.nav-item-branded {
-                    text-align: right;
+            ul.nav {
+                li.nav-item {
+                    display: block;
 
-                    a.as-icon {
-                        margin: 2rem 2rem 1.5rem 1rem;
-                        padding: 1.5rem 0.65rem;
+                    &.nav-item-branded {
+                        padding-bottom: 5rem;
 
-                        font-size: 3rem;
-                        font-weight: 300;
+                        a.as-icon {
+                            font-size: 4rem;
+                            color: $yellow;
+                            background-color: transparent;
+
+                            span.as-icon-span {
+                                display: none;
+                            }
+
+                            span.fa-times-span {
+                                display: block;
+                            }
+                        }
                     }
                 }
             }
         }
+
+        // closed
+        ul.nav {
+            flex-direction: column !important;
+
+            li.nav-item {
+                display: none;
+
+                &.nav-item-branded {
+                    display: block;
+                    text-align: right;
+
+                    a.as-icon {
+                        margin: 2rem 2rem 1.5rem 1rem;
+                        padding: 1rem;
+
+                        font-size: 2rem;
+                        font-weight: 300;
+
+                        span.as-icon-span {
+                            display: block;
+                        }
+
+                        span.fa-times-span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Main section
+    div.main-section {
+        padding-top: 12rem;
     }
 }
 
