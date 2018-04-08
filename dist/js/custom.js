@@ -26,23 +26,20 @@
 // });
 "use strict";
 
-console.log("main module");
+// Importar jquery cache
 
-// define(function (require, exports, module) {
-//     require(["require-config"], function () {
-//         require(["jquery", "popper"], function ($, popper) {
-//             window.Popper = popper; // hack for bootstrap
+(function () {
+    var nav_link_as_icon = $("#nav-link-as-icon");
+    var main_nav = $("#main-nav");
 
-//             debugger;
 
-//             require(["bootstrap"], function () {
-//                 debugger;
+    nav_link_as_icon.bind("click", function () {
+        $(this).data("is-open", !$(this).data("is-open"));
 
-//                 $(function () {
-//                     // jquery document ready
-//                     // domReady requirejs plugin is not neccesary here
-//                 });
-//             });
-//         });
-//     });
-// });
+        if ($(this).data("is-open")) {
+            main_nav.addClass("main-nav-open");
+        }else{
+            main_nav.removeClass("main-nav-open");
+        }
+    });
+})();
