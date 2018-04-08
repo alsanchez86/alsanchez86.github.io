@@ -115,7 +115,7 @@ $enable-print-styles:       true !default;
 // You can add more entries to the $spacers map, should you need more variation.
 
 // stylelint-disable
-$spacer: 1rem !default;
+$spacer: 2.25rem !default;
 $spacers: () !default;
 $spacers: map-merge((
   0: 0,
@@ -156,7 +156,7 @@ $link-hover-decoration:     none !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   $spacer !default;
 
 
 // Grid breakpoints
