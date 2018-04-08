@@ -6049,18 +6049,24 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 0.2rem; }
 
 div.header-page {
-  padding: 0.9rem 0; }
-  div.header-page .as-icon {
-    display: inline-block;
-    margin: 0.3rem 1rem 0.5rem 1rem;
-    padding: 0.65rem;
-    line-height: 100%; }
-    div.header-page .as-icon span.fa-times-span {
-      display: none; }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0.9rem 0;
+  background-color: #fff; }
 
 div.main-nav {
   font-size: 1.15rem;
   background-color: #fff; }
+  div.main-nav ul.nav li.nav-item a.nav-link.as-icon {
+    display: inline-block;
+    margin: 0.3rem 1rem 0.5rem 1rem;
+    padding: 0.65rem;
+    line-height: 100%; }
+    div.main-nav ul.nav li.nav-item a.nav-link.as-icon span.fa-times-span {
+      display: none; }
 
 div.rrss-header-menu ul.nav li.nav-item a.nav-link {
   color: #dee2e6;
@@ -6074,7 +6080,7 @@ div.rrss-header-menu ul.nav li.nav-item a.nav-link {
     background-color: transparent; }
 
 div.main-section {
-  padding: 5rem 0 3rem 0; }
+  padding: 7rem 0 3rem 0; }
 
 div.footer {
   font-family: "Roboto", sans-serif;
@@ -6108,45 +6114,42 @@ div.footer {
 @media (max-width: 575.98px) {
   html {
     font-size: 0.625rem; }
-  div.main-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    font-size: 3rem;
-    text-align: center; }
-    div.main-nav.main-nav-open {
+  div.header-page {
+    padding: 0; }
+    div.header-page.header-page-open {
       height: 100%;
       opacity: 0.9; }
-      div.main-nav.main-nav-open ul.nav li.nav-item {
+      div.header-page.header-page-open div.main-nav ul.nav li.nav-item {
         display: block; }
-        div.main-nav.main-nav-open ul.nav li.nav-item.nav-item-branded {
+        div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded {
           padding-bottom: 5rem; }
-          div.main-nav.main-nav-open ul.nav li.nav-item.nav-item-branded a.as-icon {
+          div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon {
             font-size: 4rem;
             color: #ffc107;
             background-color: transparent; }
-            div.main-nav.main-nav-open ul.nav li.nav-item.nav-item-branded a.as-icon span.as-icon-span {
+            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon span.as-icon-span {
               display: none; }
-            div.main-nav.main-nav-open ul.nav li.nav-item.nav-item-branded a.as-icon span.fa-times-span {
+            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon span.fa-times-span {
               display: block; }
-    div.main-nav ul.nav {
+    div.header-page div.main-nav ul.nav {
       flex-direction: column !important; }
-      div.main-nav ul.nav li.nav-item {
+      div.header-page div.main-nav ul.nav li.nav-item {
         display: none; }
-        div.main-nav ul.nav li.nav-item.nav-item-branded {
+        div.header-page div.main-nav ul.nav li.nav-item.nav-item-branded {
           display: block;
           text-align: right; }
-          div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon {
+          div.header-page div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon {
             margin: 2rem 2rem 1.5rem 1rem;
             padding: 1rem;
             font-size: 2rem;
             font-weight: 300; }
-            div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon span.as-icon-span {
+            div.header-page div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon span.as-icon-span {
               display: block; }
-            div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon span.fa-times-span {
+            div.header-page div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon span.fa-times-span {
               display: none; }
+  div.main-nav {
+    font-size: 3rem;
+    text-align: center; }
   div.main-section {
     padding-top: 10rem; } }
 

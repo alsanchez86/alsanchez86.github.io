@@ -42,20 +42,19 @@
 // });
 "use strict";
 
-// Importar jquery cache
+// Importar y usar jquery cache
 
 (function () {
     var nav_link_as_icon = $("#nav-link-as-icon");
-    var main_nav = $("#main-nav");
-
+    var header_page = $("#header-page");
 
     nav_link_as_icon.bind("click", function () {
         $(this).data("is-open", !$(this).data("is-open"));
 
         if ($(this).data("is-open")) {
-            main_nav.addClass("main-nav-open");
+            header_page.addClass("header-page-open");
         }else{
-            main_nav.removeClass("main-nav-open");
+            header_page.removeClass("header-page-open");
         }
     });
 })();
