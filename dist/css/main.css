@@ -6040,6 +6040,9 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
+.hidden {
+  overflow: hidden; }
+
 .as-icon {
   font-size: 0.8rem;
   font-weight: 400;
