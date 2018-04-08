@@ -18,6 +18,7 @@ body {}
 div.header-page {
     padding: 0.9rem 0;
     .as-icon {
+        display: inline-block;
         margin: 0.3rem 1rem 0.5rem 1rem;
         padding: 0.5rem 0.65rem;
     }
@@ -26,6 +27,7 @@ div.header-page {
 // Main nav
 div.main-nav {
     font-size: 1.15rem;
+    background-color: $white;
     ul.nav {
         li.nav-item {
             a.nav-link {}
@@ -38,7 +40,7 @@ div.rrss-header-menu {
     ul.nav {
         li.nav-item {
             a.nav-link {
-                @include link($gray-300, $gray-400);
+                @include link($gray-300, $gray-200);
                 padding: 0.6rem 0.7rem;
                 font-size: 1rem;
             }
@@ -74,6 +76,37 @@ div.footer {
 @include media-breakpoint-only(xs) {
     html {
         font-size: $font-size-xs;
+    }
+
+    div.main-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.9;
+
+        font-size: 3rem;
+        text-align: center;
+
+        ul.nav {
+            flex-direction: column !important;
+
+            li.nav-item {
+                &.nav-item-branded {
+                    text-align: right;
+
+                    a.as-icon {
+                        margin: 2rem 2rem 1.5rem 1rem;
+                        padding: 1.5rem 0.65rem;
+
+                        font-size: 3rem;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
     }
 }
 
