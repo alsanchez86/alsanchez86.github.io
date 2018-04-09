@@ -6164,12 +6164,12 @@ div.footer {
 
 @media (max-width: 575.98px) {
   html {
-    font-size: 0.625rem; }
+    font-size: 0.75rem; }
   div.header-page {
     padding: 0; }
     div.header-page.header-page-open {
       height: 100%;
-      opacity: 0.9; }
+      opacity: 0.93; }
       div.header-page.header-page-open div.main-nav ul.nav li.nav-item {
         display: block; }
         div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded {
@@ -6196,7 +6196,7 @@ div.footer {
           display: block;
           text-align: right; }
           div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon {
-            margin: 2rem 2rem 1.5rem 1rem;
+            margin: 1.5rem 2rem 1.5rem 1rem;
             padding: 1rem;
             font-size: 2rem;
             font-weight: 300; }

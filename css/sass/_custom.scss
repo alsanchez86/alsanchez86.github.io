@@ -101,7 +101,7 @@ div.footer {
         padding: 0; // open
         &.header-page-open {
             height: 100%;
-            opacity: 0.9;
+            opacity: 0.93;
             div.main-nav {
                 ul.nav {
                     li.nav-item {
@@ -144,7 +144,7 @@ div.footer {
                     text-align: right;
                     a.nav-link {
                         &.as-icon {
-                            margin: 2rem 2rem 1.5rem 1rem;
+                            margin: 1.5rem 2rem 1.5rem 1rem;
                             padding: 1rem;
                             font-size: 2rem;
                             font-weight: 300;
