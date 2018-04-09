@@ -66,9 +66,7 @@
 
         _page_hidden(is_loading);
 
-        if (is_loading) {
-            content.addClass("d-none");
-        } else {
+        if (!is_loading) {
             content.removeClass("d-none");
             spinner.addClass("d-none");
         }
@@ -85,8 +83,6 @@
             header_page.removeClass("header-page-open");
         }
     });
-
-    _page_loading(true);
 
     setTimeout(function () {
         _page_loading(false);
