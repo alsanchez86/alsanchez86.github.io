@@ -29,7 +29,7 @@
                                 <nav>
                                     <ul class="nav">
                                         <li class="nav-item nav-item-branded">
-                                            <a id="nav-link-as-times" class="nav-link as-icon nav-link-as-times" href="#">
+                                            <a id="nav-link-as-times" class="nav-link as-icon" href="#">
                                                 <span class="as-icon-span">AS</span>
                                                 <span class="fa-times-span">
                                                     <i class="fas fa-times"></i>
@@ -58,7 +58,7 @@
                         </header>
                     </div>
 
-                    <div class="col-12 col-sm-4 col-md-4">
+                    <div class="d-none d-sm-block col-sm-4 col-md-4">
                         <!-- RRSS -->
                         <div class="rrss-header-menu">
                             <ul class="nav">
@@ -113,7 +113,7 @@
                     </p>
 
                     <p>
-                        <img class="img-fluid mx-auto d-block" src="http://ximg.es/400x300/CCC/fff" alt="">
+                        <img class="img-fluid mx-auto d-block" src="http://ximg.es/400x300/AAA/fff" alt="">
                     </p>
 
                     <p>
@@ -124,21 +124,52 @@
                     </p>
                 </div>
             </section>
-
-            <!-- Footer -->
-            <footer>
-                <div class="footer">
-                    <span class="footer-copy">&copy;sanchezpizarro.com</span>
-                    <span class="as-icon">AS</span>
-                </div>
-            </footer>
         </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <span class="footer-copy d-none d-sm-block">&copy;sanchezpizarro.com</span>
+
+                    <!-- RRSS -->
+                    <div class="d-block d-sm-none rrss-header-menu">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/alsanchez86" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="mailto:sanchezpizarro86@gmail.com" target="_blank">
+                                    <i class="fas fa-envelope-square"></i>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.linkedin.com/in/sanchezpizarro/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://twitter.com/_sanchezpizarro" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
     <!-- Spinner init loader -->
-    <div id="spinner" class="spinner">
-        <div class="double-bounce1"></div>
-        <div class="double-bounce2"></div>
+    <div id="main-loader" class="main-loader">
+        <div class="ball-scale">
+            <div></div>
+        </div>
     </div>
 
     <!-- Main js -->

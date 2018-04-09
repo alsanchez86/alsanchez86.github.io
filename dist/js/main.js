@@ -62,13 +62,13 @@
 
     function _page_loading(is_loading) {
         var content = $("#content");
-        var spinner = $("#spinner");
+        var main_loader = $("#main-loader");
 
         _page_hidden(is_loading);
 
         if (!is_loading) {
             content.removeClass("d-none");
-            spinner.addClass("d-none");
+            main_loader.addClass("d-none");
         }
     }
 
@@ -86,5 +86,5 @@
 
     setTimeout(function () {
         _page_loading(false);
-    }, 1000);
+    }, 2000);
 })();
