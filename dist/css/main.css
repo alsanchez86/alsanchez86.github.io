@@ -6114,17 +6114,21 @@ div.main-nav {
     line-height: 100%; }
     div.main-nav ul.nav li.nav-item a.nav-link.as-icon span.fa-times-span {
       display: none; }
+  div.main-nav ul.nav li.nav-item a.nav-link.nav-link-as-times {
+    pointer-events: none; }
 
-div.rrss-header-menu ul.nav li.nav-item a.nav-link {
-  color: #dee2e6;
-  text-decoration: none;
-  background-color: transparent;
-  padding: 0.6rem 0.7rem;
-  font-size: 1rem; }
-  div.rrss-header-menu ul.nav li.nav-item a.nav-link:hover, div.rrss-header-menu ul.nav li.nav-item a.nav-link:focus, div.rrss-header-menu ul.nav li.nav-item a.nav-link.active, div.rrss-header-menu ul.nav li.nav-item a.nav-link:active {
-    color: #e9ecef;
+div.rrss-header-menu ul.nav {
+  justify-content: flex-end !important; }
+  div.rrss-header-menu ul.nav li.nav-item a.nav-link {
+    color: #dee2e6;
     text-decoration: none;
-    background-color: transparent; }
+    background-color: transparent;
+    padding: 0.6rem 0.7rem;
+    font-size: 1rem; }
+    div.rrss-header-menu ul.nav li.nav-item a.nav-link:hover, div.rrss-header-menu ul.nav li.nav-item a.nav-link:focus, div.rrss-header-menu ul.nav li.nav-item a.nav-link.active, div.rrss-header-menu ul.nav li.nav-item a.nav-link:active {
+      color: #e9ecef;
+      text-decoration: none;
+      background-color: transparent; }
 
 div.main-section {
   padding: 7rem 0 3rem 0; }
@@ -6170,34 +6174,53 @@ div.footer {
         display: block; }
         div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded {
           padding-bottom: 5rem; }
-          div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon {
+          div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon {
             padding: 0;
             font-size: 4rem;
             color: #ffc107;
             background-color: transparent; }
-            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon span.as-icon-span {
+            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon span.as-icon-span {
               display: none; }
-            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon span.fa-times-span {
+            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon span.fa-times-span {
               display: block; }
-    div.header-page div.main-nav ul.nav {
+      div.header-page.header-page-open div.rrss-header-menu {
+        display: block; }
+  div.main-nav {
+    font-size: 3rem;
+    text-align: center; }
+    div.main-nav ul.nav {
       flex-direction: column !important; }
-      div.header-page div.main-nav ul.nav li.nav-item {
+      div.main-nav ul.nav li.nav-item {
         display: none; }
-        div.header-page div.main-nav ul.nav li.nav-item.nav-item-branded {
+        div.main-nav ul.nav li.nav-item.nav-item-branded {
           display: block;
           text-align: right; }
-          div.header-page div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon {
+          div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon {
             margin: 2rem 2rem 1.5rem 1rem;
             padding: 1rem;
             font-size: 2rem;
             font-weight: 300; }
-            div.header-page div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon span.as-icon-span {
+            div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon span.as-icon-span {
               display: block; }
-            div.header-page div.main-nav ul.nav li.nav-item.nav-item-branded a.as-icon span.fa-times-span {
+            div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon span.fa-times-span {
               display: none; }
-  div.main-nav {
-    font-size: 3rem;
-    text-align: center; }
+          div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.nav-link-as-times {
+            pointer-events: auto; }
+  div.rrss-header-menu {
+    display: none; }
+    div.rrss-header-menu ul.nav {
+      margin-top: 3rem;
+      justify-content: center !important; }
+      div.rrss-header-menu ul.nav li.nav-item a.nav-link {
+        color: #7dadde;
+        text-decoration: none;
+        background-color: transparent;
+        padding: 0.6rem 2.2rem;
+        font-size: 3rem; }
+        div.rrss-header-menu ul.nav li.nav-item a.nav-link:hover, div.rrss-header-menu ul.nav li.nav-item a.nav-link:focus, div.rrss-header-menu ul.nav li.nav-item a.nav-link.active, div.rrss-header-menu ul.nav li.nav-item a.nav-link:active {
+          color: #7dadde;
+          text-decoration: none;
+          background-color: transparent; }
   div.main-section {
     padding-top: 10rem; } }
 

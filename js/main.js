@@ -5,7 +5,7 @@
 (function () {
     var body = $("body");
     var html = $("html");
-    var nav_link_as_icon = $("#nav-link-as-icon");
+    var nav_link_as_icon = $("#nav-link-as-times");
     var header_page = $("#header-page");
 
     function _page_hidden(is_hidden) {
@@ -44,5 +44,5 @@
 
     setTimeout(function () {
         _page_loading(false);
-    }, 2000);
+    }, 1000);
 })();
