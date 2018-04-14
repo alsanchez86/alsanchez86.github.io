@@ -1,7 +1,11 @@
 // All
-html {}
+html {
+    overflow: hidden;
+}
 
-body {}
+body {
+    overflow: hidden;
+}
 
 // Generic classes
 .hidden {
@@ -9,21 +13,31 @@ body {}
 }
 
 // Loader
+.main-loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 999;
+    background-color: $white;
+}
+
 .main-loader {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 60px;
-    height: 60px;
+    // width: 60px;
+    // height: 60px;
     -ms-transform: translate(-50%, -50%);
     /* IE 9 */
     -webkit-transform: translate(-50%, -50%);
     /* Safari */
     transform: translate(-50%, -50%);
     /* Standard syntax */
-    .ball-scale>div {
+    & > div > div {
         opacity: 0.8;
-        background-color: $azul_1;
+        background-color: $rojo_1;
     }
 }
 
@@ -83,7 +97,7 @@ div.rrss-header-menu {
             a.nav-link {
                 @include link($azul_3, $azul_3);
                 padding: 0.6rem 0.7rem;
-                font-size: 1rem;
+                font-size: 1.4rem;
             }
         }
     }
@@ -111,7 +125,7 @@ div.footer {
             li.nav-item {
                 a.nav-link {
                     @include link($white, $white);
-                    padding: 0.6rem 1.5rem;
+                    padding: 0.3rem 1.5rem;
                     font-size: 2rem;
                 }
             }
@@ -128,7 +142,7 @@ div.footer {
         padding: 0; // Open
         &.header-page-open {
             height: 100%;
-            opacity: 0.95;
+            opacity: 0.98;
             z-index: 999;
             div.main-nav {
                 ul.nav {
