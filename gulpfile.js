@@ -8,8 +8,10 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     runSequence = require('run-sequence'),
     fs = require('fs'),
+    gulpIncludeTemplate = require("gulp-include-template"),
     pkg = JSON.parse(fs.readFileSync('./package.json'));
 
+// Css taks
 gulp.task('css:sass', function () {
     return gulp.src([
             pkg.css + 'sass/main.scss'
@@ -45,6 +47,7 @@ gulp.task('css:min', function () {
         );
 });
 
+// Js tasks
 gulp.task('js:lib', function () {
     return gulp.src([
             // jquery
@@ -109,7 +112,16 @@ gulp.task('js:min', function () {
         );
 });
 
-// Tasks
+// Template base include
+gulpIncludeTemplate.config('base', 'partials');
+// Template tasks
+gulp.task("template:index", function () {
+    return gulp.src("./partials/index.html")
+        .pipe(gulpIncludeTemplate())
+        .pipe(gulp.dest("./"));
+});
+
+// Enviroment tasks
 gulp.task('watch', ['default'], function () {
     gulp.watch([
         pkg.css + 'sass/**/*.scss'
@@ -117,13 +129,13 @@ gulp.task('watch', ['default'], function () {
 });
 
 gulp.task('dev', [], function (done) {
-    runSequence('css:sass', 'js:lib', 'js:custom', 'js:concat', function () {
+    runSequence('css:sass', 'js:lib', 'js:custom', 'js:concat', 'template:index', function () {
         done();
     });
 });
 
 gulp.task('prod', [], function (done) {
-    runSequence('css:sass', 'css:min', 'js:lib', 'js:custom', 'js:concat', 'js:min', function () {
+    runSequence('css:sass', 'css:min', 'js:lib', 'js:custom', 'js:concat', 'js:min', 'template:index', function () {
         done();
     });
 });
