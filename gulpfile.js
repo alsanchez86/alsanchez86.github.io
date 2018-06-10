@@ -128,6 +128,20 @@ gulp.task('template:perfil', function() {
         .pipe(gulp.dest('./perfil'))
 });
 
+gulp.task('template:portfolio', function() {
+    gulp.src("./partials/portfolio/index.html")
+        .pipe(includeTemplate())
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('./portfolio'))
+});
+
+gulp.task('template:blog', function() {
+    gulp.src("./partials/blog/index.html")
+        .pipe(includeTemplate())
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('./blog'))
+});
+
 // Enviroment tasks
 gulp.task('watch', ['default'], function () {
     gulp.watch([
@@ -136,13 +150,13 @@ gulp.task('watch', ['default'], function () {
 });
 
 gulp.task('dev', [], function (done) {
-    runSequence('css:sass', 'js:lib', 'js:custom', 'js:concat', 'template:index', 'template:perfil', function () {
+    runSequence('css:sass', 'js:lib', 'js:custom', 'js:concat', 'template:index', 'template:perfil', 'template:portfolio', 'template:blog', function () {
         done();
     });
 });
 
 gulp.task('prod', [], function (done) {
-    runSequence('css:sass', 'css:min', 'js:lib', 'js:custom', 'js:concat', 'js:min', 'template:index', 'template:perfil', function () {
+    runSequence('css:sass', 'css:min', 'js:lib', 'js:custom', 'js:concat', 'js:min', 'template:index', 'template:perfil', 'template:portfolio', 'template:blog', function () {
         done();
     });
 });
