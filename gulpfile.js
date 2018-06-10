@@ -8,7 +8,8 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     runSequence = require('run-sequence'),
     fs = require('fs'),
-    gulpIncludeTemplate = require("gulp-include-template"),
+    includeTemplate = require('gulp-advanced-include-template'),
+    htmlmin = require('gulp-htmlmin'),
     pkg = JSON.parse(fs.readFileSync('./package.json'));
 
 // Css taks
@@ -112,31 +113,19 @@ gulp.task('js:min', function () {
         );
 });
 
-// Template base include
-gulpIncludeTemplate.config('base', 'partials');
 // Template tasks
-gulp.task("template:index", function () {
-    return gulp.src("./partials/index.html")
-        .pipe(gulpIncludeTemplate())
-        .pipe(gulp.dest("./"));
+gulp.task('template:index', function() {
+    gulp.src("./partials/index.html")
+        .pipe(includeTemplate())
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('./'))
 });
 
-gulp.task("template:perfil", function () {
-    return gulp.src("./partials/perfil/index.html")
-        .pipe(gulpIncludeTemplate())
-        .pipe(gulp.dest("./perfil"));
-});
-
-gulp.task("template:portfolio", function () {
-    return gulp.src("./partials/sections/portfolio.html")
-        .pipe(gulpIncludeTemplate())
-        .pipe(gulp.dest("./portfolio"));
-});
-
-gulp.task("template:blog", function () {
-    return gulp.src("./partials/sections/blog.html")
-        .pipe(gulpIncludeTemplate())
-        .pipe(gulp.dest("./blog"));
+gulp.task('template:perfil', function() {
+    gulp.src("./partials/perfil/index.html")
+        .pipe(includeTemplate())
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('./perfil'))
 });
 
 // Enviroment tasks
