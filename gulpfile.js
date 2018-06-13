@@ -1,18 +1,20 @@
 'use strict';
 
-var gulp = require('gulp'),
-    sass = require('gulp-sass'),
-    cleanCSS = require('gulp-clean-css'),
-    concat = require('gulp-concat'),
-    uglify = require('gulp-uglify'),
-    rename = require('gulp-rename'),
-    runSequence = require('run-sequence'),
-    fs = require('fs'),
-    includeTemplate = require('gulp-advanced-include-template'),
-    htmlmin = require('gulp-htmlmin'),
-    pkg = JSON.parse(fs.readFileSync('./package.json'));
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var cleanCSS = require('gulp-clean-css');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
+var runSequence = require('run-sequence');
+var fs = require('fs');
+var includeTemplate = require('gulp-advanced-include-template');
+var htmlmin = require('gulp-htmlmin');
+var pkg = JSON.parse(fs.readFileSync('./package.json'));
 
-// Css taks
+/*
+ * Css taks
+ */
 gulp.task('css:sass', function () {
     return gulp.src([
             pkg.css + 'sass/main.scss'
@@ -48,7 +50,9 @@ gulp.task('css:min', function () {
         );
 });
 
-// Js tasks
+/*
+ * Js tasks
+ */
 gulp.task('js:lib', function () {
     return gulp.src([
             // jquery
@@ -113,28 +117,31 @@ gulp.task('js:min', function () {
         );
 });
 
-// Template tasks
-gulp.task('template:index', function() {
-    gulp.src("./partials/index.html")
+/*
+ * Template tasks
+ */
+// inicio
+gulp.task('template:inicio', function() {
+    gulp.src("./partials/inicio/index.html")
         .pipe(includeTemplate())
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(gulp.dest('./'))
 });
-
+// perfil
 gulp.task('template:perfil', function() {
     gulp.src("./partials/perfil/index.html")
         .pipe(includeTemplate())
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(gulp.dest('./perfil'))
 });
-
+// portfolio
 gulp.task('template:portfolio', function() {
     gulp.src("./partials/portfolio/index.html")
         .pipe(includeTemplate())
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(gulp.dest('./portfolio'))
 });
-
+// blog
 gulp.task('template:blog', function() {
     gulp.src("./partials/blog/index.html")
         .pipe(includeTemplate())
@@ -142,23 +149,29 @@ gulp.task('template:blog', function() {
         .pipe(gulp.dest('./blog'))
 });
 
-// Enviroment tasks
+/*
+ * Enviroment tasks
+ */
+// dev
+gulp.task('dev', [], function (done) {
+    runSequence('css:sass', 'js:lib', 'js:custom', 'js:concat', 'template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', function () {
+        done();
+    });
+});
+// prod
+gulp.task('prod', [], function (done) {
+    runSequence('css:sass', 'css:min', 'js:lib', 'js:custom', 'js:concat', 'js:min', 'template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', function () {
+        done();
+    });
+});
+// default
+gulp.task('default', ["dev"]);
+
+/*
+ * Watchers
+ */
 gulp.task('watch', ['default'], function () {
     gulp.watch([
         pkg.css + 'sass/**/*.scss'
     ], ['default']);
 });
-
-gulp.task('dev', [], function (done) {
-    runSequence('css:sass', 'js:lib', 'js:custom', 'js:concat', 'template:index', 'template:perfil', 'template:portfolio', 'template:blog', function () {
-        done();
-    });
-});
-
-gulp.task('prod', [], function (done) {
-    runSequence('css:sass', 'css:min', 'js:lib', 'js:custom', 'js:concat', 'js:min', 'template:index', 'template:perfil', 'template:portfolio', 'template:blog', function () {
-        done();
-    });
-});
-
-gulp.task('default', ["dev"]);
