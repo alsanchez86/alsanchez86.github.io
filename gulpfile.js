@@ -152,15 +152,21 @@ gulp.task('template:blog', function() {
 /*
  * Enviroment tasks
  */
+// templates
+gulp.task('templates', [], function (done) {
+    runSequence('template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', function () {
+        done();
+    });
+});
 // dev
 gulp.task('dev', [], function (done) {
-    runSequence('css:sass', 'js:lib', 'js:custom', 'js:concat', 'template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', function () {
+    runSequence('css:sass', 'js:lib', 'js:custom', 'js:concat', 'templates', function () {
         done();
     });
 });
 // prod
 gulp.task('prod', [], function (done) {
-    runSequence('css:sass', 'css:min', 'js:lib', 'js:custom', 'js:concat', 'js:min', 'template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', function () {
+    runSequence('css:sass', 'css:min', 'js:lib', 'js:custom', 'js:concat', 'js:min', 'templates', function () {
         done();
     });
 });
