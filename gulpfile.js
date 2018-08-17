@@ -120,6 +120,13 @@ gulp.task('js:min', function () {
 /*
  * Template tasks
  */
+// 404
+gulp.task('template:404', function() {
+    gulp.src("./partials/404/index.html")
+        .pipe(includeTemplate())
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('./'))
+});
 // inicio
 gulp.task('template:inicio', function() {
     gulp.src("./partials/inicio/index.html")
