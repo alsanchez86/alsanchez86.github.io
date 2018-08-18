@@ -11013,7 +11013,7 @@ body {
     /* Standard syntax */ }
     .main-loader-container .main-loader > div > div {
       opacity: 0.8;
-      background-color: crimson; }
+      background-color: #55d7c4; }
 
 div.header-page {
   position: fixed;
@@ -11029,38 +11029,42 @@ div.main-nav {
   background-color: #fff; }
   div.main-nav ul.nav li.nav-item.nav-item-branded {
     display: none; }
-  div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon) {
-    color: #495057;
-    text-decoration: none;
-    background-color: transparent; }
-    div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon):hover, div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon):focus, div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon).active, div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon):active {
-      color: #343a40;
+  div.main-nav ul.nav li.nav-item a.nav-link {
+    padding: 0.5rem 1rem 0.2rem 1rem; }
+    div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon) {
+      color: #495057;
       text-decoration: none;
       background-color: transparent; }
-  div.main-nav ul.nav li.nav-item a.nav-link.menu-icon {
-    color: #7dadde;
-    text-decoration: none;
-    background-color: transparent;
-    display: inline-block;
-    margin: 0.3rem 1rem 0.5rem 1rem;
-    padding: 0.65rem;
-    line-height: 100%;
-    pointer-events: none; }
-    div.main-nav ul.nav li.nav-item a.nav-link.menu-icon:hover, div.main-nav ul.nav li.nav-item a.nav-link.menu-icon:focus, div.main-nav ul.nav li.nav-item a.nav-link.menu-icon.active, div.main-nav ul.nav li.nav-item a.nav-link.menu-icon:active {
-      color: #7dadde;
+      div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon):hover, div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon):focus, div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon).active, div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon):active {
+        color: #343a40;
+        text-decoration: none;
+        background-color: transparent; }
+    div.main-nav ul.nav li.nav-item a.nav-link.menu-icon {
+      color: #55d7c4;
       text-decoration: none;
-      background-color: transparent; }
+      background-color: transparent;
+      display: inline-block;
+      margin: 0.3rem 1rem 0.5rem 1rem;
+      padding: 0.65rem;
+      line-height: 100%;
+      pointer-events: none; }
+      div.main-nav ul.nav li.nav-item a.nav-link.menu-icon:hover, div.main-nav ul.nav li.nav-item a.nav-link.menu-icon:focus, div.main-nav ul.nav li.nav-item a.nav-link.menu-icon.active, div.main-nav ul.nav li.nav-item a.nav-link.menu-icon:active {
+        color: #55d7c4;
+        text-decoration: none;
+        background-color: transparent; }
+    div.main-nav ul.nav li.nav-item a.nav-link.active {
+      border-bottom: 0.1rem solid #55d7c4; }
 
 div.rrss-header-menu ul.nav {
   justify-content: flex-end !important; }
   div.rrss-header-menu ul.nav li.nav-item a.nav-link {
-    color: #8cbfec;
+    color: #55d7c4;
     text-decoration: none;
     background-color: transparent;
     padding: 0.6rem 0.7rem;
     font-size: 1.4rem; }
     div.rrss-header-menu ul.nav li.nav-item a.nav-link:hover, div.rrss-header-menu ul.nav li.nav-item a.nav-link:focus, div.rrss-header-menu ul.nav li.nav-item a.nav-link.active, div.rrss-header-menu ul.nav li.nav-item a.nav-link:active {
-      color: #8cbfec;
+      color: #55d7c4;
       text-decoration: none;
       background-color: transparent; }
 
@@ -11125,6 +11129,8 @@ div.footer {
               display: block; }
             div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon .fa-times {
               display: none; }
+        div.main-nav ul.nav li.nav-item a.nav-link.active {
+          border: 0; }
   div.header-page {
     padding: 0; }
     div.header-page.header-page-open {
@@ -11159,7 +11165,8 @@ div.footer {
     padding: 0;
     font-size: 1rem;
     color: #fff;
-    background-color: crimson; } }
+    background-color: #2c2c2c;
+    border-top: 0.2rem solid #55d7c4; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   html {

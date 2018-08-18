@@ -32,22 +32,12 @@ body {
         /* Safari */
         transform: translate(-50%, -50%);
         /* Standard syntax */
-        &>div>div {
+        & > div > div {
             opacity: 0.8;
-            background-color: $rojo_1;
+            background-color: $azul_1;
         }
     }
 }
-
-// Text
-// .fa-bars {
-//     font-size: 0.8rem;
-//     font-weight: 400;
-//     line-height: 1rem;
-//     color: $azul_2;
-//     background-color: $azul_1;
-//     border-radius: 0.2rem;
-// }
 
 // Header page
 div.header-page {
@@ -70,6 +60,8 @@ div.main-nav {
                 display: none;
             }
             a.nav-link {
+                padding: 0.5rem 1rem 0.2rem 1rem;
+
                 &:not(.menu-icon) {
                     @include link($gray-700, $gray-800);
                 }
@@ -82,6 +74,9 @@ div.main-nav {
                     line-height: 100%;
                     pointer-events: none;
                 }
+                &.active {
+                    border-bottom: 0.1rem solid $azul_1;
+                }
             }
         }
     }
@@ -93,7 +88,7 @@ div.rrss-header-menu {
         justify-content: flex-end !important;
         li.nav-item {
             a.nav-link {
-                @include link($azul_3, $azul_3);
+                @include link($azul_1, $azul_1);
                 padding: 0.6rem 0.7rem;
                 font-size: 1.4rem;
             }
@@ -161,6 +156,11 @@ div.footer {
                         }
                     }
                 }
+                a.nav-link {
+                    &.active {
+                        border: 0;
+                    }
+                }
             }
         }
     } // Header page
@@ -206,7 +206,8 @@ div.footer {
         padding: 0;
         font-size: 1rem;
         color: $white;
-        background-color: $rojo_1;
+        background-color: $negro_2;
+        border-top: 0.2rem solid $azul_1;
     }
 }
 
