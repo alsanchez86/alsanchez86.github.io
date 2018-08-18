@@ -58,7 +58,7 @@ $.fn.extend({
 (function () {
     var body = $("body");
     var html = $("html");
-    var nav_link_as_icon = $("#nav-link-as-times");
+    var nav_link_as_icon = $("#nav-link-menu-icon");
     var header_page = $("#header-page");
 
     function _page_overflow_hidden(is_hidden) {

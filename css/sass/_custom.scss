@@ -21,36 +21,33 @@ body {
     height: 100%;
     z-index: 999;
     background-color: $white;
-}
-
-.main-loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    // width: 60px;
-    // height: 60px;
-    -ms-transform: translate(-50%, -50%);
-    /* IE 9 */
-    -webkit-transform: translate(-50%, -50%);
-    /* Safari */
-    transform: translate(-50%, -50%);
-    /* Standard syntax */
-    & > div > div {
-        opacity: 0.8;
-        background-color: $rojo_1;
+    .main-loader {
+        position: absolute;
+        top: 50%;
+        left: 50%; // width: 60px;
+        // height: 60px;
+        -ms-transform: translate(-50%, -50%);
+        /* IE 9 */
+        -webkit-transform: translate(-50%, -50%);
+        /* Safari */
+        transform: translate(-50%, -50%);
+        /* Standard syntax */
+        &>div>div {
+            opacity: 0.8;
+            background-color: $rojo_1;
+        }
     }
 }
 
 // Text
-// AS icon
-.as-icon {
-    font-size: 0.8rem;
-    font-weight: 400;
-    line-height: 1rem;
-    color: $azul_2;
-    background-color: $azul_1;
-    border-radius: 0.2rem;
-}
+// .fa-bars {
+//     font-size: 0.8rem;
+//     font-weight: 400;
+//     line-height: 1rem;
+//     color: $azul_2;
+//     background-color: $azul_1;
+//     border-radius: 0.2rem;
+// }
 
 // Header page
 div.header-page {
@@ -69,20 +66,21 @@ div.main-nav {
     background-color: $white;
     ul.nav {
         li.nav-item {
+            &.nav-item-branded{
+                display: none;
+            }
             a.nav-link {
-                &:not(.as-icon) {
+                &:not(.menu-icon) {
                     @include link($gray-700, $gray-800);
                 }
-                &.as-icon {
-                    @include link($azul_2, $azul_2, none, none, $azul_1, $azul_1);
+                &.menu-icon {
+                    // @include link($azul_2, $azul_2, none, none, $azul_1, $azul_1);
+                    @include link($azul_1, $azul_1, none, none, transparent, transparent);
                     display: inline-block;
                     margin: 0.3rem 1rem 0.5rem 1rem;
                     padding: 0.65rem;
                     line-height: 100%;
                     pointer-events: none;
-                    span.fa-times-span {
-                        display: none;
-                    }
                 }
             }
         }
@@ -137,6 +135,34 @@ div.footer {
 @include media-breakpoint-only(xs) {
     html {
         font-size: $font-size-xs;
+    } // Main nav
+    div.main-nav {
+        font-size: 3rem;
+        text-align: center;
+        ul.nav {
+            flex-direction: column !important;
+            li.nav-item {
+                display: none;
+                &.nav-item-branded {
+                    display: block;
+                    text-align: right;
+                    a.nav-link {
+                        &.menu-icon {
+                            margin: 1.5rem;
+                            padding: 0.5rem;
+                            font-size: 2.5rem;
+                            pointer-events: auto;
+                            .fa-bars {
+                                display: block;
+                            }
+                            .fa-times {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     } // Header page
     div.header-page {
         padding: 0; // Open
@@ -151,45 +177,17 @@ div.footer {
                         &.nav-item-branded {
                             padding-bottom: 2rem;
                             a.nav-link {
-                                &.as-icon {
+                                &.menu-icon {
                                     @include link($rojo_1, $rojo_1, none, none, transparent, transparent);
                                     padding: 0;
                                     font-size: 4rem;
-                                    span.as-icon-span {
+                                    .fa-bars {
                                         display: none;
                                     }
-                                    span.fa-times-span {
+                                    .fa-times {
                                         display: block;
                                     }
                                 }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    } // Main nav
-    div.main-nav {
-        font-size: 3rem;
-        text-align: center;
-        ul.nav {
-            flex-direction: column !important;
-            li.nav-item {
-                display: none;
-                &.nav-item-branded {
-                    display: block;
-                    text-align: right;
-                    a.nav-link {
-                        &.as-icon {
-                            margin: 1.5rem;
-                            padding: 1rem;
-                            font-size: 1.5rem;
-                            pointer-events: auto;
-                            span.as-icon-span {
-                                display: block;
-                            }
-                            span.fa-times-span {
-                                display: none;
                             }
                         }
                     }
@@ -215,12 +213,18 @@ div.footer {
 @include media-breakpoint-only(sm) {
     html {
         font-size: $font-size-sm;
+    } // Main section
+    div.main-section {
+        padding: 7rem 0 3rem 0;
     }
 }
 
 @include media-breakpoint-only(md) {
     html {
         font-size: $font-size-md;
+    } // Main section
+    div.main-section {
+        padding: 7rem 0 3rem 0;
     }
 }
 

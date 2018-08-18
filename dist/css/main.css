@@ -11001,28 +11001,19 @@ body {
   height: 100%;
   z-index: 999;
   background-color: #fff; }
-
-.main-loader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  /* IE 9 */
-  -webkit-transform: translate(-50%, -50%);
-  /* Safari */
-  transform: translate(-50%, -50%);
-  /* Standard syntax */ }
-  .main-loader > div > div {
-    opacity: 0.8;
-    background-color: crimson; }
-
-.as-icon {
-  font-size: 0.8rem;
-  font-weight: 400;
-  line-height: 1rem;
-  color: aliceblue;
-  background-color: #7dadde;
-  border-radius: 0.2rem; }
+  .main-loader-container .main-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    /* IE 9 */
+    -webkit-transform: translate(-50%, -50%);
+    /* Safari */
+    transform: translate(-50%, -50%);
+    /* Standard syntax */ }
+    .main-loader-container .main-loader > div > div {
+      opacity: 0.8;
+      background-color: crimson; }
 
 div.header-page {
   position: fixed;
@@ -11036,29 +11027,29 @@ div.header-page {
 div.main-nav {
   font-size: 1.15rem;
   background-color: #fff; }
-  div.main-nav ul.nav li.nav-item a.nav-link:not(.as-icon) {
+  div.main-nav ul.nav li.nav-item.nav-item-branded {
+    display: none; }
+  div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon) {
     color: #495057;
     text-decoration: none;
     background-color: transparent; }
-    div.main-nav ul.nav li.nav-item a.nav-link:not(.as-icon):hover, div.main-nav ul.nav li.nav-item a.nav-link:not(.as-icon):focus, div.main-nav ul.nav li.nav-item a.nav-link:not(.as-icon).active, div.main-nav ul.nav li.nav-item a.nav-link:not(.as-icon):active {
+    div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon):hover, div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon):focus, div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon).active, div.main-nav ul.nav li.nav-item a.nav-link:not(.menu-icon):active {
       color: #343a40;
       text-decoration: none;
       background-color: transparent; }
-  div.main-nav ul.nav li.nav-item a.nav-link.as-icon {
-    color: aliceblue;
+  div.main-nav ul.nav li.nav-item a.nav-link.menu-icon {
+    color: #7dadde;
     text-decoration: none;
-    background-color: #7dadde;
+    background-color: transparent;
     display: inline-block;
     margin: 0.3rem 1rem 0.5rem 1rem;
     padding: 0.65rem;
     line-height: 100%;
     pointer-events: none; }
-    div.main-nav ul.nav li.nav-item a.nav-link.as-icon:hover, div.main-nav ul.nav li.nav-item a.nav-link.as-icon:focus, div.main-nav ul.nav li.nav-item a.nav-link.as-icon.active, div.main-nav ul.nav li.nav-item a.nav-link.as-icon:active {
-      color: aliceblue;
+    div.main-nav ul.nav li.nav-item a.nav-link.menu-icon:hover, div.main-nav ul.nav li.nav-item a.nav-link.menu-icon:focus, div.main-nav ul.nav li.nav-item a.nav-link.menu-icon.active, div.main-nav ul.nav li.nav-item a.nav-link.menu-icon:active {
+      color: #7dadde;
       text-decoration: none;
-      background-color: #7dadde; }
-    div.main-nav ul.nav li.nav-item a.nav-link.as-icon span.fa-times-span {
-      display: none; }
+      background-color: transparent; }
 
 div.rrss-header-menu ul.nav {
   justify-content: flex-end !important; }
@@ -11115,30 +11106,6 @@ div.footer {
 @media (max-width: 575.98px) {
   html {
     font-size: 0.75rem; }
-  div.header-page {
-    padding: 0; }
-    div.header-page.header-page-open {
-      height: 100%;
-      opacity: 0.98;
-      z-index: 999; }
-      div.header-page.header-page-open div.main-nav ul.nav li.nav-item {
-        display: block; }
-        div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded {
-          padding-bottom: 2rem; }
-          div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon {
-            color: crimson;
-            text-decoration: none;
-            background-color: transparent;
-            padding: 0;
-            font-size: 4rem; }
-            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon:hover, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon:focus, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon.active, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon:active {
-              color: crimson;
-              text-decoration: none;
-              background-color: transparent; }
-            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon span.as-icon-span {
-              display: none; }
-            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon span.fa-times-span {
-              display: block; }
   div.main-nav {
     font-size: 3rem;
     text-align: center; }
@@ -11149,15 +11116,39 @@ div.footer {
         div.main-nav ul.nav li.nav-item.nav-item-branded {
           display: block;
           text-align: right; }
-          div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon {
+          div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon {
             margin: 1.5rem;
-            padding: 1rem;
-            font-size: 1.5rem;
+            padding: 0.5rem;
+            font-size: 2.5rem;
             pointer-events: auto; }
-            div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon span.as-icon-span {
+            div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon .fa-bars {
               display: block; }
-            div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.as-icon span.fa-times-span {
+            div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon .fa-times {
               display: none; }
+  div.header-page {
+    padding: 0; }
+    div.header-page.header-page-open {
+      height: 100%;
+      opacity: 0.98;
+      z-index: 999; }
+      div.header-page.header-page-open div.main-nav ul.nav li.nav-item {
+        display: block; }
+        div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded {
+          padding-bottom: 2rem; }
+          div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon {
+            color: crimson;
+            text-decoration: none;
+            background-color: transparent;
+            padding: 0;
+            font-size: 4rem; }
+            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon:hover, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon:focus, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon.active, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon:active {
+              color: crimson;
+              text-decoration: none;
+              background-color: transparent; }
+            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon .fa-bars {
+              display: none; }
+            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon .fa-times {
+              display: block; }
   div.main-section {
     padding: 9rem 0 3rem 0; }
   div.footer {
@@ -11172,11 +11163,15 @@ div.footer {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   html {
-    font-size: 0.84375rem; } }
+    font-size: 0.84375rem; }
+  div.main-section {
+    padding: 7rem 0 3rem 0; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   html {
-    font-size: 0.90625rem; } }
+    font-size: 0.90625rem; }
+  div.main-section {
+    padding: 7rem 0 3rem 0; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   html {
