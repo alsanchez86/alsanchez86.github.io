@@ -32,7 +32,7 @@ body {
         /* Safari */
         transform: translate(-50%, -50%);
         /* Standard syntax */
-        & > div > div {
+        &>div>div {
             opacity: 0.8;
             background-color: $azul_1;
         }
@@ -56,12 +56,11 @@ div.main-nav {
     background-color: $white;
     ul.nav {
         li.nav-item {
-            &.nav-item-branded{
+            &.nav-item-branded {
                 display: none;
             }
             a.nav-link {
                 padding: 0.5rem 1rem 0.2rem 1rem;
-
                 &:not(.menu-icon) {
                     @include link($gray-700, $gray-800);
                 }
@@ -96,6 +95,15 @@ div.rrss-header-menu {
     }
 }
 
+// Button modal contact
+button.btn-contact-modal {
+    @include text($noto, 0.7rem, 700, normal, $blanco_1, center, uppercase);
+    @include btn($blanco_1, $blanco_1, $rojo_2, $rojo_2);
+    margin-top: 0.1rem;
+    padding: 0.8rem;
+    border: 0;
+}
+
 // Main section
 div.main-section {
     padding: 7rem 7rem 3rem 7rem;
@@ -103,14 +111,12 @@ div.main-section {
 
 // Footer
 div.footer {
-    @include text($roboto, 0.875rem, 400, normal, $gray-700, center);
-    padding: 2rem 0 2rem 0;
-    background-color: $white;
+    @include text($roboto, 1rem, 400, normal, $white, center);
+    padding: 0.8rem 0;
+    background-color: $negro_2;
+    border-top: 0.2rem solid $azul_1;
     a {
-        @include link($gray-700, $gray-700);
-    }
-    span.footer-copy {
-        display: block;
+        @include link($white, $white);
     }
     div.rrss-header-menu {
         ul.nav {
@@ -118,11 +124,17 @@ div.footer {
             li.nav-item {
                 a.nav-link {
                     @include link($white, $white);
-                    padding: 0.3rem 1.5rem;
-                    font-size: 2rem;
+                    padding: 0.6rem 1.1rem 0.3rem 1.1rem;
+                    font-size: 1.8rem;
                 }
             }
         }
+    }
+    button.btn-contact-modal {
+        @include btn($blanco_1, $blanco_1, $azul_1, $azul_1);
+        margin: 0;
+        margin-top: 0.4rem;
+        font-size: 1rem;
     }
 }
 
@@ -135,6 +147,7 @@ div.footer {
         font-size: 3rem;
         text-align: center;
         ul.nav {
+            justify-content: center !important;
             flex-direction: column !important;
             li.nav-item {
                 display: none;
@@ -178,7 +191,7 @@ div.footer {
                             padding-bottom: 2rem;
                             a.nav-link {
                                 &.menu-icon {
-                                    @include link($rojo_1, $rojo_1, none, none, transparent, transparent);
+                                    @include link($azul_1, $azul_1, none, none, transparent, transparent);
                                     padding: 0;
                                     font-size: 3rem;
                                     .fa-bars {
@@ -203,17 +216,17 @@ div.footer {
         bottom: 0;
         left: 0;
         right: 0;
-        padding: 0;
-        font-size: 1rem;
-        color: $white;
-        background-color: $negro_2;
-        border-top: 0.2rem solid $azul_1;
     }
 }
 
 @include media-breakpoint-only(sm) {
     html {
         font-size: $font-size-sm;
+    }
+    div.main-nav {
+        ul.nav {
+            justify-content: center !important;
+        }
     } // Main section
     div.main-section {
         padding: 7rem 0 3rem 0;

@@ -11109,44 +11109,76 @@ div.rrss-header-menu ul.nav {
       text-decoration: none;
       background-color: transparent; }
 
+button.btn-contact-modal {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.625;
+  color: #FFF;
+  background-color: #d4939d;
+  margin-top: 0.1rem;
+  padding: 0.8rem;
+  border: 0; }
+  button.btn-contact-modal small {
+    font-size: 80%; }
+  button.btn-contact-modal:hover, button.btn-contact-modal:focus, button.btn-contact-modal.active, button.btn-contact-modal:active {
+    color: #FFF;
+    background-color: #d4939d; }
+  button.btn-contact-modal::before, button.btn-contact-modal::after {
+    border-color: #FFF; }
+
 div.main-section {
   padding: 7rem 7rem 3rem 7rem; }
 
 div.footer {
   font-family: "Roboto", sans-serif;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 400;
   font-style: normal;
-  color: #495057;
+  color: #fff;
   text-align: center;
   text-transform: none;
   line-height: 1.625;
-  padding: 2rem 0 2rem 0;
-  background-color: #fff; }
+  padding: 0.8rem 0;
+  background-color: #2c2c2c;
+  border-top: 0.2rem solid #55d7c4; }
   div.footer small {
     font-size: 80%; }
   div.footer a {
-    color: #495057;
+    color: #fff;
     text-decoration: none;
     background-color: transparent; }
     div.footer a:hover, div.footer a:focus, div.footer a.active, div.footer a:active {
-      color: #495057;
+      color: #fff;
       text-decoration: none;
       background-color: transparent; }
-  div.footer span.footer-copy {
-    display: block; }
   div.footer div.rrss-header-menu ul.nav {
     justify-content: center !important; }
     div.footer div.rrss-header-menu ul.nav li.nav-item a.nav-link {
       color: #fff;
       text-decoration: none;
       background-color: transparent;
-      padding: 0.3rem 1.5rem;
-      font-size: 2rem; }
+      padding: 0.6rem 1.1rem 0.3rem 1.1rem;
+      font-size: 1.8rem; }
       div.footer div.rrss-header-menu ul.nav li.nav-item a.nav-link:hover, div.footer div.rrss-header-menu ul.nav li.nav-item a.nav-link:focus, div.footer div.rrss-header-menu ul.nav li.nav-item a.nav-link.active, div.footer div.rrss-header-menu ul.nav li.nav-item a.nav-link:active {
         color: #fff;
         text-decoration: none;
         background-color: transparent; }
+  div.footer button.btn-contact-modal {
+    color: #FFF;
+    background-color: #55d7c4;
+    margin: 0;
+    margin-top: 0.4rem;
+    font-size: 1rem; }
+    div.footer button.btn-contact-modal:hover, div.footer button.btn-contact-modal:focus, div.footer button.btn-contact-modal.active, div.footer button.btn-contact-modal:active {
+      color: #FFF;
+      background-color: #55d7c4; }
+    div.footer button.btn-contact-modal::before, div.footer button.btn-contact-modal::after {
+      border-color: #FFF; }
 
 @media (max-width: 575.98px) {
   html {
@@ -11155,6 +11187,7 @@ div.footer {
     font-size: 3rem;
     text-align: center; }
     div.main-nav ul.nav {
+      justify-content: center !important;
       flex-direction: column !important; }
       div.main-nav ul.nav li.nav-item {
         display: none; }
@@ -11183,13 +11216,13 @@ div.footer {
         div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded {
           padding-bottom: 2rem; }
           div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon {
-            color: crimson;
+            color: #55d7c4;
             text-decoration: none;
             background-color: transparent;
             padding: 0;
             font-size: 3rem; }
             div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon:hover, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon:focus, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon.active, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon:active {
-              color: crimson;
+              color: #55d7c4;
               text-decoration: none;
               background-color: transparent; }
             div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.nav-link.menu-icon .fa-bars {
@@ -11202,16 +11235,13 @@ div.footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    right: 0;
-    padding: 0;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #2c2c2c;
-    border-top: 0.2rem solid #55d7c4; } }
+    right: 0; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   html {
     font-size: 0.84375rem; }
+  div.main-nav ul.nav {
+    justify-content: center !important; }
   div.main-section {
     padding: 7rem 0 3rem 0; } }
 
