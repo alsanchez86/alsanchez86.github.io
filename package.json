@@ -6,8 +6,9 @@
         "type": "git",
         "url": "https://github.com/alsanchez86/alsanchez86.github.io.git"
     },
-    "css": "./css/",
+    "scss": "./scss/",
     "js": "./js/",
+    "lib": "./lib/",
     "node_modules": "./node_modules/",
     "bower_components": "./bower_components/",
     "dist": "./dist/",

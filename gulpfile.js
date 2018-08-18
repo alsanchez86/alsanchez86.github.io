@@ -15,9 +15,9 @@ var pkg = JSON.parse(fs.readFileSync('./package.json'));
 /*
  * Css taks
  */
-gulp.task('css:sass', function () {
+gulp.task('css:scss', function () {
     return gulp.src([
-            pkg.css + 'sass/main.scss'
+            pkg.scss + 'main.scss'
         ])
         .pipe(
             sass.sync()
@@ -60,7 +60,11 @@ gulp.task('js:lib', function () {
             // popper
             pkg.node_modules + 'popper.js/dist/umd/popper.min.js',
             // bootstrap
-            pkg.node_modules + 'bootstrap/dist/js/bootstrap.min.js'
+            pkg.node_modules + 'bootstrap/dist/js/bootstrap.min.js',
+            // transition for zoom out zoom.js
+            pkg.lib + 'transition.js',
+            // zoom.js
+            pkg.lib + 'zoom.js/js/zoom.js'            
         ])
         .pipe(
             concat("lib.js")
@@ -72,7 +76,8 @@ gulp.task('js:lib', function () {
 
 gulp.task('js:custom', function () {
     return gulp.src([
-            pkg.js + 'lib/jquery_cache.js',
+        // jquery cache
+            pkg.js + 'jquery_cache.js',
             pkg.js + 'main.js'
         ])
         .pipe(
@@ -167,13 +172,13 @@ gulp.task('templates', [], function (done) {
 });
 // dev
 gulp.task('dev', [], function (done) {
-    runSequence('css:sass', 'js:lib', 'js:custom', 'js:concat', 'templates', function () {
+    runSequence('css:scss', 'js:lib', 'js:custom', 'js:concat', 'templates', function () {
         done();
     });
 });
 // prod
 gulp.task('prod', [], function (done) {
-    runSequence('css:sass', 'css:min', 'js:lib', 'js:custom', 'js:concat', 'js:min', 'templates', function () {
+    runSequence('css:scss', 'css:min', 'js:lib', 'js:custom', 'js:concat', 'js:min', 'templates', function () {
         done();
     });
 });
@@ -185,6 +190,6 @@ gulp.task('default', ["dev"]);
  */
 gulp.task('watch', ['default'], function () {
     gulp.watch([
-        pkg.css + 'sass/**/*.scss'
+        pkg.scss + '**/*.scss'
     ], ['default']);
 });
