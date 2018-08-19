@@ -160,13 +160,20 @@ gulp.task('template:blog', function() {
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(gulp.dest('./blog'))
 });
+// contacto
+gulp.task('template:contacto', function() {
+    gulp.src("./partials/contacto/index.html")
+        .pipe(includeTemplate())
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('./contacto'))
+});
 
 /*
  * Enviroment tasks
  */
 // templates
 gulp.task('templates', [], function (done) {
-    runSequence('template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', function () {
+    runSequence('template:404', 'template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', 'template:contacto', function () {
         done();
     });
 });
