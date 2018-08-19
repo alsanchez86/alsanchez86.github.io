@@ -11145,7 +11145,7 @@ div.footer {
         div.header-page.header-page-open div.main-nav ul.nav li.nav-item {
           display: block; }
           div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded {
-            padding-bottom: 2rem; }
+            padding-bottom: 0; }
             div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
               padding: 0;
               font-size: 3rem; }
