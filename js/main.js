@@ -52,7 +52,7 @@ $.fn.extend({
         if (!is_loading) {
             // content.removeClass("d-none");
             // main_loader.addClass("fadeOut animated");
-            main_loader.animateCss('fadeOut', function () {
+            main_loader.animateCss("fadeOut", function () {
                 main_loader.remove();
                 _page_overflow_hidden(false);
             });
@@ -65,7 +65,7 @@ $.fn.extend({
         _page_overflow_hidden($(this).data("is-open"));
 
         if ($(this).data("is-open")) {
-            header_page.addClass("header-page-open");
+            header_page.addClass("header-page-open").animateCss("fadeInDown faster");
         } else {
             header_page.removeClass("header-page-open");
         }

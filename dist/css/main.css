@@ -11139,7 +11139,8 @@ div.footer {
     div.header-page.header-page-open {
       height: 100%;
       opacity: 0.98;
-      z-index: 999; }
+      z-index: 999;
+      border-bottom: 0; }
       div.header-page.header-page-open div.main-nav {
         font-size: 3.5rem; }
         div.header-page.header-page-open div.main-nav ul.nav li.nav-item {
