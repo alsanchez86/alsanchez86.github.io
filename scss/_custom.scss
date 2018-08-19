@@ -19,7 +19,7 @@ div.header-page {
     left: 0;
     right: 0;
     width: 100%;
-    padding: 0.9rem 0;
+    // padding: 0.9rem 0;
     background-color: $negro_2;
     border-bottom: 4px solid $azul_1;
 }
@@ -43,8 +43,8 @@ div.main-nav {
                 }
             }
             a.nav-link {
-                @include link($white, $azul_1);
-                padding: 0.5rem 1rem 0.2rem 1rem;
+                @include link($white, $white, none, none, transparent, $azul_2);
+                padding: 0.9rem 1rem 0.9rem 1rem;
             }
         }
     }
@@ -149,6 +149,9 @@ div.footer {
                             display: none;
                         }
                     }
+                }
+                a.nav-link {
+                    @include link($white, $azul_1, none, none, transparent, transparent);
                 }
             }
         }

@@ -11040,7 +11040,6 @@ div.header-page {
   left: 0;
   right: 0;
   width: 100%;
-  padding: 0.9rem 0;
   background-color: #2c2c2c;
   border-bottom: 4px solid #55d7c4; }
 
@@ -11067,11 +11066,11 @@ div.main-nav {
     color: #fff;
     text-decoration: none;
     background-color: transparent;
-    padding: 0.5rem 1rem 0.2rem 1rem; }
+    padding: 0.9rem 1rem 0.9rem 1rem; }
     div.main-nav ul.nav li.nav-item a.nav-link:hover, div.main-nav ul.nav li.nav-item a.nav-link:focus, div.main-nav ul.nav li.nav-item a.nav-link.active, div.main-nav ul.nav li.nav-item a.nav-link:active {
-      color: #55d7c4;
+      color: #fff;
       text-decoration: none;
-      background-color: transparent; }
+      background-color: #55d7c480; }
 
 div.main-section {
   padding: 7rem 7rem 3rem 7rem; }
@@ -11127,6 +11126,14 @@ div.footer {
               display: block; }
             div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon .fa-times {
               display: none; }
+        div.main-nav ul.nav li.nav-item a.nav-link {
+          color: #fff;
+          text-decoration: none;
+          background-color: transparent; }
+          div.main-nav ul.nav li.nav-item a.nav-link:hover, div.main-nav ul.nav li.nav-item a.nav-link:focus, div.main-nav ul.nav li.nav-item a.nav-link.active, div.main-nav ul.nav li.nav-item a.nav-link:active {
+            color: #55d7c4;
+            text-decoration: none;
+            background-color: transparent; }
   div.header-page {
     padding: 0; }
     div.header-page.header-page-open {
