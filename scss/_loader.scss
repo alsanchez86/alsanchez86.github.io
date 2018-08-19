@@ -1,0 +1,26 @@
+// Loader
+.main-loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 999;
+    background-color: $white;
+    .main-loader {
+        position: absolute;
+        top: 50%;
+        left: 50%; // width: 60px;
+        // height: 60px;
+        -ms-transform: translate(-50%, -50%);
+        /* IE 9 */
+        -webkit-transform: translate(-50%, -50%);
+        /* Safari */
+        transform: translate(-50%, -50%);
+        /* Standard syntax */
+        &>div>div {
+            opacity: 0.8;
+            background-color: $azul_1;
+        }
+    }
+}

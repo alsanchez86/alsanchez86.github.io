@@ -12,33 +12,6 @@ body {
     overflow: hidden;
 }
 
-// Loader
-.main-loader-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    z-index: 999;
-    background-color: $white;
-    .main-loader {
-        position: absolute;
-        top: 50%;
-        left: 50%; // width: 60px;
-        // height: 60px;
-        -ms-transform: translate(-50%, -50%);
-        /* IE 9 */
-        -webkit-transform: translate(-50%, -50%);
-        /* Safari */
-        transform: translate(-50%, -50%);
-        /* Standard syntax */
-        &>div>div {
-            opacity: 0.8;
-            background-color: $azul_1;
-        }
-    }
-}
-
 // Header page
 div.header-page {
     position: fixed;
@@ -47,62 +20,58 @@ div.header-page {
     right: 0;
     width: 100%;
     padding: 0.9rem 0;
-    background-color: $white;
+    background-color: $negro_2;
+    border-bottom: 4px solid $azul_1;
 }
 
 // Main nav
 div.main-nav {
-    font-size: 1.15rem;
-    background-color: $white;
+    font-size: 1.2rem;
     ul.nav {
         li.nav-item {
             &.nav-item-branded {
                 display: none;
-            }
-            a.nav-link {
-                padding: 0.5rem 1rem 0.2rem 1rem;
-                &:not(.menu-icon) {
-                    @include link($gray-700, $gray-800);
-                }
-                &.menu-icon {
-                    // @include link($azul_2, $azul_2, none, none, $azul_1, $azul_1);
+                text-align: right;
+                a.menu-icon {
                     @include link($azul_1, $azul_1, none, none, transparent, transparent);
                     display: inline-block;
-                    margin: 0.3rem 1rem 0.5rem 1rem;
-                    padding: 0.65rem;
+                    margin: 1.5rem 1rem 0 1rem;
+                    padding: 0.5rem;
+                    font-size: 2.5rem;
                     line-height: 100%;
-                    pointer-events: none;
+                    pointer-events: auto;
                 }
-                &.active {
-                    border-bottom: 0.1rem solid $azul_1;
-                }
+            }
+            a.nav-link {
+                @include link($white, $azul_1);
+                padding: 0.5rem 1rem 0.2rem 1rem;
             }
         }
     }
 }
 
 // RRSS header menu
-div.rrss-header-menu {
-    ul.nav {
-        justify-content: flex-end !important;
-        li.nav-item {
-            a.nav-link {
-                @include link($azul_1, $azul_1);
-                padding: 0.6rem 0.7rem;
-                font-size: 1.4rem;
-            }
-        }
-    }
-}
+// div.rrss-header-menu {
+//     ul.nav {
+//         justify-content: flex-end !important;
+//         li.nav-item {
+//             a.nav-link {
+//                 @include link($azul_1, $azul_1);
+//                 padding: 0.6rem 0.7rem;
+//                 font-size: 1.4rem;
+//             }
+//         }
+//     }
+// }
 
 // Button modal contact
-button.btn-contact-modal {
-    @include text($noto, 0.7rem, 700, normal, $blanco_1, center, uppercase);
-    @include btn($blanco_1, $blanco_1, $rojo_2, $rojo_2);
-    margin-top: 0.1rem;
-    padding: 0.8rem;
-    border: 0;
-}
+// button.btn-contact-modal {
+//     @include text($noto, 0.7rem, 700, normal, $blanco_1, center, uppercase);
+//     @include btn($blanco_1, $blanco_1, $rojo_2, $rojo_2);
+//     margin-top: 0.1rem;
+//     padding: 0.8rem;
+//     border: 0;
+// }
 
 // Main section
 div.main-section {
@@ -111,31 +80,50 @@ div.main-section {
 
 // Footer
 div.footer {
-    @include text($roboto, 1rem, 400, normal, $white, center);
+    @include text($noto, 1rem, 400, normal, $gray-500, center);
     padding: 0.8rem 0;
-    background-color: $negro_2;
-    border-top: 0.2rem solid $azul_1;
-    a {
-        @include link($white, $white);
+    background-color: $blanco_2;
+
+    p{
+        margin-bottom: $spacer / 2;
     }
-    div.rrss-header-menu {
-        ul.nav {
-            justify-content: center !important;
-            li.nav-item {
-                a.nav-link {
-                    @include link($white, $white);
-                    padding: 0.6rem 1.1rem 0.3rem 1.1rem;
-                    font-size: 1.8rem;
-                }
+
+    a {
+        @include link($gray-500, $gray-500, none, none);
+    }
+
+    ul.nav {
+        li.nav-item {
+            a.nav-link {
+                @include link($gray-500, $gray-600, none, none);
+                font-size: 1.5rem;
             }
         }
     }
-    button.btn-contact-modal {
-        @include btn($blanco_1, $blanco_1, $azul_1, $azul_1);
-        margin: 0;
-        margin-top: 0.4rem;
-        font-size: 1rem;
-    }
+
+    // background-color: $negro_2;
+    // border-top: 0.2rem solid $azul_1;
+    // a {
+    //     @include link($white, $white);
+    // }
+    // div.rrss-header-menu {
+    //     ul.nav {
+    //         justify-content: center !important;
+    //         li.nav-item {
+    //             a.nav-link {
+    //                 @include link($white, $white);
+    //                 padding: 0.6rem 1.1rem 0.3rem 1.1rem;
+    //                 font-size: 1.8rem;
+    //             }
+    //         }
+    //     }
+    // }
+    // button.btn-contact-modal {
+    //     @include btn($blanco_1, $blanco_1, $azul_1, $azul_1);
+    //     margin: 0;
+    //     margin-top: 0.4rem;
+    //     font-size: 1rem;
+    // }
 }
 
 // GRID COMPONENT
@@ -144,7 +132,7 @@ div.footer {
         font-size: $font-size-xs;
     } // Main nav
     div.main-nav {
-        font-size: 3rem;
+        font-size: 3.5rem;
         text-align: center;
         ul.nav {
             justify-content: center !important;
@@ -152,26 +140,15 @@ div.footer {
             li.nav-item {
                 display: none;
                 &.nav-item-branded {
-                    display: block;
-                    text-align: right;
-                    a.nav-link {
-                        &.menu-icon {
-                            margin: 1.5rem;
-                            padding: 0.5rem;
-                            font-size: 2.5rem;
-                            pointer-events: auto;
-                            .fa-bars {
-                                display: block;
-                            }
-                            .fa-times {
-                                display: none;
-                            }
+                    display: block;                    
+                    a.menu-icon {
+                        font-size: 2.5rem;
+                        .fa-bars {
+                            display: block;
                         }
-                    }
-                }
-                a.nav-link {
-                    &.active {
-                        border: 0;
+                        .fa-times {
+                            display: none;
+                        }
                     }
                 }
             }
@@ -188,18 +165,15 @@ div.footer {
                     li.nav-item {
                         display: block;
                         &.nav-item-branded {
-                            padding-bottom: 2rem;
-                            a.nav-link {
-                                &.menu-icon {
-                                    @include link($azul_1, $azul_1, none, none, transparent, transparent);
-                                    padding: 0;
-                                    font-size: 3rem;
-                                    .fa-bars {
-                                        display: none;
-                                    }
-                                    .fa-times {
-                                        display: block;
-                                    }
+                            padding-bottom: 4rem;
+                            a.menu-icon {
+                                padding: 0;
+                                font-size: 3rem;
+                                .fa-bars {
+                                    display: none;
+                                }
+                                .fa-times {
+                                    display: block;
                                 }
                             }
                         }
@@ -211,12 +185,12 @@ div.footer {
     div.main-section {
         padding: 9rem 0 3rem 0;
     }
-    div.footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
+    // div.footer {
+        // position: fixed;
+        // bottom: 0;
+        // left: 0;
+        // right: 0;
+    // }
 }
 
 @include media-breakpoint-only(sm) {
