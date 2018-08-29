@@ -64,7 +64,7 @@ gulp.task('js:lib', function () {
             // transition for zoom out zoom.js
             pkg.lib + 'transition.js',
             // zoom.js
-            pkg.lib + 'zoom.js/js/zoom.js'            
+            pkg.lib + 'zoom.js/js/zoom.js'
         ])
         .pipe(
             concat("lib.js")

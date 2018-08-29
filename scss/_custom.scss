@@ -21,17 +21,19 @@ div.header-page {
     width: 100%;
     // padding: 0.9rem 0;
     background-color: $negro_2;
-    border-bottom: 4px solid $azul_1;
+    border-bottom: 2px solid $azul_1;
 }
 
 // Main nav
 div.main-nav {
-    font-size: 1.2rem;
+    font-size: $font-size-base;
+
     ul.nav {
         li.nav-item {
             &.nav-item-branded {
                 display: none;
                 text-align: right;
+
                 a.menu-icon {
                     @include link($azul_1, $azul_1, none, none, transparent, transparent);
                     display: inline-block;
@@ -42,6 +44,7 @@ div.main-nav {
                     pointer-events: auto;
                 }
             }
+
             a.nav-link {
                 @include link($white, $white, none, none, transparent, $azul_2);
                 padding: 0.9rem 1rem 0.9rem 1rem;
@@ -50,29 +53,6 @@ div.main-nav {
     }
 }
 
-// RRSS header menu
-// div.rrss-header-menu {
-//     ul.nav {
-//         justify-content: flex-end !important;
-//         li.nav-item {
-//             a.nav-link {
-//                 @include link($azul_1, $azul_1);
-//                 padding: 0.6rem 0.7rem;
-//                 font-size: 1.4rem;
-//             }
-//         }
-//     }
-// }
-
-// Button modal contact
-// button.btn-contact-modal {
-//     @include text($noto, 0.7rem, 700, normal, $blanco_1, center, uppercase);
-//     @include btn($blanco_1, $blanco_1, $rojo_2, $rojo_2);
-//     margin-top: 0.1rem;
-//     padding: 0.8rem;
-//     border: 0;
-// }
-
 // Main section
 div.main-section {
     padding: 7rem 7rem 3rem 7rem;
@@ -80,11 +60,11 @@ div.main-section {
 
 // Footer
 div.footer {
-    @include text($noto, 1rem, 400, normal, $gray-500, center);
+    @include text($noto, 0.9rem, 400, normal, $gray-500, center);
     padding: 0.8rem 0;
     background-color: $blanco_2;
 
-    p{
+    p {
         margin-bottom: $spacer / 2;
     }
 
@@ -95,87 +75,81 @@ div.footer {
     ul.nav {
         li.nav-item {
             a.nav-link {
-                @include link($gray-500, $gray-600, none, none);
-                font-size: 1.5rem;
+                @include link($gray-500, $gray-500, none, none);
+                font-size: 1.3rem;
             }
         }
     }
-
-    // background-color: $negro_2;
-    // border-top: 0.2rem solid $azul_1;
-    // a {
-    //     @include link($white, $white);
-    // }
-    // div.rrss-header-menu {
-    //     ul.nav {
-    //         justify-content: center !important;
-    //         li.nav-item {
-    //             a.nav-link {
-    //                 @include link($white, $white);
-    //                 padding: 0.6rem 1.1rem 0.3rem 1.1rem;
-    //                 font-size: 1.8rem;
-    //             }
-    //         }
-    //     }
-    // }
-    // button.btn-contact-modal {
-    //     @include btn($blanco_1, $blanco_1, $azul_1, $azul_1);
-    //     margin: 0;
-    //     margin-top: 0.4rem;
-    //     font-size: 1rem;
-    // }
 }
 
 // GRID COMPONENT
 @include media-breakpoint-only(xs) {
     html {
         font-size: $font-size-xs;
-    } // Main nav
+    }
+
+    // Main nav
     div.main-nav {
         text-align: center;
+
         ul.nav {
             justify-content: center !important;
             flex-direction: column !important;
+
             li.nav-item {
                 display: none;
+
                 &.nav-item-branded {
-                    display: block;                    
+                    display: block;
+
                     a.menu-icon {
                         font-size: 2.2rem;
+
                         .fa-ellipsis-v {
                             display: block;
                         }
+
                         .fa-angle-up {
                             display: none;
                         }
                     }
                 }
+
                 a.nav-link {
                     @include link($white, $azul_1, none, none, transparent, transparent);
                 }
             }
         }
-    } // Header page
+    }
+
+    // Header page
     div.header-page {
         padding: 0; // Open
+
         &.header-page-open {
             height: 100%;
             opacity: 0.98;
             z-index: 999;
             border-bottom: 0;
+
             div.main-nav {
                 font-size: 3.5rem;
+
                 ul.nav {
                     li.nav-item {
                         display: block;
+
                         &.nav-item-branded {
                             padding-bottom: 0;
+
                             a.menu-icon {
                                 padding: 0;
                                 font-size: 3rem;
+
                                 .fa-ellipsis-v {
                                     display: none;
                                 }
+
                                 .fa-angle-up {
                                     display: block;
                                 }
@@ -185,27 +159,26 @@ div.footer {
                 }
             }
         }
-    } // Main section
+    }
+
+    // Main section
     div.main-section {
         padding: 9rem 0 3rem 0;
     }
-    // div.footer {
-        // position: fixed;
-        // bottom: 0;
-        // left: 0;
-        // right: 0;
-    // }
 }
 
 @include media-breakpoint-only(sm) {
     html {
         font-size: $font-size-sm;
     }
+
     div.main-nav {
         ul.nav {
             justify-content: center !important;
         }
-    } // Main section
+    }
+
+    // Main section
     div.main-section {
         padding: 7rem 0 3rem 0;
     }
@@ -214,7 +187,9 @@ div.footer {
 @include media-breakpoint-only(md) {
     html {
         font-size: $font-size-md;
-    } // Main section
+    }
+
+    // Main section
     div.main-section {
         padding: 7rem 0 3rem 0;
     }
