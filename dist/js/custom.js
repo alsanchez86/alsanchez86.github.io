@@ -100,4 +100,12 @@ $.fn.extend({
     setTimeout(function () {
         _page_loading(false);
     }, 1000);
+
+    // Set active menu link
+    var pathname = window.location.pathname;
+    var path_split = pathname.split("/");
+    var path_id = path_split && path_split[1];
+
+    $("#main-nav .nav-link").removeClass("active");
+    $("#" + path_id).addClass("active");
 })();
