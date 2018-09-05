@@ -81,5 +81,10 @@ $.fn.extend({
     var path_id = path_split && path_split[1];
 
     $("#main-nav .nav-link").removeClass("active");
-    $("#" + path_id).addClass("active");
+
+    if (path_id !== ""){
+        $("#" + path_id).addClass("active");
+    }else{
+        $("#inicio").addClass("active");
+    }
 })();

@@ -46,7 +46,7 @@ div.main-nav {
             }
 
             a.nav-link {
-                @include link($white, $white, none, none, transparent, $azul_2);
+                @include link($white, $white, none, none, transparent, transparent);
                 padding: 0.9rem 1rem 0.9rem 1rem;
             }
         }
