@@ -49,7 +49,7 @@ div.main-nav {
                 @include link($white, $white, none, none, transparent, transparent);
                 padding: 0.9rem 1rem 0.9rem 1rem;
 
-                &:active {
+                &.active {
                     background-color: $azul_2;
                 }
             }

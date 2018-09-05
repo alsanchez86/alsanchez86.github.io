@@ -10960,7 +10960,7 @@ div.main-nav {
       color: #fff;
       text-decoration: none;
       background-color: transparent; }
-    div.main-nav ul.nav li.nav-item a.nav-link:active {
+    div.main-nav ul.nav li.nav-item a.nav-link.active {
       background-color: #2a8b7d; }
 
 div.main-section {
