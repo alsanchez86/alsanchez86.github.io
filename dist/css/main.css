@@ -11004,24 +11004,26 @@ div.footer {
     font-size: 0.69rem; }
   div.main-nav {
     text-align: center; }
-    div.main-nav ul.nav li.nav-item {
-      display: none; }
-      div.main-nav ul.nav li.nav-item.nav-item-branded {
-        display: block; }
-        div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-          font-size: 2.2rem; }
-          div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon .fa-ellipsis-v {
-            display: block; }
-          div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon .fa-angle-up {
-            display: none; }
-      div.main-nav ul.nav li.nav-item a.nav-link {
-        color: #fff;
-        text-decoration: none;
-        background-color: transparent; }
-        div.main-nav ul.nav li.nav-item a.nav-link:hover, div.main-nav ul.nav li.nav-item a.nav-link:focus, div.main-nav ul.nav li.nav-item a.nav-link.active, div.main-nav ul.nav li.nav-item a.nav-link:active {
-          color: #55d7c4;
+    div.main-nav ul.nav {
+      flex-direction: column !important; }
+      div.main-nav ul.nav li.nav-item {
+        display: none; }
+        div.main-nav ul.nav li.nav-item.nav-item-branded {
+          display: block; }
+          div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+            font-size: 2.2rem; }
+            div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon .fa-ellipsis-v {
+              display: block; }
+            div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon .fa-angle-up {
+              display: none; }
+        div.main-nav ul.nav li.nav-item a.nav-link {
+          color: #fff;
           text-decoration: none;
           background-color: transparent; }
+          div.main-nav ul.nav li.nav-item a.nav-link:hover, div.main-nav ul.nav li.nav-item a.nav-link:focus, div.main-nav ul.nav li.nav-item a.nav-link.active, div.main-nav ul.nav li.nav-item a.nav-link:active {
+            color: #55d7c4;
+            text-decoration: none;
+            background-color: transparent; }
   div.header-page {
     padding: 0; }
     div.header-page.header-page-open {
