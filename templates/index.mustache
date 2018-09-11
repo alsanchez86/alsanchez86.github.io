@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es" dir="ltr">
+
+{{> ./partials/head.mustache }}
+
+<body>
+    <!-- Content page -->
+    <div id="content" class="content">
+        <!-- Header page -->
+        <t-include src="../header.html"></t-include>
+
+        <div class="container">
+            <!-- Main section -->
+            <t-include src="inicio.html"></t-include>
+        </div>
+        <!-- Footer -->
+        <t-include src="../footer.html"></t-include>
+    </div>
+    <!-- Spinner init loader -->
+    <t-include src="../loader.html"></t-include>
+    <!-- Scripts -->
+    <t-include src="../script.html" path="./"></t-include>
+</body>
+
+</html>

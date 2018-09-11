@@ -8,7 +8,8 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var runSequence = require('run-sequence');
 var fs = require('fs');
-var includeTemplate = require('gulp-advanced-include-template');
+// var includeTemplate = require('gulp-advanced-include-template');
+var mustache = require("gulp-mustache");
 var htmlmin = require('gulp-htmlmin');
 var pkg = JSON.parse(fs.readFileSync('./package.json'));
 
@@ -134,10 +135,11 @@ gulp.task('template:404', function() {
 });
 // inicio
 gulp.task('template:inicio', function() {
-    gulp.src("./partials/inicio/index.html")
-        .pipe(includeTemplate())
+    gulp.src("./templates/sections/inicio/index.mustache")
+        .pipe(mustache("./templates/sections/inicio/index.json", {}, {}))
         .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(gulp.dest('./'))
+        .pipe(rename({extname: ".html"}))
+        .pipe(gulp.dest("./"))
 });
 // perfil
 gulp.task('template:perfil', function() {
@@ -172,8 +174,13 @@ gulp.task('template:contacto', function() {
  * Enviroment tasks
  */
 // templates
+// gulp.task('templates', [], function (done) {
+//     runSequence('template:404', 'template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', 'template:contacto', function () {
+//         done();
+//     });
+// });
 gulp.task('templates', [], function (done) {
-    runSequence('template:404', 'template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', 'template:contacto', function () {
+    runSequence('template:inicio', function () {
         done();
     });
 });
