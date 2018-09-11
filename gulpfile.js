@@ -136,9 +136,10 @@ gulp.task('template:404', function() {
 // inicio
 gulp.task('template:inicio', function() {
     gulp.src("./templates/sections/inicio/index.mustache")
-        .pipe(mustache("./templates/sections/inicio/index.json", {}, {}))
+        .pipe(mustache("./templates/sections/inicio/index.json", {
+            extension: ".html"
+        }, {}))
         .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(rename({extname: ".html"}))
         .pipe(gulp.dest("./"))
 });
 // perfil
