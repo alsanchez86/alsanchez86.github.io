@@ -1,17 +1,16 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var cleanCSS = require('gulp-clean-css');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
-var runSequence = require('run-sequence');
-var fs = require('fs');
-// var includeTemplate = require('gulp-advanced-include-template');
-var mustache = require("gulp-mustache");
-var htmlmin = require('gulp-htmlmin');
-var pkg = JSON.parse(fs.readFileSync('./package.json'));
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const cleanCSS = require('gulp-clean-css');
+const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
+const runSequence = require('run-sequence');
+const fs = require('fs');
+const includeTemplate = require('gulp-advanced-include-template');
+const htmlmin = require('gulp-htmlmin');
+const pkg = JSON.parse(fs.readFileSync('./package.json'));
 
 /*
  * Css taks
@@ -135,12 +134,10 @@ gulp.task('template:404', function() {
 });
 // inicio
 gulp.task('template:inicio', function() {
-    gulp.src("./templates/sections/inicio/index.mustache")
-        .pipe(mustache("./templates/sections/inicio/index.json", {
-            extension: ".html"
-        }, {}))
+    gulp.src("./partials/inicio/index.html")
+        .pipe(includeTemplate())
         .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(gulp.dest("./"))
+        .pipe(gulp.dest('./'))
 });
 // perfil
 gulp.task('template:perfil', function() {
@@ -175,13 +172,8 @@ gulp.task('template:contacto', function() {
  * Enviroment tasks
  */
 // templates
-// gulp.task('templates', [], function (done) {
-//     runSequence('template:404', 'template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', 'template:contacto', function () {
-//         done();
-//     });
-// });
 gulp.task('templates', [], function (done) {
-    runSequence('template:inicio', function () {
+    runSequence('template:404', 'template:inicio', 'template:perfil', 'template:portfolio', 'template:blog', 'template:contacto', function () {
         done();
     });
 });
