@@ -20,7 +20,7 @@
         "gulp-sass": "^3.1.0",
         "gulp-uglify": "^3.0.0",
         "gulp-htmlmin": "^4.0.0",
-        "gulp-advanced-include-template": "^0.1.0",
+        "gulp-mustache": "^3.0.1",
         "run-sequence": "^2.2.0"
     },
     "dependencies": {

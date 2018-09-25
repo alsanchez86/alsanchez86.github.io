@@ -1,25 +1,25 @@
 <!doctype html>
 <html lang="es" dir="ltr">
 
-<t-include src="../head.html" path="../"></t-include>
+{{> ../../partials/head }}
 
 <body>
     <!-- Content page -->
     <div id="content" class="content">
         <!-- Header page -->
-        <t-include src="../header.html"></t-include>
+        {{> ../../partials/header }}
 
         <div class="container">
             <!-- Main section -->
-            <t-include src="1.html"></t-include>
+            {{> inicio }}
         </div>
         <!-- Footer -->
-        <t-include src="../footer.html"></t-include>
+        {{> ../../partials/footer }}
     </div>
     <!-- Spinner init loader -->
-    <t-include src="../loader.html"></t-include>
+    {{> ../../partials/loader }}
     <!-- Scripts -->
-    <t-include src="../script.html" path="../"></t-include>
+    {{> ../../partials/script }}
 </body>
 
 </html>
