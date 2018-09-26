@@ -36,18 +36,14 @@ gulp.task('css:min', function () {
 /*
  * Js tasks
  */
-gulp.task('js:lib', function () {
+gulp.task('js:node_modules', function () {
     return gulp.src([
             // requirejs
             pkg.node_modules + "requirejs/require.js",
             // jquery
             pkg.node_modules + "jquery/dist/jquery.min.js",
             // bootstrap
-            pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
-            // transition for zoom out zoom.js
-            pkg.lib + 'transition.js',
-            // // zoom.js
-            pkg.lib + 'zoom.js/js/zoom.js'
+            pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js'
         ])
         .pipe(gulp.dest(pkg.build + 'js/'));
 });
@@ -133,13 +129,13 @@ gulp.task('templates', [], function (done) {
 });
 // dev
 gulp.task('dev', [], function (done) {
-    runSequence('css:scss', 'js:lib', 'templates', function () {
+    runSequence('css:scss', 'js:node_modules', 'templates', function () {
         done();
     });
 });
 // prod
 gulp.task('prod', [], function (done) {
-    runSequence('css:scss', 'css:min', 'js:lib', 'templates', function () {
+    runSequence('css:scss', 'css:min', 'js:node_modules', 'templates', function () {
         done();
     });
 });

@@ -1,22 +1,22 @@
-require.config(
-    (function () {
-        // Private Vars
-        var _this = {
-            lib: "../lib/",
-            node_path: "../node_modules/",
-            build: "../build/js/",
-            callback: function () {
-                console.log("Loaded require config file.");
-            }
-        };
-
-        // Public Vars
-        return {
+var require_config = function () {
+    this.config = {
+        lib: "../lib/",
+        node_path: "../node_modules/",
+        build: "../build/js/",
+        callback: function () {
+            console.log("Loaded require config file. Not rc.init callback defined.");
+        }
+    }
+    
+    this.init = function (callback){
+        require.config({
             waitSeconds: 30,
             baseUrl: "js",
             paths: {
-                jquery: _this.build + "jquery.min",
-                bootstrap: _this.build + "bootstrap.bundle.min",
+                jquery: this.config.build + "jquery.min",
+                bootstrap: this.config.build + "bootstrap.bundle.min", // contains popper.js
+                transition: this.config.lib + "transition",
+                zoom: this.config.lib + "zoom.js/js/zoom.js",
                 _$: "jquery_cache",
                 animate: "animate"
             },
@@ -29,9 +29,12 @@ require.config(
                 },
                 animate: {
                     deps: ["jquery"]
+                },
+                zoom: {
+                    deps: ["transition"]
                 }
             },
-            callback: _this.callback
-        };
-    })()
-);
+            callback: typeof callback === "function" ? callback() : this.config.callback
+        });
+    }    
+}
