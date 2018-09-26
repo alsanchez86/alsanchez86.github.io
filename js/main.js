@@ -1,8 +1,8 @@
 "use strict";
 
-define(function (require, exports, module) {
+define("main", function (require, exports, module) {
     require(["require-config"], function () {
-        require(["jquery", "popper"], function ($, popper) {
+        require(["jquery", "popper"], function ($, Tether) {
             // window.Tether = Tether; // hack for bootstrap
 
             require(["bootstrap"], function () {
