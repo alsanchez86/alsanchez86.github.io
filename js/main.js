@@ -1,9 +1,12 @@
 "use strict";
 
-define(function (require, exports, module) {
-    require(["require-config"], function (rc) {
-        // rc.set_config(config);
-        rc.init(
+define(function (require) {
+    require(["require-config"], function (rconfig) {
+        if (window.config){
+            rconfig.set_config(window.config);
+        }
+        
+        rconfig.init(
             require(["jquery"], function ($) {
                 require(["bootstrap"], function () {
                     // jquery document ready

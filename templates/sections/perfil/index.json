@@ -1,5 +1,8 @@
 {
   "build_css": "../build/css",
   "lib_js": "../lib/js",
-  "js": "../js"
+  "js": "../js",
+  "config": {
+    "lib": "cccc"
+  }
 } 
