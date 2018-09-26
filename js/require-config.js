@@ -21,6 +21,10 @@ require.config(
                 _$: "jquery_cache"
             },
             shim: {
+                popper: {
+                    deps: ["jquery"],
+                    exports: 'Popper'
+                },
                 bootstrap: {
                     deps: ["jquery", "popper"]
                 },
