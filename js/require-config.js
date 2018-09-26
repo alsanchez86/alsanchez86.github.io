@@ -16,7 +16,7 @@ require.config(
             baseUrl: "js",
             paths: {
                 jquery: _this.build + "jquery.min",
-                popper: _this.build + 'popper.min',
+                popper: _this.build + 'popper',
                 bootstrap: _this.build + "bootstrap.min",
                 _$: "jquery_cache"
             },
