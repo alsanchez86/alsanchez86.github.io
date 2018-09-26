@@ -1,3 +1,5 @@
+"use strict";
+
 define(["exports", "jquery"], function (exports, $) {
     // Private Vars
     var _this = {};
