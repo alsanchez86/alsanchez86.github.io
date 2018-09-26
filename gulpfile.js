@@ -36,7 +36,7 @@ gulp.task('css:min', function () {
 /*
  * Js tasks
  */
-gulp.task('js:node_modules', function () {
+gulp.task('js:lib', function () {
     return gulp.src([
             // requirejs
             pkg.node_modules + "requirejs/require.js",
@@ -45,7 +45,7 @@ gulp.task('js:node_modules', function () {
             // bootstrap
             pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js'
         ])
-        .pipe(gulp.dest(pkg.build + 'js/'));
+        .pipe(gulp.dest(pkg.lib + 'js/'));
 });
 
 /*
@@ -129,13 +129,13 @@ gulp.task('templates', [], function (done) {
 });
 // dev
 gulp.task('dev', [], function (done) {
-    runSequence('css:scss', 'js:node_modules', 'templates', function () {
+    runSequence('css:scss', 'js:lib', 'templates', function () {
         done();
     });
 });
 // prod
 gulp.task('prod', [], function (done) {
-    runSequence('css:scss', 'css:min', 'js:node_modules', 'templates', function () {
+    runSequence('css:scss', 'css:min', 'js:lib', 'templates', function () {
         done();
     });
 });

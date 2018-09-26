@@ -2,7 +2,7 @@
 
 define(function (require, exports, module) {
     require(["require-config"], function (rc) {
-        // rc.config = config;
+        // rc.set_config(config);
         rc.init(
             require(["jquery"], function ($) {
                 require(["bootstrap"], function () {

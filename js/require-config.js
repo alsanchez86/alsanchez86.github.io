@@ -1,5 +1,9 @@
-var require_config = function () {
-    this.config = {
+"use strict";
+
+define(function (require, exports, module) {
+    // Private Vars
+    var _this = {};
+    _this.config = {
         lib: "../lib/",
         node_path: "../node_modules/",
         build: "../build/js/",
@@ -8,15 +12,20 @@ var require_config = function () {
         }
     }
     
-    this.init = function (callback){
+    // Public Methods
+    exports.set_config = function (config) {
+        _this.config = config;
+    }
+
+    exports.init = function (callback){
         require.config({
             waitSeconds: 30,
             baseUrl: "js",
             paths: {
-                jquery: this.config.build + "jquery.min",
-                bootstrap: this.config.build + "bootstrap.bundle.min", // contains popper.js
-                transition: this.config.lib + "transition",
-                zoom: this.config.lib + "zoom.js/js/zoom.js",
+                jquery: _this.config.lib + "jquery.min",
+                bootstrap: _this.config.lib + "bootstrap.bundle.min", // contains popper.js
+                transition: _this.config.lib + "transition",
+                zoom: _this.config.lib + "zoom.js/js/zoom.js",
                 _$: "jquery_cache",
                 animate: "animate"
             },
@@ -34,7 +43,7 @@ var require_config = function () {
                     deps: ["transition"]
                 }
             },
-            callback: typeof callback === "function" ? callback() : this.config.callback
+            callback: typeof callback === "function" ? callback() : _this.config.callback
         });
-    }    
-}
+    } 
+});
