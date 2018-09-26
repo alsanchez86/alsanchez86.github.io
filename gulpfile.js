@@ -45,7 +45,7 @@ gulp.task('js:lib', function () {
             // bootstrap
             pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js'
         ])
-        .pipe(gulp.dest(pkg.lib + 'js/'));
+        .pipe(gulp.dest(pkg.lib));
 });
 
 /*
