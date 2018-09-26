@@ -19,71 +19,71 @@ gulp.task('css:scss', function () {
     return gulp.src([pkg.scss + 'main.scss'])
         .pipe(sass.sync().on('error', sass.logError))
         .pipe(concat("main.css"))
-        .pipe(gulp.dest(pkg.dist + 'css/'));
+        .pipe(gulp.dest(pkg.build + 'css/'));
 });
 
 gulp.task('css:min', function () {
-    return gulp.src([pkg.dist + 'css/main.css'])
+    return gulp.src([pkg.build + 'css/main.css'])
         .pipe(cleanCSS({
             compatibility: 'ie8'
         }))
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest(pkg.dist + 'css/'));
+        .pipe(gulp.dest(pkg.build + 'css/'));
 });
 
 /*
  * Js tasks
  */
 gulp.task('js:lib', function () {
-    return gulp.src([
-            // jquery
-            pkg.node_modules + "jquery/dist/jquery.min.js",
-            // popper
-            pkg.node_modules + 'popper.js/dist/umd/popper.min.js',
-            // bootstrap
-            pkg.node_modules + 'bootstrap/dist/js/bootstrap.min.js',
-            // transition for zoom out zoom.js
-            pkg.lib + 'transition.js',
-            // zoom.js
-            pkg.lib + 'zoom.js/js/zoom.js'
-        ])
-        .pipe(concat("lib.js"))
-        .pipe(gulp.dest(pkg.dist + 'js/'));
+    // return gulp.src([
+    //         // jquery
+    //         pkg.node_modules + "jquery/build/jquery.min.js",
+    //         // popper
+    //         pkg.node_modules + 'popper.js/build/umd/popper.min.js',
+    //         // bootstrap
+    //         pkg.node_modules + 'bootstrap/build/js/bootstrap.min.js',
+    //         // transition for zoom out zoom.js
+    //         pkg.lib + 'transition.js',
+    //         // zoom.js
+    //         pkg.lib + 'zoom.js/js/zoom.js'
+    //     ])
+    //     .pipe(concat("lib.js"))
+    //     .pipe(gulp.dest(pkg.build + 'js/'));
 });
 
 gulp.task('js:custom', function () {
-    return gulp.src([
-            // jquery cache
-            pkg.js + 'jquery_cache.js',
-            pkg.js + 'main.js'
-        ])
-        .pipe(concat("custom.js"))
-        .pipe(gulp.dest(pkg.dist + 'js/'));
+    // return gulp.src([
+    //         // jquery cache
+    //         pkg.js + 'jquery_cache.js',
+    //         pkg.js + 'main.js'
+    //     ])
+    //     .pipe(concat("custom.js"))
+    //     .pipe(gulp.dest(pkg.build + 'js/'));
 });
 
 gulp.task('js:concat', function () {
-    return gulp.src([
-            pkg.dist + 'js/lib.js',
-            pkg.dist + 'js/custom.js'
-        ])
-        .pipe(concat("main.js"))
-        .pipe(gulp.dest(pkg.dist + 'js/'));
+    // return gulp.src([
+    //         pkg.build + 'js/lib.js',
+    //         pkg.build + 'js/custom.js'
+    //     ])
+    //     .pipe(concat("main.js"))
+    //     .pipe(gulp.dest(pkg.build + 'js/'));
 });
 
 gulp.task('js:min', function () {
-    return gulp.src([
-            pkg.dist + 'js/**/*.js',
-            '!' + pkg.dist + 'js/**/*.min.js'
-        ])
-        .pipe(uglify().on('error', function (e) {
-            console.log(e);
-        }))
-        .pipe(rename({
-            suffix: '.min'
-        }))
-        .pipe(gulp.dest(pkg.dist + 'js/'));
+    // return gulp.src([
+    //         pkg.build + 'js/**/*.js',
+    //         '!' + pkg.build + 'js/**/*.min.js'
+    //     ])
+    //     .pipe(uglify().on('error', function (e) {
+    //         console.log(e);
+    //     }))
+    //     .pipe(rename({
+    //         suffix: '.min'
+    //     }))
+    //     .pipe(gulp.dest(pkg.build + 'js/'));
 });
 
 /*
@@ -178,7 +178,7 @@ gulp.task('prod', [], function (done) {
     });
 });
 // default
-gulp.task('default', ["dev"]);
+gulp.task('default', ["prod"]);
 
 /*
  * Watchers
