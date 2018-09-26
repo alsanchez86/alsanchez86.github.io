@@ -16,17 +16,13 @@ require.config(
             baseUrl: "js",
             paths: {
                 jquery: _this.build + "jquery.min",
-                // tether: _this.node_path + "tether/dist/js/tether.min",
                 popper: _this.build + 'popper.min.js',
                 bootstrap: _this.build + "bootstrap.min",
                 _$: "jquery_cache"
             },
             shim: {
-                tether: {
-                    deps: ["jquery"]
-                },
                 bootstrap: {
-                    deps: ["jquery", "tether"]
+                    deps: ["jquery", "popper"]
                 },
                 _$: {
                     deps: ["jquery"]
