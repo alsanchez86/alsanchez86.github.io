@@ -2,8 +2,9 @@
 
 define("main", function (require, exports, module) {
     require(["require-config"], function () {
-        require(["jquery", "popper"], function ($, Tether) {
+        require(["jquery", "popper"], function ($, popper) {
             // window.Tether = Tether; // hack for bootstrap
+            window.Popper = popper;
 
             require(["bootstrap"], function () {
                 // jquery document ready
