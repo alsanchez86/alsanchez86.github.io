@@ -28,6 +28,7 @@
         "bootstrap": "^4.0.0",
         "jquery": "^3.3.1",
         "loaders.css": "^0.1.2",
-        "popper.js": "^1.14.3"
+        "popper.js": "^1.14.3",
+        "requirejs": "2.3.6"
     }
 }

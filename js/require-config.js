@@ -4,6 +4,7 @@ require.config(
         var _this = {
             lib: "../lib/",
             node_path: "../node_modules/",
+            build: "../build/",
             callback: function () {
                 console.log("Loaded require config file.");
             }
@@ -14,10 +15,10 @@ require.config(
             waitSeconds: 30,
             baseUrl: "js",
             paths: {
-                jquery: _this.node_path + "jquery/dist/jquery.min",
+                jquery: _this.build + "jquery/dist/jquery.min",
                 // tether: _this.node_path + "tether/dist/js/tether.min",
-                popper: _this.node_modules + 'popper.js/dist/umd/popper.min.js',
-                bootstrap: _this.node_path + "bootstrap/dist/js/bootstrap.min",
+                popper: _this.build + 'popper.js/dist/umd/popper.min.js',
+                bootstrap: _this.build + "bootstrap/dist/js/bootstrap.min",
                 _$: "jquery-cache"
             },
             shim: {
