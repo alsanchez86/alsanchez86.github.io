@@ -1,5 +1,5 @@
 {
   "build_css": "./build/css",
-  "lib_js": "./build/js",
+  "lib_js": "./lib/js",
   "js": "./js"
 } 
