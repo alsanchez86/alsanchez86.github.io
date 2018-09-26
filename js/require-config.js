@@ -16,21 +16,20 @@ require.config(
             baseUrl: "js",
             paths: {
                 jquery: _this.build + "jquery.min",
-                // popper: _this.build + 'popper.min',
                 bootstrap: _this.build + "bootstrap.bundle.min",
-                _$: "jquery_cache"
+                _$: "jquery_cache",
+                animate: "animate"
             },
             shim: {
-                // popper: {
-                //     deps: ["jquery"],
-                //     exports: 'Popper'
-                // },
                 bootstrap: {
                     deps: ["jquery"]
                 },
                 _$: {
                     deps: ["jquery"]
-                }        
+                },
+                animate: {
+                    deps: ["jquery"]
+                }
             },
             callback: _this.callback
         };

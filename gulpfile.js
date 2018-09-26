@@ -42,8 +42,6 @@ gulp.task('js:lib', function () {
             pkg.node_modules + "requirejs/require.js",
             // jquery
             pkg.node_modules + "jquery/dist/jquery.min.js",
-            // popper
-            // pkg.node_modules + 'popper.js/dist/umd/popper.min.js',
             // bootstrap
             pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
             // transition for zoom out zoom.js
