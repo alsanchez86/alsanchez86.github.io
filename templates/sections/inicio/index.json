@@ -1,5 +1,6 @@
 {
   "build_css": "./build/css",
-  "lib_js": "./lib/js",
-  "js": "./js"
+  "lib_js": "./lib",
+  "js": "./js",
+  "config": "<script>window.config = {lib: ''};</script>"
 } 

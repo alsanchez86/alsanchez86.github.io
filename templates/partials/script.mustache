@@ -1,7 +1,5 @@
 {{! paths for require_config deps }}
-<script>
-    var window.config = {{ config }};
-<script>
+{{{ config }}}
 {{! Main js }}
 <script data-main="{{ js }}/main" src="{{ lib_js }}/require.js"></script>
 {{! Font awesome CDN }}
