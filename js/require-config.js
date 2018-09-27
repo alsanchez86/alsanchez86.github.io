@@ -4,17 +4,14 @@ require.config(
     (function () {
         var _this = {
             config: {
-                lib: "../lib/",
-                node_path: "../node_modules/",
-                build: "../build/js/",
-                callback: function () {
-                    console.log("Loaded require config file...");
-
-                    if (window.config){
-                        console.log("Set config values from on window.config.");
-                    }else{
-                        console.log("Set default config values.");
-                    }
+                lib: "../lib/"
+            },
+            callback: function () {
+                console.log("Loaded require config file.");
+                if (window.config){
+                    console.log("Set config values from on window.config.");
+                }else{
+                    console.log("Set default config values.");
                 }
             }
         };
@@ -30,8 +27,8 @@ require.config(
             paths: {
                 jquery: _this.config.lib + "jquery.min",
                 bootstrap: _this.config.lib + "bootstrap.bundle.min", // contains popper.js
-                _$: "jquery_cache",
-                animate: "animate",
+                _$: _this.config.lib + "jquery_cache",
+                animate: _this.config.lib + "animate",
                 transition: _this.config.lib + "transition",
                 zoom: _this.config.lib + "zoom.js/js/zoom"
             },
@@ -49,7 +46,7 @@ require.config(
                     deps: ["transition"]
                 }
             },
-            callback: _this.config.callback
+            callback: _this.callback
         }
     })()
 );
