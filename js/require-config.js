@@ -4,7 +4,7 @@ require.config(
     (function () {
         var _this = {
             config: {
-                modules: "/modules/",
+                modules: "../js/modules/",
                 lib: "../lib/"
             },
             callback: function () {
