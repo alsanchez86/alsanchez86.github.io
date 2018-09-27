@@ -4,8 +4,8 @@ require.config(
     (function () {
         var _this = {
             config: {
-                modules: "../js/modules/",
-                lib: "../lib/"
+                modules: window.location.origin + "/js/modules/",
+                lib: window.location.origin + "/lib/"
             },
             callback: function () {
                 var msg_conf = window.config ? "Set config values from on window.config." : "Set default config values.";
@@ -13,11 +13,6 @@ require.config(
                 console.log(msg_conf);
             }
         };
-
-        // Set config from window.config if defined
-        if (window.config){
-            _this.config = window.config;
-        }
 
         return {
             waitSeconds: 30,

@@ -1,6 +1,6 @@
 {
   "build_css": "../build/css",
-  "lib_js": "../lib",
-  "main_js": "../js",
+  "requirejs_path": "../lib",
+  "main_path": "../js",
   "config": "<script>window.config = {lib: '../../lib/'};</script>"
 } 
