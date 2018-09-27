@@ -28,7 +28,7 @@ require.config(
                 // libs
                 jquery: _this.config.lib + "jquery.min",
                 bootstrap: _this.config.lib + "bootstrap.bundle.min", // contains popper.js
-                _$: _this.config.lib + "jquery_cache",
+                jquery_cache: _this.config.lib + "jquery_cache",
                 animate: _this.config.lib + "animate",
                 transition: _this.config.lib + "transition",
                 zoom: _this.config.lib + "zoom.js/js/zoom"
@@ -42,8 +42,9 @@ require.config(
                 bootstrap: {
                     deps: ["jquery"]
                 },
-                _$: {
-                    deps: ["jquery"]
+                jquery_cache: {
+                    deps: ["jquery"],
+                    exports: "_$"
                 },
                 animate: {
                     deps: ["jquery"]
