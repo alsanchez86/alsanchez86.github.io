@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.75rem; }
+  font-size: 3.125rem; }
 
 h2, .h2 {
   font-size: 2.5rem; }
@@ -11030,6 +11030,9 @@ html {
 
 body {
   overflow: hidden; }
+
+h1 {
+  color: #55d7c4; }
 
 .hidden {
   overflow: hidden; }
