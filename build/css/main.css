@@ -11035,10 +11035,6 @@ body {
   overflow: hidden; }
 
 div.header-page {
-  border: 1px solid red;
-  -webkit-box-shadow: 0.2rem 0.2rem 0.2rem #000;
-  -moz-box-shadow: 0.2rem 0.2rem 0.2rem #000;
-  box-shadow: 0.2rem 0.2rem 0.2rem #000;
   position: fixed;
   top: 0;
   left: 0;

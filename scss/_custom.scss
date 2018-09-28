@@ -14,7 +14,7 @@ body {
 
 // Header page
 div.header-page {
-    @include boxshadow(0.2rem, 0.2rem, 0.2rem, $negro_1);
+    @include box_shadow(0.2rem, 0.2rem, 0.2rem, $negro_1);
     position: fixed;
     top: 0;
     left: 0;
