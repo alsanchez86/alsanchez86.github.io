@@ -1,4 +1,6 @@
-
+.perfil-section {
+    margin-bottom: $spacer;
+}
 
 // GRID COMPONENT
 @include media-breakpoint-only(xs) {
