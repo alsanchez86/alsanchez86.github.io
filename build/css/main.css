@@ -11035,9 +11035,6 @@ body {
   overflow: hidden; }
 
 div.header-page {
-  -webkit-box-shadow: 0 0 2.8rem #2c2c2c;
-  -moz-box-shadow: 0 0 2.8rem #2c2c2c;
-  box-shadow: 0 0 2.8rem #2c2c2c;
   position: fixed;
   top: 0;
   left: 0;
