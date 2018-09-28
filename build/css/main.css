@@ -73,11 +73,11 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 1.125rem; }
+  margin-bottom: 2.25rem; }
 
 p {
   margin-top: 0;
-  margin-bottom: 2.25rem; }
+  margin-bottom: 1.125rem; }
 
 abbr[title],
 abbr[data-original-title] {
@@ -299,7 +299,7 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 1.125rem;
+  margin-bottom: 2.25rem;
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   line-height: 1.2;
