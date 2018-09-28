@@ -115,7 +115,7 @@ $enable-print-styles:       true !default;
 // You can add more entries to the $spacers map, should you need more variation.
 
 // stylelint-disable
-$spacer: 2.25rem !default;
+$spacer: 1.75rem !default;
 $spacers: () !default;
 $spacers: map-merge((
   0: 0,
