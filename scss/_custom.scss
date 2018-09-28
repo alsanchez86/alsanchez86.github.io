@@ -14,7 +14,6 @@ body {
 
 // Header page
 div.header-page {
-    @include box-shadow(0.2rem, 0.2rem, 0.2rem, $negro_1);
     position: fixed;
     top: 0;
     left: 0;
@@ -23,6 +22,7 @@ div.header-page {
     // padding: 0.9rem 0;
     background-color: $negro_2;
     border-bottom: 2px solid $azul_1;
+    @include box-shadow(0.2rem, 0.2rem, 0.2rem, $negro_1);
 }
 
 // Main nav
