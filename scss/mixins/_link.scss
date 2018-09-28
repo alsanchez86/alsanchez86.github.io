@@ -1,7 +1,8 @@
-@mixin link ($color : $link-color, $color-hover : $link-hover-color, $text-decoration : $link-decoration, $text-decoration-hover : $link-decoration, $background-color : transparent, $background-color-hover : transparent) {
+@mixin link ($color: $link-color, $color-hover: $link-hover-color, $text-decoration: $link-decoration, $text-decoration-hover: $link-decoration, $background-color: transparent, $background-color-hover: transparent) {
   color: $color;
   text-decoration: $text-decoration;
   background-color: $background-color;
+
   &:hover,
   &:focus,
   &.active,
