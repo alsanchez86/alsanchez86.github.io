@@ -11025,6 +11025,28 @@ img.zoom-img {
     transform: scale(1);
     -webkit-transform: scale(1); } }
 
+.main-loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: 999;
+  background-color: #fff; }
+  .main-loader-container .main-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    /* IE 9 */
+    -webkit-transform: translate(-50%, -50%);
+    /* Safari */
+    transform: translate(-50%, -50%);
+    /* Standard syntax */ }
+    .main-loader-container .main-loader > div > div {
+      opacity: 0.8;
+      background-color: #55d7c4; }
+
 html {
   overflow: hidden; }
 
@@ -11182,25 +11204,3 @@ div.footer {
 @media (min-width: 1200px) {
   html {
     font-size: 0.90625rem; } }
-
-.main-loader-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  z-index: 999;
-  background-color: #fff; }
-  .main-loader-container .main-loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    /* IE 9 */
-    -webkit-transform: translate(-50%, -50%);
-    /* Safari */
-    transform: translate(-50%, -50%);
-    /* Standard syntax */ }
-    .main-loader-container .main-loader > div > div {
-      opacity: 0.8;
-      background-color: #55d7c4; }
