@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    color: $azul_1;
+    color: $rojo_1;
 }
 
 // Generic classes
@@ -26,7 +26,7 @@ div.header-page {
     right: 0;
     width: 100%;
     background-color: $negro_2;
-    border-bottom: 2px solid $azul_1;
+    border-bottom: 2px solid $rojo_1;
 }
 
 // Main nav
@@ -40,7 +40,7 @@ div.main-nav {
                 text-align: right;
 
                 a.menu-icon {
-                    @include link($azul_1, $azul_1, none, none, transparent, transparent);
+                    @include link($rojo_1, $rojo_1, none, none, transparent, transparent);
                     display: inline-block;
                     margin: 0.5rem 0.5rem 0.2rem 0.5rem;
                     padding: 0.5rem;
@@ -125,7 +125,7 @@ div.footer {
                 }
 
                 a.nav-link {
-                    @include link($white, $azul_1, none, none, transparent, transparent);
+                    @include link($white, $rojo_1, none, none, transparent, transparent);
                 }
             }
         }
