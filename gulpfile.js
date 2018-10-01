@@ -17,8 +17,25 @@ const pkg = JSON.parse(fs.readFileSync('./package.json'));
 gulp.task('css:scss', function () {
     return gulp.src([pkg.scss + 'main.scss'])
         .pipe(sass.sync().on('error', sass.logError))
-        .pipe(concat("main.css"))
+        .pipe(concat("scss.css"))
         .pipe(gulp.dest(pkg.build + 'css/'));
+});
+
+gulp.task('css:lib', function () {
+    return gulp.src([
+        pkg.node_modules + 'animate.css/animate.min.css'
+    ])
+    .pipe(concat("lib.css"))
+    .pipe(gulp.dest(pkg.build + 'css/'));
+});
+
+gulp.task('css:concat', function () {
+    return gulp.src([
+        pkg.build + 'css/scss.css',
+        pkg.build + 'css/lib.css'
+    ])
+    .pipe(concat("main.css"))
+    .pipe(gulp.dest(pkg.build + 'css/'));
 });
 
 gulp.task('css:min', function () {
@@ -128,13 +145,13 @@ gulp.task('templates', [], function (done) {
 });
 // dev
 gulp.task('dev', [], function (done) {
-    runSequence('css:scss', 'js:lib', 'templates', function () {
+    runSequence('css:scss', 'css:lib', 'css:concat', 'js:lib', 'templates', function () {
         done();
     });
 });
 // prod
 gulp.task('prod', [], function (done) {
-    runSequence('css:scss', 'css:min', 'js:lib', 'templates', function () {
+    runSequence('css:scss', 'css:lib', 'css:concat', 'css:min', 'js:lib', 'templates', function () {
         done();
     });
 });
