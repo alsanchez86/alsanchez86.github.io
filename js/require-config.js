@@ -8,9 +8,7 @@ require.config(
                 lib: window.location.origin + "/lib/"
             },
             callback: function () {
-                var msg_conf = window.config ? "Set config values from on window.config." : "Set default config values.";
                 console.log("Loaded require config file.");
-                console.log(msg_conf);
             }
         };
 

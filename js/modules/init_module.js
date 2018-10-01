@@ -1,3 +1,4 @@
+// TODO: Transformar los métodos en públicos con exports y llamarlos en el propio main.js una vez cargado este módulo.
 define(["jquery", "jquery_cache"], function ($, _$) {
     function __page_overflow_hidden(is_hidden) {
         var body = _$("body");
