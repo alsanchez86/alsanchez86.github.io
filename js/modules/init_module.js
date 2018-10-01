@@ -1,19 +1,8 @@
-// TODO: Transformar los métodos en públicos con exports y llamarlos en el propio main.js una vez cargado este módulo.
-define(["jquery", "jquery_cache"], function ($, _$) {
-    function __page_overflow_hidden(is_hidden) {
-        var body = _$("body");
-        var html = _$("html");
-        var hidden = is_hidden ? "hidden" : "visible";
-
-        body.css({
-            overflow: hidden
-        });
-        html.css({
-            overflow: hidden
-        });
-    }
-
-    function __page_loading(is_loading) {
+define(["exports", "jquery", "jquery_cache"], function (exports, $, _$) {
+    /**
+     *
+     */
+    exports.page_loading = function (is_loading) {
         var main_loader = _$("#main-loader-container");
 
         if (!is_loading) {
@@ -24,7 +13,10 @@ define(["jquery", "jquery_cache"], function ($, _$) {
         }
     }
 
-    function __set_active_menu_link() {
+    /**
+     *
+     */
+    exports.set_active_menu_link = function () {
         var pathname = window.location.pathname;
         var path_split = pathname.split("/");
         var path_id = path_split && path_split[1];
@@ -38,13 +30,15 @@ define(["jquery", "jquery_cache"], function ($, _$) {
         }
     }
 
-    function __mobile_menu_xs() {
+    /**
+     *
+     */
+    exports.mobile_menu_xs = function () {
         var nav_link_as_icon = _$("#nav-link-menu-icon");
         var header_page = _$("#header-page");
 
         nav_link_as_icon.bind("click", function () {
             $(this).data("is-open", !$(this).data("is-open"));
-
             __page_overflow_hidden($(this).data("is-open"));
 
             if ($(this).data("is-open")) {
@@ -55,8 +49,18 @@ define(["jquery", "jquery_cache"], function ($, _$) {
         });
     }
 
-    // INIT MODULE
-    __set_active_menu_link();
-    __mobile_menu_xs();
-    __page_loading(false);
+    /**
+     *
+     * @param {*} is_hidden
+     */
+    function __page_overflow_hidden(is_hidden) {
+        var _hidden = is_hidden ? "hidden" : "visible";
+
+        _$("body").css({
+            overflow: _hidden
+        });
+        _$("html").css({
+            overflow: _hidden
+        });
+    }
 });

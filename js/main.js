@@ -7,8 +7,10 @@ define(function () {
                 // jquery document ready
                 // domReady requirejs plugin is not neccesary here
                 $(function () {
-                    require(["init_module"], function () {
-                        // llamar aqui al modulo extra definido en el index.json de la plantilla si existe
+                    require(["init_module"], function (init_module) {
+                        init_module.set_active_menu_link();
+                        init_module.mobile_menu_xs();
+                        init_module.page_loading(false);
                     });
                 });
             });
