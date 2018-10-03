@@ -2,5 +2,11 @@
   "build_css": "../build/css",
   "requirejs_path": "../lib",
   "main_path": "../js",
-  "img_folder": "../templates/sections/perfil/img"
+  "img_folder": "../templates/sections/perfil/img",
+  "companies": [
+    {
+      "name": "Expertus Technology",
+      "position": "Senior Frontend Developer"      
+    }
+  ]
 } 
