@@ -3,10 +3,19 @@
   "requirejs_path": "../lib",
   "main_path": "../js",
   "img_folder": "../templates/sections/perfil/img",
-  "companies": [
-    {
-      "name": "Expertus Technology",
-      "position": "Senior Frontend Developer"      
-    }
-  ]
-} 
+  "companies": [{
+    "name": "Expertus Technology",
+    "position": "Senior Frontend Developer",
+    "image": {
+      "path": "expertus.png",
+      "title": "Expertus Technology"
+    },
+    "link": "http://www.expertustech.es/",
+    "location": "Barcelona, Cataluña, España",
+    "date": "Agosto de 2017 - Actualidad",
+    "functions": [
+      "Desarrollador frontend de plataforma web APP de tráfico masivo para venta de entradas al gran publico. Clientes directos: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, entre otros."
+    ],
+    "technologies": ["Angular", "AngularJS", "Nodejs", "Cinema4d (Python)", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Java (Play Framework)", "Tracking (GTM, DTM)", "SVG", "d3", "Konva", "Mercurial", "Typescript", "Moment.js"]
+  }]
+}
