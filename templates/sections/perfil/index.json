@@ -4,18 +4,112 @@
   "main_path": "../js",
   "img_folder": "../templates/sections/perfil/img",
   "companies": [{
-    "name": "Expertus Technology",
-    "position": "Senior Frontend Developer",
-    "image": {
-      "path": "expertus.png",
-      "title": "Expertus Technology"
+      "name": "Expertus Technology",
+      "position": "Senior Frontend Developer",
+      "image": {
+        "path": "expertus.png",
+        "title": "Expertus Technology"
+      },
+      "link": "http://www.expertustech.es/",
+      "location": "Barcelona, Cataluña, España",
+      "date": "Agosto de 2017 - Actualidad",
+      "functions": [
+        "Desarrollador frontend de plataforma web APP de tráfico masivo para venta de entradas al gran publico. Clientes directos: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, entre otros."
+      ],
+      "technologies": ["Angular", "AngularJS", "Nodejs", "Cinema4d (Python)", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Java (Play Framework)", "Tracking (GTM, DTM)", "SVG", "d3", "Konva", "Mercurial", "Typescript", "Moment.js"]
     },
-    "link": "http://www.expertustech.es/",
-    "location": "Barcelona, Cataluña, España",
-    "date": "Agosto de 2017 - Actualidad",
-    "functions": [
-      "Desarrollador frontend de plataforma web APP de tráfico masivo para venta de entradas al gran publico. Clientes directos: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, entre otros."
-    ],
-    "technologies": ["Angular", "AngularJS", "Nodejs", "Cinema4d (Python)", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Java (Play Framework)", "Tracking (GTM, DTM)", "SVG", "d3", "Konva", "Mercurial", "Typescript", "Moment.js"]
-  }]
+    {
+      "name": "Innofis",
+      "position": "Full-stack Developer",
+      "image": {
+        "path": "innofis.png",
+        "title": "Innofis"
+      },
+      "link": "https://crealogix.com/es/",
+      "location": "Barcelona, Cataluña, España",
+      "date": "Marzo de 2017 - Agosto de 2017",
+      "functions": [
+        "Desarrollador (Frontend y Backend) de aplicaciones y portales web.",
+        "Resolución de incidencias y mantenimiento de proyectos.",
+        "Encargado del Workflow y gestión de los distintos repositorios Github.",
+        "Documentación de proyectos."
+      ],
+      "technologies": [""]
+    },
+    {
+      "name": "Open Ximdex Evolution S.L.",
+      "position": "Full-stack Developer / Soporte técnico",
+      "image": {
+        "path": "ximdex.png",
+        "title": "Open Ximdex Evolution S.L."
+      },
+      "link": "https://www.ximdex.com/",
+      "location": "Sevilla, España",
+      "date": "Octubre de 2014 - Marzo de 2017",
+      "functions": [
+        "Desarrollador (programador, maquetador y diseñador) de aplicaciones web.",
+        "Desarrollador y técnico de soporte con Ximdex CMS.",
+        "Desarrollo de los distintos módulos de Ximdex CMS: XFIND, XOWL, XLYRE, XRANK.",
+        "Despliegue de proyectos en producción junto a tareas de test y mantenimiento.",
+        "Documentación de proyectos.",
+        "Contacto directo con el cliente mediante soporte técnico."
+      ],
+      "technologies": [""]
+    },
+    {
+      "name": "Existo Diseño Web",
+      "position": "Full-stack Developer",
+      "image": {
+        "path": "existo.svg",
+        "title": "Existo Diseño Web"
+      },
+      "link": "https://www.existo.es/",
+      "location": "Sevilla, España",
+      "date": "Junio de 2012 - Octubre de 2014",
+      "functions": [
+        "Desarrollador de múltiples portales web corporativos y tiendas online (e-commerce).",
+        "Encargado del desarrollo del CMS propío de la empresa (e-conecta).",
+        "Técnico de soporte con e-conecta."
+      ],
+      "technologies": [""]
+    },
+    {
+      "name": "Freelance",
+      "position": "Desarrollador superior de páginas web",
+      "image": {
+        "path": "",
+        "title": ""
+      },
+      "link": "",
+      "location": "Sevilla, España",
+      "date": "Febrero de 2012 - Mayo de 2012",
+      "functions": [
+        "Desarrollo íntegro de la plataforma online para estudiantes del Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla.",
+        "Desarrollador (Frontend y Backend) de aplicaciones y portales web."
+      ],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "jQuery",
+        "CSS",
+        "HTML"
+      ]
+    },
+    {
+      "name": "Gaesa SL - Gabinete Andaluz de Estudios y Actividades",
+      "position": "Desarrollador superior de páginas web",
+      "image": {
+        "path": "gaesa.jpeg",
+        "title": "Gaesa SL - Gabinete Andaluz de Estudios y Actividades"
+      },
+      "link": "",
+      "location": "Sevilla, España",
+      "date": "Julio de 2010 - Enero de 2012",
+      "functions": [
+        "Desarrollador de plataformas web para estudiantes (e-learning) y aplicaciones multimedia desarrolladas con Adobe Flash (ActionScript 3.0)."
+      ],
+      "technologies": [""]
+    }
+  ]
 }
