@@ -70,8 +70,8 @@ div.main-section {
 // Footer
 div.footer {
     @include text($noto, 0.9rem, 400, normal, $gray-500, center);
-    padding: 0.8rem 0;
-    background-color: $blanco_2;
+    padding: 1rem 0 5rem 0;
+    background-color: $blanco_3;
 
     p {
         margin-bottom: $spacer / 2;
@@ -193,6 +193,11 @@ div.footer {
     // Main section
     div.main-section {
         padding: 9rem 0 3rem 0;
+    }
+
+    // Footer
+    div.footer {
+        padding-bottom: 0;
     }
 
     // Fixed menu
