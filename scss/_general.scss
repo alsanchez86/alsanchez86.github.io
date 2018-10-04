@@ -93,8 +93,14 @@ div.footer {
 
 // Fixed menu
 .fixed-menu {
+    @include boxshadow(0, 0, 2.8rem, $negro_2);
+
     button.dropdown-toggle {
         @include border(0, 100%);
+        position: fixed;
+        bottom: 10rem;
+        right: 2rem;
+        padding: 1.375rem 1.75rem;
 
         &:after {
             content: none;
@@ -185,6 +191,14 @@ div.footer {
     div.main-section {
         padding: 9rem 0 3rem 0;
     }
+
+    // Fixed menu
+    .fixed-menu {
+        button.dropdown-toggle {
+            bottom: 8rem;
+            right: 1rem;
+        }
+    }
 }
 
 @include media-breakpoint-only(sm) {
@@ -201,6 +215,14 @@ div.footer {
     // Main section
     div.main-section {
         padding: 7rem 0 3rem 0;
+    }
+
+    // Fixed menu
+    .fixed-menu {
+        button.dropdown-toggle {
+            bottom: 8rem;
+            right: 1rem;
+        }
     }
 }
 
