@@ -93,7 +93,13 @@ div.footer {
 
 // Fixed menu
 .fixed-menu {
-    @include border(0, 100%);
+    button.dropdown-toggle {
+        @include border(0, 100%);
+
+        &:after {
+            content: none;
+        }
+    }
 }
 
 // GRID COMPONENT
