@@ -111,5 +111,19 @@
       ],
       "technologies": [""]
     }
+  ],
+  "educations": [
+    {
+      "name": "Diseño y Programación Web, Ciencias de la computación · (2008 - 2009)",
+      "location": "CEA. Confederación de Empresarios de Andalucía."
+    },
+    {
+      "name": "Diseño Gráfico y Autoedición, Diseño gráfico · (2007 - 2008)",
+      "location": "CEA. Confederación de Empresarios de Andalucía."
+    },
+    {
+      "name": "Técnico Superior en Sistemas de Telecomunicación e Informáticos · (2005 - 2007)",
+      "location": "I.E.S Torre de los Herberos"
+    }
   ]
 }

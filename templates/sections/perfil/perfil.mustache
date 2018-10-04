@@ -21,8 +21,7 @@
 
                     <p>Desarrollador de software y aplicaciones web (Full Stack. Front-end & Back-end).</p>
 
-                    <p>
-                        Experiencia en muchas "frecuencias del espectro" del desarrollo de software. Desde la gestión de servidores, bases de datos y administración de sistemas, hasta el diseño de interfaces (UI, UX), pasando por el desarrollo completo de las aplicaciones web Back-end y Front-end, donde desempeño la mayor parte de mi actividadcomo desarrollador.
+                    <p>Experiencia en muchas "frecuencias del espectro" del desarrollo de software. Desde la gestión de servidores, bases de datos y administración de sistemas, hasta el diseño de interfaces (UI, UX), pasando por el desarrollo completo de las aplicaciones web Back-end y Front-end, donde desempeño la mayor parte de mi actividadcomo desarrollador.
                     </p>
 
                     <p>Trabajador en equipo, resolutivo y conocedor de las buenas prácticas y del código limpio.</p>
@@ -49,36 +48,24 @@
             </ul>
         </div>
 
-        <h2>
-            Experiencia
-        </h2>
+        {{! Experiencia }}
+        <h2>Experiencia</h2>
 
-        {{#companies}}
+        {{# companies}}
             {{> company }}
-        {{/companies}}
+        {{/ companies}}
 
-        <h2>
-            Educación
-        </h2>
+        {{! Educación }}
+        <h2>Educación</h2>
 
         <ul>
-            <li>
-                CEA. Confederación de Empresarios de Andalucía.
-                <br>
-                Diseño y Programación Web, Ciencias de la computación · (2008 - 2009)
-            </li>
-
-            <li>
-                CEA. Confederación de Empresarios de Andalucía.
-                <br>
-                Diseño Gráfico y Autoedición, Diseño gráfico · (2007 - 2008)
-            </li>
-
-            <li>
-                I.E.S Torre de los Herberos
-                <br>
-                Técnico Superior en Sistemas de Telecomunicación e Informáticos · (2005 - 2007)
-            </li>
+            {{# educations}}
+                <li>
+                    {{ location }}
+                    <br>
+                    {{ name }}
+                </li>
+            {{/ educations}}
         </ul>
     </div>
 </section>
