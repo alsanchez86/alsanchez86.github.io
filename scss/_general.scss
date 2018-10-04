@@ -69,7 +69,7 @@ div.main-section {
 
 // Footer
 div.footer {
-    @include text($noto, 0.9rem, 400, normal, $cecece, center);
+    @include text($noto, 0.9rem, 400, normal, $gris_3, center);
     padding: 1rem 0 5rem 0;
     background-color: $blanco_3;
 
@@ -78,13 +78,13 @@ div.footer {
     }
 
     a {
-        @include link($cecece, $cecece, none, none);
+        @include link($gris_3, $gris_3, none, none);
     }
 
     ul.nav {
         li.nav-item {
             a.nav-link {
-                @include link($cecece, $cecece, none, none);
+                @include link($gris_3, $gris_3, none, none);
                 font-size: 1.3rem;
             }
         }
