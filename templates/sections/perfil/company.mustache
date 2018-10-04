@@ -1,6 +1,5 @@
 <h3>
-    {{ position }}
-    <small>en <strong>{{ name }}</strong></small>
+    {{ position }} <small>en <strong>{{ name }}</strong></small>
 </h3>
 
 <p>
@@ -20,7 +19,9 @@
 </h4>
 
 {{#functions}}
-  <li>{{.}}</li>
+    <ul>
+        <li>{{.}}</li>
+    </ul>
 {{/functions}}
 
 <h4>
@@ -28,5 +29,7 @@
 </h4>
 
 {{#technologies}}
-  <li>{{.}}</li>
+    <ul>
+        <li>{{.}}</li>
+    </ul>
 {{/technologies}}
