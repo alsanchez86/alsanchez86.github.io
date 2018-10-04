@@ -91,6 +91,11 @@ div.footer {
     }
 }
 
+// Fixed menu
+.fixed-menu {
+    @include border(0, 100%);
+}
+
 // GRID COMPONENT
 @include media-breakpoint-only(xs) {
     html {
