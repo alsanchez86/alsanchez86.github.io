@@ -95,7 +95,7 @@ div.footer {
 .fixed-menu {
     button.dropdown-toggle {
         @include border(0, 100%);
-        @include boxshadow(0, 0, 2.8rem, $negro_2);
+        @include boxshadow(0, 0.4rem, 1rem, $gris_2);
         position: fixed;
         bottom: 10rem;
         right: 2rem;
@@ -107,7 +107,7 @@ div.footer {
     }
 
     div.dropdown-menu {
-        @include boxshadow(0, 0, 2.8rem, $negro_2);
+        @include boxshadow(0, 0.4rem, 1rem, $gris_2);
     }
 }
 
