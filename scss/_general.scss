@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5 {
     color: $azul_3;
 }
 
+h1 {
+    font-family: $vt;
+}
+
 // Generic classes
 .hidden {
     overflow: hidden;
