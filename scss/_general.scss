@@ -37,6 +37,7 @@ div.page-title {
     background-color: #ca1237;
 
     h1 {
+        @include text($headings-font-family, 6rem, 300, "normal", $blanco_1);
         margin-bottom: 0;
         color: $blanco_1;
     }
