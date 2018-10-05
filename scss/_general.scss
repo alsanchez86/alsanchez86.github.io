@@ -11,10 +11,6 @@ h1, h2, h3, h4, h5 {
     color: $azul_3;
 }
 
-h1 {
-    font-family: $vt;
-}
-
 // Generic classes
 .hidden {
     overflow: hidden;
@@ -41,7 +37,7 @@ div.page-title {
     background-color: #ca1237;
 
     h1 {
-        @include text($headings-font-family, 6rem, 300, "normal", $blanco_1);
+        @include text($vt, 6rem, 300, "normal", $blanco_1);
         margin-bottom: 0;
         color: $blanco_1;
     }
