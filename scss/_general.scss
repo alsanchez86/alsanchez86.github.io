@@ -29,6 +29,17 @@ div.header-page {
     // border-bottom: 2px solid $rojo_1;
 }
 
+// Page title
+div.page-title {
+    height: 300px;
+    width: 100%;
+    background-color: #ca1237;
+
+    h1 {
+        color: $blanco_1;
+    }
+}
+
 // Main nav
 div.main-nav {
     font-size: $font-size-base;
