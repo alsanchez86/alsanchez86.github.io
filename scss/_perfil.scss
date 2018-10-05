@@ -2,6 +2,10 @@
     margin-bottom: $spacer * 3;
 }
 
+img.img-company {
+    max-width: 120px;
+}
+
 // GRID COMPONENT
 @include media-breakpoint-only(xs) {
 
