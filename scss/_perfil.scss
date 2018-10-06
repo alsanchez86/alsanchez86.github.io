@@ -1,5 +1,5 @@
-.perfil-section {
-    margin-bottom: $spacer * 3;
+div.perfil-section {
+    margin-bottom: 4.25rem;
 }
 
 img.img-company {
@@ -8,7 +8,12 @@ img.img-company {
 
 // GRID COMPONENT
 @include media-breakpoint-only(xs) {
-
+    div.perfil-section {
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
 }
 
 @include media-breakpoint-only(sm) {
