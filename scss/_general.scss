@@ -37,9 +37,9 @@ div.page-title {
     background-color: #ca1237;
 
     h1 {
-        @include text($vt, 6rem, 300, "normal", $blanco_1);
+        @include text($vt, 6rem, 300, "normal", $white);
         margin-bottom: 0;
-        color: $blanco_1;
+        color: $white;
     }
 }
 
@@ -54,7 +54,7 @@ div.main-nav {
                 text-align: right;
 
                 a.menu-icon {
-                    @include link($rojo_1, $rojo_1, none, none, transparent, transparent);
+                    @include link($white, $white, none, none, transparent, transparent);
                     display: inline-block;
                     margin: 0.5rem 0.5rem 0.2rem 0.5rem;
                     padding: 0.5rem;
