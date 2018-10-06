@@ -41,7 +41,7 @@ div.page-title {
     background-color: #ca1237;
 
     h1 {
-        @include text($vt, 6rem, 300, "normal", $white);
+        @include text($noto, 6rem, 300, "normal", $white);
         margin-bottom: 0;
         color: $white;
     }
@@ -215,7 +215,7 @@ div.footer {
 
     // Page title
     div.page-title {
-        padding: 5rem 0 1.5rem;
+        padding: 5rem 0 1rem;
 
         h1 {
             font-size: 4rem;
