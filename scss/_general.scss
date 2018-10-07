@@ -220,7 +220,7 @@ div.footer {
         padding: 5rem 0 1rem;
 
         h1 {
-            font-size: 4rem;
+            text-align: center;
         }
     }
 
@@ -266,6 +266,11 @@ div.footer {
             right: 1rem;
         }
     }
+
+    // Page title
+    div.page-title {
+        padding: 6rem 0 3rem 0;
+    }    
 }
 
 @include media-breakpoint-only(md) {
@@ -277,6 +282,11 @@ div.footer {
     div.main-section {
         padding: 7rem 0 3rem 0;
     }
+
+    // Page title
+    div.page-title {
+        padding: 8rem 0 5rem 0;
+    } 
 }
 
 @include media-breakpoint-only(lg) {
