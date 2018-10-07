@@ -37,14 +37,15 @@ div.header-page {
 div.page-title {
     width: 100%;
     margin-bottom: $spacer * 3;
-    padding: 5rem 0 2.5rem;
+    padding: 9rem 0 6rem 0;
     background: url($imgfolder + "background-page-title.svg") top center;
     background-color: #ca1237;    
 
     h1 {
-        @include text($open, 6rem, 300, "normal", $white);
+        @include text($open, 4rem, 300, "normal", $white);
         margin-bottom: 0;
         color: $white;
+        letter-spacing: 0.5rem;
     }
 }
 
