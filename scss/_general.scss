@@ -77,6 +77,10 @@ div.main-nav {
                 &.active {
                     background-color: $rojo_2;
                 }
+
+                &.nav-link-contacto {
+                    @include btn($white, $white, $azul_5, $azul_5);
+                }
             }
         }
     }
@@ -108,26 +112,6 @@ div.footer {
                 font-size: 1.3rem;
             }
         }
-    }
-}
-
-// Fixed menu
-.fixed-menu {
-    button.dropdown-toggle {
-        @include border(0, 100%);
-        @include boxshadow(0, 0.4rem, 1rem, $gris_2);
-        position: fixed;
-        bottom: 10rem;
-        right: 2rem;
-        padding: 1.375rem 1.75rem;
-
-        &:after {
-            content: none;
-        }
-    }
-
-    div.dropdown-menu {
-        @include boxshadow(0, 0.4rem, 1rem, $gris_2);
     }
 }
 
@@ -233,14 +217,6 @@ div.footer {
     div.footer {
         padding-bottom: 1rem;
     }
-
-    // Fixed menu
-    .fixed-menu {
-        button.dropdown-toggle {
-            bottom: 8rem;
-            right: 1rem;
-        }
-    }
 }
 
 @include media-breakpoint-only(sm) {
@@ -257,14 +233,6 @@ div.footer {
     // Main section
     div.main-section {
         padding: 0 0 3rem 0;
-    }
-
-    // Fixed menu
-    .fixed-menu {
-        button.dropdown-toggle {
-            bottom: 8rem;
-            right: 1rem;
-        }
     }
 
     // Page title
