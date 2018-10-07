@@ -1,46 +1,179 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="Layer_1" x="0px" y="0px" width="2000px"
-  height="503.5px" viewBox="0 0 2000 503.5" enable-background="new 0 0 2000 503.5" xml:space="preserve"
-  sodipodi:docname="background-page-title-2.svg" inkscape:version="0.92.3 (d244b95, 2018-08-02)">
-  <metadata id="metadata57">
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="2000px"
+   height="503.5px"
+   viewBox="0 0 2000 503.5"
+   enable-background="new 0 0 2000 503.5"
+   xml:space="preserve"
+   sodipodi:docname="background-page-title.svg"
+   inkscape:version="0.92.3 (d244b95, 2018-08-02)">
+  <metadata
+   id="metadata57">
     <rdf:RDF>
-      <cc:Work rdf:about="">
+      <cc:Work
+   rdf:about="">
         <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:type
+   rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <defs id="defs55" />
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10"
-    guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1867"
-    inkscape:window-height="1056" id="namedview53" showgrid="false" inkscape:zoom="0.81458701" inkscape:cx="1352.0603"
-    inkscape:cy="167.45715" inkscape:window-x="53" inkscape:window-y="24" inkscape:window-maximized="1"
-    inkscape:current-layer="Layer_1" />
-  <polygon fill="#1EC6AA" points="1644.5,-21.75 1744.5,-11.75 1804.5,218.25 " id="polygon2" style="fill:#e01237;fill-opacity:1" />
-  <polygon fill="#07AD91" points="1124.5,-21.75 854.5,198.25 944.5,228.25 " id="polygon4" style="fill:#ca1237;fill-opacity:1" />
-  <polygon fill="#46CEB4" points="1434.5,-21.75 1644.5,-21.75 1524.5,158.25 " id="polygon6" style="fill:#f5123e;fill-opacity:1" />
-  <polygon fill="#5ED3BD" points="1434.5,-21.75 1344.5,138.25 1524.5,158.25 " id="polygon8" style="fill:#f03f4d;fill-opacity:1" />
-  <polygon fill="#46CEB4" points="1124.5,-21.75 1434.5,-21.75 1344.5,138.25 " id="polygon10" style="fill:#fc103f;fill-opacity:1" />
-  <polyline fill="#5ED3BD" points="1084.5,148.25 1124.5,-21.75 1344.5,138.25 " id="polyline12" style="fill:#f53b51;fill-opacity:1" />
-  <polygon fill="#5ED3BD" points="1034.5,268.25 1194.5,58.25 1354.5,288.25 " id="polygon14" style="fill:#f53b51;fill-opacity:1" />
-  <polygon fill="#80DDCB" points="1434.5,148.25 1354.5,288.25 1194.5,58.25 " id="polygon16" style="fill:#ff6168;fill-opacity:1" />
-  <polygon fill="#97E8DA" points="1434.5,148.25 1534.5,288.25 1354.5,288.25 " id="polygon18" style="fill:#ff8b8b;fill-opacity:1" />
-  <polygon fill="#1EC6AA" points="1124.5,-21.75 954.5,198.25 1094.5,158.25 " id="polygon20" style="fill:#e01237;fill-opacity:1" />
-  <polygon fill="#5ED3BD" points="1644.5,-21.75 1804.5,218.25 1524.5,158.25 " id="polygon22" style="fill:#f03f4d;fill-opacity:1" />
-  <polygon fill="#80DDCB" points="1634.5,88.25 1434.5,148.25 1534.5,288.25 " id="polygon24" style="fill:#ff6168;fill-opacity:1" />
-  <polygon fill="#46CEB4" points="934.5,218.25 1034.5,278.25 1194.5,58.25 " id="polygon26" style="fill:#f5123e;fill-opacity:1" />
-  <polygon fill="#97E8DA" points="1784.5,248.25 1534.5,288.25 1634.5,88.25 " id="polygon28" style="fill:#ff8b8b;fill-opacity:1" />
-  <polygon fill="#A7EADD" points="1044.5,188.25 1344.5,248.25 1244.5,488.25 " id="polygon30" style="fill:#ff8b8b;fill-opacity:1" />
-  <polygon fill="#B6F2E7" points="1484.5,518.25 1244.5,488.25 1344.5,248.25 " id="polygon32" style="fill:#ffb9b9;fill-opacity:1" />
-  <polygon fill="#A7EADD" points="1584.5,258.25 1344.5,248.25 1484.5,518.25 " id="polygon34" style="fill:#ff8b8b;fill-opacity:1" />
-  <polygon fill="#B6F2E7" points="1744.5,228.25 1484.5,518.25 1584.5,258.25 " id="polygon36" style="fill:#ffabab;fill-opacity:1" />
-  <polygon fill="#97E8DA" points="1824.5,538.25 1744.5,228.25 1484.5,518.25 " id="polygon38" style="fill:#ff6168;fill-opacity:1" />
-  <polygon fill="#80DDCB" points="884.5,498.25 1044.5,188.25 1244.5,488.25 " id="polygon40" style="fill:#f53b51;fill-opacity:1" />
-  <polygon fill="#46CEB4" points="1634.5,88.25 1904.5,228.25 1784.5,278.25 " id="polygon42" style="fill:#ed2144;fill-opacity:1" />
-  <polyline fill="#1EC6AA" points="884.5,498.25 814.5,178.25 1044.5,188.25 " id="polyline44" style="fill:#e01237;fill-opacity:1" />
-  <polygon fill="#07AD91" points="624.5,508.25 814.5,178.25 884.5,498.25 " id="polygon46" style="fill:#ca1237;fill-opacity:1" />
-  <polygon fill="#5ED3BD" points="1904.5,228.25 1744.5,228.25 1824.5,538.25 " id="polygon48" style="fill:#f53b51;fill-opacity:1" />
-  <polygon fill="#1EC6AA" points="2004.5,528.25 1904.5,228.25 1824.5,538.25 " id="polygon50" style="fill:#ca1237;fill-opacity:1" />
+  <defs
+   id="defs55" />
+  <sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1867"
+   inkscape:window-height="1056"
+   id="namedview53"
+   showgrid="false"
+   inkscape:zoom="0.81458701"
+   inkscape:cx="1132.9309"
+   inkscape:cy="167.45715"
+   inkscape:window-x="53"
+   inkscape:window-y="24"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+  <polygon
+   fill="#1EC6AA"
+   points="1644.5,-21.75 1744.5,-11.75 1804.5,218.25 "
+   id="polygon2"
+   style="fill:#e01237;fill-opacity:1" />
+  <polygon
+   fill="#07AD91"
+   points="1124.5,-21.75 854.5,198.25 944.5,228.25 "
+   id="polygon4"
+   style="fill:#d4123c;fill-opacity:1" />
+  <polygon
+   fill="#46CEB4"
+   points="1434.5,-21.75 1644.5,-21.75 1524.5,158.25 "
+   id="polygon6"
+   style="fill:#f5123e;fill-opacity:1" />
+  <polygon
+   fill="#5ED3BD"
+   points="1434.5,-21.75 1344.5,138.25 1524.5,158.25 "
+   id="polygon8"
+   style="fill:#f03f4d;fill-opacity:1" />
+  <polygon
+   fill="#46CEB4"
+   points="1124.5,-21.75 1434.5,-21.75 1344.5,138.25 "
+   id="polygon10"
+   style="fill:#fc103f;fill-opacity:1" />
+  <polyline
+   fill="#5ED3BD"
+   points="1084.5,148.25 1124.5,-21.75 1344.5,138.25 "
+   id="polyline12"
+   style="fill:#f53b51;fill-opacity:1" />
+  <polygon
+   fill="#5ED3BD"
+   points="1034.5,268.25 1194.5,58.25 1354.5,288.25 "
+   id="polygon14"
+   style="fill:#f53b51;fill-opacity:1" />
+  <polygon
+   fill="#80DDCB"
+   points="1434.5,148.25 1354.5,288.25 1194.5,58.25 "
+   id="polygon16"
+   style="fill:#ff6168;fill-opacity:1" />
+  <polygon
+   fill="#97E8DA"
+   points="1434.5,148.25 1534.5,288.25 1354.5,288.25 "
+   id="polygon18"
+   style="fill:#ff8b8b;fill-opacity:1" />
+  <polygon
+   fill="#1EC6AA"
+   points="1124.5,-21.75 954.5,198.25 1094.5,158.25 "
+   id="polygon20"
+   style="fill:#e01237;fill-opacity:1" />
+  <polygon
+   fill="#5ED3BD"
+   points="1644.5,-21.75 1804.5,218.25 1524.5,158.25 "
+   id="polygon22"
+   style="fill:#f03f4d;fill-opacity:1" />
+  <polygon
+   fill="#80DDCB"
+   points="1634.5,88.25 1434.5,148.25 1534.5,288.25 "
+   id="polygon24"
+   style="fill:#ff6168;fill-opacity:1" />
+  <polygon
+   fill="#46CEB4"
+   points="934.5,218.25 1034.5,278.25 1194.5,58.25 "
+   id="polygon26"
+   style="fill:#f5123e;fill-opacity:1" />
+  <polygon
+   fill="#97E8DA"
+   points="1784.5,248.25 1534.5,288.25 1634.5,88.25 "
+   id="polygon28"
+   style="fill:#ff8b8b;fill-opacity:1" />
+  <polygon
+   fill="#A7EADD"
+   points="1044.5,188.25 1344.5,248.25 1244.5,488.25 "
+   id="polygon30"
+   style="fill:#ff8b8b;fill-opacity:1" />
+  <polygon
+   fill="#B6F2E7"
+   points="1484.5,518.25 1244.5,488.25 1344.5,248.25 "
+   id="polygon32"
+   style="fill:#ffb9b9;fill-opacity:1" />
+  <polygon
+   fill="#A7EADD"
+   points="1584.5,258.25 1344.5,248.25 1484.5,518.25 "
+   id="polygon34"
+   style="fill:#ff8b8b;fill-opacity:1" />
+  <polygon
+   fill="#B6F2E7"
+   points="1744.5,228.25 1484.5,518.25 1584.5,258.25 "
+   id="polygon36"
+   style="fill:#ffabab;fill-opacity:1" />
+  <polygon
+   fill="#97E8DA"
+   points="1824.5,538.25 1744.5,228.25 1484.5,518.25 "
+   id="polygon38"
+   style="fill:#ff6168;fill-opacity:1" />
+  <polygon
+   fill="#80DDCB"
+   points="884.5,498.25 1044.5,188.25 1244.5,488.25 "
+   id="polygon40"
+   style="fill:#f53b51;fill-opacity:1" />
+  <polygon
+   fill="#46CEB4"
+   points="1634.5,88.25 1904.5,228.25 1784.5,278.25 "
+   id="polygon42"
+   style="fill:#ed2144;fill-opacity:1" />
+  <polyline
+   fill="#1EC6AA"
+   points="884.5,498.25 814.5,178.25 1044.5,188.25 "
+   id="polyline44"
+   style="fill:#e01237;fill-opacity:1" />
+  <polygon
+   fill="#07AD91"
+   points="624.5,508.25 814.5,178.25 884.5,498.25 "
+   id="polygon46"
+   style="fill:#d4123c;fill-opacity:1" />
+  <polygon
+   fill="#5ED3BD"
+   points="1904.5,228.25 1744.5,228.25 1824.5,538.25 "
+   id="polygon48"
+   style="fill:#f53b51;fill-opacity:1" />
+  <polygon
+   fill="#1EC6AA"
+   points="2004.5,528.25 1904.5,228.25 1824.5,538.25 "
+   id="polygon50"
+   style="fill:#d4123c;fill-opacity:1" />
 </svg>
