@@ -38,8 +38,8 @@ div.page-title {
     width: 100%;
     margin-bottom: $spacer * 3;
     padding: 5rem 0 2.5rem;
-    background-color: #ca1237;
     background: url($imgfolder + "background-page-title.svg");
+    background-color: #ca1237;    
 
     h1 {
         @include text($noto, 6rem, 300, "normal", $white);
