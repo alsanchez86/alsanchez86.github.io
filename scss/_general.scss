@@ -42,7 +42,7 @@ div.page-title {
     background-color: #ca1237;    
 
     h1 {
-        @include text($noto, 6rem, 300, "normal", $white);
+        @include text($open, 6rem, 300, "normal", $white);
         margin-bottom: 0;
         color: $white;
     }
