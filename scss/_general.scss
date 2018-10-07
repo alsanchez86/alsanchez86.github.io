@@ -38,7 +38,7 @@ div.page-title {
     width: 100%;
     margin-bottom: $spacer * 3;
     padding: 5rem 0 2.5rem;
-    background: url($imgfolder + "background-page-title.svg");
+    background: url($imgfolder + "background-page-title.svg") top center;
     background-color: #ca1237;    
 
     h1 {
