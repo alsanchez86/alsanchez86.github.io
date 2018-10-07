@@ -1,5 +1,6 @@
 {
   "build_css": "../build/css",
   "requirejs_path": "../lib",
-  "main_path": "../js"
+  "main_path": "../js",
+  "page_title": "Portfolio"
 }
