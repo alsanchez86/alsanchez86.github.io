@@ -39,7 +39,7 @@ div.page-title {
     margin-bottom: $spacer * 2;
     padding: 9rem 0 6rem 0;
     background: url($imgfolder + "background-page-title.svg") top center;
-    background-color: #ca1237;    
+    background-color: #ca1237;
 
     h1 {
         @include text($open, 4rem, 300, "normal", $white);
@@ -72,8 +72,7 @@ div.main-nav {
 
             a.nav-link {
                 @include link($white, $white, none, none, transparent, transparent);
-                padding: 1.1rem 1.2rem 1.1rem 1.2rem;
-                font-size: 1.2rem;
+                padding: 1.1rem 1.2rem 1.1rem 1.2rem;                
 
                 &.active {
                     background-color: $rojo_2;
@@ -148,7 +147,7 @@ div.footer {
 
                 a.nav-link {
                     @include link($white, $white, none, none, transparent, transparent);
-                    font-size: 4rem;  
+                    font-size: 3.5rem;
 
                     &.active,
                     &:active {
@@ -237,7 +236,7 @@ div.footer {
     // Page title
     div.page-title {
         padding: 6rem 0 3rem 0;
-    }    
+    }
 }
 
 @include media-breakpoint-only(md) {
@@ -253,7 +252,7 @@ div.footer {
     // Page title
     div.page-title {
         padding: 8rem 0 5rem 0;
-    } 
+    }
 }
 
 @include media-breakpoint-only(lg) {
