@@ -72,7 +72,7 @@ div.main-nav {
 
             a.nav-link {
                 @include link($white, $white, none, none, transparent, transparent);
-                padding: 1.1rem 1.2rem 1.1rem 1.2rem;                
+                padding: 1.1rem 1.2rem 1.1rem 1.2rem;
 
                 &.active {
                     background-color: $rojo_2;
