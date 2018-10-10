@@ -2,7 +2,7 @@
   "build_css": "../build/css",
   "requirejs_path": "../lib",
   "main_path": "../js",
-  "img_folder": "../templates/sections/perfil/img",
+  "img_folder": "../img/perfil",
   "page_title": "Perfil",
   "companies": [{
       "name": "Expertus Technology",
