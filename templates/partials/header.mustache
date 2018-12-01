@@ -1,10 +1,17 @@
 <div id="header-page" class="header-page">
     <div class="container">
         <header>
-            {{! Logo }}
-            <div class="header-logo">AS</div>
-            {{! Main nav }}
-            {{> nav.mustache }}
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    {{! Logo }}
+                    <div class="header-logo">AS</div>
+                </div>
+
+                <div class="col-12 col-md-10">
+                    {{! Main nav }}
+                    {{> nav.mustache }}
+                </div>
+            </div>
         </header>
     </div>
 </div>
