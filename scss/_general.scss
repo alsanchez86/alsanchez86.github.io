@@ -39,7 +39,7 @@ div.page-title {
     margin-bottom: $spacer * 2;
     padding: 6rem 0 2.5rem 0;
     background: url($imgfolder + "background-page-title.svg") top right;
-    background-color: $blanco_1;
+    background-color: $rojo_1;
 
     h1 {
         @include text($open, 1.45rem, 700, "normal", $white);
