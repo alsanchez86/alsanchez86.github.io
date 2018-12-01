@@ -29,7 +29,7 @@ div.header-page {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: $azul_3;
+    background-color: $blanco_1;
     // border-bottom: 2px solid $rojo_1;
 }
 
@@ -37,12 +37,12 @@ div.header-page {
 div.page-title {
     width: 100%;
     margin-bottom: $spacer * 2;
-    padding: 6rem 0 3rem 0;
-    background: url($imgfolder + "background-page-title.svg") top center;
-    background-color: #ca1237;
+    padding: 6rem 0 2.5rem 0;
+    background: url($imgfolder + "background-page-title.svg") top right;
+    background-color: $blanco_1;
 
     h1 {
-        @include text($open, 4rem, 300, "normal", $white);
+        @include text($open, 1.45rem, 700, "normal", $white);
         margin-bottom: 0;
         color: $white;
         letter-spacing: 0.3rem;
@@ -60,7 +60,7 @@ div.main-nav {
                 text-align: right;
 
                 a.menu-icon {
-                    @include link($white, $white, none, none, transparent, transparent);
+                    @include link($gris_4, $gris_4, none, none, transparent, transparent);
                     display: inline-block;
                     margin: 0.5rem 0.5rem 0.2rem 0.5rem;
                     padding: 0.5rem;
@@ -71,12 +71,12 @@ div.main-nav {
             }
 
             a.nav-link {
-                @include link($white, $white, none, none, transparent, transparent);
+                @include link($gris_4, $gris_4, none, none, transparent, transparent);
                 padding: 1.1rem 1.2rem 1.1rem 1.2rem;
 
-                &.active {
-                    background-color: $rojo_2;
-                }
+                // &.active {
+                //     background-color: $rojo_2;
+                // }
             }
         }
     }
