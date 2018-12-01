@@ -99,7 +99,8 @@ div.main-section {
 div.footer {
     @include text($noto, 0.9rem, 400, normal, $gray-500, center);
     padding: 1rem 0 5rem 0;
-    background-color: $blanco_3;
+    background-color: $blanco_1;
+    border-top: 1px solid $gris_5;
 
     p {
         margin-bottom: $spacer / 2;
