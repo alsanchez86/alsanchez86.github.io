@@ -34,7 +34,8 @@ div.header-page {
     // border-bottom: 2px solid $rojo_1;
 
     div.header-logo {
-        @include text($open, 1.45rem, 700, "normal", $rojo_1);
+        @include text($open, 1.45rem, 700, normal, $rojo_1, left, none, 1.85rem);
+        padding: 1.5rem 1.2rem 1.5rem 1.2rem;
     }
 }
 
@@ -47,7 +48,7 @@ div.page-title {
     background-color: $rojo_1;
 
     h1 {
-        @include text($open, 1.45rem, 700, "normal", $white);
+        @include text($open, 1.45rem, 700, normal, $white);
         margin-bottom: 0;
         color: $white;
         letter-spacing: 0.3rem;
