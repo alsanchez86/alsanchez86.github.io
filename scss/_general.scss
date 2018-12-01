@@ -180,6 +180,7 @@ div.footer {
                             padding-bottom: 0;
 
                             a.menu-icon {
+                                @include link($white, $white, none, none, transparent, transparent);
                                 padding: 0;
                                 font-size: 3rem;
 
