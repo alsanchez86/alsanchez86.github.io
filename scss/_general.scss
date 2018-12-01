@@ -31,6 +31,10 @@ div.header-page {
     width: 100%;
     background-color: $blanco_1;
     // border-bottom: 2px solid $rojo_1;
+
+    div.header-logo {
+        @include text($open, 1.45rem, 700, "normal", $rojo_1);
+    }
 }
 
 // Page title
@@ -74,6 +78,7 @@ div.main-nav {
                 @include link($gris_4, $gris_4, none, none, transparent, transparent);
                 padding: 1.5rem 1.2rem 1.5rem 1.2rem;
                 margin: 0 0.5rem;
+                letter-spacing: 0.1rem;
 
                 // &.active {
                 //     background-color: $rojo_2;
