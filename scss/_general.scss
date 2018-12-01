@@ -37,7 +37,7 @@ div.header-page {
 div.page-title {
     width: 100%;
     margin-bottom: $spacer * 2;
-    padding: 6rem 0 2.5rem 0;
+    padding: 7rem 0 2.5rem 0;
     background: url($imgfolder + "background-page-title.svg") top right;
     background-color: $rojo_1;
 
@@ -60,7 +60,7 @@ div.main-nav {
                 text-align: right;
 
                 a.menu-icon {
-                    @include link($gris_4, $gris_4, none, none, transparent, transparent);
+                    @include link($rojo_1, $rojo_1, none, none, transparent, transparent);
                     display: inline-block;
                     margin: 0.5rem 0.5rem 0.2rem 0.5rem;
                     padding: 0.5rem;
@@ -72,7 +72,7 @@ div.main-nav {
 
             a.nav-link {
                 @include link($gris_4, $gris_4, none, none, transparent, transparent);
-                padding: 1.1rem 1.2rem 1.1rem 1.2rem;
+                padding: 1.5rem 1.2rem 1.5rem 1.2rem;
 
                 // &.active {
                 //     background-color: $rojo_2;
@@ -149,10 +149,10 @@ div.footer {
                     @include link($white, $white, none, none, transparent, transparent);
                     font-size: 3.5rem;
 
-                    &.active,
-                    &:active {
-                        color: $rojo_1;
-                    }
+                    // &.active,
+                    // &:active {
+                    //     color: $rojo_1;
+                    // }
                 }
             }
         }
@@ -167,6 +167,7 @@ div.footer {
             opacity: 0.98;
             z-index: 999;
             border-bottom: 0;
+            background-color: $rojo_1;
 
             div.main-nav {
                 font-size: 3.5rem;
@@ -199,7 +200,7 @@ div.footer {
 
     // Page title
     div.page-title {
-        padding: 6rem 0 1rem;
+        padding: 6rem 0 1.5rem;
 
         h1 {
             text-align: center;
@@ -235,7 +236,7 @@ div.footer {
 
     // Page title
     div.page-title {
-        padding: 6rem 0 3rem 0;
+        padding: 6.5rem 0 2rem 0;
     }
 }
 
@@ -251,7 +252,7 @@ div.footer {
 
     // Page title
     div.page-title {
-        padding: 8rem 0 5rem 0;
+        padding: 6.5rem 0 2rem 0;
     }
 }
 
