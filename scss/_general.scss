@@ -50,7 +50,7 @@ div.page-title {
     background-color: $rojo_1;
 
     h1 {
-        @include text($open, 1.45rem, 700, normal, $white);
+        @include text($open, 1.15rem, 700, normal, $white);
         margin-bottom: 0;
         color: $white;
         letter-spacing: 0.3rem;
