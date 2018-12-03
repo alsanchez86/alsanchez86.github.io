@@ -208,13 +208,13 @@ div.footer {
     }
 
     // Page title
-    div.page-title {
-        padding: 6rem 0 1.5rem;
+    // div.page-title {
+    //     padding: 6rem 0 1.5rem;
 
-        // h1 {
-        //     text-align: center;
-        // }
-    }
+    //     // h1 {
+    //     //     text-align: center;
+    //     // }
+    // }
 
     // Main section
     div.main-section {
@@ -244,9 +244,9 @@ div.footer {
     }
 
     // Page title
-    div.page-title {
-        padding: 6.8rem 0 2rem 0;
-    }
+    // div.page-title {
+    //     padding: 6.8rem 0 2rem 0;
+    // }
 }
 
 @include media-breakpoint-only(md) {
@@ -260,9 +260,9 @@ div.footer {
     }
 
     // Page title
-    div.page-title {
-        padding: 6.5rem 0 2rem 0;
-    }
+    // div.page-title {
+    //     padding: 6.5rem 0 2rem 0;
+    // }
 }
 
 @include media-breakpoint-only(lg) {
