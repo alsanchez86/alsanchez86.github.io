@@ -6796,32 +6796,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.54s;
-    animation-duration: 1.04s; }
+    animation-delay: 0.17s;
+    animation-duration: 0.96s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.26s;
-    animation-duration: 0.92s; }
+    animation-delay: 0.7s;
+    animation-duration: 1.14s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.3s;
-    animation-duration: 1.34s; }
+    animation-delay: 0.45s;
+    animation-duration: 1.43s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.66s;
-    animation-duration: 0.77s; }
+    animation-delay: 0.56s;
+    animation-duration: 0.63s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.38s;
-    animation-duration: 1.29s; }
+    animation-delay: -0.15s;
+    animation-duration: 0.68s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.48s;
-    animation-duration: 0.78s; }
+    animation-delay: -0.08s;
+    animation-duration: 1.45s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: -0.02s;
-    animation-duration: 1.05s; }
+    animation-delay: 0.2s;
+    animation-duration: 1.6s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0.67s;
-    animation-duration: 1.44s; }
+    animation-delay: 0.37s;
+    animation-duration: 1.6s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.57s;
-    animation-duration: 1.19s; }
+    animation-delay: 0.13s;
+    animation-duration: 0.82s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6848,32 +6848,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.53s;
-    animation-duration: 1.38s; }
+    animation-delay: 0.67s;
+    animation-duration: 0.63s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: -0.17s;
-    animation-duration: 0.65s; }
+    animation-delay: 0.65s;
+    animation-duration: 1.19s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.49s;
-    animation-duration: 1s; }
-  .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.27s;
-    animation-duration: 1.13s; }
-  .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.22s;
-    animation-duration: 1.37s; }
-  .ball-grid-pulse > div:nth-child(6) {
     animation-delay: 0.37s;
-    animation-duration: 1.38s; }
+    animation-duration: 1.08s; }
+  .ball-grid-pulse > div:nth-child(4) {
+    animation-delay: -0.11s;
+    animation-duration: 0.95s; }
+  .ball-grid-pulse > div:nth-child(5) {
+    animation-delay: 0.26s;
+    animation-duration: 1.16s; }
+  .ball-grid-pulse > div:nth-child(6) {
+    animation-delay: -0.13s;
+    animation-duration: 1.22s; }
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: -0.17s;
-    animation-duration: 0.99s; }
+    animation-delay: 0.04s;
+    animation-duration: 1.58s; }
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.01s;
-    animation-duration: 0.73s; }
+    animation-delay: 0.31s;
+    animation-duration: 1.35s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: 0.74s;
-    animation-duration: 0.98s; }
+    animation-delay: 0.38s;
+    animation-duration: 0.81s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7114,20 +7114,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: -0.12s;
-  animation-duration: 1.18s; }
+  animation-delay: 0.66s;
+  animation-duration: 1.3s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: -0.18s;
-  animation-duration: 0.49s; }
+  animation-delay: 0.56s;
+  animation-duration: 0.72s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.44s;
-  animation-duration: 1.25s; }
+  animation-delay: -0.12s;
+  animation-duration: 1.19s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: -0.13s;
-  animation-duration: 0.68s; }
+  animation-delay: -0.19s;
+  animation-duration: 0.45s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7518,13 +7518,6 @@ body {
   padding-top: 4.5rem;
   overflow: hidden; }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  color: #003466; }
-
 .hidden {
   overflow: hidden; }
 
@@ -7547,7 +7540,7 @@ div.header-page {
     text-align: left;
     text-transform: none;
     line-height: 1.85rem;
-    padding: 1.5rem 1.2rem 1.5rem 1.2rem; }
+    padding: 1.5rem 0; }
     div.header-page div.header-logo small {
       font-size: 80%; }
 
