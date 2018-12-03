@@ -44,9 +44,9 @@ div.header-page {
 // Page title
 div.page-title {
     width: 100%;
-    // margin-bottom: $spacer * 2;
     padding: 2rem 0 2rem 0;
     background: url($imgfolder + "background-page-title.svg") top right;
+    background-repeat: no-repeat;
     background-color: $rojo_1;
 
     h1 {
