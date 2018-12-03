@@ -23,7 +23,6 @@ h5 {
 
 // Header page
 div.header-page {
-    // @include boxshadow(0, 0, 2.8rem, $negro_2);
     position: fixed;
     height: $hader-page-height;
     z-index: 999;
@@ -37,7 +36,7 @@ div.header-page {
 
     div.header-logo {
         @include text($noto, 1.45rem, 700, normal, $rojo_1, left, none, 1.85rem);
-        padding: 1.5rem 1.2rem 1.5rem 1.2rem;
+        padding: 1.5rem 0;
     }
 }
 
@@ -83,10 +82,6 @@ div.main-nav {
                 padding: 1.5rem 1.2rem 1.5rem 1.2rem;
                 margin: 0 0.5rem;
                 letter-spacing: 0.1rem;
-
-                // &.active {
-                //     background-color: $rojo_2;
-                // }
             }
         }
     }
