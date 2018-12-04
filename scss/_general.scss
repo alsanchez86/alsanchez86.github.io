@@ -80,7 +80,7 @@ div.main-nav {
             a.nav-link {
                 @include link($gris_4, $gris_4, none, none, transparent, transparent);
                 padding: 1.5rem 1.2rem 1.5rem 1.2rem;
-                margin: 0 0.5rem;
+                margin: 0 0.3rem;
                 letter-spacing: 0.1rem;
             }
         }
