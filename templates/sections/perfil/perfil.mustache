@@ -1,75 +1,71 @@
 <section>
-    <div class="main-section">
-        <div class="container">
-            <div class="perfil-section">
-                <header>
-                    <h2>
-                        Ángel Luis Sánchez Pizarro
-                        <br>
-                        <small>Senior Frontend Developer</small>
-                    </h2>
-                </header>
+    <div class="perfil-section">
+        <header>
+            <h2>
+                Ángel Luis Sánchez Pizarro
+                <br>
+                <small>Senior Frontend Developer</small>
+            </h2>
+        </header>
 
-                <div class="row">
-                    <div class="col-12 col-md-3">
-                        <div class="text-center">
-                            <img class="img-fluid img-thumbnail" src="{{ img_folder }}/alsp.jpeg" alt="Ángel Luis Sánchez Pizarro Senior Frontend Developer">
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-9">
-                        <p>
-                            <small>21 de Julio de 1986 (32 años)</small>
-                            <br>
-                            <small>Sevilla, España</small>
-                        </p>
-
-                        <p>Desarrollador de software y aplicaciones web (Full Stack. Front-end & Back-end).</p>
-
-                        <p>Experiencia en muchas "frecuencias del espectro" del desarrollo de software. Desde la
-                            gestión de
-                            servidores, bases de datos y administración de sistemas, hasta el diseño de interfaces (UI,
-                            UX), pasando por el desarrollo completo de las aplicaciones web Back-end y Front-end, donde
-                            desempeño la mayor parte de mi actividadcomo desarrollador.
-                        </p>
-
-                        <p>Trabajador en equipo, resolutivo y conocedor de las buenas prácticas y del código limpio.</p>
-
-                        <h5>Idiomas</h5>
-
-                        <ul>
-                            <li>Español (Nativo)</li>
-                            <li>Inglés (Competencia profesional)</li>
-                        </ul>
-
-                        <h5>Premios</h5>
-
-                        <ul>
-                            <li>1º Premio wibikes.com. Ranking 2014.</li>
-                        </ul>
-                    </div>
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="text-center">
+                    <img class="img-fluid img-thumbnail" src="{{ img_folder }}/alsp.jpeg" alt="Ángel Luis Sánchez Pizarro Senior Frontend Developer">
                 </div>
             </div>
 
-            {{! Experiencia }}
-            <h2>Experiencia</h2>
-
-            {{# companies}}
-            {{> company }}
-            {{/ companies}}
-
-            {{! Educación }}
-            <h2>Educación</h2>
-
-            <ul>
-                {{# education}}
-                <li>
-                    {{ location }}
+            <div class="col-12 col-md-9">
+                <p>
+                    <small>21 de Julio de 1986 (32 años)</small>
                     <br>
-                    {{ name }}
-                </li>
-                {{/ education}}
-            </ul>
+                    <small>Sevilla, España</small>
+                </p>
+
+                <p>Desarrollador de software y aplicaciones web (Full Stack. Front-end & Back-end).</p>
+
+                <p>Experiencia en muchas "frecuencias del espectro" del desarrollo de software. Desde la
+                    gestión de
+                    servidores, bases de datos y administración de sistemas, hasta el diseño de interfaces (UI,
+                    UX), pasando por el desarrollo completo de las aplicaciones web Back-end y Front-end, donde
+                    desempeño la mayor parte de mi actividadcomo desarrollador.
+                </p>
+
+                <p>Trabajador en equipo, resolutivo y conocedor de las buenas prácticas y del código limpio.</p>
+
+                <h5>Idiomas</h5>
+
+                <ul>
+                    <li>Español (Nativo)</li>
+                    <li>Inglés (Competencia profesional)</li>
+                </ul>
+
+                <h5>Premios</h5>
+
+                <ul>
+                    <li>1º Premio wibikes.com. Ranking 2014.</li>
+                </ul>
+            </div>
         </div>
     </div>
+
+    {{! Experiencia }}
+    <h2>Experiencia</h2>
+
+    {{# companies}}
+    {{> company }}
+    {{/ companies}}
+
+    {{! Educación }}
+    <h2>Educación</h2>
+
+    <ul>
+        {{# education}}
+        <li>
+            {{ location }}
+            <br>
+            {{ name }}
+        </li>
+        {{/ education}}
+    </ul>
 </section>

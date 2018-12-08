@@ -101,8 +101,17 @@ div.rrss-nav {
 
 // Main section
 div.main-section {
-    padding: 3rem 0;
     background-color: $blanco_4;
+
+    div.main-aside {
+        padding: 3rem 0;
+    }
+
+    div.main-content {
+        padding: 3rem 0;
+        background-color: $blanco_1;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 0px 5px, rgba(0, 0, 0, 0.1) 0px 5px 22px -8px;
+    }
 }
 
 // Footer
