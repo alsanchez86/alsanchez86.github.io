@@ -100,22 +100,22 @@ div.footer {
     background-color: $blanco_1;
     border-top: 1px solid $gris_5;
 
-    p {
-        margin-bottom: $spacer / 2;
-    }
+    // p {
+    //     margin-bottom: $spacer / 2;
+    // }
 
-    a {
-        @include link($gray-500, $gray-500, none, none);
-    }
+    // a {
+    //     @include link($gray-500, $gray-500, none, none);
+    // }
 
-    ul.nav {
-        li.nav-item {
-            a.nav-link {
-                @include link($gray-500, $gray-500, none, none);
-                font-size: 1.3rem;
-            }
-        }
-    }
+    // ul.nav {
+    //     li.nav-item {
+    //         a.nav-link {
+    //             @include link($gray-500, $gray-500, none, none);
+    //             font-size: 1.3rem;
+    //         }
+    //     }
+    // }
 }
 
 // GRID COMPONENT
