@@ -266,6 +266,16 @@ div.footer {
         font-size: $font-size-md;
     }
 
+    div.main-nav {
+        ul.nav {
+            li.nav-item {
+                a.nav-link {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
     // Main section
     // div.main-section {
     //     padding: 7rem 0 3rem 0;
