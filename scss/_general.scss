@@ -104,7 +104,9 @@ div.main-section {
     background-color: $blanco_4;
 
     div.main-aside {
-        padding: 3rem 0;
+        position: sticky;
+        top: 4rem;
+        padding: 3rem 0 0 0;
     }
 
     div.main-content {
