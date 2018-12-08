@@ -90,9 +90,10 @@ div.main-nav {
 // rrss nav
 .rrss-nav {
     ul.nav {
-        li.nav-item {           
+        li.nav-item {
             a.nav-link {
-                @include link($rojo_1, $rojo_1, none, none, transparent, transparent);                
+                @include link($rojo_1, $rojo_1, none, none, transparent, transparent);
+                padding: 1.5rem 1.2rem 1.5rem 1.2rem;
             }
         }
     }
@@ -279,6 +280,16 @@ div.footer {
 @include media-breakpoint-only(lg) {
     html {
         font-size: $font-size-lg;
+    }
+
+    .main-nav {
+        ul.nav {
+            li.nav-item {
+                a.nav-link {
+                    margin: 0;
+                }
+            }
+        }
     }
 }
 
