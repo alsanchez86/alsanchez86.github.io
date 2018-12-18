@@ -79,7 +79,7 @@ div.main-nav {
 
             a.nav-link {
                 @include link($gris_4, $gris_4, none, none, transparent, transparent);
-                padding: 1.5rem 1.2rem 1.5rem 1.2rem;
+                padding: 1.4rem 1.2rem 1.4rem 1.2rem;
                 margin: 0 0.3rem;
                 letter-spacing: 0.1rem;
             }
@@ -92,8 +92,9 @@ div.rrss-nav {
     ul.nav {
         li.nav-item {
             a.nav-link {
-                @include link($rojo_1, $rojo_1, none, none, transparent, transparent);
-                padding: 1.5rem 1.2rem 1.5rem 1.2rem;
+                @include link($body-color, $body-color, none, none, transparent, transparent);
+                padding: 1.5rem 1rem;
+                font-size: 1.3rem;
             }
         }
     }
@@ -239,6 +240,12 @@ div.footer {
                     }
                 }
             }
+        }
+    }
+
+    div.main-section {
+        div.main-content {
+            padding: 3rem;
         }
     }
 
