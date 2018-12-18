@@ -92,9 +92,8 @@ div.rrss-nav {
     ul.nav {
         li.nav-item {
             a.nav-link {
-                @include link($body-color, $body-color, none, none, transparent, transparent);
+                @include link($gris_4, $gris_4, none, none, transparent, transparent);
                 padding: 1.5rem 1rem;
-                font-size: 1.3rem;
             }
         }
     }
