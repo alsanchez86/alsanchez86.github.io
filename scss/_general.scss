@@ -106,12 +106,20 @@ div.main-section {
     div.main-aside {
         position: sticky;
         top: 4rem;
-        padding: 3rem 0 0 0;
+        padding: 2rem 0 0 0;
+
+        & > .navbar {
+            padding: 0.75rem;
+
+            a {
+                @include link($body-color, $body-color, none, none, transparent, transparent);
+            }
+        }
     }
 
     div.main-content {
         margin-bottom: 5rem;
-        padding: 3rem 6rem;
+        padding: 3rem 4rem;
         background-color: $blanco_1;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 0px 5px, rgba(0, 0, 0, 0.1) 0px 5px 22px -8px;
         border-radius: 0.8rem;
