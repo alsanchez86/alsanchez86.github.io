@@ -40,7 +40,11 @@ div.header-page {
 
     div.header-logo {
         @include text($open, 1.25rem, 400, normal, $body_color, left, none, 1.85rem);
-        padding: 1.5rem 0;
+        
+        a {
+            @include link($body_color, $body_color, none, none, transparent, transparent);
+            padding: 1.5rem 0;
+        }
     }
 }
 

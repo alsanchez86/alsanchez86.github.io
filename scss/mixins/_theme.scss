@@ -12,6 +12,9 @@
   div.header-page {
     div.header-logo {
       @include text($open, 1.25rem, 400, normal, $color, left, none, 1.85rem);
+      a {
+        @include link($color, $color, none, none, transparent, transparent);
+      }
     }
   }
 
