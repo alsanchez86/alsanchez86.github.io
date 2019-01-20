@@ -1,3 +1,7 @@
+.theme-perfil {
+    @include theme(orange);
+}
+
 div.perfil-section {
     margin-bottom: 4.25rem;
 }
