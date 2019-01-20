@@ -6796,32 +6796,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.29s;
-    animation-duration: 1.27s; }
+    animation-delay: 0.31s;
+    animation-duration: 0.76s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: -0.11s;
-    animation-duration: 0.81s; }
+    animation-delay: 0.45s;
+    animation-duration: 1.54s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.56s;
-    animation-duration: 1.07s; }
+    animation-delay: 0.63s;
+    animation-duration: 1.59s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.3s;
-    animation-duration: 1.12s; }
+    animation-delay: 0.05s;
+    animation-duration: 1.17s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.73s;
-    animation-duration: 0.79s; }
+    animation-delay: -0.11s;
+    animation-duration: 1.42s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.24s;
-    animation-duration: 1.36s; }
+    animation-delay: 0.79s;
+    animation-duration: 1.09s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.42s;
-    animation-duration: 0.94s; }
+    animation-delay: -0.09s;
+    animation-duration: 0.62s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0.11s;
-    animation-duration: 1.25s; }
+    animation-delay: 0.06s;
+    animation-duration: 1.55s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.55s;
-    animation-duration: 1.25s; }
+    animation-delay: 0.22s;
+    animation-duration: 1.53s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6848,32 +6848,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.1s;
-    animation-duration: 1.18s; }
+    animation-delay: -0.06s;
+    animation-duration: 0.87s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.19s;
-    animation-duration: 0.89s; }
+    animation-delay: 0.74s;
+    animation-duration: 1.2s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.8s;
-    animation-duration: 1.43s; }
+    animation-delay: 0.25s;
+    animation-duration: 1.14s; }
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.12s;
-    animation-duration: 1.04s; }
+    animation-delay: 0.27s;
+    animation-duration: 1.59s; }
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: -0.1s;
-    animation-duration: 1.43s; }
+    animation-delay: 0.34s;
+    animation-duration: 0.82s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: 0.75s;
-    animation-duration: 1.48s; }
+    animation-delay: -0.13s;
+    animation-duration: 0.61s; }
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0s;
-    animation-duration: 1.54s; }
+    animation-delay: 0.02s;
+    animation-duration: 1.16s; }
   .ball-grid-pulse > div:nth-child(8) {
     animation-delay: 0.47s;
-    animation-duration: 0.88s; }
+    animation-duration: 0.62s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: 0.78s;
-    animation-duration: 0.98s; }
+    animation-delay: 0.36s;
+    animation-duration: 1.3s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7115,19 +7115,19 @@ a.text-dark:hover, a.text-dark:focus {
 
 .line-scale-party > div:nth-child(1) {
   animation-delay: 0.35s;
-  animation-duration: 0.66s; }
+  animation-duration: 1.29s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.43s;
-  animation-duration: 0.95s; }
-
-.line-scale-party > div:nth-child(3) {
-  animation-delay: 0.78s;
+  animation-delay: 0.04s;
   animation-duration: 1.28s; }
 
+.line-scale-party > div:nth-child(3) {
+  animation-delay: 0.79s;
+  animation-duration: 0.41s; }
+
 .line-scale-party > div:nth-child(4) {
-  animation-delay: -0.07s;
-  animation-duration: 0.81s; }
+  animation-delay: 0.28s;
+  animation-duration: 0.54s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7539,7 +7539,7 @@ div.header-page {
     font-size: 1.25rem;
     font-weight: 400;
     font-style: normal;
-    color: crimson;
+    color: #212529;
     text-align: left;
     text-transform: none;
     line-height: 1.85rem;
@@ -7552,7 +7552,7 @@ div.page-title {
   padding: 2rem 0 2rem 0;
   background: url("../../img/background-page-title.svg") top right;
   background-repeat: no-repeat;
-  background-color: crimson; }
+  background-color: #212529; }
   div.page-title h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 1.15rem;
@@ -7574,7 +7574,7 @@ div.main-nav {
     display: none;
     text-align: right; }
     div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-      color: crimson;
+      color: #212529;
       text-decoration: none;
       background-color: transparent;
       display: inline-block;
@@ -7584,7 +7584,7 @@ div.main-nav {
       line-height: 100%;
       pointer-events: auto; }
       div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-        color: crimson;
+        color: #212529;
         text-decoration: none;
         background-color: transparent; }
   div.main-nav ul.nav li.nav-item a.nav-link {
@@ -7600,12 +7600,12 @@ div.main-nav {
       background-color: transparent; }
 
 div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: crimson;
+  color: #212529;
   text-decoration: none;
   background-color: transparent;
   padding: 1.5rem 1rem; }
   div.rrss-nav ul.nav li.nav-item a.nav-link:hover, div.rrss-nav ul.nav li.nav-item a.nav-link:focus, div.rrss-nav ul.nav li.nav-item a.nav-link.active, div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: crimson;
+    color: #212529;
     text-decoration: none;
     background-color: transparent; }
 
@@ -7683,7 +7683,7 @@ div.footer {
       opacity: 0.98;
       z-index: 999;
       border-bottom: 0;
-      background-color: crimson; }
+      background-color: #212529; }
       div.header-page.header-page-open div.main-nav {
         font-size: 3.5rem; }
         div.header-page.header-page-open div.main-nav ul.nav li.nav-item {
@@ -7731,42 +7731,45 @@ div.footer {
   html {
     font-size: 0.83375rem; } }
 
-.theme-perfil {
-  background-color: orange; }
-  .theme-perfil .main-loader-container .main-loader > div > div {
-    background-color: orange; }
-  .theme-perfil div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-style: normal;
-    color: orange;
-    text-align: left;
-    text-transform: none;
-    line-height: 1.85rem; }
-    .theme-perfil div.header-page div.header-logo small {
-      font-size: 80%; }
-  .theme-perfil div.page-title {
-    background-color: orange; }
-  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-    color: orange;
+.theme-perfil .main-loader-container .main-loader > div > div {
+  background-color: crimson; }
+
+.theme-perfil div.header-page div.header-logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  color: crimson;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.85rem; }
+  .theme-perfil div.header-page div.header-logo small {
+    font-size: 80%; }
+
+.theme-perfil div.page-title {
+  background-color: crimson; }
+
+.theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+  color: crimson;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
+    color: crimson;
     text-decoration: none;
     background-color: transparent; }
-    .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-      color: orange;
-      text-decoration: none;
-      background-color: transparent; }
-  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
-    color: orange;
+
+.theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
+  color: crimson;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
+    color: crimson;
     text-decoration: none;
     background-color: transparent; }
-    .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-      color: orange;
-      text-decoration: none;
-      background-color: transparent; }
-  @media (max-width: 575.98px) {
-    .theme-perfil div.header-page.header-page-open {
-      background-color: orange; } }
+
+@media (max-width: 575.98px) {
+  .theme-perfil div.header-page.header-page-open {
+    background-color: crimson; } }
 
 div.perfil-section {
   margin-bottom: 4.25rem; }

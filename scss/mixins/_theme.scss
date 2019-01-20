@@ -1,6 +1,4 @@
 @mixin theme ($color: $body-color) {
-  background-color: $color;
-
   // Loader
   .main-loader-container {
     .main-loader {
