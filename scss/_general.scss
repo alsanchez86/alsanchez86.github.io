@@ -43,6 +43,7 @@ div.header-page {
         
         a {
             @include link($body_color, $body_color, none, none, transparent, transparent);
+            display: block;
             padding: 1.4rem 0;
         }
     }
