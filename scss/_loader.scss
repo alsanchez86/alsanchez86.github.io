@@ -20,7 +20,7 @@
         transform: translate(-50%, -50%);
 
         /* Standard syntax */
-        &>div>div {
+        & > div > div {
             opacity: 0.8;
             background-color: $body-color;
         }

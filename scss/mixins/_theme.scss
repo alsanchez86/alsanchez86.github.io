@@ -2,9 +2,54 @@
   background-color: $color;
 
   // Loader
-  .main-loader-container {  
-    .main-loader {      
-      & > div > div {        
+  .main-loader-container {
+    .main-loader {
+      &>div>div {
+        background-color: $color;
+      }
+    }
+  }
+
+  // Header page
+  div.header-page {
+    div.header-logo {
+      @include text($open, 1.25rem, 400, normal, $color, left, none, 1.85rem);
+    }
+  }
+
+  // Page title
+  div.page-title {
+    background-color: $color;
+  }
+
+  // Main nav
+  div.main-nav {
+    ul.nav {
+      li.nav-item {
+        &.nav-item-branded {
+          a.menu-icon {
+            @include link($color, $color, none, none, transparent, transparent);
+          }
+        }
+      }
+    }
+  }
+
+  // rrss nav
+  div.rrss-nav {
+    ul.nav {
+      li.nav-item {
+        a.nav-link {
+          @include link($color, $color, none, none, transparent, transparent);
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-only(xs) {
+    // Header page
+    div.header-page {
+      &.header-page-open {
         background-color: $color;
       }
     }
