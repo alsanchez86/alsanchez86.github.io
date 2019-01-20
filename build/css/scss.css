@@ -6796,32 +6796,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.68s;
-    animation-duration: 1.35s; }
+    animation-delay: -0.13s;
+    animation-duration: 0.93s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.4s;
-    animation-duration: 1.28s; }
+    animation-delay: 0.79s;
+    animation-duration: 1.51s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.19s;
-    animation-duration: 1.08s; }
+    animation-delay: 0.22s;
+    animation-duration: 0.97s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.47s;
-    animation-duration: 1.14s; }
+    animation-delay: 0.33s;
+    animation-duration: 0.79s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.31s;
-    animation-duration: 1.17s; }
+    animation-delay: 0.1s;
+    animation-duration: 1.04s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.25s;
-    animation-duration: 0.78s; }
+    animation-delay: 0.05s;
+    animation-duration: 1.35s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.78s;
-    animation-duration: 1.49s; }
+    animation-delay: 0.66s;
+    animation-duration: 0.86s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: -0.1s;
-    animation-duration: 0.67s; }
+    animation-delay: -0.17s;
+    animation-duration: 1.26s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.32s;
-    animation-duration: 1.49s; }
+    animation-delay: 0.8s;
+    animation-duration: 1.39s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6848,32 +6848,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.24s;
-    animation-duration: 0.87s; }
+    animation-delay: 0.64s;
+    animation-duration: 1.59s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.57s;
-    animation-duration: 0.91s; }
+    animation-delay: 0.75s;
+    animation-duration: 0.97s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.55s;
-    animation-duration: 1.36s; }
+    animation-delay: -0.14s;
+    animation-duration: 1.37s; }
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.08s;
-    animation-duration: 0.88s; }
+    animation-delay: -0.07s;
+    animation-duration: 1.54s; }
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.12s;
-    animation-duration: 1.17s; }
+    animation-delay: 0.22s;
+    animation-duration: 0.67s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: 0.36s;
-    animation-duration: 1.23s; }
+    animation-delay: 0.26s;
+    animation-duration: 1.35s; }
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0.47s;
-    animation-duration: 0.85s; }
+    animation-delay: 0.62s;
+    animation-duration: 1.42s; }
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.58s;
-    animation-duration: 0.96s; }
+    animation-delay: 0.5s;
+    animation-duration: 1.51s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: 0.11s;
-    animation-duration: 0.69s; }
+    animation-delay: 0.73s;
+    animation-duration: 1.29s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7114,20 +7114,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.31s;
-  animation-duration: 1.08s; }
+  animation-delay: 0.72s;
+  animation-duration: 0.5s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: -0.03s;
-  animation-duration: 1.19s; }
+  animation-delay: 0.34s;
+  animation-duration: 0.52s; }
 
 .line-scale-party > div:nth-child(3) {
   animation-delay: 0.66s;
-  animation-duration: 0.67s; }
+  animation-duration: 1.01s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: -0.01s;
-  animation-duration: 0.69s; }
+  animation-delay: 0.42s;
+  animation-duration: 0.76s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7732,6 +7732,46 @@ div.footer {
     font-size: 0.83375rem; } }
 
 .theme-perfil .main-loader-container .main-loader > div > div {
+  background-color: #4285f4; }
+
+.theme-perfil div.header-page div.header-logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #4285f4;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.85rem; }
+  .theme-perfil div.header-page div.header-logo small {
+    font-size: 80%; }
+
+.theme-perfil div.page-title {
+  background-color: #4285f4; }
+
+.theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+  color: #4285f4;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
+    color: #4285f4;
+    text-decoration: none;
+    background-color: transparent; }
+
+.theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
+  color: #4285f4;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
+    color: #4285f4;
+    text-decoration: none;
+    background-color: transparent; }
+
+@media (max-width: 575.98px) {
+  .theme-perfil div.header-page.header-page-open {
+    background-color: #4285f4; } }
+
+.theme-perfil .main-loader-container .main-loader > div > div {
   background-color: crimson; }
 
 .theme-perfil div.header-page div.header-logo {
@@ -7781,3 +7821,123 @@ img.img-company {
   div.perfil-section h2 {
     font-size: 2rem;
     text-align: center; } }
+
+.theme-perfil .main-loader-container .main-loader > div > div {
+  background-color: #34a853; }
+
+.theme-perfil div.header-page div.header-logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #34a853;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.85rem; }
+  .theme-perfil div.header-page div.header-logo small {
+    font-size: 80%; }
+
+.theme-perfil div.page-title {
+  background-color: #34a853; }
+
+.theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+  color: #34a853;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
+    color: #34a853;
+    text-decoration: none;
+    background-color: transparent; }
+
+.theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
+  color: #34a853;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
+    color: #34a853;
+    text-decoration: none;
+    background-color: transparent; }
+
+@media (max-width: 575.98px) {
+  .theme-perfil div.header-page.header-page-open {
+    background-color: #34a853; } }
+
+.theme-perfil .main-loader-container .main-loader > div > div {
+  background-color: #c86dd7; }
+
+.theme-perfil div.header-page div.header-logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #c86dd7;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.85rem; }
+  .theme-perfil div.header-page div.header-logo small {
+    font-size: 80%; }
+
+.theme-perfil div.page-title {
+  background-color: #c86dd7; }
+
+.theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+  color: #c86dd7;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
+    color: #c86dd7;
+    text-decoration: none;
+    background-color: transparent; }
+
+.theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
+  color: #c86dd7;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
+    color: #c86dd7;
+    text-decoration: none;
+    background-color: transparent; }
+
+@media (max-width: 575.98px) {
+  .theme-perfil div.header-page.header-page-open {
+    background-color: #c86dd7; } }
+
+.theme-perfil .main-loader-container .main-loader > div > div {
+  background-color: #fbbc05; }
+
+.theme-perfil div.header-page div.header-logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #fbbc05;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.85rem; }
+  .theme-perfil div.header-page div.header-logo small {
+    font-size: 80%; }
+
+.theme-perfil div.page-title {
+  background-color: #fbbc05; }
+
+.theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+  color: #fbbc05;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
+    color: #fbbc05;
+    text-decoration: none;
+    background-color: transparent; }
+
+.theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
+  color: #fbbc05;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
+    color: #fbbc05;
+    text-decoration: none;
+    background-color: transparent; }
+
+@media (max-width: 575.98px) {
+  .theme-perfil div.header-page.header-page-open {
+    background-color: #fbbc05; } }
