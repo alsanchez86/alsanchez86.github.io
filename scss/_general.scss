@@ -35,7 +35,7 @@ div.header-page {
     // border-bottom: 2px solid $rojo_1;
 
     div.header-logo {
-        @include text($noto, 1.45rem, 700, normal, $rojo_1, left, none, 1.85rem);
+        @include text($open, 1.25rem, 400, normal, $rojo_1, left, none, 1.85rem);
         padding: 1.5rem 0;
     }
 }
