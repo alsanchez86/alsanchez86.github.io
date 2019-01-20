@@ -83,7 +83,7 @@ div.main-nav {
 
             a.nav-link {
                 @include link($gris_4, $gris_4, none, none, transparent, transparent);
-                padding: 1.2rem;
+                padding: 1.3rem 1.2rem;
                 margin: 0 0.2rem;
                 letter-spacing: 0.1rem;
             }
@@ -194,6 +194,7 @@ div.footer {
                 a.nav-link {
                     @include link($white, $white, none, none, transparent, transparent);
                     margin: 0;
+                    padding: 1.2rem;
                     font-size: 3.5rem;
 
                     // &.active,
