@@ -6796,32 +6796,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: -0.13s;
-    animation-duration: 0.93s; }
+    animation-delay: 0.25s;
+    animation-duration: 1.23s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.79s;
-    animation-duration: 1.51s; }
+    animation-delay: 0.35s;
+    animation-duration: 1.11s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.22s;
-    animation-duration: 0.97s; }
+    animation-delay: 0.09s;
+    animation-duration: 1.32s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.33s;
-    animation-duration: 0.79s; }
+    animation-delay: -0.04s;
+    animation-duration: 1.55s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.1s;
-    animation-duration: 1.04s; }
+    animation-delay: -0.11s;
+    animation-duration: 0.63s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.05s;
-    animation-duration: 1.35s; }
+    animation-delay: 0.62s;
+    animation-duration: 1.51s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.66s;
-    animation-duration: 0.86s; }
+    animation-delay: 0.43s;
+    animation-duration: 0.61s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: -0.17s;
-    animation-duration: 1.26s; }
+    animation-delay: 0.5s;
+    animation-duration: 0.81s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.8s;
-    animation-duration: 1.39s; }
+    animation-delay: 0.69s;
+    animation-duration: 0.62s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6848,32 +6848,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.64s;
-    animation-duration: 1.59s; }
-  .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.75s;
-    animation-duration: 0.97s; }
-  .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: -0.14s;
-    animation-duration: 1.37s; }
-  .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: -0.07s;
-    animation-duration: 1.54s; }
-  .ball-grid-pulse > div:nth-child(5) {
     animation-delay: 0.22s;
-    animation-duration: 0.67s; }
-  .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: 0.26s;
-    animation-duration: 1.35s; }
-  .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0.62s;
-    animation-duration: 1.42s; }
-  .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.5s;
+    animation-duration: 0.61s; }
+  .ball-grid-pulse > div:nth-child(2) {
+    animation-delay: 0.3s;
+    animation-duration: 1.03s; }
+  .ball-grid-pulse > div:nth-child(3) {
+    animation-delay: 0.21s;
+    animation-duration: 1.45s; }
+  .ball-grid-pulse > div:nth-child(4) {
+    animation-delay: -0.17s;
     animation-duration: 1.51s; }
+  .ball-grid-pulse > div:nth-child(5) {
+    animation-delay: 0.61s;
+    animation-duration: 0.69s; }
+  .ball-grid-pulse > div:nth-child(6) {
+    animation-delay: 0.27s;
+    animation-duration: 0.74s; }
+  .ball-grid-pulse > div:nth-child(7) {
+    animation-delay: 0.59s;
+    animation-duration: 1.54s; }
+  .ball-grid-pulse > div:nth-child(8) {
+    animation-delay: 0.33s;
+    animation-duration: 0.76s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: 0.73s;
-    animation-duration: 1.29s; }
+    animation-delay: 0.38s;
+    animation-duration: 1.2s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7114,20 +7114,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.72s;
-  animation-duration: 0.5s; }
+  animation-delay: 0.74s;
+  animation-duration: 1.02s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.34s;
-  animation-duration: 0.52s; }
+  animation-delay: 0.59s;
+  animation-duration: 0.69s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.66s;
-  animation-duration: 1.01s; }
+  animation-delay: 0.27s;
+  animation-duration: 1.14s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.42s;
-  animation-duration: 0.76s; }
+  animation-delay: 0.71s;
+  animation-duration: 0.59s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7731,10 +7731,10 @@ div.footer {
   html {
     font-size: 0.83375rem; } }
 
-.theme-perfil .main-loader-container .main-loader > div > div {
+.theme-inicio .main-loader-container .main-loader > div > div {
   background-color: #4285f4; }
 
-.theme-perfil div.header-page div.header-logo {
+.theme-inicio div.header-page div.header-logo {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
@@ -7743,32 +7743,32 @@ div.footer {
   text-align: left;
   text-transform: none;
   line-height: 1.85rem; }
-  .theme-perfil div.header-page div.header-logo small {
+  .theme-inicio div.header-page div.header-logo small {
     font-size: 80%; }
 
-.theme-perfil div.page-title {
+.theme-inicio div.page-title {
   background-color: #4285f4; }
 
-.theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+.theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
   color: #4285f4;
   text-decoration: none;
   background-color: transparent; }
-  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
+  .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
     color: #4285f4;
     text-decoration: none;
     background-color: transparent; }
 
-.theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
+.theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link {
   color: #4285f4;
   text-decoration: none;
   background-color: transparent; }
-  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
+  .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link:active {
     color: #4285f4;
     text-decoration: none;
     background-color: transparent; }
 
 @media (max-width: 575.98px) {
-  .theme-perfil div.header-page.header-page-open {
+  .theme-inicio div.header-page.header-page-open {
     background-color: #4285f4; } }
 
 .theme-perfil .main-loader-container .main-loader > div > div {
@@ -7822,10 +7822,10 @@ img.img-company {
     font-size: 2rem;
     text-align: center; } }
 
-.theme-perfil .main-loader-container .main-loader > div > div {
+.theme-portfolio .main-loader-container .main-loader > div > div {
   background-color: #34a853; }
 
-.theme-perfil div.header-page div.header-logo {
+.theme-portfolio div.header-page div.header-logo {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
@@ -7834,38 +7834,38 @@ img.img-company {
   text-align: left;
   text-transform: none;
   line-height: 1.85rem; }
-  .theme-perfil div.header-page div.header-logo small {
+  .theme-portfolio div.header-page div.header-logo small {
     font-size: 80%; }
 
-.theme-perfil div.page-title {
+.theme-portfolio div.page-title {
   background-color: #34a853; }
 
-.theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+.theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
   color: #34a853;
   text-decoration: none;
   background-color: transparent; }
-  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
+  .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
     color: #34a853;
     text-decoration: none;
     background-color: transparent; }
 
-.theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
+.theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link {
   color: #34a853;
   text-decoration: none;
   background-color: transparent; }
-  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
+  .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link:active {
     color: #34a853;
     text-decoration: none;
     background-color: transparent; }
 
 @media (max-width: 575.98px) {
-  .theme-perfil div.header-page.header-page-open {
+  .theme-portfolio div.header-page.header-page-open {
     background-color: #34a853; } }
 
-.theme-perfil .main-loader-container .main-loader > div > div {
+.theme-blog .main-loader-container .main-loader > div > div {
   background-color: #c86dd7; }
 
-.theme-perfil div.header-page div.header-logo {
+.theme-blog div.header-page div.header-logo {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
@@ -7874,38 +7874,38 @@ img.img-company {
   text-align: left;
   text-transform: none;
   line-height: 1.85rem; }
-  .theme-perfil div.header-page div.header-logo small {
+  .theme-blog div.header-page div.header-logo small {
     font-size: 80%; }
 
-.theme-perfil div.page-title {
+.theme-blog div.page-title {
   background-color: #c86dd7; }
 
-.theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+.theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
   color: #c86dd7;
   text-decoration: none;
   background-color: transparent; }
-  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
+  .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
     color: #c86dd7;
     text-decoration: none;
     background-color: transparent; }
 
-.theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
+.theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link {
   color: #c86dd7;
   text-decoration: none;
   background-color: transparent; }
-  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
+  .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link:active {
     color: #c86dd7;
     text-decoration: none;
     background-color: transparent; }
 
 @media (max-width: 575.98px) {
-  .theme-perfil div.header-page.header-page-open {
+  .theme-blog div.header-page.header-page-open {
     background-color: #c86dd7; } }
 
-.theme-perfil .main-loader-container .main-loader > div > div {
+.theme-contacto .main-loader-container .main-loader > div > div {
   background-color: #fbbc05; }
 
-.theme-perfil div.header-page div.header-logo {
+.theme-contacto div.header-page div.header-logo {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
@@ -7914,30 +7914,30 @@ img.img-company {
   text-align: left;
   text-transform: none;
   line-height: 1.85rem; }
-  .theme-perfil div.header-page div.header-logo small {
+  .theme-contacto div.header-page div.header-logo small {
     font-size: 80%; }
 
-.theme-perfil div.page-title {
+.theme-contacto div.page-title {
   background-color: #fbbc05; }
 
-.theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+.theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
   color: #fbbc05;
   text-decoration: none;
   background-color: transparent; }
-  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
+  .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
     color: #fbbc05;
     text-decoration: none;
     background-color: transparent; }
 
-.theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
+.theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link {
   color: #fbbc05;
   text-decoration: none;
   background-color: transparent; }
-  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
+  .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link:active {
     color: #fbbc05;
     text-decoration: none;
     background-color: transparent; }
 
 @media (max-width: 575.98px) {
-  .theme-perfil div.header-page.header-page-open {
+  .theme-contacto div.header-page.header-page-open {
     background-color: #fbbc05; } }
