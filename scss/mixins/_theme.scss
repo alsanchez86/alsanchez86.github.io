@@ -71,6 +71,7 @@
     div.header-page {
       &.header-page-open {
         background-color: $color;
+        background: linear-gradient(0deg, $color, lighten($color, 20%));
       }
     }
   }
