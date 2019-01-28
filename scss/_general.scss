@@ -117,10 +117,8 @@ div.main-section {
         top: 4rem;
         padding: 2rem 0 0 0;
 
-        & > .navbar {
-            padding: 0.75rem;
-
-            a {
+        div.list-group {
+            a.list-group-item {
                 @include link($body-color, $body-color, none, none, transparent, transparent);
             }
         }
