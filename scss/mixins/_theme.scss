@@ -22,7 +22,7 @@
   // Page title
   div.page-title {
     // background-color: $color;
-    background: bottom no-repeat,linear-gradient(60deg, $color, lighten($color, 20%));
+    background: url($imgfolder + "background-page-title.svg") top right,linear-gradient(60deg, $color, lighten($color, 20%));
   }
 
   // Main nav
