@@ -6796,32 +6796,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.79s;
-    animation-duration: 1.48s; }
+    animation-delay: -0.08s;
+    animation-duration: 0.66s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.03s;
-    animation-duration: 1.09s; }
+    animation-delay: 0.53s;
+    animation-duration: 1.01s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.25s;
-    animation-duration: 0.74s; }
+    animation-delay: 0.01s;
+    animation-duration: 1.01s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.25s;
-    animation-duration: 0.67s; }
+    animation-delay: 0.14s;
+    animation-duration: 1.46s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: -0.02s;
-    animation-duration: 1.34s; }
+    animation-delay: -0.11s;
+    animation-duration: 0.76s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.43s;
-    animation-duration: 1.18s; }
+    animation-delay: 0.35s;
+    animation-duration: 1.25s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.11s;
-    animation-duration: 0.77s; }
+    animation-delay: 0.6s;
+    animation-duration: 1.08s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0.52s;
-    animation-duration: 0.9s; }
+    animation-delay: 0.66s;
+    animation-duration: 1.57s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.12s;
-    animation-duration: 1.09s; }
+    animation-delay: 0.17s;
+    animation-duration: 0.65s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6848,32 +6848,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.16s;
-    animation-duration: 1.33s; }
+    animation-delay: 0.67s;
+    animation-duration: 0.93s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.39s;
-    animation-duration: 1.38s; }
+    animation-delay: -0.06s;
+    animation-duration: 1s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.77s;
-    animation-duration: 0.79s; }
+    animation-delay: -0.17s;
+    animation-duration: 1.25s; }
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.76s;
-    animation-duration: 1.07s; }
+    animation-delay: 0.03s;
+    animation-duration: 1.19s; }
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.17s;
-    animation-duration: 0.9s; }
+    animation-delay: 0.16s;
+    animation-duration: 1.09s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: 0.26s;
-    animation-duration: 1.14s; }
+    animation-delay: 0.63s;
+    animation-duration: 0.7s; }
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: -0.08s;
-    animation-duration: 0.92s; }
+    animation-delay: 0.15s;
+    animation-duration: 0.81s; }
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.53s;
-    animation-duration: 1.13s; }
-  .ball-grid-pulse > div:nth-child(9) {
     animation-delay: 0.05s;
-    animation-duration: 1.59s; }
+    animation-duration: 1.19s; }
+  .ball-grid-pulse > div:nth-child(9) {
+    animation-delay: -0.1s;
+    animation-duration: 1.6s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7114,20 +7114,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: -0.14s;
-  animation-duration: 0.61s; }
+  animation-delay: 0.24s;
+  animation-duration: 0.6s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.1s;
-  animation-duration: 0.8s; }
+  animation-delay: 0.74s;
+  animation-duration: 1.09s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.59s;
-  animation-duration: 0.63s; }
+  animation-delay: 0.79s;
+  animation-duration: 0.83s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.75s;
-  animation-duration: 1.17s; }
+  animation-delay: 0.27s;
+  animation-duration: 0.64s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7735,6 +7735,15 @@ div.footer {
   html {
     font-size: 0.83375rem; } }
 
+.theme-inicio a {
+  color: #4285f4;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-inicio a:hover, .theme-inicio a:focus, .theme-inicio a.active, .theme-inicio a:active {
+    color: #4285f4;
+    text-decoration: none;
+    background-color: transparent; }
+
 .theme-inicio .main-loader-container .main-loader > div > div {
   background-color: #4285f4; }
 
@@ -7749,39 +7758,22 @@ div.footer {
   line-height: 1.85rem; }
   .theme-inicio div.header-page div.header-logo small {
     font-size: 80%; }
-  .theme-inicio div.header-page div.header-logo a {
-    color: #4285f4;
-    text-decoration: none;
-    background-color: transparent; }
-    .theme-inicio div.header-page div.header-logo a:hover, .theme-inicio div.header-page div.header-logo a:focus, .theme-inicio div.header-page div.header-logo a.active, .theme-inicio div.header-page div.header-logo a:active {
-      color: #4285f4;
-      text-decoration: none;
-      background-color: transparent; }
 
 .theme-inicio div.page-title {
   background-color: #4285f4; }
 
-.theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-  color: #4285f4;
-  text-decoration: none;
-  background-color: transparent; }
-  .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-    color: #4285f4;
-    text-decoration: none;
-    background-color: transparent; }
-
-.theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: #4285f4;
-  text-decoration: none;
-  background-color: transparent; }
-  .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: #4285f4;
-    text-decoration: none;
-    background-color: transparent; }
-
 @media (max-width: 575.98px) {
   .theme-inicio div.header-page.header-page-open {
     background-color: #4285f4; } }
+
+.theme-perfil a {
+  color: crimson;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-perfil a:hover, .theme-perfil a:focus, .theme-perfil a.active, .theme-perfil a:active {
+    color: crimson;
+    text-decoration: none;
+    background-color: transparent; }
 
 .theme-perfil .main-loader-container .main-loader > div > div {
   background-color: crimson; }
@@ -7797,35 +7789,9 @@ div.footer {
   line-height: 1.85rem; }
   .theme-perfil div.header-page div.header-logo small {
     font-size: 80%; }
-  .theme-perfil div.header-page div.header-logo a {
-    color: crimson;
-    text-decoration: none;
-    background-color: transparent; }
-    .theme-perfil div.header-page div.header-logo a:hover, .theme-perfil div.header-page div.header-logo a:focus, .theme-perfil div.header-page div.header-logo a.active, .theme-perfil div.header-page div.header-logo a:active {
-      color: crimson;
-      text-decoration: none;
-      background-color: transparent; }
 
 .theme-perfil div.page-title {
   background-color: crimson; }
-
-.theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-  color: crimson;
-  text-decoration: none;
-  background-color: transparent; }
-  .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-    color: crimson;
-    text-decoration: none;
-    background-color: transparent; }
-
-.theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: crimson;
-  text-decoration: none;
-  background-color: transparent; }
-  .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: crimson;
-    text-decoration: none;
-    background-color: transparent; }
 
 @media (max-width: 575.98px) {
   .theme-perfil div.header-page.header-page-open {
@@ -7842,6 +7808,15 @@ img.img-company {
     font-size: 2rem;
     text-align: center; } }
 
+.theme-portfolio a {
+  color: #34a853;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-portfolio a:hover, .theme-portfolio a:focus, .theme-portfolio a.active, .theme-portfolio a:active {
+    color: #34a853;
+    text-decoration: none;
+    background-color: transparent; }
+
 .theme-portfolio .main-loader-container .main-loader > div > div {
   background-color: #34a853; }
 
@@ -7856,39 +7831,22 @@ img.img-company {
   line-height: 1.85rem; }
   .theme-portfolio div.header-page div.header-logo small {
     font-size: 80%; }
-  .theme-portfolio div.header-page div.header-logo a {
-    color: #34a853;
-    text-decoration: none;
-    background-color: transparent; }
-    .theme-portfolio div.header-page div.header-logo a:hover, .theme-portfolio div.header-page div.header-logo a:focus, .theme-portfolio div.header-page div.header-logo a.active, .theme-portfolio div.header-page div.header-logo a:active {
-      color: #34a853;
-      text-decoration: none;
-      background-color: transparent; }
 
 .theme-portfolio div.page-title {
   background-color: #34a853; }
 
-.theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-  color: #34a853;
-  text-decoration: none;
-  background-color: transparent; }
-  .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-    color: #34a853;
-    text-decoration: none;
-    background-color: transparent; }
-
-.theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: #34a853;
-  text-decoration: none;
-  background-color: transparent; }
-  .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: #34a853;
-    text-decoration: none;
-    background-color: transparent; }
-
 @media (max-width: 575.98px) {
   .theme-portfolio div.header-page.header-page-open {
     background-color: #34a853; } }
+
+.theme-blog a {
+  color: #c86dd7;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-blog a:hover, .theme-blog a:focus, .theme-blog a.active, .theme-blog a:active {
+    color: #c86dd7;
+    text-decoration: none;
+    background-color: transparent; }
 
 .theme-blog .main-loader-container .main-loader > div > div {
   background-color: #c86dd7; }
@@ -7904,39 +7862,22 @@ img.img-company {
   line-height: 1.85rem; }
   .theme-blog div.header-page div.header-logo small {
     font-size: 80%; }
-  .theme-blog div.header-page div.header-logo a {
-    color: #c86dd7;
-    text-decoration: none;
-    background-color: transparent; }
-    .theme-blog div.header-page div.header-logo a:hover, .theme-blog div.header-page div.header-logo a:focus, .theme-blog div.header-page div.header-logo a.active, .theme-blog div.header-page div.header-logo a:active {
-      color: #c86dd7;
-      text-decoration: none;
-      background-color: transparent; }
 
 .theme-blog div.page-title {
   background-color: #c86dd7; }
 
-.theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-  color: #c86dd7;
-  text-decoration: none;
-  background-color: transparent; }
-  .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-    color: #c86dd7;
-    text-decoration: none;
-    background-color: transparent; }
-
-.theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: #c86dd7;
-  text-decoration: none;
-  background-color: transparent; }
-  .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: #c86dd7;
-    text-decoration: none;
-    background-color: transparent; }
-
 @media (max-width: 575.98px) {
   .theme-blog div.header-page.header-page-open {
     background-color: #c86dd7; } }
+
+.theme-contacto a {
+  color: #fbbc05;
+  text-decoration: none;
+  background-color: transparent; }
+  .theme-contacto a:hover, .theme-contacto a:focus, .theme-contacto a.active, .theme-contacto a:active {
+    color: #fbbc05;
+    text-decoration: none;
+    background-color: transparent; }
 
 .theme-contacto .main-loader-container .main-loader > div > div {
   background-color: #fbbc05; }
@@ -7952,35 +7893,9 @@ img.img-company {
   line-height: 1.85rem; }
   .theme-contacto div.header-page div.header-logo small {
     font-size: 80%; }
-  .theme-contacto div.header-page div.header-logo a {
-    color: #fbbc05;
-    text-decoration: none;
-    background-color: transparent; }
-    .theme-contacto div.header-page div.header-logo a:hover, .theme-contacto div.header-page div.header-logo a:focus, .theme-contacto div.header-page div.header-logo a.active, .theme-contacto div.header-page div.header-logo a:active {
-      color: #fbbc05;
-      text-decoration: none;
-      background-color: transparent; }
 
 .theme-contacto div.page-title {
   background-color: #fbbc05; }
-
-.theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-  color: #fbbc05;
-  text-decoration: none;
-  background-color: transparent; }
-  .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-    color: #fbbc05;
-    text-decoration: none;
-    background-color: transparent; }
-
-.theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: #fbbc05;
-  text-decoration: none;
-  background-color: transparent; }
-  .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: #fbbc05;
-    text-decoration: none;
-    background-color: transparent; }
 
 @media (max-width: 575.98px) {
   .theme-contacto div.header-page.header-page-open {
