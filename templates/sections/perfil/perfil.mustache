@@ -1,14 +1,14 @@
 <section data-spy="scroll" data-target="#perfil-list" data-offset="0" class="scrollspy-example">
     <div class="perfil-section">
         <header>
-            <h2>
+            <h2 id="perfil-list-inicio">
                 Ángel Luis Sánchez Pizarro
                 <br>
                 <small>Senior Frontend Developer</small>
             </h2>
         </header>
 
-        <div id="item-1">
+        <div>
             <div class="row">
                 <div class="d-none col-md-block col-md-3">
                     <div class="text-center">
@@ -52,7 +52,7 @@
     </div>
 
     {{! Experiencia }}
-    <h2>Experiencia</h2>
+    <h2 id="perfil-list-experiencia">Experiencia</h2>
 
     {{# companies}}
     {{> company }}
