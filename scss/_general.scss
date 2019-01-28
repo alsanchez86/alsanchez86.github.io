@@ -120,6 +120,8 @@ div.main-section {
         div.list-group {
             a.list-group-item {
                 @include link($body-color, $body-color, none, none, transparent, transparent);
+                padding: 0.75rem 0;
+                border: 0;
             }
         }
     }
