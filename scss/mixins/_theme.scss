@@ -59,7 +59,7 @@
     }
 
     div.main-content {
-      a.list-group-item {
+      a {
         @include link($color, $color, none, none, transparent, transparent);
       }      
     }

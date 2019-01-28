@@ -6796,32 +6796,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.21s;
-    animation-duration: 0.63s; }
+    animation-delay: 0.68s;
+    animation-duration: 1.03s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.51s;
-    animation-duration: 0.75s; }
-  .ball-grid-beat > div:nth-child(3) {
-    animation-delay: -0.01s;
-    animation-duration: 1.34s; }
-  .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.55s;
-    animation-duration: 1.55s; }
-  .ball-grid-beat > div:nth-child(5) {
     animation-delay: 0.57s;
-    animation-duration: 1.12s; }
-  .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.08s;
-    animation-duration: 0.88s; }
-  .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.72s;
-    animation-duration: 0.97s; }
-  .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0.71s;
-    animation-duration: 1.39s; }
-  .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.53s;
+    animation-duration: 0.71s; }
+  .ball-grid-beat > div:nth-child(3) {
+    animation-delay: -0.06s;
+    animation-duration: 0.67s; }
+  .ball-grid-beat > div:nth-child(4) {
+    animation-delay: -0.01s;
+    animation-duration: 1.17s; }
+  .ball-grid-beat > div:nth-child(5) {
+    animation-delay: 0.05s;
     animation-duration: 1.46s; }
+  .ball-grid-beat > div:nth-child(6) {
+    animation-delay: 0.73s;
+    animation-duration: 0.91s; }
+  .ball-grid-beat > div:nth-child(7) {
+    animation-delay: 0.08s;
+    animation-duration: 1.08s; }
+  .ball-grid-beat > div:nth-child(8) {
+    animation-delay: -0.17s;
+    animation-duration: 0.75s; }
+  .ball-grid-beat > div:nth-child(9) {
+    animation-delay: 0.29s;
+    animation-duration: 0.61s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6848,32 +6848,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.07s;
-    animation-duration: 1.45s; }
+    animation-delay: -0.09s;
+    animation-duration: 1.18s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.56s;
-    animation-duration: 0.67s; }
+    animation-delay: 0.34s;
+    animation-duration: 1.46s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: -0.19s;
-    animation-duration: 1.05s; }
+    animation-delay: -0.03s;
+    animation-duration: 0.85s; }
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.78s;
-    animation-duration: 1.44s; }
+    animation-delay: 0.04s;
+    animation-duration: 0.68s; }
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.03s;
-    animation-duration: 0.64s; }
+    animation-delay: 0.44s;
+    animation-duration: 0.89s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: -0.07s;
-    animation-duration: 1.25s; }
+    animation-delay: 0.03s;
+    animation-duration: 0.87s; }
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0.8s;
-    animation-duration: 1.17s; }
+    animation-delay: 0.2s;
+    animation-duration: 0.72s; }
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.3s;
-    animation-duration: 0.95s; }
+    animation-delay: 0.58s;
+    animation-duration: 0.87s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: 0.5s;
-    animation-duration: 0.96s; }
+    animation-delay: 0.33s;
+    animation-duration: 0.78s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7114,20 +7114,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.34s;
-  animation-duration: 0.58s; }
+  animation-delay: 0.24s;
+  animation-duration: 0.84s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.19s;
-  animation-duration: 1.28s; }
+  animation-delay: -0.09s;
+  animation-duration: 0.65s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.61s;
-  animation-duration: 0.53s; }
+  animation-delay: -0.14s;
+  animation-duration: 0.54s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.48s;
-  animation-duration: 0.44s; }
+  animation-delay: -0.08s;
+  animation-duration: 1.23s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7788,11 +7788,11 @@ div.footer {
     text-decoration: none;
     background-color: transparent; }
 
-.theme-inicio div.main-section div.main-content a.list-group-item {
+.theme-inicio div.main-section div.main-content a {
   color: #4285f4;
   text-decoration: none;
   background-color: transparent; }
-  .theme-inicio div.main-section div.main-content a.list-group-item:hover, .theme-inicio div.main-section div.main-content a.list-group-item:focus, .theme-inicio div.main-section div.main-content a.list-group-item.active, .theme-inicio div.main-section div.main-content a.list-group-item:active {
+  .theme-inicio div.main-section div.main-content a:hover, .theme-inicio div.main-section div.main-content a:focus, .theme-inicio div.main-section div.main-content a.active, .theme-inicio div.main-section div.main-content a:active {
     color: #4285f4;
     text-decoration: none;
     background-color: transparent; }
@@ -7854,11 +7854,11 @@ div.footer {
     text-decoration: none;
     background-color: transparent; }
 
-.theme-perfil div.main-section div.main-content a.list-group-item {
+.theme-perfil div.main-section div.main-content a {
   color: crimson;
   text-decoration: none;
   background-color: transparent; }
-  .theme-perfil div.main-section div.main-content a.list-group-item:hover, .theme-perfil div.main-section div.main-content a.list-group-item:focus, .theme-perfil div.main-section div.main-content a.list-group-item.active, .theme-perfil div.main-section div.main-content a.list-group-item:active {
+  .theme-perfil div.main-section div.main-content a:hover, .theme-perfil div.main-section div.main-content a:focus, .theme-perfil div.main-section div.main-content a.active, .theme-perfil div.main-section div.main-content a:active {
     color: crimson;
     text-decoration: none;
     background-color: transparent; }
@@ -7931,11 +7931,11 @@ img.img-company {
     text-decoration: none;
     background-color: transparent; }
 
-.theme-portfolio div.main-section div.main-content a.list-group-item {
+.theme-portfolio div.main-section div.main-content a {
   color: #34a853;
   text-decoration: none;
   background-color: transparent; }
-  .theme-portfolio div.main-section div.main-content a.list-group-item:hover, .theme-portfolio div.main-section div.main-content a.list-group-item:focus, .theme-portfolio div.main-section div.main-content a.list-group-item.active, .theme-portfolio div.main-section div.main-content a.list-group-item:active {
+  .theme-portfolio div.main-section div.main-content a:hover, .theme-portfolio div.main-section div.main-content a:focus, .theme-portfolio div.main-section div.main-content a.active, .theme-portfolio div.main-section div.main-content a:active {
     color: #34a853;
     text-decoration: none;
     background-color: transparent; }
@@ -7997,11 +7997,11 @@ img.img-company {
     text-decoration: none;
     background-color: transparent; }
 
-.theme-blog div.main-section div.main-content a.list-group-item {
+.theme-blog div.main-section div.main-content a {
   color: #c86dd7;
   text-decoration: none;
   background-color: transparent; }
-  .theme-blog div.main-section div.main-content a.list-group-item:hover, .theme-blog div.main-section div.main-content a.list-group-item:focus, .theme-blog div.main-section div.main-content a.list-group-item.active, .theme-blog div.main-section div.main-content a.list-group-item:active {
+  .theme-blog div.main-section div.main-content a:hover, .theme-blog div.main-section div.main-content a:focus, .theme-blog div.main-section div.main-content a.active, .theme-blog div.main-section div.main-content a:active {
     color: #c86dd7;
     text-decoration: none;
     background-color: transparent; }
@@ -8063,11 +8063,11 @@ img.img-company {
     text-decoration: none;
     background-color: transparent; }
 
-.theme-contacto div.main-section div.main-content a.list-group-item {
+.theme-contacto div.main-section div.main-content a {
   color: #fbbc05;
   text-decoration: none;
   background-color: transparent; }
-  .theme-contacto div.main-section div.main-content a.list-group-item:hover, .theme-contacto div.main-section div.main-content a.list-group-item:focus, .theme-contacto div.main-section div.main-content a.list-group-item.active, .theme-contacto div.main-section div.main-content a.list-group-item:active {
+  .theme-contacto div.main-section div.main-content a:hover, .theme-contacto div.main-section div.main-content a:focus, .theme-contacto div.main-section div.main-content a.active, .theme-contacto div.main-section div.main-content a:active {
     color: #fbbc05;
     text-decoration: none;
     background-color: transparent; }
