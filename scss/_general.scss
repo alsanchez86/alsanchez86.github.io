@@ -253,12 +253,12 @@ div.footer {
     }
 
     div.main-section {
-        & > div.container {
-            max-width: 100%;
-        }
+        // & > div.container {
+        //     max-width: 100%;
+        // }
 
         div.main-content {
-            padding: 3rem;
+            padding: 3rem 1rem;
         }
     }
 
@@ -283,11 +283,15 @@ div.footer {
     }
 
     // Main section
-    div.main-section {
-        & > div.container {
-            max-width: 100%;
-        }
-    }    
+    // div.main-section {
+    //     & > div.container {
+    //         max-width: 100%;
+    //     }
+
+    //     div.main-content {
+    //         padding: 3rem 1rem;
+    //     }
+    // }    
 
     div.main-nav {
         ul.nav {
