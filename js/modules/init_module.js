@@ -1,8 +1,8 @@
-define(["exports", "jquery", "jquery_cache"], function (exports, $, _$) {
+define(["module", "jquery", "jquery_cache"], function (module, $, _$) {
     /**
      *
      */
-    exports.page_loading = function (is_loading) {
+    module.exports.page_loading = function (is_loading) {
         var main_loader = _$("#main-loader-container");
 
         if (!is_loading) {
@@ -16,7 +16,7 @@ define(["exports", "jquery", "jquery_cache"], function (exports, $, _$) {
     /**
      *
      */
-    exports.set_active_menu_link = function () {
+    module.exports.set_active_menu_link = function () {
         var pathname = window.location.pathname;
         var path_split = pathname.split("/");
         var path_id = path_split && path_split[1];
@@ -33,7 +33,7 @@ define(["exports", "jquery", "jquery_cache"], function (exports, $, _$) {
     /**
      *
      */
-    exports.mobile_menu_xs = function () {
+    module.exports.mobile_menu_xs = function () {
         var nav_link_as_icon = _$("#nav-link-menu-icon");
         var header_page = _$("#header-page");
 

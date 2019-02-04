@@ -34,6 +34,9 @@
             @include link($color, $color, none, none, transparent, transparent);
           }
         }
+        a.nav-link {
+          @include link($color, $color, none, none, transparent, transparent);
+        }
       }
     }
   }
@@ -61,7 +64,7 @@
     div.main-content {
       a {
         @include link($color, $color, none, none, transparent, transparent);
-      }      
+      }
     }
   }
 
