@@ -35,7 +35,9 @@
           }
         }
         a.nav-link {
-          @include link($color, $color, none, none, transparent, transparent);
+          &.active {
+            @include link($color, $color, none, none, transparent, transparent);
+          }
         }
       }
     }
