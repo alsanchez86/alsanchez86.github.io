@@ -17,8 +17,17 @@
       "functions": [
         "Desarrollador frontend de plataforma web APP de tráfico masivo para venta de entradas al gran publico. Clientes directos: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, entre otros."
       ],
-      "projects": [""],
-      "technologies": ["Angular", "AngularJS", "Nodejs", "Cinema4d (Python)", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Java (Play Framework)", "Tracking (GTM, DTM)", "SVG", "d3", "Konva", "Mercurial", "Typescript", "Moment.js"]
+      "projects": [],
+      "technologies": [
+        {
+          "type": "Frontend",
+          "list": ["Angular", "AngularJS", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Tracking (GTM, DTM)", "SVG", "d3", "Konva", "Mercurial", "Typescript", "Moment.js"]
+        },
+        {
+          "type": "Backend",
+          "list": ["Nodejs", "Cinema4d (Python)", "Java (Play Framework)"]
+        }      
+      ]
     },
     {
       "name": "Innofis",
@@ -36,16 +45,33 @@
         "Encargado del Workflow y gestión de los distintos repositorios Github.",
         "Documentación de proyectos."
       ],
-      "projects": [
-        "Portal corporativo Danone S.A. https://www.alimentasonrisas.es/",
-        "Web APP FontVella \"Eres Impulso\". https://eresimpulso.fontvella.es/"
-      ],
+      "projects": [{
+        "name": "Portal corporativo Danone S.A.",
+        "url": "https://www.alimentasonrisas.es/"
+      }, {
+        "name": "Web APP FontVella \"Eres Impulso\"",
+        "url": "https://eresimpulso.fontvella.es/"
+      }],
       "technologies": [
-        "Frontend: JavaScript (Angular2, AngularJS, jQuery, TypeScript), Bootstrap, Foundation,  HTML5, CSS3 (Sass, Less), Grunt, Gulp.",
-        "Backend: PHP 5.* ~ 7 (CodeIgniter, Twig, Blade), MySQL.",
-        "Sistemas: Linux.",
-        "Gestor de versiones: Github.",
-        "Gestores de dependencias: npm, Composer, Bower."
+        {
+          "type": "Frontend",
+          "list": ["Angular2", "AngularJS", "jQuery", "TypeScript", "Bootstrap", "Foundation", "HTML5", "CSS3", "Sass", "Less", "Grunt", "Gulp"]
+        },
+        {
+          "type": "Backend",
+          "list": ["PHP 5.* ~ 7", "CodeIgniter", "Twig", "Blade", "MySQL"]
+        },
+        {
+          "type": "Sistemas",
+          "list": ["Linux"]
+        },
+        {
+          "type": "Gestor de versiones",
+          "list": ["Github"]
+        },{
+          "type": "Gestores de dependencias",
+          "list": ["npm", "Composer", "Bower"]
+        }
       ]
     },
     {
@@ -66,16 +92,42 @@
         "Documentación de proyectos.",
         "Contacto directo con el cliente mediante soporte técnico."
       ],
-      "projects": [
-        "Ximdex CMS.CMS semántico para XML.https: //github.com/XIMDEX/ximdex http://demo.ximdex.com/xcms/",
-        "Demos módulos Ximdex CMS.http: //demo.ximdex.com",
-        "XFIND Demo.http: //demo.ximdex.com/xfind/",
-        "XOWL Demo.http: //demo.ximdex.com/xowl/",
-        "XHAWK Demo.http: //demo.ximdex.com/xhawk/",
-        "Web corporativa Open Ximdex Evolution S.L.http: //www.ximdex.com/",
-        "Portal web AEPD.Agencia Española de Protección de Datos.http: //www.agpd.es/",
-        "Portal web BRAE.Biblioteca de recursos para el aprendizaje del Español.http: //brae.redhispanistas.es/",
-        "Web corporativa United English Academy S.L.http: //www.unitedenglish.es/"
+      "projects": [{
+          "name": "Ximdex CMS.CMS semántico para XML",
+          "url": "http://demo.ximdex.com/xcms/"
+        },
+        {
+          "name": "Demos módulos Ximdex CMS",
+          "url": "http://demo.ximdex.com"
+        },
+        {
+          "name": "XFIND Demo",
+          "url": "http://demo.ximdex.com/xfind/"
+        },
+        {
+          "name": "XOWL Demo",
+          "url": "http://demo.ximdex.com/xowl/"
+        },
+        {
+          "name": "XHAWK Demo",
+          "url": "http://demo.ximdex.com/xhawk/"
+        },
+        {
+          "name": "Web corporativa Open Ximdex Evolution S.L.",
+          "url": "http://www.ximdex.com/"
+        },
+        {
+          "name": "Portal web AEPD.Agencia Española de Protección de Datos",
+          "url": "http://www.agpd.es/"
+        },
+        {
+          "name": "Portal web BRAE.Biblioteca de recursos para el aprendizaje del Español",
+          "url": "http://brae.redhispanistas.es/"
+        },
+        {
+          "name": "Web corporativa United English Academy S.L.",
+          "url": "http://www.unitedenglish.es/"
+        }
       ],
       "technologies": [
         "Frontend: JavaScript(jQuery, Riot.js, AngularJS, CoffeeScript), Bootstrap, Kibana, HTML5, CSS3(Less, Sass), Grunt, Gulp",
@@ -103,14 +155,34 @@
         "Encargado del desarrollo del CMS propío de la empresa (e-conecta).",
         "Técnico de soporte con e-conecta."
       ],
-      "projects": [
-        "Portal web Centro BTT Nevada.http: //www.centrobttnevada.es/",
-        "Web corporativa Grupo Hispasat.http: //www.hispasat.com/",
-        "Web corporativa Mercer Hoteles.Barcelona.http: //www.mercerbarcelona.com/",
-        "Tienda online Tramas + .Malbatex S.L.http: //www.tramasmas.com/",
-        "Portal web \"Sevilla si\".http: //www.sevillasi.com/",
-        "Web corporativa Planvalore.Avales Inmobiliarios, S.A.http: //www.planvalore.com/",
-        "Web corporativa Fourup.http: //www.fourup.es/"
+      "projects": [{
+          "name": "Portal web Centro BTT Nevada.",
+          "url": "http://www.centrobttnevada.es/"
+        },
+        {
+          "name": "Web corporativa Grupo Hispasat",
+          "url": "http://www.hispasat.com/"
+        },
+        {
+          "name": "Web corporativa Mercer Hoteles.Barcelona.",
+          "url": "http://www.mercerbarcelona.com/"
+        },
+        {
+          "name": "Tienda online Tramas + .Malbatex S.L.",
+          "url": "http://www.tramasmas.com/"
+        },
+        {
+          "name": "Portal web \"Sevilla si\"",
+          "url": "http://www.sevillasi.com/"
+        },
+        {
+          "name": "Web corporativa Planvalore.Avales Inmobiliarios, S.A.",
+          "url": "http://www.planvalore.com/"
+        },
+        {
+          "name": "Web corporativa Fourup.",
+          "url": "http://www.fourup.es/"
+        }
       ],
       "technologies": ["Front - end: JavaScript(jQuery), Bootstrap, HTML5, CSS3(Less, Sass).·Back - end: PHP 5. * (Smarty), MySQL.·Sistemas: Mac OS X, Windows * .·Diseño gráfico: Illustrator, Photoshop, Fireworks.·Metodologías ágiles: Lean."]
     },
@@ -128,7 +200,7 @@
         "Desarrollo íntegro de la plataforma online para estudiantes del Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla.",
         "Desarrollador (Frontend y Backend) de aplicaciones y portales web."
       ],
-      "projects": [""],
+      "projects": [],
       "technologies": [
         "PHP",
         "MySQL",
@@ -149,7 +221,7 @@
       "location": "Sevilla, España",
       "date": "Julio de 2010 - Enero de 2012",
       "functions": ["Desarrollador de plataformas web para estudiantes (e-learning) y aplicaciones multimedia desarrolladas con Adobe Flash (ActionScript 3.0)."],
-      "projects": [""],
+      "projects": [],
       "technologies": ["JavaScript, HTML, CSS. PHP 5. *, MySQL, Windows *, Illustrator, Photoshop, Fireworks, Adobe Flash(ActionScript 3)"]
     }
   ],
