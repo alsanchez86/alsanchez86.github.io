@@ -13,10 +13,18 @@
 
 div.perfil-section {
     margin-bottom: 4.25rem;
+
+    h2 {
+        font-size: 2.8rem;
+
+        &.perfil-name {
+            font-size: $h2-font-size;
+        }
+    }
 }
 
 div.perfil-company {
-    margin-bottom: 2.25rem;
+    margin-bottom: 6.25rem;
 }
 
 img.img-company {
