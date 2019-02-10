@@ -1,33 +1,37 @@
-<h3>
-    {{ position }} <small>en <strong>{{ name }}</strong></small>
-</h3>
+<div class="perfil-company">
+    <h3>
+        {{ position }} <small>en <strong>{{ name }}</strong></small>
+    </h3>
 
-<img class="img-fluid img-company" src="{{ img_folder }}/{{ image.path }}" alt="{{ image.title }}">
+    <p>
+        <img class="img-fluid img-company" src="{{ img_folder }}/{{ image.path }}" alt="{{ image.title }}">
+    </p>
 
-<p>
-    <a href="{{ link }}" target="_blank">{{ link }}</a>
-    <br>
-    {{ location }}
-    <br>
-    {{ date }}
-</p>
+    <p>
+        <a href="{{ link }}" target="_blank">{{ link }}</a>
+        <br>
+        {{ location }}
+        <br>
+        {{ date }}
+    </p>
 
-<h4>
-    Funciones:
-</h4>
+    <h4>
+        Funciones:
+    </h4>
 
-<ul>
-    {{#functions}}
-    <li>{{.}}</li>
-    {{/functions}}
-</ul>
+    <ul>
+        {{#functions}}
+        <li>{{.}}</li>
+        {{/functions}}
+    </ul>
 
-<h4>
-    Tecnologías:
-</h4>
+    <h4>
+        Tecnologías:
+    </h4>
 
-<p>
-    {{#technologies}}
-    <span class="badge badge-primary">{{.}}</span>
-    {{/technologies}}
-</p>
+    <p>
+        {{#technologies}}
+        <span class="badge badge-primary">{{.}}</span>
+        {{/technologies}}
+    </p>
+</div>
