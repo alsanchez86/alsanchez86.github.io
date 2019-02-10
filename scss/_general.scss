@@ -235,7 +235,7 @@ div.footer {
 
                             a.menu-icon {
                                 @include link($white, $white, none, none, transparent, transparent);   
-                                padding: 1rem;
+                                padding: 0;
                                 font-size: 3rem;
 
                                 .fa-ellipsis-v {
