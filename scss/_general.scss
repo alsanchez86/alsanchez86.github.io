@@ -228,8 +228,10 @@ div.footer {
                 ul.nav {
                     li.nav-item {
                         display: block;
+                        line-height: 100%;
 
                         &.nav-item-branded {
+                            margin: 1rem;
                             padding-bottom: 0;
 
                             a.menu-icon {
