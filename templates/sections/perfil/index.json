@@ -41,8 +41,8 @@
         "Web APP FontVella \"Eres Impulso\". https://eresimpulso.fontvella.es/"
       ],
       "technologies": [
-        "Front-end: JavaScript (Angular2, AngularJS, jQuery, TypeScript), Bootstrap, Foundation,  HTML5, CSS3 (Sass, Less), Grunt, Gulp.",
-        "Back-end: PHP 5.* ~ 7 (CodeIgniter, Twig, Blade), MySQL.",
+        "Frontend: JavaScript (Angular2, AngularJS, jQuery, TypeScript), Bootstrap, Foundation,  HTML5, CSS3 (Sass, Less), Grunt, Gulp.",
+        "Backend: PHP 5.* ~ 7 (CodeIgniter, Twig, Blade), MySQL.",
         "Sistemas: Linux.",
         "Gestor de versiones: Github.",
         "Gestores de dependencias: npm, Composer, Bower."
@@ -78,13 +78,14 @@
         "Web corporativa United English Academy S.L.http: //www.unitedenglish.es/"
       ],
       "technologies": [
-        "Front-end: JavaScript(jQuery, Riot.js, AngularJS, CoffeeScript), Bootstrap, Kibana, HTML5, CSS3(Less, Sass), Grunt, Gulp",
-        "Back - end: PHP 5. * ~7(Twig, Blade, Smarty), MySQL, Apache Solr, ElasticSearch",
-        "·Sistemas: Linux, Mac OS X, Windows *",
+        "Frontend: JavaScript(jQuery, Riot.js, AngularJS, CoffeeScript), Bootstrap, Kibana, HTML5, CSS3(Less, Sass), Grunt, Gulp",
+        "Backend: PHP 5. * ~7(Twig, Blade, Smarty), MySQL, Apache Solr, ElasticSearch",
+        "Sistemas: Linux, Mac OS X, Windows *",
         "Gestor de versiones: Github.·Gestores de dependencias: npm, Composer, Bower.",
-        "Otras tecnologías a destacar: XML, XSLT, RELAX - NG, JSON, JSON - LD.",
+        "Otras tecnologías a destacar: XML, XSLT, RELAX - NG, JSON, JSON-LD.",
         "Accesibilidad: UX, UI.WCAG 2.0.",
-        "Diseño gráfico: Illustrator, Photoshop, Fireworks, Inkscape, Gimp.·Metodologías ágiles: Scrum."
+        "Diseño gráfico: Illustrator, Photoshop, Fireworks, Inkscape, Gimp.",
+        "Metodologías ágiles: Scrum."
       ]
     },
     {
