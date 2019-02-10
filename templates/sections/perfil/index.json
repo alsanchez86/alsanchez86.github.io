@@ -127,15 +127,42 @@
           "url": "http://www.unitedenglish.es/"
         }
       ],
-      "technologies": [
-        "Frontend: JavaScript(jQuery, Riot.js, AngularJS, CoffeeScript), Bootstrap, Kibana, HTML5, CSS3(Less, Sass), Grunt, Gulp",
-        "Backend: PHP 5. * ~7(Twig, Blade, Smarty), MySQL, Apache Solr, ElasticSearch",
-        "Sistemas: Linux, Mac OS X, Windows *",
-        "Gestor de versiones: Github.·Gestores de dependencias: npm, Composer, Bower.",
-        "Otras tecnologías a destacar: XML, XSLT, RELAX - NG, JSON, JSON-LD.",
-        "Accesibilidad: UX, UI.WCAG 2.0.",
-        "Diseño gráfico: Illustrator, Photoshop, Fireworks, Inkscape, Gimp.",
-        "Metodologías ágiles: Scrum."
+      "technologies": [{
+          "type": "Frontend",
+          "list": ["jQuery", "Riot.js", "AngularJS", "CoffeeScript", "Bootstrap", "Kibana", "HTML5", "CSS3", "Less", "Sass", "Grunt", "Gulp"]
+        },
+        {
+          "type": "Backend",
+          "list": ["PHP 5. * ~7", "Twig", "Blade", "Smarty", "MySQL", "Apache Solr", "ElasticSearch"]
+        },
+        {
+          "type": "Sistemas",
+          "list": ["Linux", "Mac OS X", "Windows *"]
+        },
+        {
+          "type": "Gestor de versiones",
+          "list": ["Github"]
+        },
+        {
+          "type": "Gestores de dependencias",
+          "list": ["npm", "Composer", "Bower"]
+        },
+        {
+          "type": "Otras tecnologías a destacar",
+          "list": ["XML", "XSLT", "RELAX-NG", "JSON", "JSON-LD"]
+        },
+        {
+          "type": "Accesibilidad",
+          "list": ["UX", "UI.WCAG 2.0."]
+        },
+        {
+          "type": "Diseño gráfico",
+          "list": ["Illustrator", "Photoshop", "Fireworks", "Inkscape", "Gimp"]
+        },
+        {
+          "type": "Metodologías ágiles",
+          "list": ["Scrum"]
+        }
       ]
     },
     {
@@ -182,7 +209,27 @@
           "url": "http://www.fourup.es/"
         }
       ],
-      "technologies": ["Front - end: JavaScript(jQuery), Bootstrap, HTML5, CSS3(Less, Sass).·Back - end: PHP 5. * (Smarty), MySQL.·Sistemas: Mac OS X, Windows * .·Diseño gráfico: Illustrator, Photoshop, Fireworks.·Metodologías ágiles: Lean."]
+      "technologies": [{
+          "type": "Frontend",
+          "list": ["JavaScript", "jQuery", "Bootstrap", "HTML5", "CSS3", "Less", "Sass"]
+        },
+        {
+          "type": "Backend",
+          "list": ["PHP 5.*", "Smarty", "MySQL"]
+        },
+        {
+          "type": "Sistemas",
+          "list": ["Mac OS X", "Windows *"]
+        },
+        {
+          "type": "Diseño gráfico",
+          "list": ["Illustrator", "Photoshop", "Fireworks"]
+        },
+        {
+          "type": "Metodologías ágiles",
+          "list": ["Lean"]
+        }
+      ]
     },
     {
       "name": "Freelance",
@@ -200,12 +247,14 @@
       ],
       "projects": [],
       "technologies": [
-        "PHP",
-        "MySQL",
-        "JavaScript",
-        "jQuery",
-        "CSS",
-        "HTML"
+        {
+          "type": "Frontend",
+          "list": ["JavaScript", "jQuery", "HTML5", "CSS"]
+        },
+        {
+          "type": "Backend",
+          "list": ["PHP", "MySQL"]
+        }
       ]
     },
     {
