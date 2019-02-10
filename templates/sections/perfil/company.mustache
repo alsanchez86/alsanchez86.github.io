@@ -33,7 +33,7 @@
 
     <ul>
         {{#projects}}
-        <li>{{.}}</li>
+        <li><a href="{{projects.url}}" target="_blank">{{projects.name}}</a></li>
         {{/projects}}
     </ul>
 
@@ -41,9 +41,15 @@
         Tecnologías:
     </h4>
 
-    <p>
+    <ul>
         {{#technologies}}
-        <span class="badge badge-primary">{{.}}</span>
+        <li>
+            {{technologies.type}}: 
+            {{#technologies.list}}
+                <span class="badge badge-primary">{{.}}</span>
+            {{/technologies.list}}
+        </li>
+        
         {{/technologies}}
-    </p>
+    </ul>
 </div>
