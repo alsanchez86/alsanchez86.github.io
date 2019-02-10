@@ -40,7 +40,7 @@ div.header-page {
 
     div.header-logo {
         @include text($open, 1.25rem, 400, normal, $body_color, left, none, 1.85rem);
-        
+
         a {
             @include link($body_color, $body_color, none, none, transparent, transparent);
             display: block;
@@ -230,11 +230,12 @@ div.footer {
                         display: block;
                         line-height: 100%;
 
-                        &.nav-item-branded {                            
-                            padding-bottom: 0;                            
+                        &.nav-item-branded {
+                            padding-bottom: 0;
 
                             a.menu-icon {
-                                @include link($white, $white, none, none, transparent, transparent);   
+                                @include link($white, $white, none, none, transparent, transparent);
+                                margin-top: 1rem;
                                 padding: 0;
                                 font-size: 3rem;
 
