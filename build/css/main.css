@@ -6796,32 +6796,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.59s;
-    animation-duration: 1.16s; }
+    animation-delay: -0.12s;
+    animation-duration: 0.76s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: -0.01s;
-    animation-duration: 1.45s; }
+    animation-delay: 0.63s;
+    animation-duration: 1.37s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.44s;
-    animation-duration: 1.05s; }
+    animation-delay: 0.38s;
+    animation-duration: 1.56s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.35s;
-    animation-duration: 1.42s; }
+    animation-delay: 0.66s;
+    animation-duration: 0.61s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.32s;
-    animation-duration: 0.85s; }
+    animation-delay: 0.43s;
+    animation-duration: 1.28s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.44s;
-    animation-duration: 1.52s; }
+    animation-delay: 0.68s;
+    animation-duration: 1.55s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.33s;
-    animation-duration: 0.85s; }
+    animation-delay: 0.2s;
+    animation-duration: 0.64s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0.65s;
-    animation-duration: 1.58s; }
+    animation-delay: -0.02s;
+    animation-duration: 1.57s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: -0.05s;
-    animation-duration: 0.95s; }
+    animation-delay: -0.15s;
+    animation-duration: 0.85s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6848,32 +6848,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.27s;
-    animation-duration: 1.29s; }
+    animation-delay: 0.62s;
+    animation-duration: 1.16s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.25s;
-    animation-duration: 0.94s; }
+    animation-delay: 0.45s;
+    animation-duration: 1.45s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.16s;
-    animation-duration: 1.11s; }
+    animation-delay: -0.17s;
+    animation-duration: 0.63s; }
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.39s;
-    animation-duration: 0.8s; }
+    animation-delay: 0.09s;
+    animation-duration: 1.46s; }
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.72s;
-    animation-duration: 1.52s; }
+    animation-delay: 0.15s;
+    animation-duration: 0.85s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: -0.09s;
-    animation-duration: 1.43s; }
+    animation-delay: 0.45s;
+    animation-duration: 1.39s; }
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0.01s;
-    animation-duration: 0.81s; }
+    animation-delay: -0.18s;
+    animation-duration: 1.12s; }
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.39s;
-    animation-duration: 1.58s; }
+    animation-delay: 0.53s;
+    animation-duration: 1.2s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: 0.39s;
-    animation-duration: 1.35s; }
+    animation-delay: -0.02s;
+    animation-duration: 1.05s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7114,20 +7114,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.64s;
-  animation-duration: 0.89s; }
+  animation-delay: -0.15s;
+  animation-duration: 0.42s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.5s;
-  animation-duration: 1.23s; }
+  animation-delay: -0.08s;
+  animation-duration: 0.54s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.35s;
-  animation-duration: 1.22s; }
+  animation-delay: 0.79s;
+  animation-duration: 0.92s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.45s;
-  animation-duration: 0.68s; }
+  animation-delay: 0.26s;
+  animation-duration: 0.7s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7905,6 +7905,9 @@ div.footer {
 .theme-perfil ul {
   padding: 0;
   list-style: none; }
+
+.theme-perfil span.badge {
+  font-size: 85%; }
 
 div.perfil-section {
   margin-bottom: 4.25rem; }
