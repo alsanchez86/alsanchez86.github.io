@@ -2,9 +2,7 @@
     {{ position }} <small>en <strong>{{ name }}</strong></small>
 </h3>
 
-<div class="text-center">
-    <img class="img-fluid img-company" src="{{ img_folder }}/{{ image.path }}" alt="{{ image.title }}">
-</div>
+<img class="img-fluid img-company" src="{{ img_folder }}/{{ image.path }}" alt="{{ image.title }}">
 
 <p>
     <a href="{{ link }}" target="_blank">{{ link }}</a>
@@ -28,8 +26,8 @@
     Tecnologías:
 </h4>
 
-<ul>
+<p>
     {{#technologies}}
-    <li>{{.}}</li>
+    <span>{{.}},&nbsp;</span>
     {{/technologies}}
-</ul>
+</p>
