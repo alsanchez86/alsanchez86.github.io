@@ -26,6 +26,10 @@
     // background-color: $color;
     // background: url($imgfolder + "background-page-title.svg") top right, linear-gradient(60deg, $color, lighten($color, 20%));
     background: url($imgfolder + "background-page-title.svg") top right, linear-gradient(60deg, $blanco_1, $blanco_4);
+
+    h1 {
+      color: $color;
+    }
   }
 
   // Main nav

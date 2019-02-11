@@ -60,7 +60,6 @@ div.page-title {
     h1 {
         @include text($open, 1.15rem, 700, normal, $blanco_1);
         margin-bottom: 0;
-        color: $blanco_1;
         letter-spacing: 0.3rem;
     }
 }
