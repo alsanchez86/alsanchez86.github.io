@@ -20,7 +20,7 @@
       "projects": [],
       "technologies": [{
           "type": "Frontend",
-          "list": ["JavaScript", "Angular", "AngularJS", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Tracking (GTM, DTM)", "SVG", "d3", "Konva", "Mercurial", "Typescript", "Moment.js"]
+          "list": ["JavaScript", "Angular", "AngularJS", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Tracking (GTM, DTM)", "SVG", "D3", "Konva", "Mercurial", "Typescript"]
         },
         {
           "type": "Backend",
