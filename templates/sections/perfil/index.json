@@ -253,7 +253,12 @@
         "Desarrollo íntegro de la plataforma online para estudiantes del Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla.",
         "Desarrollador (Frontend y Backend) de aplicaciones y portales web."
       ],
-      "projects": [],
+      "projects": [
+        {
+          "name": "Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla.",
+          "url": "http://www.iaic.us.es/"
+        }
+      ],
       "technologies": [{
           "type": "Frontend",
           "list": ["JavaScript", "jQuery", "HTML5", "CSS"]
