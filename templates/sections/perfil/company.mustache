@@ -3,19 +3,21 @@
         {{ position }} <small>en <strong>{{ name }}</strong></small>
     </h3>
 
-    {{#image.path}}
-    <p>
-        <img class="img-fluid img-company" src="{{ img_folder }}/{{ image.path }}" alt="{{ image.title }}">
-    </p>
-    {{/image.path}}
+    <div class="perfil-company-section">
+        {{#image.path}}
+        <p>
+            <img class="img-fluid img-company" src="{{ img_folder }}/{{ image.path }}" alt="{{ image.title }}">
+        </p>
+        {{/image.path}}
 
-    <p>
-        <a href="{{ link }}" target="_blank">{{ link }}</a>
-        <br>
-        {{ location }}
-        <br>
-        {{ date }}
-    </p>
+        <p>
+            <a href="{{ link }}" target="_blank">{{ link }}</a>
+            <br>
+            {{ location }}
+            <br>
+            {{ date }}
+        </p>
+    </div>
 
     <div class="perfil-company-section">
         <h4>
