@@ -1,21 +1,23 @@
 @mixin theme ($color: $body-color) {
-
   // Loader
   .main-loader-container {
+    background-color: $color;
     .main-loader {
       &>div>div {
-        background-color: $color;
+        background-color: $blanco_1;
       }
     }
   }
 
   // Header page
   div.header-page {
+    background-color: $color;
+
     div.header-logo {
-      @include text($open, 1.25rem, 400, normal, $color, left, none, 1.85rem);
+      @include text($open, 1.25rem, 400, normal, $blanco_1, left, none, 1.85rem);
 
       a {
-        @include link($color, $color, none, none, transparent, transparent);
+        @include link($blanco_1, $blanco_1, none, none, transparent, transparent);
       }
     }
   }
@@ -23,7 +25,8 @@
   // Page title
   div.page-title {
     // background-color: $color;
-    background: url($imgfolder + "background-page-title.svg") top right, linear-gradient(60deg, $color, lighten($color, 20%));
+    // background: url($imgfolder + "background-page-title.svg") top right, linear-gradient(60deg, $color, lighten($color, 20%));
+    background: url($imgfolder + "background-page-title.svg") top right, linear-gradient(60deg, $blanco_1, $blanco_4);
   }
 
   // Main nav
@@ -32,13 +35,13 @@
       li.nav-item {
         &.nav-item-branded {
           a.menu-icon {
-            @include link($color, $color, none, none, transparent, transparent);
+            @include link($blanco_1, $blanco_1, none, none, transparent, transparent);
           }
         }
 
         a.nav-link {
           &.active {
-            @include link($color, $color, none, none, transparent, transparent);
+            @include link($blanco_1, $blanco_1, none, none, transparent, transparent);
           }
         }
       }
@@ -50,7 +53,7 @@
     ul.nav {
       li.nav-item {
         a.nav-link {
-          @include link($color, $color, none, none, transparent, transparent);
+          @include link($blanco_1, $blanco_1, none, none, transparent, transparent);
         }
       }
     }
@@ -86,7 +89,7 @@
         li.nav-item {
           a.nav-link {
             &.active {
-              @include link($white, $white, none, none, transparent, transparent);
+              @include link($blanco_1, $blanco_1, none, none, transparent, transparent);
             }
           }
         }

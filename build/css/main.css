@@ -6796,32 +6796,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.18s;
-    animation-duration: 0.61s; }
+    animation-delay: 0.15s;
+    animation-duration: 1.18s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.52s;
+    animation-delay: 0.01s;
     animation-duration: 1.37s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.61s;
-    animation-duration: 1.45s; }
+    animation-delay: 0.78s;
+    animation-duration: 1.14s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.01s;
-    animation-duration: 1.43s; }
+    animation-delay: 0.06s;
+    animation-duration: 1.6s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.19s;
-    animation-duration: 1.35s; }
+    animation-delay: 0.79s;
+    animation-duration: 0.71s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.64s;
-    animation-duration: 1.44s; }
+    animation-delay: 0.08s;
+    animation-duration: 0.85s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.71s;
-    animation-duration: 0.63s; }
+    animation-delay: 0.08s;
+    animation-duration: 0.72s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0.66s;
-    animation-duration: 1.1s; }
+    animation-delay: -0.14s;
+    animation-duration: 0.99s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.67s;
-    animation-duration: 1.08s; }
+    animation-delay: 0.23s;
+    animation-duration: 0.97s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6848,32 +6848,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: -0.15s;
-    animation-duration: 1.53s; }
+    animation-delay: 0.51s;
+    animation-duration: 1.05s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.42s;
-    animation-duration: 0.97s; }
-  .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.52s;
-    animation-duration: 1.38s; }
-  .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: -0.15s;
-    animation-duration: 1.14s; }
-  .ball-grid-pulse > div:nth-child(5) {
     animation-delay: 0.41s;
-    animation-duration: 0.92s; }
+    animation-duration: 1.54s; }
+  .ball-grid-pulse > div:nth-child(3) {
+    animation-delay: 0.56s;
+    animation-duration: 1.08s; }
+  .ball-grid-pulse > div:nth-child(4) {
+    animation-delay: 0.07s;
+    animation-duration: 1.33s; }
+  .ball-grid-pulse > div:nth-child(5) {
+    animation-delay: 0.37s;
+    animation-duration: 1.22s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: -0.11s;
-    animation-duration: 1.55s; }
-  .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0.13s;
-    animation-duration: 0.78s; }
-  .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: -0.01s;
-    animation-duration: 0.91s; }
-  .ball-grid-pulse > div:nth-child(9) {
     animation-delay: 0.29s;
-    animation-duration: 1.19s; }
+    animation-duration: 1.45s; }
+  .ball-grid-pulse > div:nth-child(7) {
+    animation-delay: -0.08s;
+    animation-duration: 1.29s; }
+  .ball-grid-pulse > div:nth-child(8) {
+    animation-delay: 0.3s;
+    animation-duration: 1.09s; }
+  .ball-grid-pulse > div:nth-child(9) {
+    animation-delay: -0.19s;
+    animation-duration: 1.43s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7114,20 +7114,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.58s;
-  animation-duration: 0.77s; }
+  animation-delay: 0.63s;
+  animation-duration: 0.69s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.29s;
-  animation-duration: 0.77s; }
+  animation-delay: -0.16s;
+  animation-duration: 0.42s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: -0.11s;
-  animation-duration: 0.73s; }
+  animation-delay: 0.8s;
+  animation-duration: 0.71s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.08s;
-  animation-duration: 0.84s; }
+  animation-delay: 0.74s;
+  animation-duration: 0.59s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7734,56 +7734,60 @@ div.footer {
   html {
     font-size: 0.83375rem; } }
 
-.theme-inicio .main-loader-container .main-loader > div > div {
+.theme-inicio .main-loader-container {
   background-color: #4285f4; }
+  .theme-inicio .main-loader-container .main-loader > div > div {
+    background-color: #FFF; }
 
-.theme-inicio div.header-page div.header-logo {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 400;
-  font-style: normal;
-  color: #4285f4;
-  text-align: left;
-  text-transform: none;
-  line-height: 1.85rem; }
-  .theme-inicio div.header-page div.header-logo small {
-    font-size: 80%; }
-  .theme-inicio div.header-page div.header-logo a {
-    color: #4285f4;
-    text-decoration: none;
-    background-color: transparent; }
-    .theme-inicio div.header-page div.header-logo a:hover, .theme-inicio div.header-page div.header-logo a:focus, .theme-inicio div.header-page div.header-logo a.active, .theme-inicio div.header-page div.header-logo a:active {
-      color: #4285f4;
+.theme-inicio div.header-page {
+  background-color: #4285f4; }
+  .theme-inicio div.header-page div.header-logo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    text-align: left;
+    text-transform: none;
+    line-height: 1.85rem; }
+    .theme-inicio div.header-page div.header-logo small {
+      font-size: 80%; }
+    .theme-inicio div.header-page div.header-logo a {
+      color: #FFF;
       text-decoration: none;
       background-color: transparent; }
+      .theme-inicio div.header-page div.header-logo a:hover, .theme-inicio div.header-page div.header-logo a:focus, .theme-inicio div.header-page div.header-logo a.active, .theme-inicio div.header-page div.header-logo a:active {
+        color: #FFF;
+        text-decoration: none;
+        background-color: transparent; }
 
 .theme-inicio div.page-title {
-  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #4285f4, #a2c3fa); }
+  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #FFF, #f8fafc); }
 
 .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-  color: #4285f4;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-    color: #4285f4;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
 .theme-inicio div.main-nav ul.nav li.nav-item a.nav-link.active {
-  color: #4285f4;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-inicio div.main-nav ul.nav li.nav-item a.nav-link.active:hover, .theme-inicio div.main-nav ul.nav li.nav-item a.nav-link.active:focus, .theme-inicio div.main-nav ul.nav li.nav-item a.nav-link.active.active, .theme-inicio div.main-nav ul.nav li.nav-item a.nav-link.active:active {
-    color: #4285f4;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
 .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: #4285f4;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-inicio div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: #4285f4;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
@@ -7810,64 +7814,68 @@ div.footer {
     background-color: #4285f4;
     background: linear-gradient(0deg, #4285f4, #a2c3fa); }
   .theme-inicio div.main-nav ul.nav li.nav-item a.nav-link.active {
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
     .theme-inicio div.main-nav ul.nav li.nav-item a.nav-link.active:hover, .theme-inicio div.main-nav ul.nav li.nav-item a.nav-link.active:focus, .theme-inicio div.main-nav ul.nav li.nav-item a.nav-link.active.active, .theme-inicio div.main-nav ul.nav li.nav-item a.nav-link.active:active {
-      color: #fff;
+      color: #FFF;
       text-decoration: none;
       background-color: transparent; } }
 
-.theme-perfil .main-loader-container .main-loader > div > div {
+.theme-perfil .main-loader-container {
   background-color: crimson; }
+  .theme-perfil .main-loader-container .main-loader > div > div {
+    background-color: #FFF; }
 
-.theme-perfil div.header-page div.header-logo {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 400;
-  font-style: normal;
-  color: crimson;
-  text-align: left;
-  text-transform: none;
-  line-height: 1.85rem; }
-  .theme-perfil div.header-page div.header-logo small {
-    font-size: 80%; }
-  .theme-perfil div.header-page div.header-logo a {
-    color: crimson;
-    text-decoration: none;
-    background-color: transparent; }
-    .theme-perfil div.header-page div.header-logo a:hover, .theme-perfil div.header-page div.header-logo a:focus, .theme-perfil div.header-page div.header-logo a.active, .theme-perfil div.header-page div.header-logo a:active {
-      color: crimson;
+.theme-perfil div.header-page {
+  background-color: crimson; }
+  .theme-perfil div.header-page div.header-logo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    text-align: left;
+    text-transform: none;
+    line-height: 1.85rem; }
+    .theme-perfil div.header-page div.header-logo small {
+      font-size: 80%; }
+    .theme-perfil div.header-page div.header-logo a {
+      color: #FFF;
       text-decoration: none;
       background-color: transparent; }
+      .theme-perfil div.header-page div.header-logo a:hover, .theme-perfil div.header-page div.header-logo a:focus, .theme-perfil div.header-page div.header-logo a.active, .theme-perfil div.header-page div.header-logo a:active {
+        color: #FFF;
+        text-decoration: none;
+        background-color: transparent; }
 
 .theme-perfil div.page-title {
-  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, crimson, #f16581); }
+  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #FFF, #f8fafc); }
 
 .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-  color: crimson;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-    color: crimson;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
 .theme-perfil div.main-nav ul.nav li.nav-item a.nav-link.active {
-  color: crimson;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-perfil div.main-nav ul.nav li.nav-item a.nav-link.active:hover, .theme-perfil div.main-nav ul.nav li.nav-item a.nav-link.active:focus, .theme-perfil div.main-nav ul.nav li.nav-item a.nav-link.active.active, .theme-perfil div.main-nav ul.nav li.nav-item a.nav-link.active:active {
-    color: crimson;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
 .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: crimson;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-perfil div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: crimson;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
@@ -7894,11 +7902,11 @@ div.footer {
     background-color: crimson;
     background: linear-gradient(0deg, crimson, #f16581); }
   .theme-perfil div.main-nav ul.nav li.nav-item a.nav-link.active {
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
     .theme-perfil div.main-nav ul.nav li.nav-item a.nav-link.active:hover, .theme-perfil div.main-nav ul.nav li.nav-item a.nav-link.active:focus, .theme-perfil div.main-nav ul.nav li.nav-item a.nav-link.active.active, .theme-perfil div.main-nav ul.nav li.nav-item a.nav-link.active:active {
-      color: #fff;
+      color: #FFF;
       text-decoration: none;
       background-color: transparent; } }
 
@@ -7932,56 +7940,60 @@ div.perfil-company {
   div.perfil-section h2 {
     font-size: 2rem; } }
 
-.theme-portfolio .main-loader-container .main-loader > div > div {
+.theme-portfolio .main-loader-container {
   background-color: #34a853; }
+  .theme-portfolio .main-loader-container .main-loader > div > div {
+    background-color: #FFF; }
 
-.theme-portfolio div.header-page div.header-logo {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 400;
-  font-style: normal;
-  color: #34a853;
-  text-align: left;
-  text-transform: none;
-  line-height: 1.85rem; }
-  .theme-portfolio div.header-page div.header-logo small {
-    font-size: 80%; }
-  .theme-portfolio div.header-page div.header-logo a {
-    color: #34a853;
-    text-decoration: none;
-    background-color: transparent; }
-    .theme-portfolio div.header-page div.header-logo a:hover, .theme-portfolio div.header-page div.header-logo a:focus, .theme-portfolio div.header-page div.header-logo a.active, .theme-portfolio div.header-page div.header-logo a:active {
-      color: #34a853;
+.theme-portfolio div.header-page {
+  background-color: #34a853; }
+  .theme-portfolio div.header-page div.header-logo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    text-align: left;
+    text-transform: none;
+    line-height: 1.85rem; }
+    .theme-portfolio div.header-page div.header-logo small {
+      font-size: 80%; }
+    .theme-portfolio div.header-page div.header-logo a {
+      color: #FFF;
       text-decoration: none;
       background-color: transparent; }
+      .theme-portfolio div.header-page div.header-logo a:hover, .theme-portfolio div.header-page div.header-logo a:focus, .theme-portfolio div.header-page div.header-logo a.active, .theme-portfolio div.header-page div.header-logo a:active {
+        color: #FFF;
+        text-decoration: none;
+        background-color: transparent; }
 
 .theme-portfolio div.page-title {
-  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #34a853, #6fd38a); }
+  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #FFF, #f8fafc); }
 
 .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-  color: #34a853;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-    color: #34a853;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
 .theme-portfolio div.main-nav ul.nav li.nav-item a.nav-link.active {
-  color: #34a853;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-portfolio div.main-nav ul.nav li.nav-item a.nav-link.active:hover, .theme-portfolio div.main-nav ul.nav li.nav-item a.nav-link.active:focus, .theme-portfolio div.main-nav ul.nav li.nav-item a.nav-link.active.active, .theme-portfolio div.main-nav ul.nav li.nav-item a.nav-link.active:active {
-    color: #34a853;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
 .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: #34a853;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-portfolio div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: #34a853;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
@@ -8008,64 +8020,68 @@ div.perfil-company {
     background-color: #34a853;
     background: linear-gradient(0deg, #34a853, #6fd38a); }
   .theme-portfolio div.main-nav ul.nav li.nav-item a.nav-link.active {
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
     .theme-portfolio div.main-nav ul.nav li.nav-item a.nav-link.active:hover, .theme-portfolio div.main-nav ul.nav li.nav-item a.nav-link.active:focus, .theme-portfolio div.main-nav ul.nav li.nav-item a.nav-link.active.active, .theme-portfolio div.main-nav ul.nav li.nav-item a.nav-link.active:active {
-      color: #fff;
+      color: #FFF;
       text-decoration: none;
       background-color: transparent; } }
 
-.theme-blog .main-loader-container .main-loader > div > div {
+.theme-blog .main-loader-container {
   background-color: #6b23ae; }
+  .theme-blog .main-loader-container .main-loader > div > div {
+    background-color: #FFF; }
 
-.theme-blog div.header-page div.header-logo {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 400;
-  font-style: normal;
-  color: #6b23ae;
-  text-align: left;
-  text-transform: none;
-  line-height: 1.85rem; }
-  .theme-blog div.header-page div.header-logo small {
-    font-size: 80%; }
-  .theme-blog div.header-page div.header-logo a {
-    color: #6b23ae;
-    text-decoration: none;
-    background-color: transparent; }
-    .theme-blog div.header-page div.header-logo a:hover, .theme-blog div.header-page div.header-logo a:focus, .theme-blog div.header-page div.header-logo a.active, .theme-blog div.header-page div.header-logo a:active {
-      color: #6b23ae;
+.theme-blog div.header-page {
+  background-color: #6b23ae; }
+  .theme-blog div.header-page div.header-logo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    text-align: left;
+    text-transform: none;
+    line-height: 1.85rem; }
+    .theme-blog div.header-page div.header-logo small {
+      font-size: 80%; }
+    .theme-blog div.header-page div.header-logo a {
+      color: #FFF;
       text-decoration: none;
       background-color: transparent; }
+      .theme-blog div.header-page div.header-logo a:hover, .theme-blog div.header-page div.header-logo a:focus, .theme-blog div.header-page div.header-logo a.active, .theme-blog div.header-page div.header-logo a:active {
+        color: #FFF;
+        text-decoration: none;
+        background-color: transparent; }
 
 .theme-blog div.page-title {
-  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #6b23ae, #9e59de); }
+  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #FFF, #f8fafc); }
 
 .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-  color: #6b23ae;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-    color: #6b23ae;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
 .theme-blog div.main-nav ul.nav li.nav-item a.nav-link.active {
-  color: #6b23ae;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-blog div.main-nav ul.nav li.nav-item a.nav-link.active:hover, .theme-blog div.main-nav ul.nav li.nav-item a.nav-link.active:focus, .theme-blog div.main-nav ul.nav li.nav-item a.nav-link.active.active, .theme-blog div.main-nav ul.nav li.nav-item a.nav-link.active:active {
-    color: #6b23ae;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
 .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: #6b23ae;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-blog div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: #6b23ae;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
@@ -8092,64 +8108,68 @@ div.perfil-company {
     background-color: #6b23ae;
     background: linear-gradient(0deg, #6b23ae, #9e59de); }
   .theme-blog div.main-nav ul.nav li.nav-item a.nav-link.active {
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
     .theme-blog div.main-nav ul.nav li.nav-item a.nav-link.active:hover, .theme-blog div.main-nav ul.nav li.nav-item a.nav-link.active:focus, .theme-blog div.main-nav ul.nav li.nav-item a.nav-link.active.active, .theme-blog div.main-nav ul.nav li.nav-item a.nav-link.active:active {
-      color: #fff;
+      color: #FFF;
       text-decoration: none;
       background-color: transparent; } }
 
-.theme-contacto .main-loader-container .main-loader > div > div {
+.theme-contacto .main-loader-container {
   background-color: #fbbc05; }
+  .theme-contacto .main-loader-container .main-loader > div > div {
+    background-color: #FFF; }
 
-.theme-contacto div.header-page div.header-logo {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 400;
-  font-style: normal;
-  color: #fbbc05;
-  text-align: left;
-  text-transform: none;
-  line-height: 1.85rem; }
-  .theme-contacto div.header-page div.header-logo small {
-    font-size: 80%; }
-  .theme-contacto div.header-page div.header-logo a {
-    color: #fbbc05;
-    text-decoration: none;
-    background-color: transparent; }
-    .theme-contacto div.header-page div.header-logo a:hover, .theme-contacto div.header-page div.header-logo a:focus, .theme-contacto div.header-page div.header-logo a.active, .theme-contacto div.header-page div.header-logo a:active {
-      color: #fbbc05;
+.theme-contacto div.header-page {
+  background-color: #fbbc05; }
+  .theme-contacto div.header-page div.header-logo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    text-align: left;
+    text-transform: none;
+    line-height: 1.85rem; }
+    .theme-contacto div.header-page div.header-logo small {
+      font-size: 80%; }
+    .theme-contacto div.header-page div.header-logo a {
+      color: #FFF;
       text-decoration: none;
       background-color: transparent; }
+      .theme-contacto div.header-page div.header-logo a:hover, .theme-contacto div.header-page div.header-logo a:focus, .theme-contacto div.header-page div.header-logo a.active, .theme-contacto div.header-page div.header-logo a:active {
+        color: #FFF;
+        text-decoration: none;
+        background-color: transparent; }
 
 .theme-contacto div.page-title {
-  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #fbbc05, #fdd769); }
+  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #FFF, #f8fafc); }
 
 .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
-  color: #fbbc05;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-    color: #fbbc05;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
 .theme-contacto div.main-nav ul.nav li.nav-item a.nav-link.active {
-  color: #fbbc05;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-contacto div.main-nav ul.nav li.nav-item a.nav-link.active:hover, .theme-contacto div.main-nav ul.nav li.nav-item a.nav-link.active:focus, .theme-contacto div.main-nav ul.nav li.nav-item a.nav-link.active.active, .theme-contacto div.main-nav ul.nav li.nav-item a.nav-link.active:active {
-    color: #fbbc05;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
 .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link {
-  color: #fbbc05;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent; }
   .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link:hover, .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link:focus, .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link.active, .theme-contacto div.rrss-nav ul.nav li.nav-item a.nav-link:active {
-    color: #fbbc05;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
 
@@ -8176,11 +8196,11 @@ div.perfil-company {
     background-color: #fbbc05;
     background: linear-gradient(0deg, #fbbc05, #fdd769); }
   .theme-contacto div.main-nav ul.nav li.nav-item a.nav-link.active {
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent; }
     .theme-contacto div.main-nav ul.nav li.nav-item a.nav-link.active:hover, .theme-contacto div.main-nav ul.nav li.nav-item a.nav-link.active:focus, .theme-contacto div.main-nav ul.nav li.nav-item a.nav-link.active.active, .theme-contacto div.main-nav ul.nav li.nav-item a.nav-link.active:active {
-      color: #fff;
+      color: #FFF;
       text-decoration: none;
       background-color: transparent; } }
 
