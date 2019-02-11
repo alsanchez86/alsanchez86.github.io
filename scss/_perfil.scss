@@ -31,13 +31,17 @@ div.perfil-section {
 div.perfil-company {
     margin-bottom: 6.25rem;
 
+    img.img-company {
+        max-width: 120px;
+    }
+
     div.perfil-company-section {
         margin-bottom: 2.25rem;
-    }
-}
 
-img.img-company {
-    max-width: 120px;
+        h4 {
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 // GRID COMPONENT
