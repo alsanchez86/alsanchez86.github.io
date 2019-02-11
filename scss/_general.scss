@@ -44,7 +44,7 @@ div.header-page {
         a {
             @include link($body_color, $body_color, none, none, transparent, transparent);
             display: block;
-            padding: 1.4rem 0;
+            padding: $header-page-element-padding 0;
         }
     }
 }
@@ -88,7 +88,7 @@ div.main-nav {
 
             a.nav-link {
                 @include link($gris_4, $gris_4, none, none, transparent, transparent);
-                padding: 1.4rem 1.2rem;
+                padding: $header-page-element-padding 1.2rem;
                 margin: 0 0.2rem;
                 letter-spacing: 0.1rem;
             }
@@ -102,7 +102,7 @@ div.rrss-nav {
         li.nav-item {
             a.nav-link {
                 @include link($body_color, $body_color, none, none, transparent, transparent);
-                padding: 1.4rem 1rem;
+                padding: $header-page-element-padding 1rem;
             }
         }
     }
