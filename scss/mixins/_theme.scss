@@ -1,10 +1,9 @@
 @mixin theme ($color: $body-color) {
   // Loader
   .main-loader-container {
-    background-color: $color;
     .main-loader {
       &>div>div {
-        background-color: $blanco_1;
+        background-color: $color;
       }
     }
   }
@@ -40,6 +39,8 @@
         }
 
         a.nav-link {
+          @include link($blanco_1, $blanco_1, none, none, transparent, transparent);
+
           &.active {
             @include link($blanco_1, $blanco_1, none, none, transparent, transparent);
           }
@@ -80,7 +81,7 @@
     div.header-page {
       &.header-page-open {
         background-color: $color;
-        background: linear-gradient(0deg, $color, lighten($color, 20%));
+        // background: linear-gradient(0deg, $color, lighten($color, 20%));
       }
     }
     // Main nav
