@@ -17,39 +17,45 @@
         {{ date }}
     </p>
 
-    <h4>
-        Funciones:
-    </h4>
+    <div class="perfil-company-section">
+        <h4>
+            Funciones:
+        </h4>
 
-    <ul>
-        {{#functions}}
-        <li>{{.}}</li>
-        {{/functions}}
-    </ul>
+        <ul>
+            {{#functions}}
+            <li>{{.}}</li>
+            {{/functions}}
+        </ul>
+    </div>
 
-    <h4>
-        Proyectos destacados:
-    </h4>
+    <div class="perfil-company-section">
+        <h4>
+            Proyectos destacados:
+        </h4>
 
-    <ul>
-        {{#projects}}
-        <li><a href="{{url}}" target="_blank">{{name}}</a></li>
-        {{/projects}}
-    </ul>
+        <ul>
+            {{#projects}}
+            <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+            {{/projects}}
+        </ul>
+    </div>
 
-    <h4>
-        Tecnologías:
-    </h4>
+    <div class="perfil-company-section">
+        <h4>
+            Tecnologías:
+        </h4>
 
-    <ul>
-        {{#technologies}}
-        <li>
-            {{type}}: 
-            {{#list}}
+        <ul>
+            {{#technologies}}
+            <li>
+                {{type}}:
+                {{#list}}
                 <span class="badge badge-primary">{{.}}</span>
-            {{/list}}
-        </li>
-        
-        {{/technologies}}
-    </ul>
+                {{/list}}
+            </li>
+
+            {{/technologies}}
+        </ul>
+    </div>
 </div>
