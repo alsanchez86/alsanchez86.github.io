@@ -6796,32 +6796,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: -0.08s;
-    animation-duration: 1.17s; }
+    animation-delay: 0.54s;
+    animation-duration: 0.97s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.03s;
-    animation-duration: 1.21s; }
+    animation-delay: 0.68s;
+    animation-duration: 0.63s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.79s;
-    animation-duration: 1.12s; }
+    animation-delay: 0.77s;
+    animation-duration: 1.39s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: -0.19s;
-    animation-duration: 1.35s; }
+    animation-delay: 0.35s;
+    animation-duration: 0.87s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.66s;
-    animation-duration: 0.81s; }
-  .ball-grid-beat > div:nth-child(6) {
     animation-delay: 0.7s;
-    animation-duration: 0.88s; }
+    animation-duration: 1.02s; }
+  .ball-grid-beat > div:nth-child(6) {
+    animation-delay: 0.65s;
+    animation-duration: 1.22s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.34s;
-    animation-duration: 1.23s; }
+    animation-delay: 0.57s;
+    animation-duration: 1.43s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0.76s;
-    animation-duration: 1.47s; }
+    animation-delay: -0.06s;
+    animation-duration: 1.14s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.4s;
-    animation-duration: 1.3s; }
+    animation-delay: -0.19s;
+    animation-duration: 1.38s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6848,32 +6848,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.75s;
-    animation-duration: 0.62s; }
-  .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.47s;
-    animation-duration: 0.7s; }
-  .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.45s;
-    animation-duration: 1.51s; }
-  .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.72s;
-    animation-duration: 0.85s; }
-  .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.31s;
-    animation-duration: 0.78s; }
-  .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: 0.62s;
-    animation-duration: 1.4s; }
-  .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: -0.14s;
-    animation-duration: 1.11s; }
-  .ball-grid-pulse > div:nth-child(8) {
     animation-delay: 0.09s;
-    animation-duration: 1.54s; }
+    animation-duration: 1.12s; }
+  .ball-grid-pulse > div:nth-child(2) {
+    animation-delay: 0.74s;
+    animation-duration: 1.07s; }
+  .ball-grid-pulse > div:nth-child(3) {
+    animation-delay: 0.49s;
+    animation-duration: 1.32s; }
+  .ball-grid-pulse > div:nth-child(4) {
+    animation-delay: 0.68s;
+    animation-duration: 1.26s; }
+  .ball-grid-pulse > div:nth-child(5) {
+    animation-delay: -0.07s;
+    animation-duration: 0.89s; }
+  .ball-grid-pulse > div:nth-child(6) {
+    animation-delay: 0.24s;
+    animation-duration: 1.53s; }
+  .ball-grid-pulse > div:nth-child(7) {
+    animation-delay: 0.76s;
+    animation-duration: 1.09s; }
+  .ball-grid-pulse > div:nth-child(8) {
+    animation-delay: 0.53s;
+    animation-duration: 1.32s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: -0.04s;
-    animation-duration: 1.22s; }
+    animation-delay: 0.09s;
+    animation-duration: 1.25s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7114,20 +7114,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.08s;
-  animation-duration: 0.73s; }
+  animation-delay: 0.14s;
+  animation-duration: 0.53s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.28s;
-  animation-duration: 0.96s; }
+  animation-delay: -0.05s;
+  animation-duration: 0.83s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.07s;
-  animation-duration: 0.94s; }
+  animation-delay: 0.39s;
+  animation-duration: 1.02s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: -0.15s;
-  animation-duration: 0.7s; }
+  animation-delay: 0.13s;
+  animation-duration: 0.54s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7759,7 +7759,7 @@ div.footer {
         background-color: transparent; }
 
 .theme-inicio div.page-title {
-  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, white, white); }
+  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #07337c, #4285f4); }
 
 .theme-inicio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
   color: #FFF;
@@ -7852,7 +7852,7 @@ div.footer {
         background-color: transparent; }
 
 .theme-perfil div.page-title {
-  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #fac3ce, white); }
+  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #38050f, crimson); }
 
 .theme-perfil div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
   color: #FFF;
@@ -7975,7 +7975,7 @@ div.perfil-company {
         background-color: transparent; }
 
 .theme-portfolio div.page-title {
-  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #bdebc9, white); }
+  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #0a2010, #34a853); }
 
 .theme-portfolio div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
   color: #FFF;
@@ -8068,7 +8068,7 @@ div.perfil-company {
         background-color: transparent; }
 
 .theme-blog div.page-title {
-  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #d0aeef, white); }
+  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #100519, #6b23ae); }
 
 .theme-blog div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
   color: #FFF;
@@ -8161,7 +8161,7 @@ div.perfil-company {
         background-color: transparent; }
 
 .theme-contacto div.page-title {
-  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #fef2ce, white); }
+  background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #4c3901, #fbbc05); }
 
 .theme-contacto div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
   color: #FFF;
