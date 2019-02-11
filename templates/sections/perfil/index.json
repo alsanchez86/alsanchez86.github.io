@@ -20,11 +20,19 @@
       "projects": [],
       "technologies": [{
           "type": "Frontend",
-          "list": ["Angular", "AngularJS", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Tracking (GTM, DTM)", "SVG", "d3", "Konva", "Mercurial", "Typescript", "Moment.js"]
+          "list": ["JavaScript", "Angular", "AngularJS", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Tracking (GTM, DTM)", "SVG", "d3", "Konva", "Mercurial", "Typescript", "Moment.js"]
         },
         {
           "type": "Backend",
           "list": ["Nodejs", "Cinema4d (Python)", "Java (Play Framework)"]
+        },
+        {
+          "type": "Gestor de versiones",
+          "list": ["Github", "Mercurial"]
+        },
+        {
+          "type": "Metodologías ágiles",
+          "list": ["Scrum"]
         }
       ]
     },
@@ -48,12 +56,12 @@
         "name": "Portal corporativo Danone S.A.",
         "url": "https://www.alimentasonrisas.es/"
       }, {
-        "name": "Web APP FontVella \"Eres Impulso\"",
+        "name": "Web APP FontVella \"Eres Impulso\".",
         "url": "https://eresimpulso.fontvella.es/"
       }],
       "technologies": [{
           "type": "Frontend",
-          "list": ["Angular2", "AngularJS", "jQuery", "TypeScript", "Bootstrap", "Foundation", "HTML5", "CSS3", "Sass", "Less", "Grunt", "Gulp"]
+          "list": ["JavaScript", "Angular2", "AngularJS", "jQuery", "TypeScript", "Bootstrap", "Foundation", "HTML5", "CSS3", "Sass", "Less", "Grunt", "Gulp"]
         },
         {
           "type": "Backend",
@@ -91,23 +99,23 @@
         "Contacto directo con el cliente mediante soporte técnico."
       ],
       "projects": [{
-          "name": "Ximdex CMS.CMS semántico para XML",
+          "name": "Ximdex CMS: CMS semántico basado en tecnología XML.",
           "url": "http://demo.ximdex.com/xcms/"
         },
         {
-          "name": "Demos módulos Ximdex CMS",
+          "name": "Demos módulos Ximdex CMS.",
           "url": "http://demo.ximdex.com"
         },
         {
-          "name": "XFIND Demo",
+          "name": "XFIND Demo.",
           "url": "http://demo.ximdex.com/xfind/"
         },
         {
-          "name": "XOWL Demo",
+          "name": "XOWL Demo.",
           "url": "http://demo.ximdex.com/xowl/"
         },
         {
-          "name": "XHAWK Demo",
+          "name": "XHAWK Demo.",
           "url": "http://demo.ximdex.com/xhawk/"
         },
         {
@@ -115,11 +123,11 @@
           "url": "http://www.ximdex.com/"
         },
         {
-          "name": "Portal web AEPD.Agencia Española de Protección de Datos",
+          "name": "Portal web AEPD: Agencia Española de Protección de Datos.",
           "url": "http://www.agpd.es/"
         },
         {
-          "name": "Portal web BRAE.Biblioteca de recursos para el aprendizaje del Español",
+          "name": "Portal web BRAE: Biblioteca de recursos para el aprendizaje del Español.",
           "url": "http://brae.redhispanistas.es/"
         },
         {
@@ -129,7 +137,7 @@
       ],
       "technologies": [{
           "type": "Frontend",
-          "list": ["jQuery", "Riot.js", "AngularJS", "CoffeeScript", "Bootstrap", "Kibana", "HTML5", "CSS3", "Less", "Sass", "Grunt", "Gulp"]
+          "list": ["JavaScript", "jQuery", "Riot.js", "AngularJS", "CoffeeScript", "Bootstrap", "Kibana", "HTML5", "CSS3", "Less", "Sass", "Grunt", "Gulp"]
         },
         {
           "type": "Backend",
@@ -185,23 +193,23 @@
           "url": "http://www.centrobttnevada.es/"
         },
         {
-          "name": "Web corporativa Grupo Hispasat",
+          "name": "Web corporativa Grupo Hispasat.",
           "url": "http://www.hispasat.com/"
         },
         {
-          "name": "Web corporativa Mercer Hoteles.Barcelona.",
+          "name": "Web corporativa Mercer Hoteles Barcelona.",
           "url": "http://www.mercerbarcelona.com/"
         },
         {
-          "name": "Tienda online Tramas + .Malbatex S.L.",
+          "name": "Tienda online Tramas + Malbatex S.L.",
           "url": "http://www.tramasmas.com/"
         },
         {
-          "name": "Portal web \"Sevilla si\"",
+          "name": "Portal web \"Sevilla si\".",
           "url": "http://www.sevillasi.com/"
         },
         {
-          "name": "Web corporativa Planvalore.Avales Inmobiliarios, S.A.",
+          "name": "Web corporativa Planvalore Avales Inmobiliarios, S.A.",
           "url": "http://www.planvalore.com/"
         },
         {
@@ -246,8 +254,7 @@
         "Desarrollador (Frontend y Backend) de aplicaciones y portales web."
       ],
       "projects": [],
-      "technologies": [
-        {
+      "technologies": [{
           "type": "Frontend",
           "list": ["JavaScript", "jQuery", "HTML5", "CSS"]
         },
@@ -269,7 +276,23 @@
       "date": "Julio de 2010 - Enero de 2012",
       "functions": ["Desarrollador de plataformas web para estudiantes (e-learning) y aplicaciones multimedia desarrolladas con Adobe Flash (ActionScript 3.0)."],
       "projects": [],
-      "technologies": ["JavaScript, HTML, CSS. PHP 5. *, MySQL, Windows *, Illustrator, Photoshop, Fireworks, Adobe Flash(ActionScript 3)"]
+      "technologies": [{
+          "type": "Frontend",
+          "list": ["JavaScript", "HTML5", "CSS", "Adobe Flash (ActionScript 3)"]
+        },
+        {
+          "type": "Backend",
+          "list": ["PHP 5.*", "MySQL"]
+        },
+        {
+          "type": "Sistemas",
+          "list": ["Windows *"]
+        },
+        {
+          "type": "Diseño gráfico",
+          "list": ["Illustrator", "Photoshop", "Fireworks"]
+        }
+      ]
     }
   ],
   "education": [{
