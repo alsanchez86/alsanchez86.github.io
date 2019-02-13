@@ -197,7 +197,7 @@ div.footer {
                 }
 
                 a.nav-link {
-                    @include text($open, 3.5rem, 400, normal, $blanco_1, center);
+                    @include text($open, 3.5rem, 400, normal, $blanco_1, center, none, 100%);
                     @include link($blanco_1, $blanco_1, none, none, transparent, transparent);
                     margin: 0;
                     padding: 2.2rem;
