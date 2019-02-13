@@ -39,7 +39,7 @@ div.header-page {
     // border-bottom: 2px solid $body_color;
 
     div.header-logo {
-        @include text($open, 1.25rem, 400, normal, $body_color, left, none, 1.85rem);
+        @include text($inter, 1.25rem, 400, normal, $body_color, left, none, 1.85rem);
 
         a {
             @include link($body_color, $body_color, none, none, transparent, transparent);
@@ -59,7 +59,7 @@ div.page-title {
     box-shadow: inset 0px -5px 10px rgba(0, 0, 0, .1);
 
     h1 {
-        @include text($open, 1.15rem, 700, normal, $blanco_1);
+        @include text($inter, 1.15rem, 700, normal, $blanco_1);
         margin-bottom: 0;
         letter-spacing: 0.3rem;
     }
@@ -139,7 +139,7 @@ div.main-section {
 
 // Footer
 div.footer {
-    @include text($noto, 0.9rem, 400, normal, $body-color, center);
+    @include text($inter, 0.9rem, 400, normal, $body-color, center);
     padding: 1rem 0 5rem 0;
     background-color: $blanco_1;
     border-top: 1px solid $gris_5;

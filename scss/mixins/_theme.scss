@@ -13,7 +13,7 @@
     background-color: $color;
 
     div.header-logo {
-      @include text($open, 1.25rem, 400, normal, $blanco_1, left, none, 1.85rem);
+      @include text($inter, 1.25rem, 400, normal, $blanco_1, left, none, 1.85rem);
 
       a {
         @include link($blanco_1, $blanco_1, none, none, transparent, transparent);

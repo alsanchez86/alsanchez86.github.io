@@ -1,3 +1,4 @@
+@import url("https://rsms.me/inter/inter.css");
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -55,7 +56,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.15rem;
   font-weight: 300;
   line-height: 1.825;
@@ -300,7 +301,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 1.75rem;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: inherit; }
@@ -3866,7 +3867,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.825;
@@ -3951,7 +3952,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.825;
@@ -6796,32 +6797,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.7s;
-    animation-duration: 1.32s; }
+    animation-delay: 0.45s;
+    animation-duration: 0.95s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.36s;
-    animation-duration: 1.3s; }
+    animation-delay: 0.58s;
+    animation-duration: 0.61s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: -0.08s;
-    animation-duration: 0.7s; }
+    animation-delay: 0.31s;
+    animation-duration: 0.68s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.51s;
-    animation-duration: 0.83s; }
+    animation-delay: 0.59s;
+    animation-duration: 0.73s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.38s;
-    animation-duration: 0.97s; }
+    animation-delay: 0.46s;
+    animation-duration: 1.23s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.76s;
-    animation-duration: 0.67s; }
+    animation-delay: -0.02s;
+    animation-duration: 0.88s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.63s;
-    animation-duration: 0.76s; }
+    animation-delay: 0.42s;
+    animation-duration: 0.75s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0.57s;
-    animation-duration: 1.03s; }
+    animation-delay: 0.28s;
+    animation-duration: 1.4s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.8s;
-    animation-duration: 0.98s; }
+    animation-delay: 0.44s;
+    animation-duration: 1.17s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6848,32 +6849,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.12s;
-    animation-duration: 1.04s; }
-  .ball-grid-pulse > div:nth-child(2) {
     animation-delay: 0.66s;
-    animation-duration: 0.61s; }
+    animation-duration: 1.26s; }
+  .ball-grid-pulse > div:nth-child(2) {
+    animation-delay: -0.16s;
+    animation-duration: 0.93s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.63s;
-    animation-duration: 0.61s; }
+    animation-delay: 0.7s;
+    animation-duration: 1.43s; }
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: -0.18s;
-    animation-duration: 0.77s; }
+    animation-delay: 0.01s;
+    animation-duration: 0.66s; }
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: -0.04s;
-    animation-duration: 0.74s; }
+    animation-delay: -0.09s;
+    animation-duration: 1.3s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: 0.39s;
-    animation-duration: 1.56s; }
+    animation-delay: 0.68s;
+    animation-duration: 0.69s; }
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0.75s;
-    animation-duration: 1.5s; }
+    animation-delay: 0.45s;
+    animation-duration: 1.03s; }
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.09s;
-    animation-duration: 1.12s; }
+    animation-delay: 0.04s;
+    animation-duration: 1.35s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: -0.11s;
-    animation-duration: 1.33s; }
+    animation-delay: -0.06s;
+    animation-duration: 1.42s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7114,20 +7115,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.42s;
-  animation-duration: 0.56s; }
+  animation-delay: 0.37s;
+  animation-duration: 0.34s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.7s;
-  animation-duration: 0.94s; }
+  animation-delay: 0.75s;
+  animation-duration: 1.14s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.51s;
-  animation-duration: 0.58s; }
+  animation-delay: 0.17s;
+  animation-duration: 0.89s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.46s;
-  animation-duration: 0.6s; }
+  animation-delay: 0.67s;
+  animation-duration: 0.69s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7534,7 +7535,7 @@ div.header-page {
   background-color: #FFF;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.03), 0 3px 46px rgba(0, 0, 0, 0.07); }
   div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
     font-style: normal;
@@ -7562,7 +7563,7 @@ div.page-title {
   background-color: #212529;
   box-shadow: inset 0px -5px 10px rgba(0, 0, 0, 0.1); }
   div.page-title h1 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.15rem;
     font-weight: 700;
     font-style: normal;
@@ -7635,7 +7636,7 @@ div.main-section div.main-content {
   padding: 3rem 0 5rem 0; }
 
 div.footer {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   font-style: normal;
@@ -7740,7 +7741,7 @@ div.footer {
 .theme-inicio div.header-page {
   background-color: #4285f4; }
   .theme-inicio div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
     font-style: normal;
@@ -7833,7 +7834,7 @@ div.footer {
 .theme-perfil div.header-page {
   background-color: crimson; }
   .theme-perfil div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
     font-style: normal;
@@ -7956,7 +7957,7 @@ div.perfil-company {
 .theme-portfolio div.header-page {
   background-color: #34a853; }
   .theme-portfolio div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
     font-style: normal;
@@ -8049,7 +8050,7 @@ div.perfil-company {
 .theme-blog div.header-page {
   background-color: #6b23ae; }
   .theme-blog div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
     font-style: normal;
@@ -8142,7 +8143,7 @@ div.perfil-company {
 .theme-contacto div.header-page {
   background-color: #fbbc05; }
   .theme-contacto div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
     font-style: normal;
