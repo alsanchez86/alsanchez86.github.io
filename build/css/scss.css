@@ -301,7 +301,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 1.75rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: inherit; }
@@ -6797,32 +6797,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.17s;
-    animation-duration: 0.89s; }
+    animation-delay: 0.43s;
+    animation-duration: 0.76s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.17s;
-    animation-duration: 1.46s; }
+    animation-delay: 0.21s;
+    animation-duration: 0.72s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.68s;
-    animation-duration: 1.05s; }
+    animation-delay: 0.55s;
+    animation-duration: 0.75s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.3s;
-    animation-duration: 1.49s; }
+    animation-delay: 0.16s;
+    animation-duration: 1.35s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.08s;
-    animation-duration: 1.36s; }
+    animation-delay: 0.12s;
+    animation-duration: 0.61s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.47s;
-    animation-duration: 1.43s; }
+    animation-delay: 0.62s;
+    animation-duration: 0.99s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: -0.13s;
-    animation-duration: 0.69s; }
+    animation-delay: 0.18s;
+    animation-duration: 0.74s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0.63s;
-    animation-duration: 1.34s; }
+    animation-delay: 0.58s;
+    animation-duration: 0.69s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.47s;
-    animation-duration: 1.3s; }
+    animation-delay: 0.77s;
+    animation-duration: 0.89s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6849,32 +6849,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.32s;
-    animation-duration: 1.49s; }
+    animation-delay: 0.6s;
+    animation-duration: 0.8s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.62s;
-    animation-duration: 1.41s; }
+    animation-delay: -0.19s;
+    animation-duration: 1.44s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.26s;
-    animation-duration: 1.5s; }
+    animation-delay: 0.65s;
+    animation-duration: 1.44s; }
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.78s;
-    animation-duration: 1.13s; }
+    animation-delay: 0.04s;
+    animation-duration: 1.41s; }
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.77s;
-    animation-duration: 1.55s; }
+    animation-delay: 0.29s;
+    animation-duration: 0.89s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: 0.46s;
-    animation-duration: 0.87s; }
-  .ball-grid-pulse > div:nth-child(7) {
     animation-delay: 0.22s;
-    animation-duration: 1.5s; }
+    animation-duration: 0.92s; }
+  .ball-grid-pulse > div:nth-child(7) {
+    animation-delay: 0.29s;
+    animation-duration: 0.97s; }
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: -0.14s;
-    animation-duration: 0.69s; }
+    animation-delay: 0.3s;
+    animation-duration: 1s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: -0.01s;
-    animation-duration: 1.26s; }
+    animation-delay: 0.73s;
+    animation-duration: 1.41s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7115,20 +7115,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.29s;
-  animation-duration: 0.46s; }
+  animation-delay: 0.17s;
+  animation-duration: 0.37s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.69s;
-  animation-duration: 0.74s; }
+  animation-delay: 0.29s;
+  animation-duration: 0.5s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: -0.08s;
-  animation-duration: 1.18s; }
+  animation-delay: 0.18s;
+  animation-duration: 0.32s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.5s;
-  animation-duration: 1.18s; }
+  animation-delay: 0.79s;
+  animation-duration: 1.11s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7539,7 +7539,7 @@ div.header-page {
     font-size: 1.25rem;
     font-weight: 400;
     font-style: normal;
-    color: #212529;
+    color: #FFF;
     text-align: left;
     text-transform: none;
     line-height: 1.85rem; }
@@ -7658,7 +7658,8 @@ div.footer {
     div.main-nav ul.nav {
       flex-direction: column !important; }
       div.main-nav ul.nav li.nav-item {
-        display: none; }
+        display: none;
+        line-height: 100%; }
         div.main-nav ul.nav li.nav-item.nav-item-branded {
           display: block; }
           div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
@@ -7668,12 +7669,21 @@ div.footer {
             div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon .fa-angle-up {
               display: none; }
         div.main-nav ul.nav li.nav-item a.nav-link {
+          font-family: "Open Sans", sans-serif;
+          font-size: 3.5rem;
+          font-weight: 400;
+          font-style: normal;
+          color: #FFF;
+          text-align: center;
+          text-transform: none;
+          line-height: 1.825;
           color: #FFF;
           text-decoration: none;
           background-color: transparent;
           margin: 0;
-          padding: 2.2rem;
-          font-size: 3.5rem; }
+          padding: 2.2rem; }
+          div.main-nav ul.nav li.nav-item a.nav-link small {
+            font-size: 80%; }
           div.main-nav ul.nav li.nav-item a.nav-link:hover, div.main-nav ul.nav li.nav-item a.nav-link:focus, div.main-nav ul.nav li.nav-item a.nav-link.active, div.main-nav ul.nav li.nav-item a.nav-link:active {
             color: #FFF;
             text-decoration: none;
@@ -7686,28 +7696,25 @@ div.footer {
       z-index: 999;
       border-bottom: 0;
       background-color: #212529; }
-      div.header-page.header-page-open div.main-nav {
-        font-size: 3.5rem; }
-        div.header-page.header-page-open div.main-nav ul.nav li.nav-item {
-          display: block;
-          line-height: 100%; }
-          div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded {
-            padding-bottom: 0; }
-            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+      div.header-page.header-page-open div.main-nav ul.nav li.nav-item {
+        display: block; }
+        div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded {
+          padding-bottom: 0; }
+          div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon {
+            color: #FFF;
+            text-decoration: none;
+            background-color: transparent;
+            margin-top: 1rem;
+            padding: 0;
+            font-size: 3rem; }
+            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
               color: #FFF;
               text-decoration: none;
-              background-color: transparent;
-              margin-top: 1rem;
-              padding: 0;
-              font-size: 3rem; }
-              div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:hover, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:focus, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon.active, div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon:active {
-                color: #FFF;
-                text-decoration: none;
-                background-color: transparent; }
-              div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon .fa-ellipsis-v {
-                display: none; }
-              div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon .fa-angle-up {
-                display: block; }
+              background-color: transparent; }
+            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon .fa-ellipsis-v {
+              display: none; }
+            div.header-page.header-page-open div.main-nav ul.nav li.nav-item.nav-item-branded a.menu-icon .fa-angle-up {
+              display: block; }
   div.main-section div.main-content {
     padding: 3rem 1rem; }
   div.footer {
@@ -7740,25 +7747,14 @@ div.footer {
 
 .theme-inicio div.header-page {
   background-color: #4285f4; }
-  .theme-inicio div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-style: normal;
+  .theme-inicio div.header-page div.header-logo a {
     color: #FFF;
-    text-align: left;
-    text-transform: none;
-    line-height: 1.85rem; }
-    .theme-inicio div.header-page div.header-logo small {
-      font-size: 80%; }
-    .theme-inicio div.header-page div.header-logo a {
+    text-decoration: none;
+    background-color: transparent; }
+    .theme-inicio div.header-page div.header-logo a:hover, .theme-inicio div.header-page div.header-logo a:focus, .theme-inicio div.header-page div.header-logo a.active, .theme-inicio div.header-page div.header-logo a:active {
       color: #FFF;
       text-decoration: none;
       background-color: transparent; }
-      .theme-inicio div.header-page div.header-logo a:hover, .theme-inicio div.header-page div.header-logo a:focus, .theme-inicio div.header-page div.header-logo a.active, .theme-inicio div.header-page div.header-logo a:active {
-        color: #FFF;
-        text-decoration: none;
-        background-color: transparent; }
 
 .theme-inicio div.page-title {
   background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #0d5bdd, #4285f4); }
@@ -7833,25 +7829,14 @@ div.footer {
 
 .theme-perfil div.header-page {
   background-color: crimson; }
-  .theme-perfil div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-style: normal;
+  .theme-perfil div.header-page div.header-logo a {
     color: #FFF;
-    text-align: left;
-    text-transform: none;
-    line-height: 1.85rem; }
-    .theme-perfil div.header-page div.header-logo small {
-      font-size: 80%; }
-    .theme-perfil div.header-page div.header-logo a {
+    text-decoration: none;
+    background-color: transparent; }
+    .theme-perfil div.header-page div.header-logo a:hover, .theme-perfil div.header-page div.header-logo a:focus, .theme-perfil div.header-page div.header-logo a.active, .theme-perfil div.header-page div.header-logo a:active {
       color: #FFF;
       text-decoration: none;
       background-color: transparent; }
-      .theme-perfil div.header-page div.header-logo a:hover, .theme-perfil div.header-page div.header-logo a:focus, .theme-perfil div.header-page div.header-logo a.active, .theme-perfil div.header-page div.header-logo a:active {
-        color: #FFF;
-        text-decoration: none;
-        background-color: transparent; }
 
 .theme-perfil div.page-title {
   background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #960e29, crimson); }
@@ -7956,25 +7941,14 @@ div.perfil-company {
 
 .theme-portfolio div.header-page {
   background-color: #34a853; }
-  .theme-portfolio div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-style: normal;
+  .theme-portfolio div.header-page div.header-logo a {
     color: #FFF;
-    text-align: left;
-    text-transform: none;
-    line-height: 1.85rem; }
-    .theme-portfolio div.header-page div.header-logo small {
-      font-size: 80%; }
-    .theme-portfolio div.header-page div.header-logo a {
+    text-decoration: none;
+    background-color: transparent; }
+    .theme-portfolio div.header-page div.header-logo a:hover, .theme-portfolio div.header-page div.header-logo a:focus, .theme-portfolio div.header-page div.header-logo a.active, .theme-portfolio div.header-page div.header-logo a:active {
       color: #FFF;
       text-decoration: none;
       background-color: transparent; }
-      .theme-portfolio div.header-page div.header-logo a:hover, .theme-portfolio div.header-page div.header-logo a:focus, .theme-portfolio div.header-page div.header-logo a.active, .theme-portfolio div.header-page div.header-logo a:active {
-        color: #FFF;
-        text-decoration: none;
-        background-color: transparent; }
 
 .theme-portfolio div.page-title {
   background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #226e36, #34a853); }
@@ -8049,25 +8023,14 @@ div.perfil-company {
 
 .theme-blog div.header-page {
   background-color: #6b23ae; }
-  .theme-blog div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-style: normal;
+  .theme-blog div.header-page div.header-logo a {
     color: #FFF;
-    text-align: left;
-    text-transform: none;
-    line-height: 1.85rem; }
-    .theme-blog div.header-page div.header-logo small {
-      font-size: 80%; }
-    .theme-blog div.header-page div.header-logo a {
+    text-decoration: none;
+    background-color: transparent; }
+    .theme-blog div.header-page div.header-logo a:hover, .theme-blog div.header-page div.header-logo a:focus, .theme-blog div.header-page div.header-logo a.active, .theme-blog div.header-page div.header-logo a:active {
       color: #FFF;
       text-decoration: none;
       background-color: transparent; }
-      .theme-blog div.header-page div.header-logo a:hover, .theme-blog div.header-page div.header-logo a:focus, .theme-blog div.header-page div.header-logo a.active, .theme-blog div.header-page div.header-logo a:active {
-        color: #FFF;
-        text-decoration: none;
-        background-color: transparent; }
 
 .theme-blog div.page-title {
   background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #44166e, #6b23ae); }
@@ -8142,25 +8105,14 @@ div.perfil-company {
 
 .theme-contacto div.header-page {
   background-color: #fbbc05; }
-  .theme-contacto div.header-page div.header-logo {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-style: normal;
+  .theme-contacto div.header-page div.header-logo a {
     color: #FFF;
-    text-align: left;
-    text-transform: none;
-    line-height: 1.85rem; }
-    .theme-contacto div.header-page div.header-logo small {
-      font-size: 80%; }
-    .theme-contacto div.header-page div.header-logo a {
+    text-decoration: none;
+    background-color: transparent; }
+    .theme-contacto div.header-page div.header-logo a:hover, .theme-contacto div.header-page div.header-logo a:focus, .theme-contacto div.header-page div.header-logo a.active, .theme-contacto div.header-page div.header-logo a:active {
       color: #FFF;
       text-decoration: none;
       background-color: transparent; }
-      .theme-contacto div.header-page div.header-logo a:hover, .theme-contacto div.header-page div.header-logo a:focus, .theme-contacto div.header-page div.header-logo a.active, .theme-contacto div.header-page div.header-logo a:active {
-        color: #FFF;
-        text-decoration: none;
-        background-color: transparent; }
 
 .theme-contacto div.page-title {
   background: url("../../img/background-page-title.svg") top right, linear-gradient(60deg, #b18403, #fbbc05); }

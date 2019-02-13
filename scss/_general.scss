@@ -39,7 +39,7 @@ div.header-page {
     // border-bottom: 2px solid $body_color;
 
     div.header-logo {
-        @include text($open, 1.25rem, 400, normal, $body_color, left, none, 1.85rem);
+        @include text($open, 1.25rem, 400, normal, $blanco_1, left, none, 1.85rem);
 
         a {
             @include link($body_color, $body_color, none, none, transparent, transparent);
@@ -178,10 +178,10 @@ div.footer {
 
             li.nav-item {
                 display: none;
+                line-height: 100%;
 
                 &.nav-item-branded {
                     display: block;
-                    // margin-bottom: 0.1rem;
 
                     a.menu-icon {
                         font-size: 2.2rem;
@@ -197,15 +197,10 @@ div.footer {
                 }
 
                 a.nav-link {
+                    @include text($open, 3.5rem, 400, normal, $blanco_1, center);
                     @include link($blanco_1, $blanco_1, none, none, transparent, transparent);
                     margin: 0;
                     padding: 2.2rem;
-                    font-size: 3.5rem;
-
-                    // &.active,
-                    // &:active {
-                    //     color: $body_color;
-                    // }
                 }
             }
         }
@@ -223,12 +218,9 @@ div.footer {
             background-color: $body_color;
 
             div.main-nav {
-                font-size: 3.5rem;
-
                 ul.nav {
                     li.nav-item {
                         display: block;
-                        line-height: 100%;
 
                         &.nav-item-branded {
                             padding-bottom: 0;
@@ -255,10 +247,6 @@ div.footer {
     }
 
     div.main-section {
-        // & > div.container {
-        //     max-width: 100%;
-        // }
-
         div.main-content {
             padding: 3rem 1rem;
         }
