@@ -8,8 +8,8 @@
 @import "bootstrap_customize";
 // Others
 @import "../node_modules/loaders.css/src/loaders";
-@import "../lib/zoom.js/scss/zoom";
-@import "../lib/spinner";
+@import "../third_parties/zoom.js/scss/zoom";
+@import "../third_parties/spinner";
 // Custom
 @import "loader";
 @import "general";

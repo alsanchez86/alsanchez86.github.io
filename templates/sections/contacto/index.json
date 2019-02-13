@@ -1,6 +1,6 @@
 {
   "build_css": "../build/css",
-  "requirejs_path": "../lib",
+  "requirejs_path": "../third_parties",
   "main_path": "../js",
   "page_title": "Contacto"
-} 
+}
