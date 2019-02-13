@@ -1,4 +1,4 @@
-define(["module", "jquery", "jquery_cache"], function (module, $, _$) {
+define(["module", "jquery", "jquery_cache_module"], function (module, $, _$) {
     /**
      *
      */
