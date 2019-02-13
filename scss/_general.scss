@@ -39,7 +39,7 @@ div.header-page {
     // border-bottom: 2px solid $body_color;
 
     div.header-logo {
-        @include text($inter, 1.25rem, 400, normal, $body_color, left, none, 1.85rem);
+        @include text($noto, 1.25rem, 400, normal, $body_color, left, none, 1.85rem);
 
         a {
             @include link($body_color, $body_color, none, none, transparent, transparent);
@@ -59,7 +59,7 @@ div.page-title {
     box-shadow: inset 0px -5px 10px rgba(0, 0, 0, .1);
 
     h1 {
-        @include text($inter, 1.15rem, 700, normal, $blanco_1);
+        @include text($noto, 1.15rem, 700, normal, $blanco_1);
         margin-bottom: 0;
         letter-spacing: 0.3rem;
     }
