@@ -78,7 +78,6 @@ div.main-nav {
                 a.menu-icon {
                     @include link($body_color, $body_color, none, none, transparent, transparent);
                     display: inline-block;
-                    // margin: 0.5rem 0.5rem 0.2rem 0.5rem;
                     padding: 1.15rem 0.5rem;
                     font-size: 2.5rem;
                     line-height: 100%;
@@ -225,8 +224,7 @@ div.footer {
                         &.nav-item-branded {
                             a.menu-icon {
                                 @include link($blanco_1, $blanco_1, none, none, transparent, transparent);
-                                // margin-top: 1rem;
-                                // padding: 0;
+                                padding: 0.9rem 0.1rem;
                                 font-size: 2.8rem;
 
                                 .fa-ellipsis-v {
