@@ -12,7 +12,7 @@ define(function () {
                         init.mobile_menu_xs();
                         init.page_loading(false);
 
-                        require(["d3"], function (d3) {
+                        require(["d3", "d3pie"], function (d3, d3pie) {
                             var pie = new d3pie("pieChart", {
                                 "header": {
                                     "title": {
