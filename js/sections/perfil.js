@@ -13,10 +13,10 @@ define(function () {
                         init.page_loading(false);
                         // Radar chart                       
                         var margin = {
-                            top: 100,
-                            right: 100,
-                            bottom: 100,
-                            left: 100
+                            top: 0,
+                            right: 0,
+                            bottom: 0,
+                            left: 0
                         };
                         var width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right;
                         var height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
