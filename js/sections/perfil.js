@@ -125,7 +125,11 @@ define(function () {
                                 {
                                     axis: "Gulp",
                                     value: 0.30
-                                }
+                                },
+                                {
+                                    axis: "Nodejs",
+                                    value: 0
+                                },
                             ],
                             [
                                 {
