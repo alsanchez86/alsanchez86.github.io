@@ -13,8 +13,9 @@ define(function () {
                         init_module.page_loading(false);
                         // Load section module
                         require((function (){
+                            var pathname = window.location.pathname;
                             return "perfil";
-                        }));
+                        })());
                     });
                 });
             });
