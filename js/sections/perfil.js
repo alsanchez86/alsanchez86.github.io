@@ -18,7 +18,7 @@ define(function () {
                             bottom: 100,
                             left: 100
                         };
-                        var width = Math.min(900, window.innerWidth - 10) - margin.left - margin.right;
+                        var width = Math.min($(".main-content").width(), window.innerWidth - 10) - margin.left - margin.right;
                         var height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
 
                         /*
