@@ -59,7 +59,9 @@ gulp.task('js:third_parties', function () {
             // jquery
             pkg.node_modules + "jquery/dist/jquery.min.js",
             // bootstrap
-            pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js'
+            pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
+            // d3pie
+            pkg.node_modules + 'd3pie/d3pie/d3pie.min.js',
         ])
         .pipe(gulp.dest(pkg.third_parties));
 });

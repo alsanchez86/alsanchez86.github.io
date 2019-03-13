@@ -23,8 +23,7 @@ require.config(
                 animate: _this.config.third_parties + "animate",
                 transition: _this.config.third_parties + "transition",
                 zoom: _this.config.third_parties + "zoom.js/js/zoom",
-                d3: _this.config.third_parties + "d3",
-                radarchart: _this.config.third_parties + "radarchart",
+                d3pie: _this.config.third_parties + "d3pie.min",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache.module",
                 init: _this.config.modules + "init.module",
@@ -41,9 +40,6 @@ require.config(
                 },
                 zoom: {
                     deps: ["transition"]
-                },
-                radarchart: {
-                    deps: ["d3"]
                 },
                 // modules
                 jquery_cache_module: {
