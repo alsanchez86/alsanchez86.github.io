@@ -61,7 +61,7 @@ gulp.task('js:third_parties', function () {
             // bootstrap
             pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
             // d3
-            pkg.node_modules + 'd3/dist/d3.js'
+            pkg.node_modules + 'd3/d3.js'
         ])
         .pipe(gulp.dest(pkg.third_parties));
 });
