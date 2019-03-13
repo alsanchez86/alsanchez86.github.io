@@ -5,7 +5,8 @@ require.config(
         var _this = {
             config: {
                 modules: window.location.origin + "/js/modules/",
-                third_parties: window.location.origin + "/third_parties/"
+                sections: window.location.origin + "/js/sections/",
+                third_parties: window.location.origin + "/third_parties/"                
             },
             callback: function () {
                 console.log("Loaded require config file.");
@@ -24,8 +25,10 @@ require.config(
                 zoom: _this.config.third_parties + "zoom.js/js/zoom",
                 d3: _this.config.third_parties + "d3.min",
                 // modules
-                jquery_cache_module: _this.config.modules + "jquery_cache_module",
-                init_module: _this.config.modules + "init_module"
+                jquery_cache_module: _this.config.modules + "jquery_cache.module",
+                init_module: _this.config.modules + "init.module",
+                // sections
+                perfil: _this.config.sections + "perfil",
             },
             shim: {
                 // third parties
