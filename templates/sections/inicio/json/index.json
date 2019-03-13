@@ -1,6 +1,6 @@
 {
   "css": "./build/css/",
-  "js": "./js/",
+  "js_module": "../js/default",
   "third_parties": "./third_parties/",
   "page_title": "Inicio"
 }
