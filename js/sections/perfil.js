@@ -11,11 +11,11 @@ define(function () {
                         init.set_active_menu_link();
                         init.mobile_menu_xs();
                         init.page_loading(false);
-
+                        // Save reference to d3
                         window.d3 = d3;
 
                         require(["d3pie"], function (d3pie) {
-                            var pie = new d3pie("pieChart", {
+                            var pie = new d3pie("pie-chart", {
                                 "header": {
                                     "title": {
                                         "text": "Spousal Resentment",
@@ -43,8 +43,7 @@ define(function () {
                                     "pieOuterRadius": "88%"
                                 },
                                 "data": {
-                                    "content": [
-                                        {
+                                    "content": [{
                                             "label": "When's it going to be done?",
                                             "value": 8,
                                             "color": "#7e3838"
@@ -117,11 +116,6 @@ define(function () {
                                 }
                             });
                         });
-
-                        
-
-
-
                     });
                 });
             });
