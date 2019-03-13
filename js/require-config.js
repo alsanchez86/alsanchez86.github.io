@@ -24,7 +24,7 @@ require.config(
                 transition: _this.config.third_parties + "transition",
                 zoom: _this.config.third_parties + "zoom.js/js/zoom",
                 d3: _this.config.third_parties + "d3.min",
-                d3pie: _this.config.third_parties + "d3pie.min",
+                d3pie: _this.config.third_parties + "d3pie",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache.module",
                 init: _this.config.modules + "init.module",
