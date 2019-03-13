@@ -130,7 +130,15 @@ define(function () {
                             [
                                 {
                                     axis: "Nodejs",
+                                    value: 0.60
+                                },
+                                {
+                                    axis: "PHP",
                                     value: 0.30
+                                },
+                                {
+                                    axis: "SQL",
+                                    value: 0.70
                                 }
                             ]
                         ];
