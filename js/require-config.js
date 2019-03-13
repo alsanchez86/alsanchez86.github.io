@@ -5,7 +5,7 @@ require.config(
         var _this = {
             config: {
                 modules: window.location.origin + "/js/modules/",
-                tp: window.location.origin + "/third_parties/"
+                third_parties: window.location.origin + "/third_parties/"
             },
             callback: function () {
                 console.log("Loaded require config file.");
@@ -17,11 +17,12 @@ require.config(
             baseUrl: "js",
             paths: {
                 // third parties
-                jquery: _this.config.tp + "jquery.min",
-                bootstrap: _this.config.tp + "bootstrap.bundle.min", // contains popper.js
-                animate: _this.config.tp + "animate",
-                transition: _this.config.tp + "transition",
-                zoom: _this.config.tp + "zoom.js/js/zoom",
+                jquery: _this.config.third_parties + "jquery.min",
+                bootstrap: _this.config.third_parties + "bootstrap.bundle.min", // contains popper.js
+                animate: _this.config.third_parties + "animate",
+                transition: _this.config.third_parties + "transition",
+                zoom: _this.config.third_parties + "zoom.js/js/zoom",
+                d3: _this.config.third_parties + "d3.min",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache_module",
                 init_module: _this.config.modules + "init_module"

@@ -7,7 +7,6 @@
         "url": "https://github.com/alsanchez86/alsanchez86.github.io.git"
     },
     "scss": "./scss/",
-    "js": "./js/",
     "third_parties": "./third_parties/",
     "node_modules": "./node_modules/",
     "bower_components": "./bower_components/",
