@@ -1,7 +1,7 @@
 "use strict";
 
 define(function () {
-    require(["require-config"], function (config) {
+    require(["require-config"], function () {
         require(["jquery"], function ($) {
             require(["bootstrap"], function () {
                 // jquery document ready
@@ -12,7 +12,9 @@ define(function () {
                         init_module.mobile_menu_xs();
                         init_module.page_loading(false);
                         // Load section module
-                        require(window.location.pathname);
+                        require((function (){
+                            return "perfil";
+                        }));
                     });
                 });
             });
