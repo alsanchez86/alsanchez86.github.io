@@ -70,7 +70,7 @@ gulp.task('js:lib', function () {
 // inicio
 gulp.task('template:inicio', function () {
     gulp.src("./templates/sections/inicio/index.mustache")
-        .pipe(mustache("./templates/sections/inicio/index.json", {
+        .pipe(mustache("./templates/sections/inicio/json/index.json", {
             extension: ".html"
         }, {}))
         .pipe(htmlmin({
@@ -81,7 +81,7 @@ gulp.task('template:inicio', function () {
 // perfil
 gulp.task('template:perfil', function () {
     gulp.src("./templates/sections/perfil/index.mustache")
-        .pipe(mustache("./templates/sections/perfil/index.json", {
+        .pipe(mustache("./templates/sections/perfil/json/index.json", {
             extension: ".html"
         }, {}))
         .pipe(htmlmin({
@@ -92,7 +92,7 @@ gulp.task('template:perfil', function () {
 // portfolio
 gulp.task('template:portfolio', function () {
     gulp.src("./templates/sections/portfolio/index.mustache")
-        .pipe(mustache("./templates/sections/portfolio/index.json", {
+        .pipe(mustache("./templates/sections/portfolio/json/index.json", {
             extension: ".html"
         }, {}))
         .pipe(htmlmin({
@@ -103,7 +103,7 @@ gulp.task('template:portfolio', function () {
 // blog
 gulp.task('template:blog', function () {
     gulp.src("./templates/sections/blog/index.mustache")
-        .pipe(mustache("./templates/sections/blog/index.json", {
+        .pipe(mustache("./templates/sections/blog/json/index.json", {
             extension: ".html"
         }, {}))
         .pipe(htmlmin({
@@ -114,7 +114,7 @@ gulp.task('template:blog', function () {
 // contacto
 gulp.task('template:contacto', function () {
     gulp.src("./templates/sections/contacto/index.mustache")
-        .pipe(mustache("./templates/sections/contacto/index.json", {
+        .pipe(mustache("./templates/sections/contacto/json/index.json", {
             extension: ".html"
         }, {}))
         .pipe(htmlmin({
@@ -125,7 +125,7 @@ gulp.task('template:contacto', function () {
 // 404
 gulp.task('template:404', function () {
     gulp.src("./templates/sections/404/index.mustache")
-        .pipe(mustache("./templates/sections/404/index.json", {
+        .pipe(mustache("./templates/sections/404/json/index.json", {
             extension: ".html"
         }, {}))
         .pipe(htmlmin({
