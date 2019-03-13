@@ -1,7 +1,6 @@
 {
-  "build_css": "../build/css",
-  "requirejs_path": "../third_parties",
-  "main_path": "../js",
+  "build_css": "../build/css/",
+  "build_js": "../build/js/",
   "img_folder": "../img/perfil",
   "page_title": "Perfil",
   "companies": [{

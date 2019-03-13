@@ -1,6 +1,5 @@
 {
-  "build_css": "./build/css",
-  "build_js": "./build/js",
-  "requirejs_path": "./third_parties",  
+  "build_css": "./build/css/",
+  "build_js": "./build/js/",
   "page_title": "Inicio"
 }

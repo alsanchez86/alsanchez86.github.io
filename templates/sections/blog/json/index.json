@@ -1,6 +1,5 @@
 {
-  "build_css": "../build/css",
-  "requirejs_path": "../third_parties",
-  "main_path": "../js",
+  "build_css": "../build/css/",
+  "build_js": "../build/js/",
   "page_title": "Blog"
 }
