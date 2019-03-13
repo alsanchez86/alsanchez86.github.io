@@ -20,36 +20,109 @@ define(function () {
                         };
                         var width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right;
                         var height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+
+                        /*
+                        - Front-end:
+                            · jQuery
+                            · AngularJS
+                            · Angular
+                            · Riot.js
+                            · CoffeeScript
+                            · TypeScript
+                            · Bootstrap
+                            · Foundation
+                            · HTML5
+                            · CSS
+                            · Less
+                            · Sass
+                            · Grunt
+                            · Gulp
+
+                        - Back-end:
+                            · Nodejs
+                            · PHP 5.* ~ 7 (Symfony 2, Twig, Blade, Smarty)
+                            · Bases de datos SQL (MySQL)
+                            · Apache Solr
+                            · ElasticSearch
+
+                        - Sistemas:
+                            · Linux
+                            · Mac OS X
+                            · Windows *
+
+                        - Otras tecnologías a destacar:
+                            · Formatos: XML, XSLT, RELAX-NG, JSON, JSON-LD
+                            · Gestor de versiones: Github
+                            · Gestores de dependencias: npm, Composer, Bower
+
+                        - Accesibilidad:
+                            · UX, UI. WCAG 2.0
+
+                        - Diseño gráfico:
+                            · Illustrator
+                            · Photoshop
+                            · Fireworks
+                            · Adobe Flash (ActionScript 3)
+                            · Inkscape
+                            · Gimp
+
+                        - Metodologías ágiles:
+                            · Scrum                        
+                        */
                         var data = [{
-                                axis: "Battery Life",
+                                axis: "jQuery",
                                 value: 0.26
                             },
                             {
-                                axis: "Brand",
+                                axis: "AngularJS",
                                 value: 0.10
                             },
                             {
-                                axis: "Contract Cost",
+                                axis: "Angular",
                                 value: 0.30
                             },
                             {
-                                axis: "Design And Quality",
+                                axis: "Riot.js",
                                 value: 0.14
                             },
                             {
-                                axis: "Have Internet Connectivity",
+                                axis: "CoffeeScript",
                                 value: 0.22
                             },
                             {
-                                axis: "Large Screen",
+                                axis: "TypeScript",
                                 value: 0.04
                             },
                             {
-                                axis: "Price Of Device",
+                                axis: "Bootstrap",
                                 value: 0.41
                             },
                             {
-                                axis: "To Be A Smartphone",
+                                axis: "Foundation",
+                                value: 0.30
+                            },
+                            {
+                                axis: "HTML5",
+                                value: 0.30
+                            },
+                            {
+                                axis: "CSS",
+                                value: 0.30
+                            },
+                            {
+                                axis: "Less",
+                                value: 0.30
+                            },
+                            {
+                                axis: "Sass",
+                                value: 0.30
+                            },
+                            {
+                                axis: "Grunt",
+                                value: 0.30
+                            },
+                            {
+                                axis: "Gulp",
                                 value: 0.30
                             }
                         ];
