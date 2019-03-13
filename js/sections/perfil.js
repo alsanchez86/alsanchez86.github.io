@@ -12,6 +12,8 @@ define(function () {
                         init.mobile_menu_xs();
                         init.page_loading(false);
 
+                        window.d3 = d3;
+
                         require(["d3pie"], function (d3pie) {
                             var pie = new d3pie("pieChart", {
                                 "header": {
