@@ -1,7 +1,7 @@
 "use strict";
 
 define(function () {
-    require(["require-config"], function () {
+    require(["require-config"], function (config) {
         require(["jquery"], function ($) {
             require(["bootstrap"], function () {
                 // jquery document ready
