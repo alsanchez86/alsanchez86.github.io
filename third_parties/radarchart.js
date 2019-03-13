@@ -162,8 +162,7 @@ define(["module", "d3"], function (module, d3) {
 		/////////////////////////////////////////////////////////
 
 		//The radial line function
-		var radarLine = d3.lineRadial()
-			.interpolate("linear-closed")
+		var radarLine = d3.curveLinearClosed()
 			.radius(function (d) {
 				return rScale(d.value);
 			})
