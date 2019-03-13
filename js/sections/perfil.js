@@ -69,62 +69,64 @@ define(function () {
                         - Metodologías ágiles:
                             · Scrum                        
                         */
-                        var data = [{
-                                axis: "jQuery",
-                                value: 0.26
-                            },
-                            {
-                                axis: "AngularJS",
-                                value: 0.10
-                            },
-                            {
-                                axis: "Angular",
-                                value: 0.30
-                            },
-                            {
-                                axis: "Riot.js",
-                                value: 0.14
-                            },
-                            {
-                                axis: "CoffeeScript",
-                                value: 0.22
-                            },
-                            {
-                                axis: "TypeScript",
-                                value: 0.04
-                            },
-                            {
-                                axis: "Bootstrap",
-                                value: 0.41
-                            },
-                            {
-                                axis: "Foundation",
-                                value: 0.30
-                            },
-                            {
-                                axis: "HTML5",
-                                value: 0.30
-                            },
-                            {
-                                axis: "CSS",
-                                value: 0.30
-                            },
-                            {
-                                axis: "Less",
-                                value: 0.30
-                            },
-                            {
-                                axis: "Sass",
-                                value: 0.30
-                            },
-                            {
-                                axis: "Grunt",
-                                value: 0.30
-                            },
-                            {
-                                axis: "Gulp",
-                                value: 0.30
-                            }
+                        var data = [
+                            [{
+                                    axis: "jQuery",
+                                    value: 0.26
+                                },
+                                {
+                                    axis: "AngularJS",
+                                    value: 0.10
+                                },
+                                {
+                                    axis: "Angular",
+                                    value: 0.30
+                                },
+                                {
+                                    axis: "Riot.js",
+                                    value: 0.14
+                                },
+                                {
+                                    axis: "CoffeeScript",
+                                    value: 0.22
+                                },
+                                {
+                                    axis: "TypeScript",
+                                    value: 0.04
+                                },
+                                {
+                                    axis: "Bootstrap",
+                                    value: 0.41
+                                },
+                                {
+                                    axis: "Foundation",
+                                    value: 0.30
+                                },
+                                {
+                                    axis: "HTML5",
+                                    value: 0.30
+                                },
+                                {
+                                    axis: "CSS",
+                                    value: 0.30
+                                },
+                                {
+                                    axis: "Less",
+                                    value: 0.30
+                                },
+                                {
+                                    axis: "Sass",
+                                    value: 0.30
+                                },
+                                {
+                                    axis: "Grunt",
+                                    value: 0.30
+                                },
+                                {
+                                    axis: "Gulp",
+                                    value: 0.30
+                                }
+                            ]
                         ];
                         var color = d3.scale.ordinal().range(["crimson", "#CC333F", "#00A0B0"]);
                         var radarChartOptions = {
