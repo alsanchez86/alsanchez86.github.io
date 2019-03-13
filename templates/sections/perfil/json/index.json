@@ -1,6 +1,7 @@
 {
-  "build_css": "../build/css/",
-  "build_js": "../build/js/",
+  "css": "../build/css/",
+  "js": "../js/",
+  "third_parties": "../third_parties/",
   "img_folder": "../img/perfil",
   "page_title": "Perfil",
   "companies": [{
