@@ -1,6 +1,6 @@
 {
   "css": "../build/css/",
-  "js": "../js/",
+  "js_module": "../js/sections/perfil",
   "third_parties": "../third_parties/",
   "img_folder": "../img/perfil",
   "page_title": "Perfil",
