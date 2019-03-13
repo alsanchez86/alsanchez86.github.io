@@ -23,7 +23,7 @@ require.config(
                 animate: _this.config.third_parties + "animate",
                 transition: _this.config.third_parties + "transition",
                 zoom: _this.config.third_parties + "zoom.js/js/zoom",
-                d3: _this.config.third_parties + "d3",
+                d3: _this.config.third_parties + "d3.min",
                 radarchart: _this.config.third_parties + "radarchart",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache.module",
