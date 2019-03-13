@@ -7,7 +7,7 @@ define(function () {
                 // jquery document ready
                 // domReady requirejs plugin is not neccesary here
                 $(function () {
-                    require(["init", "radarchart", "d3"], function (init, radarchart, d3) {
+                    require(["init", "radarchart", "d3", "jquery_cache_module"], function (init, radarchart, d3, _$) {
                         init.set_active_menu_link();
                         init.mobile_menu_xs();
                         init.page_loading(false);
@@ -18,7 +18,7 @@ define(function () {
                             bottom: 100,
                             left: 100
                         };
-                        var width = Math.min($(".main-content").width(), window.innerWidth - 10) - margin.left - margin.right;
+                        var width = Math.min(_$(".main-content").width(), window.innerWidth - 10) - margin.left - margin.right;
                         var height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
 
                         /*
