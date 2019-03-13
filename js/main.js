@@ -12,9 +12,7 @@ define(function () {
                         init_module.mobile_menu_xs();
                         init_module.page_loading(false);
                         // Load section module
-                        require(["perfil"], function (perfil) {
-
-                        });
+                        require(window.location.pathname);
                     });
                 });
             });
