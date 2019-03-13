@@ -7,7 +7,7 @@ define(function () {
                 // jquery document ready
                 // domReady requirejs plugin is not neccesary here
                 $(function () {
-                    require(["init", "radarchart"], function (init, radarchart) {
+                    require(["init", "radarchart", "d3"], function (init, radarchart, d3) {
                         init.set_active_menu_link();
                         init.mobile_menu_xs();
                         init.page_loading(false);
