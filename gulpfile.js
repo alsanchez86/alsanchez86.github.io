@@ -21,18 +21,18 @@ gulp.task('css:scss', function () {
         .pipe(gulp.dest(pkg.build + 'css/'));
 });
 
-gulp.task('css:lib', function () {
+gulp.task('css:third_parties', function () {
     return gulp.src([
         pkg.node_modules + 'animate.css/animate.min.css'
     ])
-    .pipe(concat("lib.css"))
+    .pipe(concat("third_parties.css"))
     .pipe(gulp.dest(pkg.build + 'css/'));
 });
 
 gulp.task('css:concat', function () {
     return gulp.src([
         pkg.build + 'css/scss.css',
-        pkg.build + 'css/lib.css'
+        pkg.build + 'css/third_parties.css'
     ])
     .pipe(concat("main.css"))
     .pipe(gulp.dest(pkg.build + 'css/'));
@@ -52,7 +52,15 @@ gulp.task('css:min', function () {
 /*
  * Js tasks
  */
-gulp.task('js:lib', function () {
+gulp.task('js:main', function () {
+    return gulp.src([
+            // all
+            pkg.js + "**/*.js",
+        ])
+        .pipe(gulp.dest(pkg.build + 'js/'));
+});
+
+gulp.task('js:third_parties', function () {
     return gulp.src([
             // requirejs
             pkg.node_modules + "requirejs/require.js",
@@ -61,7 +69,7 @@ gulp.task('js:lib', function () {
             // bootstrap
             pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js'
         ])
-        .pipe(gulp.dest(pkg.lib));
+        .pipe(gulp.dest(pkg.build + 'js/'));
 });
 
 /*
@@ -145,13 +153,13 @@ gulp.task('templates', [], function (done) {
 });
 // dev
 gulp.task('dev', [], function (done) {
-    runSequence('css:scss', 'css:lib', 'css:concat', 'js:lib', 'templates', function () {
+    runSequence('css:scss', 'css:third_parties', 'css:concat', 'js:main', 'js:third_parties', 'templates', function () {
         done();
     });
 });
 // prod
 gulp.task('prod', [], function (done) {
-    runSequence('css:scss', 'css:lib', 'css:concat', 'css:min', 'js:lib', 'templates', function () {
+    runSequence('css:scss', 'css:third_parties', 'css:concat', 'css:min', 'js:main', 'js:third_parties', 'templates', function () {
         done();
     });
 });

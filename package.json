@@ -8,7 +8,7 @@
     },
     "scss": "./scss/",
     "js": "./js/",
-    "lib": "./lib/",
+    "third_parties": "./third_parties/",
     "node_modules": "./node_modules/",
     "bower_components": "./bower_components/",
     "build": "./build/",
