@@ -11,11 +11,7 @@ define(function () {
                         init.set_active_menu_link();
                         init.mobile_menu_xs();
                         init.page_loading(false);
-                        // Radar chart
-                        ////////////////////////////////////////////////////////////// 
-                        //////////////////////// Set-Up ////////////////////////////// 
-                        ////////////////////////////////////////////////////////////// 
-
+                        // Radar chart                       
                         var margin = {
                                 top: 100,
                                 right: 100,
@@ -25,9 +21,6 @@ define(function () {
                             width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
                             height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
 
-                        ////////////////////////////////////////////////////////////// 
-                        ////////////////////////// Data ////////////////////////////// 
-                        ////////////////////////////////////////////////////////////// 
                         var data = [
                             [ //iPhone
                                 {
@@ -132,10 +125,7 @@ define(function () {
                                 }
                             ]
                         ];
-                        ////////////////////////////////////////////////////////////// 
-                        //////////////////// Draw the Chart ////////////////////////// 
-                        ////////////////////////////////////////////////////////////// 
-
+                        
                         var color = d3.scaleOrdinal()
                             .range(["#EDC951", "#CC333F", "#00A0B0"]);
 
@@ -149,7 +139,7 @@ define(function () {
                             color: color
                         };
                         //Call function to draw the Radar chart
-                        RadarChart(".radarChart", data, radarChartOptions);
+                        radarchart.draw(".radarChart", data, radarChartOptions);
                     });
                 });
             });
