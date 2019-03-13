@@ -126,6 +126,12 @@ define(function () {
                                     axis: "Gulp",
                                     value: 0.30
                                 }
+                            ],
+                            [
+                                {
+                                    axis: "Nodejs",
+                                    value: 0.30
+                                }
                             ]
                         ];
                         var color = d3.scale.ordinal().range(["crimson", "#CC333F", "#00A0B0"]);
