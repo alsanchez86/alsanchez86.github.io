@@ -7,10 +7,10 @@ define(function () {
                 // jquery document ready
                 // domReady requirejs plugin is not neccesary here
                 $(function () {
-                    require(["init_module"], function (init_module) {
-                        init_module.set_active_menu_link();
-                        init_module.mobile_menu_xs();
-                        init_module.page_loading(false);
+                    require(["init"], function (init) {
+                        init.set_active_menu_link();
+                        init.mobile_menu_xs();
+                        init.page_loading(false);
                     });
                 });
             });
