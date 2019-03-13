@@ -60,6 +60,8 @@ gulp.task('js:third_parties', function () {
             pkg.node_modules + "jquery/dist/jquery.min.js",
             // bootstrap
             pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
+            // d3
+            pkg.node_modules + 'd3/build/d3.min.js',
             // d3pie
             pkg.node_modules + 'd3pie/d3pie/d3pie.min.js',
         ])
