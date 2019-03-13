@@ -42,6 +42,9 @@ require.config(
                 zoom: {
                     deps: ["transition"]
                 },
+                d3: {
+                    exports: "d3"
+                },
                 d3pie: {
                     deps: ["d3"]
                 },
