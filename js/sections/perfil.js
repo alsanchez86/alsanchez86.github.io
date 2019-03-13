@@ -7,7 +7,7 @@ define(function () {
                 // jquery document ready
                 // domReady requirejs plugin is not neccesary here
                 $(function () {
-                    require(["init", "d3pie"], function (init, d3pie) {
+                    require(["init", "d3", "d3pie"], function (init, d3, d3pie) {
                         init.set_active_menu_link();
                         init.mobile_menu_xs();
                         init.page_loading(false);
