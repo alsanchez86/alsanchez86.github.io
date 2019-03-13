@@ -20,7 +20,7 @@ define(["module", "d3"], function (module, d3) {
 			opacityCircles: 0.1, //The opacity of the circles of each blob
 			strokeWidth: 2, //The width of the stroke around each blob
 			roundStrokes: false, //If true the area and stroke will follow a round path (cardinal-closed)
-			color: d3.schemeCategory10 //Color function
+			color: d3.scale.category10() //Color function
 		};
 
 		//Put all of the options into a variable called cfg
@@ -48,7 +48,7 @@ define(["module", "d3"], function (module, d3) {
 			angleSlice = Math.PI * 2 / total; //The width in radians of each "slice"
 
 		//Scale for the radius
-		var rScale = d3.scaleLinear()
+		var rScale = d3.scale.linear()
 			.range([0, radius])
 			.domain([0, maxValue]);
 
@@ -162,7 +162,8 @@ define(["module", "d3"], function (module, d3) {
 		/////////////////////////////////////////////////////////
 
 		//The radial line function
-		var radarLine = d3.curveLinearClosed()
+		var radarLine = d3.svg.line.radial()
+			.interpolate("linear-closed")
 			.radius(function (d) {
 				return rScale(d.value);
 			})
@@ -317,6 +318,6 @@ define(["module", "d3"], function (module, d3) {
 					}
 				}
 			});
-		} //wrap	
+		}
 	}
 });

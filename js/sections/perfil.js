@@ -12,6 +12,12 @@ define(function () {
                         init.mobile_menu_xs();
                         init.page_loading(false);
                         // Radar chart                       
+                        /* Radar chart design created by Nadieh Bremer - VisualCinnamon.com */
+
+                        ////////////////////////////////////////////////////////////// 
+                        //////////////////////// Set-Up ////////////////////////////// 
+                        ////////////////////////////////////////////////////////////// 
+
                         var margin = {
                                 top: 100,
                                 right: 100,
@@ -20,6 +26,10 @@ define(function () {
                             },
                             width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
                             height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+
+                        ////////////////////////////////////////////////////////////// 
+                        ////////////////////////// Data ////////////////////////////// 
+                        ////////////////////////////////////////////////////////////// 
 
                         var data = [
                             [ //iPhone
@@ -125,8 +135,11 @@ define(function () {
                                 }
                             ]
                         ];
-                        
-                        var color = d3.scaleOrdinal()
+                        ////////////////////////////////////////////////////////////// 
+                        //////////////////// Draw the Chart ////////////////////////// 
+                        ////////////////////////////////////////////////////////////// 
+
+                        var color = d3.scale.ordinal()
                             .range(["#EDC951", "#CC333F", "#00A0B0"]);
 
                         var radarChartOptions = {
