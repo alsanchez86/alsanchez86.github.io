@@ -15,6 +15,55 @@ define(function () {
                         window.d3 = d3;
 
                         require(["d3pie", "jquery_cache_module"], function (d3pie, _$) {
+                            /*
+                        - Front-end:
+                            · jQuery
+                            · AngularJS
+                            · Angular
+                            · Riot.js
+                            · CoffeeScript
+                            · TypeScript
+                            · Bootstrap
+                            · Foundation
+                            · HTML5
+                            · CSS
+                            · Less
+                            · Sass
+                            · Grunt
+                            · Gulp
+                        - Back-end:
+                            · Nodejs
+                            · PHP 5.* ~ 7 (Symfony 2, Twig, Blade, Smarty)
+                            · Bases de datos SQL (MySQL)
+                            · Apache Solr
+                            · ElasticSearch
+                        - Sistemas:
+                            · Linux
+                            · Mac OS X
+                            · Windows *
+                        - Otras tecnologías a destacar:
+                            · Formatos: XML, XSLT, RELAX-NG, JSON, JSON-LD
+                            · Gestor de versiones: Github
+                            · Gestores de dependencias: npm, Composer, Bower
+                        - Accesibilidad:
+                            · UX, UI. WCAG 2.0
+                        - Diseño gráfico:
+                            · Illustrator
+                            · Photoshop
+                            · Fireworks
+                            · Adobe Flash (ActionScript 3)
+                            · Inkscape
+                            · Gimp
+                        - Metodologías ágiles:
+                            · Scrum             
+                            
+                            {
+                                            "label": "When's it going to be done?",
+                                            "value": 8,
+                                            "color": "#ed143d"
+                                        }
+                        */
+                            var content = [new Data("fefef", 10, "blue")];
                             var pie = new d3pie("piechart", {
                                 "size": {
                                     "canvasHeight": 500,
@@ -22,42 +71,7 @@ define(function () {
                                     "pieOuterRadius": "88%"
                                 },
                                 "data": {
-                                    "content": [{
-                                            "label": "When's it going to be done?",
-                                            "value": 8,
-                                            "color": "#ed143d"
-                                        },
-                                        {
-                                            "label": "Bennnnn!",
-                                            "value": 5,
-                                            "color": "#ed143d"
-                                        },
-                                        {
-                                            "label": "Oh, god.",
-                                            "value": 2,
-                                            "color": "#ed143d"
-                                        },
-                                        {
-                                            "label": "But it's Friday night!",
-                                            "value": 3,
-                                            "color": "#ed143d"
-                                        },
-                                        {
-                                            "label": "Again?",
-                                            "value": 2,
-                                            "color": "#ed143d"
-                                        },
-                                        {
-                                            "label": "I'm considering an affair.",
-                                            "value": 1,
-                                            "color": "#ed143d"
-                                        },
-                                        {
-                                            "label": "[baleful stare]",
-                                            "value": 3,
-                                            "color": "#ed143d"
-                                        }
-                                    ]
+                                    "content": content,
                                 },
                                 "labels": {
                                     "outer": {
@@ -65,7 +79,7 @@ define(function () {
                                     },
                                     "inner": {
                                         "format": "value"
-                                    },                                    
+                                    },
                                     "percentage": {
                                         "color": "#212529",
                                         "decimalPlaces": 0
@@ -95,6 +109,12 @@ define(function () {
                                     }
                                 }
                             });
+
+                            function Data(label, value, color){
+                                this.label = label || "No label";
+                                this.value = value || 1;
+                                this.color = color || "crimson"
+                            }
                         });
                     });
                 });
