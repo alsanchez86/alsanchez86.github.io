@@ -16,27 +16,6 @@ define(function () {
 
                         require(["d3pie", "jquery_cache_module"], function (d3pie, _$) {
                             var pie = new d3pie("piechart", {
-                                "header": {
-                                    "title": {
-                                        "text": "Spousal Resentment",
-                                        "fontSize": 22,
-                                        "font": "verdana"
-                                    },
-                                    "subtitle": {
-                                        "text": "Comments my wife has made when I tell her I'm working on this script instead of doing something \"fun\".",
-                                        "color": "#999999",
-                                        "fontSize": 10,
-                                        "font": "verdana"
-                                    },
-                                    "titleSubtitlePadding": 12
-                                },
-                                "footer": {
-                                    "text": "Source: me, my room, the last couple of months.",
-                                    "color": "#999999",
-                                    "fontSize": 11,
-                                    "font": "open sans",
-                                    "location": "bottom-center"
-                                },
                                 "size": {
                                     "canvasHeight": 500,
                                     "canvasWidth": _$("#main-content").width(),
