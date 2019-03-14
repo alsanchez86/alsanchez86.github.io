@@ -14,7 +14,7 @@ define(function () {
                         // Save reference to d3
                         window.d3 = d3;
 
-                        require(["d3pie"], function (d3pie) {
+                        require(["d3pie", "jquery_cache_module"], function (d3pie, _$) {
                             var pie = new d3pie("piechart", {
                                 "header": {
                                     "title": {
@@ -38,8 +38,8 @@ define(function () {
                                     "location": "bottom-center"
                                 },
                                 "size": {
-                                    "canvasHeight": 400,
-                                    "canvasWidth": 590,
+                                    "canvasHeight": 500,
+                                    "canvasWidth": _$("#main-content").width(),
                                     "pieOuterRadius": "88%"
                                 },
                                 "data": {
