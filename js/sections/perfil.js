@@ -72,6 +72,7 @@ define(function () {
                                     },
                                     "value": {
                                         "color": "#e1e1e1",
+                                        "fontSize": 14
                                     },
                                     "lines": {
                                         "enabled": true,
