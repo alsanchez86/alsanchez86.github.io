@@ -17,20 +17,20 @@ define(function () {
                         require(["d3pie", "jquery_cache_module"], function (d3pie, _$) {
                             /*
                         - Front-end:
-                            · jQuery
-                            · AngularJS
-                            · Angular
-                            · Riot.js
-                            · CoffeeScript
-                            · TypeScript
-                            · Bootstrap
-                            · Foundation
-                            · HTML5
-                            · CSS
-                            · Less
-                            · Sass
-                            · Grunt
-                            · Gulp
+                            jQuery
+                            AngularJS
+                            Angular
+                            Riot.js
+                            CoffeeScript
+                            TypeScript
+                            Bootstrap
+                            Foundation
+                            HTML5
+                            CSS
+                            Less
+                            Sass
+                            Grunt
+                            Gulp
                         - Back-end:
                             · Nodejs
                             · PHP 5.* ~ 7 (Symfony 2, Twig, Blade, Smarty)
@@ -56,14 +56,23 @@ define(function () {
                             · Gimp
                         - Metodologías ágiles:
                             · Scrum             
-                            
-                            {
-                                            "label": "When's it going to be done?",
-                                            "value": 8,
-                                            "color": "#ed143d"
-                                        }
                         */
-                            var content = [new Data("fefef", 10, "blue")];
+                            var content = [
+                                new Data("jQuery", 10, ""),
+                                new Data("AngularJS", 10, ""),
+                                new Data("Angular", 10, ""),
+                                new Data("Riot.js", 10, ""),
+                                new Data("CoffeeScript", 10, ""),
+                                new Data("TypeScript", 10, ""),
+                                new Data("Bootstrap", 10, ""),
+                                new Data("Foundation", 10, ""),
+                                new Data("HTML5", 10, ""),
+                                new Data("CSS", 10, ""),
+                                new Data("Less", 10, ""),
+                                new Data("Sass", 10, ""),
+                                new Data("Grunt", 10, ""),
+                                new Data("Gulp", 10, ""),
+                            ];
                             var pie = new d3pie("piechart", {
                                 "size": {
                                     "canvasHeight": 500,
