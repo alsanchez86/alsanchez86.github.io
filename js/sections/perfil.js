@@ -32,11 +32,11 @@ define(function () {
                             Grunt
                             Gulp
                         - Back-end:
-                            · Nodejs
-                            · PHP 5.* ~ 7 (Symfony 2, Twig, Blade, Smarty)
-                            · Bases de datos SQL (MySQL)
-                            · Apache Solr
-                            · ElasticSearch
+                            Nodejs
+                            PHP 5.* ~ 7 (Symfony 2, Twig, Blade, Smarty)
+                            Bases de datos SQL (MySQL)
+                            Apache Solr
+                            ElasticSearch
                         - Sistemas:
                             · Linux
                             · Mac OS X
