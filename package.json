@@ -32,6 +32,6 @@
         "requirejs": "2.3.6"
     },
     "scripts": {
-        "push": "rm -r dependencies"
+        "push": "rm -r dependencies/*"
     }
 }
