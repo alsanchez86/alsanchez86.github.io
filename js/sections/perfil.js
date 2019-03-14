@@ -67,15 +67,15 @@ define(function () {
                                         "format": "value"
                                     },                                    
                                     "percentage": {
-                                        "color": "#e1e1e1",
+                                        "color": "#212529",
                                         "decimalPlaces": 0
                                     },
                                     "mainLabel": {
                                         "font": "Inter, sans-serif",
-                                        "fontSize": 17
+                                        "fontSize": 14
                                     },
                                     "value": {
-                                        "color": "#e1e1e1",
+                                        "color": "#FFF",
                                         "font": "Inter, sans-serif",
                                         "fontSize": 14
                                     },
