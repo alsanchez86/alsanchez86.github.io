@@ -15,7 +15,7 @@ define(function () {
                         window.d3 = d3;
 
                         require(["d3pie"], function (d3pie) {
-                            var pie = new d3pie("pie-chart", {
+                            var pie = new d3pie("piechart", {
                                 "header": {
                                     "title": {
                                         "text": "Spousal Resentment",
