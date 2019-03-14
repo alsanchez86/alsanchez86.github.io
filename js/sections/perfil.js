@@ -70,6 +70,9 @@ define(function () {
                                         "color": "#e1e1e1",
                                         "decimalPlaces": 0
                                     },
+                                    "mainLabel": {
+                                        "fontSize": 17
+                                    },
                                     "value": {
                                         "color": "#e1e1e1",
                                         "fontSize": 14
