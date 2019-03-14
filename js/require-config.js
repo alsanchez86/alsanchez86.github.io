@@ -6,7 +6,7 @@ require.config(
             config: {
                 modules: window.location.origin + "/js/modules/",
                 sections: window.location.origin + "/js/sections/",
-                third_parties: window.location.origin + "/third_parties/"                
+                dependencies: window.location.origin + "/dependencies/"                
             },
             callback: function () {
                 console.log("Loaded require config file.");
@@ -17,14 +17,14 @@ require.config(
             waitSeconds: 30,
             baseUrl: "js",
             paths: {
-                // third parties
-                jquery: _this.config.third_parties + "jquery.min",
-                bootstrap: _this.config.third_parties + "bootstrap.bundle.min", // contains popper.js
-                animate: _this.config.third_parties + "animate",
-                transition: _this.config.third_parties + "transition",
-                zoom: _this.config.third_parties + "zoom.js/js/zoom",
-                d3: _this.config.third_parties + "d3.min",
-                d3pie: _this.config.third_parties + "d3pie",
+                // dependencies
+                jquery: _this.config.dependencies + "jquery.min",
+                bootstrap: _this.config.dependencies + "bootstrap.bundle.min", // contains popper.js
+                animate: _this.config.dependencies + "animate",
+                transition: _this.config.dependencies + "transition",
+                zoom: _this.config.dependencies + "zoom.js/js/zoom",
+                d3: _this.config.dependencies + "d3.min",
+                d3pie: _this.config.dependencies + "d3pie.min",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache.module",
                 init: _this.config.modules + "init.module",
@@ -41,9 +41,6 @@ require.config(
                 },
                 zoom: {
                     deps: ["transition"]
-                },
-                d3: {
-                    exports: "d3"
                 },
                 d3pie: {
                     deps: ["d3"]

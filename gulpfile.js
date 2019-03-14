@@ -52,8 +52,14 @@ gulp.task('css:min', function () {
 /*
  * Js tasks
  */
-gulp.task('js:third_parties', function () {
+gulp.task('js:dependencies', function () {
     return gulp.src([
+            // animate
+            pkg.third_parties + "animate.js",
+            // transition
+            pkg.third_parties + "transition.js",
+            // zoom.js
+            pkg.third_parties + "zoom.js/dist/zoom.min.js",
             // requirejs
             pkg.node_modules + "requirejs/require.js",
             // jquery
@@ -63,9 +69,9 @@ gulp.task('js:third_parties', function () {
             // d3
             pkg.node_modules + 'd3/build/d3.min.js',
             // d3pie
-            pkg.node_modules + 'd3pie/d3pie/d3pie.js',
+            pkg.node_modules + 'd3pie/d3pie/d3pie.min.js',
         ])
-        .pipe(gulp.dest(pkg.third_parties));
+        .pipe(gulp.dest(pkg.deps));
 });
 
 /*
@@ -149,13 +155,13 @@ gulp.task('templates', [], function (done) {
 });
 // dev
 gulp.task('dev', [], function (done) {
-    runSequence('css:scss', 'css:third_parties', 'css:concat', 'js:third_parties', 'templates', function () {
+    runSequence('css:scss', 'css:third_parties', 'css:concat', 'js:dependencies', 'templates', function () {
         done();
     });
 });
 // prod
 gulp.task('prod', [], function (done) {
-    runSequence('css:scss', 'css:third_parties', 'css:concat', 'css:min', 'js:third_parties', 'templates', function () {
+    runSequence('css:scss', 'css:third_parties', 'css:concat', 'css:min', 'js:dependencies', 'templates', function () {
         done();
     });
 });

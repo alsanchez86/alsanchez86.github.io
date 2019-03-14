@@ -8,6 +8,7 @@
     },
     "scss": "./scss/",
     "third_parties": "./third_parties/",
+    "deps": "./dependencies/",
     "node_modules": "./node_modules/",
     "bower_components": "./bower_components/",
     "build": "./build/",
