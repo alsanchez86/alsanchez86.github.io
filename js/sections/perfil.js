@@ -71,10 +71,12 @@ define(function () {
                                         "decimalPlaces": 0
                                     },
                                     "mainLabel": {
+                                        "font": "Inter, sans-serif",
                                         "fontSize": 17
                                     },
                                     "value": {
                                         "color": "#e1e1e1",
+                                        "font": "Inter, sans-serif",
                                         "fontSize": 14
                                     },
                                     "lines": {
