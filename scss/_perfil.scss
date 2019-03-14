@@ -32,7 +32,9 @@ div.progress-section {
     margin-top: 2rem;
 
     div.progress {
+        height: 2rem;
         margin-bottom: 1rem;
+        font-size: $font-size-base;
     }
 }
 
