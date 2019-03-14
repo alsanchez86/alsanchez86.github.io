@@ -1,3 +1,5 @@
+rm -r dependencies
+mkdir dependencies
 git config --global credential.helper cache
 gulp
 git add .
