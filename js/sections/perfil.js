@@ -65,18 +65,13 @@ define(function () {
                                     },
                                     "inner": {
                                         "format": "value"
-                                    },
-                                    "mainLabel": {
-                                        "font": "verdana"
-                                    },
+                                    },                                    
                                     "percentage": {
                                         "color": "#e1e1e1",
-                                        "font": "verdana",
                                         "decimalPlaces": 0
                                     },
                                     "value": {
                                         "color": "#e1e1e1",
-                                        "font": "verdana"
                                     },
                                     "lines": {
                                         "enabled": true,
