@@ -44,6 +44,10 @@ div.perfil-company {
     }
 }
 
+div.piechart {
+    margin-top: 4rem;
+}
+
 // GRID COMPONENT
 @include media-breakpoint-only(xs) {
     div.perfil-section {
