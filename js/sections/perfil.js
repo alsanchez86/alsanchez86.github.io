@@ -84,7 +84,8 @@ define(function () {
                                 },
                                 "labels": {
                                     "outer": {
-                                        "pieDistance": 32
+                                        "pieDistance": 32,
+                                        "hideWhenLessThanPercentage": 1,
                                     },
                                     "inner": {
                                         "format": "value"
