@@ -6797,32 +6797,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.36s;
-    animation-duration: 1.32s; }
+    animation-delay: 0.41s;
+    animation-duration: 0.88s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.29s;
-    animation-duration: 1.6s; }
+    animation-delay: 0.11s;
+    animation-duration: 1.47s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.37s;
-    animation-duration: 1.14s; }
+    animation-delay: 0.3s;
+    animation-duration: 0.88s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.77s;
-    animation-duration: 0.71s; }
+    animation-delay: 0.43s;
+    animation-duration: 1s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.04s;
-    animation-duration: 1.12s; }
+    animation-delay: 0.67s;
+    animation-duration: 0.64s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.05s;
-    animation-duration: 1.39s; }
+    animation-delay: 0.57s;
+    animation-duration: 1.5s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.4s;
-    animation-duration: 0.9s; }
+    animation-delay: 0.13s;
+    animation-duration: 0.98s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0.27s;
-    animation-duration: 1.32s; }
+    animation-delay: -0.13s;
+    animation-duration: 1.03s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.25s;
-    animation-duration: 1.23s; }
+    animation-delay: 0.2s;
+    animation-duration: 1.37s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6849,32 +6849,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.08s;
-    animation-duration: 1.36s; }
+    animation-delay: -0.19s;
+    animation-duration: 1.18s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.68s;
-    animation-duration: 0.76s; }
+    animation-delay: 0.02s;
+    animation-duration: 0.79s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.1s;
-    animation-duration: 1.16s; }
+    animation-delay: 0.11s;
+    animation-duration: 0.65s; }
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.54s;
-    animation-duration: 0.81s; }
+    animation-delay: -0.01s;
+    animation-duration: 0.94s; }
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.55s;
-    animation-duration: 1.46s; }
+    animation-delay: 0.52s;
+    animation-duration: 1.57s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: -0.14s;
-    animation-duration: 1.6s; }
+    animation-delay: 0.29s;
+    animation-duration: 1.07s; }
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0.73s;
-    animation-duration: 0.86s; }
+    animation-delay: -0.1s;
+    animation-duration: 1.24s; }
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.05s;
-    animation-duration: 1.02s; }
+    animation-delay: 0.37s;
+    animation-duration: 1.25s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: 0.16s;
-    animation-duration: 1.48s; }
+    animation-delay: 0.55s;
+    animation-duration: 0.93s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7115,20 +7115,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.76s;
-  animation-duration: 1.11s; }
+  animation-delay: -0.1s;
+  animation-duration: 1s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: -0.12s;
-  animation-duration: 0.43s; }
+  animation-delay: 0.58s;
+  animation-duration: 0.72s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.32s;
-  animation-duration: 0.31s; }
+  animation-delay: -0.11s;
+  animation-duration: 0.67s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.76s;
-  animation-duration: 1.12s; }
+  animation-delay: -0.07s;
+  animation-duration: 0.52s; }
 
 .line-scale-party > div {
   background-color: #fff;
@@ -7925,6 +7925,8 @@ div.progress-section {
     height: 2rem;
     margin-bottom: 1rem;
     font-size: 1.15rem; }
+    div.progress-section div.progress div.progress-bar {
+      background-color: crimson; }
 
 div.perfil-company {
   margin-bottom: 4.25rem; }
