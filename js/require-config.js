@@ -22,7 +22,7 @@ require.config(
                 bootstrap: _this.config.dependencies + "bootstrap.bundle.min", // contains popper.js
                 animate: _this.config.dependencies + "animate",
                 transition: _this.config.dependencies + "transition",
-                zoom: _this.config.dependencies + "zoom.js/js/zoom",
+                zoom: _this.config.dependencies + "zoom.min",
                 d3: _this.config.dependencies + "d3.min",
                 d3pie: _this.config.dependencies + "d3pie.min",
                 // modules
