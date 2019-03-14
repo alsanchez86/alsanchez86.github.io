@@ -25,37 +25,37 @@ define(function () {
                                     "content": [{
                                             "label": "When's it going to be done?",
                                             "value": 8,
-                                            "color": "#7e3838"
+                                            "color": "#ed143d"
                                         },
                                         {
                                             "label": "Bennnnn!",
                                             "value": 5,
-                                            "color": "#7e6538"
+                                            "color": "#ed143d"
                                         },
                                         {
                                             "label": "Oh, god.",
                                             "value": 2,
-                                            "color": "#7c7e38"
+                                            "color": "#ed143d"
                                         },
                                         {
                                             "label": "But it's Friday night!",
                                             "value": 3,
-                                            "color": "#587e38"
+                                            "color": "#ed143d"
                                         },
                                         {
                                             "label": "Again?",
                                             "value": 2,
-                                            "color": "#387e45"
+                                            "color": "#ed143d"
                                         },
                                         {
                                             "label": "I'm considering an affair.",
                                             "value": 1,
-                                            "color": "#387e6a"
+                                            "color": "#ed143d"
                                         },
                                         {
                                             "label": "[baleful stare]",
                                             "value": 3,
-                                            "color": "#386a7e"
+                                            "color": "#ed143d"
                                         }
                                     ]
                                 },
