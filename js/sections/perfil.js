@@ -75,8 +75,8 @@ define(function () {
                             ];
                             var pie = new d3pie("piechart", {
                                 "size": {
-                                    "canvasHeight": 250,
-                                    "canvasWidth": _$("#main-content").width() / 2,
+                                    "canvasHeight": 350,
+                                    "canvasWidth": (_$("#main-content").width() / 2) + 100,
                                     "pieOuterRadius": "88%"
                                 },
                                 "data": {
