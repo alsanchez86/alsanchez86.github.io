@@ -86,7 +86,7 @@ gulp.task('template:inicio', function () {
         .pipe(htmlmin({
             collapseWhitespace: true
         }))
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest('./'));
 });
 // perfil
 gulp.task('template:perfil', function () {
@@ -97,7 +97,7 @@ gulp.task('template:perfil', function () {
         .pipe(htmlmin({
             collapseWhitespace: true
         }))
-        .pipe(gulp.dest('./perfil'))
+        .pipe(gulp.dest('./perfil'));
 });
 // portfolio
 gulp.task('template:portfolio', function () {
@@ -108,7 +108,7 @@ gulp.task('template:portfolio', function () {
         .pipe(htmlmin({
             collapseWhitespace: true
         }))
-        .pipe(gulp.dest('./portfolio'))
+        .pipe(gulp.dest('./portfolio'));
 });
 // blog
 gulp.task('template:blog', function () {
@@ -119,7 +119,7 @@ gulp.task('template:blog', function () {
         .pipe(htmlmin({
             collapseWhitespace: true
         }))
-        .pipe(gulp.dest('./blog'))
+        .pipe(gulp.dest('./blog'));
 });
 // contacto
 gulp.task('template:contacto', function () {
@@ -130,18 +130,18 @@ gulp.task('template:contacto', function () {
         .pipe(htmlmin({
             collapseWhitespace: true
         }))
-        .pipe(gulp.dest('./contacto'))
+        .pipe(gulp.dest('./contacto'));
 });
 // 404
 gulp.task('template:404', function () {
-    gulp.src("./templates/sections/404/index.mustache")
-        .pipe(mustache("./templates/sections/404/json/index.json", {
-            extension: ".html"
-        }, {}))
-        .pipe(htmlmin({
-            collapseWhitespace: true
-        }))
-        .pipe(gulp.dest('./'))
+    // gulp.src("./templates/sections/404/index.mustache")
+    //     .pipe(mustache("./templates/sections/404/json/index.json", {
+    //         extension: ".html"
+    //     }, {}))
+    //     .pipe(htmlmin({
+    //         collapseWhitespace: true
+    //     }))
+    //     .pipe(gulp.dest('./'))
 });
 
 /*
