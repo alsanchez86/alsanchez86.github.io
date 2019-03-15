@@ -4,6 +4,12 @@
   "dependencies": "../dependencies/",
   "img_folder": "../img/perfil",
   "page_title": "Perfil",
+  "progress": [
+    {
+      "name": "AngularJS",
+      "percent": 90
+    }
+  ],
   "companies": [{
       "name": "Expertus Technology",
       "position": "Senior Frontend Developer",
