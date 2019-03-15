@@ -37,7 +37,10 @@ div.progress {
     div.progress-bar {
         &.frontend {
             background-color: $azul_1;
-        }            
+        }     
+        &.backend {
+            background-color: $morado_1;
+        }         
     }
 }
 
