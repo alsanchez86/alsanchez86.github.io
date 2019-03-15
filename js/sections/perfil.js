@@ -12,10 +12,7 @@ define(function () {
                         init.mobile_menu_xs();
                         init.page_loading(false);
                         // Save reference to d3
-                        window.d3 = d3;
-
-                        
-                        
+                        window.d3 = d3;                      
                     });
                 });
             });

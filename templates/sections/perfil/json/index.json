@@ -6,9 +6,184 @@
   "page_title": "Perfil",
   "progress": [
     {
+      "name": "JavaScript ECMA5",
+      "percent": 95,
+      "type": "frontend"
+    },
+    {
+      "name": "JavaScript ECMA6",
+      "percent": 70,
+      "type": "frontend"
+    },
+    {
       "name": "AngularJS",
       "percent": 90,
       "type": "frontend"
+    },
+    {
+      "name": "Angular",
+      "percent": 55,
+      "type": "frontend"
+    },
+    {
+      "name": "jQuery",
+      "percent": 95,
+      "type": "frontend"
+    },
+    {
+      "name": "RiotJS",
+      "percent": 55,
+      "type": "frontend"
+    },
+    {
+      "name": "CoffeeScript",
+      "percent": 75,
+      "type": "frontend"
+    },
+    {
+      "name": "TypeScript",
+      "percent":65,
+      "type": "frontend"
+    },
+    {
+      "name": "Bootstrap",
+      "percent": 95,
+      "type": "frontend"
+    },
+    {
+      "name": "Foundation",
+      "percent": 75,
+      "type": "frontend"
+    },
+    {
+      "name": "HTML5",
+      "percent": 95,
+      "type": "frontend"
+    },
+    {
+      "name": "CSS",
+      "percent": 95,
+      "type": "frontend"
+    },
+    {
+      "name": "Less",
+      "percent": 95,
+      "type": "frontend"
+    },
+    {
+      "name": "Sass",
+      "percent": 95,
+      "type": "frontend"
+    },
+    {
+      "name": "Grunt",
+      "percent": 85,
+      "type": "frontend"
+    },
+    {
+      "name": "Gulp",
+      "percent": 90,
+      "type": "frontend"
+    },
+    {
+      "name": "RequireJS",
+      "percent": 75,
+      "type": "frontend"
+    },
+    {
+      "name": "Jasmine",
+      "percent": 65,
+      "type": "frontend"
+    },
+    {
+      "name": "Tracking (GTM, DTM)",
+      "percent": 75,
+      "type": "frontend"
+    },
+    {
+      "name": "D3",
+      "percent": 75,
+      "type": "frontend"
+    },
+    {
+      "name": "Konva",
+      "percent": 75,
+      "type": "frontend"
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
+    },
+    {
+      "name": "",
+      "percent": 0,
+      "type": ""
     }
   ],
   "companies": [{
@@ -27,7 +202,7 @@
       "projects": [],
       "technologies": [{
           "type": "Frontend",
-          "list": ["JavaScript", "Angular", "AngularJS", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Tracking (GTM, DTM)", "SVG", "D3", "Konva", "Mercurial", "Typescript"]
+          "list": ["JavaScript", "Angular", "AngularJS", "RequireJS", "Jasmine", "Bootstrap", "Scala", "Tracking (GTM, DTM)", "SVG", "D3", "Konva", "Typescript"]
         },
         {
           "type": "Backend",
