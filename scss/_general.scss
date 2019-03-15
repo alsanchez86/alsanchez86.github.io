@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    padding-top: $hader-page-height;
+    padding-top: $header-page-height;
     overflow: hidden;
 }
 
@@ -28,7 +28,7 @@ iframe {
 // Header page
 div.header-page {
     position: fixed;
-    // height: $hader-page-height;
+    // height: $header-page-height;
     z-index: 100;
     top: 0;
     left: 0;
