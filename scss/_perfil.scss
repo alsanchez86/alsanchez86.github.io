@@ -29,13 +29,14 @@ div.perfil-section {
 }
 
 div.progress {
-    height: 2rem;
+    height: 1.8rem;
     margin-bottom: 1rem;
-    font-size: $font-size-base;
+    font-size: 1.1rem;
+    font-weight: 700;
 
     div.progress-bar {
         &.frontend {
-            background-color: blue;
+            background-color: $azul_1;
         }            
     }
 }
