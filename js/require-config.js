@@ -24,7 +24,6 @@ require.config(
                 transition: _this.config.dependencies + "transition",
                 zoom: _this.config.dependencies + "zoom.min",
                 d3: _this.config.dependencies + "d3.min",
-                d3pie: _this.config.dependencies + "d3pie",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache.module",
                 init: _this.config.modules + "init.module",
@@ -41,9 +40,6 @@ require.config(
                 },
                 zoom: {
                     deps: ["transition"]
-                },
-                d3pie: {
-                    deps: ["d3"]
                 },
                 // modules
                 jquery_cache_module: {

@@ -68,8 +68,6 @@ gulp.task('js:dependencies', function () {
             pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
             // d3
             pkg.node_modules + 'd3/build/d3.min.js',
-            // d3pie
-            pkg.node_modules + 'd3pie/d3pie/d3pie.js',
         ])
         .pipe(gulp.dest(pkg.deps));
 });
