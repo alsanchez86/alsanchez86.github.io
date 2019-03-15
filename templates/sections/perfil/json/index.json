@@ -112,57 +112,57 @@
     },
     {
       "name": "Nodejs",
-      "percent": 0,
+      "percent": 65,
       "type": "backend"
     },
     {
       "name": "PHP 5.* ~ 7",
-      "percent": 0,
+      "percent": 80,
       "type": "backend"
     },
     {
       "name": "Symfony 2",
-      "percent": 0,
+      "percent": 80,
       "type": "backend"
     },
     {
       "name": "Twig",
-      "percent": 0,
+      "percent": 80,
       "type": "backend"
     },
     {
       "name": "Blade",
-      "percent": 0,
+      "percent": 80,
       "type": "backend"
     },
     {
       "name": "Smarty",
-      "percent": 0,
+      "percent": 80,
       "type": "backend"
     },
     {
       "name": "SQL",
-      "percent": 0,
+      "percent": 80,
       "type": "backend"
     },
     {
       "name": "Apache Solr",
-      "percent": 0,
+      "percent": 60,
       "type": "backend"
     },
     {
       "name": "ElasticSearch",
-      "percent": 0,
+      "percent": 40,
       "type": "backend"
     },
     {
       "name": "Python (Cinema4d)",
-      "percent": 0,
+      "percent": 30,
       "type": "backend"
     },
     {
       "name": "Java (Play Framework)",
-      "percent": 0,
+      "percent": 20,
       "type": "backend"
     },
     {
