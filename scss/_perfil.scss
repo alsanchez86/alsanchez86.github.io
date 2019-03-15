@@ -40,7 +40,29 @@ div.progress {
         }     
         &.backend {
             background-color: $morado_1;
-        }         
+        }    
+        &.gestor {
+            background-color: $verde_1;
+        }   
+        &.deps {
+            background-color: $gris_4;
+        }     
+        &.system {
+            background-color: $rojo_1;
+        }   
+        &.format {
+            background-color: $amarillo_1;
+            color: $gray-900;
+        }   
+        &.ux {
+            background-color: $morado_1;
+        }
+        &.design {
+            background-color: $morado_1;
+        }   
+        &.agile {
+            background-color: $morado_1;
+        }
     }
 }
 

@@ -166,24 +166,119 @@
       "type": "backend"
     },
     {
-      "name": "",
-      "percent": 0,
-      "type": "backend"
+      "name": "Github",
+      "percent": 90,
+      "type": "gestor"
     },
     {
-      "name": "",
-      "percent": 0,
-      "type": "backend"
+      "name": "Mercurial",
+      "percent": 60,
+      "type": "gestor"
     },
     {
-      "name": "",
-      "percent": 0,
-      "type": ""
+      "name": "Npm",
+      "percent": 80,
+      "type": "deps"
     },
     {
-      "name": "",
-      "percent": 0,
-      "type": ""
+      "name": "Composer",
+      "percent": 40,
+      "type": "deps"
+    },
+    {
+      "name": "Bower",
+      "percent": 40,
+      "type": "deps"
+    },
+    {
+      "name": "Linux",
+      "percent": 80,
+      "type": "system"
+    },
+    {
+      "name": "Mac OS X",
+      "percent": 40,
+      "type": "system"
+    },
+    {
+      "name": "Windows",
+      "percent": 100,
+      "type": "system"
+    },
+    {
+      "name": "XML",
+      "percent": 80,
+      "type": "format"
+    },
+    {
+      "name": "XSLT",
+      "percent": 60,
+      "type": "format"
+    },
+    {
+      "name": "RELAXNG",
+      "percent": 50,
+      "type": "format"
+    },
+    {
+      "name": "JSON",
+      "percent": 90,
+      "type": "format"
+    },
+    {
+      "name": "UX",
+      "percent": 80,
+      "type": "ux"
+    },
+    {
+      "name": "UI",
+      "percent": 80,
+      "type": "ux"
+    },
+    {
+      "name": "WCAG 2.0",
+      "percent": 30,
+      "type": "ux"
+    },
+    {
+      "name": "Illustrator",
+      "percent": 80,
+      "type": "design"
+    },
+    {
+      "name": "Photoshop",
+      "percent": 80,
+      "type": "design"
+    },
+    {
+      "name": "Fireworks",
+      "percent": 70,
+      "type": "design"
+    },
+    {
+      "name": "Adobe Flash (ActionScript 3)",
+      "percent": 80,
+      "type": "design"
+    },
+    {
+      "name": "Inkscape",
+      "percent": 60,
+      "type": "design"
+    },
+    {
+      "name": "Gimp",
+      "percent": 70,
+      "type": "design"
+    },
+    {
+      "name": "Scrum",
+      "percent": 90,
+      "type": "agile"
+    },
+    {
+      "name": "Lean",
+      "percent": 60,
+      "type": "agile"
     }
   ],
   "companies": [{
