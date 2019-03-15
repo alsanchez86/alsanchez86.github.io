@@ -69,7 +69,7 @@ gulp.task('js:dependencies', function () {
             // d3
             pkg.node_modules + 'd3/build/d3.min.js',
             // d3pie
-            pkg.node_modules + 'd3pie/d3pie/d3pie.min.js',
+            pkg.node_modules + 'd3pie/d3pie/d3pie.js',
         ])
         .pipe(gulp.dest(pkg.deps));
 });
