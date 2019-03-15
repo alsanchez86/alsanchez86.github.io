@@ -32,6 +32,6 @@
         "requirejs": "2.3.6"
     },
     "scripts": {
-        "push": "rm ./dependencies/* && git config --global credential.helper cache && gulp && git add . && git commit -m 'default update' && git push"
+        "push": "rm -r ./dependencies && rm -r ./build && mkdir ./dependencies && mkdir ./build && git config --global credential.helper cache && gulp && git add . && git commit -m 'default update' && git push"
     }
 }
