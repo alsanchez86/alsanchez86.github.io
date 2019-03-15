@@ -7,7 +7,8 @@
   "progress": [
     {
       "name": "AngularJS",
-      "percent": 90
+      "percent": 90,
+      "type": "frontend"
     }
   ],
   "companies": [{

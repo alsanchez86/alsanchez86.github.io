@@ -37,7 +37,9 @@ div.progress-section {
         font-size: $font-size-base;
 
         div.progress-bar {
-            background-color: $rojo_1;
+            &.frontend {
+                background-color: blue;
+            }            
         }
     }
 }
