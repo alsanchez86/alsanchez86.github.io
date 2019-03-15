@@ -6797,32 +6797,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.27s;
-    animation-duration: 0.91s; }
+    animation-delay: 0.73s;
+    animation-duration: 1.23s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.3s;
-    animation-duration: 0.98s; }
+    animation-delay: -0.05s;
+    animation-duration: 0.89s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.74s;
-    animation-duration: 1.07s; }
+    animation-delay: 0.67s;
+    animation-duration: 1.39s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.61s;
-    animation-duration: 1.22s; }
+    animation-delay: -0.08s;
+    animation-duration: 0.61s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: -0.13s;
-    animation-duration: 1.29s; }
+    animation-delay: 0.31s;
+    animation-duration: 0.63s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.43s;
-    animation-duration: 1.52s; }
+    animation-delay: -0.1s;
+    animation-duration: 1.05s; }
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.24s;
-    animation-duration: 1.36s; }
+    animation-delay: 0.7s;
+    animation-duration: 1.38s; }
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: -0.03s;
-    animation-duration: 1.07s; }
+    animation-delay: 0.7s;
+    animation-duration: 1.19s; }
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.38s;
-    animation-duration: 1.11s; }
+    animation-delay: 0.14s;
+    animation-duration: 1.01s; }
   .ball-grid-beat > div {
     background-color: #fff;
     width: 15px;
@@ -6849,32 +6849,32 @@ a.text-dark:hover, a.text-dark:focus {
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.01s;
-    animation-duration: 1.33s; }
+    animation-delay: 0s;
+    animation-duration: 0.69s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.61s;
-    animation-duration: 0.99s; }
+    animation-delay: 0.39s;
+    animation-duration: 1.31s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.44s;
-    animation-duration: 1.4s; }
+    animation-delay: -0.04s;
+    animation-duration: 0.9s; }
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: -0.07s;
-    animation-duration: 0.71s; }
+    animation-delay: 0.14s;
+    animation-duration: 1.49s; }
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.67s;
-    animation-duration: 1s; }
+    animation-delay: -0.07s;
+    animation-duration: 0.68s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: 0.48s;
-    animation-duration: 0.77s; }
+    animation-delay: -0.18s;
+    animation-duration: 0.91s; }
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0.77s;
-    animation-duration: 0.78s; }
+    animation-delay: 0.68s;
+    animation-duration: 0.82s; }
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.26s;
-    animation-duration: 0.86s; }
+    animation-delay: 0.37s;
+    animation-duration: 1.57s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: 0.66s;
-    animation-duration: 1.22s; }
+    animation-delay: 0.47s;
+    animation-duration: 1.01s; }
   .ball-grid-pulse > div {
     background-color: #fff;
     width: 15px;
@@ -7115,20 +7115,20 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: -0.1s;
-  animation-duration: 1.25s; }
+  animation-delay: 0.77s;
+  animation-duration: 1s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.4s;
-  animation-duration: 0.43s; }
+  animation-delay: 0.05s;
+  animation-duration: 0.99s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.46s;
-  animation-duration: 0.62s; }
+  animation-delay: 0.21s;
+  animation-duration: 1.05s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.51s;
-  animation-duration: 0.42s; }
+  animation-delay: 0.45s;
+  animation-duration: 0.44s; }
 
 .line-scale-party > div {
   background-color: #fff;
