@@ -37,8 +37,8 @@ Author: themehippo.com
 
 body {
     font-family: 'Inter';
-    font-size: 15px;
-    line-height: 22.5px;
+    font-size: 14px;
+    line-height: 21.5px;
     color: #111;
     font-weight: 400;
     background: #f4f4f4;
@@ -91,6 +91,13 @@ h5 {
 h6 {
     font-size: 15px;
     line-height: 1.5em;
+}
+
+@media (max-width : 768px) {
+    body {
+        font-size: 13px;
+        line-height: 20px;
+    }
 }
 
 /* --------------------------------------
