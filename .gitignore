@@ -4,9 +4,9 @@
 package-lock.json
 
 # FOLDERS
+# .vscode
 .tmp
 .sass-cache
-# .vscode
 .grunt
 node_modules
 bower_components
