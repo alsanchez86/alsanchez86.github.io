@@ -1,6 +1,0 @@
-{
-  "css": "../build/css/",
-  "js_module": "../js/default",
-  "dependencies": "../dependencies/",
-  "page_title": "Contacto"
-}

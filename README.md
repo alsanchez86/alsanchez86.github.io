@@ -1,1 +1,1 @@
-Code from [www.sanchezpizarro.com](http://www.sanchezpizarro.com)
+Code from [sanchezpizarro.com](http://sanchezpizarro.com)

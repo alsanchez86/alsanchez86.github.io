@@ -8,7 +8,5 @@ package-lock.json
 .sass-cache
 .vscode
 .grunt
-
 node_modules
 bower_components
-# dist
