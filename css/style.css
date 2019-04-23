@@ -40,7 +40,7 @@ body {
     font-size: 15px;
     line-height: 1.8em;
     color: #111;
-    font-weight: 300;
+    font-weight: 400;
     background: #f4f4f4;
 }
 
@@ -222,7 +222,7 @@ button:focus,
 .section-title h2 {
     font-size: 14px;
     margin-bottom: 5px;
-    color: #bbbbbb;
+    color: crimson;
     text-transform: uppercase;
 }
 
