@@ -1,5 +1,5 @@
 # gulp
-git config --global credential.helper 'cache --timeout=99999'
+git config --global credential.helper cache
 git add .
 git commit -m "default update"
 git push
