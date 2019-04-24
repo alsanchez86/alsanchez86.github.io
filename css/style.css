@@ -44,6 +44,10 @@ body {
     background: #f4f4f4;
 }
 
+textarea {
+    resize: none;
+}
+
 /* --------------------------------------
  * Global Typography
  *------------------------------------------*/
@@ -687,9 +691,9 @@ button:focus,
     text-transform: uppercase;
 }
 
-.feedback-form {
+/* .feedback-form {
     margin-top: 50px;
-}
+} */
 
 /*-------------------
  * Form Style
