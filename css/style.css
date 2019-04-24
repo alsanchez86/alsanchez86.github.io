@@ -661,7 +661,7 @@ button:focus,
 }
 
 .content-item h3 {
-    margin: 0 0 10px;
+    margin: 0;
     line-height: 1.8em;
     font-weight: bold;
     text-transform: uppercase;
