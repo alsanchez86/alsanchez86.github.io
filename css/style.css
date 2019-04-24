@@ -662,14 +662,14 @@ button:focus,
 
 .content-item h3 {
     margin: 0 0 10px;
-    line-height: 1;
+    line-height: 1.8em;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .content-item h4 {
     margin: 0;
-    line-height: 1;
+    line-height: 1.8em;
 }
 
 .content-item small {
