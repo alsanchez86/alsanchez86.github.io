@@ -339,6 +339,8 @@ button:focus,
 
 .social-icon li a:hover {
     border-color: #cccccc;
+    background-color: crimson;
+    color: #FFF;
 }
 
 
