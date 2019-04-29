@@ -216,11 +216,11 @@ button:focus,
     }
 }
 
-@media (max-width : 600px) {
+/* @media (max-width : 600px) {
     .section-wrapper {
         padding: 20px;
     }
-}
+} */
 
 /*---------------------------
  * Section Title
