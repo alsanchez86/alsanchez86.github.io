@@ -75,7 +75,7 @@ h2 {
 }
 
 h3 {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8em;
     font-weight: 700;
 }
@@ -395,6 +395,10 @@ button:focus,
 /*-------------------
  * Skills Progressbar
  *-------------------*/
+
+.progress-wrapper {
+    margin-bottom: 50px;
+}
 
 .progress-item {
     position: relative;
