@@ -260,9 +260,13 @@ button:focus,
 }
 
 .header .profile-img {
-    display: inline-block;
+    display: block;
     text-align: center;
     /* margin-right: 30px; */
+}
+
+.header .profile-img img {
+    width: 100%;
 }
 
 .header .name-wrapper {
