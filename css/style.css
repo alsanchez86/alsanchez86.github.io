@@ -664,8 +664,12 @@ button:focus,
     margin-bottom: 30px;
 }
 
+.profile-item .media-left {
+    padding-right: 35px;
+}
+
 .profile-item .media-object {
-    width: 30px;
+    width: 120px;
 }
 
 .profile-item a {
