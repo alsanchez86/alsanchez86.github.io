@@ -700,6 +700,10 @@ button:focus,
  * Contact
  *-------------------*/
 
+.section-contact address {
+    line-height: 2;
+}
+
 .section-contact address strong {
     font-size: 13px;
     text-transform: uppercase;
