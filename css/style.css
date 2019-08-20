@@ -705,6 +705,10 @@ button:focus,
     text-transform: uppercase;
 }
 
+.section-contact address a i {
+    font-size: 30px;
+}
+
 /* .feedback-form {
     margin-top: 50px;
 } */
