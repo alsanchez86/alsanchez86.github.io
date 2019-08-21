@@ -430,22 +430,23 @@ button:focus,
 }
 
 .progress-item .progress-percent {
-    font-size: 10px;
-    background-color: #313131;
     position: absolute;
-    top: 5px;
-    padding: 0 8px;
-    border-radius: 3px;
+    top: 0px;
+    padding: 0;
+    font-size: 11px;
+    color: #111;
+    /* background-color: #313131; */
+    /* border-radius: 3px; */
 }
 
-.progress-item .progress-percent::before {
+/* .progress-item .progress-percent::before {
     content: "";
     position: absolute;
     left: 0;
     bottom: -4px;
     border-top: 6px solid #313131;
     border-right: 8px solid transparent;
-}
+} */
 
 
 @media (max-width: 768px) {
