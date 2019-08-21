@@ -10,7 +10,7 @@ Author: themehippo.com
 
 # Body  (text): #3a4750
 # Heading Color #444444
-# Theme Color (link color) crimson
+# Theme Color (link color) #333
 # Mid grey (sub header) #f4f4f4
 # -------------------------------------------------------------------*/
 
@@ -108,7 +108,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color: crimson;
+    color: #333;
     text-decoration: none;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -127,7 +127,7 @@ a:active {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: crimson;
+    color: #333;
 }
 
 p {
@@ -167,7 +167,7 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color: crimson;
+    background-color: #333;
 }
 
 .btn-primary:hover,
@@ -235,7 +235,7 @@ button:focus,
 .section-title h2 {
     font-size: 14px;
     margin-bottom: 5px;
-    color: crimson;
+    color: #333;
     text-transform: uppercase;
 }
 
@@ -258,7 +258,7 @@ button:focus,
     padding: 50px 0 20px 0;
     margin: 0;
     position: relative;
-    border-top: 5px solid crimson;
+    border-top: 5px solid #333;
 }
 
 .header .profile-img {
@@ -283,7 +283,7 @@ button:focus,
 
 .header .name-wrapper span {
     font-size: 24px;
-    color: crimson;
+    color: #333;
 }
 
 .header .personal-details {
@@ -360,7 +360,7 @@ button:focus,
 
 /* .social-icon li a:hover {
     border-color: #cccccc;
-    background-color: crimson;
+    background-color: #333;
     color: #FFF;
 } */
 
@@ -437,7 +437,7 @@ button:focus,
 }
 
 .progress-item .progress-bar {
-    /* background-color: crimson; */
+    /* background-color: #333; */
     background-color: #337ab7;
     box-shadow: none;
     text-align: right;
@@ -464,6 +464,13 @@ button:focus,
     border-right: 8px solid transparent;
 } */
 
+.progress-wrapper .progress-wrapper-frontend .progress-bar {
+    background-color: crimson;
+}
+
+.progress-wrapper .progress-wrapper-backend .progress-bar {
+    background-color: #337ab7;
+}
 
 @media (max-width: 768px) {
     .progress-wrapper {
@@ -705,7 +712,7 @@ button:focus,
 } */
 
 .profile-item a:hover {
-    color: crimson;
+    color: #333;
 }
 
 .profile-item .profile-item-batch {
