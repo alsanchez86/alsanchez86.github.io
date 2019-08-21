@@ -670,6 +670,7 @@ button:focus,
 }
 
 .profile-item h4 {
+    margin-bottom: 10px;
     font-size: 13px;
     font-weight: 700;
 }
@@ -691,7 +692,7 @@ button:focus,
 }
 
 .profile-item .profile-item-batch {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 /*-------------------
