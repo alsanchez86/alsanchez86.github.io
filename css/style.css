@@ -405,6 +405,10 @@ button:focus,
     margin-bottom: 50px;
 }
 
+.progress-wrapper h3 {
+    font-size: 12px;
+}
+
 .progress-item {
     position: relative;
 }
@@ -418,6 +422,7 @@ button:focus,
 
 .progress-item .progress {
     height: 2px;
+    margin-bottom: 15px;
     box-shadow: none;
     border-radius: 0;
     background: transparent;
@@ -431,7 +436,7 @@ button:focus,
 
 .progress-item .progress-percent {
     position: absolute;
-    top: 0px;
+    top: 5px;
     padding: 0;
     font-size: 11px;
     color: #111;
