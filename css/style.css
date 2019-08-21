@@ -422,11 +422,11 @@ button:focus,
     font-size: 12px;
     font-weight: 400;
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .progress-item .progress {
-    height: 2px;
+    height: 1px;
     margin-bottom: 15px;
     box-shadow: none;
     border-radius: 0;
