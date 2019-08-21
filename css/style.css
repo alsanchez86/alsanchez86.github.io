@@ -401,6 +401,10 @@ button:focus,
  * Skills Progressbar
  *-------------------*/
 
+.skills-wrapper .col-md-6:last-child .progress-wrapper {
+    margin-bottom: 0;
+}
+
 .progress-wrapper {
     margin-bottom: 75px;
 }
