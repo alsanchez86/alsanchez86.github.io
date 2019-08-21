@@ -411,7 +411,8 @@ button:focus,
 }
 
 .progress-wrapper h3 {
-    font-size: 12px;
+    font-size: 14px;
+    text-align: center;
 }
 
 .progress-item {
@@ -419,10 +420,11 @@ button:focus,
 }
 
 .progress-item .progress-title {
-    font-size: 12px;
-    font-weight: 400;
     display: inline-block;
     margin-bottom: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .progress-item .progress {
