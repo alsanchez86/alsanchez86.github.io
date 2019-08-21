@@ -665,12 +665,21 @@ button:focus,
     margin-bottom: 30px;
 }
 
+.profile-item h3 {
+    font-size: 16px;
+}
+
+.profile-item h4 {
+    font-size: 13px;
+    font-weight: 700;
+}
+
 .profile-item .media-left {
     padding-right: 35px;
 }
 
 .profile-item .media-object {
-    width: 120px;
+    width: 150px;
 }
 
 .profile-item a {
@@ -679,6 +688,10 @@ button:focus,
 
 .profile-item a:hover {
     color: crimson;
+}
+
+.profile-item .profile-item-batch {
+    margin-bottom: 20px;
 }
 
 /*-------------------
