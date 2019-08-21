@@ -464,11 +464,11 @@ button:focus,
     border-right: 8px solid transparent;
 } */
 
-.progress-wrapper .progress-wrapper-frontend .progress-item .progress-bar {
+.progress-wrapper.progress-wrapper-frontend .progress-item .progress-bar {
     background-color: crimson;
 }
 
-.progress-wrapper .progress-wrapper-backend .progress-item .progress-bar {
+.progress-wrapper.progress-wrapper-backend .progress-item .progress-bar {
     background-color: #337ab7;
 }
 
