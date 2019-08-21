@@ -420,9 +420,9 @@ button:focus,
 }
 
 .progress-item .progress-title {
-    /* display: inline-block;
-    margin-bottom: 2px; */
+    /* display: inline-block; */
     display: block;
+    margin-bottom: 2px;
     font-size: 12px;
     font-weight: 400;
     font-style: italic;
