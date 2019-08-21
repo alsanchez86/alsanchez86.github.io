@@ -683,9 +683,9 @@ button:focus,
     width: 150px;
 }
 
-.profile-item a {
+/* .profile-item a {
     color: #444;
-}
+} */
 
 .profile-item a:hover {
     color: crimson;
