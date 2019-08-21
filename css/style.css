@@ -200,8 +200,9 @@ button:focus,
 /* --------------------
  *  main Wrapper
  * -------------------*/
-#main-wrapper {
+.main-wrapper {
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
 /*-------------------
