@@ -708,16 +708,16 @@ button:focus,
  * Contact
  *-------------------*/
 
-.section-contact address {
+.section-contact .contact-item {
     line-height: 2;
 }
 
-.section-contact address strong {
+.section-contact .contact-item strong {
     font-size: 13px;
     text-transform: uppercase;
 }
 
-.section-contact address a i {
+.section-contact .contact-item a i {
     font-size: 20px;
 }
 
