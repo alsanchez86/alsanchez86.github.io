@@ -39,7 +39,7 @@ body {
     font-family: 'Inter';
     font-size: 14px;
     line-height: 22.5px;
-    color: #111;
+    color: #010101;
     font-weight: 400;
     background: #f4f4f4;
 }
@@ -108,7 +108,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color: #333;
+    color: #010101;
     text-decoration: none;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -127,7 +127,7 @@ a:active {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #333;
+    color: #010101;
 }
 
 p {
@@ -135,7 +135,7 @@ p {
 }
 
 strong {
-    color: #444444;
+    color: #010101;
 }
 
 ul {
@@ -167,7 +167,7 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color: #333;
+    background-color: #010101;
 }
 
 .btn-primary:hover,
@@ -235,7 +235,7 @@ button:focus,
 .section-title h2 {
     font-size: 14px;
     margin-bottom: 5px;
-    color: #333;
+    color: #010101;
     text-transform: uppercase;
 }
 
@@ -283,7 +283,7 @@ button:focus,
 
 .header .name-wrapper span {
     font-size: 24px;
-    color: #333;
+    color: #010101;
 }
 
 .header .personal-details {
@@ -292,7 +292,7 @@ button:focus,
 
 .header .personal-details strong {
     font-size: 13px;
-    color: #444444;
+    color: #010101;
     display: block;
     line-height: 1;
 }
@@ -302,7 +302,7 @@ button:focus,
 }
 
 .header .personal-details span {
-    color: #989898;
+    color: #010101;
 }
 
 @media (max-width : 768px) {
@@ -340,7 +340,7 @@ button:focus,
 .social-icon li a {
     display: block;
     font-size: 20px;
-    color: #333;
+    color: #010101;
     /* width: 50px;
     height: 50px; */
     line-height: 46px;
@@ -360,7 +360,7 @@ button:focus,
 
 /* .social-icon li a:hover {
     border-color: #cccccc;
-    background-color: #333;
+    background-color: #010101;
     color: #FFF;
 } */
 
@@ -369,7 +369,7 @@ button:focus,
  *-------------------*/
 .item-stats .item-stats-value {
     font-size: 18px;
-    color: #444;
+    color: #010101;
     font-weight: 500;
 }
 
@@ -437,8 +437,8 @@ button:focus,
 }
 
 .progress-item .progress-bar {
-    /* background-color: #333; */
-    background-color: #333;
+    /* background-color: #010101; */
+    background-color: #010101;
     box-shadow: none;
     text-align: right;
 }
@@ -450,7 +450,7 @@ button:focus,
     top: 5px;
     padding: 0;
     font-size: 11px;
-    color: #111;
+    color: #010101;
     /* background-color: #313131; */
     /* border-radius: 3px; */
 }
@@ -525,7 +525,7 @@ button:focus,
 .portfolio-item .portfolio-info h3 {
     margin: 0;
     line-height: 1;
-    color: #ffffff;
+    color: #010101;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -553,7 +553,7 @@ button:focus,
 }
 
 #review .user-name {
-    color: #444;
+    color: #010101;
     font-weight: 500;
 }
 
@@ -577,7 +577,7 @@ button:focus,
 #review .rating::after {
     content: attr(data-star_rating);
     padding: 3px 5px 0;
-    color: #444;
+    color: #010101;
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
@@ -690,7 +690,7 @@ button:focus,
 }
 
 .profile-item h3 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .profile-item h4 {
@@ -712,7 +712,7 @@ button:focus,
 } */
 
 .profile-item a:hover {
-    color: #333;
+    color: #010101;
 }
 
 .profile-item .profile-item-batch {
@@ -740,7 +740,7 @@ button:focus,
 }
 
 .content-item small {
-    color: #888888;
+    color: #010101;
 }
 
 /*-------------------
@@ -777,7 +777,7 @@ button:focus,
     height: 46px;
     line-height: 46px;
     padding: 0 15px;
-    color: #969595;
+    color: #010101;
     border-color: #f8f8f8;
     border-radius: 0;
     box-shadow: none;
