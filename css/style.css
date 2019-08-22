@@ -59,42 +59,37 @@ h4,
 h5,
 h6 {
     margin: 0 0 15px;
+    line-height: 1em;
     color: #010101;
 }
 
 h1 {
     font-size: 36px;
-    line-height: 1.8em;
     font-weight: 700;
 }
 
 h2 {
     font-size: 18px;
-    line-height: 1.8em;
     font-weight: 700;
 }
 
 h3 {
     font-size: 14px;
-    line-height: 1.8em;
     font-weight: 700;
 }
 
 h4 {
     font-size: 15px;
-    line-height: 1.8em;
     font-weight: 500;
 }
 
 h5 {
     font-size: 15px;
-    line-height: 1.5em;
     font-weight: 500;
 }
 
 h6 {
     font-size: 15px;
-    line-height: 1.5em;
 }
 
 @media (max-width : 768px) {
