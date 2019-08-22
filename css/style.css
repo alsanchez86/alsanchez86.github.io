@@ -726,6 +726,30 @@ button:focus,
     background-color: #337ab7;
 }
 
+.profile-item .profile-item-batch-despliegues .label {
+
+}
+
+.profile-item .profile-item-batch-sistemas .label {
+    background-color: #34a853;
+}
+
+.profile-item .profile-item-batch-versiones .label {
+    background-color: #fbbc05;
+}
+
+.profile-item .profile-item-batch-dependencias .label {
+    background-color: #6b23ae;
+}
+
+.profile-item .profile-item-batch-ma .label {}
+
+.profile-item .profile-item-batch-otros .label {}
+
+.profile-item .profile-item-batch-accesibilidad .label {}
+
+.profile-item .profile-item-batch-dgrafico .label {}
+
 /*-------------------
  * Content Item
  *-------------------*/
@@ -806,7 +830,7 @@ button:focus,
 /* Copyright */
 
 .footer {
-    padding: 40px 0 80px;
+    padding: 45px 0 80px;
     font-size: 12px;
     background-color: #EEE;
 }
