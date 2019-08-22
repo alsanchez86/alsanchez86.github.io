@@ -719,6 +719,10 @@ button:focus,
     margin-bottom: 25px;
 }
 
+.profile-item .label {
+    font-weight: 400;
+}
+
 /*-------------------
  * Content Item
  *-------------------*/
