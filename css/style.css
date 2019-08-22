@@ -717,11 +717,11 @@ button:focus,
     font-weight: 400;
 }
 
-.profile-item .label.profile-item-batch-frontend {
+.profile-item .profile-item-batch-frontend .label {
     background-color: crimson;
 }
 
-.profile-item .label.profile-item-batch-backend {
+.profile-item .profile-item-batch-backend .label {
     background-color: #337ab7;
 }
 
