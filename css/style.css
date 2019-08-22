@@ -334,19 +334,19 @@ button:focus,
 
 .social-icon li {
     display: inline-block;
-    margin: 0 2px;
+    margin: 0 15px;
 }
 
 .social-icon li a {
     display: block;
     font-size: 20px;
     color: #333;
-    width: 50px;
-    height: 50px;
+    /* width: 50px;
+    height: 50px; */
     line-height: 46px;
     text-align: center;
     border-radius: 2px;
-    border: 2px solid #eeeeee;
+    /* border: 2px solid #eeeeee; */
     /* display: block;
     font-size: 12px;
     color: #333333;
