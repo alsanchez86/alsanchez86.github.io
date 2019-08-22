@@ -715,6 +715,7 @@ button:focus,
 
 .profile-item .label {
     font-weight: 400;
+    background-color: #666;
 }
 
 .profile-item .profile-item-batch-frontend .label {
@@ -753,7 +754,7 @@ button:focus,
  * Contact
  *-------------------*/
 
-.section-contact .contact-item {
+/* .section-contact .contact-item {
     line-height: 2;
 }
 
@@ -764,7 +765,7 @@ button:focus,
 
 .section-contact .contact-item a i {
     font-size: 20px;
-}
+} */
 
 /* .feedback-form {
     margin-top: 50px;
@@ -806,16 +807,12 @@ button:focus,
 
 .footer {
     padding: 40px 0 80px;
+    font-size: 13px;
     background-color: #EEE;
 }
 
-.footer .copyright-section {
-    font-size: 13px;
-}
-
-.footer .copyright-section .copytext {
-    font-weight: 400;
-    display: block;
+.footer a i {
+    font-size: 20px;
 }
 
 @media (max-width : 768px) {
