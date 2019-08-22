@@ -466,6 +466,16 @@ button:focus,
     background-color: #337ab7;
 }
 
+.progress-wrapper.progress-wrapper-sistemas .progress-item .progress-bar {
+    background-color: #34a853;
+}
+.progress-wrapper.progress-wrapper-versiones .progress-item .progress-bar {
+    background-color: #fbbc05;
+}
+.progress-wrapper.progress-wrapper-dependencias .progress-item .progress-bar {
+    background-color: #6b23ae;
+}
+
 @media (max-width: 768px) {
     .progress-wrapper {
         margin-bottom: 50px;
