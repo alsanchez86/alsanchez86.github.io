@@ -239,7 +239,7 @@ button:focus,
     }
 
     .section-title h2 {
-        font-size: 18px;
+        font-size: 32px;
         margin-bottom: 20px;
     }
 }
@@ -267,6 +267,12 @@ button:focus,
 
 .header .name-wrapper {
     margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .header .name-wrapper {
+        text-align: center;
+    }
 }
 
 .header .name-wrapper h1 {
@@ -324,6 +330,12 @@ button:focus,
     padding: 0;
     display: block;
     text-align: center;
+}
+
+@media (max-width : 768px) {
+    .social-icon {
+        margin: 0 0 20px 0;
+    }
 }
 
 .social-icon li {
