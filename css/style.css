@@ -727,6 +727,10 @@ button:focus,
     color: #444;
 } */
 
+.profile-item a {
+    text-decoration: underline;
+}
+
 .profile-item a:hover {
     color: #010101;
 }
