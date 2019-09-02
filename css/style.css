@@ -245,6 +245,13 @@ button:focus,
     }
 }
 
+/*---------------------------
+ * Section Profile
+ *---------------------------*/
+.section-profile .profile-item:last-child {
+    margin-bottom: 0;
+}
+
 /*-----------------------------
  * NAVIGATION & HEADER STYLE
  *-----------------------------*/
