@@ -18,7 +18,7 @@ require.config(
             paths: {
                 // lib
                 jquery: _this.config.lib + "jquery.min",
-                bootstrap: _this.config.lib + "bootstrap.min",
+                bootstrap: _this.config.lib + "bootstrap.bundle.min",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache_module",
                 init_module: _this.config.modules + "init_module"
