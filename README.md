@@ -6,3 +6,4 @@ Code from [sanchezpizarro.com](http://sanchezpizarro.com)
 - [ ] Transform CSS from sass/_general.scss to SASS
 - [ ] Create menu for add other sections (portfolio, blog, ...)
 - [ ] I8n
+- [ ] Add GA
