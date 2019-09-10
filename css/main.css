@@ -7536,7 +7536,8 @@ button:focus,
 
 .profile-item .badge {
   font-weight: 400;
-  background-color: #666; }
+  background-color: #666;
+  color: #FFF; }
 
 .profile-item .profile-item-batch-frontend .badge {
   background-color: crimson; }
