@@ -4,3 +4,4 @@ Code from [sanchezpizarro.com](http://sanchezpizarro.com)
 
 - [ ] Use mustache for templates
 - [ ] Create menu for add other sections (portfolio, blog, ...)
+- [ ] In8

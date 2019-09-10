@@ -7,11 +7,14 @@ const concat = require('gulp-concat');
 const rename = require('gulp-rename');
 const runSequence = require('run-sequence');
 const fs = require('fs');
+const mustache = require("gulp-mustache");
+const htmlmin = require('gulp-htmlmin');
 const pkg = JSON.parse(fs.readFileSync('./package.json'));
 
 /*
  * Css tasks
  */
+
 gulp.task('css:sass', function () {
     return gulp.src([pkg.sass + 'main.scss'])
         .pipe(sass.sync().on('error', sass.logError))
@@ -51,6 +54,7 @@ gulp.task('css:min', function () {
 /*
  * Js tasks
  */
+
 gulp.task('js:lib', function () {
     return gulp.src([
             // requirejs
@@ -64,22 +68,47 @@ gulp.task('js:lib', function () {
 });
 
 /*
- * Environments tasks
+ * Template tasks
  */
-// prod
-gulp.task('prod', [], function (done) {
-    runSequence('css:sass', 'css:lib', 'css:concat', 'css:min', 'js:lib', function () {
+
+// home
+gulp.task('template:home', function () {
+    gulp.src("./templates/sections/home/index.mustache")
+        .pipe(mustache("./templates/sections/home/index.json", {
+            extension: ".html"
+        }, {}))
+        .pipe(htmlmin({
+            collapseWhitespace: true
+        }))
+        .pipe(gulp.dest('./'))
+});
+
+// templates
+gulp.task('templates', [], function (done) {
+    runSequence('template:home', function () {
         done();
     });
 });
+
+/*
+ * Environments tasks
+ */
+
+// prod
+gulp.task('prod', [], function (done) {
+    runSequence('css:sass', 'css:lib', 'css:concat', 'css:min', 'js:lib', 'templates', function () {
+        done();
+    });
+});
+
 // default
 gulp.task('default', ["prod"]);
 
 /*
  * Watchers
  */
-gulp.task('watch', ['default'], function () {
-    gulp.watch([
-        pkg.sass + '**/*.scss'
-    ], ['default']);
-});
+// gulp.task('watch', ['default'], function () {
+//     gulp.watch([
+//         pkg.sass + '**/*.scss'
+//     ], ['default']);
+// });
