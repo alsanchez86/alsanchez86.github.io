@@ -1,0 +1,22 @@
+{
+  "name": "alsanchez86.github.io",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alsanchez86/alsanchez86.github.io.git"
+  },
+  "js": "./js/",
+  "lib": "./lib/",
+  "node_modules": "./node_modules/",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "run-sequence": "^2.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^2.1.4",
+    "requirejs": "2.3.6"
+  }
+}
