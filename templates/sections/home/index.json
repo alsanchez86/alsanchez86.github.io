@@ -1,5 +1,25 @@
 {
     "css_path": "css",
     "requirejs_path": "lib",
-    "main_path": "js"
+    "main_path": "js",
+    "studies": [
+        {
+            "date": "2008 - 2009",
+            "name": "Diseño y Programación Web, Ciencias de la computación.",
+            "location": "CEA. Confederación de Empresarios de Andalucía.",
+            "city": "Sevilla, España."
+        },
+        {
+            "date": "2007 - 2008",
+            "name": "Diseño Gráfico y Autoedición, Diseño gráfico.",
+            "location": "CEA. Confederación de Empresarios de Andalucía.",
+            "city": "Sevilla, España."
+        },
+        {
+            "date": "2005 - 2007",
+            "name": "Técnico Superior en Sistemas de Telecomunicación e Informáticos.",
+            "location": "I.E.S Torre de los Herberos.",
+            "city": "Sevilla, España."
+        }
+    ]
 }

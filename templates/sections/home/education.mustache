@@ -8,30 +8,10 @@
             </div>
 
             <div class="col-lg-10">
-                <!-- item -->
-                <div class="content-item">
-                    <small>2008 - 2009</small>
-                    <h3>Diseño y Programación Web, Ciencias de la computación.</h3>
-                    <h4>CEA. Confederación de Empresarios de Andalucía.</h4>
-                    <p>Sevilla, España.</p>
-                </div>
-                <!-- item -->
-                <div class="content-item">
-                    <small>2007 - 2008</small>
-                    <h3>Diseño Gráfico y Autoedición, Diseño gráfico.</h3>
-                    <h4>CEA. Confederación de Empresarios de Andalucía.</h4>
-                    <p>Sevilla, España.</p>
-                </div>
-                <!-- item -->
-                <div class="content-item">
-                    <small>2005 - 2007</small>
-                    <h3>Técnico Superior en Sistemas de Telecomunicación e Informáticos</h3>
-                    <h4>I.E.S Torre de los Herberos</h4>
-                    <p>Sevilla, España.</p>
-                </div>
+                {{#studies}}
+                {{>education_item}}
+                {{/studies}}
             </div>
         </div>
-        <!--.row-->
     </div>
-    <!-- .container -->
 </section>
