@@ -6,17 +6,23 @@
     "type": "git",
     "url": "https://github.com/alsanchez86/alsanchez86.github.io.git"
   },
+  "sass": "./sass/",
   "js": "./js/",
   "lib": "./lib/",
   "node_modules": "./node_modules/",
+  "build": "./build/",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
     "run-sequence": "^2.2.0"
   },
   "dependencies": {
-    "bootstrap": "^3.4.1",
+    "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",
-    "jquery": "^2.1.4",
+    "jquery": "^3.3.1",
     "requirejs": "2.3.6"
   }
 }

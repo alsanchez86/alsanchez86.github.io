@@ -4,7 +4,7 @@
 package-lock.json
 
 # FOLDERS
-# .vscode
+.vscode
 .tmp
 .sass-cache
 .grunt
