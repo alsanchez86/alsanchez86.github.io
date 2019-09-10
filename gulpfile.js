@@ -16,7 +16,7 @@ gulp.task('css:sass', function () {
     return gulp.src([pkg.sass + 'main.scss'])
         .pipe(sass.sync().on('error', sass.logError))
         .pipe(concat("sass.css"))
-        .pipe(gulp.dest(pkg.build + 'css/'));
+        .pipe(gulp.dest(pkg.css));
 });
 
 gulp.task('css:lib', function () {
@@ -24,27 +24,27 @@ gulp.task('css:lib', function () {
             pkg.node_modules + 'font-awesome/css/font-awesome.css'
         ])
         .pipe(concat("lib.css"))
-        .pipe(gulp.dest(pkg.build + 'css/'));
+        .pipe(gulp.dest(pkg.css));
 });
 
 gulp.task('css:concat', function () {
     return gulp.src([
-            pkg.build + 'css/sass.css',
-            pkg.build + 'css/lib.css'
+            pkg.css + 'sass.css',
+            pkg.css + 'lib.css'
         ])
         .pipe(concat("main.css"))
-        .pipe(gulp.dest(pkg.build + 'css/'));
+        .pipe(gulp.dest(pkg.css));
 });
 
 gulp.task('css:min', function () {
-    return gulp.src([pkg.build + 'css/main.css'])
+    return gulp.src([pkg.css + 'main.css'])
         .pipe(cleanCSS({
             compatibility: 'ie8'
         }))
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest(pkg.build + 'css/'));
+        .pipe(gulp.dest(pkg.css));
 });
 
 

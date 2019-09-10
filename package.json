@@ -10,7 +10,7 @@
   "js": "./js/",
   "lib": "./lib/",
   "node_modules": "./node_modules/",
-  "build": "./build/",
+  "css": "./css/",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.10.0",
