@@ -5,6 +5,7 @@ const sass = require('gulp-sass');
 const cleanCSS = require('gulp-clean-css');
 const concat = require('gulp-concat');
 const rename = require('gulp-rename');
+const rm = require('gulp-rm');
 const runSequence = require('run-sequence');
 const fs = require('fs');
 const mustache = require("gulp-mustache");
@@ -14,6 +15,13 @@ const pkg = JSON.parse(fs.readFileSync('./package.json'));
 /*
  * Css tasks
  */
+
+gulp.task('css:reset', function () {
+    return gulp.src(pkg.css + '**/*', {
+            read: false
+        })
+        .pipe(rm())
+});
 
 gulp.task('css:sass', function () {
     return gulp.src([pkg.sass + 'main.scss'])
@@ -50,6 +58,12 @@ gulp.task('css:min', function () {
         .pipe(gulp.dest(pkg.css));
 });
 
+gulp.task('css:clean', function () {
+    return gulp.src([pkg.css + 'lib.css', pkg.css + 'sass.css'], {
+            read: false
+        })
+        .pipe(rm())
+});
 
 /*
  * Js tasks
@@ -96,7 +110,7 @@ gulp.task('templates', [], function (done) {
 
 // prod
 gulp.task('prod', [], function (done) {
-    runSequence('css:sass', 'css:lib', 'css:concat', 'css:min', 'js:lib', 'templates', function () {
+    runSequence('css:reset', 'css:sass', 'css:lib', 'css:concat', 'css:min', 'css:clean', 'js:lib', 'templates', function () {
         done();
     });
 });
