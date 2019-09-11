@@ -1,0 +1,127 @@
+<div class="profile-item">
+    <div class="row">
+        <div class="col-md-10">
+            <h3 class="media-heading">
+                {{ name }}
+            </h3>
+
+            <p>
+                {{ date }}
+                <br>
+                {{ city }}
+                <br>
+                <a href="{{ link }}" target="_blank">{{ link }}</a>
+            </p>
+
+            <div class="profile-item-batch">
+                <h4>PUESTO</h4>
+
+                {{ position }}
+            </div>
+
+            <div class="profile-item-batch">
+                <h4>FUNCIONES</h4>
+
+                <ul>
+                    {{#functions}}
+                        <li>{{ function }}</li>
+                    {{/functions}}
+                </ul>
+            </div>
+
+            <div class="profile-item-batch">
+                <h4>PROYECTOS DESTACADOS</h4>
+
+                <ul>
+                    {{#projects}}
+                        <li>
+                            <a href="{{ link }}" target="_blank">{{ name }}</a>
+                        </li>
+                    {{/projects}}
+                </ul>
+            </div>
+
+            <div class="profile-item-batch">
+                <h4>TECNOLOGÍAS</h4>
+
+                <ul>
+                    {{#techs}}
+                        <li class="profile-item-batch-{{ type }}">
+                            {{ type }}
+
+                            {{#items}}
+                                <span class="badge">{{ name }}</span>
+                            {{/items}}
+                        </li>
+                    {{/tech}}
+                </ul>
+
+                <ul>
+                    <li class="profile-item-batch-frontend">
+                        Frontend
+                        <span class="badge">JavaScript ES5 ES6 ES*</span> <span class="badge">
+                            React</span>
+                        <span class="badge">Redux</span>
+                        <span class="badge">Typescript</span>
+                        <span class="badge">AngularJS</span>
+                        <span class="badge">RequireJS</span>
+                        <span class="badge">Analítica (GTM, DTM)</span>
+                        <span class="badge">Jasmine</span>
+                        <span class="badge">Mocha</span>
+                        <span class="badge">Bootstrap</span>
+                        <span class="badge">d3 (svg)</span>
+                        <span class="badge">Konva (canvas)</span>
+                        <span class="badge">Grunt</span>
+                        <span class="badge">Gulp</span>
+                        <span class="badge">HTML</span>
+                        <span class="badge">CSS</span>
+                        <span class="badge">Sass</span>
+                        <span class="badge">Less</span>
+                    </li>
+
+                    <li class="profile-item-batch-backend">
+                        Backend
+                        <span class="badge">Nodejs</span>
+                        <span class="badge">Cinema4d (Python)</span>
+                        <span class="badge">Java (Play Framework)</span>
+                        <span class="badge">Shell script</span>
+                    </li>
+
+                    <li class="profile-item-batch-sistemas">
+                        Sistemas
+                        <span class="badge">Linux</span>
+                        <span class="badge">Windows</span>
+                        <span class="badge">MAC</span>
+                    </li>
+
+                    <li class="profile-item-batch-versiones">
+                        Gestor de versiones
+                        <span class="badge">Mercurial</span>
+                        <span class="badge">Github</span>
+                    </li>
+
+                    <li class="profile-item-batch-dependencias">
+                        Gestores de dependencias
+                        <span class="badge">npm</span>
+                    </li>
+
+                    <li class="profile-item-batch-ma">
+                        Metodologías ágiles
+                        <span class="badge">Scrum</span>
+                    </li>
+
+                    <li class="profile-item-batch-despliegues">
+                        Despliegues
+                        <span class="badge">Jenkins</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-2 d-none d-sm-none d-md-block">
+            <a href="http://www.expertustech.es/" target="_blank">
+                <img class="img-fluid" src="img/expertus.png" alt="Expertus Technology">
+            </a>
+        </div>
+    </div>
+</div>

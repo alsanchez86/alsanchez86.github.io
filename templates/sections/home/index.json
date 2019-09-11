@@ -253,6 +253,20 @@
             }
         ]
     },
+    "experience": [
+        {
+            "name": "",
+            "date": "",
+            "techs": [
+                {
+                    "type": "frontend",
+                    "items": [{
+                        "name": "cxxxx"
+                    }]
+                }
+            ]
+        }
+    ],
     "studies": [{
             "date": "2008 - 2009",
             "name": "Diseño y Programación Web, Ciencias de la computación.",
