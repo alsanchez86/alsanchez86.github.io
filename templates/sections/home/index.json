@@ -2,8 +2,102 @@
     "css_path": "css",
     "requirejs_path": "lib",
     "main_path": "js",
-    "studies": [
-        {
+    "skills": {
+        "frontend": [{
+                "name": "JavaScript ES5 ES6 ES*",
+                "value": 100
+            },
+            {
+                "name": "Programación funcional (Vanilla, Lodash, Underscore)",
+                "value": 100
+            },
+            {
+                "name": "React",
+                "value": 100
+            },
+            {
+                "name": "Redux",
+                "value": 100
+            },
+            {
+                "name": "jQuery",
+                "value": 100
+            },
+            {
+                "name": "Typescript",
+                "value": 100
+            },
+            {
+                "name": "AngularJS",
+                "value": 100
+            },
+            {
+                "name": "Angular",
+                "value": 100
+            },
+            {
+                "name": "Riot",
+                "value": 100
+            },
+            {
+                "name": "RequireJS",
+                "value": 100
+            },
+            {
+                "name": "CoffeeScript",
+                "value": 100
+            },
+            {
+                "name": "Bootstrap",
+                "value": 100
+            },
+            {
+                "name": "Foundation",
+                "value": 100
+            },
+            {
+                "name": "HTML",
+                "value": 100
+            },
+            {
+                "name": "CSS",
+                "value": 100
+            },
+            {
+                "name": "Less",
+                "value": 100
+            },
+            {
+                "name": "Sass",
+                "value": 100
+            },
+            {
+                "name": "Grunt",
+                "value": 100
+            },
+            {
+                "name": "Gulp",
+                "value": 100
+            },
+            {
+                "name": "d3 (svg)",
+                "value": 100
+            },
+            {
+                "name": "Konva (canvas)",
+                "value": 100
+            },
+            {
+                "name": "Jasmine",
+                "value": 100
+            },
+            {
+                "name": "Mocha",
+                "value": 100
+            }
+        ]
+    },
+    "studies": [{
             "date": "2008 - 2009",
             "name": "Diseño y Programación Web, Ciencias de la computación.",
             "location": "CEA. Confederación de Empresarios de Andalucía.",
