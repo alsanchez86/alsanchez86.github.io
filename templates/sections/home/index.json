@@ -378,7 +378,7 @@
             ]
         }, {
             "type": "versiones",
-            "name": "Versiones",
+            "name": "Gestores de versiones",
             "items": [
                 {
                     "name": "Mercurial"
@@ -389,7 +389,7 @@
             ]
         }, {
             "type": "dependencias",
-            "name": "Dependencias",
+            "name": "Gestores de dependencias",
             "items": [
                 {
                     "name": "npm"
