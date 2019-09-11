@@ -96,8 +96,7 @@
                 "value": 50
             }
         ],
-        "backend": [
-            {
+        "backend": [{
                 "name": "Nodejs",
                 "value": 50
             },
@@ -134,8 +133,7 @@
                 "value": 40
             }
         ],
-        "systems": [
-            {
+        "systems": [{
                 "name": "Linux",
                 "value": 80
             },
@@ -148,8 +146,7 @@
                 "value": 40
             }
         ],
-        "versions": [
-            {
+        "versions": [{
                 "name": "Github",
                 "value": 100
             },
@@ -158,8 +155,7 @@
                 "value": 80
             }
         ],
-        "dependencies": [
-            {
+        "dependencies": [{
                 "name": "npm",
                 "value": 90
             },
@@ -172,8 +168,7 @@
                 "value": 60
             }
         ],
-        "others": [
-            {
+        "others": [{
                 "name": "Analítica (GTM, DTM)",
                 "value": 80
             },
@@ -202,8 +197,7 @@
                 "value": 70
             }
         ],
-        "accesibility": [
-            {
+        "accesibility": [{
                 "name": "UX",
                 "value": 80
             },
@@ -216,8 +210,7 @@
                 "value": 60
             }
         ],
-        "agile": [
-            {
+        "agile": [{
                 "name": "Scrum",
                 "value": 100
             },
@@ -226,8 +219,7 @@
                 "value": 50
             }
         ],
-        "dessign": [
-            {
+        "dessign": [{
                 "name": "Illustrator",
                 "value": 80
             },
@@ -253,20 +245,174 @@
             }
         ]
     },
-    "experience": [
-        {
-            "name": "",
-            "date": "",
-            "techs": [
+    "experience": [{
+        "name": "Expertus Technology",
+        "date": "Agosto 2017 - Actualmente",
+        "city": "Barcelona, España.",
+        "link": "http://www.expertustech.es/",
+        "image_path": "img/expertus.png",
+        "position": "Senior frontend developer.",
+        "functions": [{
+                "name": "Desarrollador frontend de plataforma web APP de tráfico masivo para venta deventradas al gran publico. Clientes directos: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, etc."
+            },
+            {
+                "name": "Responsable de analítica (GTM, DTM)."
+            },
+            {
+                "name": "Desarrollador de herramientas internas para renderizaciones 3D con Nodejs, Python (Cinema4d) y shell script."
+            }
+        ],
+        "projects": [{
+                "name": "FC Barcelona. Plataforma oficial de venta de entradas online.",
+                "link": "https://www.fcbarcelona.es/es/"
+            },
+            {
+                "name": "El Corte Inglés. Plataforma oficial de venta de entradas online.",
+                "link": "https://www.elcorteingles.es/entradas/"
+            },
+            {
+                "name": "Atlético de Madrid. Plataforma oficial de venta de entradas online.",
+                "link": "https://www.atleticodemadrid.com/entradas"
+            },
+            {
+                "name": "Getafe FC. Plataforma oficial de venta de entradas online.",
+                "link": "https://getafecf.expertustech.com/open#/eventshome"
+            },
+            {
+                "name": "Albacete Balompié. Plataforma oficial de venta de entradas online.",
+                "link": "https://albacetebalompie.expertustech.com/open#/eventshome"
+            },
+            {
+                "name": "Elche CF. Plataforma oficial de venta de entradas online.",
+                "link": "https://elchecf.expertustech.com/open#/eventshome"
+            }
+        ],
+        "techs": [{
+            "type": "frontend",
+            "name": "Frontend",
+            "items": [{
+                    "name": "JavaScript ES5 ES6 ES*"
+                },
                 {
-                    "type": "frontend",
-                    "items": [{
-                        "name": "cxxxx"
-                    }]
+                    "name": "React"
+                },
+                {
+                    "name": "Redux"
+                },
+                {
+                    "name": "Typescript"
+                },
+                {
+                    "name": "AngularJS"
+                },
+                {
+                    "name": "RequireJS"
+                },
+                {
+                    "name": "Analítica (GTM, DTM)"
+                },
+                {
+                    "name": "Jasmine"
+                },
+                {
+                    "name": "Mocha"
+                },
+                {
+                    "name": "Bootstrap"
+                },
+                {
+                    "name": "d3 (svg)"
+                },
+                {
+                    "name": "Konva (canvas)"
+                },
+                {
+                    "name": "Grunt"
+                },
+                {
+                    "name": "Gulp"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "Sass"
+                },
+                {
+                    "name": "Less"
                 }
             ]
-        }
-    ],
+        }, {
+            "type": "backend",
+            "name": "Backend",
+            "items": [
+                {
+                    "name": "Nodejs"
+                },
+                {
+                    "name": "Cinema4d (Python)"
+                },
+                {
+                    "name": "Java (Play Framework)"
+                },
+                {
+                    "name": "Shell script"
+                }
+            ]
+        }, {
+            "type": "sistemas",
+            "name": "Sistemas",
+            "items": [
+                {
+                    "name": "Linux"
+                },
+                {
+                    "name": "Windows"
+                },
+                {
+                    "name": "MAC"
+                }
+            ]
+        }, {
+            "type": "versiones",
+            "name": "Versiones",
+            "items": [
+                {
+                    "name": "Mercurial"
+                },
+                {
+                    "name": "Github"
+                }
+            ]
+        }, {
+            "type": "dependencias",
+            "name": "Dependencias",
+            "items": [
+                {
+                    "name": "npm"
+                }
+            ]
+        }, {
+            "type": "ma",
+            "name": "Metodologías ágiles",
+            "items": [
+                {
+                    "name": "Scrum"
+                }
+            ]
+        }, {
+            "type": "despliegues",
+            "name": "Despliegues",
+            "items": [
+                {
+                    "name": "Jenkins"
+                }
+            ]
+        }]
+    }],
     "education": [{
             "date": "2008 - 2009",
             "name": "Diseño y Programación Web, Ciencias de la computación.",
