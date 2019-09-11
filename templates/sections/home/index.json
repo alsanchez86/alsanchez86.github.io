@@ -9,15 +9,15 @@
             },
             {
                 "name": "Programación funcional (Vanilla, Lodash, Underscore)",
-                "value": 100
+                "value": 90
             },
             {
                 "name": "React",
-                "value": 100
+                "value": 60
             },
             {
                 "name": "Redux",
-                "value": 100
+                "value": 60
             },
             {
                 "name": "jQuery",
@@ -25,27 +25,27 @@
             },
             {
                 "name": "Typescript",
-                "value": 100
+                "value": 50
             },
             {
                 "name": "AngularJS",
-                "value": 100
+                "value": 90
             },
             {
                 "name": "Angular",
-                "value": 100
+                "value": 50
             },
             {
                 "name": "Riot",
-                "value": 100
+                "value": 40
             },
             {
                 "name": "RequireJS",
-                "value": 100
+                "value": 90
             },
             {
                 "name": "CoffeeScript",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "Bootstrap",
@@ -53,7 +53,7 @@
             },
             {
                 "name": "Foundation",
-                "value": 100
+                "value": 90
             },
             {
                 "name": "HTML",
@@ -81,33 +81,33 @@
             },
             {
                 "name": "d3 (svg)",
-                "value": 100
+                "value": 90
             },
             {
                 "name": "Konva (canvas)",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "Jasmine",
-                "value": 100
+                "value": 70
             },
             {
                 "name": "Mocha",
-                "value": 100
+                "value": 50
             }
         ],
         "backend": [
             {
                 "name": "Nodejs",
-                "value": 100
+                "value": 50
             },
             {
                 "name": "PHP",
-                "value": 100
+                "value": 90
             },
             {
                 "name": "Symfony",
-                "value": 100
+                "value": 40
             },
             {
                 "name": "Twig",
@@ -123,21 +123,21 @@
             },
             {
                 "name": "SQL",
-                "value": 100
+                "value": 70
             },
             {
                 "name": "Apache Solr",
-                "value": 100
+                "value": 50
             },
             {
                 "name": "ElasticSearch",
-                "value": 100
+                "value": 40
             }
         ],
         "systems": [
             {
                 "name": "Linux",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "Windows",
@@ -145,7 +145,7 @@
             },
             {
                 "name": "Mac OS X",
-                "value": 100
+                "value": 40
             }
         ],
         "versions": [
@@ -155,43 +155,43 @@
             },
             {
                 "name": "Mercurial",
-                "value": 100
+                "value": 80
             }
         ],
         "dependencies": [
             {
                 "name": "npm",
-                "value": 100
+                "value": 90
             },
             {
                 "name": "Bower",
-                "value": 100
+                "value": 90
             },
             {
                 "name": "Composer",
-                "value": 100
+                "value": 60
             }
         ],
         "others": [
             {
                 "name": "Analítica (GTM, DTM)",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "SVG",
-                "value": 100
+                "value": 90
             },
             {
                 "name": "XML",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "XSLT",
-                "value": 100
+                "value": 60
             },
             {
                 "name": "RELAX-NG",
-                "value": 100
+                "value": 60
             },
             {
                 "name": "JSON",
@@ -199,21 +199,21 @@
             },
             {
                 "name": "JSON-LD",
-                "value": 100
+                "value": 70
             }
         ],
         "accesibility": [
             {
                 "name": "UX",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "UI",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "WCAG 2.0",
-                "value": 100
+                "value": 60
             }
         ],
         "agile": [
@@ -223,33 +223,33 @@
             },
             {
                 "name": "Lean",
-                "value": 100
+                "value": 50
             }
         ],
         "dessign": [
             {
                 "name": "Illustrator",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "Photoshop",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "Fireworks",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "Adobe Flash (ActionScript 3)",
-                "value": 100
+                "value": 70
             },
             {
                 "name": "Inkscape",
-                "value": 100
+                "value": 80
             },
             {
                 "name": "Gimp",
-                "value": 100
+                "value": 80
             }
         ]
     },
