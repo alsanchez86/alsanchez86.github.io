@@ -95,6 +95,162 @@
                 "name": "Mocha",
                 "value": 100
             }
+        ],
+        "backend": [
+            {
+                "name": "Nodejs",
+                "value": 100
+            },
+            {
+                "name": "PHP",
+                "value": 100
+            },
+            {
+                "name": "Symfony",
+                "value": 100
+            },
+            {
+                "name": "Twig",
+                "value": 100
+            },
+            {
+                "name": "Blade",
+                "value": 100
+            },
+            {
+                "name": "Smarty",
+                "value": 100
+            },
+            {
+                "name": "SQL",
+                "value": 100
+            },
+            {
+                "name": "Apache Solr",
+                "value": 100
+            },
+            {
+                "name": "ElasticSearch",
+                "value": 100
+            }
+        ],
+        "systems": [
+            {
+                "name": "Linux",
+                "value": 100
+            },
+            {
+                "name": "Windows",
+                "value": 100
+            },
+            {
+                "name": "Mac OS X",
+                "value": 100
+            }
+        ],
+        "versions": [
+            {
+                "name": "Github",
+                "value": 100
+            },
+            {
+                "name": "Mercurial",
+                "value": 100
+            }
+        ],
+        "dependencies": [
+            {
+                "name": "npm",
+                "value": 100
+            },
+            {
+                "name": "Bower",
+                "value": 100
+            },
+            {
+                "name": "Composer",
+                "value": 100
+            }
+        ],
+        "others": [
+            {
+                "name": "Analítica (GTM, DTM)",
+                "value": 100
+            },
+            {
+                "name": "SVG",
+                "value": 100
+            },
+            {
+                "name": "XML",
+                "value": 100
+            },
+            {
+                "name": "XSLT",
+                "value": 100
+            },
+            {
+                "name": "RELAX-NG",
+                "value": 100
+            },
+            {
+                "name": "JSON",
+                "value": 100
+            },
+            {
+                "name": "JSON-LD",
+                "value": 100
+            }
+        ],
+        "accesibility": [
+            {
+                "name": "UX",
+                "value": 100
+            },
+            {
+                "name": "UI",
+                "value": 100
+            },
+            {
+                "name": "WCAG 2.0",
+                "value": 100
+            }
+        ],
+        "agile": [
+            {
+                "name": "Scrum",
+                "value": 100
+            },
+            {
+                "name": "Lean",
+                "value": 100
+            }
+        ],
+        "dessign": [
+            {
+                "name": "Illustrator",
+                "value": 100
+            },
+            {
+                "name": "Photoshop",
+                "value": 100
+            },
+            {
+                "name": "Fireworks",
+                "value": 100
+            },
+            {
+                "name": "Adobe Flash (ActionScript 3)",
+                "value": 100
+            },
+            {
+                "name": "Inkscape",
+                "value": 100
+            },
+            {
+                "name": "Gimp",
+                "value": 100
+            }
         ]
     },
     "studies": [{
