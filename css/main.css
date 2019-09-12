@@ -6873,7 +6873,8 @@ button:focus,
   margin-bottom: 80px; }
 
 .profile-item h3 {
-  font-size: 18px; }
+  font-size: 18px;
+  text-transform: uppercase; }
 
 .profile-item h4 {
   margin-bottom: 5px;
