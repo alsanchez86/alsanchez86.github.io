@@ -24,7 +24,7 @@
 
                 <ul>
                     {{#functions}}
-                        <li>{{ name }}</li>
+                    <li>{{ name }}</li>
                     {{/functions}}
                 </ul>
             </div>
@@ -34,9 +34,9 @@
 
                 <ul>
                     {{#projects}}
-                        <li>
-                            <a href="{{ link }}" target="_blank">{{ name }}</a>
-                        </li>
+                    <li>
+                        <a href="{{ link }}" target="_blank">{{ name }}</a>
+                    </li>
                     {{/projects}}
                 </ul>
             </div>
@@ -46,22 +46,24 @@
 
                 <ul>
                     {{#techs}}
-                        <li class="profile-item-batch-{{ type }}">
-                            {{ name }}
+                    <li class="profile-item-batch-{{ type }}">
+                        {{ name }}:
 
-                            {{#items}}
-                                <span class="badge">{{ name }}</span>
-                            {{/items}}
-                        </li>
+                        {{#items}}
+                        <span class="badge">{{ name }}</span>
+                        {{/items}}
+                    </li>
                     {{/techs}}
                 </ul>
             </div>
         </div>
 
         <div class="col-md-2 d-none d-sm-none d-md-block">
+            {{#image_path}}
             <a href="{{ link }}" target="_blank">
-                <img class="img-fluid" src="{{ image_path }}" alt="{{ name }}">
+                <img class="img-fluid" src="{{ path }}" alt="{{ name }}">
             </a>
+            {{/image_path}}
         </div>
     </div>
 </div>

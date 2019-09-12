@@ -247,10 +247,12 @@
     },
     "experience": [{
         "name": "Expertus Technology",
-        "date": "Agosto 2017 - Actualmente",
+        "date": "Agosto 2017 - Actualmente.",
         "city": "Barcelona, España.",
         "link": "http://www.expertustech.es/",
-        "image_path": "img/expertus.png",
+        "image_path": [{
+            "path": "img/expertus.png"
+        }],
         "position": "Senior frontend developer.",
         "functions": [{
                 "name": "Desarrollador frontend de plataforma web APP de tráfico masivo para venta deventradas al gran publico. Clientes directos: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, etc."
@@ -408,7 +410,9 @@
         "date": "Marzo de 2017 - Agosto de 2017.",
         "city": "Barcelona, España.",
         "link": "https://crealogix.com/es/",
-        "image_path": "img/innofis.png",
+        "image_path": [{
+            "path": "img/innofis.png"
+        }],
         "position": "Fullstack developer.",
         "functions": [{
                 "name": "Desarrollador (Frontend y Backend) de aplicaciones y portales web."
@@ -520,7 +524,9 @@
         "date": "Octubre de 2014 - Marzo de 2017.",
         "city": "Sevilla, España.",
         "link": "https://www.ximdex.com/",
-        "image_path": "img/ximdex.png",
+        "image_path": [{
+            "path": "img/ximdex.png"
+        }],
         "position": "Fullstack developer / Soporte técnico.",
         "functions": [{
                 "name": "Desarrollador (programador, maquetador y diseñador) de aplicaciones web."
@@ -738,7 +744,9 @@
         "date": "Junio de 2012 - Octubre de 2014.",
         "city": "Alcalá de Guadaíra, Sevilla, España.",
         "link": "https://www.existo.es/",
-        "image_path": "img/existo.svg",
+        "image_path": [{
+            "path": "img/existo.svg"
+        }],
         "position": "Fullstack developer.",
         "functions": [{
                 "name": "Desarrollador de múltiples portales web corporativos y tiendas online (e-commerce)."
@@ -808,23 +816,25 @@
             "type": "backend",
             "name": "Backend",
             "items": [{
-                "name": "PHP"
-            },
-            {
-                "name": "Smarty"
-            },
-            {
-                "name": "SQL"
-            }]
+                    "name": "PHP"
+                },
+                {
+                    "name": "Smarty"
+                },
+                {
+                    "name": "SQL"
+                }
+            ]
         }, {
             "type": "sistemas",
             "name": "Sistemas",
             "items": [{
-                "name": "Mac"
-            },
-            {
-                "name": "Windows"
-            }]
+                    "name": "Mac"
+                },
+                {
+                    "name": "Windows"
+                }
+            ]
         }, {
             "type": "ma",
             "name": "Metodologías ágiles",
@@ -835,21 +845,22 @@
             "type": "diseno",
             "name": "Diseño",
             "items": [{
-                "name": "Illustrator"
-            },
-            {
-                "name": "Photoshop"
-            },
-            {
-                "name": "Fireworks"
-            }]
+                    "name": "Illustrator"
+                },
+                {
+                    "name": "Photoshop"
+                },
+                {
+                    "name": "Fireworks"
+                }
+            ]
         }]
     }, {
         "name": "Freelance",
         "date": "Febrero de 2012 - Mayo de 2012.",
         "city": "Sevilla, España.",
         "link": "",
-        "image_path": "",
+        "image_path": [],
         "position": "Desarrollador superior de páginas web.",
         "functions": [{
                 "name": "Desarrollo íntegro de la plataforma online para estudiantes del Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla."
@@ -859,10 +870,9 @@
             }
         ],
         "projects": [{
-                "name": "Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla.",
-                "link": "http://www.iaic.us.es/"
-            }
-        ],
+            "name": "Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla.",
+            "link": "http://www.iaic.us.es/"
+        }],
         "techs": [{
             "type": "frontend",
             "name": "Frontend",
@@ -899,12 +909,13 @@
         "date": "Julio de 2010 - Enero de 2012.",
         "city": "Sevilla, España.",
         "link": "",
-        "image_path": "img/gaesa.jpeg",
+        "image_path": [{
+            "path": "img/gaesa.jpeg"
+        }],
         "position": "Desarrollador superior de páginas web.",
         "functions": [{
-                "name": "Desarrollador de plataformas web para estudiantes (e-learning) y aplicaciones multimedia desarrolladas con Adobe Flash (ActionScript 3.0)"
-            }
-        ],
+            "name": "Desarrollador de plataformas web para estudiantes (e-learning) y aplicaciones multimedia desarrolladas con Adobe Flash (ActionScript 3.0)"
+        }],
         "techs": [{
             "type": "frontend",
             "name": "Frontend",
@@ -925,11 +936,12 @@
             "type": "backend",
             "name": "Backend",
             "items": [{
-                "name": "PHP"
-            },
-            {
-                "name": "SQL"
-            }]
+                    "name": "PHP"
+                },
+                {
+                    "name": "SQL"
+                }
+            ]
         }, {
             "type": "sistemas",
             "name": "Sistemas",
@@ -940,14 +952,15 @@
             "type": "diseno",
             "name": "Diseño",
             "items": [{
-                "name": "Illustrator"
-            },
-            {
-                "name": "Photoshop"
-            },
-            {
-                "name": "Fireworks"
-            }]
+                    "name": "Illustrator"
+                },
+                {
+                    "name": "Photoshop"
+                },
+                {
+                    "name": "Fireworks"
+                }
+            ]
         }]
     }],
     "education": [{
