@@ -1,39 +1,4 @@
-/*
-Template Name: My Profile
-Description: HTML5 / CSS3 One Page
-Version: 1.0
-Author: themehippo.com
-*/
-
-/*------------------------------------------------------------------
-# [Color codes]
-
-# Body  (text): #3a4750
-# Heading Color #444444
-# Theme Color (link color) #333
-# Mid grey (sub header) #f4f4f4
-# -------------------------------------------------------------------*/
-
-/* ---------------------------------
-
-[Table of contents]
-
-1. Body
-2. header / .header
-3. My Activity / .item-stats
-4. Work History / .work-history-wrapper
-5. My Specialities / .expertise-wrapper
-6. Skills / .skills-wrapper
-7. Work Experiance / .section-experience
-8. Education / .section-education
-9. Marketplace Profile / .section-profile
-10. Portfolio / .portfolio-section
-11. Recent Reviews / .review-section
-12. Contact / .section-contact
-13. footer
-
-------------------------------------*/
-
+// General
 
 body {
     font-family: 'Inter';
@@ -48,9 +13,7 @@ textarea {
     resize: none;
 }
 
-/* --------------------------------------
- * Global Typography
- *------------------------------------------*/
+// Typography
 
 h1,
 h2,
@@ -99,9 +62,8 @@ h6 {
     }
 }
 
-/* --------------------------------------
- * LINK STYLE
- *------------------------------------------*/
+// Link style
+
 a {
     color: #010101;
     text-decoration: none;
@@ -141,68 +103,14 @@ ul {
     list-style: square;
 }
 
-/*------------------
- * Button Style
- *------------------*/
-.btn {
-    padding: 14px 30px 11px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 0;
-    border: 0;
-    text-transform: uppercase;
-    transition: all .3s;
-}
+// main Wrapper
 
-.btn-lg {
-    font-weight: 700;
-    font-size: 24px;
-    padding: 15px 30px;
-}
-
-/*btn-primary*/
-.btn-primary {
-    background-color: #010101;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active:focus {
-    background: #de4718;
-}
-
-/*btn-default*/
-.btn-default {
-    color: #2a54f5;
-    background-color: transparent;
-    border: 2px solid #2a54f5;
-}
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active:focus {
-    background: #2a54f5;
-    color: #ffffff;
-    border-color: #2a54f5;
-}
-
-button:focus,
-.btn:focus,
-.btn:active:focus {
-    outline: none;
-}
-
-/* --------------------
- *  main Wrapper
- * -------------------*/
 .main-wrapper {
     overflow: hidden;
 }
 
-/*-------------------
- * Section Wrapper
- *-------------------*/
+// Section Wrapper
+
 .section-wrapper {
     padding: 50px 0;
 }
@@ -213,43 +121,33 @@ button:focus,
     }
 }
 
-/* @media (max-width : 600px) {
-    .section-wrapper {
-        padding: 20px;
-    }
-} */
+// Section Title
 
-/*---------------------------
- * Section Title
- *---------------------------*/
-.section-title {
+h2.section-title {
     margin-right: 30px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #010101;
+    text-transform: uppercase;
     text-align: right;
 }
 
-.section-title h2 {
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: #010101;
-    text-transform: uppercase;
-}
-
 @media (max-width: 992px) {
-    .section-title {
+    h2.section-title {
+        margin-bottom: 20px;
+        font-size: 32px;
         text-align: left;
     }
-
-    .section-title h2 {
-        font-size: 32px;
-        margin-bottom: 20px;
-    }
 }
 
-/*---------------------------
- * Section Profile
- *---------------------------*/
-.section-profile .profile-item:last-child {
-    margin-bottom: 0;
+// Section Profile
+
+.section-profile {
+    .profile-item {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 /*-----------------------------
@@ -261,56 +159,57 @@ button:focus,
     margin: 0;
     position: relative;
     border-top: 5px solid #333;
-}
 
-.header .profile-img {
-    display: block;
-    text-align: center;
-    /* margin-right: 30px; */
-}
-
-.header .profile-img img {
-    width: 100%;
-}
-
-.header .name-wrapper {
-    margin-bottom: 30px;
-}
-
-@media (max-width: 992px) {
-    .header .name-wrapper {
+    .profile-img {
+        display: block;
         text-align: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .name-wrapper {
+        margin-bottom: 30px;
+
+        h1 {
+            text-transform: uppercase;
+            line-height: 1;
+            margin: 0 0 5px;
+        }
+
+        span {
+            font-size: 24px;
+            color: #010101;
+        }
+    }
+
+    .personal-details {
+        margin: 10px 0;
+
+        strong {
+            font-size: 13px;
+            color: #010101;
+            display: block;
+            line-height: 1;
+        }
+
+        small {
+            font-size: 12px;
+        }
+
+        span {
+            color: #010101;
+        }
     }
 }
 
-.header .name-wrapper h1 {
-    text-transform: uppercase;
-    line-height: 1;
-    margin: 0 0 5px;
-}
-
-.header .name-wrapper span {
-    font-size: 24px;
-    color: #010101;
-}
-
-.header .personal-details {
-    margin: 10px 0;
-}
-
-.header .personal-details strong {
-    font-size: 13px;
-    color: #010101;
-    display: block;
-    line-height: 1;
-}
-
-.header .personal-details small {
-    font-size: 12px;
-}
-
-.header .personal-details span {
-    color: #010101;
+@media (max-width: 992px) {
+    .header {
+        .name-wrapper {
+            text-align: center;
+        }
+    }
 }
 
 @media (max-width : 768px) {
@@ -489,9 +388,11 @@ button:focus,
 .progress-wrapper.progress-wrapper-sistemas .progress-item .progress-bar {
     background-color: #34a853;
 }
+
 .progress-wrapper.progress-wrapper-versiones .progress-item .progress-bar {
     background-color: #fbbc05;
 }
+
 .progress-wrapper.progress-wrapper-dependencias .progress-item .progress-bar {
     background-color: #6b23ae;
 }
@@ -525,8 +426,8 @@ button:focus,
     width: 100%;
     z-index: 1;
     background: -webkit-linear-gradient(top,
-        transparent 0%,
-        rgba(0, 0, 0, 0.5) 100%);
+            transparent 0%,
+            rgba(0, 0, 0, 0.5) 100%);
 }
 
 .portfolio-item::after {
@@ -537,8 +438,8 @@ button:focus,
     left: 0;
     right: 0;
     background: -webkit-linear-gradient(top,
-        transparent 0%,
-        #000 100%);
+            transparent 0%,
+            #000 100%);
     transition: all .2s linear;
 }
 
@@ -736,9 +637,7 @@ button:focus,
     background-color: #337ab7;
 }
 
-.profile-item .profile-item-batch-despliegues .badge {
-
-}
+.profile-item .profile-item-batch-despliegues .badge {}
 
 .profile-item .profile-item-batch-sistemas .badge {
     background-color: #34a853;

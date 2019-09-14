@@ -6312,39 +6312,6 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-/*
-Template Name: My Profile
-Description: HTML5 / CSS3 One Page
-Version: 1.0
-Author: themehippo.com
-*/
-/*------------------------------------------------------------------
-# [Color codes]
-
-# Body  (text): #3a4750
-# Heading Color #444444
-# Theme Color (link color) #333
-# Mid grey (sub header) #f4f4f4
-# -------------------------------------------------------------------*/
-/* ---------------------------------
-
-[Table of contents]
-
-1. Body
-2. header / .header
-3. My Activity / .item-stats
-4. Work History / .work-history-wrapper
-5. My Specialities / .expertise-wrapper
-6. Skills / .skills-wrapper
-7. Work Experiance / .section-experience
-8. Education / .section-education
-9. Marketplace Profile / .section-profile
-10. Portfolio / .portfolio-section
-11. Recent Reviews / .review-section
-12. Contact / .section-contact
-13. footer
-
-------------------------------------*/
 body {
   font-family: 'Inter';
   font-size: 14px;
@@ -6356,9 +6323,6 @@ body {
 textarea {
   resize: none; }
 
-/* --------------------------------------
- * Global Typography
- *------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 15px;
   line-height: 1em;
@@ -6392,9 +6356,6 @@ h6 {
     font-size: 13px;
     line-height: 20px; } }
 
-/* --------------------------------------
- * LINK STYLE
- *------------------------------------------*/
 a {
   color: #010101;
   text-decoration: none;
@@ -6428,60 +6389,9 @@ ul {
   padding-left: 20px;
   list-style: square; }
 
-/*------------------
- * Button Style
- *------------------*/
-.btn {
-  padding: 14px 30px 11px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 0;
-  border: 0;
-  text-transform: uppercase;
-  transition: all .3s; }
-
-.btn-lg, .btn-group-lg > .btn {
-  font-weight: 700;
-  font-size: 24px;
-  padding: 15px 30px; }
-
-/*btn-primary*/
-.btn-primary {
-  background-color: #010101; }
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active:focus {
-  background: #de4718; }
-
-/*btn-default*/
-.btn-default {
-  color: #2a54f5;
-  background-color: transparent;
-  border: 2px solid #2a54f5; }
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active:focus {
-  background: #2a54f5;
-  color: #ffffff;
-  border-color: #2a54f5; }
-
-button:focus,
-.btn:focus,
-.btn:active:focus {
-  outline: none; }
-
-/* --------------------
- *  main Wrapper
- * -------------------*/
 .main-wrapper {
   overflow: hidden; }
 
-/*-------------------
- * Section Wrapper
- *-------------------*/
 .section-wrapper {
   padding: 50px 0; }
 
@@ -6489,34 +6399,20 @@ button:focus,
   .section-wrapper {
     padding: 20px 0; } }
 
-/* @media (max-width : 600px) {
-    .section-wrapper {
-        padding: 20px;
-    }
-} */
-/*---------------------------
- * Section Title
- *---------------------------*/
-.section-title {
+h2.section-title {
   margin-right: 30px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #010101;
+  text-transform: uppercase;
   text-align: right; }
 
-.section-title h2 {
-  font-size: 14px;
-  margin-bottom: 5px;
-  color: #010101;
-  text-transform: uppercase; }
-
 @media (max-width: 992px) {
-  .section-title {
-    text-align: left; }
-  .section-title h2 {
+  h2.section-title {
+    margin-bottom: 20px;
     font-size: 32px;
-    margin-bottom: 20px; } }
+    text-align: left; } }
 
-/*---------------------------
- * Section Profile
- *---------------------------*/
 .section-profile .profile-item:last-child {
   margin-bottom: 0; }
 
@@ -6528,45 +6424,35 @@ button:focus,
   margin: 0;
   position: relative;
   border-top: 5px solid #333; }
-
-.header .profile-img {
-  display: block;
-  text-align: center;
-  /* margin-right: 30px; */ }
-
-.header .profile-img img {
-  width: 100%; }
-
-.header .name-wrapper {
-  margin-bottom: 30px; }
+  .header .profile-img {
+    display: block;
+    text-align: center; }
+    .header .profile-img img {
+      width: 100%; }
+  .header .name-wrapper {
+    margin-bottom: 30px; }
+    .header .name-wrapper h1 {
+      text-transform: uppercase;
+      line-height: 1;
+      margin: 0 0 5px; }
+    .header .name-wrapper span {
+      font-size: 24px;
+      color: #010101; }
+  .header .personal-details {
+    margin: 10px 0; }
+    .header .personal-details strong {
+      font-size: 13px;
+      color: #010101;
+      display: block;
+      line-height: 1; }
+    .header .personal-details small {
+      font-size: 12px; }
+    .header .personal-details span {
+      color: #010101; }
 
 @media (max-width: 992px) {
   .header .name-wrapper {
     text-align: center; } }
-
-.header .name-wrapper h1 {
-  text-transform: uppercase;
-  line-height: 1;
-  margin: 0 0 5px; }
-
-.header .name-wrapper span {
-  font-size: 24px;
-  color: #010101; }
-
-.header .personal-details {
-  margin: 10px 0; }
-
-.header .personal-details strong {
-  font-size: 13px;
-  color: #010101;
-  display: block;
-  line-height: 1; }
-
-.header .personal-details small {
-  font-size: 12px; }
-
-.header .personal-details span {
-  color: #010101; }
 
 @media (max-width: 768px) {
   .header {
