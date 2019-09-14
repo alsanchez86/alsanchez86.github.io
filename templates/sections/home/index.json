@@ -140,10 +140,6 @@
             {
                 "name": "Windows",
                 "value": 100
-            },
-            {
-                "name": "Mac OS X",
-                "value": 40
             }
         ],
         "versions": [{
@@ -371,9 +367,6 @@
                 },
                 {
                     "name": "Windows"
-                },
-                {
-                    "name": "MAC"
                 }
             ]
         }, {
@@ -659,9 +652,6 @@
                     "name": "Linux"
                 },
                 {
-                    "name": "Mac"
-                },
-                {
                     "name": "Windows"
                 }
             ]
@@ -828,9 +818,7 @@
         }, {
             "type": "sistemas",
             "name": "Sistemas",
-            "items": [{
-                    "name": "Mac"
-                },
+            "items": [
                 {
                     "name": "Windows"
                 }
