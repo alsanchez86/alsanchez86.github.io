@@ -5,12 +5,13 @@ define(["module", "jquery_cache_module"], function (module, _$) {
     function _animateProgress() {
         var animateClass = "progress-wrapper-animated";
         var _$wrappers = _$(".progress-wrapper");
+        var wHeight = _$("window", window).height();
         var wTop = _$("window", window).scrollTop();
 
         _$wrappers.each(function (index, domElem) {
             var id = ("#" + domElem.id);
             var eTop = _$(id).offset().top;
-            var isVisible = (eTop <= wTop);
+            var isVisible = (eTop <= (wHeight + wTop));
             var hasClass = _$(id).hasClass(animateClass);
 
             if (isVisible && !hasClass) {
