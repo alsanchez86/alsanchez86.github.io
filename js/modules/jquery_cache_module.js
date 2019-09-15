@@ -11,7 +11,7 @@ define(["exports", "jquery"], function (exports, $) {
 
     function _getSelector(selector) {
         var _selector = "";
-        // var _selector = typeof selector === "string" ? selector : ;
+
         switch (typeof selector) {
             case "undefined":
                 break;
