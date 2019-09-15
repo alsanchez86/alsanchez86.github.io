@@ -6441,6 +6441,9 @@ h2.section-title {
       text-align: center;
       border-radius: 2px; }
 
+.download-cv {
+  text-align: center; }
+
 .skills-wrapper .col-md-6:last-child .progress-wrapper {
   margin-bottom: 0; }
 
@@ -6595,6 +6598,8 @@ h2.section-title {
   .header .name-wrapper {
     text-align: center; }
   .social-icon {
+    margin: 0 0 5px 0; }
+  .download-cv {
     margin: 0 0 20px 0; } }
 
 @keyframes animateBar {

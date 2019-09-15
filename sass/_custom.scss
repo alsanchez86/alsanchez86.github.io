@@ -195,6 +195,11 @@ h2.section-title {
     }
 }
 
+// download cv
+.download-cv {
+    text-align: center;
+}
+
 // Skills Progressbar
 
 .skills-wrapper {
@@ -501,6 +506,10 @@ h2.section-title {
     }
 
     .social-icon {
+        margin: 0 0 5px 0;
+    }
+
+    .download-cv {
         margin: 0 0 20px 0;
     }
 }
