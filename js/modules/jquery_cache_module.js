@@ -25,7 +25,7 @@ define(["exports", "jquery"], function (exports, $) {
     return function (selector, element) {
         if (_this[selector] !== undefined) {
             // Already on cache. Return jquery object from cache
-            return _this[_selector];
+            return _this[selector];
         }
         // Save on cache
         _set(selector, element);
