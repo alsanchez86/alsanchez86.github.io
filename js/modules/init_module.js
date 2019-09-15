@@ -23,7 +23,6 @@ define(["module", "jquery", "jquery_cache_module"], function (module, $, _$) {
      * @return {void}
      * */
     module.exports.animateProgressBar = function () {
-        // TODO: añadir clase animate-bar a los .progress-item .progress-bar
         var $bars = _$(".progress-item .progress .progress-bar");
         $bars.addClass("animate-bar");
     }
