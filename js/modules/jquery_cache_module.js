@@ -21,7 +21,7 @@ define(["exports", "jquery"], function (exports, $) {
                 break;
 
             case "object":
-                _selector = (selector.id || selector.class);
+                _selector = ("#" + selector.id || "." + selector.class);
                 break;
 
             default:
@@ -34,10 +34,10 @@ define(["exports", "jquery"], function (exports, $) {
     return function (selector, force) {
         var _selector = _getSelector(selector);
 
-        if (_this[selector] !== undefined && force === undefined) {
-            return _this[selector];
+        if (_this[_selector] !== undefined && force === undefined) {
+            return _this[_selector];
         }
-        _set(selector);
-        return _this[selector];
+        _set(_selector);
+        return _this[_selector];
     };
 });
