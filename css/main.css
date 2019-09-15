@@ -6463,6 +6463,14 @@ h2.section-title {
     background-color: #fbbc05; }
   .progress-wrapper.progress-wrapper-dependencias .progress-item .progress-bar {
     background-color: #6b23ae; }
+  .progress-wrapper .progress-item .progress .progress-bar {
+    opacity: 0; }
+  .progress-wrapper.progress-wrapper-animated .progress-item .progress .progress-bar {
+    opacity: 1;
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s; }
 
 .progress-item {
   position: relative; }
@@ -6479,16 +6487,9 @@ h2.section-title {
     border-radius: 0;
     background: transparent; }
     .progress-item .progress .progress-bar {
-      opacity: 0;
       background-color: #010101;
       box-shadow: none;
       text-align: right; }
-      .progress-item .progress .progress-bar.animate-bar {
-        opacity: 1;
-        animation-name: animateBar;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in;
-        animation-duration: 1s; }
 
 .profile-item {
   margin-bottom: 80px; }

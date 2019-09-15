@@ -1,4 +1,4 @@
-define(["module", "jquery", "jquery_cache_module"], function (module, $, _$) {
+define(["module", "jquery_cache_module"], function (module, _$) {
     /**
      * Set page loading to true or false
      * If true, preloader will be showed
@@ -9,12 +9,13 @@ define(["module", "jquery", "jquery_cache_module"], function (module, $, _$) {
      * @return {void}
      */
     module.exports.setPageLoading = function (is_loading, callback) {
-        var $preLoader = _$("#preloader");
+        var _callback = (typeof callback === "function") ? callback : function(){};
+        var _$preLoader = _$("#preloader");
 
         if (!is_loading) {
-            $preLoader
+            _$preLoader
                 .delay(200)
-                .fadeOut("slow", callback);
+                .fadeOut("slow", _callback);
         }
     }
 });
