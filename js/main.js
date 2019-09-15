@@ -7,9 +7,9 @@ define(function () {
                 // jquery document ready
                 // domReady requirejs plugin is not necessary here
                 $(function () {
-                    require(["init_module"], function (init_module) {
+                    require(["init_module", "profile_module"], function (init_module, profile_module) {
                         init_module.setPageLoading(false, function () {
-                            init_module.animateProgressBar();
+                            profile_module.animateProgressBar();
                         });
                     });
                 });

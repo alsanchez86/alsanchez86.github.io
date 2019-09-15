@@ -85,10 +85,10 @@ gulp.task('js:lib', function () {
  * Template tasks
  */
 
-// home
-gulp.task('template:home', function () {
-    gulp.src("./templates/sections/home/index.mustache")
-        .pipe(mustache("./templates/sections/home/index.json", {
+// profile
+gulp.task('template:profile', function () {
+    gulp.src("./templates/sections/profile/index.mustache")
+        .pipe(mustache("./templates/sections/profile/index.json", {
             extension: ".html"
         }, {}))
         .pipe(htmlmin({
@@ -99,7 +99,7 @@ gulp.task('template:home', function () {
 
 // templates
 gulp.task('templates', [], function (done) {
-    runSequence('template:home', function () {
+    runSequence('template:profile', function () {
         done();
     });
 });
