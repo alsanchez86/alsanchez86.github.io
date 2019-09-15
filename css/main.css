@@ -6463,6 +6463,14 @@ h2.section-title {
     background-color: #fbbc05; }
   .progress-wrapper.progress-wrapper-dependencias .progress-item .progress-bar {
     background-color: #6b23ae; }
+  .progress-wrapper.progress-wrapper-otros .progress-item .progress-bar {
+    background-color: crimson; }
+  .progress-wrapper.progress-wrapper-ma .progress-item .progress-bar {
+    background-color: crimson; }
+  .progress-wrapper.progress-wrapper-accesibilidad .progress-item .progress-bar {
+    background-color: crimson; }
+  .progress-wrapper.progress-wrapper-dgrafico .progress-item .progress-bar {
+    background-color: crimson; }
   .progress-wrapper .progress-item .progress .progress-bar {
     opacity: 0; }
   .progress-wrapper.progress-wrapper-animated .progress-item .progress .progress-bar {

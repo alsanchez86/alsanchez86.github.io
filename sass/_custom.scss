@@ -222,43 +222,39 @@ h2.section-title {
     }
 
     &.progress-wrapper-frontend {
-        .progress-item {
-            .progress-bar {
-                background-color: crimson;
-            }
-        }
+        @include progress_wrapper(crimson);
     }
 
     &.progress-wrapper-backend {
-        .progress-item {
-            .progress-bar {
-                background-color: #337ab7;
-            }
-        }
+        @include progress_wrapper(#337ab7);
     }
 
     &.progress-wrapper-sistemas {
-        .progress-item {
-            .progress-bar {
-                background-color: #34a853;
-            }
-        }
+        @include progress_wrapper(#34a853);
     }
 
     &.progress-wrapper-versiones {
-        .progress-item {
-            .progress-bar {
-                background-color: #fbbc05;
-            }
-        }
+        @include progress_wrapper(#fbbc05);
     }
 
     &.progress-wrapper-dependencias {
-        .progress-item {
-            .progress-bar {
-                background-color: #6b23ae;
-            }
-        }
+        @include progress_wrapper(#6b23ae);
+    }
+
+    &.progress-wrapper-otros {
+        @include progress_wrapper(crimson);
+    }
+
+    &.progress-wrapper-ma {
+        @include progress_wrapper(crimson);
+    }
+
+    &.progress-wrapper-accesibilidad {
+        @include progress_wrapper(crimson);
+    }
+
+    &.progress-wrapper-dgrafico {
+        @include progress_wrapper(crimson);
     }
 
     .progress-item {
