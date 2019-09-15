@@ -9,35 +9,18 @@ define(["exports", "jquery"], function (exports, $) {
         _this[selector] = $(selector);
     }
 
-    function _getSelector(selector) {
-        var _selector = "";
-
-        switch (typeof selector) {
-            case "undefined":
-                break;
-
-            case "string":
-                _selector = selector;
-                break;
-
-            case "object":
-                _selector = ("#" + selector.id || "." + selector.class);
-                break;
-
-            default:
-                break;
-        }
-        return _selector;
-    }
-
-    // Public Methods
-    return function (selector, force) {
-        var _selector = _getSelector(selector);
-
-        if (_this[_selector] !== undefined && force === undefined) {
+    /**
+     * @param {string} selector
+     * @return {object} jquery object
+     */
+    return function (selector) {
+        if (_this[selector] !== undefined) {
+            // Already on cache. Return jquery object from cache
             return _this[_selector];
         }
-        _set(_selector);
-        return _this[_selector];
+        // Save on cache
+        _set(selector);
+        // Return jquery object from cache
+        return _this[selector];
     };
 });

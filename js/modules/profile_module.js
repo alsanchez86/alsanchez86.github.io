@@ -1,4 +1,7 @@
 define(["module", "jquery_cache_module"], function (module, _$) {
+    var interval;
+    var intervalDelay = 1000;
+
     /**
      *
      * @return {void}
@@ -7,18 +10,23 @@ define(["module", "jquery_cache_module"], function (module, _$) {
         var animateClass = "progress-wrapper-animated";
         var _$wrappers = _$(".progress-wrapper");
 
-        // TODO: Poner un timeInterval para que esto no se esté llamando continuamente
+        _$("window").scroll(function () {
+            if (interval) {
+                clearTimeout(interval);
+            }
 
-        _$(window).scroll(function() {
-            var wTop = _$(window).scrollTop();
-            _$wrappers.each(function (index, domElem){
-                var isVisible = (_$(domElem).scrollTop() < wTop);
-                var hasClass = _$(domElem).hasClass(animateClass);
+            interval = setTimeout(function () {
+                var top = _$("window").scrollTop();
+                _$wrappers.each(function (index, domElem) {
+                    var id = ("#" + domElem.id);
+                    var isVisible = (_$(id).scrollTop() < top);
+                    var hasClass = _$(id).hasClass(animateClass);
 
-                if (isVisible && !hasClass){
-                    _$(domElem).addClass(animateClass);
-                }
-            });
+                    if (isVisible && !hasClass) {
+                        _$(id).addClass(animateClass);
+                    }
+                });
+            }, intervalDelay);
         });
     }
 });
