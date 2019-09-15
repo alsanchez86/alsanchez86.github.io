@@ -2,8 +2,8 @@ Code from [sanchezpizarro.com](http://sanchezpizarro.com)
 
 # TODO
 
-- [ ] Use mustache for templates. Create more templates for HTML loop structures.
-- [ ] Transform CSS from sass/_general.scss to SASS
-- [ ] Create menu for add other sections (portfolio, blog, ...)
+- [x] Use mustache for templates. Create more templates for HTML loop structures.
+- [x] Transform CSS from sass/_general.scss to SASS
 - [ ] I8n
+- [ ] Create menu for add other sections (portfolio, blog, ...)
 - [ ] Add GA
