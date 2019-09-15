@@ -1,8 +1,4 @@
 // Colours, https://coolors.co/
-$blanco_1: #FFF;
-$blanco_4: #f8fafc;
-$gris_4: #5d7079;
-$gris_5: #e5eff5;
 $rojo_1: crimson;
 $azul_1: #4285f4;
 $verde_1: #34a853;
@@ -10,12 +6,3 @@ $amarillo_1: #fbbc05;
 $morado_1: #6b23ae;
 // Fonts
 $inter: 'Inter', sans-serif;
-// Fonts sizes
-$font-size-base: 1.15rem !default; // Assumes the browser default, typically `16px`
-$font-size-xs: ($font-size-base * 0.6) !default;
-$font-size-sm: ($font-size-base * 0.675) !default;
-$font-size-md: ($font-size-base * 0.725) !default;
-$font-size-lg: ($font-size-base * 0.725) !default;
-$font-size-xl: ($font-size-base * 0.725) !default;
-// Others
-$imgfolder: "../../img/";
