@@ -9,8 +9,31 @@ define(["exports", "jquery"], function (exports, $) {
         _this[selector] = $(selector);
     }
 
+    function _getSelector(selector) {
+        var _selector = "";
+        // var _selector = typeof selector === "string" ? selector : ;
+        switch (typeof selector) {
+            case "undefined":
+                break;
+
+            case "string":
+                _selector = selector;
+                break;
+
+            case "object":
+                _selector = (selector.id || selector.class);
+                break;
+
+            default:
+                break;
+        }
+        return _selector;
+    }
+
     // Public Methods
     return function (selector, force) {
+        var _selector = _getSelector(selector);
+
         if (_this[selector] !== undefined && force === undefined) {
             return _this[selector];
         }
