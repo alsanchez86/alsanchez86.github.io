@@ -1,6 +1,6 @@
 define(["module", "jquery_cache_module"], function (module, _$) {
     var interval;
-    var intervalDelay = 1000;
+    var intervalDelay = 500;
 
     function _animateProgress() {
         var animateClass = "progress-wrapper-animated";
@@ -20,6 +20,15 @@ define(["module", "jquery_cache_module"], function (module, _$) {
         });
     }
 
+    function broadcastAnimateProgress (){
+        if (interval) {
+            clearTimeout(interval);
+        }
+        interval = setTimeout(function () {
+            _animateProgress();
+        }, intervalDelay);
+    }
+
     /**
      *
      * @return {void}
@@ -27,14 +36,13 @@ define(["module", "jquery_cache_module"], function (module, _$) {
     module.exports.animateProgressBar = function () {
         // Exec on init
         _animateProgress();
-        // Create listener
-        _$("window", window).scroll(function () {
-            if (interval) {
-                clearTimeout(interval);
-            }
-            interval = setTimeout(function () {
-                _animateProgress();
-            }, intervalDelay);
-        });
+        // Create listeners
+        _$("window", window)
+            .resize(function() {
+                broadcastAnimateProgress ();
+            })
+            .scroll(function () {
+                broadcastAnimateProgress ();
+            });
     }
 });
