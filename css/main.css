@@ -6477,7 +6477,8 @@ h2.section-title {
   margin-bottom: 75px; }
   .progress-wrapper h3 {
     font-size: 12px;
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
   .progress-wrapper.progress-wrapper-frontend .progress-item .progress-bar {
     background-color: crimson; }
   .progress-wrapper.progress-wrapper-backend .progress-item .progress-bar {
