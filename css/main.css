@@ -6351,11 +6351,6 @@ h5 {
 h6 {
   font-size: 15px; }
 
-@media (max-width: 768px) {
-  body {
-    font-size: 13px;
-    line-height: 20px; } }
-
 a {
   color: #010101;
   text-decoration: none;
@@ -6391,10 +6386,6 @@ ul {
 .section-wrapper {
   padding: 50px 0; }
 
-@media (max-width: 768px) {
-  .section-wrapper {
-    padding: 20px 0; } }
-
 h2.section-title {
   margin-right: 30px;
   margin-bottom: 5px;
@@ -6402,12 +6393,6 @@ h2.section-title {
   color: #010101;
   text-transform: uppercase;
   text-align: right; }
-
-@media (max-width: 992px) {
-  h2.section-title {
-    margin-bottom: 20px;
-    font-size: 32px;
-    text-align: left; } }
 
 .header {
   padding: 50px 0 20px 0;
@@ -6440,16 +6425,6 @@ h2.section-title {
     .header .personal-details span {
       color: #010101; }
 
-@media (max-width: 992px) {
-  .header .name-wrapper {
-    text-align: center; } }
-
-@media (max-width: 768px) {
-  .header {
-    padding: 20px 0; }
-  .header .profile-img {
-    margin: 0 0 30px; } }
-
 .social-icon {
   margin: 15px 0 0 0;
   padding: 0;
@@ -6465,10 +6440,6 @@ h2.section-title {
       line-height: 46px;
       text-align: center;
       border-radius: 2px; }
-
-@media (max-width: 992px) {
-  .social-icon {
-    margin: 0 0 20px 0; } }
 
 .skills-wrapper .col-md-6:last-child .progress-wrapper {
   margin-bottom: 0; }
@@ -6490,10 +6461,6 @@ h2.section-title {
   .progress-wrapper.progress-wrapper-dependencias .progress-item .progress-bar {
     background-color: #6b23ae; }
 
-@media (max-width: 768px) {
-  .progress-wrapper {
-    margin-bottom: 50px; } }
-
 .progress-item {
   position: relative; }
   .progress-item .progress-title {
@@ -6511,14 +6478,11 @@ h2.section-title {
   .progress-item .progress-bar {
     background-color: #010101;
     box-shadow: none;
-    text-align: right; }
-  .progress-item .progress-percent {
-    display: none;
-    position: absolute;
-    top: 5px;
-    padding: 0;
-    font-size: 11px;
-    color: #010101; }
+    text-align: right;
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .4s; }
 
 .profile-item {
   margin-bottom: 80px; }
@@ -6606,6 +6570,35 @@ h2.section-title {
   margin: 0;
   text-align: center;
   top: 65%; }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 13px;
+    line-height: 20px; }
+  .section-wrapper {
+    padding: 20px 0; }
+  .header {
+    padding: 20px 0; }
+  .header .profile-img {
+    margin: 0 0 30px; }
+  .progress-wrapper {
+    margin-bottom: 50px; } }
+
+@media (max-width: 992px) {
+  h2.section-title {
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: left; }
+  .header .name-wrapper {
+    text-align: center; }
+  .social-icon {
+    margin: 0 0 20px 0; } }
+
+@keyframes animateBar {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0); } }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome

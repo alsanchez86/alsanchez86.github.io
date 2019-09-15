@@ -55,13 +55,6 @@ h6 {
     font-size: 15px;
 }
 
-@media (max-width : 768px) {
-    body {
-        font-size: 13px;
-        line-height: 20px;
-    }
-}
-
 // Link style
 
 a {
@@ -116,12 +109,6 @@ ul {
     padding: 50px 0;
 }
 
-@media (max-width : 768px) {
-    .section-wrapper {
-        padding: 20px 0;
-    }
-}
-
 // Section Title
 
 h2.section-title {
@@ -131,14 +118,6 @@ h2.section-title {
     color: #010101;
     text-transform: uppercase;
     text-align: right;
-}
-
-@media (max-width: 992px) {
-    h2.section-title {
-        margin-bottom: 20px;
-        font-size: 32px;
-        text-align: left;
-    }
 }
 
 // NAVIGATION & HEADER STYLE
@@ -193,24 +172,6 @@ h2.section-title {
     }
 }
 
-@media (max-width: 992px) {
-    .header {
-        .name-wrapper {
-            text-align: center;
-        }
-    }
-}
-
-@media (max-width : 768px) {
-    .header {
-        padding: 20px 0;
-    }
-
-    .header .profile-img {
-        margin: 0 0 30px;
-    }
-}
-
 // Social Icon
 
 .social-icon {
@@ -231,12 +192,6 @@ h2.section-title {
             text-align: center;
             border-radius: 2px;
         }
-    }
-}
-
-@media (max-width : 992px) {
-    .social-icon {
-        margin: 0 0 20px 0;
     }
 }
 
@@ -302,12 +257,6 @@ h2.section-title {
     }
 }
 
-@media (max-width: 768px) {
-    .progress-wrapper {
-        margin-bottom: 50px;
-    }
-}
-
 .progress-item {
     position: relative;
 
@@ -331,15 +280,11 @@ h2.section-title {
         background-color: #010101;
         box-shadow: none;
         text-align: right;
-    }
 
-    .progress-percent {
-        display: none;
-        position: absolute;
-        top: 5px;
-        padding: 0;
-        font-size: 11px;
-        color: #010101;
+        animation-name: animateBar;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: .4s;
     }
 }
 
@@ -511,4 +456,59 @@ h2.section-title {
     margin: 0;
     text-align: center;
     top: 65%;
+}
+
+// Extra media resolutions
+
+@media (max-width : 768px) {
+    body {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .section-wrapper {
+        padding: 20px 0;
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+
+    .header .profile-img {
+        margin: 0 0 30px;
+    }
+
+    .progress-wrapper {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    h2.section-title {
+        margin-bottom: 20px;
+        font-size: 32px;
+        text-align: left;
+    }
+
+    .header {
+        .name-wrapper {
+            text-align: center;
+        }
+    }
+
+    .social-icon {
+        margin: 0 0 20px 0;
+    }
+}
+
+// Animations
+
+@keyframes animateBar {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
