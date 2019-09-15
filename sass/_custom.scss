@@ -274,17 +274,19 @@ h2.section-title {
         box-shadow: none;
         border-radius: 0;
         background: transparent;
-    }
 
-    .progress-bar {
-        background-color: #010101;
-        box-shadow: none;
-        text-align: right;
+        .progress-bar {
+            background-color: #010101;
+            box-shadow: none;
+            text-align: right;
 
-        animation-name: animateBar;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in;
-        animation-duration: .4s;
+            &.animate-bar {
+                animation-name: animateBar;
+                animation-iteration-count: 1;
+                animation-timing-function: ease-in;
+                animation-duration: 1s;
+            }
+        }
     }
 }
 
