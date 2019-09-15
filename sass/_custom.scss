@@ -276,11 +276,13 @@ h2.section-title {
         background: transparent;
 
         .progress-bar {
+            opacity: 0;
             background-color: #010101;
             box-shadow: none;
             text-align: right;
 
             &.animate-bar {
+                opacity: 1;
                 animation-name: animateBar;
                 animation-iteration-count: 1;
                 animation-timing-function: ease-in;

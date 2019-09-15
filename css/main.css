@@ -6476,10 +6476,12 @@ h2.section-title {
     border-radius: 0;
     background: transparent; }
     .progress-item .progress .progress-bar {
+      opacity: 0;
       background-color: #010101;
       box-shadow: none;
       text-align: right; }
       .progress-item .progress .progress-bar.animate-bar {
+        opacity: 1;
         animation-name: animateBar;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
