@@ -818,11 +818,9 @@
         }, {
             "type": "sistemas",
             "name": "Sistemas",
-            "items": [
-                {
-                    "name": "Windows"
-                }
-            ]
+            "items": [{
+                "name": "Windows"
+            }]
         }, {
             "type": "ma",
             "name": "Metodologías ágiles",
