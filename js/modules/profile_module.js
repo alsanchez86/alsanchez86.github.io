@@ -1,6 +1,6 @@
 define(["module", "jquery_cache_module"], function (module, _$) {
     var interval;
-    var intervalDelay = 250;
+    var intervalDelay = 200;
 
     function _animateProgress() {
         var animateClass = "progress-wrapper-animated";
@@ -35,8 +35,7 @@ define(["module", "jquery_cache_module"], function (module, _$) {
      * */
     module.exports.animateProgressBar = function () {
         // Exec on init
-        // _animateProgress(1000);
-        broadcastAnimateProgress(1000);
+        broadcastAnimateProgress(500);
         // Create listeners
         _$("window", window)
             .resize(function () {
