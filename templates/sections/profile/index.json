@@ -206,6 +206,11 @@
                 "value": 60
             }
         ],
+        "updates": [{
+                "name": "Jenkins",
+                "value": 70
+            }
+        ],
         "agile": [{
                 "name": "Scrum",
                 "value": 100

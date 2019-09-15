@@ -222,39 +222,43 @@ h2.section-title {
     }
 
     &.progress-wrapper-frontend {
-        @include progress_wrapper(crimson);
+        @include progress_wrapper($color_frontend);
     }
 
     &.progress-wrapper-backend {
-        @include progress_wrapper(#337ab7);
+        @include progress_wrapper($color_backend);
     }
 
     &.progress-wrapper-sistemas {
-        @include progress_wrapper(#34a853);
+        @include progress_wrapper($color_systems);
     }
 
     &.progress-wrapper-versiones {
-        @include progress_wrapper(#fbbc05);
+        @include progress_wrapper($color_versions);
     }
 
     &.progress-wrapper-dependencias {
-        @include progress_wrapper(#6b23ae);
+        @include progress_wrapper($color_dependencies);
     }
 
     &.progress-wrapper-otros {
-        @include progress_wrapper(crimson);
+        @include progress_wrapper($color_others);
     }
 
     &.progress-wrapper-ma {
-        @include progress_wrapper(crimson);
+        @include progress_wrapper($color_agile);
     }
 
     &.progress-wrapper-accesibilidad {
-        @include progress_wrapper(crimson);
+        @include progress_wrapper($color_accesibility);
     }
 
     &.progress-wrapper-dgrafico {
-        @include progress_wrapper(crimson);
+        @include progress_wrapper($color_design);
+    }
+
+    &.progress-wrapper-despliegues {
+        @include progress_wrapper($color_updates);
     }
 
     .progress-item {
@@ -346,50 +350,62 @@ h2.section-title {
 
     .profile-item-batch-frontend {
         .badge {
-            background-color: crimson;
+            background-color: $color_frontend;
         }
     }
 
     .profile-item-batch-backend {
         .badge {
-            background-color: #337ab7;
+            background-color: $color_backend;
         }
-    }
-
-    .profile-item-batch-despliegues {
-        .badge {}
     }
 
     .profile-item-batch-sistemas {
         .badge {
-            background-color: #34a853;
+            background-color: $color_systems;
         }
     }
 
     .profile-item-batch-versiones {
         .badge {
-            background-color: #fbbc05;
+            background-color: $color_versions;
         }
     }
 
-    .profile-item-batch-dependencias .badge {
-        background-color: #6b23ae;
+    .profile-item-batch-despliegues {
+        .badge {
+            background-color: $color_updates;
+        }
+    }        
+
+    .profile-item-batch-dependencias {
+        .badge {
+            background-color: $color_dependencies;
+        }
     }
 
     .profile-item-batch-ma {
-        .badge {}
+        .badge {
+            background-color: $color_agile;
+        }
     }
 
     .profile-item-batch-otros {
-        .badge {}
+        .badge {
+            background-color: $color_others;
+        }
     }
 
     .profile-item-batch-accesibilidad {
-        .badge {}
+        .badge {
+            background-color: $color_accesibility;
+        }
     }
 
     .profile-item-batch-dgrafico {
-        .badge {}
+        .badge {
+            background-color: $color_design;
+        }
     }
 }
 

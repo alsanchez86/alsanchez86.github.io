@@ -6454,23 +6454,25 @@ h2.section-title {
     text-align: center;
     text-transform: uppercase; }
   .progress-wrapper.progress-wrapper-frontend .progress-item .progress-bar {
-    background-color: crimson; }
+    background-color: #fbbc05; }
   .progress-wrapper.progress-wrapper-backend .progress-item .progress-bar {
-    background-color: #337ab7; }
+    background-color: #4285f4; }
   .progress-wrapper.progress-wrapper-sistemas .progress-item .progress-bar {
     background-color: #34a853; }
   .progress-wrapper.progress-wrapper-versiones .progress-item .progress-bar {
-    background-color: #fbbc05; }
+    background-color: crimson; }
   .progress-wrapper.progress-wrapper-dependencias .progress-item .progress-bar {
     background-color: #6b23ae; }
   .progress-wrapper.progress-wrapper-otros .progress-item .progress-bar {
-    background-color: crimson; }
+    background-color: black; }
   .progress-wrapper.progress-wrapper-ma .progress-item .progress-bar {
-    background-color: crimson; }
+    background-color: black; }
   .progress-wrapper.progress-wrapper-accesibilidad .progress-item .progress-bar {
-    background-color: crimson; }
+    background-color: black; }
   .progress-wrapper.progress-wrapper-dgrafico .progress-item .progress-bar {
-    background-color: crimson; }
+    background-color: black; }
+  .progress-wrapper.progress-wrapper-despliegues .progress-item .progress-bar {
+    background-color: black; }
   .progress-wrapper .progress-item .progress .progress-bar {
     opacity: 0; }
   .progress-wrapper.progress-wrapper-animated .progress-item .progress .progress-bar {
@@ -6521,15 +6523,25 @@ h2.section-title {
     background-color: #666;
     color: #FFF; }
   .profile-item .profile-item-batch-frontend .badge {
-    background-color: crimson; }
+    background-color: #fbbc05; }
   .profile-item .profile-item-batch-backend .badge {
-    background-color: #337ab7; }
+    background-color: #4285f4; }
   .profile-item .profile-item-batch-sistemas .badge {
     background-color: #34a853; }
   .profile-item .profile-item-batch-versiones .badge {
-    background-color: #fbbc05; }
+    background-color: crimson; }
+  .profile-item .profile-item-batch-despliegues .badge {
+    background-color: black; }
   .profile-item .profile-item-batch-dependencias .badge {
     background-color: #6b23ae; }
+  .profile-item .profile-item-batch-ma .badge {
+    background-color: black; }
+  .profile-item .profile-item-batch-otros .badge {
+    background-color: black; }
+  .profile-item .profile-item-batch-accesibilidad .badge {
+    background-color: black; }
+  .profile-item .profile-item-batch-dgrafico .badge {
+    background-color: black; }
 
 .section-profile .profile-item:last-child {
   margin-bottom: 0; }
