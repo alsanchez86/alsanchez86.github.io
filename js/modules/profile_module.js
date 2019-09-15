@@ -10,7 +10,7 @@ define(["module", "jquery_cache_module"], function (module, _$) {
         var animateClass = "progress-wrapper-animated";
         var _$wrappers = _$(".progress-wrapper");
 
-        _$("window").scroll(function () {
+        _$("window", window).scroll(function () {
             if (interval) {
                 clearTimeout(interval);
             }
