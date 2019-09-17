@@ -6389,34 +6389,6 @@ ul {
     text-transform: uppercase;
     text-align: right; }
 
-.preloader {
-  background: #FFF;
-  bottom: 0;
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 9999; }
-
-.status,
-.status-mes {
-  background-image: url(../../img/puff.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 200px;
-  left: 50%;
-  margin: -100px 0 0 -100px;
-  position: absolute;
-  top: 50%;
-  width: 200px; }
-
-.status-mes {
-  background: none;
-  left: 0;
-  margin: 0;
-  text-align: center;
-  top: 65%; }
-
 @media (max-width: 768px) {
   body {
     font-size: 13px;
@@ -6430,11 +6402,31 @@ ul {
     font-size: 32px;
     text-align: left; } }
 
-@keyframes animateBar {
-  0% {
-    transform: translateX(-100%); }
-  100% {
-    transform: translateX(0); } }
+.preloader {
+  background: #FFF;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999; }
+  .preloader .status,
+  .preloader .status-mes {
+    background-image: url(../../img/puff.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    top: 50%;
+    width: 200px; }
+  .preloader .status-mes {
+    background: none;
+    left: 0;
+    margin: 0;
+    text-align: center;
+    top: 65%; }
 
 .footer {
   padding: 45px 0 80px;
@@ -6563,6 +6555,12 @@ ul {
 @media (max-width: 768px) {
   .skills-item {
     margin-bottom: 50px; } }
+
+@keyframes animateBar {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0); } }
 
 .experience-wrapper .experience-item {
   margin-bottom: 80px; }
