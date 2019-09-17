@@ -6492,15 +6492,15 @@ h2.section-title {
   .skills-wrapper .skills-item.skills-item-dependencias .progress-item .progress .progress-bar {
     background-color: #6b23ae; }
   .skills-wrapper .skills-item.skills-item-otros .progress-item .progress .progress-bar {
-    background-color: black; }
+    background-color: #7FC44B; }
   .skills-wrapper .skills-item.skills-item-ma .progress-item .progress .progress-bar {
-    background-color: black; }
+    background-color: #F26419; }
   .skills-wrapper .skills-item.skills-item-accesibilidad .progress-item .progress .progress-bar {
-    background-color: black; }
+    background-color: #084A62; }
   .skills-wrapper .skills-item.skills-item-design .progress-item .progress .progress-bar {
-    background-color: black; }
+    background-color: #2D0320; }
   .skills-wrapper .skills-item.skills-item-despliegues .progress-item .progress .progress-bar {
-    background-color: black; }
+    background-color: #00171F; }
   .skills-wrapper .skills-item.skills-item-animated .progress-item .progress .progress-bar {
     opacity: 1;
     animation-name: animateBar;
@@ -6576,7 +6576,7 @@ h2.section-title {
     .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-despliegues .badge {
       font-weight: 400;
       color: #f4f4f4;
-      background-color: black; }
+      background-color: #00171F; }
     .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-dependencias .badge {
       font-weight: 400;
       color: #f4f4f4;
@@ -6584,19 +6584,19 @@ h2.section-title {
     .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-ma .badge {
       font-weight: 400;
       color: #f4f4f4;
-      background-color: black; }
+      background-color: #F26419; }
     .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-otros .badge {
       font-weight: 400;
       color: #f4f4f4;
-      background-color: black; }
+      background-color: #7FC44B; }
     .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-accesibilidad .badge {
       font-weight: 400;
       color: #f4f4f4;
-      background-color: black; }
+      background-color: #084A62; }
     .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-design .badge {
       font-weight: 400;
       color: #f4f4f4;
-      background-color: black; }
+      background-color: #2D0320; }
 
 .education-wrapper .education-item {
   margin-bottom: 40px; }
