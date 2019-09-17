@@ -6522,59 +6522,59 @@ header.header {
   header.header div.download-cv {
     margin: 0 0 20px 0; } }
 
-div.skills-wrapper div.skills-item {
+.skills-wrapper div.skills-item {
   margin-bottom: 75px; }
-  div.skills-wrapper div.skills-item h3 {
+  .skills-wrapper div.skills-item h3 {
     font-size: 12px;
     text-align: center;
     text-transform: uppercase; }
-  div.skills-wrapper div.skills-item.skills-item-frontend .progress-item .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-frontend .progress-item .progress-bar {
     background-color: #fbbc05; }
-  div.skills-wrapper div.skills-item.skills-item-backend .progress-item .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-backend .progress-item .progress-bar {
     background-color: #4285f4; }
-  div.skills-wrapper div.skills-item.skills-item-sistemas .progress-item .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-sistemas .progress-item .progress-bar {
     background-color: #34a853; }
-  div.skills-wrapper div.skills-item.skills-item-versiones .progress-item .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-versiones .progress-item .progress-bar {
     background-color: crimson; }
-  div.skills-wrapper div.skills-item.skills-item-dependencias .progress-item .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-dependencias .progress-item .progress-bar {
     background-color: #6b23ae; }
-  div.skills-wrapper div.skills-item.skills-item-otros .progress-item .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-otros .progress-item .progress-bar {
     background-color: black; }
-  div.skills-wrapper div.skills-item.skills-item-ma .progress-item .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-ma .progress-item .progress-bar {
     background-color: black; }
-  div.skills-wrapper div.skills-item.skills-item-accesibilidad .progress-item .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-accesibilidad .progress-item .progress-bar {
     background-color: black; }
-  div.skills-wrapper div.skills-item.skills-item-design .progress-item .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-design .progress-item .progress-bar {
     background-color: black; }
-  div.skills-wrapper div.skills-item.skills-item-despliegues .progress-item .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-despliegues .progress-item .progress-bar {
     background-color: black; }
-  div.skills-wrapper div.skills-item.skills-item-animated .progress-item .progress .progress-bar {
+  .skills-wrapper div.skills-item.skills-item-animated .progress-item .progress .progress-bar {
     opacity: 1;
     animation-name: animateBar;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 1s; }
-  div.skills-wrapper div.skills-item div.progress-item {
+  .skills-wrapper div.skills-item div.progress-item {
     position: relative; }
-    div.skills-wrapper div.skills-item div.progress-item div.progress-title {
+    .skills-wrapper div.skills-item div.progress-item div.progress-title {
       display: block;
       margin-bottom: 2px;
       font-size: 12px;
       font-weight: 400;
       font-style: italic; }
-    div.skills-wrapper div.skills-item div.progress-item div.progress {
+    .skills-wrapper div.skills-item div.progress-item div.progress {
       height: 1px;
       margin-bottom: 15px;
       box-shadow: none;
       border-radius: 0;
       background: transparent; }
-      div.skills-wrapper div.skills-item div.progress-item div.progress div.progress-bar {
+      .skills-wrapper div.skills-item div.progress-item div.progress div.progress-bar {
         opacity: 0;
         background-color: #010101;
         box-shadow: none;
         text-align: right; }
 
-div.skills-wrapper div.col-md-6:last-child div.skills-item {
+.skills-wrapper div.col-md-6:last-child div.skills-item {
   margin-bottom: 0; }
 
 @media (max-width: 768px) {
