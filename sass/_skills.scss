@@ -1,5 +1,5 @@
 div.skills-wrapper {
-    div.skills-wrapper-item {
+    div.skills-item {
         margin-bottom: 75px;
 
         h3 {
@@ -8,47 +8,47 @@ div.skills-wrapper {
             text-transform: uppercase;
         }
 
-        &.skills-wrapper-item-frontend {
+        &.skills-item-frontend {
             @include progress_wrapper($color_frontend);
         }
 
-        &.skills-wrapper-item-backend {
+        &.skills-item-backend {
             @include progress_wrapper($color_backend);
         }
 
-        &.skills-wrapper-item-sistemas {
+        &.skills-item-sistemas {
             @include progress_wrapper($color_systems);
         }
 
-        &.skills-wrapper-item-versiones {
+        &.skills-item-versiones {
             @include progress_wrapper($color_versions);
         }
 
-        &.skills-wrapper-item-dependencias {
+        &.skills-item-dependencias {
             @include progress_wrapper($color_dependencies);
         }
 
-        &.skills-wrapper-item-otros {
+        &.skills-item-otros {
             @include progress_wrapper($color_others);
         }
 
-        &.skills-wrapper-item-ma {
+        &.skills-item-ma {
             @include progress_wrapper($color_agile);
         }
 
-        &.skills-wrapper-item-accesibilidad {
+        &.skills-item-accesibilidad {
             @include progress_wrapper($color_accesibility);
         }
 
-        &.skills-wrapper-item-design {
+        &.skills-item-design {
             @include progress_wrapper($color_design);
         }
 
-        &.skills-wrapper-item-despliegues {
+        &.skills-item-despliegues {
             @include progress_wrapper($color_updates);
         }
 
-        &.skills-wrapper-item-animated {
+        &.skills-item-animated {
             .progress-item {
                 .progress {
                     .progress-bar {
@@ -92,7 +92,7 @@ div.skills-wrapper {
 
     div.col-md-6 {
         &:last-child {
-            div.skills-wrapper-item {
+            div.skills-item {
                 margin-bottom: 0;
             }
         }
@@ -100,7 +100,7 @@ div.skills-wrapper {
 }
 
 @media (max-width : 768px) {
-    div.skills-wrapper-item {
+    div.skills-item {
         margin-bottom: 50px;
     }
 }
