@@ -6581,51 +6581,51 @@ header.header {
   div.skills-item {
     margin-bottom: 50px; } }
 
-.experience-wrapper .experience-item:last-child {
-  margin-bottom: 0; }
-
-.experience-item {
+.experience-wrapper div.experience-item {
   margin-bottom: 80px; }
-  .experience-item h3 {
+  .experience-wrapper div.experience-item h3 {
     font-size: 18px;
     text-transform: uppercase; }
-  .experience-item h4 {
+  .experience-wrapper div.experience-item h4 {
     margin-bottom: 5px;
     font-size: 13px;
     font-weight: 700; }
-  .experience-item a {
+  .experience-wrapper div.experience-item a {
     text-decoration: underline; }
-    .experience-item a:hover {
+    .experience-wrapper div.experience-item a:hover {
       color: #010101; }
-  .experience-item .media-left {
+  .experience-wrapper div.experience-item .media-left {
     padding-right: 35px; }
-  .experience-item .experience-item-batch {
+  .experience-wrapper div.experience-item .experience-item-batch {
     margin-bottom: 25px; }
-  .experience-item .badge {
+  .experience-wrapper div.experience-item .badge {
     font-weight: 400;
     background-color: #666;
     color: #FFF; }
-  .experience-item .experience-item-batch-frontend .badge {
+  .experience-wrapper div.experience-item .experience-item-batch-frontend .badge {
     color: #010101;
     background-color: #fbbc05; }
-  .experience-item .experience-item-batch-backend .badge {
+  .experience-wrapper div.experience-item .experience-item-batch-backend .badge {
     background-color: #4285f4; }
-  .experience-item .experience-item-batch-sistemas .badge {
+  .experience-wrapper div.experience-item .experience-item-batch-sistemas .badge {
     background-color: #34a853; }
-  .experience-item .experience-item-batch-versiones .badge {
+  .experience-wrapper div.experience-item .experience-item-batch-versiones .badge {
     background-color: crimson; }
-  .experience-item .experience-item-batch-despliegues .badge {
+  .experience-wrapper div.experience-item .experience-item-batch-despliegues .badge {
     background-color: black; }
-  .experience-item .experience-item-batch-dependencias .badge {
+  .experience-wrapper div.experience-item .experience-item-batch-dependencias .badge {
     background-color: #6b23ae; }
-  .experience-item .experience-item-batch-ma .badge {
+  .experience-wrapper div.experience-item .experience-item-batch-ma .badge {
     background-color: black; }
-  .experience-item .experience-item-batch-otros .badge {
+  .experience-wrapper div.experience-item .experience-item-batch-otros .badge {
     background-color: black; }
-  .experience-item .experience-item-batch-accesibilidad .badge {
+  .experience-wrapper div.experience-item .experience-item-batch-accesibilidad .badge {
     background-color: black; }
-  .experience-item .experience-item-batch-design .badge {
+  .experience-wrapper div.experience-item .experience-item-batch-design .badge {
     background-color: black; }
+
+.experience-wrapper .experience-item:last-child {
+  margin-bottom: 0; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
