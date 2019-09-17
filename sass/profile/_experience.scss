@@ -29,12 +29,6 @@
             margin-bottom: 25px;
         }
 
-        .badge {
-            font-weight: 400;
-            background-color: #666;
-            color: #FFF;
-        }
-
         .experience-item-batch-frontend {
             @include experience_badge($color_frontend, $color_text);
         }

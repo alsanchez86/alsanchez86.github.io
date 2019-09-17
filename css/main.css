@@ -6557,38 +6557,44 @@ h2.section-title {
     padding-right: 35px; }
   .experience-wrapper .experience-item .experience-item-batch {
     margin-bottom: 25px; }
-  .experience-wrapper .experience-item .badge {
-    font-weight: 400;
-    background-color: #666;
-    color: #FFF; }
   .experience-wrapper .experience-item .experience-item-batch-frontend .badge {
+    font-weight: 400;
     color: #010101;
     background-color: #fbbc05; }
   .experience-wrapper .experience-item .experience-item-batch-backend .badge {
+    font-weight: 400;
     color: #f4f4f4;
     background-color: #4285f4; }
   .experience-wrapper .experience-item .experience-item-batch-sistemas .badge {
+    font-weight: 400;
     color: #f4f4f4;
     background-color: #34a853; }
   .experience-wrapper .experience-item .experience-item-batch-versiones .badge {
+    font-weight: 400;
     color: #f4f4f4;
     background-color: crimson; }
   .experience-wrapper .experience-item .experience-item-batch-despliegues .badge {
+    font-weight: 400;
     color: #f4f4f4;
     background-color: black; }
   .experience-wrapper .experience-item .experience-item-batch-dependencias .badge {
+    font-weight: 400;
     color: #f4f4f4;
     background-color: #6b23ae; }
   .experience-wrapper .experience-item .experience-item-batch-ma .badge {
+    font-weight: 400;
     color: #f4f4f4;
     background-color: black; }
   .experience-wrapper .experience-item .experience-item-batch-otros .badge {
+    font-weight: 400;
     color: #f4f4f4;
     background-color: black; }
   .experience-wrapper .experience-item .experience-item-batch-accesibilidad .badge {
+    font-weight: 400;
     color: #f4f4f4;
     background-color: black; }
   .experience-wrapper .experience-item .experience-item-batch-design .badge {
+    font-weight: 400;
     color: #f4f4f4;
     background-color: black; }
 
