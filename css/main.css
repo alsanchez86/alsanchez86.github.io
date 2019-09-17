@@ -6315,9 +6315,9 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: 'Inter';
   font-size: 14px;
+  font-weight: 400;
   line-height: 22.5px;
   color: #010101;
-  font-weight: 400;
   background: #f4f4f4; }
 
 textarea {
@@ -6364,14 +6364,10 @@ a {
     text-decoration: none;
     outline: none; }
   a:hover, a:focus {
-    text-decoration: none;
     color: #010101; }
 
 p {
   margin-bottom: 20px; }
-
-strong {
-  color: #010101; }
 
 ul {
   margin: 0;
@@ -6383,37 +6379,6 @@ ul {
 div.main-wrapper {
   overflow: hidden; }
 
-header.header {
-  padding: 50px 0 20px 0;
-  margin: 0;
-  position: relative;
-  border-top: 5px solid #333; }
-  header.header div.profile-img {
-    display: block;
-    text-align: center; }
-    header.header div.profile-img img {
-      width: 100%; }
-  header.header div.name-wrapper {
-    margin-bottom: 30px; }
-    header.header div.name-wrapper h1 {
-      text-transform: uppercase;
-      line-height: 1;
-      margin: 0 0 5px; }
-    header.header div.name-wrapper span {
-      font-size: 24px;
-      color: #010101; }
-  header.header div.personal-detail {
-    margin: 10px 0; }
-    header.header div.personal-detail strong {
-      font-size: 13px;
-      color: #010101;
-      display: block;
-      line-height: 1; }
-    header.header div.personal-detail small {
-      font-size: 12px; }
-    header.header div.personal-detail span {
-      color: #010101; }
-
 div.section-wrapper {
   padding: 50px 0; }
   div.section-wrapper h2.section-title {
@@ -6423,82 +6388,6 @@ div.section-wrapper {
     color: #010101;
     text-transform: uppercase;
     text-align: right; }
-
-ul.social-list {
-  margin: 15px 0 0 0;
-  padding: 0;
-  display: block;
-  text-align: center; }
-  ul.social-list li {
-    display: inline-block;
-    margin: 0 15px; }
-    ul.social-list li a {
-      display: block;
-      font-size: 20px;
-      color: #010101;
-      line-height: 46px;
-      text-align: center;
-      border-radius: 2px; }
-
-div.download-cv {
-  text-align: center; }
-
-div.skills-wrapper .col-md-6:last-child div.skills-wrapper-item {
-  margin-bottom: 0; }
-
-div.skills-wrapper-item {
-  margin-bottom: 75px; }
-  div.skills-wrapper-item h3 {
-    font-size: 12px;
-    text-align: center;
-    text-transform: uppercase; }
-  div.skills-wrapper-item.skills-wrapper-item-frontend .progress-item .progress-bar {
-    background-color: #fbbc05; }
-  div.skills-wrapper-item.skills-wrapper-item-backend .progress-item .progress-bar {
-    background-color: #4285f4; }
-  div.skills-wrapper-item.skills-wrapper-item-sistemas .progress-item .progress-bar {
-    background-color: #34a853; }
-  div.skills-wrapper-item.skills-wrapper-item-versiones .progress-item .progress-bar {
-    background-color: crimson; }
-  div.skills-wrapper-item.skills-wrapper-item-dependencias .progress-item .progress-bar {
-    background-color: #6b23ae; }
-  div.skills-wrapper-item.skills-wrapper-item-otros .progress-item .progress-bar {
-    background-color: black; }
-  div.skills-wrapper-item.skills-wrapper-item-ma .progress-item .progress-bar {
-    background-color: black; }
-  div.skills-wrapper-item.skills-wrapper-item-accesibilidad .progress-item .progress-bar {
-    background-color: black; }
-  div.skills-wrapper-item.skills-wrapper-item-design .progress-item .progress-bar {
-    background-color: black; }
-  div.skills-wrapper-item.skills-wrapper-item-despliegues .progress-item .progress-bar {
-    background-color: black; }
-  div.skills-wrapper-item .progress-item .progress .progress-bar {
-    opacity: 0; }
-  div.skills-wrapper-item.skills-wrapper-item-animated .progress-item .progress .progress-bar {
-    opacity: 1;
-    animation-name: animateBar;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 1s; }
-
-.progress-item {
-  position: relative; }
-  .progress-item .progress-title {
-    display: block;
-    margin-bottom: 2px;
-    font-size: 12px;
-    font-weight: 400;
-    font-style: italic; }
-  .progress-item .progress {
-    height: 1px;
-    margin-bottom: 15px;
-    box-shadow: none;
-    border-radius: 0;
-    background: transparent; }
-    .progress-item .progress .progress-bar {
-      background-color: #010101;
-      box-shadow: none;
-      text-align: right; }
 
 .experience-wrapper .profile-item:last-child {
   margin-bottom: 0; }
@@ -6603,31 +6492,140 @@ div.skills-wrapper-item {
     font-size: 13px;
     line-height: 20px; }
   .section-wrapper {
-    padding: 20px 0; }
-  header.header {
-    padding: 20px 0; }
-    header.header .profile-img {
-      margin: 0 0 30px; }
-  div.skills-wrapper-item {
-    margin-bottom: 50px; } }
+    padding: 20px 0; } }
 
 @media (max-width: 992px) {
   h2.section-title {
     margin-bottom: 20px;
     font-size: 32px;
-    text-align: left; }
-  div.header .name-wrapper {
-    text-align: center; }
-  div.social-list {
-    margin: 0 0 5px 0; }
-  div.download-cv {
-    margin: 0 0 20px 0; } }
+    text-align: left; } }
 
 @keyframes animateBar {
   0% {
     transform: translateX(-100%); }
   100% {
     transform: translateX(0); } }
+
+header.header {
+  padding: 50px 0 20px 0;
+  margin: 0;
+  position: relative;
+  border-top: 5px solid #333; }
+  header.header div.profile-img {
+    display: block;
+    text-align: center; }
+    header.header div.profile-img img {
+      width: 100%; }
+  header.header div.name-wrapper {
+    margin-bottom: 30px; }
+    header.header div.name-wrapper h1 {
+      text-transform: uppercase;
+      line-height: 1;
+      margin: 0 0 5px; }
+    header.header div.name-wrapper span {
+      font-size: 24px;
+      color: #010101; }
+  header.header div.personal-detail {
+    margin: 10px 0; }
+    header.header div.personal-detail strong {
+      font-size: 13px;
+      color: #010101;
+      display: block;
+      line-height: 1; }
+    header.header div.personal-detail small {
+      font-size: 12px; }
+    header.header div.personal-detail span {
+      color: #010101; }
+  header.header ul.social-list {
+    margin: 15px 0 0 0;
+    padding: 0;
+    display: block;
+    text-align: center; }
+    header.header ul.social-list li {
+      display: inline-block;
+      margin: 0 15px; }
+      header.header ul.social-list li a {
+        display: block;
+        font-size: 20px;
+        color: #010101;
+        line-height: 46px;
+        text-align: center;
+        border-radius: 2px; }
+  header.header div.download-cv {
+    text-align: center; }
+
+@media (max-width: 768px) {
+  header.header {
+    padding: 20px 0; }
+    header.header .profile-img {
+      margin: 0 0 30px; } }
+
+@media (max-width: 992px) {
+  header.header .name-wrapper {
+    text-align: center; }
+  header.header ul.social-list {
+    margin: 0 0 5px 0; }
+  header.header div.download-cv {
+    margin: 0 0 20px 0; } }
+
+div.skills-wrapper div.skills-wrapper-item {
+  margin-bottom: 75px; }
+  div.skills-wrapper div.skills-wrapper-item h3 {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-frontend .progress-item .progress-bar {
+    background-color: #fbbc05; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-backend .progress-item .progress-bar {
+    background-color: #4285f4; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-sistemas .progress-item .progress-bar {
+    background-color: #34a853; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-versiones .progress-item .progress-bar {
+    background-color: crimson; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-dependencias .progress-item .progress-bar {
+    background-color: #6b23ae; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-otros .progress-item .progress-bar {
+    background-color: black; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-ma .progress-item .progress-bar {
+    background-color: black; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-accesibilidad .progress-item .progress-bar {
+    background-color: black; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-design .progress-item .progress-bar {
+    background-color: black; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-despliegues .progress-item .progress-bar {
+    background-color: black; }
+  div.skills-wrapper div.skills-wrapper-item.skills-wrapper-item-animated .progress-item .progress .progress-bar {
+    opacity: 1;
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s; }
+  div.skills-wrapper div.skills-wrapper-item .progress-item {
+    position: relative; }
+    div.skills-wrapper div.skills-wrapper-item .progress-item .progress-title {
+      display: block;
+      margin-bottom: 2px;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: italic; }
+    div.skills-wrapper div.skills-wrapper-item .progress-item .progress {
+      height: 1px;
+      margin-bottom: 15px;
+      box-shadow: none;
+      border-radius: 0;
+      background: transparent; }
+      div.skills-wrapper div.skills-wrapper-item .progress-item .progress .progress-bar {
+        opacity: 0;
+        background-color: #010101;
+        box-shadow: none;
+        text-align: right; }
+
+div.skills-wrapper div.col-md-6:last-child div.skills-wrapper-item {
+  margin-bottom: 0; }
+
+@media (max-width: 768px) {
+  div.skills-wrapper-item {
+    margin-bottom: 50px; } }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome

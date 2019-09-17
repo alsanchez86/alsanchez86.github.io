@@ -1,9 +1,9 @@
 body {
     font-family: 'Inter';
     font-size: 14px;
+    font-weight: 400;
     line-height: 22.5px;
     color: $color_text;
-    font-weight: 400;
     background: $color_background;
 }
 
@@ -70,17 +70,12 @@ a {
 
     &:hover,
     &:focus {
-        text-decoration: none;
         color: $color_text;
     }
 }
 
 p {
     margin-bottom: 20px;
-}
-
-strong {
-    color: $color_text;
 }
 
 ul {
@@ -95,58 +90,6 @@ ul {
 
 div.main-wrapper {
     overflow: hidden;
-}
-
-// Header
-
-header.header {
-    padding: 50px 0 20px 0;
-    margin: 0;
-    position: relative;
-    border-top: 5px solid #333;
-
-    div.profile-img {
-        display: block;
-        text-align: center;
-
-        img {
-            width: 100%;
-        }
-    }
-
-    div.name-wrapper {
-        margin-bottom: 30px;
-
-        h1 {
-            text-transform: uppercase;
-            line-height: 1;
-            margin: 0 0 5px;
-        }
-
-        span {
-            font-size: 24px;
-            color: $color_text;
-        }
-    }
-
-    div.personal-detail {
-        margin: 10px 0;
-
-        strong {
-            font-size: 13px;
-            color: $color_text;
-            display: block;
-            line-height: 1;
-        }
-
-        small {
-            font-size: 12px;
-        }
-
-        span {
-            color: $color_text;
-        }
-    }
 }
 
 // Section Wrapper
@@ -164,143 +107,7 @@ div.section-wrapper {
     }
 }
 
-// Social Icon
-
-ul.social-list {
-    margin: 15px 0 0 0;
-    padding: 0;
-    display: block;
-    text-align: center;
-
-    li {
-        display: inline-block;
-        margin: 0 15px;
-
-        a {
-            display: block;
-            font-size: 20px;
-            color: $color_text;
-            line-height: 46px;
-            text-align: center;
-            border-radius: 2px;
-        }
-    }
-}
-
-// download cv
-div.download-cv {
-    text-align: center;
-}
-
-// Skills Progressbar
-
-div.skills-wrapper {
-    .col-md-6 {
-        &:last-child {
-            div.skills-wrapper-item {
-                margin-bottom: 0;
-            }
-        }
-    }
-}
-
-div.skills-wrapper-item {
-    margin-bottom: 75px;
-
-    h3 {
-        font-size: 12px;
-        text-align: center;
-        text-transform: uppercase;
-    }
-
-    &.skills-wrapper-item-frontend {
-        @include progress_wrapper($color_frontend);
-    }
-
-    &.skills-wrapper-item-backend {
-        @include progress_wrapper($color_backend);
-    }
-
-    &.skills-wrapper-item-sistemas {
-        @include progress_wrapper($color_systems);
-    }
-
-    &.skills-wrapper-item-versiones {
-        @include progress_wrapper($color_versions);
-    }
-
-    &.skills-wrapper-item-dependencias {
-        @include progress_wrapper($color_dependencies);
-    }
-
-    &.skills-wrapper-item-otros {
-        @include progress_wrapper($color_others);
-    }
-
-    &.skills-wrapper-item-ma {
-        @include progress_wrapper($color_agile);
-    }
-
-    &.skills-wrapper-item-accesibilidad {
-        @include progress_wrapper($color_accesibility);
-    }
-
-    &.skills-wrapper-item-design {
-        @include progress_wrapper($color_design);
-    }
-
-    &.skills-wrapper-item-despliegues {
-        @include progress_wrapper($color_updates);
-    }
-
-    .progress-item {
-        .progress {
-            .progress-bar {
-                opacity: 0;
-            }
-        }
-    }
-
-    &.skills-wrapper-item-animated {
-        .progress-item {
-            .progress {
-                .progress-bar {
-                    opacity: 1;
-                    animation-name: animateBar;
-                    animation-iteration-count: 1;
-                    animation-timing-function: ease-in;
-                    animation-duration: 1s;
-                }
-            }
-        }
-    }
-}
-
-.progress-item {
-    position: relative;
-
-    .progress-title {
-        display: block;
-        margin-bottom: 2px;
-        font-size: 12px;
-        font-weight: 400;
-        font-style: italic;
-    }
-
-    .progress {
-        height: 1px;
-        margin-bottom: 15px;
-        box-shadow: none;
-        border-radius: 0;
-        background: transparent;
-
-        .progress-bar {
-            background-color: $color_text;
-            box-shadow: none;
-            text-align: right;
-        }
-    }
-}
+// Experience
 
 .experience-wrapper {
     .profile-item {
@@ -492,18 +299,6 @@ div.skills-wrapper-item {
     .section-wrapper {
         padding: 20px 0;
     }
-
-    header.header {
-        padding: 20px 0;
-
-        .profile-img {
-            margin: 0 0 30px;
-        }
-    }
-
-    div.skills-wrapper-item {
-        margin-bottom: 50px;
-    }
 }
 
 @media (max-width: 992px) {
@@ -511,20 +306,6 @@ div.skills-wrapper-item {
         margin-bottom: 20px;
         font-size: 32px;
         text-align: left;
-    }
-
-    div.header {
-        .name-wrapper {
-            text-align: center;
-        }
-    }
-
-    div.social-list {
-        margin: 0 0 5px 0;
-    }
-
-    div.download-cv {
-        margin: 0 0 20px 0;
     }
 }
 

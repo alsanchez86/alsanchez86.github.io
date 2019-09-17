@@ -1,0 +1,106 @@
+div.skills-wrapper {
+    div.skills-wrapper-item {
+        margin-bottom: 75px;
+
+        h3 {
+            font-size: 12px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &.skills-wrapper-item-frontend {
+            @include progress_wrapper($color_frontend);
+        }
+
+        &.skills-wrapper-item-backend {
+            @include progress_wrapper($color_backend);
+        }
+
+        &.skills-wrapper-item-sistemas {
+            @include progress_wrapper($color_systems);
+        }
+
+        &.skills-wrapper-item-versiones {
+            @include progress_wrapper($color_versions);
+        }
+
+        &.skills-wrapper-item-dependencias {
+            @include progress_wrapper($color_dependencies);
+        }
+
+        &.skills-wrapper-item-otros {
+            @include progress_wrapper($color_others);
+        }
+
+        &.skills-wrapper-item-ma {
+            @include progress_wrapper($color_agile);
+        }
+
+        &.skills-wrapper-item-accesibilidad {
+            @include progress_wrapper($color_accesibility);
+        }
+
+        &.skills-wrapper-item-design {
+            @include progress_wrapper($color_design);
+        }
+
+        &.skills-wrapper-item-despliegues {
+            @include progress_wrapper($color_updates);
+        }
+
+        &.skills-wrapper-item-animated {
+            .progress-item {
+                .progress {
+                    .progress-bar {
+                        opacity: 1;
+                        animation-name: animateBar;
+                        animation-iteration-count: 1;
+                        animation-timing-function: ease-in;
+                        animation-duration: 1s;
+                    }
+                }
+            }
+        }
+
+        .progress-item {
+            position: relative;
+
+            .progress-title {
+                display: block;
+                margin-bottom: 2px;
+                font-size: 12px;
+                font-weight: 400;
+                font-style: italic;
+            }
+
+            .progress {
+                height: 1px;
+                margin-bottom: 15px;
+                box-shadow: none;
+                border-radius: 0;
+                background: transparent;
+
+                .progress-bar {
+                    opacity: 0;
+                    background-color: $color_text;
+                    box-shadow: none;
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    div.col-md-6 {
+        &:last-child {
+            div.skills-wrapper-item {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media (max-width : 768px) {
+    div.skills-wrapper-item {
+        margin-bottom: 50px;
+    }
+}
