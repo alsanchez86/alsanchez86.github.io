@@ -1,3 +1,5 @@
+"use strict";
+
 define(["module", "jquery_cache_module"], function (module, _$) {
     /**
      * Set page loading to true or false

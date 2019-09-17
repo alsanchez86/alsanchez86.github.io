@@ -4,19 +4,6 @@ define(["exports", "jquery"], function (exports, $) {
     // Private Vars
     var _this = {};
 
-    // Private Methods
-    function _set(selector, element) {
-        var jObj = $(selector);
-        var exists = (jObj.length > 0);
-        var forceCreate = (element !== undefined && (typeof element === "object"));
-
-        if (exists) {
-            _this[selector] = $(selector);
-        } else if (forceCreate) {
-            _this[selector] = $(element);
-        }
-    }
-
     /**
      * @param {string} selector
      * @param {object} element
@@ -32,4 +19,16 @@ define(["exports", "jquery"], function (exports, $) {
         // Return jquery object from cache
         return _this[selector];
     };
+
+    function _set(selector, element) {
+        var jObj = $(selector);
+        var exists = (jObj.length > 0);
+        var forceCreate = (element !== undefined && (typeof element === "object"));
+
+        if (exists) {
+            _this[selector] = $(selector);
+        } else if (forceCreate) {
+            _this[selector] = $(element);
+        }
+    }
 });

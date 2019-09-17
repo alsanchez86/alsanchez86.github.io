@@ -326,16 +326,16 @@ h2.section-title {
         font-weight: 700;
     }
 
-    .media-left {
-        padding-right: 35px;
-    }
-
     a {
         text-decoration: underline;
 
         &:hover {
             color: $color_text;
         }
+    }
+
+    .media-left {
+        padding-right: 35px;
     }
 
     .profile-item-batch {
@@ -412,7 +412,7 @@ h2.section-title {
 
 // Section Profile
 
-.section-profile {
+.profile-wrapper {
     .profile-item {
         &:last-child {
             margin-bottom: 0;
