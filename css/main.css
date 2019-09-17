@@ -6501,12 +6501,6 @@ h2.section-title {
     background-color: #2D0320; }
   .skills-wrapper .skills-item.skills-item-despliegues .progress-item .progress .progress-bar {
     background-color: #00171F; }
-  .skills-wrapper .skills-item.skills-item-animated .progress-item .progress .progress-bar {
-    opacity: 1;
-    animation-name: animateBar;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 1s; }
   .skills-wrapper .skills-item .progress-item {
     position: relative; }
     .skills-wrapper .skills-item .progress-item .progress-title {
@@ -6522,10 +6516,13 @@ h2.section-title {
       border-radius: 0;
       background: transparent; }
       .skills-wrapper .skills-item .progress-item .progress .progress-bar {
-        opacity: 0;
         background-color: #010101;
         box-shadow: none;
-        text-align: right; }
+        text-align: right;
+        animation-name: animateBar;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1s; }
 
 .skills-wrapper .col-md-6:last-child .skills-item {
   margin-bottom: 0; }

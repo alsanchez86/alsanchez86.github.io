@@ -48,19 +48,19 @@
             @include skills_progress_bar($color_updates);
         }
 
-        &.skills-item-animated {
-            .progress-item {
-                .progress {
-                    .progress-bar {
-                        opacity: 1;
-                        animation-name: animateBar;
-                        animation-iteration-count: 1;
-                        animation-timing-function: ease-in;
-                        animation-duration: 1s;
-                    }
-                }
-            }
-        }
+        // &.skills-item-animated {
+        //     .progress-item {
+        //         .progress {
+        //             .progress-bar {
+        //                 opacity: 1;
+        //                 animation-name: animateBar;
+        //                 animation-iteration-count: 1;
+        //                 animation-timing-function: ease-in;
+        //                 animation-duration: 1s;
+        //             }
+        //         }
+        //     }
+        // }
 
         .progress-item {
             position: relative;
@@ -81,10 +81,15 @@
                 background: transparent;
 
                 .progress-bar {
-                    opacity: 0;
+                    // opacity: 0;
                     background-color: $color_text;
                     box-shadow: none;
                     text-align: right;
+
+                    animation-name: animateBar;
+                    animation-iteration-count: 1;
+                    animation-timing-function: ease-in;
+                    animation-duration: 1s;
                 }
             }
         }
