@@ -6389,52 +6389,6 @@ div.section-wrapper {
     text-transform: uppercase;
     text-align: right; }
 
-.experience-wrapper .profile-item:last-child {
-  margin-bottom: 0; }
-
-.profile-item {
-  margin-bottom: 80px; }
-  .profile-item h3 {
-    font-size: 18px;
-    text-transform: uppercase; }
-  .profile-item h4 {
-    margin-bottom: 5px;
-    font-size: 13px;
-    font-weight: 700; }
-  .profile-item a {
-    text-decoration: underline; }
-    .profile-item a:hover {
-      color: #010101; }
-  .profile-item .media-left {
-    padding-right: 35px; }
-  .profile-item .profile-item-batch {
-    margin-bottom: 25px; }
-  .profile-item .badge {
-    font-weight: 400;
-    background-color: #666;
-    color: #FFF; }
-  .profile-item .profile-item-batch-frontend .badge {
-    color: #010101;
-    background-color: #fbbc05; }
-  .profile-item .profile-item-batch-backend .badge {
-    background-color: #4285f4; }
-  .profile-item .profile-item-batch-sistemas .badge {
-    background-color: #34a853; }
-  .profile-item .profile-item-batch-versiones .badge {
-    background-color: crimson; }
-  .profile-item .profile-item-batch-despliegues .badge {
-    background-color: black; }
-  .profile-item .profile-item-batch-dependencias .badge {
-    background-color: #6b23ae; }
-  .profile-item .profile-item-batch-ma .badge {
-    background-color: black; }
-  .profile-item .profile-item-batch-otros .badge {
-    background-color: black; }
-  .profile-item .profile-item-batch-accesibilidad .badge {
-    background-color: black; }
-  .profile-item .profile-item-batch-design .badge {
-    background-color: black; }
-
 .content-item {
   margin-bottom: 40px; }
   .content-item h3 {
@@ -6626,6 +6580,52 @@ div.skills-wrapper div.col-md-6:last-child div.skills-item {
 @media (max-width: 768px) {
   div.skills-item {
     margin-bottom: 50px; } }
+
+.experience-wrapper .experience-item:last-child {
+  margin-bottom: 0; }
+
+.experience-item {
+  margin-bottom: 80px; }
+  .experience-item h3 {
+    font-size: 18px;
+    text-transform: uppercase; }
+  .experience-item h4 {
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 700; }
+  .experience-item a {
+    text-decoration: underline; }
+    .experience-item a:hover {
+      color: #010101; }
+  .experience-item .media-left {
+    padding-right: 35px; }
+  .experience-item .experience-item-batch {
+    margin-bottom: 25px; }
+  .experience-item .badge {
+    font-weight: 400;
+    background-color: #666;
+    color: #FFF; }
+  .experience-item .experience-item-batch-frontend .badge {
+    color: #010101;
+    background-color: #fbbc05; }
+  .experience-item .experience-item-batch-backend .badge {
+    background-color: #4285f4; }
+  .experience-item .experience-item-batch-sistemas .badge {
+    background-color: #34a853; }
+  .experience-item .experience-item-batch-versiones .badge {
+    background-color: crimson; }
+  .experience-item .experience-item-batch-despliegues .badge {
+    background-color: black; }
+  .experience-item .experience-item-batch-dependencias .badge {
+    background-color: #6b23ae; }
+  .experience-item .experience-item-batch-ma .badge {
+    background-color: black; }
+  .experience-item .experience-item-batch-otros .badge {
+    background-color: black; }
+  .experience-item .experience-item-batch-accesibilidad .badge {
+    background-color: black; }
+  .experience-item .experience-item-batch-design .badge {
+    background-color: black; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome

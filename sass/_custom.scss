@@ -86,13 +86,9 @@ ul {
     list-style: square;
 }
 
-// Main wrapper
-
 div.main-wrapper {
     overflow: hidden;
 }
-
-// Section Wrapper
 
 div.section-wrapper {
     padding: 50px 0;
@@ -104,114 +100,6 @@ div.section-wrapper {
         color: $color_text;
         text-transform: uppercase;
         text-align: right;
-    }
-}
-
-// Experience
-
-.experience-wrapper {
-    .profile-item {
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
-}
-
-.profile-item {
-    margin-bottom: 80px;
-
-    h3 {
-        font-size: 18px;
-        text-transform: uppercase;
-    }
-
-    h4 {
-        margin-bottom: 5px;
-        font-size: 13px;
-        font-weight: 700;
-    }
-
-    a {
-        text-decoration: underline;
-
-        &:hover {
-            color: $color_text;
-        }
-    }
-
-    .media-left {
-        padding-right: 35px;
-    }
-
-    .profile-item-batch {
-        margin-bottom: 25px;
-    }
-
-    .badge {
-        font-weight: 400;
-        background-color: #666;
-        color: #FFF;
-    }
-
-    .profile-item-batch-frontend {
-        .badge {
-            color: $color_text;
-            background-color: $color_frontend;
-        }
-    }
-
-    .profile-item-batch-backend {
-        .badge {
-            background-color: $color_backend;
-        }
-    }
-
-    .profile-item-batch-sistemas {
-        .badge {
-            background-color: $color_systems;
-        }
-    }
-
-    .profile-item-batch-versiones {
-        .badge {
-            background-color: $color_versions;
-        }
-    }
-
-    .profile-item-batch-despliegues {
-        .badge {
-            background-color: $color_updates;
-        }
-    }
-
-    .profile-item-batch-dependencias {
-        .badge {
-            background-color: $color_dependencies;
-        }
-    }
-
-    .profile-item-batch-ma {
-        .badge {
-            background-color: $color_agile;
-        }
-    }
-
-    .profile-item-batch-otros {
-        .badge {
-            background-color: $color_others;
-        }
-    }
-
-    .profile-item-batch-accesibilidad {
-        .badge {
-            background-color: $color_accesibility;
-        }
-    }
-
-    .profile-item-batch-design {
-        .badge {
-            background-color: $color_design;
-        }
     }
 }
 
