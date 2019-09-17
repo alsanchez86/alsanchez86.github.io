@@ -6358,8 +6358,6 @@ a {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
-  a:active, a:hover, a:focus {
-    color: #010101; }
 
 p {
   margin-bottom: 20px; }
@@ -6378,7 +6376,6 @@ ul {
 h2.section-title {
   margin: 0 30px 5px 0;
   font-size: 14px;
-  color: #010101;
   text-transform: uppercase;
   text-align: right; }
 
@@ -6436,23 +6433,19 @@ h2.section-title {
   .intro .name-wrapper {
     margin-bottom: 30px; }
     .intro .name-wrapper h1 {
-      text-transform: uppercase;
+      margin: 0 0 5px;
       line-height: 1;
-      margin: 0 0 5px; }
+      text-transform: uppercase; }
     .intro .name-wrapper span {
-      font-size: 24px;
-      color: #010101; }
+      font-size: 24px; }
   .intro .personal-detail {
     margin: 10px 0; }
     .intro .personal-detail strong {
-      font-size: 13px;
-      color: #010101;
       display: block;
+      font-size: 13px;
       line-height: 1; }
     .intro .personal-detail small {
       font-size: 12px; }
-    .intro .personal-detail span {
-      color: #010101; }
   .intro ul.social-list {
     margin: 15px 0 0 0;
     padding: 0;
@@ -6464,7 +6457,6 @@ h2.section-title {
       .intro ul.social-list li a {
         display: block;
         font-size: 20px;
-        color: #010101;
         line-height: 46px;
         text-align: center;
         border-radius: 2px; }
@@ -6559,8 +6551,6 @@ h2.section-title {
     font-weight: 700; }
   .experience-wrapper .experience-item a {
     text-decoration: underline; }
-    .experience-wrapper .experience-item a:hover {
-      color: #010101; }
   .experience-wrapper .experience-item .media-left {
     padding-right: 35px; }
   .experience-wrapper .experience-item .experience-item-batch {
@@ -6604,8 +6594,6 @@ h2.section-title {
   .education-wrapper .education-item h4 {
     margin: 0;
     line-height: 1.8em; }
-  .education-wrapper .education-item small {
-    color: #010101; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome

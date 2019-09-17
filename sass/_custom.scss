@@ -58,12 +58,6 @@ a {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-
-    &:active,
-    &:hover,
-    &:focus {
-        color: $color_text;
-    }
 }
 
 p {
@@ -87,7 +81,6 @@ ul {
 h2.section-title {
     margin: 0 30px 5px 0;
     font-size: 14px;
-    color: $color_text;
     text-transform: uppercase;
     text-align: right;
 }
