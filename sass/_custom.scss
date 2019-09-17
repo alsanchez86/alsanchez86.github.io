@@ -493,12 +493,12 @@ div.skills-wrapper-item {
         padding: 20px 0;
     }
 
-    .header {
+    header.header {
         padding: 20px 0;
-    }
 
-    .header .profile-img {
-        margin: 0 0 30px;
+        .profile-img {
+            margin: 0 0 30px;
+        }
     }
 
     div.skills-wrapper-item {

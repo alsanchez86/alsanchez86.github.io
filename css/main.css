@@ -6604,10 +6604,10 @@ div.skills-wrapper-item {
     line-height: 20px; }
   .section-wrapper {
     padding: 20px 0; }
-  .header {
+  header.header {
     padding: 20px 0; }
-  .header .profile-img {
-    margin: 0 0 30px; }
+    header.header .profile-img {
+      margin: 0 0 30px; }
   div.skills-wrapper-item {
     margin-bottom: 50px; } }
 
