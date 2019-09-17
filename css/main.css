@@ -6379,9 +6379,9 @@ ul {
 div.main-wrapper {
   overflow: hidden; }
 
-div.section-wrapper {
+.section-wrapper {
   padding: 50px 0; }
-  div.section-wrapper h2.section-title {
+  .section-wrapper h2.section-title {
     margin-right: 30px;
     margin-bottom: 5px;
     font-size: 14px;
@@ -6528,7 +6528,7 @@ div.skills-wrapper div.skills-item {
     font-size: 12px;
     text-align: center;
     text-transform: uppercase; }
-  div.skills-wrapper div.skills-item-frontend .progress-item .progress-bar {
+  div.skills-wrapper div.skills-item.skills-item-frontend .progress-item .progress-bar {
     background-color: #fbbc05; }
   div.skills-wrapper div.skills-item.skills-item-backend .progress-item .progress-bar {
     background-color: #4285f4; }

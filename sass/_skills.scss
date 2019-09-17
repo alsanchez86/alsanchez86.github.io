@@ -8,7 +8,7 @@ div.skills-wrapper {
             text-transform: uppercase;
         }
 
-        &-frontend {
+        &.skills-item-frontend {
             @include progress_wrapper($color_frontend);
         }
 
