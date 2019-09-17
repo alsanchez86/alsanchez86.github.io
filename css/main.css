@@ -6542,6 +6542,8 @@ h2.section-title {
 
 .experience-wrapper .experience-item {
   margin-bottom: 80px; }
+  .experience-wrapper .experience-item:last-child {
+    margin-bottom: 0; }
   .experience-wrapper .experience-item h3 {
     font-size: 18px;
     text-transform: uppercase; }
@@ -6589,9 +6591,6 @@ h2.section-title {
   .experience-wrapper .experience-item .experience-item-batch-design .badge {
     color: #f4f4f4;
     background-color: black; }
-
-.experience-wrapper .experience-item:last-child {
-  margin-bottom: 0; }
 
 .education-wrapper .education-item {
   margin-bottom: 40px; }
