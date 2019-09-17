@@ -32,64 +32,43 @@
         }
 
         .experience-item-batch-frontend {
-            .badge {
-                color: $color_text;
-                background-color: $color_frontend;
-            }
+            @include experience_badge($color_frontend, $color_text);
         }
 
         .experience-item-batch-backend {
-            .badge {
-                background-color: $color_backend;
-            }
+            @include experience_badge($color_backend);
         }
 
         .experience-item-batch-sistemas {
-            .badge {
-                background-color: $color_systems;
-            }
+            @include experience_badge($color_systems);
         }
 
         .experience-item-batch-versiones {
-            .badge {
-                background-color: $color_versions;
-            }
+            @include experience_badge($color_versions);
         }
 
         .experience-item-batch-despliegues {
-            .badge {
-                background-color: $color_updates;
-            }
+            @include experience_badge($color_updates);
         }
 
         .experience-item-batch-dependencias {
-            .badge {
-                background-color: $color_dependencies;
-            }
+            @include experience_badge($color_dependencies);
         }
 
         .experience-item-batch-ma {
-            .badge {
-                background-color: $color_agile;
-            }
+            @include experience_badge($color_agile);
         }
 
         .experience-item-batch-otros {
-            .badge {
-                background-color: $color_others;
-            }
+            @include experience_badge($color_others);
         }
 
         .experience-item-batch-accesibilidad {
-            .badge {
-                background-color: $color_accesibility;
-            }
+            @include experience_badge($color_accesibility);
         }
 
         .experience-item-batch-design {
-            .badge {
-                background-color: $color_design;
-            }
+            @include experience_badge($color_design);
         }
     }
 

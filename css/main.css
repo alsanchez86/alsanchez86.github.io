@@ -6563,22 +6563,31 @@ h2.section-title {
     color: #010101;
     background-color: #fbbc05; }
   .experience-wrapper .experience-item .experience-item-batch-backend .badge {
+    color: #f4f4f4;
     background-color: #4285f4; }
   .experience-wrapper .experience-item .experience-item-batch-sistemas .badge {
+    color: #f4f4f4;
     background-color: #34a853; }
   .experience-wrapper .experience-item .experience-item-batch-versiones .badge {
+    color: #f4f4f4;
     background-color: crimson; }
   .experience-wrapper .experience-item .experience-item-batch-despliegues .badge {
+    color: #f4f4f4;
     background-color: black; }
   .experience-wrapper .experience-item .experience-item-batch-dependencias .badge {
+    color: #f4f4f4;
     background-color: #6b23ae; }
   .experience-wrapper .experience-item .experience-item-batch-ma .badge {
+    color: #f4f4f4;
     background-color: black; }
   .experience-wrapper .experience-item .experience-item-batch-otros .badge {
+    color: #f4f4f4;
     background-color: black; }
   .experience-wrapper .experience-item .experience-item-batch-accesibilidad .badge {
+    color: #f4f4f4;
     background-color: black; }
   .experience-wrapper .experience-item .experience-item-batch-design .badge {
+    color: #f4f4f4;
     background-color: black; }
 
 .experience-wrapper .experience-item:last-child {

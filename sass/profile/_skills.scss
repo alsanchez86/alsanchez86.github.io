@@ -9,43 +9,43 @@
         }
 
         &.skills-item-frontend {
-            @include progress_wrapper($color_frontend);
+            @include skills_progress_bar($color_frontend);
         }
 
         &.skills-item-backend {
-            @include progress_wrapper($color_backend);
+            @include skills_progress_bar($color_backend);
         }
 
         &.skills-item-sistemas {
-            @include progress_wrapper($color_systems);
+            @include skills_progress_bar($color_systems);
         }
 
         &.skills-item-versiones {
-            @include progress_wrapper($color_versions);
+            @include skills_progress_bar($color_versions);
         }
 
         &.skills-item-dependencias {
-            @include progress_wrapper($color_dependencies);
+            @include skills_progress_bar($color_dependencies);
         }
 
         &.skills-item-otros {
-            @include progress_wrapper($color_others);
+            @include skills_progress_bar($color_others);
         }
 
         &.skills-item-ma {
-            @include progress_wrapper($color_agile);
+            @include skills_progress_bar($color_agile);
         }
 
         &.skills-item-accesibilidad {
-            @include progress_wrapper($color_accesibility);
+            @include skills_progress_bar($color_accesibility);
         }
 
         &.skills-item-design {
-            @include progress_wrapper($color_design);
+            @include skills_progress_bar($color_design);
         }
 
         &.skills-item-despliegues {
-            @include progress_wrapper($color_updates);
+            @include skills_progress_bar($color_updates);
         }
 
         &.skills-item-animated {
