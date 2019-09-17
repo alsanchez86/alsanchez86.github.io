@@ -7,7 +7,21 @@ define(["module", "jquery_cache_module"], function (module, _$) {
     /**
      *
      * @return {void}
-     * */
+     */
+    module.exports.animateProgressAll = function () {
+        var animateClass = "skills-item-animated";
+        var $wrappers = _$(".skills-item");
+
+        $wrappers
+            .each(function (index, domElem) {
+                _$("#" + domElem.id).addClass(animateClass);
+            });
+    }
+
+    /**
+     *
+     * @return {void}
+     */
     module.exports.animateProgressBar = function () {
         // Exec on init
         broadcastAnimateProgress(500);
@@ -21,6 +35,10 @@ define(["module", "jquery_cache_module"], function (module, _$) {
             });
     }
 
+    /**
+     *
+     * @return {void}
+     */
     function _animateProgress() {
         var animateClass = "skills-item-animated";
         var wHeight = _$("window", window).height();
@@ -39,6 +57,10 @@ define(["module", "jquery_cache_module"], function (module, _$) {
         });
     }
 
+    /**
+     *
+     * @return {void}
+     */
     function broadcastAnimateProgress(delay) {
         if (interval) {
             clearTimeout(interval);
