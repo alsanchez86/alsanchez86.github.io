@@ -1,17 +1,8 @@
 .intro {
+    position: relative;
     padding: 50px 0 20px 0;
     margin: 0;
-    position: relative;
     border-top: 5px solid #333;
-
-    .profile-img {
-        display: block;
-        text-align: center;
-
-        img {
-            width: 100%;
-        }
-    }
 
     .name-wrapper {
         margin-bottom: 30px;
@@ -76,10 +67,6 @@
 @media (max-width : 768px) {
     .intro {
         padding: 20px 0;
-
-        .profile-img {
-            margin: 0 0 30px;
-        }
     }
 }
 
