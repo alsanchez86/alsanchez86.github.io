@@ -6383,35 +6383,35 @@ ul {
 div.main-wrapper {
   overflow: hidden; }
 
-div.header {
+header.header {
   padding: 50px 0 20px 0;
   margin: 0;
   position: relative;
   border-top: 5px solid #333; }
-  div.header div.profile-img {
+  header.header div.profile-img {
     display: block;
     text-align: center; }
-    div.header div.profile-img img {
+    header.header div.profile-img img {
       width: 100%; }
-  div.header div.name-wrapper {
+  header.header div.name-wrapper {
     margin-bottom: 30px; }
-    div.header div.name-wrapper h1 {
+    header.header div.name-wrapper h1 {
       text-transform: uppercase;
       line-height: 1;
       margin: 0 0 5px; }
-    div.header div.name-wrapper span {
+    header.header div.name-wrapper span {
       font-size: 24px;
       color: #010101; }
-  div.header div.personal-detail {
+  header.header div.personal-detail {
     margin: 10px 0; }
-    div.header div.personal-detail strong {
+    header.header div.personal-detail strong {
       font-size: 13px;
       color: #010101;
       display: block;
       line-height: 1; }
-    div.header div.personal-detail small {
+    header.header div.personal-detail small {
       font-size: 12px; }
-    div.header div.personal-detail span {
+    header.header div.personal-detail span {
       color: #010101; }
 
 div.section-wrapper {
