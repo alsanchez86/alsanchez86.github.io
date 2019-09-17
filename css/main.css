@@ -6380,60 +6380,59 @@ ul {
   padding-left: 20px;
   list-style: square; }
 
-.main-wrapper {
+div.main-wrapper {
   overflow: hidden; }
 
-.section-wrapper {
-  padding: 50px 0; }
-
-h2.section-title {
-  margin-right: 30px;
-  margin-bottom: 5px;
-  font-size: 14px;
-  color: #010101;
-  text-transform: uppercase;
-  text-align: right; }
-
-.header {
+div.header {
   padding: 50px 0 20px 0;
   margin: 0;
   position: relative;
   border-top: 5px solid #333; }
-  .header .profile-img {
+  div.header div.profile-img {
     display: block;
     text-align: center; }
-    .header .profile-img img {
+    div.header div.profile-img img {
       width: 100%; }
-  .header .name-wrapper {
+  div.header div.name-wrapper {
     margin-bottom: 30px; }
-    .header .name-wrapper h1 {
+    div.header div.name-wrapper h1 {
       text-transform: uppercase;
       line-height: 1;
       margin: 0 0 5px; }
-    .header .name-wrapper span {
+    div.header div.name-wrapper span {
       font-size: 24px;
       color: #010101; }
-  .header .personal-details {
+  div.header div.personal-detail {
     margin: 10px 0; }
-    .header .personal-details strong {
+    div.header div.personal-detail strong {
       font-size: 13px;
       color: #010101;
       display: block;
       line-height: 1; }
-    .header .personal-details small {
+    div.header div.personal-detail small {
       font-size: 12px; }
-    .header .personal-details span {
+    div.header div.personal-detail span {
       color: #010101; }
 
-.social-icon {
+div.section-wrapper {
+  padding: 50px 0; }
+  div.section-wrapper h2.section-title {
+    margin-right: 30px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #010101;
+    text-transform: uppercase;
+    text-align: right; }
+
+ul.social-list {
   margin: 15px 0 0 0;
   padding: 0;
   display: block;
   text-align: center; }
-  .social-icon li {
+  ul.social-list li {
     display: inline-block;
     margin: 0 15px; }
-    .social-icon li a {
+    ul.social-list li a {
       display: block;
       font-size: 20px;
       color: #010101;
@@ -6441,41 +6440,41 @@ h2.section-title {
       text-align: center;
       border-radius: 2px; }
 
-.download-cv {
+div.download-cv {
   text-align: center; }
 
-.skills-wrapper .col-md-6:last-child .progress-wrapper {
+div.skills-wrapper .col-md-6:last-child div.skills-wrapper-item {
   margin-bottom: 0; }
 
-.progress-wrapper {
+div.skills-wrapper-item {
   margin-bottom: 75px; }
-  .progress-wrapper h3 {
+  div.skills-wrapper-item h3 {
     font-size: 12px;
     text-align: center;
     text-transform: uppercase; }
-  .progress-wrapper.progress-wrapper-frontend .progress-item .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-frontend .progress-item .progress-bar {
     background-color: #fbbc05; }
-  .progress-wrapper.progress-wrapper-backend .progress-item .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-backend .progress-item .progress-bar {
     background-color: #4285f4; }
-  .progress-wrapper.progress-wrapper-sistemas .progress-item .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-sistemas .progress-item .progress-bar {
     background-color: #34a853; }
-  .progress-wrapper.progress-wrapper-versiones .progress-item .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-versiones .progress-item .progress-bar {
     background-color: crimson; }
-  .progress-wrapper.progress-wrapper-dependencias .progress-item .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-dependencias .progress-item .progress-bar {
     background-color: #6b23ae; }
-  .progress-wrapper.progress-wrapper-otros .progress-item .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-otros .progress-item .progress-bar {
     background-color: black; }
-  .progress-wrapper.progress-wrapper-ma .progress-item .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-ma .progress-item .progress-bar {
     background-color: black; }
-  .progress-wrapper.progress-wrapper-accesibilidad .progress-item .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-accesibilidad .progress-item .progress-bar {
     background-color: black; }
-  .progress-wrapper.progress-wrapper-design .progress-item .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-design .progress-item .progress-bar {
     background-color: black; }
-  .progress-wrapper.progress-wrapper-despliegues .progress-item .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-despliegues .progress-item .progress-bar {
     background-color: black; }
-  .progress-wrapper .progress-item .progress .progress-bar {
+  div.skills-wrapper-item .progress-item .progress .progress-bar {
     opacity: 0; }
-  .progress-wrapper.progress-wrapper-animated .progress-item .progress .progress-bar {
+  div.skills-wrapper-item.skills-wrapper-item-animated .progress-item .progress .progress-bar {
     opacity: 1;
     animation-name: animateBar;
     animation-iteration-count: 1;
@@ -6500,6 +6499,9 @@ h2.section-title {
       background-color: #010101;
       box-shadow: none;
       text-align: right; }
+
+.experience-wrapper .profile-item:last-child {
+  margin-bottom: 0; }
 
 .profile-item {
   margin-bottom: 80px; }
@@ -6543,9 +6545,6 @@ h2.section-title {
     background-color: black; }
   .profile-item .profile-item-batch-design .badge {
     background-color: black; }
-
-.profile-wrapper .profile-item:last-child {
-  margin-bottom: 0; }
 
 .content-item {
   margin-bottom: 40px; }
@@ -6609,7 +6608,7 @@ h2.section-title {
     padding: 20px 0; }
   .header .profile-img {
     margin: 0 0 30px; }
-  .progress-wrapper {
+  div.skills-wrapper-item {
     margin-bottom: 50px; } }
 
 @media (max-width: 992px) {
@@ -6617,11 +6616,11 @@ h2.section-title {
     margin-bottom: 20px;
     font-size: 32px;
     text-align: left; }
-  .header .name-wrapper {
+  div.header .name-wrapper {
     text-align: center; }
-  .social-icon {
+  div.social-list {
     margin: 0 0 5px 0; }
-  .download-cv {
+  div.download-cv {
     margin: 0 0 20px 0; } }
 
 @keyframes animateBar {

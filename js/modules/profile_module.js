@@ -22,10 +22,10 @@ define(["module", "jquery_cache_module"], function (module, _$) {
     }
 
     function _animateProgress() {
-        var animateClass = "progress-wrapper-animated";
+        var animateClass = "skills-wrapper-item-animated";
         var wHeight = _$("window", window).height();
         var wTop = _$("window", window).scrollTop();
-        var _$wrappers = _$(".progress-wrapper");
+        var _$wrappers = _$(".skills-wrapper-item");
 
         _$wrappers.each(function (index, domElem) {
             var id = ("#" + domElem.id);

@@ -1,5 +1,3 @@
-// General
-
 body {
     font-family: 'Inter';
     font-size: 14px;
@@ -12,8 +10,6 @@ body {
 textarea {
     resize: none;
 }
-
-// Typography
 
 h1,
 h2,
@@ -55,8 +51,6 @@ h6 {
     font-size: 15px;
 }
 
-// Link style
-
 a {
     color: $color_text;
     text-decoration: none;
@@ -97,38 +91,21 @@ ul {
     list-style: square;
 }
 
-// main Wrapper
+// Main wrapper
 
-.main-wrapper {
+div.main-wrapper {
     overflow: hidden;
 }
 
-// Section Wrapper
+// Header
 
-.section-wrapper {
-    padding: 50px 0;
-}
-
-// Section Title
-
-h2.section-title {
-    margin-right: 30px;
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: $color_text;
-    text-transform: uppercase;
-    text-align: right;
-}
-
-// NAVIGATION & HEADER STYLE
-
-.header {
+div.header {
     padding: 50px 0 20px 0;
     margin: 0;
     position: relative;
     border-top: 5px solid #333;
 
-    .profile-img {
+    div.profile-img {
         display: block;
         text-align: center;
 
@@ -137,7 +114,7 @@ h2.section-title {
         }
     }
 
-    .name-wrapper {
+    div.name-wrapper {
         margin-bottom: 30px;
 
         h1 {
@@ -152,7 +129,7 @@ h2.section-title {
         }
     }
 
-    .personal-details {
+    div.personal-detail {
         margin: 10px 0;
 
         strong {
@@ -172,9 +149,24 @@ h2.section-title {
     }
 }
 
+// Section Wrapper
+
+div.section-wrapper {
+    padding: 50px 0;
+
+    h2.section-title {
+        margin-right: 30px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: $color_text;
+        text-transform: uppercase;
+        text-align: right;
+    }
+}
+
 // Social Icon
 
-.social-icon {
+ul.social-list {
     margin: 15px 0 0 0;
     padding: 0;
     display: block;
@@ -196,23 +188,23 @@ h2.section-title {
 }
 
 // download cv
-.download-cv {
+div.download-cv {
     text-align: center;
 }
 
 // Skills Progressbar
 
-.skills-wrapper {
+div.skills-wrapper {
     .col-md-6 {
         &:last-child {
-            .progress-wrapper {
+            div.skills-wrapper-item {
                 margin-bottom: 0;
             }
         }
     }
 }
 
-.progress-wrapper {
+div.skills-wrapper-item {
     margin-bottom: 75px;
 
     h3 {
@@ -221,43 +213,43 @@ h2.section-title {
         text-transform: uppercase;
     }
 
-    &.progress-wrapper-frontend {
+    &.skills-wrapper-item-frontend {
         @include progress_wrapper($color_frontend);
     }
 
-    &.progress-wrapper-backend {
+    &.skills-wrapper-item-backend {
         @include progress_wrapper($color_backend);
     }
 
-    &.progress-wrapper-sistemas {
+    &.skills-wrapper-item-sistemas {
         @include progress_wrapper($color_systems);
     }
 
-    &.progress-wrapper-versiones {
+    &.skills-wrapper-item-versiones {
         @include progress_wrapper($color_versions);
     }
 
-    &.progress-wrapper-dependencias {
+    &.skills-wrapper-item-dependencias {
         @include progress_wrapper($color_dependencies);
     }
 
-    &.progress-wrapper-otros {
+    &.skills-wrapper-item-otros {
         @include progress_wrapper($color_others);
     }
 
-    &.progress-wrapper-ma {
+    &.skills-wrapper-item-ma {
         @include progress_wrapper($color_agile);
     }
 
-    &.progress-wrapper-accesibilidad {
+    &.skills-wrapper-item-accesibilidad {
         @include progress_wrapper($color_accesibility);
     }
 
-    &.progress-wrapper-design {
+    &.skills-wrapper-item-design {
         @include progress_wrapper($color_design);
     }
 
-    &.progress-wrapper-despliegues {
+    &.skills-wrapper-item-despliegues {
         @include progress_wrapper($color_updates);
     }
 
@@ -269,7 +261,7 @@ h2.section-title {
         }
     }
 
-    &.progress-wrapper-animated {
+    &.skills-wrapper-item-animated {
         .progress-item {
             .progress {
                 .progress-bar {
@@ -310,7 +302,13 @@ h2.section-title {
     }
 }
 
-// Market Place Profile
+.experience-wrapper {
+    .profile-item {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
 
 .profile-item {
     margin-bottom: 80px;
@@ -410,16 +408,6 @@ h2.section-title {
     }
 }
 
-// Section Profile
-
-.profile-wrapper {
-    .profile-item {
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
-}
-
 // Content Item
 
 .content-item {
@@ -513,7 +501,7 @@ h2.section-title {
         margin: 0 0 30px;
     }
 
-    .progress-wrapper {
+    div.skills-wrapper-item {
         margin-bottom: 50px;
     }
 }
@@ -525,17 +513,17 @@ h2.section-title {
         text-align: left;
     }
 
-    .header {
+    div.header {
         .name-wrapper {
             text-align: center;
         }
     }
 
-    .social-icon {
+    div.social-list {
         margin: 0 0 5px 0;
     }
 
-    .download-cv {
+    div.download-cv {
         margin: 0 0 20px 0;
     }
 }
