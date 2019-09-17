@@ -1,7 +1,9 @@
 @mixin progress_wrapper ($color: $color) {
     .progress-item {
-        .progress-bar {
-            background-color: $color;
+        .progress {
+            .progress-bar {
+                background-color: $color;
+            }
         }
     }
 }

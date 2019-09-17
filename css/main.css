@@ -6503,25 +6503,25 @@ ul {
     font-size: 12px;
     text-align: center;
     text-transform: uppercase; }
-  .skills-wrapper .skills-item.skills-item-frontend .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-frontend .progress-item .progress .progress-bar {
     background-color: #fbbc05; }
-  .skills-wrapper .skills-item.skills-item-backend .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-backend .progress-item .progress .progress-bar {
     background-color: #4285f4; }
-  .skills-wrapper .skills-item.skills-item-sistemas .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-sistemas .progress-item .progress .progress-bar {
     background-color: #34a853; }
-  .skills-wrapper .skills-item.skills-item-versiones .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-versiones .progress-item .progress .progress-bar {
     background-color: crimson; }
-  .skills-wrapper .skills-item.skills-item-dependencias .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-dependencias .progress-item .progress .progress-bar {
     background-color: #6b23ae; }
-  .skills-wrapper .skills-item.skills-item-otros .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-otros .progress-item .progress .progress-bar {
     background-color: black; }
-  .skills-wrapper .skills-item.skills-item-ma .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-ma .progress-item .progress .progress-bar {
     background-color: black; }
-  .skills-wrapper .skills-item.skills-item-accesibilidad .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-accesibilidad .progress-item .progress .progress-bar {
     background-color: black; }
-  .skills-wrapper .skills-item.skills-item-design .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-design .progress-item .progress .progress-bar {
     background-color: black; }
-  .skills-wrapper .skills-item.skills-item-despliegues .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-despliegues .progress-item .progress .progress-bar {
     background-color: black; }
   .skills-wrapper .skills-item.skills-item-animated .progress-item .progress .progress-bar {
     opacity: 1;
