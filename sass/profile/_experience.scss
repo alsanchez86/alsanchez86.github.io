@@ -1,72 +1,70 @@
-.experience-wrapper {
-    .experience-item {
-        margin-bottom: 80px;
+.experience-item {
+    margin-bottom: 80px;
 
-        &:last-child {
-            margin-bottom: 0;
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        margin-bottom: 5px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    .media-left {
+        padding-right: 35px;
+    }
+
+    .experience-item-batch {
+        margin-bottom: 25px;
+
+        .experience-item-batch-frontend {
+            @include experience_badge($color_frontend, $color_text);
         }
 
-        h3 {
-            font-size: 18px;
-            text-transform: uppercase;
+        .experience-item-batch-backend {
+            @include experience_badge($color_backend);
         }
 
-        h4 {
-            margin-bottom: 5px;
-            font-size: 13px;
-            font-weight: 700;
+        .experience-item-batch-sistemas {
+            @include experience_badge($color_systems);
         }
 
-        a {
-            text-decoration: underline;
+        .experience-item-batch-versiones {
+            @include experience_badge($color_versions);
         }
 
-        .media-left {
-            padding-right: 35px;
+        .experience-item-batch-despliegues {
+            @include experience_badge($color_updates);
         }
 
-        .experience-item-batch {
-            margin-bottom: 25px;
+        .experience-item-batch-dependencias {
+            @include experience_badge($color_dependencies);
+        }
 
-            .experience-item-batch-frontend {
-                @include experience_badge($color_frontend, $color_text);
-            }
+        .experience-item-batch-ma {
+            @include experience_badge($color_agile);
+        }
 
-            .experience-item-batch-backend {
-                @include experience_badge($color_backend);
-            }
+        .experience-item-batch-otros {
+            @include experience_badge($color_others);
+        }
 
-            .experience-item-batch-sistemas {
-                @include experience_badge($color_systems);
-            }
+        .experience-item-batch-accesibilidad {
+            @include experience_badge($color_accesibility);
+        }
 
-            .experience-item-batch-versiones {
-                @include experience_badge($color_versions);
-            }
-
-            .experience-item-batch-despliegues {
-                @include experience_badge($color_updates);
-            }
-
-            .experience-item-batch-dependencias {
-                @include experience_badge($color_dependencies);
-            }
-
-            .experience-item-batch-ma {
-                @include experience_badge($color_agile);
-            }
-
-            .experience-item-batch-otros {
-                @include experience_badge($color_others);
-            }
-
-            .experience-item-batch-accesibilidad {
-                @include experience_badge($color_accesibility);
-            }
-
-            .experience-item-batch-design {
-                @include experience_badge($color_design);
-            }
+        .experience-item-batch-design {
+            @include experience_badge($color_design);
         }
     }
 }

@@ -1,99 +1,99 @@
 .skills-wrapper {
-    .skills-item {
-        margin-bottom: 75px;
-
-        h3 {
-            font-size: 12px;
-            text-align: center;
-            text-transform: uppercase;
-        }
-
-        &.skills-item-frontend {
-            @include skills_progress_bar($color_frontend);
-        }
-
-        &.skills-item-backend {
-            @include skills_progress_bar($color_backend);
-        }
-
-        &.skills-item-sistemas {
-            @include skills_progress_bar($color_systems);
-        }
-
-        &.skills-item-versiones {
-            @include skills_progress_bar($color_versions);
-        }
-
-        &.skills-item-dependencias {
-            @include skills_progress_bar($color_dependencies);
-        }
-
-        &.skills-item-otros {
-            @include skills_progress_bar($color_others);
-        }
-
-        &.skills-item-ma {
-            @include skills_progress_bar($color_agile);
-        }
-
-        &.skills-item-accesibilidad {
-            @include skills_progress_bar($color_accesibility);
-        }
-
-        &.skills-item-design {
-            @include skills_progress_bar($color_design);
-        }
-
-        &.skills-item-despliegues {
-            @include skills_progress_bar($color_updates);
-        }
-
-        &.skills-item-animated {
-            .progress-item {
-                .progress {
-                    .progress-bar {
-                        opacity: 1;
-                        animation-name: animateBar;
-                        animation-iteration-count: 1;
-                        animation-timing-function: ease-in;
-                        animation-duration: 1s;
-                    }
-                }
+    .col-md-6 {
+        &:last-child {
+            .skills-item {
+                margin-bottom: 0;
             }
         }
+    }
+}
 
+.skills-item {
+    margin-bottom: 75px;
+
+    h3 {
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &.skills-item-frontend {
+        @include skills_progress_bar($color_frontend);
+    }
+
+    &.skills-item-backend {
+        @include skills_progress_bar($color_backend);
+    }
+
+    &.skills-item-sistemas {
+        @include skills_progress_bar($color_systems);
+    }
+
+    &.skills-item-versiones {
+        @include skills_progress_bar($color_versions);
+    }
+
+    &.skills-item-dependencias {
+        @include skills_progress_bar($color_dependencies);
+    }
+
+    &.skills-item-otros {
+        @include skills_progress_bar($color_others);
+    }
+
+    &.skills-item-ma {
+        @include skills_progress_bar($color_agile);
+    }
+
+    &.skills-item-accesibilidad {
+        @include skills_progress_bar($color_accesibility);
+    }
+
+    &.skills-item-design {
+        @include skills_progress_bar($color_design);
+    }
+
+    &.skills-item-despliegues {
+        @include skills_progress_bar($color_updates);
+    }
+
+    &.skills-item-animated {
         .progress-item {
-            position: relative;
-
-            .progress-title {
-                display: block;
-                margin-bottom: 2px;
-                font-size: 12px;
-                font-weight: 400;
-                font-style: italic;
-            }
-
             .progress {
-                height: 1px;
-                margin-bottom: 15px;
-                box-shadow: none;
-                border-radius: 0;
-                background: transparent;
-
                 .progress-bar {
-                    opacity: 0;
-                    background-color: $color_text;
-                    box-shadow: none;
-                    text-align: right;
+                    opacity: 1;
+                    animation-name: animateBar;
+                    animation-iteration-count: 1;
+                    animation-timing-function: ease-in;
+                    animation-duration: 1s;
                 }
             }
         }
     }
 
-    .col-md-6 {
-        &:last-child {
-            .skills-item {
-                margin-bottom: 0;
+    .progress-item {
+        position: relative;
+
+        .progress-title {
+            display: block;
+            margin-bottom: 2px;
+            font-size: 12px;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .progress {
+            height: 1px;
+            margin-bottom: 15px;
+            box-shadow: none;
+            border-radius: 0;
+            background: transparent;
+
+            .progress-bar {
+                opacity: 0;
+                background-color: $color_text;
+                box-shadow: none;
+                text-align: right;
             }
         }
     }

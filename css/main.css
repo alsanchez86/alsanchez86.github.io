@@ -6475,60 +6475,60 @@ h2.section-title {
   .intro .download-cv {
     margin: 0 0 20px 0; } }
 
-.skills-wrapper .skills-item {
+.skills-wrapper .col-md-6:last-child .skills-item {
+  margin-bottom: 0; }
+
+.skills-item {
   margin-bottom: 75px; }
-  .skills-wrapper .skills-item h3 {
+  .skills-item h3 {
     font-size: 12px;
     text-align: center;
     text-transform: uppercase; }
-  .skills-wrapper .skills-item.skills-item-frontend .progress-item .progress .progress-bar {
+  .skills-item.skills-item-frontend .progress-item .progress .progress-bar {
     background-color: #fbbc05; }
-  .skills-wrapper .skills-item.skills-item-backend .progress-item .progress .progress-bar {
+  .skills-item.skills-item-backend .progress-item .progress .progress-bar {
     background-color: #4285f4; }
-  .skills-wrapper .skills-item.skills-item-sistemas .progress-item .progress .progress-bar {
+  .skills-item.skills-item-sistemas .progress-item .progress .progress-bar {
     background-color: #34a853; }
-  .skills-wrapper .skills-item.skills-item-versiones .progress-item .progress .progress-bar {
+  .skills-item.skills-item-versiones .progress-item .progress .progress-bar {
     background-color: crimson; }
-  .skills-wrapper .skills-item.skills-item-dependencias .progress-item .progress .progress-bar {
+  .skills-item.skills-item-dependencias .progress-item .progress .progress-bar {
     background-color: #6b23ae; }
-  .skills-wrapper .skills-item.skills-item-otros .progress-item .progress .progress-bar {
+  .skills-item.skills-item-otros .progress-item .progress .progress-bar {
     background-color: #7FC44B; }
-  .skills-wrapper .skills-item.skills-item-ma .progress-item .progress .progress-bar {
+  .skills-item.skills-item-ma .progress-item .progress .progress-bar {
     background-color: #F26419; }
-  .skills-wrapper .skills-item.skills-item-accesibilidad .progress-item .progress .progress-bar {
+  .skills-item.skills-item-accesibilidad .progress-item .progress .progress-bar {
     background-color: #084A62; }
-  .skills-wrapper .skills-item.skills-item-design .progress-item .progress .progress-bar {
+  .skills-item.skills-item-design .progress-item .progress .progress-bar {
     background-color: #2D0320; }
-  .skills-wrapper .skills-item.skills-item-despliegues .progress-item .progress .progress-bar {
+  .skills-item.skills-item-despliegues .progress-item .progress .progress-bar {
     background-color: #00171F; }
-  .skills-wrapper .skills-item.skills-item-animated .progress-item .progress .progress-bar {
+  .skills-item.skills-item-animated .progress-item .progress .progress-bar {
     opacity: 1;
     animation-name: animateBar;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 1s; }
-  .skills-wrapper .skills-item .progress-item {
+  .skills-item .progress-item {
     position: relative; }
-    .skills-wrapper .skills-item .progress-item .progress-title {
+    .skills-item .progress-item .progress-title {
       display: block;
       margin-bottom: 2px;
       font-size: 12px;
       font-weight: 400;
       font-style: italic; }
-    .skills-wrapper .skills-item .progress-item .progress {
+    .skills-item .progress-item .progress {
       height: 1px;
       margin-bottom: 15px;
       box-shadow: none;
       border-radius: 0;
       background: transparent; }
-      .skills-wrapper .skills-item .progress-item .progress .progress-bar {
+      .skills-item .progress-item .progress .progress-bar {
         opacity: 0;
         background-color: #010101;
         box-shadow: none;
         text-align: right; }
-
-.skills-wrapper .col-md-6:last-child .skills-item {
-  margin-bottom: 0; }
 
 @media (max-width: 768px) {
   .skills-item {
@@ -6540,72 +6540,72 @@ h2.section-title {
   100% {
     transform: translateX(0); } }
 
-.experience-wrapper .experience-item {
+.experience-item {
   margin-bottom: 80px; }
-  .experience-wrapper .experience-item:last-child {
+  .experience-item:last-child {
     margin-bottom: 0; }
-  .experience-wrapper .experience-item h3 {
+  .experience-item h3 {
     font-size: 18px;
     text-transform: uppercase; }
-  .experience-wrapper .experience-item h4 {
+  .experience-item h4 {
     margin-bottom: 5px;
     font-size: 13px;
     font-weight: 700; }
-  .experience-wrapper .experience-item a {
+  .experience-item a {
     text-decoration: underline; }
-  .experience-wrapper .experience-item .media-left {
+  .experience-item .media-left {
     padding-right: 35px; }
-  .experience-wrapper .experience-item .experience-item-batch {
+  .experience-item .experience-item-batch {
     margin-bottom: 25px; }
-    .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-frontend .badge {
+    .experience-item .experience-item-batch .experience-item-batch-frontend .badge {
       font-weight: 400;
       color: #010101;
       background-color: #fbbc05; }
-    .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-backend .badge {
+    .experience-item .experience-item-batch .experience-item-batch-backend .badge {
       font-weight: 400;
       color: #f4f4f4;
       background-color: #4285f4; }
-    .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-sistemas .badge {
+    .experience-item .experience-item-batch .experience-item-batch-sistemas .badge {
       font-weight: 400;
       color: #f4f4f4;
       background-color: #34a853; }
-    .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-versiones .badge {
+    .experience-item .experience-item-batch .experience-item-batch-versiones .badge {
       font-weight: 400;
       color: #f4f4f4;
       background-color: crimson; }
-    .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-despliegues .badge {
+    .experience-item .experience-item-batch .experience-item-batch-despliegues .badge {
       font-weight: 400;
       color: #f4f4f4;
       background-color: #00171F; }
-    .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-dependencias .badge {
+    .experience-item .experience-item-batch .experience-item-batch-dependencias .badge {
       font-weight: 400;
       color: #f4f4f4;
       background-color: #6b23ae; }
-    .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-ma .badge {
+    .experience-item .experience-item-batch .experience-item-batch-ma .badge {
       font-weight: 400;
       color: #f4f4f4;
       background-color: #F26419; }
-    .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-otros .badge {
+    .experience-item .experience-item-batch .experience-item-batch-otros .badge {
       font-weight: 400;
       color: #f4f4f4;
       background-color: #7FC44B; }
-    .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-accesibilidad .badge {
+    .experience-item .experience-item-batch .experience-item-batch-accesibilidad .badge {
       font-weight: 400;
       color: #f4f4f4;
       background-color: #084A62; }
-    .experience-wrapper .experience-item .experience-item-batch .experience-item-batch-design .badge {
+    .experience-item .experience-item-batch .experience-item-batch-design .badge {
       font-weight: 400;
       color: #f4f4f4;
       background-color: #2D0320; }
 
-.education-wrapper .education-item {
+.education-item {
   margin-bottom: 40px; }
-  .education-wrapper .education-item h3 {
+  .education-item h3 {
     margin: 0;
     line-height: 1.8em;
     font-weight: bold;
     text-transform: uppercase; }
-  .education-wrapper .education-item h4 {
+  .education-item h4 {
     margin: 0;
     line-height: 1.8em; }
 
