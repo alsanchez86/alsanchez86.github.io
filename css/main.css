@@ -6358,6 +6358,8 @@ a {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
+  a:focus, a:hover {
+    color: #010101; }
 
 p {
   margin-bottom: 20px; }
