@@ -6376,7 +6376,7 @@ ul {
   padding-left: 20px;
   list-style: square; }
 
-div.main-wrapper {
+.main-wrapper {
   overflow: hidden; }
 
 .section-wrapper {
@@ -6388,30 +6388,6 @@ div.main-wrapper {
     color: #010101;
     text-transform: uppercase;
     text-align: right; }
-
-.content-item {
-  margin-bottom: 40px; }
-  .content-item h3 {
-    margin: 0;
-    line-height: 1.8em;
-    font-weight: bold;
-    text-transform: uppercase; }
-  .content-item h4 {
-    margin: 0;
-    line-height: 1.8em; }
-  .content-item small {
-    color: #010101; }
-
-/* --------------------------------------------
- *   Footer
- *---------------------------------------------- */
-/* Copyright */
-.footer {
-  padding: 45px 0 80px;
-  font-size: 12px;
-  background-color: #EEE; }
-  .footer a i {
-    font-size: 16px; }
 
 .preloader {
   background: #FFF;
@@ -6460,172 +6436,192 @@ div.main-wrapper {
   100% {
     transform: translateX(0); } }
 
-header.header {
+.footer {
+  padding: 45px 0 80px;
+  font-size: 12px;
+  background-color: #EEE; }
+  .footer a i {
+    font-size: 16px; }
+
+.intro {
   padding: 50px 0 20px 0;
   margin: 0;
   position: relative;
   border-top: 5px solid #333; }
-  header.header div.profile-img {
+  .intro .profile-img {
     display: block;
     text-align: center; }
-    header.header div.profile-img img {
+    .intro .profile-img img {
       width: 100%; }
-  header.header div.name-wrapper {
+  .intro .name-wrapper {
     margin-bottom: 30px; }
-    header.header div.name-wrapper h1 {
+    .intro .name-wrapper h1 {
       text-transform: uppercase;
       line-height: 1;
       margin: 0 0 5px; }
-    header.header div.name-wrapper span {
+    .intro .name-wrapper span {
       font-size: 24px;
       color: #010101; }
-  header.header div.personal-detail {
+  .intro .personal-detail {
     margin: 10px 0; }
-    header.header div.personal-detail strong {
+    .intro .personal-detail strong {
       font-size: 13px;
       color: #010101;
       display: block;
       line-height: 1; }
-    header.header div.personal-detail small {
+    .intro .personal-detail small {
       font-size: 12px; }
-    header.header div.personal-detail span {
+    .intro .personal-detail span {
       color: #010101; }
-  header.header ul.social-list {
+  .intro ul.social-list {
     margin: 15px 0 0 0;
     padding: 0;
     display: block;
     text-align: center; }
-    header.header ul.social-list li {
+    .intro ul.social-list li {
       display: inline-block;
       margin: 0 15px; }
-      header.header ul.social-list li a {
+      .intro ul.social-list li a {
         display: block;
         font-size: 20px;
         color: #010101;
         line-height: 46px;
         text-align: center;
         border-radius: 2px; }
-  header.header div.download-cv {
+  .intro .download-cv {
     text-align: center; }
 
 @media (max-width: 768px) {
-  header.header {
+  .intro {
     padding: 20px 0; }
-    header.header .profile-img {
+    .intro .profile-img {
       margin: 0 0 30px; } }
 
 @media (max-width: 992px) {
-  header.header .name-wrapper {
+  .intro .name-wrapper {
     text-align: center; }
-  header.header ul.social-list {
+  .intro ul.social-list {
     margin: 0 0 5px 0; }
-  header.header div.download-cv {
+  .intro .download-cv {
     margin: 0 0 20px 0; } }
 
-.skills-wrapper div.skills-item {
+.skills-wrapper .skills-item {
   margin-bottom: 75px; }
-  .skills-wrapper div.skills-item h3 {
+  .skills-wrapper .skills-item h3 {
     font-size: 12px;
     text-align: center;
     text-transform: uppercase; }
-  .skills-wrapper div.skills-item.skills-item-frontend .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-frontend .progress-item .progress-bar {
     background-color: #fbbc05; }
-  .skills-wrapper div.skills-item.skills-item-backend .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-backend .progress-item .progress-bar {
     background-color: #4285f4; }
-  .skills-wrapper div.skills-item.skills-item-sistemas .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-sistemas .progress-item .progress-bar {
     background-color: #34a853; }
-  .skills-wrapper div.skills-item.skills-item-versiones .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-versiones .progress-item .progress-bar {
     background-color: crimson; }
-  .skills-wrapper div.skills-item.skills-item-dependencias .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-dependencias .progress-item .progress-bar {
     background-color: #6b23ae; }
-  .skills-wrapper div.skills-item.skills-item-otros .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-otros .progress-item .progress-bar {
     background-color: black; }
-  .skills-wrapper div.skills-item.skills-item-ma .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-ma .progress-item .progress-bar {
     background-color: black; }
-  .skills-wrapper div.skills-item.skills-item-accesibilidad .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-accesibilidad .progress-item .progress-bar {
     background-color: black; }
-  .skills-wrapper div.skills-item.skills-item-design .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-design .progress-item .progress-bar {
     background-color: black; }
-  .skills-wrapper div.skills-item.skills-item-despliegues .progress-item .progress-bar {
+  .skills-wrapper .skills-item.skills-item-despliegues .progress-item .progress-bar {
     background-color: black; }
-  .skills-wrapper div.skills-item.skills-item-animated .progress-item .progress .progress-bar {
+  .skills-wrapper .skills-item.skills-item-animated .progress-item .progress .progress-bar {
     opacity: 1;
     animation-name: animateBar;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 1s; }
-  .skills-wrapper div.skills-item div.progress-item {
+  .skills-wrapper .skills-item .progress-item {
     position: relative; }
-    .skills-wrapper div.skills-item div.progress-item div.progress-title {
+    .skills-wrapper .skills-item .progress-item .progress-title {
       display: block;
       margin-bottom: 2px;
       font-size: 12px;
       font-weight: 400;
       font-style: italic; }
-    .skills-wrapper div.skills-item div.progress-item div.progress {
+    .skills-wrapper .skills-item .progress-item .progress {
       height: 1px;
       margin-bottom: 15px;
       box-shadow: none;
       border-radius: 0;
       background: transparent; }
-      .skills-wrapper div.skills-item div.progress-item div.progress div.progress-bar {
+      .skills-wrapper .skills-item .progress-item .progress .progress-bar {
         opacity: 0;
         background-color: #010101;
         box-shadow: none;
         text-align: right; }
 
-.skills-wrapper div.col-md-6:last-child div.skills-item {
+.skills-wrapper .col-md-6:last-child .skills-item {
   margin-bottom: 0; }
 
 @media (max-width: 768px) {
-  div.skills-item {
+  .skills-item {
     margin-bottom: 50px; } }
 
-.experience-wrapper div.experience-item {
+.experience-wrapper .experience-item {
   margin-bottom: 80px; }
-  .experience-wrapper div.experience-item h3 {
+  .experience-wrapper .experience-item h3 {
     font-size: 18px;
     text-transform: uppercase; }
-  .experience-wrapper div.experience-item h4 {
+  .experience-wrapper .experience-item h4 {
     margin-bottom: 5px;
     font-size: 13px;
     font-weight: 700; }
-  .experience-wrapper div.experience-item a {
+  .experience-wrapper .experience-item a {
     text-decoration: underline; }
-    .experience-wrapper div.experience-item a:hover {
+    .experience-wrapper .experience-item a:hover {
       color: #010101; }
-  .experience-wrapper div.experience-item .media-left {
+  .experience-wrapper .experience-item .media-left {
     padding-right: 35px; }
-  .experience-wrapper div.experience-item .experience-item-batch {
+  .experience-wrapper .experience-item .experience-item-batch {
     margin-bottom: 25px; }
-  .experience-wrapper div.experience-item .badge {
+  .experience-wrapper .experience-item .badge {
     font-weight: 400;
     background-color: #666;
     color: #FFF; }
-  .experience-wrapper div.experience-item .experience-item-batch-frontend .badge {
+  .experience-wrapper .experience-item .experience-item-batch-frontend .badge {
     color: #010101;
     background-color: #fbbc05; }
-  .experience-wrapper div.experience-item .experience-item-batch-backend .badge {
+  .experience-wrapper .experience-item .experience-item-batch-backend .badge {
     background-color: #4285f4; }
-  .experience-wrapper div.experience-item .experience-item-batch-sistemas .badge {
+  .experience-wrapper .experience-item .experience-item-batch-sistemas .badge {
     background-color: #34a853; }
-  .experience-wrapper div.experience-item .experience-item-batch-versiones .badge {
+  .experience-wrapper .experience-item .experience-item-batch-versiones .badge {
     background-color: crimson; }
-  .experience-wrapper div.experience-item .experience-item-batch-despliegues .badge {
+  .experience-wrapper .experience-item .experience-item-batch-despliegues .badge {
     background-color: black; }
-  .experience-wrapper div.experience-item .experience-item-batch-dependencias .badge {
+  .experience-wrapper .experience-item .experience-item-batch-dependencias .badge {
     background-color: #6b23ae; }
-  .experience-wrapper div.experience-item .experience-item-batch-ma .badge {
+  .experience-wrapper .experience-item .experience-item-batch-ma .badge {
     background-color: black; }
-  .experience-wrapper div.experience-item .experience-item-batch-otros .badge {
+  .experience-wrapper .experience-item .experience-item-batch-otros .badge {
     background-color: black; }
-  .experience-wrapper div.experience-item .experience-item-batch-accesibilidad .badge {
+  .experience-wrapper .experience-item .experience-item-batch-accesibilidad .badge {
     background-color: black; }
-  .experience-wrapper div.experience-item .experience-item-batch-design .badge {
+  .experience-wrapper .experience-item .experience-item-batch-design .badge {
     background-color: black; }
 
 .experience-wrapper .experience-item:last-child {
   margin-bottom: 0; }
+
+.education-wrapper .education-item {
+  margin-bottom: 40px; }
+  .education-wrapper .education-item h3 {
+    margin: 0;
+    line-height: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .education-wrapper .education-item h4 {
+    margin: 0;
+    line-height: 1.8em; }
+  .education-wrapper .education-item small {
+    color: #010101; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome

@@ -1,0 +1,21 @@
+.education-wrapper {
+    .education-item {
+        margin-bottom: 40px;
+
+        h3 {
+            margin: 0;
+            line-height: 1.8em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        h4 {
+            margin: 0;
+            line-height: 1.8em;
+        }
+
+        small {
+            color: $color_text;
+        }
+    }
+}

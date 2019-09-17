@@ -1,10 +1,10 @@
-header.header {
+.intro {
     padding: 50px 0 20px 0;
     margin: 0;
     position: relative;
     border-top: 5px solid #333;
 
-    div.profile-img {
+    .profile-img {
         display: block;
         text-align: center;
 
@@ -13,7 +13,7 @@ header.header {
         }
     }
 
-    div.name-wrapper {
+    .name-wrapper {
         margin-bottom: 30px;
 
         h1 {
@@ -28,7 +28,7 @@ header.header {
         }
     }
 
-    div.personal-detail {
+    .personal-detail {
         margin: 10px 0;
 
         strong {
@@ -68,13 +68,13 @@ header.header {
         }
     }
 
-    div.download-cv {
+    .download-cv {
         text-align: center;
     }
 }
 
 @media (max-width : 768px) {
-    header.header {
+    .intro {
         padding: 20px 0;
 
         .profile-img {
@@ -84,7 +84,7 @@ header.header {
 }
 
 @media (max-width: 992px) {
-    header.header {
+    .intro {
         .name-wrapper {
             text-align: center;
         }
@@ -93,7 +93,7 @@ header.header {
             margin: 0 0 5px 0;
         }
 
-        div.download-cv {
+        .download-cv {
             margin: 0 0 20px 0;
         }
     }

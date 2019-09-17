@@ -5,7 +5,10 @@
 @import "bootstrap_customize";
 // Custom
 @import "custom";
+// Partials
+@import "footer";
 // Sections
-@import "header";
+@import "intro";
 @import "skills";
 @import "experience";
+@import "education";

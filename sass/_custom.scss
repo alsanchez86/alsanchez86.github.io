@@ -86,7 +86,7 @@ ul {
     list-style: square;
 }
 
-div.main-wrapper {
+.main-wrapper {
     overflow: hidden;
 }
 
@@ -100,46 +100,6 @@ div.main-wrapper {
         color: $color_text;
         text-transform: uppercase;
         text-align: right;
-    }
-}
-
-// Content Item
-
-.content-item {
-    margin-bottom: 40px;
-
-    h3 {
-        margin: 0;
-        line-height: 1.8em;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-
-    h4 {
-        margin: 0;
-        line-height: 1.8em;
-    }
-
-    small {
-        color: $color_text;
-    }
-}
-
-/* --------------------------------------------
- *   Footer
- *---------------------------------------------- */
-
-/* Copyright */
-
-.footer {
-    padding: 45px 0 80px;
-    font-size: 12px;
-    background-color: #EEE;
-
-    a {
-        i {
-            font-size: 16px;
-        }
     }
 }
 

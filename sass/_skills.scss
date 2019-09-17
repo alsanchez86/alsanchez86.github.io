@@ -1,5 +1,5 @@
 .skills-wrapper {
-    div.skills-item {
+    .skills-item {
         margin-bottom: 75px;
 
         h3 {
@@ -62,10 +62,10 @@
             }
         }
 
-        div.progress-item {
+        .progress-item {
             position: relative;
 
-            div.progress-title {
+            .progress-title {
                 display: block;
                 margin-bottom: 2px;
                 font-size: 12px;
@@ -73,14 +73,14 @@
                 font-style: italic;
             }
 
-            div.progress {
+            .progress {
                 height: 1px;
                 margin-bottom: 15px;
                 box-shadow: none;
                 border-radius: 0;
                 background: transparent;
 
-                div.progress-bar {
+                .progress-bar {
                     opacity: 0;
                     background-color: $color_text;
                     box-shadow: none;
@@ -90,9 +90,9 @@
         }
     }
 
-    div.col-md-6 {
+    .col-md-6 {
         &:last-child {
-            div.skills-item {
+            .skills-item {
                 margin-bottom: 0;
             }
         }
@@ -100,7 +100,7 @@
 }
 
 @media (max-width : 768px) {
-    div.skills-item {
+    .skills-item {
         margin-bottom: 50px;
     }
 }
