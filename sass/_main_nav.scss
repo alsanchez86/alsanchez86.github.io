@@ -6,4 +6,8 @@
     z-index: 1030;
     background-color: $color_background;
     border-bottom: 1px solid $color_text;
+
+    .nav-bar {
+        justify-content: flex-end;
+    }
 }

@@ -6428,6 +6428,8 @@ h2.section-title {
   z-index: 1030;
   background-color: #f4f4f4;
   border-bottom: 1px solid #010101; }
+  .main-nav .nav-bar {
+    justify-content: flex-end; }
 
 .footer {
   padding: 45px 0 70px;
