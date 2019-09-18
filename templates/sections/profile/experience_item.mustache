@@ -57,11 +57,15 @@
                 </ul>
             </div>
 
-            {{#embeds}}
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ src }}" allowfullscreen></iframe>
+            <div class="row">
+                {{#embeds}}
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ src }}" allowfullscreen></iframe>
+                    </div>
                 </div>
-            {{/embeds}}
+                {{/embeds}}
+            </div>
         </div>
 
         <div class="col-md-2 d-none d-sm-none d-md-block">
