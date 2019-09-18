@@ -94,7 +94,7 @@ gulp.task('template:profile', function () {
         .pipe(htmlmin({
             collapseWhitespace: true
         }))
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest('./perfil/'))
 });
 
 // templates
