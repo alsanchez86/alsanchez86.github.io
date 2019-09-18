@@ -6421,6 +6421,11 @@ h2.section-title {
     top: 65%; }
 
 .main-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
   background-color: #010101; }
 
 .footer {
