@@ -207,10 +207,9 @@
             }
         ],
         "updates": [{
-                "name": "Jenkins",
-                "value": 70
-            }
-        ],
+            "name": "Jenkins",
+            "value": 70
+        }],
         "agile": [{
                 "name": "Scrum",
                 "value": 100
@@ -256,7 +255,7 @@
         }],
         "position": "Senior frontend developer.",
         "functions": [{
-                "name": "Desarrollador frontend de plataforma web APP de tráfico masivo para venta deventradas al gran publico. Clientes directos: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, etc."
+                "name": "Desarrollador frontend de plataforma web APP de tráfico masivo para venta deventradas al gran publico. Clientes directos:  FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, etc."
             },
             {
                 "name": "Responsable de analítica (GTM, DTM)."
@@ -402,7 +401,15 @@
             "items": [{
                 "name": "Jenkins"
             }]
-        }]
+        }],
+        "embeds": [
+            {
+                "src": "6Ztn4GdNOZg"
+            },
+            {
+                "src": "o--cbgoTzOY"
+            }
+        ]
     }, {
         "name": "Innofis",
         "date": "Marzo de 2017 - Agosto de 2017.",
