@@ -6426,7 +6426,8 @@ h2.section-title {
   right: 0;
   left: 0;
   z-index: 1030;
-  background-color: #010101; }
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #010101; }
 
 .footer {
   padding: 45px 0 70px;

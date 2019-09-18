@@ -4,5 +4,6 @@
     right: 0;
     left: 0;
     z-index: 1030;
-    background-color: $color_text;
+    background-color: $color_background;
+    border-bottom: 1px solid $color_text;
 }
