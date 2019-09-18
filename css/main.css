@@ -6370,7 +6370,7 @@ ul {
   list-style: square; }
 
 .main-wrapper {
-  overflow: hidden; }
+  padding-top: 3rem; }
 
 .section-wrapper {
   padding: 50px 0; }
