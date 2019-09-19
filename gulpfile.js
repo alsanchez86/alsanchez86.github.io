@@ -85,6 +85,18 @@ gulp.task('js:lib', function () {
  * Template tasks
  */
 
+// home
+gulp.task('template:home', function () {
+    gulp.src("./templates/sections/home/index.mustache")
+        .pipe(mustache("./templates/sections/home/index.json", {
+            extension: ".html"
+        }, {}))
+        .pipe(htmlmin({
+            collapseWhitespace: true
+        }))
+        .pipe(gulp.dest('./'))
+});
+
 // profile
 gulp.task('template:profile', function () {
     gulp.src("./templates/sections/profile/index.mustache")
@@ -94,12 +106,24 @@ gulp.task('template:profile', function () {
         .pipe(htmlmin({
             collapseWhitespace: true
         }))
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest('./perfil/'))
+});
+
+// portfolio
+gulp.task('template:portfolio', function () {
+    gulp.src("./templates/sections/portfolio/index.mustache")
+        .pipe(mustache("./templates/sections/portfolio/index.json", {
+            extension: ".html"
+        }, {}))
+        .pipe(htmlmin({
+            collapseWhitespace: true
+        }))
+        .pipe(gulp.dest('./portfolio/'))
 });
 
 // templates
 gulp.task('templates', [], function (done) {
-    runSequence('template:profile', function () {
+    runSequence(['template:home', 'template:profile', 'template:portfolio'], function () {
         done();
     });
 });
