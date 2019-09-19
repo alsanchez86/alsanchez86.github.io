@@ -21,8 +21,10 @@ require.config(
                 bootstrap: _this.config.lib + "bootstrap.bundle.min",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache_module",
-                init_module: _this.config.modules + "init_module",
-                profile_module: _this.config.modules + "profile_module"
+                main_module: _this.config.modules + "main_module",
+                home_module: _this.config.modules + "home_module",
+                profile_module: _this.config.modules + "profile_module",
+                portfolio_module: _this.config.modules + "portfolio_module"
             },
             shim: {
                 // lib
@@ -34,10 +36,16 @@ require.config(
                     deps: ["jquery"],
                     exports: "_$"
                 },
-                init_module: {
+                main_module: {
+                    deps: ["jquery", "jquery_cache_module"]
+                },
+                home_module: {
                     deps: ["jquery", "jquery_cache_module"]
                 },
                 profile_module: {
+                    deps: ["jquery", "jquery_cache_module"]
+                },
+                portfolio_module: {
                     deps: ["jquery", "jquery_cache_module"]
                 }
             },
