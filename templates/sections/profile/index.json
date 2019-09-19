@@ -2,6 +2,7 @@
     "css_path": "../css",
     "requirejs_path": "../lib",
     "main_path": "../js",
+    "img_path": "../img",
     "skills": {
         "frontend": [{
                 "name": "JavaScript ES5 ES6 ES*",
