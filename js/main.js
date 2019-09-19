@@ -14,7 +14,7 @@ define(function () {
                             // main_module.loadSectionModule();
                             if (sectionModule && (sectionModule !== "")){
                                 require([sectionModule], function () {
-
+                                    sectionModule.run();
                                 });
                             }
                         });
