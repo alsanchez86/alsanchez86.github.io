@@ -253,7 +253,7 @@
         "city": "Barcelona, España.",
         "link": "http://www.expertustech.es/",
         "image_path": [{
-            "path": "img/expertus.png"
+            "image_name": "expertus.png"
         }],
         "position": "Senior frontend developer.",
         "functions": [{
@@ -418,7 +418,7 @@
         "city": "Barcelona, España.",
         "link": "https://crealogix.com/es/",
         "image_path": [{
-            "path": "img/innofis.png"
+            "image_name": "innofis.png"
         }],
         "position": "Fullstack developer.",
         "functions": [{
@@ -532,7 +532,7 @@
         "city": "Sevilla, España.",
         "link": "https://www.ximdex.com/",
         "image_path": [{
-            "path": "img/ximdex.png"
+            "image_name": "ximdex.png"
         }],
         "position": "Fullstack developer / Soporte técnico.",
         "functions": [{
@@ -749,7 +749,7 @@
         "city": "Alcalá de Guadaíra, Sevilla, España.",
         "link": "https://www.existo.es/",
         "image_path": [{
-            "path": "img/existo.svg"
+            "image_name": "existo.svg"
         }],
         "position": "Fullstack developer.",
         "functions": [{
@@ -910,7 +910,7 @@
         "city": "Sevilla, España.",
         "link": "",
         "image_path": [{
-            "path": "img/gaesa.jpeg"
+            "image_name": "gaesa.jpeg"
         }],
         "position": "Desarrollador superior de páginas web.",
         "functions": [{
