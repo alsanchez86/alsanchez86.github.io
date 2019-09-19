@@ -7,7 +7,7 @@ define(function () {
                 // jquery document ready
                 // domReady requirejs plugin is not necessary here
                 $(function () {
-                    require(["main_module", "profile_module"], function (main_module, profile_module) {
+                    require(["main_module"], function (main_module) {
                         main_module.setPageLoading(false, function () {
                             // TODO: esto debe ser dinámico por sección
                             // profile_module.animateProgressAll();
