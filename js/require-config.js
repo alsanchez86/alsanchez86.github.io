@@ -37,16 +37,16 @@ require.config(
                     exports: "_$"
                 },
                 main_module: {
-                    deps: ["jquery", "jquery_cache_module"]
+                    deps: ["jquery_cache_module"]
                 },
                 home_module: {
-                    deps: ["jquery", "jquery_cache_module"]
+                    deps: ["jquery_cache_module"]
                 },
                 profile_module: {
-                    deps: ["jquery", "jquery_cache_module"]
+                    deps: ["jquery_cache_module"]
                 },
                 portfolio_module: {
-                    deps: ["jquery", "jquery_cache_module"]
+                    deps: ["jquery_cache_module"]
                 }
             },
             callback: _this.callback
