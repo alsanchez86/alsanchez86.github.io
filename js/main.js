@@ -9,12 +9,9 @@ define(function () {
                 $(function () {
                     require(["main_module"], function (main_module) {
                         main_module.setPageLoading(false, function () {
-                            // TODO: esto debe ser dinámico por sección
-                            // profile_module.animateProgressAll();
-                            // main_module.loadSectionModule();
                             if (sectionModule && (sectionModule !== "")){
-                                require([sectionModule], function () {
-                                    sectionModule.run();
+                                require([sectionModule], function (_sectionModule_) {
+                                    _sectionModule_.run();
                                 });
                             }
                         });
