@@ -9,7 +9,6 @@ define(function () {
                 $(function () {
                     require(["init_module", "profile_module"], function (init_module, profile_module) {
                         init_module.setPageLoading(false, function () {
-                            // profile_module.animateProgressBar();
                             profile_module.animateProgressAll();
                         });
                     });
