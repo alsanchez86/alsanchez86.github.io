@@ -12,10 +12,12 @@ define(["module", "jquery_cache_module"], function (module, _$) {
         var animateClass = "skills-item-animated";
         var $wrappers = _$(".skills-item");
 
-        $wrappers
-            .each(function (index, domElem) {
-                _$("#" + domElem.id).addClass(animateClass);
-            });
+        if ($wrappers){
+            $wrappers
+                .each(function (index, domElem) {
+                    _$("#" + domElem.id).addClass(animateClass);
+                });
+        }
     }
 
     /**
