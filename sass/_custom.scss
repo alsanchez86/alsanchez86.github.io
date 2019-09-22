@@ -92,7 +92,9 @@ h2.section-title {
 
 @include media-breakpoint-down(xs) {}
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(sm) {}
+
+@include media-breakpoint-down(md) {
     body {
         font-size: 13px;
         line-height: 20px;
@@ -101,9 +103,7 @@ h2.section-title {
     .section-wrapper {
         padding: 20px 0;
     }
-}
 
-@include media-breakpoint-down(md) {
     h2.section-title {
         margin-bottom: 20px;
         font-size: 32px;
