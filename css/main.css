@@ -6387,6 +6387,9 @@ h2.section-title {
 .nav-link {
   font-size: 16px; }
 
+.navbar-light .navbar-toggler {
+  border-color: none; }
+
 @media (max-width: 991.98px) {
   body {
     font-size: 13px;
