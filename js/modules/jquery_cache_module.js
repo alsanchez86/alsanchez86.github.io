@@ -2,7 +2,7 @@
 
 define(["exports", "jquery"], function (exports, $) {
     // Private Vars
-    var _this = {};
+    var _cache = {};
 
     /**
      * @param {string} selector
@@ -10,14 +10,14 @@ define(["exports", "jquery"], function (exports, $) {
      * @return {object} jquery object
      */
     return function (selector, element) {
-        if (_this[selector] !== undefined) {
+        if (_cache[selector] !== undefined) {
             // Already on cache. Return jquery object from cache
-            return _this[selector];
+            return _cache[selector];
         }
         // Save on cache
         _set(selector, element);
         // Return jquery object from cache
-        return _this[selector];
+        return _cache[selector];
     };
 
     function _set(selector, element) {
@@ -26,9 +26,9 @@ define(["exports", "jquery"], function (exports, $) {
         var forceCreate = (element !== undefined && (typeof element === "object"));
 
         if (exists) {
-            _this[selector] = $(selector);
+            _cache[selector] = $(selector);
         } else if (forceCreate) {
-            _this[selector] = $(element);
+            _cache[selector] = $(element);
         }
     }
 });
