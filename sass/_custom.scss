@@ -90,7 +90,11 @@ h2.section-title {
     text-align: right;
 }
 
-@media (max-width : 768px) {
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
     body {
         font-size: 13px;
         line-height: 20px;
@@ -101,10 +105,14 @@ h2.section-title {
     }
 }
 
-@media (max-width: 992px) {
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
     h2.section-title {
         margin-bottom: 20px;
         font-size: 32px;
         text-align: left;
     }
 }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
