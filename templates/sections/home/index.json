@@ -2,5 +2,6 @@
     "css_path": "/css",
     "requirejs_path": "/lib",
     "main_path": "/js",
-    "section_module": "home_module"
+    "section_module": "home_module",
+    "menu_active_item": "home"
 }

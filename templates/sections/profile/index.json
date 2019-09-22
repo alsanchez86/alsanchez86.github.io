@@ -4,6 +4,7 @@
     "main_path": "../js",
     "img_path": "../img",
     "section_module": "profile_module",
+    "menu_active_item": "profile",
     "skills": {
         "frontend": [{
                 "name": "JavaScript ES5 ES6 ES*",

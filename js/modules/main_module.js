@@ -20,4 +20,8 @@ define(["module", "jquery_cache_module"], function (module, _$) {
                 .fadeOut("slow", _callback);
         }
     }
+
+    module.exports.setActiveMenuItem = function (menuItem) {
+        console.log(menuItem)
+    }
 });

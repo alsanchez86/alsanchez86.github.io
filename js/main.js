@@ -9,6 +9,11 @@ define(function () {
                 $(function () {
                     require(["main_module"], function (main_module) {
                         main_module.setPageLoading(false, function () {
+                            // Highligth section menu item
+                            if (menuActiveItem && (menuActiveItem !== "")){
+                                main_module.setActiveMenuItem(menuActiveItem);
+                            }
+                            // Section module
                             if (sectionModule && (sectionModule !== "")){
                                 require([sectionModule], function (_sectionModule_) {
                                     _sectionModule_.run();
