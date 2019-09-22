@@ -100,16 +100,16 @@ h2.section-title {
     .section-wrapper {
         padding: 20px 0;
     }
-}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
     h2.section-title {
         margin-bottom: 20px;
         font-size: 32px;
         text-align: left;
     }
 }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {}

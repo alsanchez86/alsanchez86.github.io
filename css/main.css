@@ -6386,9 +6386,7 @@ h2.section-title {
     font-size: 13px;
     line-height: 20px; }
   .section-wrapper {
-    padding: 20px 0; } }
-
-@media (min-width: 768px) {
+    padding: 20px 0; }
   h2.section-title {
     margin-bottom: 20px;
     font-size: 32px;
