@@ -91,10 +91,7 @@ h2.section-title {
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     body {
         font-size: 13px;
         line-height: 20px;
@@ -105,14 +102,17 @@ h2.section-title {
     }
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
     h2.section-title {
         margin-bottom: 20px;
         font-size: 32px;
         text-align: left;
     }
 }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {}
