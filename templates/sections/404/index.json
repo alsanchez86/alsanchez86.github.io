@@ -1,0 +1,5 @@
+{
+    "css_path": "/css",
+    "requirejs_path": "/lib",
+    "main_path": "/js"
+}

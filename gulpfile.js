@@ -85,6 +85,18 @@ gulp.task('js:lib', function () {
  * Template tasks
  */
 
+// 404
+gulp.task('template:404', function () {
+    gulp.src("./templates/sections/404/404.mustache")
+        .pipe(mustache("./templates/sections/404/index.json", {
+            extension: ".html"
+        }, {}))
+        .pipe(htmlmin({
+            collapseWhitespace: true
+        }))
+        .pipe(gulp.dest('./'))
+});
+
 // home
 gulp.task('template:home', function () {
     gulp.src("./templates/sections/home/index.mustache")
@@ -123,7 +135,7 @@ gulp.task('template:portfolio', function () {
 
 // templates
 gulp.task('templates', [], function (done) {
-    runSequence(['template:home', 'template:profile', 'template:portfolio'], function () {
+    runSequence(['template:404', 'template:home', 'template:profile', 'template:portfolio'], function () {
         done();
     });
 });
