@@ -6381,14 +6381,14 @@ h2.section-title {
   text-transform: uppercase;
   text-align: right; }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   body {
     font-size: 13px;
     line-height: 20px; }
   .section-wrapper {
     padding: 20px 0; } }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   h2.section-title {
     margin-bottom: 20px;
     font-size: 32px;

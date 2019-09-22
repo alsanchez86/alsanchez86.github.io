@@ -90,7 +90,9 @@ h2.section-title {
     text-align: right;
 }
 
-@include media-breakpoint-down(xs) {
+@include media-breakpoint-down(xs) {}
+
+@include media-breakpoint-down(sm) {
     body {
         font-size: 13px;
         line-height: 20px;
@@ -101,14 +103,12 @@ h2.section-title {
     }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
     h2.section-title {
         margin-bottom: 20px;
         font-size: 32px;
         text-align: left;
     }
 }
-
-@include media-breakpoint-down(md) {}
 
 @include media-breakpoint-down(lg) {}
