@@ -6441,42 +6441,41 @@ h2.section-title {
     margin: 40px 0 0 0;
     text-align: center; }
 
-.intro {
-  position: relative;
-  padding: 50px 0 20px 0;
-  margin: 0; }
-  .intro .name-wrapper {
-    margin-bottom: 30px; }
-    .intro .name-wrapper h1 {
-      margin: 0 0 5px;
-      line-height: 1;
-      text-transform: uppercase; }
-    .intro .name-wrapper span {
-      font-size: 24px; }
-  .intro .personal-detail {
-    margin: 10px 0; }
-    .intro .personal-detail strong {
-      display: block;
-      font-size: 13px;
-      line-height: 1; }
-    .intro .personal-detail small {
-      font-size: 12px; }
-  .intro ul.social-list {
-    margin: 15px 0 0 0;
-    padding: 0;
+.intro .name-wrapper {
+  margin-bottom: 30px; }
+  .intro .name-wrapper h1 {
+    margin: 0 0 5px;
+    line-height: 1;
+    text-transform: uppercase; }
+  .intro .name-wrapper span {
+    font-size: 24px; }
+
+.intro .personal-detail {
+  margin: 10px 0; }
+  .intro .personal-detail strong {
     display: block;
-    text-align: center; }
-    .intro ul.social-list li {
-      display: inline-block;
-      margin: 0 15px; }
-      .intro ul.social-list li a {
-        display: block;
-        font-size: 20px;
-        line-height: 46px;
-        text-align: center;
-        border-radius: 2px; }
-  .intro .download-cv {
-    text-align: center; }
+    font-size: 13px;
+    line-height: 1; }
+  .intro .personal-detail small {
+    font-size: 12px; }
+
+.intro ul.social-list {
+  margin: 15px 0 0 0;
+  padding: 0;
+  display: block;
+  text-align: center; }
+  .intro ul.social-list li {
+    display: inline-block;
+    margin: 0 15px; }
+    .intro ul.social-list li a {
+      display: block;
+      font-size: 20px;
+      line-height: 46px;
+      text-align: center;
+      border-radius: 2px; }
+
+.intro .download-cv {
+  text-align: center; }
 
 @media (max-width: 768px) {
   .intro {
