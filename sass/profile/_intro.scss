@@ -52,13 +52,13 @@
     }
 }
 
-@media (max-width : 768px) {
+@include media-breakpoint-down(sm) {
     .intro {
         padding: 20px 0;
     }
 }
 
-@media (max-width: 992px) {
+@include media-breakpoint-down(md) {
     .intro {
         .name-wrapper {
             text-align: center;

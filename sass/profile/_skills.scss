@@ -99,7 +99,7 @@
     }
 }
 
-@media (max-width : 768px) {
+@include media-breakpoint-down(sm) {
     .skills-item {
         margin-bottom: 50px;
     }
