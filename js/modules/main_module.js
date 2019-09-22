@@ -21,6 +21,12 @@ define(["module", "jquery_cache_module"], function (module, _$) {
         }
     }
 
+    /**
+     * Set menu item class "active"
+     *
+     * @param {string} menuItem
+     * @return {void}
+     */
     module.exports.setActiveMenuItem = function (menuItem) {
         var _$menuItem = _$("#" + menuItem);
 
