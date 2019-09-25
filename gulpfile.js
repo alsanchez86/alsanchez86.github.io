@@ -133,9 +133,21 @@ gulp.task('template:portfolio', function () {
         .pipe(gulp.dest('./portfolio/'))
 });
 
+// portfolio
+gulp.task('template:portfolio:xowl', function () {
+    gulp.src("./templates/sections/portfolio/xowl/index.mustache")
+        .pipe(mustache("./templates/sections/portfolio/xowl/index.json", {
+            extension: ".html"
+        }, {}))
+        .pipe(htmlmin({
+            collapseWhitespace: true
+        }))
+        .pipe(gulp.dest('./portfolio/xowl/'))
+});
+
 // templates
 gulp.task('templates', [], function (done) {
-    runSequence(['template:404', 'template:home', 'template:profile', 'template:portfolio'], function () {
+    runSequence(['template:404', 'template:home', 'template:profile', 'template:portfolio', 'template:portfolio:xowl'], function () {
         done();
     });
 });
