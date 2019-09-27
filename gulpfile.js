@@ -153,6 +153,7 @@ gulp.task('templates', [], function (done) {
     const root = "./templates/sections/";
     const dirs = readDirs(root);
 
+    dirs.push(root);
     dirs.map(dir => {
         let outputDir = dir.replace(root, "./");
         gulp.src(dir + "index.mustache")
