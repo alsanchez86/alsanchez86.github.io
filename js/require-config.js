@@ -23,7 +23,7 @@ require.config(
                 jquery_cache_module: _this.config.modules + "jquery_cache_module",
                 main_module: _this.config.modules + "main_module",
                 home_module: _this.config.modules + "home_module",
-                profile_module: _this.config.modules + "profile_module",
+                perfil_module: _this.config.modules + "perfil_module",
                 portfolio_module: _this.config.modules + "portfolio_module"
             },
             shim: {
@@ -42,7 +42,7 @@ require.config(
                 home_module: {
                     deps: ["jquery_cache_module"]
                 },
-                profile_module: {
+                perfil_module: {
                     deps: ["jquery_cache_module"]
                 },
                 portfolio_module: {

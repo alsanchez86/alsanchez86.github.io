@@ -86,69 +86,83 @@ gulp.task('js:lib', function () {
  */
 
 // 404
-gulp.task('template:404', function () {
-    gulp.src("./templates/sections/404/404.mustache")
-        .pipe(mustache("./templates/sections/404/index.json", {
-            extension: ".html"
-        }, {}))
-        .pipe(htmlmin({
-            collapseWhitespace: true
-        }))
-        .pipe(gulp.dest('./'))
-});
+// gulp.task('template:404', function () {
+//     gulp.src("./templates/sections/404/404.mustache")
+//         .pipe(mustache("./templates/sections/404/index.json", {
+//             extension: ".html"
+//         }, {}))
+//         .pipe(htmlmin({
+//             collapseWhitespace: true
+//         }))
+//         .pipe(gulp.dest('./'))
+// });
 
 // home
-gulp.task('template:home', function () {
-    gulp.src("./templates/sections/home/index.mustache")
-        .pipe(mustache("./templates/sections/home/index.json", {
-            extension: ".html"
-        }, {}))
-        .pipe(htmlmin({
-            collapseWhitespace: true
-        }))
-        .pipe(gulp.dest('./'))
-});
+// gulp.task('template:home', function () {
+//     gulp.src("./templates/sections/home/index.mustache")
+//         .pipe(mustache("./templates/sections/home/index.json", {
+//             extension: ".html"
+//         }, {}))
+//         .pipe(htmlmin({
+//             collapseWhitespace: true
+//         }))
+//         .pipe(gulp.dest('./'))
+// });
 
 // profile
-gulp.task('template:profile', function () {
-    gulp.src("./templates/sections/profile/index.mustache")
-        .pipe(mustache("./templates/sections/profile/index.json", {
-            extension: ".html"
-        }, {}))
-        .pipe(htmlmin({
-            collapseWhitespace: true
-        }))
-        .pipe(gulp.dest('./perfil/'))
-});
+// gulp.task('template:profile', function () {
+//     gulp.src("./templates/sections/profile/index.mustache")
+//         .pipe(mustache("./templates/sections/profile/index.json", {
+//             extension: ".html"
+//         }, {}))
+//         .pipe(htmlmin({
+//             collapseWhitespace: true
+//         }))
+//         .pipe(gulp.dest('./perfil/'))
+// });
 
 // portfolio
-gulp.task('template:portfolio', function () {
-    gulp.src("./templates/sections/portfolio/index.mustache")
-        .pipe(mustache("./templates/sections/portfolio/index.json", {
-            extension: ".html"
-        }, {}))
-        .pipe(htmlmin({
-            collapseWhitespace: true
-        }))
-        .pipe(gulp.dest('./portfolio/'))
-});
+// gulp.task('template:portfolio', function () {
+//     gulp.src("./templates/sections/portfolio/index.mustache")
+//         .pipe(mustache("./templates/sections/portfolio/index.json", {
+//             extension: ".html"
+//         }, {}))
+//         .pipe(htmlmin({
+//             collapseWhitespace: true
+//         }))
+//         .pipe(gulp.dest('./portfolio/'))
+// });
 
 // portfolio
-gulp.task('template:portfolio:xowl', function () {
-    gulp.src("./templates/sections/portfolio/xowl/index.mustache")
-        .pipe(mustache("./templates/sections/portfolio/xowl/index.json", {
-            extension: ".html"
-        }, {}))
-        .pipe(htmlmin({
-            collapseWhitespace: true
-        }))
-        .pipe(gulp.dest('./portfolio/xowl/'))
-});
+// gulp.task('template:portfolio:xowl', function () {
+//     gulp.src("./templates/sections/portfolio/xowl/index.mustache")
+//         .pipe(mustache("./templates/sections/portfolio/xowl/index.json", {
+//             extension: ".html"
+//         }, {}))
+//         .pipe(htmlmin({
+//             collapseWhitespace: true
+//         }))
+//         .pipe(gulp.dest('./portfolio/xowl/'))
+// });
 
 // templates
 gulp.task('templates', [], function (done) {
-    runSequence(['template:404', 'template:home', 'template:profile', 'template:portfolio', 'template:portfolio:xowl'], function () {
-        done();
+    // runSequence(['template:404', 'template:home', 'template:profile', 'template:portfolio', 'template:portfolio:xowl'], function () {
+    //     done();
+    // });
+    const root = "./templates/sections/";
+    const dirs = readDirs(root);
+
+    dirs.map(dir => {
+        let outputDir = dir.replace(root, "./");
+        gulp.src(dir + "index.mustache")
+            .pipe(mustache(dir +  "index.json", {
+                extension: ".html"
+            }, {}))
+            .pipe(htmlmin({
+                collapseWhitespace: true
+            }))
+            .pipe(gulp.dest(outputDir))
     });
 });
 
@@ -169,8 +183,22 @@ gulp.task('default', ["prod"]);
 /*
  * Watchers
  */
-// gulp.task('watch', ['default'], function () {
-//     gulp.watch([
-//         pkg.sass + '**/*.scss'
-//     ], ['default']);
-// });
+gulp.task('watch', ['default'], function () {
+    gulp.watch([
+        pkg.sass + '**/*.scss'
+    ], ['default']);
+});
+
+/**
+ * Read all subfolders from source folder
+ *
+ * @param {String} source
+ * @returns {Array}
+ */
+function readDirs(source) {
+    return fs.readdirSync(source)
+        .filter(dir => fs.lstatSync(source + dir).isDirectory())
+        .map(dir => (source + dir + "/"))
+        .map(dir => new Array(dir).concat(readDirs(dir)))
+        .reduce((acc, val) => acc.concat(val), []);
+}

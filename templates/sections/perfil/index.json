@@ -3,8 +3,8 @@
     "requirejs_path": "../lib",
     "main_path": "../js",
     "img_path": "../img",
-    "section_module": "profile_module",
-    "menu_active_item": "profile",
+    "section_module": "perfil_module",
+    "menu_active_item": "perfil",
     "skills": {
         "frontend": [{
                 "name": "JavaScript ES5 ES6 ES*",
