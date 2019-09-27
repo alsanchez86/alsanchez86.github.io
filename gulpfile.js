@@ -71,11 +71,8 @@ gulp.task('css:clean', function () {
 
 gulp.task('js:lib', function () {
     return gulp.src([
-            // requirejs
             pkg.node_modules + "requirejs/require.js",
-            // jquery
             pkg.node_modules + "jquery/dist/jquery.min.js",
-            // bootstrap
             pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js'
         ])
         .pipe(gulp.dest(pkg.lib));
@@ -85,75 +82,11 @@ gulp.task('js:lib', function () {
  * Template tasks
  */
 
-// 404
-// gulp.task('template:404', function () {
-//     gulp.src("./templates/sections/404/404.mustache")
-//         .pipe(mustache("./templates/sections/404/index.json", {
-//             extension: ".html"
-//         }, {}))
-//         .pipe(htmlmin({
-//             collapseWhitespace: true
-//         }))
-//         .pipe(gulp.dest('./'))
-// });
-
-// home
-// gulp.task('template:home', function () {
-//     gulp.src("./templates/sections/home/index.mustache")
-//         .pipe(mustache("./templates/sections/home/index.json", {
-//             extension: ".html"
-//         }, {}))
-//         .pipe(htmlmin({
-//             collapseWhitespace: true
-//         }))
-//         .pipe(gulp.dest('./'))
-// });
-
-// profile
-// gulp.task('template:profile', function () {
-//     gulp.src("./templates/sections/profile/index.mustache")
-//         .pipe(mustache("./templates/sections/profile/index.json", {
-//             extension: ".html"
-//         }, {}))
-//         .pipe(htmlmin({
-//             collapseWhitespace: true
-//         }))
-//         .pipe(gulp.dest('./perfil/'))
-// });
-
-// portfolio
-// gulp.task('template:portfolio', function () {
-//     gulp.src("./templates/sections/portfolio/index.mustache")
-//         .pipe(mustache("./templates/sections/portfolio/index.json", {
-//             extension: ".html"
-//         }, {}))
-//         .pipe(htmlmin({
-//             collapseWhitespace: true
-//         }))
-//         .pipe(gulp.dest('./portfolio/'))
-// });
-
-// portfolio
-// gulp.task('template:portfolio:xowl', function () {
-//     gulp.src("./templates/sections/portfolio/xowl/index.mustache")
-//         .pipe(mustache("./templates/sections/portfolio/xowl/index.json", {
-//             extension: ".html"
-//         }, {}))
-//         .pipe(htmlmin({
-//             collapseWhitespace: true
-//         }))
-//         .pipe(gulp.dest('./portfolio/xowl/'))
-// });
-
-// templates
 gulp.task('templates', [], function (done) {
-    // runSequence(['template:404', 'template:home', 'template:profile', 'template:portfolio', 'template:portfolio:xowl'], function () {
-    //     done();
-    // });
     const root = "./templates/sections/";
     const dirs = readDirs(root);
 
-    dirs.push(root);
+    dirs.push(root); // push root index (inicio)
     dirs.map(dir => {
         let outputDir = dir.replace(root, "./");
         gulp.src(dir + "index.mustache")
