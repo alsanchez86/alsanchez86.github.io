@@ -8,3 +8,4 @@ Code from [sanchezpizarro.com](http://sanchezpizarro.com)
 - [x] Create unique function on gulpfile for compile all sections folders and subfolders.
 - [ ] In8.
 - [ ] Add GA.
+- [ ] Update Bootstrap to last version (4.3.1). package.json and _bootstrap_variables.scss
