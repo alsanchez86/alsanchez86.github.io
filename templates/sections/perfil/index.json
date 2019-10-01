@@ -252,8 +252,8 @@
         "name": "Expertus Technology",
         "date": "Agosto 2017 - Actualmente.",
         "city": "Barcelona, España.",
-        "link": "http://www.expertustech.es/",
-        "image_path": [{
+        "company_link": "http://www.expertustech.es/",
+        "image_company_path": [{
             "image_name": "expertus.png"
         }],
         "position": "Senior frontend developer.",
@@ -269,27 +269,33 @@
         ],
         "projects": [{
                 "name": "FC Barcelona. Plataforma oficial de venta de entradas online.",
-                "link": "https://www.fcbarcelona.es/es/"
+                "link": "https://www.fcbarcelona.es/es/",
+                "target": "_blank"
             },
             {
                 "name": "El Corte Inglés. Plataforma oficial de venta de entradas online.",
-                "link": "https://www.elcorteingles.es/entradas/"
+                "link": "https://www.elcorteingles.es/entradas/",
+                "target": "_blank"
             },
             {
                 "name": "Atlético de Madrid. Plataforma oficial de venta de entradas online.",
-                "link": "https://www.atleticodemadrid.com/entradas"
+                "link": "https://www.atleticodemadrid.com/entradas",
+                "target": "_blank"
             },
             {
                 "name": "Getafe FC. Plataforma oficial de venta de entradas online.",
-                "link": "https://getafecf.expertustech.com/open#/eventshome"
+                "link": "https://getafecf.expertustech.com/open#/eventshome",
+                "target": "_blank"
             },
             {
                 "name": "Albacete Balompié. Plataforma oficial de venta de entradas online.",
-                "link": "https://albacetebalompie.expertustech.com/open#/eventshome"
+                "link": "https://albacetebalompie.expertustech.com/open#/eventshome",
+                "target": "_blank"
             },
             {
                 "name": "Elche CF. Plataforma oficial de venta de entradas online.",
-                "link": "https://elchecf.expertustech.com/open#/eventshome"
+                "link": "https://elchecf.expertustech.com/open#/eventshome",
+                "target": "_blank"
             }
         ],
         "techs": [{
@@ -417,8 +423,8 @@
         "name": "Innofis",
         "date": "Marzo de 2017 - Agosto de 2017.",
         "city": "Barcelona, España.",
-        "link": "https://crealogix.com/es/",
-        "image_path": [{
+        "company_link": "https://crealogix.com/es/",
+        "image_company_path": [{
             "image_name": "innofis.png"
         }],
         "position": "Fullstack developer.",
@@ -437,11 +443,13 @@
         ],
         "projects": [{
                 "name": "Portal corporativo Danone S.A.",
-                "link": "https://www.alimentasonrisas.es/"
+                "link": "https://www.alimentasonrisas.es/",
+                "target": "_blank"
             },
             {
                 "name": "Web APP FontVella << Eres Impulso >>",
-                "link": "https://eresimpulso.fontvella.es/"
+                "link": "https://eresimpulso.fontvella.es/",
+                "target": "_blank"
             }
         ],
         "techs": [{
@@ -531,8 +539,8 @@
         "name": "Open Ximdex Evolution S.L.",
         "date": "Octubre de 2014 - Marzo de 2017.",
         "city": "Sevilla, España.",
-        "link": "https://www.ximdex.com/",
-        "image_path": [{
+        "company_link": "https://www.ximdex.com/",
+        "image_company_path": [{
             "image_name": "ximdex.png"
         }],
         "position": "Fullstack developer / Soporte técnico.",
@@ -557,39 +565,48 @@
         ],
         "projects": [{
                 "name": "Ximdex CMS: CMS semántico basado en tecnología XML.",
-                "link": "http://demo.ximdex.com/xcms/"
+                "link": "http://demo.ximdex.com/xcms/",
+                "target": "_blank"
             },
             {
                 "name": "Demos módulos Ximdex CMS.",
-                "link": "http://demo.ximdex.com"
+                "link": "http://demo.ximdex.com",
+                "target": "_blank"
             },
             {
                 "name": "XFIND Demo.",
-                "link": "http://demo.ximdex.com/xfind/"
+                "link": "http://demo.ximdex.com/xfind/",
+                "target": "_blank"
             },
             {
                 "name": "XOWL Demo.",
-                "link": "http://sanchezpizarro.com/portfolio/xowl/"
+                "link": "http://sanchezpizarro.com/portfolio/xowl/",
+                "target": "_self"
             },
             {
                 "name": "XHAWK Demo.",
-                "link": "http://demo.ximdex.com/xhawk/"
+                "link": "http://demo.ximdex.com/xhawk/",
+                "target": "_blank"
             },
             {
                 "name": "Web corporativa Open Ximdex Evolution S.L.",
-                "link": "http://www.ximdex.com/"
+                "link": "http://www.ximdex.com/",
+                "target": "_blank"
             },
             {
                 "name": "Portal web AEPD: Agencia Española de Protección de Datos.",
-                "link": "http://www.agpd.es/"
+                "link": "http://www.agpd.es/",
+                "target": "_blank"
             },
             {
                 "name": "Portal web BRAE: Biblioteca de recursos para el aprendizaje del Español.",
-                "link": "http://brae.redhispanistas.es/"
+                "link": "http://brae.redhispanistas.es/",
+                "target": "_blank"
             },
             {
                 "name": "Web corporativa United English Academy S.L.",
-                "link": "http://www.unitedenglish.es/"
+                "link": "http://www.unitedenglish.es/",
+                "target": "_blank"
             }
         ],
         "techs": [{
@@ -748,8 +765,8 @@
         "name": "Existo Diseño Web",
         "date": "Junio de 2012 - Octubre de 2014.",
         "city": "Alcalá de Guadaíra, Sevilla, España.",
-        "link": "https://www.existo.es/",
-        "image_path": [{
+        "company_link": "https://www.existo.es/",
+        "image_company_path": [{
             "image_name": "existo.svg"
         }],
         "position": "Fullstack developer.",
@@ -765,31 +782,38 @@
         ],
         "projects": [{
                 "name": "Portal web Centro BTT Nevada.",
-                "link": "http://www.centrobttnevada.es/"
+                "link": "http://www.centrobttnevada.es/",
+                "target": "_blank"
             },
             {
                 "name": "Web corporativa Grupo Hispasat.",
-                "link": "http://www.hispasat.com/"
+                "link": "http://www.hispasat.com/",
+                "target": "_blank"
             },
             {
                 "name": "Web corporativa Mercer Hoteles Barcelona.",
-                "link": "http://www.mercerbarcelona.com/"
+                "link": "http://www.mercerbarcelona.com/",
+                "target": "_blank"
             },
             {
                 "name": "Tienda online Tramas + Malbatex S.L.",
-                "link": "http://www.tramasmas.com/"
+                "link": "http://www.tramasmas.com/",
+                "target": "_blank"
             },
             {
                 "name": "Portal web Sevilla si",
-                "link": "http://www.sevillasi.com/"
+                "link": "http://www.sevillasi.com/",
+                "target": "_blank"
             },
             {
                 "name": "Web corporativa Planvalore Avales Inmobiliarios, S.A.",
-                "link": "http://www.planvalore.com/"
+                "link": "http://www.planvalore.com/",
+                "target": "_blank"
             },
             {
                 "name": "Web corporativa Fourup.",
-                "link": "http://www.fourup.es/"
+                "link": "http://www.fourup.es/",
+                "target": "_blank"
             }
         ],
         "techs": [{
@@ -860,8 +884,8 @@
         "name": "Freelance",
         "date": "Febrero de 2012 - Mayo de 2012.",
         "city": "Sevilla, España.",
-        "link": "",
-        "image_path": [],
+        "company_link": "",
+        "image_company_path": [],
         "position": "Desarrollador superior de páginas web.",
         "functions": [{
                 "name": "Desarrollo íntegro de la plataforma online para estudiantes del Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla."
@@ -872,7 +896,8 @@
         ],
         "projects": [{
             "name": "Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla.",
-            "link": "http://www.iaic.us.es/"
+            "link": "http://www.iaic.us.es/",
+            "target": "_blank"
         }],
         "techs": [{
             "type": "frontend",
@@ -909,8 +934,8 @@
         "name": "Gaesa S.L. Gabinete Andaluz de estudios y actividades.",
         "date": "Julio de 2010 - Enero de 2012.",
         "city": "Sevilla, España.",
-        "link": "",
-        "image_path": [{
+        "company_link": "",
+        "image_company_path": [{
             "image_name": "gaesa.jpeg"
         }],
         "position": "Desarrollador superior de páginas web.",

@@ -10,7 +10,7 @@
                 <br>
                 {{ city }}
                 <br>
-                <a href="{{ link }}" target="_blank">{{ link }}</a>
+                <a href="{{ company_link }}" target="_blank">{{ company_link }}</a>
             </p>
 
             <div class="experience-item-batch">
@@ -35,7 +35,7 @@
                 <ul>
                     {{#projects}}
                     <li>
-                        <a href="{{ link }}" target="_blank">{{ name }}</a>
+                        <a href="{{ link }}" target="{{ target }}">{{ name }}</a>
                     </li>
                     {{/projects}}
                 </ul>
@@ -70,11 +70,11 @@
         </div>
 
         <div class="col-md-2 d-none d-sm-none d-md-block">
-            {{#image_path}}
+            {{#image_company_path}}
             <a href="{{ link }}" target="_blank">
                 <img class="img-fluid" src="{{ img_path }}/{{ image_name }}" alt="{{ name }}">
             </a>
-            {{/image_path}}
+            {{/image_company_path}}
         </div>
     </div>
 </div>
