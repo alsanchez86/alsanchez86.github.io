@@ -36,11 +36,14 @@
         </h2>
 
         <ul>
-            <li>
-                Frontend: <span class="badge">javaScript</span> <span class="badge">jQuery</span> <span
-                    class="badge">HTML</span> <span class="badge">CSS</span> <span class="badge">Less</span>
-                <span class="badge">Grunt</span>
+            {{#techs}}
+            <li class="project-item-batch-{{ type }}">
+                {{ name }}:&nbsp;
+                {{#items}}
+                <span class="badge">{{ name }}</span>
+                {{/items}}
             </li>
+            {{/techs}}
         </ul>
     </div>
 </div>

@@ -18,6 +18,21 @@
             "description": "Diseño y maquetación responsive de la aplicación mediante Bootstrap 3."
         }, {
             "description": "Creación del esquema y mockups."
+        }],
+        "techs": [{
+            "type": "frontend",
+            "name": "Frontend",
+            "items": [{
+                "name": "JavaScript ES5"
+            },{
+                "name": "jQuery"
+            },{
+                "name": "HTML5"
+            },{
+                "name": "CSS3"
+            },{
+                "name": "LESS"
+            }]
         }]
     }
 }
