@@ -7,6 +7,7 @@ Code from [sanchezpizarro.com](http://sanchezpizarro.com)
 - [x] Create menu for add other sections (portfolio, blog, ...).
 - [x] Create unique function on gulpfile for compile all sections folders and subfolders.
 - [ ] Add content to portfolio section.
+- [ ] Use HTML5 tags like article, section...
 - [ ] Add blog section.
 - [ ] Add content to inicio (from blog) section.
 - [ ] In8.
