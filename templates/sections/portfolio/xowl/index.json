@@ -2,5 +2,8 @@
     "css_path": "../../css",
     "requirejs_path": "../../lib",
     "main_path": "../../js",
-    "menu_active_item": "portfolio"
+    "menu_active_item": "portfolio",
+    "project": {
+        "name": "XOWL Demo. Ximdex CMS Module."
+    }
 }
