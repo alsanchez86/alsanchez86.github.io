@@ -5,13 +5,12 @@
         </h1>
 
         <p>
-            <strong>Link:</strong> <a href="http://demo.ximdex.com/xowl/"
-                target="_blank">http://demo.ximdex.com/xowl/</a>
+            <strong>Link:</strong> <a href="{{ project.link }}"
+                target="_blank">{{ project.link }}</a>
             <br>
-            <strong>Empresa:</strong> <a href="https://www.ximdex.com/" target="_blank">Open Ximdex Evolution
-                S.L.</a>
+            <strong>Empresa:</strong> <a href="{{ project.company.link }}" target="_blank">{{ project.company.name }}</a>
             <br>
-            <strong>Fecha:</strong> Marzo 2014.
+            <strong>Fecha:</strong> {{ project.date }}
         </p>
 
         <h2>
@@ -19,9 +18,7 @@
         </h2>
 
         <p>
-            Demostración del modulo y API XOWL.
-            <br>
-            Enriquecimiento de textos mediante el reconocimiento de entidades contenidas en DBpedia.
+            {{ project.description }}
         </p>
 
         <h2>

@@ -4,6 +4,13 @@
     "main_path": "../../js",
     "menu_active_item": "portfolio",
     "project": {
-        "name": "XOWL Demo. Ximdex CMS Module."
+        "name": "XOWL Demo. Ximdex CMS Module.",
+        "link": "http://demo.ximdex.com/xowl/",
+        "company": {
+            "link": "https://www.ximdex.com/",
+            "name": "Open Ximdex Evolution S.L."
+        },
+        "date": "Marzo 2014",
+        "description": "Demostración del modulo y API XOWL.<br>Enriquecimiento de textos mediante el reconocimiento de entidades contenidas en DBpedia."
     }
 }
