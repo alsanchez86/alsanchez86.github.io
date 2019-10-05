@@ -11,7 +11,7 @@
             "name": "Open Ximdex Evolution S.L."
         },
         "date": "Marzo 2014",
-        "description": "Demostración del modulo y API XOWL.<br>Enriquecimiento de textos mediante el reconocimiento de entidades contenidas en DBpedia.",
+        "description": "Demostración del modulo y API XOWL.\/<br>\/Enriquecimiento de textos mediante el reconocimiento de entidades contenidas en DBpedia.",
         "functions": [{
             "description": "Desarrollo de la aplicación SPA."
         }, {
