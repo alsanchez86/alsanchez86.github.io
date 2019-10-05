@@ -1,0 +1,68 @@
+{
+    "css_path": "../../css",
+    "requirejs_path": "../../lib",
+    "main_path": "../../js",
+    "menu_active_item": "portfolio",
+    "project": {
+        "name": "Ximdex CMS. Free & Semantic CMS for XML.",
+        "link": "https://demo.ximdex.com/xcms",
+        "company": {
+            "link": "https://www.ximdex.com/",
+            "name": "Open Ximdex Evolution S.L."
+        },
+        "date": "Octubre 2014",
+        "description": "Ximdex CMS es un editor de documentos XML, los cuales a través de la transformación mediante plantillas XSLT gestionadas por el usuario y un sistema de publicación desaclopada, se le permite publicar dichos documentos en cualquier canal de comunicación y en multitud de formatos digitales tales como PHP, J2EE, .NET, XML, XSLT, JS, RDF, JSON, RoR... Todo ello gestionando su información con una plataforma única e integrable con cualquier sistema para la edición colaborativa de datos y contenidos XML.",
+        "functions": [{
+            "description": "Desarrollo y mantenimiento de Ximdex CMS."
+        }, {
+            "description": "Desarrollo de los distintos módulos de Ximdex CMS: XFIND, XOWL, XLYRE, XRANK,..."
+        }, {
+            "description": "Técnico de soporte con Ximdex CMS. Contacto directo con el cliente."
+        }, {
+            "description": "Despliegue de proyectos en producción en distribuciones Linux."
+        }, {
+            "description": "Tareas de test y mantenimiento."
+        }, {
+            "description": "Documentación de proyectos."
+        }],
+        "techs": [{
+            "type": "frontend",
+            "name": "Frontend",
+            "items": [{
+                "name": "JavaScript ES5"
+            },{
+                "name": "jQuery"
+            },{
+                "name": "AngularJS"
+            },{
+                "name": "RiotJS"
+            },{
+                "name": "Bootstrap3"
+            },{
+                "name": "CSS3"
+            },{
+                "name": "LESS"
+            }]
+        }, {
+            "type": "backend",
+            "name": "Backend",
+            "items": [{
+                "name": "PHP"
+            },{
+                "name": "MySQL"
+            }]
+        }, {
+            "type": "otros",
+            "name": "Otras tecnologías a destacar",
+            "items": [{
+                "name": "XML"
+            },{
+                "name": "XSLT"
+            },{
+                "name": "RELAXNG"
+            },{
+                "name": "JSON"
+            }]
+        }]
+    }
+}
