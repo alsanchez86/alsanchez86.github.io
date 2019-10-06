@@ -6649,7 +6649,7 @@ a.portfolio-item {
     padding: 15px;
     font-size: 0.875rem;
     color: #FFF;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.75);
     text-align: center;
     text-transform: uppercase; }
   a.portfolio-item:hover {
