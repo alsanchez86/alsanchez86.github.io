@@ -2,6 +2,7 @@
     "css_path": "../css",
     "requirejs_path": "../lib",
     "main_path": "../js",
+    "img_path": "../img",
     "section_module": "portfolio_module",
     "menu_active_item": "portfolio",
     "projects": [
@@ -12,7 +13,7 @@
         }, {
             "name": "XOWL",
             "link": "http://sanchezpizarro.com/portfolio/xowl",
-            "background": "http://ximg.es/250x250/CCC/fff"
+            "background": "xowl.png"
         }, {
             "name": "XCMS",
             "link": "http://sanchezpizarro.com/portfolio/xcms",
