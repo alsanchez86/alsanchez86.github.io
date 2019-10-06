@@ -3,5 +3,8 @@ a.portfolio-item {
     width: 100%;
     height: 250px;
     border: 1px solid $color_border;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
