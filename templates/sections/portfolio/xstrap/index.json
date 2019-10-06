@@ -4,28 +4,38 @@
     "main_path": "../../js",
     "menu_active_item": "portfolio",
     "project": {
-        "name": "",
-        "link": "",
+        "name": "XStrap",
+        "link": "https://github.com/alsanchez86/xstrap",
         "company": {
-            "link": "",
-            "name": ""
+            "link": "http://sanchezpizarro.com/perfil/",
+            "name": "Proyecto propio."
         },
-        "date": "",
-        "description": "",
+        "date": "Junio 2015.",
+        "description": "Frontend framework para el desarrollo de páginas y aplicaciones web basado en Bootstrap 3.<br>Responsive.<br>Open source.",
         "functions": [{
-            "description": ""
+            "description": "Desarrollo íntegro de XStrap."
+        }, {
+            "description": "Desarrollo íntegra de versión componente web con RiotJS."
         }],
         "techs": [{
             "type": "frontend",
             "name": "Frontend",
             "items": [{
                 "name": "JavaScript ES5"
-            }]
-        }, {
-            "type": "backend",
-            "name": "Backend",
-            "items": [{
-                "name": "PHP"
+            },{
+                "name": "CoffeScript"
+            },{
+                "name": "JQuery"
+            },{
+                "name": "RiotJS"
+            },{
+                "name": "HTML5"
+            },{
+                "name": "LESS"
+            },{
+                "name": "SASS"
+            },{
+                "name": "CSS3"
             }]
         }]
     }
