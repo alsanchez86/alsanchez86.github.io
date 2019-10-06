@@ -31,13 +31,13 @@ a.portfolio-item {
 
     &:hover {
         text-decoration: none;
-        animation-name: animateProjectName;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in;
-        animation-duration: 1s;
 
         div.portfolio-item-name {
             display: block;
+            animation-name: animateProjectName;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in;
+            animation-duration: 1s;
         }
     }
 }

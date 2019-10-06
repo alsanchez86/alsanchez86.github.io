@@ -6653,13 +6653,13 @@ a.portfolio-item {
     text-align: center;
     text-transform: uppercase; }
   a.portfolio-item:hover {
-    text-decoration: none;
-    animation-name: animateProjectName;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 1s; }
+    text-decoration: none; }
     a.portfolio-item:hover div.portfolio-item-name {
-      display: block; }
+      display: block;
+      animation-name: animateProjectName;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 1s; }
 
 @media (max-width: 575.98px) {
   a.portfolio-item div.portfolio-item-name {
