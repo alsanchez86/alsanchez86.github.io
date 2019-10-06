@@ -3,5 +3,24 @@
     "requirejs_path": "../lib",
     "main_path": "../js",
     "section_module": "portfolio_module",
-    "menu_active_item": "portfolio"
+    "menu_active_item": "portfolio",
+    "projects": [
+        {
+            "name": "XStrap",
+            "link": "http://sanchezpizarro.com/portfolio/xstrap",
+            "background": "http://ximg.es/250x250/000/fff"
+        }, {
+            "name": "XOWL",
+            "link": "http://sanchezpizarro.com/portfolio/xowl",
+            "background": "http://ximg.es/250x250/000/fff"
+        }, {
+            "name": "XCMS",
+            "link": "http://sanchezpizarro.com/portfolio/xcms",
+            "background": "http://ximg.es/250x250/000/fff"
+        }, {
+            "name": "Centro BTT Nevada",
+            "link": "http://sanchezpizarro.com/portfolio/centro-btt-nevada",
+            "background": "http://ximg.es/250x250/000/fff"
+        }
+    ]
 }
