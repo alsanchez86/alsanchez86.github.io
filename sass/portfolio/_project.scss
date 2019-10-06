@@ -8,7 +8,6 @@ a.portfolio-item {
     margin-bottom: 30px;
     overflow: hidden;
 
-    border: 1px solid $color_border;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -25,7 +24,7 @@ a.portfolio-item {
 
         font-size: $font-size-sm;
         color: $color_white;
-        background-color: rgba(0,0,0, 75%);
+        background-color: rgba(0,0,0, 65%);
         text-align: center;
         text-transform: uppercase;
     }
