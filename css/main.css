@@ -6657,9 +6657,9 @@ a.portfolio-item {
     a.portfolio-item:hover div.portfolio-item-name {
       display: block;
       animation-name: animateProjectName;
-      animation-iteration-count: 1;
+      animation-iteration-count: 0.5s;
       animation-timing-function: ease-in;
-      animation-duration: 1s; }
+      animation-duration: 0.5s; }
 
 @media (max-width: 575.98px) {
   a.portfolio-item div.portfolio-item-name {
