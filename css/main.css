@@ -6325,7 +6325,8 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 15px;
-  line-height: 1em; }
+  line-height: 1em;
+  text-transform: uppercase; }
 
 h1 {
   font-size: 36px;
@@ -6626,9 +6627,6 @@ h2.section-title {
   .education-item h4 {
     margin: 0;
     line-height: 1.8em; }
-
-.project-wrapper h2 {
-  text-transform: uppercase; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
