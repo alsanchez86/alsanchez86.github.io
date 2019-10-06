@@ -25,7 +25,7 @@ a.portfolio-item {
 
         font-size: $font-size-sm;
         color: $color_white;
-        background-color: rgba(0,0,0, 85%);
+        background-color: rgba(0,0,0, 75%);
         text-align: center;
         text-transform: uppercase;
     }
@@ -36,9 +36,9 @@ a.portfolio-item {
         div.portfolio-item-name {
             display: block;
             animation-name: animateProjectName;
-            animation-iteration-count: 0.5s;
+            animation-iteration-count: 0.25s;
             animation-timing-function: ease-in;
-            animation-duration: 0.5s;
+            animation-duration: 0.25s;
         }
     }
 }
