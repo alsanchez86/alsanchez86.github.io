@@ -6645,7 +6645,8 @@ a.portfolio-item {
     left: 0;
     right: 0;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
   a.portfolio-item:hover {
     text-decoration: none; }
     a.portfolio-item:hover div.portfolio-item-name {
