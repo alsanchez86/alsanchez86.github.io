@@ -566,7 +566,7 @@
         "projects": [{
                 "name": "Ximdex CMS: CMS semántico basado en tecnología XML.",
                 "link": "http://sanchezpizarro.com/portfolio/xcms/",
-                "target": "_blank"
+                "target": "_self"
             },
             {
                 "name": "Demos módulos Ximdex CMS.",
