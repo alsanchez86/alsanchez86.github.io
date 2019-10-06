@@ -29,3 +29,19 @@ a.portfolio-item {
         }
     }
 }
+
+@include media-breakpoint-down(xs) {
+    a.portfolio-item {
+        div.portfolio-item-name {
+            display: block;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    a.portfolio-item {
+        div.portfolio-item-name {
+            display: block;
+        }
+    }
+}

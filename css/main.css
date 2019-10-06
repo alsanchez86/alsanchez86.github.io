@@ -6651,6 +6651,14 @@ a.portfolio-item {
     a.portfolio-item:hover div.portfolio-item-name {
       display: block; }
 
+@media (max-width: 575.98px) {
+  a.portfolio-item div.portfolio-item-name {
+    display: block; } }
+
+@media (max-width: 767.98px) {
+  a.portfolio-item div.portfolio-item-name {
+    display: block; } }
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
