@@ -6628,6 +6628,11 @@ h2.section-title {
     margin: 0;
     line-height: 1.8em; }
 
+a.portfolio-item {
+  display: block;
+  width: 100%;
+  height: 250px; }
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
