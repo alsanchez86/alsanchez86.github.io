@@ -782,8 +782,8 @@
         ],
         "projects": [{
                 "name": "Portal web Centro BTT Nevada.",
-                "link": "http://www.centrobttnevada.es/",
-                "target": "_blank"
+                "link": "http://sanchezpizarro.com/portfolio/centro-btt-nevada",
+                "target": "_self"
             },
             {
                 "name": "Web corporativa Grupo Hispasat.",
