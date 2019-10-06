@@ -22,19 +22,19 @@
             "name": "Frontend",
             "items": [{
                 "name": "JavaScript ES5"
-            },{
+            }, {
                 "name": "CoffeScript"
-            },{
+            }, {
                 "name": "JQuery"
-            },{
+            }, {
                 "name": "RiotJS"
-            },{
+            }, {
                 "name": "HTML5"
-            },{
+            }, {
                 "name": "LESS"
-            },{
+            }, {
                 "name": "SASS"
-            },{
+            }, {
                 "name": "CSS3"
             }]
         }]
