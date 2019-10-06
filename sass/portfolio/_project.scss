@@ -8,4 +8,14 @@ a.portfolio-item {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+
+    span {
+        display: none;
+    }
+
+    &:hover {
+        span {
+            display: block;
+        }
+    }
 }
