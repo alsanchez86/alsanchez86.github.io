@@ -6642,12 +6642,14 @@ a.portfolio-item {
   a.portfolio-item div.portfolio-item-name {
     display: none;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 0;
     right: 0;
     width: 100%;
+    padding: 15px;
+    font-size: 0.875rem;
     color: #FFF;
-    background-color: #010101;
+    background-color: black;
     text-align: center;
     text-transform: uppercase; }
   a.portfolio-item:hover {

@@ -14,13 +14,15 @@ a.portfolio-item {
     div.portfolio-item-name {
         display: none;
         position: absolute;
-        top: 90%;
+        top: 80%;
         left: 0;
         right: 0;
         width: 100%;
+        padding: 15px;
 
+        font-size: $font-size-sm;
         color: $color_white;
-        background-color: $color_text;
+        background-color: rgba(0,0,0, 85%);
         text-align: center;
         text-transform: uppercase;
     }
