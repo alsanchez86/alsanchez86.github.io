@@ -1,3 +1,5 @@
+$top-name: 80%;
+
 a.portfolio-item {
     position: relative;
     display: block;
@@ -14,7 +16,7 @@ a.portfolio-item {
     div.portfolio-item-name {
         display: none;
         position: absolute;
-        top: 80%;
+        top: $top-name;
         left: 0;
         right: 0;
         width: 100%;
@@ -29,6 +31,10 @@ a.portfolio-item {
 
     &:hover {
         text-decoration: none;
+        animation-name: animateProjectName;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1s;
 
         div.portfolio-item-name {
             display: block;
@@ -49,5 +55,15 @@ a.portfolio-item {
         div.portfolio-item-name {
             display: block;
         }
+    }
+}
+
+@keyframes animateProjectName {
+    0% {
+        top: 100%;
+    }
+
+    100% {
+        top: $top-name;
     }
 }

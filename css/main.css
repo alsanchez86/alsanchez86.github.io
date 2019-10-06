@@ -6653,7 +6653,11 @@ a.portfolio-item {
     text-align: center;
     text-transform: uppercase; }
   a.portfolio-item:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    animation-name: animateProjectName;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s; }
     a.portfolio-item:hover div.portfolio-item-name {
       display: block; }
 
@@ -6664,6 +6668,12 @@ a.portfolio-item {
 @media (max-width: 767.98px) {
   a.portfolio-item div.portfolio-item-name {
     display: block; } }
+
+@keyframes animateProjectName {
+  0% {
+    top: 100%; }
+  100% {
+    top: 80%; } }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
