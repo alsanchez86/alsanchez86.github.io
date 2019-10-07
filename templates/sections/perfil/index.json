@@ -456,7 +456,7 @@
             "type": "frontend",
             "name": "Frontend",
             "items": [{
-                    "name": "JavaScript"
+                    "name": "JavaScript ES5"
                 },
                 {
                     "name": "Angular"
@@ -613,7 +613,7 @@
             "type": "frontend",
             "name": "Frontend",
             "items": [{
-                    "name": "JavaScript"
+                    "name": "JavaScript ES5"
                 },
                 {
                     "name": "jQuery"
@@ -820,7 +820,7 @@
             "type": "frontend",
             "name": "Frontend",
             "items": [{
-                    "name": "JavaScript"
+                    "name": "JavaScript ES5"
                 },
                 {
                     "name": "jQuery"
@@ -903,7 +903,7 @@
             "type": "frontend",
             "name": "Frontend",
             "items": [{
-                    "name": "JavaScript"
+                    "name": "JavaScript ES5"
                 },
                 {
                     "name": "jQuery"
@@ -946,7 +946,7 @@
             "type": "frontend",
             "name": "Frontend",
             "items": [{
-                    "name": "JavaScript"
+                    "name": "JavaScript ES5"
                 },
                 {
                     "name": "HTML"

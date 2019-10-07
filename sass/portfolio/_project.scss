@@ -1,4 +1,5 @@
 $top_name: 80%;
+$delay_name: 0.15s;
 
 a.portfolio-item {
     position: relative;
@@ -35,9 +36,9 @@ a.portfolio-item {
         div.portfolio-item-name {
             display: block;
             animation-name: animateProjectName;
-            animation-iteration-count: 0.25s;
+            animation-iteration-count: $delay_name;
             animation-timing-function: ease-in;
-            animation-duration: 0.25s;
+            animation-duration: $delay_name;
         }
     }
 }
