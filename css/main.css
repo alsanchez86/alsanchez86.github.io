@@ -6455,8 +6455,16 @@ h2.section-title {
   padding: 45px 0 70px;
   font-size: 12px;
   background-color: #FFF; }
-  .footer a i {
-    font-size: 24px; }
+  .footer a {
+    color: #6c757d;
+    text-decoration: none;
+    background-color: transparent; }
+    .footer a:hover, .footer a:focus, .footer a.active, .footer a:active {
+      color: #6c757d;
+      text-decoration: none;
+      background-color: transparent; }
+    .footer a i {
+      font-size: 24px; }
   .footer .footer-me {
     margin: 40px 0 0 0;
     text-align: center; }

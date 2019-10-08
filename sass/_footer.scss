@@ -4,6 +4,8 @@
     background-color: $color_white;
 
     a {
+        @include link($gray-600, $gray-600);
+
         i {
             font-size: 24px;
         }
