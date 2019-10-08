@@ -6312,6 +6312,18 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.btn-primary {
+  color: #fff;
+  background-color: #28a745;
+  background-image: linear-gradient(-180deg, #34d058, #28a745 90%);
+  background-repeat: repeat-x;
+  background-position: -1px -1px;
+  background-size: 110% 110%;
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  border-radius: .25em; }
+  .btn-primary:hover, .btn-primary:active {
+    background-image: linear-gradient(180deg, #34d058, #28a745 90%); }
+
 body {
   font-family: 'Inter';
   font-size: 14px;
