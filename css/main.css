@@ -6325,7 +6325,7 @@ a.text-dark:hover, a.text-dark:focus {
     background-image: linear-gradient(180deg, #34d058, #28a745 90%); }
 
 body {
-  font-family: 'Inter';
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 22.5px;
@@ -6337,6 +6337,7 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 15px;
+  font-family: "Inter", sans-serif;
   line-height: 1em;
   text-transform: uppercase; }
 
