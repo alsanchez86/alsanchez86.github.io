@@ -6,8 +6,12 @@
             </h3>
 
             <p>
-                <a href="{{ company_link }}" target="_blank">{{ company_link }}</a>
+                {{#company_link}}
+                <a href="{{ link }}" target="_blank">
+                    {{ link }}
+                </a>
                 <br>
+                {{/company_link}}
                 {{ date }}
                 <br>
                 {{ city }}

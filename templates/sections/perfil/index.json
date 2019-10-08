@@ -252,7 +252,11 @@
         "name": "Expertus Technology",
         "date": "Agosto 2017 - Actualmente.",
         "city": "Barcelona, España.",
-        "company_link": "http://www.expertustech.es/",
+        "company_link": [
+            {
+                "link": "http://www.expertustech.es/"
+            }
+        ],
         "image_company_path": [{
             "image_name": "expertus.png"
         }],
@@ -423,7 +427,11 @@
         "name": "Innofis",
         "date": "Marzo de 2017 - Agosto de 2017.",
         "city": "Barcelona, España.",
-        "company_link": "https://crealogix.com/es/",
+        "company_link": [
+            {
+                "link": "https://crealogix.com/es/"
+            }
+        ],
         "image_company_path": [{
             "image_name": "innofis.png"
         }],
@@ -539,7 +547,11 @@
         "name": "Open Ximdex Evolution S.L.",
         "date": "Octubre de 2014 - Marzo de 2017.",
         "city": "Sevilla, España.",
-        "company_link": "https://www.ximdex.com/",
+        "company_link": [
+            {
+                "link": "https://www.ximdex.com/"
+            }
+        ],
         "image_company_path": [{
             "image_name": "ximdex.png"
         }],
@@ -765,7 +777,11 @@
         "name": "Existo Diseño Web S.L.",
         "date": "Junio de 2012 - Octubre de 2014.",
         "city": "Alcalá de Guadaíra, Sevilla, España.",
-        "company_link": "https://www.existo.es/",
+        "company_link": [
+            {
+                "link": "https://www.existo.es/"
+            }
+        ],
         "image_company_path": [{
             "image_name": "existo.svg"
         }],
@@ -884,7 +900,7 @@
         "name": "Freelance",
         "date": "Febrero de 2012 - Mayo de 2012.",
         "city": "Sevilla, España.",
-        "company_link": "",
+        "company_link": [],
         "image_company_path": [],
         "position": "Desarrollador superior de páginas web.",
         "functions": [{
@@ -934,7 +950,7 @@
         "name": "Gaesa S.L. Gabinete Andaluz de estudios y actividades.",
         "date": "Julio de 2010 - Enero de 2012.",
         "city": "Sevilla, España.",
-        "company_link": "",
+        "company_link": [],
         "image_company_path": [{
             "image_name": "gaesa.jpeg"
         }],
