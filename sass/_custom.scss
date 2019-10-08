@@ -4,7 +4,7 @@ body {
     font-weight: 400;
     line-height: 22.5px;
     color: $color_text;
-    background: $color_background;
+    background: $color_white;
 }
 
 textarea {
@@ -79,7 +79,8 @@ ul {
 }
 
 .main-wrapper {
-    padding-top: 4.5rem;
+    padding-top: 4.25rem;
+    background: $color_background;
 }
 
 .section-wrapper {

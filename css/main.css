@@ -6330,7 +6330,7 @@ body {
   font-weight: 400;
   line-height: 22.5px;
   color: #010101;
-  background: #fafbfc; }
+  background: #FFF; }
 
 textarea {
   resize: none; }
@@ -6384,7 +6384,8 @@ ul {
   list-style: none; }
 
 .main-wrapper {
-  padding-top: 4.5rem; }
+  padding-top: 4.25rem;
+  background: #fafbfc; }
 
 .section-wrapper {
   padding: 50px 0; }
