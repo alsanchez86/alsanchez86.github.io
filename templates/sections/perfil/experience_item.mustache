@@ -34,6 +34,21 @@
             </div>
 
             <div class="experience-item-batch">
+                <h4>TECNOLOGÍAS</h4>
+
+                <ul>
+                    {{#techs}}
+                    <li class="experience-item-batch-{{ type }}">
+                        {{ name }}:&nbsp;
+                        {{#items}}
+                        <span class="badge">{{ name }}</span>
+                        {{/items}}
+                    </li>
+                    {{/techs}}
+                </ul>
+            </div>
+
+            <div class="experience-item-batch">
                 <h4>PROYECTOS DESTACADOS</h4>
 
                 <ul>
@@ -54,21 +69,6 @@
                     </div>
                     {{/embeds}}
                 </div>
-            </div>
-
-            <div class="experience-item-batch">
-                <h4>TECNOLOGÍAS</h4>
-
-                <ul>
-                    {{#techs}}
-                    <li class="experience-item-batch-{{ type }}">
-                        {{ name }}:&nbsp;
-                        {{#items}}
-                        <span class="badge">{{ name }}</span>
-                        {{/items}}
-                    </li>
-                    {{/techs}}
-                </ul>
             </div>
         </div>
 
