@@ -6637,6 +6637,10 @@ h2.section-title {
       color: #fafbfc;
       background-color: #2D0320; }
 
+@media (max-width: 767.98px) {
+  .experience-item {
+    margin-bottom: 20px; } }
+
 .education-item {
   margin-bottom: 40px; }
   .education-item h3 {

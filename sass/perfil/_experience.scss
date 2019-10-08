@@ -64,3 +64,9 @@
         }
     }
 }
+
+@include media-breakpoint-down(sm) {
+    .experience-item {
+        margin-bottom: 20px;
+    }
+}
