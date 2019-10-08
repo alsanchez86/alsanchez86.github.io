@@ -4,8 +4,10 @@
     right: 0;
     left: 0;
     z-index: 1030;
-    background-color: $color_background;
-    border-bottom: 1px solid $color_text;
+
+    color: $color_white;
+    background-color: $color_black;
+    // border-bottom: 1px solid $color_text;
 
     .navbar {
         justify-content: flex-end;
