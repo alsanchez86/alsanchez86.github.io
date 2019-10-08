@@ -7,6 +7,8 @@ Code from [sanchezpizarro.com](http://sanchezpizarro.com)
 - [x] Create menu for add other sections (portfolio, blog, ...).
 - [x] Create unique function on gulpfile for compile all sections folders and subfolders.
 - [ ] Add content to portfolio section.
+- [ ] En perfil, proyectos destacados sea un OWL Carousel con las miniaturas para hacerlo más visual.
+- [ ] En portfolio/proyecto, poner una cabecera que ocupe todo el ancho de la ventana con una imagen del proyecto.
 - [ ] Use HTML5 tags like article, section...
 - [ ] Add blog section.
 - [ ] Add content to inicio (from blog) section.
