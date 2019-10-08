@@ -143,7 +143,7 @@ a {
   -webkit-text-decoration-skip: objects; }
   a:hover {
     color: #0056b3;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -1997,11 +1997,11 @@ fieldset:disabled a.btn {
   background-color: transparent; }
   .btn-link:hover {
     color: #0056b3;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: transparent;
     border-color: transparent; }
   .btn-link:focus, .btn-link.focus {
-    text-decoration: underline;
+    text-decoration: none;
     border-color: transparent;
     box-shadow: none; }
   .btn-link:disabled, .btn-link.disabled {
@@ -6591,8 +6591,6 @@ h2.section-title {
     margin-bottom: 5px;
     font-size: 13px;
     font-weight: 700; }
-  .experience-item a {
-    text-decoration: underline; }
   .experience-item .media-left {
     padding-right: 35px; }
   .experience-item .experience-item-batch {
