@@ -6582,7 +6582,7 @@ h2.section-title {
     transform: translateX(0); } }
 
 .experience-item {
-  margin-bottom: 100px; }
+  margin-bottom: 60px; }
   .experience-item:last-child {
     margin-bottom: 0; }
   .experience-item h3 {
@@ -6595,7 +6595,7 @@ h2.section-title {
   .experience-item .media-left {
     padding-right: 35px; }
   .experience-item .experience-item-batch {
-    margin-bottom: 25px; }
+    margin-bottom: 35px; }
     .experience-item .experience-item-batch .experience-item-batch-frontend .badge {
       font-weight: 400;
       color: #010101;

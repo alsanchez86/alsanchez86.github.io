@@ -1,5 +1,5 @@
 .experience-item {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 
     &:last-child {
         margin-bottom: 0;
@@ -21,7 +21,7 @@
     }
 
     .experience-item-batch {
-        margin-bottom: 25px;
+        margin-bottom: 35px;
 
         .experience-item-batch-frontend {
             @include experience_badge($color_frontend, $color_text);
