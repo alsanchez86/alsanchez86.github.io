@@ -9,6 +9,7 @@ Code from [sanchezpizarro.com](http://sanchezpizarro.com)
 - [ ] Add content to portfolio section.
 - [ ] En perfil, proyectos destacados sea un OWL Carousel con las miniaturas para hacerlo más visual.
 - [ ] En portfolio/proyecto, poner una cabecera que ocupe todo el ancho de la ventana con una imagen del proyecto.
+- [ ] En móvil, el menú que sea fixed, pero que solamente aparezca cuando se haga scroll up. Cuando se haga scroll down, se oculte.
 - [ ] Use HTML5 tags like article, section...
 - [ ] Add blog section.
 - [ ] Add content to inicio (from blog) section.
