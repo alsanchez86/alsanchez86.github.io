@@ -57,7 +57,7 @@
                 }
 
                 &.social-list-email {
-                    @include link($color_twitter, $color_twitter);
+                    @include link($color_gray, $color_gray);
                 }
             }
         }
