@@ -6528,6 +6528,14 @@ h2.section-title {
           color: #00abf0;
           text-decoration: none;
           background-color: transparent; }
+      .intro ul.social-list li a.social-list-email {
+        color: #00abf0;
+        text-decoration: none;
+        background-color: transparent; }
+        .intro ul.social-list li a.social-list-email:hover, .intro ul.social-list li a.social-list-email:focus, .intro ul.social-list li a.social-list-email.active, .intro ul.social-list li a.social-list-email:active {
+          color: #00abf0;
+          text-decoration: none;
+          background-color: transparent; }
 
 .intro .download-cv {
   text-align: center; }

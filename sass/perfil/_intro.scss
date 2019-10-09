@@ -55,6 +55,10 @@
                 &.social-list-twitter {
                     @include link($color_twitter, $color_twitter);
                 }
+
+                &.social-list-email {
+                    @include link($color_twitter, $color_twitter);
+                }
             }
         }
     }
