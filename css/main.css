@@ -6504,6 +6504,30 @@ h2.section-title {
       line-height: 46px;
       text-align: center;
       border-radius: 2px; }
+      .intro ul.social-list li a.social-list-github {
+        color: #24292e;
+        text-decoration: none;
+        background-color: transparent; }
+        .intro ul.social-list li a.social-list-github:hover, .intro ul.social-list li a.social-list-github:focus, .intro ul.social-list li a.social-list-github.active, .intro ul.social-list li a.social-list-github:active {
+          color: #24292e;
+          text-decoration: none;
+          background-color: transparent; }
+      .intro ul.social-list li a.social-list-linkedin {
+        color: #007bb6;
+        text-decoration: none;
+        background-color: transparent; }
+        .intro ul.social-list li a.social-list-linkedin:hover, .intro ul.social-list li a.social-list-linkedin:focus, .intro ul.social-list li a.social-list-linkedin.active, .intro ul.social-list li a.social-list-linkedin:active {
+          color: #007bb6;
+          text-decoration: none;
+          background-color: transparent; }
+      .intro ul.social-list li a.social-list-twitter {
+        color: #00abf0;
+        text-decoration: none;
+        background-color: transparent; }
+        .intro ul.social-list li a.social-list-twitter:hover, .intro ul.social-list li a.social-list-twitter:focus, .intro ul.social-list li a.social-list-twitter.active, .intro ul.social-list li a.social-list-twitter:active {
+          color: #00abf0;
+          text-decoration: none;
+          background-color: transparent; }
 
 .intro .download-cv {
   text-align: center; }

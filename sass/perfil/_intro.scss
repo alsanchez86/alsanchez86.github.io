@@ -43,6 +43,18 @@
                 line-height: 46px;
                 text-align: center;
                 border-radius: 2px;
+
+                &.social-list-github {
+                    @include link($color_github, $color_github);
+                }
+
+                &.social-list-linkedin {
+                    @include link($color_linkedin, $color_linkedin);
+                }
+
+                &.social-list-twitter {
+                    @include link($color_twitter, $color_twitter);
+                }
             }
         }
     }
