@@ -6481,13 +6481,11 @@ h2.section-title {
   .intro .name-wrapper span {
     font-size: 24px; }
 
-.intro .personal-detail {
+.intro p.personal-detail {
   margin: 10px 0; }
-  .intro .personal-detail strong {
-    display: block;
-    font-size: 13px;
-    line-height: 1; }
-  .intro .personal-detail small {
+  .intro p.personal-detail strong {
+    font-size: 13px; }
+  .intro p.personal-detail small {
     font-size: 12px; }
 
 .intro ul.social-list {
