@@ -274,37 +274,37 @@
                 "name": "FC Barcelona. Plataforma oficial de venta de entradas online",
                 "link": "https://www.fcbarcelona.es/es/",
                 "target": "_blank",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/projects/fcbarcelona/preview.jpg"
             },
             {
                 "name": "El Corte Inglés. Plataforma oficial de venta de entradas online",
                 "link": "https://www.elcorteingles.es/entradas/",
                 "target": "_blank",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/projects/eci/preview.jpg"
             },
             {
                 "name": "Atlético de Madrid. Plataforma oficial de venta de entradas online",
                 "link": "https://www.atleticodemadrid.com/entradas",
                 "target": "_blank",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/projects/atm/preview.jpg"
             },
             {
                 "name": "Getafe FC. Plataforma oficial de venta de entradas online",
                 "link": "https://getafecf.expertustech.com/open#/eventshome",
                 "target": "_blank",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/projects/getafe/preview.jpg"
             },
             {
                 "name": "Albacete Balompié. Plataforma oficial de venta de entradas online",
                 "link": "https://albacetebalompie.expertustech.com/open#/eventshome",
                 "target": "_blank",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/projects/albacete/preview.jpg"
             },
             {
                 "name": "Elche CF. Plataforma oficial de venta de entradas online",
                 "link": "https://elchecf.expertustech.com/open#/eventshome",
                 "target": "_blank",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/projects/elche/preview.jpg"
             }
         ],
         "techs": [{
