@@ -45,8 +45,8 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                 carousel
                     .on(["build.after"], function (){
                         _$(carousel.selector)
-                            .removeClass("d-none")
-                            .addClass("d-block");
+                            .removeClass("invisible")
+                            .addClass("visible");
                     })
                     .mount();
             })
