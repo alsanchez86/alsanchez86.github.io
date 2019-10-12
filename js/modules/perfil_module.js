@@ -20,10 +20,15 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
         }
     }
 
-    function initSliders(){
+    function initSliders() {
         ["expertus", "innofis"]
-            .map(function (company){
-                return new Glide("#glide-slider-" + company).mount();
+            .map(function (company) {
+                return new Glide("#glide-slider-" + company)
+                    .mount({
+                        type: 'carousel',
+                        startAt: 0,
+                        perView: 3
+                    });
             });
     }
 });
