@@ -13,15 +13,15 @@
         }, {
             "name": "XOWL",
             "link": "http://sanchezpizarro.com/portfolio/xowl",
-            "background": "xowl.png"
+            "background": "../img/projects/xowl/preview.jpg"
         }, {
             "name": "XCMS",
             "link": "http://sanchezpizarro.com/portfolio/xcms",
-            "background": "xcms.png"
+            "background": "../img/projects/xcms/preview.jpg"
         }, {
             "name": "Centro BTT Nevada",
             "link": "http://sanchezpizarro.com/portfolio/centro-btt-nevada",
-            "background": "centro-btt-nevada.png"
+            "background": "../img/projects/centro-btt-nevada/preview.jpg"
         }
     ]
 }
