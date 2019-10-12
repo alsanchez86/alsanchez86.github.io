@@ -26,6 +26,20 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                 return new Glide("#glide-slider-" + id, {
                     type: "carousel",
                     perView: 2,
+                    breakpoints: {
+                        576: {
+                            perView: 1
+                        },
+                        768: {
+                            perView: 1
+                        },
+                        992: {
+                            perView: 2
+                        },
+                        1200: {
+                            perView: 3
+                        }
+                    }
                     // hoverpause: true,
                     // autoplay: 2000
                 }).mount();
