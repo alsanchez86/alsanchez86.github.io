@@ -257,7 +257,7 @@
             "link": "http://www.expertustech.es/"
         }],
         "image_company_path": [{
-            "image_name": "expertus.png"
+            "image_name": "companies/expertus.png"
         }],
         "position": "Senior frontend developer.",
         "functions": [{
@@ -436,7 +436,7 @@
             "link": "https://crealogix.com/es/"
         }],
         "image_company_path": [{
-            "image_name": "innofis.png"
+            "image_name": "companies/innofis.png"
         }],
         "position": "Fullstack developer.",
         "functions": [{
@@ -456,13 +456,13 @@
                 "name": "Portal corporativo Danone S.A.",
                 "link": "https://www.alimentasonrisas.es/",
                 "target": "_blank",
-                "background": "../img/danone.jpg"
+                "background": "../img/projects/danone/preview.jpg"
             },
             {
                 "name": "Web APP FontVella 'Eres Impulso'",
                 "link": "https://eresimpulso.fontvella.es/",
                 "target": "_blank",
-                "background": "../img/fontvella.jpg"
+                "background": "../img/projects/fontvella/preview.jpg"
             }
         ],
         "techs": [{
@@ -557,7 +557,7 @@
             "link": "https://www.ximdex.com/"
         }],
         "image_company_path": [{
-            "image_name": "ximdex.png"
+            "image_name": "companies/ximdex.png"
         }],
         "position": "Fullstack developer / Soporte técnico.",
         "functions": [{
@@ -795,7 +795,7 @@
             "link": "https://www.existo.es/"
         }],
         "image_company_path": [{
-            "image_name": "existo.svg"
+            "image_name": "companies/existo.svg"
         }],
         "position": "Fullstack developer.",
         "functions": [{
@@ -974,7 +974,7 @@
         "city": "Sevilla, España.",
         "company_link": [],
         "image_company_path": [{
-            "image_name": "gaesa.jpeg"
+            "image_name": "companies/gaesa.jpeg"
         }],
         "position": "Desarrollador superior de páginas web.",
         "functions": [{
