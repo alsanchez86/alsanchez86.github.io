@@ -5,6 +5,7 @@
 @import "bootstrap_customize";
 // Custom
 @import "custom";
+@import "project_item";
 // Partials
 @import "preloader";
 @import "main_nav";
@@ -15,5 +16,3 @@
 @import "perfil/skills";
 @import "perfil/experience";
 @import "perfil/education";
-// Project
-@import "portfolio/project";

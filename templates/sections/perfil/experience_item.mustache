@@ -67,8 +67,10 @@
 
                             {{#projects}}
                             <li class="glide__slide">
-                                <a href="{{ link }}" target="{{ target }}">
-                                    {{ name }}
+                                <a href="{{ link }}" target="{{ target }}" class="project-item" style="background-image: url({{ img_path }}/{{ background }})">
+                                    <div class="project-item-name">
+                                        {{ name }}
+                                    </div>
                                 </a>
                             </li>
                             {{/projects}}
@@ -76,8 +78,9 @@
                     </div>
 
                     <div data-glide-el="controls">
-                        <button data-glide-dir="<"><</button>
-                        <button data-glide-dir=">">></button>
+                        <button data-glide-dir="<">
+                            <</button> <button data-glide-dir=">">>
+                        </button>
                     </div>
                 </div>
             </div>

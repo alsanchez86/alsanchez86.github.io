@@ -253,11 +253,9 @@
         "name": "Expertus Technology",
         "date": "Agosto 2017 - Actualmente.",
         "city": "Barcelona, España.",
-        "company_link": [
-            {
-                "link": "http://www.expertustech.es/"
-            }
-        ],
+        "company_link": [{
+            "link": "http://www.expertustech.es/"
+        }],
         "image_company_path": [{
             "image_name": "expertus.png"
         }],
@@ -275,32 +273,38 @@
         "projects": [{
                 "name": "FC Barcelona. Plataforma oficial de venta de entradas online.",
                 "link": "https://www.fcbarcelona.es/es/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "El Corte Inglés. Plataforma oficial de venta de entradas online.",
                 "link": "https://www.elcorteingles.es/entradas/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Atlético de Madrid. Plataforma oficial de venta de entradas online.",
                 "link": "https://www.atleticodemadrid.com/entradas",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Getafe FC. Plataforma oficial de venta de entradas online.",
                 "link": "https://getafecf.expertustech.com/open#/eventshome",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Albacete Balompié. Plataforma oficial de venta de entradas online.",
                 "link": "https://albacetebalompie.expertustech.com/open#/eventshome",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Elche CF. Plataforma oficial de venta de entradas online.",
                 "link": "https://elchecf.expertustech.com/open#/eventshome",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             }
         ],
         "techs": [{
@@ -416,8 +420,7 @@
                 "name": "Jenkins"
             }]
         }],
-        "embeds": [
-            {
+        "embeds": [{
                 "src": "o--cbgoTzOY"
             },
             {
@@ -429,11 +432,9 @@
         "name": "Innofis",
         "date": "Marzo de 2017 - Agosto de 2017.",
         "city": "Barcelona, España.",
-        "company_link": [
-            {
-                "link": "https://crealogix.com/es/"
-            }
-        ],
+        "company_link": [{
+            "link": "https://crealogix.com/es/"
+        }],
         "image_company_path": [{
             "image_name": "innofis.png"
         }],
@@ -454,12 +455,14 @@
         "projects": [{
                 "name": "Portal corporativo Danone S.A.",
                 "link": "https://www.alimentasonrisas.es/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Web APP FontVella << Eres Impulso >>",
                 "link": "https://eresimpulso.fontvella.es/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             }
         ],
         "techs": [{
@@ -550,11 +553,9 @@
         "name": "Open Ximdex Evolution S.L.",
         "date": "Octubre de 2014 - Marzo de 2017.",
         "city": "Sevilla, España.",
-        "company_link": [
-            {
-                "link": "https://www.ximdex.com/"
-            }
-        ],
+        "company_link": [{
+            "link": "https://www.ximdex.com/"
+        }],
         "image_company_path": [{
             "image_name": "ximdex.png"
         }],
@@ -581,47 +582,56 @@
         "projects": [{
                 "name": "Ximdex CMS: CMS semántico basado en tecnología XML.",
                 "link": "http://sanchezpizarro.com/portfolio/xcms/",
-                "target": "_self"
+                "target": "_self",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Demos módulos Ximdex CMS.",
                 "link": "http://demo.ximdex.com",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "XFIND Demo.",
                 "link": "http://demo.ximdex.com/xfind/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "XOWL Demo.",
                 "link": "http://sanchezpizarro.com/portfolio/xowl/",
-                "target": "_self"
+                "target": "_self",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "XHAWK Demo.",
                 "link": "http://demo.ximdex.com/xhawk/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Web corporativa Open Ximdex Evolution S.L.",
                 "link": "http://www.ximdex.com/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Portal web AEPD: Agencia Española de Protección de Datos.",
                 "link": "http://www.agpd.es/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Portal web BRAE: Biblioteca de recursos para el aprendizaje del Español.",
                 "link": "http://brae.redhispanistas.es/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Web corporativa United English Academy S.L.",
                 "link": "http://www.unitedenglish.es/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             }
         ],
         "techs": [{
@@ -781,11 +791,9 @@
         "name": "Existo Diseño Web S.L.",
         "date": "Junio de 2012 - Octubre de 2014.",
         "city": "Alcalá de Guadaíra, Sevilla, España.",
-        "company_link": [
-            {
-                "link": "https://www.existo.es/"
-            }
-        ],
+        "company_link": [{
+            "link": "https://www.existo.es/"
+        }],
         "image_company_path": [{
             "image_name": "existo.svg"
         }],
@@ -803,37 +811,44 @@
         "projects": [{
                 "name": "Portal web Centro BTT Nevada.",
                 "link": "http://sanchezpizarro.com/portfolio/centro-btt-nevada",
-                "target": "_self"
+                "target": "_self",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Web corporativa Grupo Hispasat.",
                 "link": "http://www.hispasat.com/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Web corporativa Mercer Hoteles Barcelona.",
                 "link": "http://www.mercerbarcelona.com/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Tienda online Tramas + Malbatex S.L.",
                 "link": "http://www.tramasmas.com/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Portal web Sevilla si",
                 "link": "http://www.sevillasi.com/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Web corporativa Planvalore Avales Inmobiliarios, S.A.",
                 "link": "http://www.planvalore.com/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
                 "name": "Web corporativa Fourup.",
                 "link": "http://www.fourup.es/",
-                "target": "_blank"
+                "target": "_blank",
+                "background": "http://ximg.es/250x250/CCC/fff"
             }
         ],
         "techs": [{
@@ -918,7 +933,8 @@
         "projects": [{
             "name": "Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla.",
             "link": "http://www.iaic.us.es/",
-            "target": "_blank"
+            "target": "_blank",
+            "background": "http://ximg.es/250x250/CCC/fff"
         }],
         "techs": [{
             "type": "frontend",
@@ -963,6 +979,12 @@
         "position": "Desarrollador superior de páginas web.",
         "functions": [{
             "name": "Desarrollador de plataformas web para estudiantes (e-learning) y aplicaciones multimedia desarrolladas con Adobe Flash (ActionScript 3.0)"
+        }],
+        "projects": [{
+            "name": "-",
+            "link": "",
+            "target": "_blank",
+            "background": "http://ximg.es/250x250/CCC/fff"
         }],
         "techs": [{
             "type": "frontend",
