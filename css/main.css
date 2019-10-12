@@ -6442,23 +6442,33 @@ a.project-item {
     color: #FFF;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    animation-name: animateProjectName;
+    animation-iteration-count: 0.15s;
+    animation-timing-function: ease-in;
+    animation-duration: 0.15s; }
   a.project-item:hover {
     text-decoration: none; }
     a.project-item:hover div.project-item-name {
-      display: block;
-      animation-name: animateProjectName;
-      animation-iteration-count: 0.15s;
-      animation-timing-function: ease-in;
-      animation-duration: 0.15s; }
+      display: block; }
 
 @media (max-width: 575.98px) {
   a.project-item div.project-item-name {
-    display: block; } }
+    display: block;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important; } }
 
 @media (max-width: 767.98px) {
   a.project-item div.project-item-name {
-    display: block; } }
+    display: block;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important; } }
 
 @keyframes animateProjectName {
   0% {

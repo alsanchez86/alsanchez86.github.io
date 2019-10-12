@@ -32,6 +32,11 @@ a.project-item {
         background-color: rgba(0, 0, 0, 0.7);
         text-align: center;
         text-transform: uppercase;
+
+        animation-name: animateProjectName;
+        animation-iteration-count: $delay_name;
+        animation-timing-function: ease-in;
+        animation-duration: $delay_name;
     }
 
     &:hover {
@@ -39,10 +44,6 @@ a.project-item {
 
         div.project-item-name {
             display: block;
-            animation-name: animateProjectName;
-            animation-iteration-count: $delay_name;
-            animation-timing-function: ease-in;
-            animation-duration: $delay_name;
         }
     }
 }
@@ -51,6 +52,12 @@ a.project-item {
     a.project-item {
         div.project-item-name {
             display: block;
+
+            -webkit-transition: none !important;
+            -moz-transition: none !important;
+            -o-transition: none !important;
+            -ms-transition: none !important;
+            transition: none !important;
         }
     }
 }
@@ -59,6 +66,12 @@ a.project-item {
     a.project-item {
         div.project-item-name {
             display: block;
+
+            -webkit-transition: none !important;
+            -moz-transition: none !important;
+            -o-transition: none !important;
+            -ms-transition: none !important;
+            transition: none !important;
         }
     }
 }
