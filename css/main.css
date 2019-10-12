@@ -6722,6 +6722,8 @@ a.project-item {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
+    .experience-item .glide-controls .btn {
+      font-weight: 700; }
 
 @media (max-width: 767.98px) {
   .experience-item {
