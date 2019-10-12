@@ -25,9 +25,10 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
             .map(function (company) {
                 return new Glide("#glide-slider-" + company)
                     .mount({
-                        type: 'carousel',
-                        startAt: 0,
-                        perView: 3
+                        type: "carousel",
+                        hoverpause: true,
+                        perView: 3,
+                        autoplay: 2000
                     });
             });
     }
