@@ -44,7 +44,7 @@ require.config(
                     deps: ["jquery_cache_module"]
                 },
                 perfil_module: {
-                    deps: ["jquery_cache_module", "tiny_slider"]
+                    deps: ["jquery_cache_module", "tns"]
                 },
                 portfolio_module: {
                     deps: ["jquery_cache_module"]
