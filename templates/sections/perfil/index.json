@@ -456,13 +456,13 @@
                 "name": "Portal corporativo Danone S.A.",
                 "link": "https://www.alimentasonrisas.es/",
                 "target": "_blank",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/danone.jpg"
             },
             {
                 "name": "Web APP FontVella 'Eres Impulso'",
                 "link": "https://eresimpulso.fontvella.es/",
                 "target": "_blank",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/fontvella.jpg"
             }
         ],
         "techs": [{
