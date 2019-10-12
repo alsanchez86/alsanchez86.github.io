@@ -583,7 +583,7 @@
                 "name": "Ximdex CMS: CMS semántico basado en tecnología XML",
                 "link": "http://sanchezpizarro.com/portfolio/xcms/",
                 "target": "_self",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/projects/xcms/preview.jpg"
             },
             {
                 "name": "Demos módulos Ximdex CMS",
@@ -601,7 +601,7 @@
                 "name": "XOWL Demo",
                 "link": "http://sanchezpizarro.com/portfolio/xowl/",
                 "target": "_self",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/projects/xowl/preview.jpg"
             },
             {
                 "name": "XHAWK Demo",
@@ -812,7 +812,7 @@
                 "name": "Portal web Centro BTT Nevada",
                 "link": "http://sanchezpizarro.com/portfolio/centro-btt-nevada",
                 "target": "_self",
-                "background": "http://ximg.es/250x250/CCC/fff"
+                "background": "../img/projects/centro-btt-nevada/preview.jpg"
             },
             {
                 "name": "Web corporativa Grupo Hispasat",
