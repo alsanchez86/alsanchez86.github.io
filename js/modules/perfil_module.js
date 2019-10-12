@@ -14,9 +14,10 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
         var animateClass = "skills-item-animated";
         var $wrappers = _$(".skills-item");
         if ($wrappers) {
-            $wrappers.each(function (index, domElem) {
-                _$("#" + domElem.id).addClass(animateClass);
-            });
+            $wrappers
+                .each(function (index, domElem) {
+                    _$("#" + domElem.id).addClass(animateClass);
+                });
         }
     }
 
