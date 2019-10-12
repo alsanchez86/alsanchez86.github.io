@@ -44,7 +44,9 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
             }).map(function (carousel){
                 carousel
                     .on(["build.after"], function (){
-                        console.log(carousel);
+                        _$(carousel.selector)
+                            .removeClass("d-none");
+                            .addClass("d-block");
                     })
                     .mount();
             })
