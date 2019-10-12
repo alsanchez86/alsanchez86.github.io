@@ -75,7 +75,7 @@ gulp.task('js:lib', function () {
             pkg.node_modules + "requirejs/require.js",
             pkg.node_modules + "jquery/dist/jquery.min.js",
             pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
-            // pkg.node_modules + 'tiny-slider/dist/tiny-slider.js'
+            // pkg.node_modules + 'tiny-slider/dist/tiny-slider.js' // WARNING: tiny-slider has been modificated because it doesnt have native AMD compatibility.
         ])
         .pipe(gulp.dest(pkg.lib));
 });

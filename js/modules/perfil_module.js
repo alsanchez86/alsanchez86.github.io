@@ -3,7 +3,7 @@
 define(["module", "jquery_cache_module", "tns"], function (module, _$, tns) {
     module.exports.run = function () {
         animateProgressAll();
-        initSlider();
+        initSliders();
     }
 
     /**
@@ -18,6 +18,11 @@ define(["module", "jquery_cache_module", "tns"], function (module, _$, tns) {
                 _$("#" + domElem.id).addClass(animateClass);
             });
         }
+    }
+
+    function initSliders(){
+        var sliders = _$("div:regex(id, .*tiny-slider-.*)");
+        // initSlider(id);
     }
 
     function initSlider(){
