@@ -40,8 +40,6 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                             perView: 3
                         }
                     }
-                    // hoverpause: true,
-                    // autoplay: 2000
                 });
             }).map(function (carousel){
                 carousel
@@ -50,7 +48,5 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                     })
                     .mount();
             })
-
-
     }
 });
