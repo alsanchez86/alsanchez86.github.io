@@ -32,7 +32,8 @@ gulp.task('css:sass', function () {
 
 gulp.task('css:lib', function () {
     return gulp.src([
-            pkg.node_modules + 'font-awesome/css/font-awesome.css'
+            pkg.node_modules + 'font-awesome/css/font-awesome.css',
+            pkg.node_modules + 'tiny-slider/dist/tiny-slider.css'
         ])
         .pipe(concat("lib.css"))
         .pipe(gulp.dest(pkg.css));
@@ -73,7 +74,9 @@ gulp.task('js:lib', function () {
     return gulp.src([
             pkg.node_modules + "requirejs/require.js",
             pkg.node_modules + "jquery/dist/jquery.min.js",
-            pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js'
+            pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
+            pkg.node_modules + 'tiny-slider/dist/tiny-slider.js',
+            // pkg.node_modules + 'tiny-slider/dist/tiny-slider.helper.ie8.js'
         ])
         .pipe(gulp.dest(pkg.lib));
 });

@@ -1,8 +1,9 @@
 "use strict";
 
-define(["module", "jquery_cache_module"], function (module, _$) {
+define(["module", "jquery_cache_module", "tiny_slider"], function (module, _$, slider) {
     module.exports.run = function () {
         animateProgressAll();
+        initSlider();
     }
 
     /**
@@ -17,5 +18,9 @@ define(["module", "jquery_cache_module"], function (module, _$) {
                 _$("#" + domElem.id).addClass(animateClass);
             });
         }
+    }
+
+    function initSlider(){
+        console.log(slider);
     }
 });
