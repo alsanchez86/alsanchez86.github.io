@@ -26,6 +26,7 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                 return new Glide("#glide-slider-" + id, {
                     type: "carousel",
                     perView: 2,
+                    anchors: true
                     // hoverpause: true,
                     // autoplay: 2000
                 }).mount();
