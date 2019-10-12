@@ -271,37 +271,37 @@
             }
         ],
         "projects": [{
-                "name": "FC Barcelona. Plataforma oficial de venta de entradas online.",
+                "name": "FC Barcelona. Plataforma oficial de venta de entradas online",
                 "link": "https://www.fcbarcelona.es/es/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "El Corte Inglés. Plataforma oficial de venta de entradas online.",
+                "name": "El Corte Inglés. Plataforma oficial de venta de entradas online",
                 "link": "https://www.elcorteingles.es/entradas/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "Atlético de Madrid. Plataforma oficial de venta de entradas online.",
+                "name": "Atlético de Madrid. Plataforma oficial de venta de entradas online",
                 "link": "https://www.atleticodemadrid.com/entradas",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "Getafe FC. Plataforma oficial de venta de entradas online.",
+                "name": "Getafe FC. Plataforma oficial de venta de entradas online",
                 "link": "https://getafecf.expertustech.com/open#/eventshome",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "Albacete Balompié. Plataforma oficial de venta de entradas online.",
+                "name": "Albacete Balompié. Plataforma oficial de venta de entradas online",
                 "link": "https://albacetebalompie.expertustech.com/open#/eventshome",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "Elche CF. Plataforma oficial de venta de entradas online.",
+                "name": "Elche CF. Plataforma oficial de venta de entradas online",
                 "link": "https://elchecf.expertustech.com/open#/eventshome",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
@@ -580,31 +580,31 @@
             }
         ],
         "projects": [{
-                "name": "Ximdex CMS: CMS semántico basado en tecnología XML.",
+                "name": "Ximdex CMS: CMS semántico basado en tecnología XML",
                 "link": "http://sanchezpizarro.com/portfolio/xcms/",
                 "target": "_self",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "Demos módulos Ximdex CMS.",
+                "name": "Demos módulos Ximdex CMS",
                 "link": "http://demo.ximdex.com",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "XFIND Demo.",
+                "name": "XFIND Demo",
                 "link": "http://demo.ximdex.com/xfind/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "XOWL Demo.",
+                "name": "XOWL Demo",
                 "link": "http://sanchezpizarro.com/portfolio/xowl/",
                 "target": "_self",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "XHAWK Demo.",
+                "name": "XHAWK Demo",
                 "link": "http://demo.ximdex.com/xhawk/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
@@ -616,13 +616,13 @@
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "Portal web AEPD: Agencia Española de Protección de Datos.",
+                "name": "Portal web AEPD: Agencia Española de Protección de Datos",
                 "link": "http://www.agpd.es/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "Portal web BRAE: Biblioteca de recursos para el aprendizaje del Español.",
+                "name": "Portal web BRAE: Biblioteca de recursos para el aprendizaje del Español",
                 "link": "http://brae.redhispanistas.es/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
@@ -809,19 +809,19 @@
             }
         ],
         "projects": [{
-                "name": "Portal web Centro BTT Nevada.",
+                "name": "Portal web Centro BTT Nevada",
                 "link": "http://sanchezpizarro.com/portfolio/centro-btt-nevada",
                 "target": "_self",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "Web corporativa Grupo Hispasat.",
+                "name": "Web corporativa Grupo Hispasat",
                 "link": "http://www.hispasat.com/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "Web corporativa Mercer Hoteles Barcelona.",
+                "name": "Web corporativa Mercer Hoteles Barcelona",
                 "link": "http://www.mercerbarcelona.com/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
@@ -845,7 +845,7 @@
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
-                "name": "Web corporativa Fourup.",
+                "name": "Web corporativa Fourup",
                 "link": "http://www.fourup.es/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
@@ -931,7 +931,7 @@
             }
         ],
         "projects": [{
-            "name": "Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla.",
+            "name": "Instituto Andaluz Interuniversitario de Criminología",
             "link": "http://www.iaic.us.es/",
             "target": "_blank",
             "background": "http://ximg.es/250x250/CCC/fff"
@@ -969,7 +969,7 @@
         }]
     }, {
         "id": "gaesa",
-        "name": "Gaesa S.L. Gabinete Andaluz de estudios y actividades.",
+        "name": "Gaesa S.L.",
         "date": "Julio de 2010 - Enero de 2012.",
         "city": "Sevilla, España.",
         "company_link": [],
