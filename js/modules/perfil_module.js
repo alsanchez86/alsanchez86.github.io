@@ -37,7 +37,7 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                             perView: 2
                         },
                         1200: {
-                            perView: 3
+                            perView: 2
                         }
                     }
                 });
