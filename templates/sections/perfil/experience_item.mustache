@@ -53,14 +53,18 @@
             <div class="experience-item-batch">
                 <h4>PROYECTOS DESTACADOS</h4>
 
-                <div id="tiny-slider-{{ id }}">
-                    {{#projects}}
-                    <div>
-                        <a href="{{ link }}" target="{{ target }}">
-                            {{ name }}
-                        </a>
+                <div id="glide-slider-{{ id }}" class="glide">
+                    <div data-glide-el="track" class="glide__track">
+                        <ul class="glide__slides">
+                            {{#projects}}
+                            <li class="glide__slide">
+                                <a href="{{ link }}" target="{{ target }}">
+                                    {{ name }}
+                                </a>
+                            </li>
+                            {{/projects}}
+                        </ul>
                     </div>
-                    {{/projects}}
                 </div>
 
                 <div class="row">

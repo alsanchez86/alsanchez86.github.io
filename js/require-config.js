@@ -19,7 +19,7 @@ require.config(
                 // lib
                 jquery: _this.config.lib + "jquery.min",
                 bootstrap: _this.config.lib + "bootstrap.bundle.min",
-                tns: _this.config.lib + "tiny-slider",
+                tns: _this.config.lib + "glide",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache_module",
                 main_module: _this.config.modules + "main_module",

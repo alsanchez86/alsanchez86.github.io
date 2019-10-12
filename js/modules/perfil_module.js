@@ -21,7 +21,7 @@ define(["module", "jquery_cache_module", "tns"], function (module, _$, tns) {
     }
 
     function initSliders(){
-        var sliders = _$("div:regex(id, .*tiny-slider-.*)");
+        var sliders = _$("div:regex(id, .*glide-slider-.*)");
         // initSlider(id);
     }
 
