@@ -23,13 +23,12 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
     function initSliders() {
         ["expertus", "innofis", "ximdex", "existo", "freelance", "gaesa"]
             .map(function (id) {
-                return new Glide("#glide-slider-" + id)
-                    .mount({
-                        type: "carousel",
-                        hoverpause: true,
-                        perView: 3,
-                        autoplay: 2000
-                    });
+                return new Glide("#glide-slider-" + id, {
+                    type: "carousel",
+                    hoverpause: true,
+                    perView: 3,
+                    autoplay: 2000
+                }).mount();
             });
     }
 });
