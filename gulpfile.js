@@ -74,7 +74,8 @@ gulp.task('js:lib', function () {
     return gulp.src([
             pkg.node_modules + "requirejs/require.js",
             pkg.node_modules + "jquery/dist/jquery.min.js",
-            pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js'
+            pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
+            pkg.node_modules + '@glidejs/glide/dist/glide.js',
         ])
         .pipe(gulp.dest(pkg.lib));
 });

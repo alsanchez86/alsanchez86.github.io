@@ -1,6 +1,6 @@
 "use strict";
 
-define(["module", "jquery_cache_module", "tns"], function (module, _$, tns) {
+define(["module", "jquery_cache_module", "glide"], function (module, _$, glide) {
     module.exports.run = function () {
         animateProgressAll();
         initSliders();
@@ -21,11 +21,13 @@ define(["module", "jquery_cache_module", "tns"], function (module, _$, tns) {
     }
 
     function initSliders(){
+        console.log(glide);
+
         var sliders = _$("div:regex(id, .*glide-slider-.*)");
         // initSlider(id);
     }
 
     function initSlider(){
-        console.log(tns);
+
     }
 });
