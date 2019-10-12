@@ -1,6 +1,6 @@
 "use strict";
 
-define(["module", "jquery_cache_module", "glide"], function (module, _$, glide) {
+define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) {
     module.exports.run = function () {
         animateProgressAll();
         initSliders();
