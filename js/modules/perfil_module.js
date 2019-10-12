@@ -21,7 +21,7 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
     }
 
     function initSliders() {
-        ["expertus", "innofis"]
+        ["expertus", "innofis", "ximdex", "existo", "freelance", "gaesa"]
             .map(function (company) {
                 return new Glide("#glide-slider-" + company)
                     .mount({

@@ -56,6 +56,15 @@
                 <div id="glide-slider-{{ id }}" class="glide">
                     <div data-glide-el="track" class="glide__track">
                         <ul class="glide__slides">
+                            {{#embeds}}
+                            <li class="glide__slide">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ src }}"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </li>
+                            {{/embeds}}
+
                             {{#projects}}
                             <li class="glide__slide">
                                 <a href="{{ link }}" target="{{ target }}">
@@ -65,17 +74,6 @@
                             {{/projects}}
                         </ul>
                     </div>
-                </div>
-
-                <div class="row">
-                    {{#embeds}}
-                    <div class="d-none d-sm-none d-md-block col-md-6">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ src }}"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    {{/embeds}}
                 </div>
             </div>
         </div>
