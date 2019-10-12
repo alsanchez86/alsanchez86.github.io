@@ -6727,7 +6727,9 @@ a.project-item {
 
 @media (max-width: 767.98px) {
   .experience-item {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+    .experience-item .glide-controls {
+      display: none; } }
 
 .education-item {
   margin-bottom: 40px; }
