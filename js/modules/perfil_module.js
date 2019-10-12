@@ -21,7 +21,7 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
     }
 
     function initSliders() {
-        var sliders = ["expertus", "innofis", "ximdex", "existo", "freelance", "gaesa"]
+        ["expertus", "innofis", "ximdex", "existo", "freelance", "gaesa"]
             .map(function (id) {
                 return new Glide("#glide-slider-" + id, {
                     type: "carousel",
@@ -42,7 +42,15 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                     }
                     // hoverpause: true,
                     // autoplay: 2000
-                }).mount();
-            });
+                });
+            }).map(function (carousel){
+                carousel
+                    .on(["build.after"], function (){
+                        console.log(carousel);
+                    })
+                    .mount();
+            })
+
+
     }
 });
