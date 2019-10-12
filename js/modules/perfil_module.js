@@ -21,13 +21,9 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, glide) 
     }
 
     function initSliders(){
-        console.log(glide);
-
-        var sliders = _$("div:regex(id, .*glide-slider-.*)");
-        // initSlider(id);
-    }
-
-    function initSlider(){
-
+        ["expertus", "innofis"]
+            .map(function (company){
+                return new Glide("#glide-slider-" + company).mount();
+            });
     }
 });
