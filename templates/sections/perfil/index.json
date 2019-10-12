@@ -249,6 +249,7 @@
         ]
     },
     "experience": [{
+        "id": "expertus",
         "name": "Expertus Technology",
         "date": "Agosto 2017 - Actualmente.",
         "city": "Barcelona, España.",
@@ -424,6 +425,7 @@
             }
         ]
     }, {
+        "id": "innofis",
         "name": "Innofis",
         "date": "Marzo de 2017 - Agosto de 2017.",
         "city": "Barcelona, España.",
@@ -544,6 +546,7 @@
             }]
         }]
     }, {
+        "id": "ximdex",
         "name": "Open Ximdex Evolution S.L.",
         "date": "Octubre de 2014 - Marzo de 2017.",
         "city": "Sevilla, España.",
@@ -774,6 +777,7 @@
             ]
         }]
     }, {
+        "id": "existo",
         "name": "Existo Diseño Web S.L.",
         "date": "Junio de 2012 - Octubre de 2014.",
         "city": "Alcalá de Guadaíra, Sevilla, España.",
@@ -897,6 +901,7 @@
             ]
         }]
     }, {
+        "id": "freelance",
         "name": "Freelance",
         "date": "Febrero de 2012 - Mayo de 2012.",
         "city": "Sevilla, España.",
@@ -947,6 +952,7 @@
             }]
         }]
     }, {
+        "id": "gaesa",
         "name": "Gaesa S.L. Gabinete Andaluz de estudios y actividades.",
         "date": "Julio de 2010 - Enero de 2012.",
         "city": "Sevilla, España.",
