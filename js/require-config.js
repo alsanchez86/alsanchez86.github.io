@@ -32,6 +32,9 @@ require.config(
                 bootstrap: {
                     deps: ["jquery"]
                 },
+                tiny_slider: {
+                    exports: "tns"
+                },
                 // modules
                 jquery_cache_module: {
                     deps: ["jquery"],
