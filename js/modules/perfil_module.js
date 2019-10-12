@@ -1,6 +1,6 @@
 "use strict";
 
-define(["module", "jquery_cache_module", "tiny_slider"], function (module, _$, tns) {
+define(["module", "jquery_cache_module", "tns"], function (module, _$, tns) {
     module.exports.run = function () {
         animateProgressAll();
         initSlider();
