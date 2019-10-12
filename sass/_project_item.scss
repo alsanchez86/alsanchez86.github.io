@@ -48,20 +48,6 @@ a.project-item {
     }
 }
 
-@include media-breakpoint-down(xs) {
-    a.project-item {
-        div.project-item-name {
-            display: block;
-
-            -webkit-transition: none !important;
-            -moz-transition: none !important;
-            -o-transition: none !important;
-            -ms-transition: none !important;
-            transition: none !important;
-        }
-    }
-}
-
 @include media-breakpoint-down(sm) {
     a.project-item {
         div.project-item-name {

@@ -6452,15 +6452,6 @@ a.project-item {
     a.project-item:hover div.project-item-name {
       display: block; }
 
-@media (max-width: 575.98px) {
-  a.project-item div.project-item-name {
-    display: block;
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -o-transition: none !important;
-    -ms-transition: none !important;
-    transition: none !important; } }
-
 @media (max-width: 767.98px) {
   a.project-item div.project-item-name {
     display: block;
