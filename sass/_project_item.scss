@@ -21,9 +21,12 @@ a.project-item {
         left: 0;
         right: 0;
         width: 100%;
-        padding: 15px;
+        height: 50px;
+        padding: 10px;
+        overflow: hidden;
 
         font-size: 11px;
+        line-height: 1.5;
         color: $color_white;
         background-color: rgba(0, 0, 0, 0.75);
         text-align: center;
