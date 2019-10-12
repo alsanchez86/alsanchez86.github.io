@@ -25,9 +25,9 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
             .map(function (id) {
                 return new Glide("#glide-slider-" + id, {
                     type: "carousel",
-                    hoverpause: true,
                     perView: 2,
-                    autoplay: 2000
+                    // hoverpause: true,
+                    // autoplay: 2000
                 }).mount();
             });
     }
