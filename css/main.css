@@ -6714,6 +6714,10 @@ a.project-item {
       background-color: #2D0320; }
   .experience-item a.project-item {
     margin-bottom: 0; }
+  .experience-item .glide-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
 
 @media (max-width: 767.98px) {
   .experience-item {

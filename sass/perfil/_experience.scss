@@ -67,6 +67,12 @@
     a.project-item {
         margin-bottom: 0;
     }
+
+    .glide-controls {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 @include media-breakpoint-down(sm) {
