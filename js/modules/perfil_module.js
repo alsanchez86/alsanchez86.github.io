@@ -21,12 +21,12 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
     }
 
     function initSliders() {
-        var sliders = ["expertus"]// , "innofis", "ximdex", "existo", "freelance", "gaesa"]
+        var sliders = ["expertus", "innofis"] // "ximdex", "existo", "freelance", "gaesa"]
             .map(function (id) {
                 return new Glide("#glide-slider-" + id, {
                     type: "carousel",
                     hoverpause: true,
-                    perView: 3,
+                    perView: 2,
                     autoplay: 2000
                 }).mount();
             });
