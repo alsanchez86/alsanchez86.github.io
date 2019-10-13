@@ -6384,7 +6384,7 @@ ul {
   list-style: none; }
 
 .main-wrapper {
-  padding-top: 4.25rem;
+  padding-top: 2.25rem;
   background: #fafbfc; }
 
 .section-wrapper {
@@ -6494,10 +6494,6 @@ a.project-item {
     top: 65%; }
 
 .main-nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
   z-index: 1030;
   color: #FFF;
   background-color: #24292e; }
