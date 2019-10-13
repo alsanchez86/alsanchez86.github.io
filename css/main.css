@@ -6500,6 +6500,13 @@ a.project-item {
   .main-nav .navbar {
     justify-content: flex-end; }
 
+@media (max-width: 767.98px) {
+  .main-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; } }
+
 .footer {
   padding: 45px 0 70px;
   font-size: 12px;
