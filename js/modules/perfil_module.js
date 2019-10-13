@@ -41,8 +41,8 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                             perView: 2
                         }
                     },
-                    autoplay: 5000,
-                    hoverpause: true
+                    // autoplay: 5000,
+                    // hoverpause: true
                 });
             }).map(function (carousel){
                 carousel
