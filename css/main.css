@@ -6409,6 +6409,8 @@ h2.section-title {
   body {
     font-size: 13px;
     line-height: 20px; }
+  .main-wrapper {
+    padding-top: 4.25rem; }
   .section-wrapper {
     padding: 20px 0; }
   h2.section-title {
