@@ -69,6 +69,12 @@
         cursor: grab;
     }
 
+    .glide--dragging {
+        a.project-item {
+            cursor: grabbing;
+        }
+    }
+
     .glide-controls {
         display: flex;
         flex-direction: row;

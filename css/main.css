@@ -6720,6 +6720,8 @@ a.project-item {
   .experience-item a.project-item {
     margin-bottom: 0;
     cursor: grab; }
+  .experience-item .glide--dragging a.project-item {
+    cursor: grabbing; }
   .experience-item .glide-controls {
     display: flex;
     flex-direction: row;
