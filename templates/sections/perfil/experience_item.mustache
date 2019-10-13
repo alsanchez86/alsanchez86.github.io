@@ -79,9 +79,11 @@
                     </div>
 
                     <div class="glide-controls" data-glide-el="controls[nav]">
-                        <button data-glide-dir="=0"></button>
-                        <button data-glide-dir="=1"></button>
-                        <button data-glide-dir="=2"></button>
+                        {{#projects}}
+                        <button data-glide-dir="={{@index}}">
+                            {{@index}}
+                        </button>
+                        {{/projects}}
                     </div>
                 </div>
             </div>
