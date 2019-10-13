@@ -75,7 +75,12 @@
         justify-content: center;
 
         .btn {
-            font-weight: 700;
+            font-size: 9px;
+            color: $color_backend;
+
+            &.glide_bullet--active {
+                color: $color_versions;
+            }
         }
     }
 }

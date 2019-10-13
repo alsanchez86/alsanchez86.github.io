@@ -6725,7 +6725,10 @@ a.project-item {
     flex-direction: row;
     justify-content: center; }
     .experience-item .glide-controls .btn {
-      font-weight: 700; }
+      font-size: 9px;
+      color: #4285f4; }
+      .experience-item .glide-controls .btn.glide_bullet--active {
+        color: crimson; }
 
 @media (max-width: 767.98px) {
   .experience-item {
