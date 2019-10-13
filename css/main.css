@@ -6718,7 +6718,8 @@ a.project-item {
       color: #fafbfc;
       background-color: #2D0320; }
   .experience-item a.project-item {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    cursor: grab; }
   .experience-item .glide-controls {
     display: flex;
     flex-direction: row;
