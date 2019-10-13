@@ -271,36 +271,42 @@
             }
         ],
         "projects": [{
+                "index": 0,
                 "name": "FC Barcelona. Plataforma oficial de venta de entradas online",
                 "link": "https://www.fcbarcelona.es/es/",
                 "target": "_blank",
                 "background": "../img/projects/fcbarcelona/preview.jpg"
             },
             {
+                "index": 1,
                 "name": "El Corte Inglés. Plataforma oficial de venta de entradas online",
                 "link": "https://www.elcorteingles.es/entradas/",
                 "target": "_blank",
                 "background": "../img/projects/eci/preview.jpg"
             },
             {
+                "index": 2,
                 "name": "Atlético de Madrid. Plataforma oficial de venta de entradas online",
                 "link": "https://www.atleticodemadrid.com/entradas",
                 "target": "_blank",
                 "background": "../img/projects/atm/preview.jpg"
             },
             {
+                "index": 3,
                 "name": "Getafe FC. Plataforma oficial de venta de entradas online",
                 "link": "https://getafecf.expertustech.com/open#/eventshome",
                 "target": "_blank",
                 "background": "../img/projects/getafe/preview.jpg"
             },
             {
+                "index": 4,
                 "name": "Albacete Balompié. Plataforma oficial de venta de entradas online",
                 "link": "https://albacetebalompie.expertustech.com/open#/eventshome",
                 "target": "_blank",
                 "background": "../img/projects/albacete/preview.jpg"
             },
             {
+                "index": 5,
                 "name": "Elche CF. Plataforma oficial de venta de entradas online",
                 "link": "https://elchecf.expertustech.com/open#/eventshome",
                 "target": "_blank",
@@ -453,12 +459,14 @@
             }
         ],
         "projects": [{
+                "index": 0,
                 "name": "Portal corporativo Danone S.A.",
                 "link": "https://www.alimentasonrisas.es/",
                 "target": "_blank",
                 "background": "../img/projects/danone/preview.jpg"
             },
             {
+                "index": 1,
                 "name": "Web APP FontVella 'Eres Impulso'",
                 "link": "https://eresimpulso.fontvella.es/",
                 "target": "_blank",
@@ -580,54 +588,63 @@
             }
         ],
         "projects": [{
+                "index": 0,
                 "name": "Ximdex CMS: CMS semántico basado en tecnología XML",
                 "link": "http://sanchezpizarro.com/portfolio/xcms/",
                 "target": "_self",
                 "background": "../img/projects/xcms/preview.jpg"
             },
             {
+                "index": 1,
                 "name": "Demos módulos Ximdex CMS",
                 "link": "http://demo.ximdex.com",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 2,
                 "name": "XFIND Demo",
                 "link": "http://demo.ximdex.com/xfind/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 3,
                 "name": "XOWL Demo",
                 "link": "http://sanchezpizarro.com/portfolio/xowl/",
                 "target": "_self",
                 "background": "../img/projects/xowl/preview.jpg"
             },
             {
+                "index": 4,
                 "name": "XHAWK Demo",
                 "link": "http://demo.ximdex.com/xhawk/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 5,
                 "name": "Web corporativa Open Ximdex Evolution S.L.",
                 "link": "http://www.ximdex.com/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 6,
                 "name": "Portal web AEPD: Agencia Española de Protección de Datos",
                 "link": "http://www.agpd.es/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 7,
                 "name": "Portal web BRAE: Biblioteca de recursos para el aprendizaje del Español",
                 "link": "http://brae.redhispanistas.es/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 8,
                 "name": "Web corporativa United English Academy S.L.",
                 "link": "http://www.unitedenglish.es/",
                 "target": "_blank",
@@ -809,42 +826,49 @@
             }
         ],
         "projects": [{
+                "index": 0,
                 "name": "Portal web Centro BTT Nevada",
                 "link": "http://sanchezpizarro.com/portfolio/centro-btt-nevada",
                 "target": "_self",
                 "background": "../img/projects/centro-btt-nevada/preview.jpg"
             },
             {
+                "index": 1,
                 "name": "Web corporativa Grupo Hispasat",
                 "link": "http://www.hispasat.com/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 2,
                 "name": "Web corporativa Mercer Hoteles Barcelona",
                 "link": "http://www.mercerbarcelona.com/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 3,
                 "name": "Tienda online Tramas + Malbatex S.L.",
                 "link": "http://www.tramasmas.com/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 4,
                 "name": "Portal web Sevilla si",
                 "link": "http://www.sevillasi.com/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 5,
                 "name": "Web corporativa Planvalore Avales Inmobiliarios, S.A.",
                 "link": "http://www.planvalore.com/",
                 "target": "_blank",
                 "background": "http://ximg.es/250x250/CCC/fff"
             },
             {
+                "index": 6,
                 "name": "Web corporativa Fourup",
                 "link": "http://www.fourup.es/",
                 "target": "_blank",
@@ -931,6 +955,7 @@
             }
         ],
         "projects": [{
+            "index": 0,
             "name": "Instituto Andaluz Interuniversitario de Criminología",
             "link": "http://www.iaic.us.es/",
             "target": "_blank",
