@@ -6365,7 +6365,7 @@ h6 {
   font-size: 15px; }
 
 a {
-  color: #010101;
+  color: #4285f4;
   text-decoration: none;
   outline: none;
   -webkit-transition: all 0.3s ease 0s;
@@ -6373,7 +6373,7 @@ a {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
   a:focus, a:hover {
-    color: #010101; }
+    color: #4285f4; }
 
 p {
   margin-bottom: 20px; }

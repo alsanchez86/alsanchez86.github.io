@@ -54,7 +54,7 @@ h6 {
 }
 
 a {
-    color: $color_text;
+    color: $color_link;
     text-decoration: none;
     outline: none;
     -webkit-transition: all 0.3s ease 0s;
@@ -64,7 +64,7 @@ a {
 
     &:focus,
     &:hover {
-        color: $color_text;
+        color: $color_link;
     }
 }
 
