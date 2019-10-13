@@ -6729,7 +6729,7 @@ a.project-item {
     .experience-item .glide-controls .btn {
       font-size: 9px;
       color: #4285f4; }
-      .experience-item .glide-controls .btn.glide_bullet--active {
+      .experience-item .glide-controls .btn.glide__bullet--active {
         color: crimson; }
 
 @media (max-width: 767.98px) {
