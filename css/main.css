@@ -6682,7 +6682,7 @@ a.project-item {
     margin-bottom: 5px;
     font-size: 13px;
     font-weight: 700; }
-  .experience-item ul {
+  .experience-item ul:not(.glide__slides) {
     padding: 0; }
   .experience-item .media-left {
     padding-right: 35px; }

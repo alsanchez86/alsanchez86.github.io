@@ -17,7 +17,9 @@
     }
 
     ul {
-        padding: 0;
+        &:not(.glide__slides) {
+            padding: 0;
+        }
     }
 
     .media-left {
