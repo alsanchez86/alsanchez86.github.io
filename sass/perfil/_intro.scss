@@ -67,9 +67,9 @@
 }
 
 @include media-breakpoint-down(sm) {
-    .intro {
-        padding: 20px 0;
-    }
+    // .intro {
+    //     padding: 20px 0;
+    // }
 }
 
 @include media-breakpoint-down(md) {

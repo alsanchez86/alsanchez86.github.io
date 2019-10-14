@@ -6598,10 +6598,6 @@ a.project-item {
 .intro .download-cv {
   text-align: center; }
 
-@media (max-width: 767.98px) {
-  .intro {
-    padding: 20px 0; } }
-
 @media (max-width: 991.98px) {
   .intro .name-wrapper {
     text-align: center; }
