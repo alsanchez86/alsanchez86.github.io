@@ -6441,7 +6441,9 @@ a.project-item {
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: red; }
+    background-color: rgba(0, 0, 0, 0.15); }
+  a.project-item:hover:before {
+    background-color: transparent; }
   a.project-item div.project-item-name {
     display: none;
     position: absolute;
