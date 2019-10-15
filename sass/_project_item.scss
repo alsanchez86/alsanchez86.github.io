@@ -2,6 +2,7 @@ $top_name: 80%;
 $delay_name: 0.15s;
 
 a.project-item {
+    @include box-shadow();
     position: relative;
     display: block;
     width: 100%;
