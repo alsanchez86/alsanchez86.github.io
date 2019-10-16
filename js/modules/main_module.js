@@ -43,7 +43,7 @@ define(["module", "jquery_cache_module"], function (module, _$) {
      * xl: 1200px
      */
     module.exports.mobileTabletMenu = function () {
-        var breakPoint = "768"; // md
+        var breakPoint = 768; // md
         var $window = _$(window);
 
         $window.resize(function (){
