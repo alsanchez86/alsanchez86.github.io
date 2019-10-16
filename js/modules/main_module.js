@@ -1,6 +1,8 @@
 "use strict";
 
 define(["module", "jquery_cache_module"], function (module, _$) {
+    var tableMenuActive = false;
+
     /**
      * Set page loading to true or false
      * If true, preloader will be showed
@@ -44,12 +46,21 @@ define(["module", "jquery_cache_module"], function (module, _$) {
      */
     module.exports.mobileTabletMenu = function () {
         var breakPoint = 768; // md
-        var $window = _$(window);
 
-        $window.resize(function (){
-            if ($window.width() <= breakPoint){
-                console.log("menu tablet");
-            }
-        });
+        _$(window)
+            .resize(function (){
+                if (_$(window).width() <= breakPoint){
+                    tableMenuActive = true;
+                }
+            })
+            .trigger('resize');
     }
+
+    // function activeTabletMenu (){
+    //     // var scrollDirection;
+    //     // if ($window.width() <= breakPoint){
+    //     //     $window.scroll(function (){
+    //     //     });
+    //     // }
+    // }
 });
