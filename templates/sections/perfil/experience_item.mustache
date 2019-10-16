@@ -6,15 +6,15 @@
             </h3>
 
             <p class="intro">
+                {{ date }}
+                &nbsp;|&nbsp;
+                {{ city }}
                 {{#company_link}}
+                &nbsp;|&nbsp;
                 <a href="{{ link }}" target="_blank">
                     {{ link }}
                 </a>
-                <br>
                 {{/company_link}}
-                {{ date }}
-                <br>
-                {{ city }}
             </p>
 
             <div class="experience-item-batch">
@@ -86,9 +86,11 @@
 
         <div class="col-md-2 d-none d-sm-none d-md-block">
             {{#image_company_path}}
+            {{#company_link}}
             <a href="{{ link }}" target="_blank">
                 <img class="img-fluid" src="{{ img_path }}/{{ image_name }}" alt="{{ name }}">
             </a>
+            {{/company_link}}
             {{/image_company_path}}
         </div>
     </div>
