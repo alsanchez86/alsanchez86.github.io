@@ -32,6 +32,8 @@ define(function () {
             if (menuActiveItem && (menuActiveItem !== "")) {
                 module.setActiveMenuItem(menuActiveItem);
             }
+            // Menu XS
+            module.mobileTabletMenu();
             // Callback
             if (typeof callback === "function") {
                 callback();

@@ -1,5 +1,4 @@
 .main-nav {
-    z-index: 1030;
     color: $color_white;
     background-color: $color_black;
 
@@ -14,5 +13,6 @@
         top: 0;
         right: 0;
         left: 0;
+        z-index: 1030;
     }
 }

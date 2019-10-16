@@ -6511,7 +6511,6 @@ a.project-item {
     top: 65%; }
 
 .main-nav {
-  z-index: 1030;
   color: #FFF;
   background-color: #24292e; }
   .main-nav .navbar {
@@ -6522,7 +6521,8 @@ a.project-item {
     position: fixed;
     top: 0;
     right: 0;
-    left: 0; } }
+    left: 0;
+    z-index: 1030; } }
 
 .footer {
   padding: 45px 0 70px;

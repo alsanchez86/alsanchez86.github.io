@@ -34,4 +34,22 @@ define(["module", "jquery_cache_module"], function (module, _$) {
             _$menuItem.addClass("active");
         }
     }
+
+    /**
+     * xs: 0,
+     * sm: 576px,
+     * md: 768px,
+     * lg: 992px,
+     * xl: 1200px
+     */
+    module.exports.mobileTabletMenu = function () {
+        var breakPoint = "768"; // md
+        var $window = _$(window);
+
+        $window.resize(function (){
+            if ($window.width() <= breakPoint){
+                console.log("menu tablet");
+            }
+        });
+    }
 });
