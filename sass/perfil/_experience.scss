@@ -1,8 +1,10 @@
 .experience-item {
     margin-bottom: 70px;
+    border-bottom: 1px solid $color_border;
 
     &:last-child {
         margin-bottom: 0;
+        border: 0;
     }
 
     h3 {

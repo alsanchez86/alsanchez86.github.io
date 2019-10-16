@@ -6679,9 +6679,11 @@ a.project-item {
     transform: translateX(0); } }
 
 .experience-item {
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  border-bottom: 1px solid #EEE; }
   .experience-item:last-child {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    border: 0; }
   .experience-item h3 {
     font-size: 22px;
     text-transform: uppercase; }
