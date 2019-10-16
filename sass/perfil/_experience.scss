@@ -26,8 +26,12 @@
         padding-right: 35px;
     }
 
-    .intro {
+    .experience-item-intro {
         margin-bottom: 30px;
+
+        span {
+            color: $color_gray;
+        }
     }
 
     .experience-item-batch {

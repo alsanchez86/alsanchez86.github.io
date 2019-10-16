@@ -6695,8 +6695,10 @@ a.project-item {
     padding: 0; }
   .experience-item .media-left {
     padding-right: 35px; }
-  .experience-item .intro {
+  .experience-item .experience-item-intro {
     margin-bottom: 30px; }
+    .experience-item .experience-item-intro span {
+      color: #adb5bd; }
   .experience-item .experience-item-batch {
     margin-bottom: 40px; }
     .experience-item .experience-item-batch .experience-item-batch-frontend {
