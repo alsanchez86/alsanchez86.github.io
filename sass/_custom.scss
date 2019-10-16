@@ -106,13 +106,7 @@ h2.section-title {
     border-color: transparent;
 }
 
-@include media-breakpoint-down(xs) {}
-
-@include media-breakpoint-down(sm) {
-    .main-wrapper {
-        padding-top: 4.25rem;
-    }
-}
+@include media-breakpoint-down(lg) {}
 
 @include media-breakpoint-down(md) {
     body {
@@ -135,4 +129,10 @@ h2.section-title {
     }
 }
 
-@include media-breakpoint-down(lg) {}
+@include media-breakpoint-down(sm) {
+    .main-wrapper {
+        padding-top: 4.25rem;
+    }
+}
+
+@include media-breakpoint-down(xs) {}
