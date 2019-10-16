@@ -1,6 +1,10 @@
 "use strict";
 
 define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) {
+    /**
+     *
+     * @return {void}
+     */
     module.exports.run = function () {
         animateProgressAll();
         initSliders();
@@ -21,6 +25,10 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
         }
     }
 
+    /**
+     *
+     * @return {void}
+     */
     function initSliders() {
         [
             "expertus",

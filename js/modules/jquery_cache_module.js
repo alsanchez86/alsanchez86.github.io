@@ -20,6 +20,10 @@ define(["exports", "jquery"], function (exports, $) {
         return _cache[selector];
     };
 
+    /**
+     *
+     * @return {void}
+     */
     function _set(selector, element) {
         var jObj = $(selector);
         var exists = (jObj.length > 0);
