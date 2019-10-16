@@ -8,7 +8,10 @@
             <p class="intro">
                 {{ date }}
                 &nbsp;|&nbsp;
-                {{ city }}
+                <a href="{{ link }}" target="_blank">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    {{ city }}
+                </a>
                 {{#company_link}}
                 &nbsp;|&nbsp;
                 <a href="{{ link }}" target="_blank">

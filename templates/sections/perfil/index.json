@@ -252,7 +252,10 @@
         "id": "expertus",
         "name": "Expertus Technology",
         "date": "Agosto 2017 - Actualmente.",
-        "city": "Barcelona, España.",
+        "city": {
+            "name": "Barcelona, España.",
+            "link": "https://goo.gl/maps/rAn4XZm2Fe4eA3UP9"
+        },
         "company_link": [{
             "link": "http://www.expertustech.es/"
         }],
@@ -437,7 +440,10 @@
         "id": "innofis",
         "name": "Innofis (Crealogix)",
         "date": "Marzo de 2017 - Agosto de 2017.",
-        "city": "Barcelona, España.",
+        "city": {
+            "name": "Barcelona, España.",
+            "link": "https://goo.gl/maps/s7BCFbfeUkkTZm1H7"
+        },
         "company_link": [{
             "link": "https://crealogix.com/es/"
         }],
@@ -560,7 +566,10 @@
         "id": "ximdex",
         "name": "Open Ximdex Evolution S.L.",
         "date": "Octubre de 2014 - Marzo de 2017.",
-        "city": "Sevilla, España.",
+        "city": {
+            "name": "Sevilla, España.",
+            "link": "https://goo.gl/maps/FeFb3RnHiqpCrs3F9"
+        },
         "company_link": [{
             "link": "https://www.ximdex.com/"
         }],
@@ -807,7 +816,10 @@
         "id": "existo",
         "name": "Existo Diseño Web S.L.",
         "date": "Junio de 2012 - Octubre de 2014.",
-        "city": "Alcalá de Guadaíra, Sevilla, España.",
+        "city": {
+            "name": "Alcalá de Guadaíra, Sevilla, España.",
+            "link": "https://goo.gl/maps/XNdPw5qd7rKC487H6"
+        },
         "company_link": [{
             "link": "https://www.existo.es/"
         }],
@@ -943,7 +955,10 @@
         "id": "freelance",
         "name": "Freelance",
         "date": "Febrero de 2012 - Mayo de 2012.",
-        "city": "Sevilla, España.",
+        "city": {
+            "name": "Sevilla, España.",
+            "link": "https://goo.gl/maps/R5TuoYYPKBv5HTdQ6"
+        },
         "company_link": [],
         "image_company_path": [],
         "position": "Desarrollador superior de páginas web.",
@@ -996,7 +1011,10 @@
         "id": "gaesa",
         "name": "Gaesa S.L.",
         "date": "Julio de 2010 - Enero de 2012.",
-        "city": "Sevilla, España.",
+        "city": {
+            "name": "Sevilla, España.",
+            "link": "https://goo.gl/maps/R5TuoYYPKBv5HTdQ6"
+        },
         "company_link": [],
         "image_company_path": [{
             "image_name": "companies/gaesa.jpeg"
