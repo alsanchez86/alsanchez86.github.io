@@ -6679,15 +6679,15 @@ a.project-item {
     transform: translateX(0); } }
 
 .experience-item {
-  margin-bottom: 60px; }
+  margin-bottom: 70px; }
   .experience-item:last-child {
     margin-bottom: 0; }
   .experience-item h3 {
-    font-size: 18px;
+    font-size: 22px;
     text-transform: uppercase; }
   .experience-item h4 {
-    margin-bottom: 5px;
-    font-size: 13px;
+    margin-bottom: 10px;
+    font-size: 14px;
     font-weight: 700; }
   .experience-item ul {
     padding: 0; }
@@ -6696,7 +6696,7 @@ a.project-item {
   .experience-item .intro {
     margin-bottom: 30px; }
   .experience-item .experience-item-batch {
-    margin-bottom: 35px; }
+    margin-bottom: 40px; }
     .experience-item .experience-item-batch .experience-item-batch-frontend .badge {
       font-weight: 400;
       color: #010101;
@@ -6748,9 +6748,9 @@ a.project-item {
     justify-content: center; }
     .experience-item .glide-controls .btn {
       font-size: 9px;
-      color: #4285f4; }
+      color: #6c757d; }
       .experience-item .glide-controls .btn.glide__bullet--active {
-        color: crimson; }
+        color: #24292e; }
 
 @media (max-width: 767.98px) {
   .experience-item {

@@ -38,15 +38,13 @@
             <div class="experience-item-batch">
                 <h4>TECNOLOGÍAS</h4>
 
-                <ul>
-                    {{#techs}}
-                    <li class="experience-item-batch-{{ type }}">
-                        {{#items}}
-                        <span class="badge">{{ name }}</span>
-                        {{/items}}
-                    </li>
-                    {{/techs}}
-                </ul>
+                {{#techs}}
+                <div class="experience-item-batch-{{ type }}">
+                    {{#items}}
+                    <span class="badge">{{ name }}</span>
+                    {{/items}}
+                </div>
+                {{/techs}}
             </div>
 
             <div class="experience-item-batch">

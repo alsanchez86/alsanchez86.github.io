@@ -1,18 +1,18 @@
 .experience-item {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 
     &:last-child {
         margin-bottom: 0;
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 22px;
         text-transform: uppercase;
     }
 
     h4 {
-        margin-bottom: 5px;
-        font-size: 13px;
+        margin-bottom: 10px;
+        font-size: 14px;
         font-weight: 700;
     }
 
@@ -29,7 +29,7 @@
     }
 
     .experience-item-batch {
-        margin-bottom: 35px;
+        margin-bottom: 40px;
 
         .experience-item-batch-frontend {
             @include experience_badge($color_frontend, $color_text);
@@ -90,10 +90,10 @@
 
         .btn {
             font-size: 9px;
-            color: $color_backend;
+            color: $color_gray;
 
             &.glide__bullet--active {
-                color: $color_versions;
+                color: $color_black;
             }
         }
     }
