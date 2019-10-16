@@ -11,7 +11,7 @@ define(["module", "jquery_cache_module"], function (module, _$) {
      * @return {void}
      */
     module.exports.setPageLoading = function (is_loading, callback) {
-        var _callback = (typeof callback === "function") ? callback : function(){};
+        var _callback = (typeof callback === "function") ? callback : function () {};
         var _$preLoader = _$("#preloader");
 
         if (!is_loading) {
@@ -30,7 +30,7 @@ define(["module", "jquery_cache_module"], function (module, _$) {
     module.exports.setActiveMenuItem = function (menuItem) {
         var _$menuItem = _$("#" + menuItem);
 
-        if (_$menuItem){
+        if (_$menuItem) {
             _$menuItem.addClass("active");
         }
     }

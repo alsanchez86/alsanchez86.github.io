@@ -22,36 +22,42 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
     }
 
     function initSliders() {
-        ["expertus", "innofis", "ximdex", "existo", "freelance", "gaesa"]
-            .map(function (id) {
-                return new Glide("#glide-slider-" + id, {
-                    type: "carousel",
-                    perView: 2,
-                    breakpoints: {
-                        576: {
-                            perView: 1
-                        },
-                        768: {
-                            perView: 1
-                        },
-                        992: {
-                            perView: 2
-                        },
-                        1200: {
-                            perView: 2
-                        }
+        [
+            "expertus",
+            "innofis",
+            "ximdex",
+            "existo",
+            "freelance",
+            "gaesa"
+        ].map(function (id) {
+            return new Glide("#glide-slider-" + id, {
+                type: "carousel",
+                perView: 2,
+                breakpoints: {
+                    576: {
+                        perView: 1
                     },
-                    // autoplay: 5000,
-                    // hoverpause: true
-                });
-            }).map(function (carousel){
-                carousel
-                    .on(["build.after"], function (){
-                        _$(carousel.selector)
-                            .removeClass("invisible")
-                            .addClass("visible");
-                    })
-                    .mount();
-            })
+                    768: {
+                        perView: 1
+                    },
+                    992: {
+                        perView: 2
+                    },
+                    1200: {
+                        perView: 2
+                    }
+                },
+                // autoplay: 5000,
+                // hoverpause: true
+            });
+        }).map(function (carousel) {
+            carousel
+                .on(["build.after"], function () {
+                    _$(carousel.selector)
+                        .removeClass("invisible")
+                        .addClass("visible");
+                })
+                .mount();
+        })
     }
 });
