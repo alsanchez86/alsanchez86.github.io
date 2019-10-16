@@ -32,7 +32,7 @@ define(function () {
             if (menuActiveItem && (menuActiveItem !== "")) {
                 module.setActiveMenuItem(menuActiveItem);
             }
-            // Menu XS
+            // Menu tablet md
             module.mobileTabletMenu();
             // Callback
             if (typeof callback === "function") {
