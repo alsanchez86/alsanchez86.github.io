@@ -39,11 +39,9 @@
                 <h4>TECNOLOGÍAS</h4>
 
                 {{#techs}}
-                <div class="experience-item-batch-{{ type }}">
-                    {{#items}}
-                    <span class="badge">{{ name }}</span>
-                    {{/items}}
-                </div>
+                {{#items}}
+                <span class="badge experience-item-batch-{{ type }}">{{ name }}</span>
+                {{/items}}
                 {{/techs}}
             </div>
 

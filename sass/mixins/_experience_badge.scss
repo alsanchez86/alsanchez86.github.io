@@ -1,7 +1,5 @@
 @mixin experience_badge ($background: $color_text, $text: $color_background) {
-    .badge {
-        font-weight: 400;
-        color: $text;
-        background-color: $background;
-    }
+    font-weight: 400;
+    color: $text;
+    background-color: $background;
 }
