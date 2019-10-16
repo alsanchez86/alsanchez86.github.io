@@ -45,16 +45,15 @@ define(["module", "jquery_cache_module"], function (module, _$) {
     module.exports.mobileTabletMenu = function () {
         var last = 0;
         var breakPoint = 768; // md
+        var nav = _$("#main-nav");
+        var navClass = "main-nav-hide";
 
         _$(window)
             .scroll(function (event) {
                 var current = _$(window).scrollTop();
-                if (current > last) {
-                    console.log("down");
-                } else {
-                    console.log("up");
-                }
-
+                (function (){
+                    return (current > last) ? nav.addClass(navClass) : nav.removeClass(navClass);
+                })();
                 last = current;
             });
     }
