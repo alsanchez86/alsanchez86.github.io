@@ -6529,11 +6529,11 @@ a.project-item {
   font-size: 12px;
   background-color: #FFF; }
   .footer a {
-    color: #6c757d;
+    color: #adb5bd;
     text-decoration: none;
     background-color: transparent; }
     .footer a:hover, .footer a:focus, .footer a.active, .footer a:active {
-      color: #6c757d;
+      color: #adb5bd;
       text-decoration: none;
       background-color: transparent; }
     .footer a i {
@@ -6598,11 +6598,11 @@ a.project-item {
           text-decoration: none;
           background-color: transparent; }
       .intro ul.social-list li a.social-list-email {
-        color: #6c757d;
+        color: #adb5bd;
         text-decoration: none;
         background-color: transparent; }
         .intro ul.social-list li a.social-list-email:hover, .intro ul.social-list li a.social-list-email:focus, .intro ul.social-list li a.social-list-email.active, .intro ul.social-list li a.social-list-email:active {
-          color: #6c757d;
+          color: #adb5bd;
           text-decoration: none;
           background-color: transparent; }
 
@@ -6750,7 +6750,7 @@ a.project-item {
     justify-content: center; }
     .experience-item .glide-controls .btn {
       font-size: 9px;
-      color: #6c757d; }
+      color: #adb5bd; }
       .experience-item .glide-controls .btn.glide__bullet--active {
         color: #24292e; }
 
