@@ -42,19 +42,19 @@ define(["module", "jquery_cache_module"], function (module, _$) {
      * lg: 992px,
      * xl: 1200px
      */
-    module.exports.mobileTabletMenu = function () {
-        var last = 0;
-        var breakPoint = 768; // md
-        var nav = _$("#main-nav");
-        var navClass = "main-nav-hide";
+    // module.exports.mobileTabletMenu = function () {
+    //     var last = 0;
+    //     var breakPoint = 768; // md
+    //     var nav = _$("#main-nav");
+    //     var navClass = "main-nav-hide";
 
-        _$(window)
-            .scroll(function (event) {
-                var current = _$(window).scrollTop();
-                (function (){
-                    return (current > last) ? nav.addClass(navClass) : nav.removeClass(navClass);
-                })();
-                last = current;
-            });
-    }
+    //     _$(window)
+    //         .scroll(function (event) {
+    //             var current = _$(window).scrollTop();
+    //             (function (){
+    //                 return (current > last) ? nav.addClass(navClass) : nav.removeClass(navClass);
+    //             })();
+    //             last = current;
+    //         });
+    // }
 });
