@@ -6678,7 +6678,7 @@ a.project-item {
     transform: translateX(0); } }
 
 .experience-item {
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   border-bottom: 1px solid #EEE; }
   .experience-item:last-child {
     margin-bottom: 0;
