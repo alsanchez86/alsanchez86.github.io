@@ -6527,6 +6527,7 @@ a.project-item {
 .footer {
   padding: 45px 0 70px;
   font-size: 12px;
+  text-align: center;
   background-color: #FFF; }
   .footer a {
     color: #adb5bd;
@@ -6537,11 +6538,10 @@ a.project-item {
       text-decoration: none;
       background-color: transparent; }
     .footer a i {
-      font-size: 18px; }
+      font-size: 22px; }
   .footer .footer-me {
     margin: 40px 0 0 0;
-    font-size: 11px;
-    text-align: center; }
+    font-size: 11px; }
 
 .intro .name-wrapper {
   margin-bottom: 30px; }

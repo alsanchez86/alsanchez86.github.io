@@ -1,13 +1,14 @@
 .footer {
     padding: 45px 0 70px;
     font-size: 12px;
+    text-align: center;
     background-color: $color_white;
 
     a {
         @include link($color_gray, $color_gray);
 
         i {
-            font-size: 18px;
+            font-size: 22px;
         }
     }
 
@@ -15,6 +16,5 @@
         margin: 40px 0 0 0;
 
         font-size: 11px;
-        text-align: center;
     }
 }
