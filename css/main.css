@@ -6682,7 +6682,7 @@ a.project-item {
     margin-bottom: 0;
     border: 0; }
   .experience-item h3 {
-    font-size: 22px;
+    font-size: 24px;
     text-transform: uppercase; }
   .experience-item h4 {
     margin-bottom: 10px;
@@ -6763,8 +6763,9 @@ a.project-item {
   margin-bottom: 40px; }
   .education-item h3 {
     margin: 0;
-    line-height: 1.8em;
+    font-size: 16px;
     font-weight: bold;
+    line-height: 1.8em;
     text-transform: uppercase; }
   .education-item h4 {
     margin: 0;
