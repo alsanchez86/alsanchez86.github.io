@@ -6513,10 +6513,7 @@ a.project-item {
 
 .main-nav {
   color: #FFF;
-  background-color: #24292e;
-  animation-name: animateMainNav;
-  animation-timing-function: ease-in;
-  animation-duration: 0.25s; }
+  background-color: #24292e; }
   .main-nav .navbar {
     justify-content: flex-end; }
 

@@ -5,10 +5,6 @@ $hide_delay: 0.25s;
     color: $color_white;
     background-color: $color_black;
 
-    animation-name: animateMainNav;
-    animation-timing-function: ease-in;
-    animation-duration: $hide_delay;
-
     .navbar {
         justify-content: flex-end;
     }
