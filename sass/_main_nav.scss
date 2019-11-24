@@ -1,6 +1,3 @@
-$top_hide: -15%;
-$hide_delay: 0.25s;
-
 .main-nav {
     color: $color_white;
     background-color: $color_black;
@@ -17,22 +14,5 @@ $hide_delay: 0.25s;
         right: 0;
         left: 0;
         z-index: 1030;
-
-        &.main-nav-hide {
-            top: $top_hide;
-            animation-name: animateMainNav;
-            animation-timing-function: ease-out;
-            animation-duration: $hide_delay;
-        }
-    }
-}
-
-@keyframes animateMainNav {
-    0% {
-        top: 0;
-    }
-
-    100% {
-        top: $top_hide;
     }
 }
