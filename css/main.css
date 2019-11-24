@@ -6400,7 +6400,8 @@ h2.section-title {
   padding: 0.5rem; }
 
 .nav-link {
-  font-size: 16px; }
+  font-size: 18px;
+  line-height: 24px; }
 
 .navbar-light .navbar-toggler {
   border-color: transparent; }
@@ -6522,7 +6523,9 @@ a.project-item {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030; } }
+    z-index: 1030; }
+    .main-nav.main-nav-hide {
+      height: 0; } }
 
 .footer {
   padding: 45px 0 70px;

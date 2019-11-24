@@ -14,5 +14,9 @@
         right: 0;
         left: 0;
         z-index: 1030;
+
+        &.main-nav-hide {
+            height: 0;
+        }
     }
 }
