@@ -1,8 +1,4 @@
 .main-nav {
-    height: auto;
-    overflow: hidden;
-    transition: height 0.15s ease-in;
-
     color: $color_white;
     background-color: $color_black;
 
@@ -18,11 +14,5 @@
         right: 0;
         left: 0;
         z-index: 1030;
-
-        &.main-nav-hide {
-            display: none;
-            height: 0;
-            transition: height 0.25s ease-out;
-        }
     }
 }

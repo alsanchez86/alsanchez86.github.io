@@ -6397,7 +6397,7 @@ h2.section-title {
   text-align: right; }
 
 .navbar {
-  padding: 0.5rem; }
+  padding: 0.75rem; }
 
 .nav-link {
   font-size: 18px;
@@ -6512,9 +6512,6 @@ a.project-item {
     top: 65%; }
 
 .main-nav {
-  height: auto;
-  overflow: hidden;
-  transition: height 0.15s ease-in;
   color: #FFF;
   background-color: #24292e; }
   .main-nav .navbar {
@@ -6526,11 +6523,7 @@ a.project-item {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030; }
-    .main-nav.main-nav-hide {
-      display: none;
-      height: 0;
-      transition: height 0.25s ease-out; } }
+    z-index: 1030; } }
 
 .footer {
   padding: 45px 0 70px;
