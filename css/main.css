@@ -6513,7 +6513,10 @@ a.project-item {
 
 .main-nav {
   color: #FFF;
-  background-color: #24292e; }
+  background-color: #24292e;
+  animation-name: animateMainNav;
+  animation-timing-function: ease-in;
+  animation-duration: 0.25s; }
   .main-nav .navbar {
     justify-content: flex-end; }
 
@@ -6525,7 +6528,7 @@ a.project-item {
     left: 0;
     z-index: 1030; }
     .main-nav.main-nav-hide {
-      top: -10%;
+      top: -15%;
       animation-name: animateMainNav;
       animation-timing-function: ease-out;
       animation-duration: 0.25s; } }
@@ -6534,7 +6537,7 @@ a.project-item {
   0% {
     top: 0; }
   100% {
-    top: -10%; } }
+    top: -15%; } }
 
 .footer {
   padding: 45px 0 70px;

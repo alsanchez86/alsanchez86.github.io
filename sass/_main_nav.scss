@@ -1,6 +1,13 @@
+$top_hide: -15%;
+$hide_delay: 0.25s;
+
 .main-nav {
     color: $color_white;
     background-color: $color_black;
+
+    animation-name: animateMainNav;
+    animation-timing-function: ease-in;
+    animation-duration: $hide_delay;
 
     .navbar {
         justify-content: flex-end;
@@ -16,10 +23,10 @@
         z-index: 1030;
 
         &.main-nav-hide {
-            top: -10%;
+            top: $top_hide;
             animation-name: animateMainNav;
             animation-timing-function: ease-out;
-            animation-duration: 0.25s;
+            animation-duration: $hide_delay;
         }
     }
 }
@@ -30,6 +37,6 @@
     }
 
     100% {
-        top: -10%;
+        top: $top_hide;
     }
 }
