@@ -44,7 +44,6 @@ define(["module", "jquery_cache_module"], function (module, _$) {
      */
     module.exports.mobileTabletMenu = function () {
         var last = 0;
-        var breakPoint = 768; // md
         var nav = _$("#main-nav");
         var navClass = "main-nav-hide";
 

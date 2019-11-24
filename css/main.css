@@ -6523,7 +6523,17 @@ a.project-item {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030; } }
+    z-index: 1030; }
+    .main-nav.main-nav-hide {
+      animation-name: animateMainNav;
+      animation-timing-function: ease-in;
+      animation-duration: 0.15; } }
+
+@keyframes animateMainNav {
+  0% {
+    top: 0; }
+  100% {
+    top: -10%; } }
 
 .footer {
   padding: 45px 0 70px;
