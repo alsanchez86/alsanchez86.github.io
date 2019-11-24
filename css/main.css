@@ -6512,12 +6512,11 @@ a.project-item {
     top: 65%; }
 
 .main-nav {
+  height: auto;
+  overflow: hidden;
+  transition: height 0.15s ease-in;
   color: #FFF;
-  background-color: #24292e;
-  animation-name: animateMainNav;
-  animation-iteration-count: 0.15s;
-  animation-timing-function: ease-in;
-  animation-duration: 0.15s; }
+  background-color: #24292e; }
   .main-nav .navbar {
     justify-content: flex-end; }
 
@@ -6531,13 +6530,7 @@ a.project-item {
     .main-nav.main-nav-hide {
       display: none;
       height: 0;
-      overflow: hidden; } }
-
-@keyframes animateMainNav {
-  0% {
-    height: 0; }
-  100% {
-    height: auto; } }
+      transition: height 0.25s ease-out; } }
 
 .footer {
   padding: 45px 0 70px;

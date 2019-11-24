@@ -1,11 +1,10 @@
 .main-nav {
+    height: auto;
+    overflow: hidden;
+    transition: height 0.15s ease-in;
+
     color: $color_white;
     background-color: $color_black;
-
-    animation-name: animateMainNav;
-    animation-iteration-count: 0.15s;
-    animation-timing-function: ease-in;
-    animation-duration: 0.15s;
 
     .navbar {
         justify-content: flex-end;
@@ -23,17 +22,7 @@
         &.main-nav-hide {
             display: none;
             height: 0;
-            overflow: hidden;
+            transition: height 0.25s ease-out;
         }
-    }
-}
-
-@keyframes animateMainNav {
-    0% {
-        height: 0;
-    }
-
-    100% {
-        height: auto;
     }
 }
