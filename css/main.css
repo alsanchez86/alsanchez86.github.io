@@ -6525,9 +6525,10 @@ a.project-item {
     left: 0;
     z-index: 1030; }
     .main-nav.main-nav-hide {
+      top: -10%;
       animation-name: animateMainNav;
-      animation-timing-function: ease-in;
-      animation-duration: 0.15; } }
+      animation-timing-function: ease-out;
+      animation-duration: 0.25s; } }
 
 @keyframes animateMainNav {
   0% {
