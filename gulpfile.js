@@ -85,10 +85,11 @@ gulp.task('js:lib', function () {
  */
 
 gulp.task('templates', [], function (done) {
-    const root = "./templates/sections/";
+    const section = ((process && process.argv && process.argv[3]) || "");
+    const root = [".", "templates", "sections", section].filter(e => e).join("/").concat("/");
     const dirs = readDirs(root);
 
-    dirs.push(root); // push root index (inicio)
+    dirs.push(root); // push root index
     dirs.map(dir => {
         let outputDir = dir.replace(root, "./");
         gulp.src(dir + "index.mustache")
