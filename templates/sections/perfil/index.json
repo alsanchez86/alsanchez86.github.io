@@ -83,6 +83,10 @@
                 "value": 100
             },
             {
+                "name": "webpack",
+                "value": 20
+            },
+            {
                 "name": "d3 (svg)",
                 "value": 90
             },
@@ -360,6 +364,9 @@
                 },
                 {
                     "name": "Gulp"
+                },
+                {
+                    "name": "webpack"
                 },
                 {
                     "name": "HTML"
