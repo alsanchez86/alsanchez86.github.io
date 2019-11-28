@@ -6328,7 +6328,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 28px;
   color: #010101;
   background: #FFF; }
 
@@ -6678,12 +6678,12 @@ a.project-item {
     transform: translateX(0); } }
 
 .experience-item {
-  margin-bottom: 125px; }
+  margin-bottom: 130px; }
   .experience-item:last-child {
     margin-bottom: 0;
     border: 0; }
   .experience-item h3 {
-    font-size: 24px;
+    font-size: 26px;
     text-transform: uppercase; }
   .experience-item h4 {
     margin-bottom: 10px;
@@ -6698,7 +6698,7 @@ a.project-item {
     .experience-item .experience-item-intro span {
       color: #adb5bd; }
   .experience-item .experience-item-batch {
-    margin-bottom: 40px; }
+    margin-bottom: 50px; }
     .experience-item .experience-item-batch .experience-item-batch-frontend {
       font-weight: 400;
       color: #010101;
