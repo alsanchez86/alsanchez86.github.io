@@ -6350,7 +6350,7 @@ h2 {
   font-weight: 700; }
 
 h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700; }
 
 h4 {
@@ -6358,8 +6358,8 @@ h4 {
   font-weight: 500; }
 
 h5 {
-  font-size: 15px;
-  font-weight: 500; }
+  font-size: 14px;
+  font-weight: 700; }
 
 h6 {
   font-size: 15px; }
@@ -6687,7 +6687,7 @@ a.project-item {
     text-transform: uppercase; }
   .experience-item h4 {
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700; }
   .experience-item ul {
     padding: 0; }
