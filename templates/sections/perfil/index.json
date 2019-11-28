@@ -228,15 +228,15 @@
         ],
         "dessign": [{
                 "name": "Illustrator",
-                "value": 80
+                "value": 85
             },
             {
                 "name": "Photoshop",
-                "value": 80
+                "value": 85
             },
             {
                 "name": "Fireworks",
-                "value": 80
+                "value": 70
             },
             {
                 "name": "Adobe Flash (ActionScript 3)",
@@ -244,11 +244,11 @@
             },
             {
                 "name": "Inkscape",
-                "value": 80
+                "value": 75
             },
             {
                 "name": "Gimp",
-                "value": 80
+                "value": 70
             }
         ]
     },
