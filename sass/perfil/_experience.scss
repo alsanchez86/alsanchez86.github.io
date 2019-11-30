@@ -27,7 +27,6 @@
 
     .experience-item-intro {
         margin-bottom: 30px;
-
         font-size: 15px;
 
         span {
@@ -109,6 +108,10 @@
 @include media-breakpoint-down(sm) {
     .experience-item {
         margin-bottom: 20px;
+
+        .experience-item-intro {
+            font-size: 13px;
+        }
 
         .experience-item-batch {
             .badge {
