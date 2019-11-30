@@ -1,6 +1,6 @@
 body {
-    font-family: $roboto;
-    font-size: 15px;
+    font-family: $open;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     color: $color_text;
@@ -25,32 +25,33 @@ h6 {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
 h4 {
-    font-size: 15px;
-    font-weight: 500;
-}
-
-h5 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
 }
 
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
 h6 {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 a {
@@ -72,14 +73,18 @@ p {
     margin-bottom: 20px;
 }
 
-ul {
+ul,
+ol {
     margin: 0 0 20px 0;
     padding: 0 0 0 20px;
+}
+
+ul {
     list-style: none;
 }
 
 .main-wrapper {
-    padding-top: 2.25rem;
+    // padding-top: 2.25rem;
     background: $color_background;
 }
 
@@ -111,13 +116,13 @@ h2.section-title {
 
 @include media-breakpoint-down(md) {
     body {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 20px;
     }
 
-    .main-wrapper {
-        padding-top: 6.25rem;
-    }
+    // .main-wrapper {
+    //     padding-top: 6.25rem;
+    // }
 
     .section-wrapper {
         padding: 20px 0;
@@ -131,9 +136,9 @@ h2.section-title {
 }
 
 @include media-breakpoint-down(sm) {
-    .main-wrapper {
-        padding-top: 4.25rem;
-    }
+    // .main-wrapper {
+    //     padding-top: 4.25rem;
+    // }
 }
 
 @include media-breakpoint-down(xs) {}

@@ -6312,21 +6312,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.btn-primary {
-  color: #fff;
-  background-color: #28a745;
-  background-image: linear-gradient(-180deg, #34d058, #28a745 90%);
-  background-repeat: repeat-x;
-  background-position: -1px -1px;
-  background-size: 110% 110%;
-  border: 1px solid rgba(27, 31, 35, 0.2);
-  border-radius: .25em; }
-  .btn-primary:hover, .btn-primary:active {
-    background-image: linear-gradient(180deg, #34d058, #28a745 90%); }
-
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   color: #010101;
@@ -6342,27 +6330,28 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase; }
 
 h1 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 700; }
 
 h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700; }
 
 h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700; }
 
 h4 {
-  font-size: 15px;
-  font-weight: 500; }
-
-h5 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700; }
 
+h5 {
+  font-size: 16px;
+  font-weight: 600; }
+
 h6 {
-  font-size: 15px; }
+  font-size: 16px;
+  font-weight: 500; }
 
 a {
   color: #4285f4;
@@ -6378,13 +6367,15 @@ a {
 p {
   margin-bottom: 20px; }
 
-ul {
+ul,
+ol {
   margin: 0 0 20px 0;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 20px; }
+
+ul {
   list-style: none; }
 
 .main-wrapper {
-  padding-top: 2.25rem;
   background: #fafbfc; }
 
 .section-wrapper {
@@ -6407,20 +6398,14 @@ h2.section-title {
 
 @media (max-width: 991.98px) {
   body {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px; }
-  .main-wrapper {
-    padding-top: 6.25rem; }
   .section-wrapper {
     padding: 20px 0; }
   h2.section-title {
     margin-bottom: 20px;
     font-size: 32px;
     text-align: left; } }
-
-@media (max-width: 767.98px) {
-  .main-wrapper {
-    padding-top: 4.25rem; } }
 
 a.project-item {
   position: relative;
@@ -6546,7 +6531,7 @@ a.project-item {
 .intro .name-wrapper {
   margin-bottom: 30px; }
   .intro .name-wrapper h1 {
-    margin: 0 0 5px;
+    margin: 0 0 10px;
     line-height: 1;
     text-transform: uppercase; }
   .intro .name-wrapper span {
@@ -6693,7 +6678,8 @@ a.project-item {
   .experience-item .media-left {
     padding-right: 35px; }
   .experience-item .experience-item-intro {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-size: 15px; }
     .experience-item .experience-item-intro span {
       color: #adb5bd; }
   .experience-item .experience-item-batch {
@@ -6756,6 +6742,8 @@ a.project-item {
 @media (max-width: 767.98px) {
   .experience-item {
     margin-bottom: 20px; }
+    .experience-item .experience-item-batch .badge {
+      margin: 3px 1px; }
     .experience-item .glide-controls {
       display: none; } }
 

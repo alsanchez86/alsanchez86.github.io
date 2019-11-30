@@ -28,6 +28,8 @@
     .experience-item-intro {
         margin-bottom: 30px;
 
+        font-size: 15px;
+
         span {
             color: $color_gray;
         }
@@ -107,6 +109,12 @@
 @include media-breakpoint-down(sm) {
     .experience-item {
         margin-bottom: 20px;
+
+        .experience-item-batch {
+            .badge {
+                margin: 3px 1px;
+            }
+        }
 
         .glide-controls {
             display: none;
