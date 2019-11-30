@@ -6750,6 +6750,8 @@ a.project-item {
     margin-bottom: 20px; }
     .experience-item .experience-item-intro {
       font-size: 13px; }
+      .experience-item .experience-item-intro a {
+        display: table; }
     .experience-item .experience-item-batch .badge {
       margin: 3px 1px; }
     .experience-item .glide-controls {

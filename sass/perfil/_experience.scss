@@ -111,6 +111,10 @@
 
         .experience-item-intro {
             font-size: 13px;
+
+            a {
+                display: table;
+            }
         }
 
         .experience-item-batch {
