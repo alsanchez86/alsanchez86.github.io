@@ -1,10 +1,17 @@
 .intro {
+    .img-thumbnail {
+        padding: 0;
+        border: 0;
+    }
+
     .name-wrapper {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
 
         h1 {
             margin: 0 0 10px;
+
             line-height: 1;
+            letter-spacing: 2px;
             text-transform: uppercase;
         }
 
@@ -15,6 +22,7 @@
 
     p.personal-detail {
         margin: 10px 0;
+        line-height: 25px;
 
         strong {
             font-size: 13px;
