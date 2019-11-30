@@ -6398,8 +6398,7 @@ h2.section-title {
 
 @media (max-width: 991.98px) {
   body {
-    font-size: 14px;
-    line-height: 20px; }
+    font-size: 15px; }
   .section-wrapper {
     padding: 20px 0; }
   h2.section-title {
@@ -6536,7 +6535,7 @@ a.project-item {
   margin-bottom: 40px; }
   .intro .name-wrapper h1 {
     margin: 0 0 10px;
-    line-height: 1;
+    line-height: 1.25;
     letter-spacing: 2px;
     text-transform: uppercase; }
   .intro .name-wrapper span {
