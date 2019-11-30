@@ -6470,7 +6470,7 @@ a.project-item {
     top: 80%; } }
 
 .preloader {
-  background: #FFF;
+  background: #007bff;
   bottom: 0;
   left: 0;
   position: fixed;
