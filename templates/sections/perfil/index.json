@@ -271,10 +271,16 @@
                 "name": "Desarrollador frontend de plataforma web APP de tráfico masivo para venta deventradas al gran publico. Clientes directos:  FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, etc."
             },
             {
-                "name": "Responsable de analítica (GTM, DTM)."
+                "name": "Responsable de analítica web (GTM, DTM)."
             },
             {
-                "name": "Desarrollador de herramientas internas para renderizaciones 3D con Nodejs, Python (Cinema4d) y shell script."
+                "name": "Desarrollador de herramientas internas para procesos de renderización 3D con Nodejs, Python (Cinema4d) y shell scripting."
+            },
+            {
+                "name": "Tareas de test y mantenimiento de proyectos."
+            },
+            {
+                "name": "Desarrollo de librerías JSES6 para la visualización de renderizados 3D en 360º. <a href='https://static.expertustech.net/wiso_releases/2.0/demo/'>https://static.expertustech.net/wiso_releases/2.0/demo/</a>"
             }
         ],
         "projects": [{
