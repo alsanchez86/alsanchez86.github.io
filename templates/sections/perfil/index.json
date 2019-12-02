@@ -20,7 +20,7 @@
             },
             {
                 "name": "Redux",
-                "value": 70
+                "value": 80
             },
             {
                 "name": "jQuery",
@@ -36,11 +36,11 @@
             },
             {
                 "name": "Angular",
-                "value": 50
+                "value": 65
             },
             {
                 "name": "Riot",
-                "value": 40
+                "value": 70
             },
             {
                 "name": "RequireJS",
@@ -48,7 +48,7 @@
             },
             {
                 "name": "CoffeeScript",
-                "value": 80
+                "value": 85
             },
             {
                 "name": "Bootstrap",
@@ -84,7 +84,7 @@
             },
             {
                 "name": "webpack",
-                "value": 20
+                "value": 30
             },
             {
                 "name": "d3 (svg)",
@@ -92,20 +92,20 @@
             },
             {
                 "name": "Konva (canvas)",
-                "value": 80
+                "value": 90
             },
             {
                 "name": "Jasmine",
-                "value": 70
+                "value": 75
             },
             {
                 "name": "Mocha",
-                "value": 50
+                "value": 55
             }
         ],
         "backend": [{
                 "name": "Nodejs",
-                "value": 50
+                "value": 55
             },
             {
                 "name": "PHP",
@@ -133,7 +133,7 @@
             },
             {
                 "name": "Apache Solr",
-                "value": 50
+                "value": 70
             },
             {
                 "name": "ElasticSearch",
