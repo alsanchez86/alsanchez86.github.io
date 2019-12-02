@@ -278,9 +278,6 @@
             },
             {
                 "name": "Tareas de test y mantenimiento de proyectos."
-            },
-            {
-                "name": "Desarrollo de librerías JSES6 para la visualización de renderizados 3D en 360º. <a href='https://static.expertustech.net/wiso_releases/2.0/demo/'>https://static.expertustech.net/wiso_releases/2.0/demo/</a>"
             }
         ],
         "projects": [{
@@ -299,27 +296,34 @@
             },
             {
                 "index": 2,
+                "name": "Desarrollo de librerías JSES6 para la visualización de renderizados 3D en 360º",
+                "link": "https://static.expertustech.net/wiso_releases/2.0/demo/",
+                "target": "_blank",
+                "background": "http://ximg.es/400x400/CCC/fff"
+            },
+            {
+                "index": 3,
                 "name": "Atlético de Madrid. Plataforma oficial de venta de entradas online",
                 "link": "https://www.atleticodemadrid.com/entradas",
                 "target": "_blank",
                 "background": "../img/projects/atm/preview.jpg"
             },
             {
-                "index": 3,
+                "index": 4,
                 "name": "Getafe FC. Plataforma oficial de venta de entradas online",
                 "link": "https://getafecf.expertustech.com/open#/eventshome",
                 "target": "_blank",
                 "background": "../img/projects/getafe/preview.jpg"
             },
             {
-                "index": 4,
+                "index": 5,
                 "name": "Albacete Balompié. Plataforma oficial de venta de entradas online",
                 "link": "https://albacetebalompie.expertustech.com/open#/eventshome",
                 "target": "_blank",
                 "background": "../img/projects/albacete/preview.jpg"
             },
             {
-                "index": 5,
+                "index": 6,
                 "name": "Elche CF. Plataforma oficial de venta de entradas online",
                 "link": "https://elchecf.expertustech.com/open#/eventshome",
                 "target": "_blank",
