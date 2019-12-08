@@ -299,7 +299,7 @@
                 "name": "Desarrollo de librerías JSES6 para la visualización de renderizados 3D en 360º",
                 "link": "https://static.expertustech.net/wiso_releases/2.0/demo/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/wiso/preview.jpg"
             },
             {
                 "index": 3,
@@ -625,14 +625,14 @@
                 "name": "Demos módulos Ximdex CMS",
                 "link": "http://demo.ximdex.com",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/demos-ximdex/preview.jpg"
             },
             {
                 "index": 2,
                 "name": "XFIND Demo",
                 "link": "http://demo.ximdex.com/xfind/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/xfind/preview.jpg"
             },
             {
                 "index": 3,
@@ -646,35 +646,35 @@
                 "name": "XHAWK Demo",
                 "link": "http://demo.ximdex.com/xhawk/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/xhawk/preview.jpg"
             },
             {
                 "index": 5,
                 "name": "Web corporativa Open Ximdex Evolution S.L.",
                 "link": "http://www.ximdex.com/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/web-ximdex/preview.jpg"
             },
             {
                 "index": 6,
                 "name": "Portal web AEPD: Agencia Española de Protección de Datos",
                 "link": "http://www.agpd.es/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/aepd/preview.jpg"
             },
             {
                 "index": 7,
                 "name": "Portal web BRAE: Biblioteca de recursos para el aprendizaje del Español",
                 "link": "http://brae.redhispanistas.es/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/brae/preview.jpg"
             },
             {
                 "index": 8,
                 "name": "Web corporativa United English Academy S.L.",
                 "link": "http://www.unitedenglish.es/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/united-english/preview.jpg"
             }
         ],
         "techs": [{
@@ -866,42 +866,35 @@
                 "name": "Web corporativa Grupo Hispasat",
                 "link": "http://www.hispasat.com/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/hispasat/preview.jpg"
             },
             {
                 "index": 2,
                 "name": "Web corporativa Mercer Hoteles Barcelona",
                 "link": "http://www.mercerbarcelona.com/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/mercer/preview.jpg"
             },
             {
                 "index": 3,
                 "name": "Tienda online Tramas + Malbatex S.L.",
                 "link": "http://www.tramasmas.com/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
-            },
-            {
-                "index": 4,
-                "name": "Portal web Sevilla si",
-                "link": "http://www.sevillasi.com/",
-                "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/tramasmas/preview.jpg"
             },
             {
                 "index": 5,
                 "name": "Web corporativa Planvalore Avales Inmobiliarios, S.A.",
                 "link": "http://www.planvalore.com/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/planvalore/preview.jpg"
             },
             {
                 "index": 6,
                 "name": "Web corporativa Fourup",
                 "link": "http://www.fourup.es/",
                 "target": "_blank",
-                "background": "../img/projects/default.jpg"
+                "background": "../img/projects/fourup/preview.jpg"
             }
         ],
         "techs": [{
@@ -991,7 +984,7 @@
             "name": "Instituto Andaluz Interuniversitario de Criminología",
             "link": "http://www.iaic.us.es/",
             "target": "_blank",
-            "background": "../img/projects/default.jpg"
+            "background": "../img/projects/iaic/preview.jpg"
         }],
         "techs": [{
             "type": "frontend",
