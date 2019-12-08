@@ -9,7 +9,7 @@
         {
             "name": "XStrap",
             "link": "http://sanchezpizarro.com/portfolio/xstrap",
-            "background": "http://ximg.es/400x400/CCC/fff"
+            "background": "../img/projects/default.jpg"
         }, {
             "name": "XOWL",
             "link": "http://sanchezpizarro.com/portfolio/xowl",
