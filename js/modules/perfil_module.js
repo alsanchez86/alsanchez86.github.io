@@ -88,10 +88,14 @@ define(["module", "jquery_cache_module", "glide", "github_calendar"], function (
     }
 
     function ghCalendar(){
-        GitHubCalendar(".github-calendar", "alsanchez86", {
+        var container = ".github-calendar";
+        var $container = _$(container);
+
+        GitHubCalendar(container, "alsanchez86", {
             responsive: true,
             summary_text: "",
             global_stats: false
         });
+        $container.removeClass("with-loader");
     }
 });
