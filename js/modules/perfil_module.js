@@ -17,6 +17,7 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
     function animateProgressAll() {
         var animateClass = "skills-item-animated";
         var $wrappers = _$(".skills-item");
+
         if ($wrappers) {
             $wrappers
                 .each(function (index, domElem) {
@@ -51,7 +52,8 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                 id: "freelance",
                 perView: 1
             }
-        ].map(function (slider) {
+        ]
+        .map(function (slider) {
             return new Glide("#glide-slider-" + slider.id, {
                 type: "carousel",
                 perView: 2,
@@ -72,7 +74,8 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                 autoplay: 5000,
                 hoverpause: true
             });
-        }).map(function (carousel) {
+        })
+        .map(function (carousel) {
             carousel
                 .on(["build.after"], function () {
                     _$(carousel.selector)
