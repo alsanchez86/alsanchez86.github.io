@@ -1,11 +1,12 @@
 "use strict";
 
-define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) {
+define(["module", "jquery_cache_module", "glide", "github_calendar"], function (module, _$, Glide, GitHubCalendar) {
     /**
      *
      * @return {void}
      */
     module.exports.run = function () {
+        ghCalendar();
         animateProgressAll();
         initSliders();
     }
@@ -84,5 +85,11 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                 })
                 .mount();
         })
+    }
+
+    function ghCalendar(){
+        GitHubCalendar(".github-calendar", "alsanchez86", {
+            responsive: true
+        });
     }
 });
