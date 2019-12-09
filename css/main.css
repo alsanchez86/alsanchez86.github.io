@@ -6599,6 +6599,9 @@ a.project-item {
 .intro .download-cv {
   text-align: center; }
 
+.intro .github-calendar {
+  margin: 40px 0 0 0; }
+
 @media (max-width: 991.98px) {
   .intro .name-wrapper {
     text-align: center; }
