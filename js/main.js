@@ -2,7 +2,7 @@
 
 define(function () {
     require(["require-config"], function () {
-        require(["fetch", "promise_polyfill"], function (fetch, promisePolyfill) {
+        require(["fetch", "promise_polyfill"], function (fetch) {
             // Polyfills
             window.fetch = fetch.fetch;
 
