@@ -35,8 +35,7 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
             "innofis",
             "ximdex",
             "existo",
-            "freelance",
-            "gaesa"
+            "freelance"
         ].map(function (id) {
             return new Glide("#glide-slider-" + id, {
                 type: "carousel",
