@@ -6396,6 +6396,11 @@ h2.section-title {
 .navbar-light .navbar-toggler {
   border-color: transparent; }
 
+.with-loader {
+  background-image: url(../../img/ajax-loader.svg);
+  background-repeat: no-repeat;
+  background-position: center center; }
+
 @media (max-width: 991.98px) {
   body {
     font-size: 15px; }
