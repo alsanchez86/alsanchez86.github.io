@@ -32,23 +32,23 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
     function initSliders() {
         [
             {
-                id: "expertus"
+                id: "expertus",
                 perView: 2
             },
             {
-                id: "innofis"
+                id: "innofis",
                 perView: 2
             },
             {
-                id: "ximdex"
+                id: "ximdex",
                 perView: 2
             },
             {
-                id: "existo"
+                id: "existo",
                 perView: 2
             },
             {
-                id: "freelance"
+                id: "freelance",
                 perView: 1
             }
         ].map(function (slider) {
