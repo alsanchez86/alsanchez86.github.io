@@ -89,7 +89,9 @@ define(["module", "jquery_cache_module", "glide", "github_calendar"], function (
 
     function ghCalendar(){
         GitHubCalendar(".github-calendar", "alsanchez86", {
-            responsive: true
+            responsive: true,
+            summary_text: "",
+            global_stats: false
         });
     }
 });
