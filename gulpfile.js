@@ -79,6 +79,7 @@ gulp.task('js:lib', function () {
             pkg.node_modules + '@glidejs/glide/dist/glide.js',
             pkg.node_modules + 'github-calendar/dist/github-calendar.min.js',
             pkg.node_modules + 'whatwg-fetch/dist/fetch.umd.js',
+            pkg.node_modules + 'es6-promise/dist/es6-promise.auto.min.js',
         ])
         .pipe(gulp.dest(pkg.lib));
 });
