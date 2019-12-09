@@ -280,6 +280,7 @@
                 "name": "Tareas de testing y mantenimiento de proyectos."
             }
         ],
+        "showProjects": true,
         "projects": [{
                 "index": 0,
                 "name": "FC Barcelona. Plataforma oficial de venta de entradas online",
@@ -481,6 +482,7 @@
                 "name": "Documentación de proyectos."
             }
         ],
+        "showProjects": true,
         "projects": [{
                 "index": 0,
                 "name": "Portal corporativo Danone S.A.",
@@ -613,6 +615,7 @@
                 "name": "Contacto directo con el cliente mediante soporte técnico."
             }
         ],
+        "showProjects": true,
         "projects": [{
                 "index": 0,
                 "name": "Ximdex CMS: CMS semántico basado en tecnología XML",
@@ -854,6 +857,7 @@
                 "name": "Técnico de soporte con e-conecta."
             }
         ],
+        "showProjects": true,
         "projects": [{
                 "index": 0,
                 "name": "Portal web Centro BTT Nevada",
@@ -979,6 +983,7 @@
                 "name": "Desarrollador (Frontend y Backend) de aplicaciones y portales web."
             }
         ],
+        "showProjects": true,
         "projects": [{
             "index": 0,
             "name": "Instituto Andaluz Interuniversitario de Criminología",
@@ -1032,6 +1037,13 @@
         "position": "Desarrollador superior de páginas web.",
         "functions": [{
             "name": "Desarrollador de plataformas web para estudiantes (e-learning) y aplicaciones multimedia desarrolladas con Adobe Flash (ActionScript 3.0)."
+        }],
+        "showProjects": false,
+        "projects": [{
+            "name": "-",
+            "link": "",
+            "target": "_blank",
+            "background": "../img/projects/default.jpg"
         }],
         "techs": [{
             "type": "frontend",
