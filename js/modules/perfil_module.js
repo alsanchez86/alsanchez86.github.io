@@ -1,12 +1,16 @@
 "use strict";
 
-define(["module", "jquery_cache_module", "glide", "github_calendar"], function (module, _$, Glide, GitHubCalendar) {
+define(["module", "jquery_cache_module", "glide", "github_calendar", "browser_detect"], function (module, _$, Glide, GitHubCalendar, browserDetect) {
     /**
      *
      * @return {void}
      */
     module.exports.run = function () {
-        ghCalendar();
+        var browser = browserDetect();
+
+        if (browser.name !== "ie"){
+            ghCalendar();
+        }
         animateProgressAll();
         initSliders();
     }
