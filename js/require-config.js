@@ -21,6 +21,7 @@ require.config(
                 bootstrap: _this.config.lib + "bootstrap.bundle.min",
                 glide: _this.config.lib + "glide",
                 github_calendar: _this.config.lib + "github-calendar.min",
+                fetch: _this.config.lib + "fetch.umd",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache_module",
                 main_module: _this.config.modules + "main_module",
@@ -32,6 +33,9 @@ require.config(
                 // lib
                 bootstrap: {
                     deps: ["jquery"]
+                },
+                github_calendar: {
+                    deps: ["fetch"]
                 },
                 // modules
                 jquery_cache_module: {
