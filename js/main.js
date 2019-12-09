@@ -3,7 +3,7 @@
 define(function () {
     require(["require-config"], function () {
         require(["fetch"], function (fetch) {
-            window.fetch = fetch;
+            window.fetch = fetch.fetch;
 
             require(["jquery"], function ($) {
                 require(["bootstrap"], function () {
