@@ -31,13 +31,28 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
      */
     function initSliders() {
         [
-            "expertus",
-            "innofis",
-            "ximdex",
-            "existo",
-            "freelance"
-        ].map(function (id) {
-            return new Glide("#glide-slider-" + id, {
+            {
+                id: "expertus"
+                perView: 2
+            },
+            {
+                id: "innofis"
+                perView: 2
+            },
+            {
+                id: "ximdex"
+                perView: 2
+            },
+            {
+                id: "existo"
+                perView: 2
+            },
+            {
+                id: "freelance"
+                perView: 1
+            }
+        ].map(function (slider) {
+            return new Glide("#glide-slider-" + slider.id, {
                 type: "carousel",
                 perView: 2,
                 breakpoints: {
@@ -48,14 +63,14 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
                         perView: 1
                     },
                     992: {
-                        perView: 2
+                        perView: slider.perView
                     },
                     1200: {
-                        perView: 2
+                        perView: slider.perView
                     }
                 },
-                // autoplay: 5000,
-                // hoverpause: true
+                autoplay: 5000,
+                hoverpause: true
             });
         }).map(function (carousel) {
             carousel
