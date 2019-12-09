@@ -6600,6 +6600,7 @@ a.project-item {
   text-align: center; }
 
 .intro .github-calendar {
+  min-height: 175px;
   margin: 40px 0 0 0; }
 
 @media (max-width: 991.98px) {
