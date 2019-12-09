@@ -5,7 +5,7 @@ define(function () {
         require(["fetch", "promise_polyfill"], function (fetch, promisePolyfill) {
             // Polyfills
             window.fetch = fetch.fetch;
-            window.promise = promisePolyfill.polyfill();
+            // window.promise = promisePolyfill.polyfill();
 
             require(["jquery"], function ($) {
                 require(["bootstrap"], function () {
