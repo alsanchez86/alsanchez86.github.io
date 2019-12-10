@@ -6739,8 +6739,7 @@ a.project-item {
       color: #fafbfc;
       background-color: #2D0320; }
   .experience-item a.project-item {
-    margin-bottom: 0;
-    cursor: grab; }
+    margin-bottom: 0; }
   .experience-item .glide--dragging a.project-item {
     cursor: grabbing; }
   .experience-item .glide-controls {

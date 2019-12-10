@@ -4,7 +4,7 @@ define(function () {
     require(["require-config"], function () {
         require(["fetch", "promise_polyfill"], function (fetch) {
             // Polyfills
-            window.fetch = fetch.fetch;
+            window.fetch = fetch.fetch; // Because its UMD
 
             require(["jquery"], function ($) {
                 require(["bootstrap"], function () {
