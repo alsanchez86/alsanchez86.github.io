@@ -5,7 +5,7 @@ require.config(
         var _this = {
             config: {
                 modules: window.location.origin + "/src/js/modules/",
-                lib: window.location.origin + "/src/lib/"
+                lib: window.location.origin + "/src/js/lib/"
             },
             callback: function () {
                 console.log("Loaded require config file.");
