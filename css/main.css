@@ -6397,7 +6397,7 @@ h2.section-title {
   border-color: transparent; }
 
 .with-loader {
-  background-image: url(../../img/ajax-loader.svg);
+  background-image: url(../../src/img/ajax-loader.svg);
   background-repeat: no-repeat;
   background-position: center center; }
 
@@ -6483,7 +6483,7 @@ a.project-item {
   z-index: 9999; }
   .preloader .status,
   .preloader .status-mes {
-    background-image: url(../../img/puff.svg);
+    background-image: url(../../src/img/puff.svg);
     background-position: center;
     background-repeat: no-repeat;
     height: 200px;
