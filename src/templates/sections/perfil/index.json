@@ -1,8 +1,8 @@
 {
     "css_path": "../css",
-    "requirejs_path": "../lib",
-    "main_path": "../js",
-    "img_path": "../img",
+    "requirejs_path": "../src/js/lib",
+    "main_path": "../src/js",
+    "img_path": "../src/img",
     "section_module": "perfil_module",
     "menu_active_item": "perfil",
     "skills": {
