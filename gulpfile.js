@@ -91,7 +91,7 @@ gulp.task('js:lib', function () {
 
 gulp.task('templates', [], function (done) {
     const section = ((process && process.argv && process.argv[3]) || "");
-    const root = [".", "templates", "sections", section].filter(e => e).join("/").concat("/");
+    const root = [".", "src", "templates", "sections", section].filter(e => e).join("/").concat("/");
     const dirs = readDirs(root);
 
     dirs.push(root); // push root index

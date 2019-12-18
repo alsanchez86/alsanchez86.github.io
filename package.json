@@ -6,9 +6,9 @@
     "type": "git",
     "url": "https://github.com/alsanchez86/alsanchez86.github.io.git"
   },
-  "sass": "./sass/",
-  "js": "./js/",
-  "lib": "./lib/",
+  "sass": "./src/sass/",
+  "js": "./src/js/",
+  "lib": "./src/js/lib/",
   "node_modules": "./node_modules/",
   "css": "./css/",
   "devDependencies": {
