@@ -268,15 +268,16 @@
         }],
         "position": "Center Leader Developer (CLD).",
         "functions": [{
-            "name": "Center Leader Developer"
+            "name": "Center Leader Developer (CLD)."
         }],
         "showProjects": false,
         "projects": [],
+        "showTechs": false,
         "techs": []
     }, {
         "id": "expertus",
         "name": "Expertus Technology",
-        "date": "Agosto 2017 - Actualmente.",
+        "date": "Agosto 2017 - Diciembre 2019.",
         "city": {
             "name": "Barcelona, España.",
             "link": "https://goo.gl/maps/rAn4XZm2Fe4eA3UP9"
@@ -352,6 +353,7 @@
                 "background": "../src/img/projects/elche/preview.jpg"
             }
         ],
+        "showTechs": true,
         "techs": [{
             "type": "frontend",
             "name": "Frontend",
@@ -519,6 +521,7 @@
                 "background": "../src/img/projects/fontvella/preview.jpg"
             }
         ],
+        "showTechs": true,
         "techs": [{
             "type": "frontend",
             "name": "Frontend",
@@ -701,6 +704,7 @@
                 "background": "../src/img/projects/united-english/preview.jpg"
             }
         ],
+        "showTechs": true,
         "techs": [{
             "type": "frontend",
             "name": "Frontend",
@@ -922,6 +926,7 @@
                 "background": "../src/img/projects/fourup/preview.jpg"
             }
         ],
+        "showTechs": true,
         "techs": [{
             "type": "frontend",
             "name": "Frontend",
@@ -1012,6 +1017,7 @@
             "target": "_blank",
             "background": "../src/img/projects/iaic/preview.jpg"
         }],
+        "showTechs": true,
         "techs": [{
             "type": "frontend",
             "name": "Frontend",
@@ -1066,6 +1072,7 @@
             "target": "_blank",
             "background": "../src/img/projects/default.jpg"
         }],
+        "showTechs": true,
         "techs": [{
             "type": "frontend",
             "name": "Frontend",
