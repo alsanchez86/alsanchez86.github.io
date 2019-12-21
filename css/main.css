@@ -6550,6 +6550,10 @@ a.project-item {
       text-transform: uppercase; }
     .intro .name-wrapper span {
       font-size: 24px; }
+      .intro .name-wrapper span.position-name {
+        font-size: 21px; }
+    .intro .name-wrapper p {
+      line-height: 38px; }
   .intro p.personal-detail {
     margin: 10px 0;
     line-height: 25px; }
