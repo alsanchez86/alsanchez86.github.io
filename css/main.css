@@ -6542,7 +6542,7 @@ a.project-item {
     padding: 0;
     border: 0; }
   .intro .name-wrapper {
-    margin-bottom: 40px; }
+    margin-bottom: 30px; }
     .intro .name-wrapper h1 {
       margin: 0 0 10px;
       line-height: 1.25;
@@ -6553,7 +6553,7 @@ a.project-item {
       .intro .name-wrapper span.position-name {
         font-size: 21px; }
     .intro .name-wrapper p {
-      line-height: 32px; }
+      line-height: 30px; }
     .intro .name-wrapper img.everis-logo-intro {
       height: 45px; }
   .intro p.personal-detail {
