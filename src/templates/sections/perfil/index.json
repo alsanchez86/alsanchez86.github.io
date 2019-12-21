@@ -253,6 +253,27 @@
         ]
     },
     "experience": [{
+        "id": "everis",
+        "name": "Everis",
+        "date": "Enero 2020 - Actualmente",
+        "city": {
+            "name": "Sevilla, España.",
+            "link": "https://goo.gl/maps/CXA2TL2b7F1MwZQ19"
+        },
+        "company_link": [{
+            "link": "https://www.everis.com/global/es"
+        }],
+        "image_company_path": [{
+            "image_name": "companies/everis.jpg"
+        }],
+        "position": "Center Leader Developer (CLD).",
+        "functions": [{
+            "name": "Center Leader Developer"
+        }],
+        "showProjects": false,
+        "projects": [],
+        "techs": []
+    }, {
         "id": "expertus",
         "name": "Expertus Technology",
         "date": "Agosto 2017 - Actualmente.",
