@@ -6380,7 +6380,7 @@ ul {
   list-style: none; }
 
 .main-wrapper {
-  background: #fafbfc; }
+  background: #FFF; }
 
 .section-wrapper {
   padding: 50px 0; }
@@ -6521,7 +6521,7 @@ a.project-item {
   padding: 45px 0 70px;
   font-size: 12px;
   text-align: center;
-  background-color: #FFF; }
+  background-color: #fafbfc; }
   .footer a {
     color: #adb5bd;
     text-decoration: none;

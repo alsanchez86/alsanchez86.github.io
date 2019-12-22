@@ -2,7 +2,7 @@
     padding: 45px 0 70px;
     font-size: 12px;
     text-align: center;
-    background-color: $color_white;
+    background-color: $color_background;
 
     a {
         @include link($color_gray, $color_gray);
