@@ -33,8 +33,7 @@ gulp.task('css:sass', function () {
 gulp.task('css:lib', function () {
     return gulp.src([
             pkg.node_modules + 'font-awesome/css/font-awesome.css',
-            pkg.node_modules + '@glidejs/glide/dist/css/glide.core.min.css',
-            pkg.node_modules + 'github-calendar/dist/github-calendar-responsive.css'
+            pkg.node_modules + '@glidejs/glide/dist/css/glide.core.min.css'
         ])
         .pipe(concat("lib.css"))
         .pipe(gulp.dest(pkg.css));
@@ -76,11 +75,7 @@ gulp.task('js:lib', function () {
             pkg.node_modules + "requirejs/require.js",
             pkg.node_modules + "jquery/dist/jquery.min.js",
             pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
-            pkg.node_modules + '@glidejs/glide/dist/glide.js',
-            pkg.node_modules + 'github-calendar/dist/github-calendar.min.js',
-            pkg.node_modules + 'whatwg-fetch/dist/fetch.umd.js',
-            pkg.node_modules + 'es6-promise/dist/es6-promise.auto.min.js',
-            pkg.node_modules + 'browser-detect/dist/browser-detect.umd.js',
+            pkg.node_modules + '@glidejs/glide/dist/glide.js'
         ])
         .pipe(gulp.dest(pkg.lib));
 });

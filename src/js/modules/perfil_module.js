@@ -1,13 +1,11 @@
 "use strict";
 
-define(["module", "jquery_cache_module", "glide", "github_calendar", "browser_detect"], function (module, _$, Glide, GitHubCalendar, browserDetect) {
+define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) {
     /**
      *
      * @return {void}
      */
     module.exports.run = function () {
-        var browser = browserDetect();
-        ghCalendar(browser.name !== "ie");
         animateProgressAll();
         initSliders();
     }
@@ -86,24 +84,5 @@ define(["module", "jquery_cache_module", "glide", "github_calendar", "browser_de
                 })
                 .mount();
         })
-    }
-
-    function ghCalendar(show){
-        var ghUser = "alsanchez86";
-        var container = ".github-calendar";
-        var $container = _$(container);
-
-        if (show){
-            GitHubCalendar(container, ghUser, {
-                responsive: true,
-                summary_text: "",
-                global_stats: false
-            })
-            .then(function (data){
-                $container.removeClass("with-loader");
-            });
-        }else{
-            $container.addClass("d-none");
-        }
     }
 });
