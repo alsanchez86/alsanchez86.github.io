@@ -275,8 +275,8 @@
         "showTechs": false,
         "techs": []
     }, {
-        "id": "expertus",
-        "name": "Expertus Technology",
+        "id": "betix",
+        "name": "BeTIX",
         "date": "Agosto 2017 - Diciembre 2019.",
         "city": {
             "name": "Barcelona, España.",
@@ -286,7 +286,7 @@
             "link": "http://www.expertustech.es/"
         }],
         "image_company_path": [{
-            "image_name": "companies/expertus.png"
+            "image_name": "companies/betix.png"
         }],
         "position": "Senior frontend developer.",
         "functions": [{

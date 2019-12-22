@@ -33,7 +33,7 @@ define(["module", "jquery_cache_module", "glide"], function (module, _$, Glide) 
     function initSliders() {
         [
             {
-                id: "expertus",
+                id: "betix",
                 perView: 2
             },
             {
