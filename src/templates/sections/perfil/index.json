@@ -679,7 +679,7 @@
         }]
     }, {
         "id": "ximdex",
-        "name": "Open Ximdex Evolution S.L.",
+        "name": "Open Ximdex Evolution",
         "date": "Octubre de 2014 - Marzo de 2017.",
         "city": {
             "name": "Sevilla, España.",
@@ -749,7 +749,7 @@
             },
             {
                 "index": 5,
-                "name": "Web corporativa Open Ximdex Evolution S.L.",
+                "name": "Web corporativa Open Ximdex Evolution",
                 "link": "http://www.ximdex.com/",
                 "target": "_blank",
                 "background": "../src/img/projects/web-ximdex/preview.jpg"
@@ -770,7 +770,7 @@
             },
             {
                 "index": 8,
-                "name": "Web corporativa United English Academy S.L.",
+                "name": "Web corporativa United English Academy",
                 "link": "http://www.unitedenglish.es/",
                 "target": "_blank",
                 "background": "../src/img/projects/united-english/preview.jpg"
@@ -931,7 +931,7 @@
         }]
     }, {
         "id": "existo",
-        "name": "Existo Diseño Web S.L.",
+        "name": "Existo Diseño Web",
         "date": "Junio de 2012 - Octubre de 2014.",
         "city": {
             "name": "Alcalá de Guadaíra, Sevilla, España.",
@@ -978,7 +978,7 @@
             },
             {
                 "index": 3,
-                "name": "Tienda online Tramas + Malbatex S.L.",
+                "name": "Tienda online Tramas + Malbatex",
                 "link": "http://www.tramasmas.com/",
                 "target": "_blank",
                 "background": "../src/img/projects/tramasmas/preview.jpg"
@@ -1123,7 +1123,7 @@
         }]
     }, {
         "id": "gaesa",
-        "name": "Gaesa S.L.",
+        "name": "Gaesa",
         "date": "Julio de 2010 - Enero de 2012.",
         "city": {
             "name": "Sevilla, España.",
