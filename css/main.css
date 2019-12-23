@@ -6406,11 +6406,7 @@ h2.section-title {
   background-position: center center; }
 
 .devicon-git-plain {
-  max-width: 2em; }
-
-/* if you want to change the original color */
-.devicon-git-plain path {
-  fill: #4691f6; }
+  max-width: 1.5em; }
 
 @media (max-width: 991.98px) {
   body {
@@ -6659,14 +6655,13 @@ a.project-item {
     animation-timing-function: ease-in;
     animation-duration: 1s; }
   .skills-item .progress-item {
-    position: relative; }
+    position: relative;
+    margin-bottom: 15px; }
     .skills-item .progress-item .progress-title {
-      display: block;
       font-size: 12px;
       font-weight: 400; }
     .skills-item .progress-item .progress {
       height: 1px;
-      margin-bottom: 15px;
       box-shadow: none;
       border-radius: 0;
       background: transparent; }

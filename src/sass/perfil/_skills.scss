@@ -62,18 +62,15 @@
 
     .progress-item {
         position: relative;
+        margin-bottom: 15px;
 
         .progress-title {
-            display: block;
-            // margin-bottom: 2px;
             font-size: 12px;
             font-weight: 400;
-            // font-style: italic;
         }
 
         .progress {
             height: 1px;
-            margin-bottom: 15px;
             box-shadow: none;
             border-radius: 0;
             background: transparent;
