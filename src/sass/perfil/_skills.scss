@@ -64,7 +64,14 @@
         position: relative;
         margin-bottom: 15px;
 
+        .devicon-git-plain {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
         .progress-title {
+            padding-left: 20px;
             font-size: 12px;
             font-weight: 400;
         }

@@ -6657,7 +6657,12 @@ a.project-item {
   .skills-item .progress-item {
     position: relative;
     margin-bottom: 15px; }
+    .skills-item .progress-item .devicon-git-plain {
+      position: absolute;
+      top: 0;
+      left: 0; }
     .skills-item .progress-item .progress-title {
+      padding-left: 20px;
       font-size: 12px;
       font-weight: 400; }
     .skills-item .progress-item .progress {
