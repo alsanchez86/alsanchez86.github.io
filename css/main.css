@@ -6405,9 +6405,6 @@ h2.section-title {
   background-repeat: no-repeat;
   background-position: center center; }
 
-.devicon-git-plain {
-  max-width: 1.5em; }
-
 @media (max-width: 991.98px) {
   body {
     font-size: 15px; }
@@ -6657,7 +6654,8 @@ a.project-item {
   .skills-item .progress-item {
     position: relative;
     margin-bottom: 15px; }
-    .skills-item .progress-item .devicon-git-plain {
+    .skills-item .progress-item .devicon-git-plain > svg {
+      max-width: 1.5em;
       position: absolute;
       top: 0;
       left: 0; }
