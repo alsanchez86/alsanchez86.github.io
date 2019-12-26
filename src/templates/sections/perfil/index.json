@@ -165,7 +165,7 @@
             {
                 "name": "Apache Solr",
                 "value": 70,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/solr.png\">"
             },
             {
                 "name": "ElasticSearch",
