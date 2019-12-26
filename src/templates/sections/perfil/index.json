@@ -192,7 +192,7 @@
             {
                 "name": "Mercurial",
                 "value": 80,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/mercurial.png\">"
             }
         ],
         "dependencies": [{
