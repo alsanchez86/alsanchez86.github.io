@@ -145,7 +145,7 @@
             {
                 "name": "Twig",
                 "value": 100,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/twig.png\">"
             },
             {
                 "name": "Blade",
