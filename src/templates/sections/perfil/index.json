@@ -160,7 +160,7 @@
             {
                 "name": "SQL",
                 "value": 75,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/sql.png\">"
             },
             {
                 "name": "Apache Solr",
@@ -170,7 +170,7 @@
             {
                 "name": "ElasticSearch",
                 "value": 40,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/elastic.png\">"
             }
         ],
         "systems": [{
