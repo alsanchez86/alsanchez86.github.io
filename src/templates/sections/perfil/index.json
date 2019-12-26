@@ -198,7 +198,7 @@
         "dependencies": [{
                 "name": "npm",
                 "value": 95,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/npm.svg\">"
             },
             {
                 "name": "Bower",
@@ -208,7 +208,7 @@
             {
                 "name": "Composer",
                 "value": 60,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/composer.jpg\">"
             }
         ],
         "others": [{
