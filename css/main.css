@@ -6656,10 +6656,11 @@ a.project-item {
     margin-bottom: 15px; }
     .skills-item .progress-item .devicon-git-plain > svg,
     .skills-item .progress-item .devicon-git-plain > img {
-      max-width: 1.5em;
       position: absolute;
       top: 0;
-      left: 0; }
+      left: 0;
+      max-width: 1.5em;
+      max-height: 1.5em; }
     .skills-item .progress-item .progress-title {
       padding-left: 30px;
       font-size: 12px;

@@ -67,10 +67,11 @@
         .devicon-git-plain {
             & > svg,
             & > img {
-                max-width: 1.5em;
                 position: absolute;
                 top: 0;
                 left: 0;
+                max-width: 1.5em;
+                max-height: 1.5em;
             }
         }
 
