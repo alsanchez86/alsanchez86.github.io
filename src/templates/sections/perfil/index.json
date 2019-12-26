@@ -69,7 +69,7 @@
             {
                 "name": "Foundation",
                 "value": 90,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/foundation.svg\">"
             },
             {
                 "name": "HTML",
