@@ -65,7 +65,8 @@
         margin-bottom: 15px;
 
         .devicon-git-plain {
-            & > svg {
+            & > svg,
+            & > img {
                 max-width: 1.5em;
                 position: absolute;
                 top: 0;

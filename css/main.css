@@ -6654,7 +6654,8 @@ a.project-item {
   .skills-item .progress-item {
     position: relative;
     margin-bottom: 15px; }
-    .skills-item .progress-item .devicon-git-plain > svg {
+    .skills-item .progress-item .devicon-git-plain > svg,
+    .skills-item .progress-item .devicon-git-plain > img {
       max-width: 1.5em;
       position: absolute;
       top: 0;
