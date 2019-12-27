@@ -260,33 +260,33 @@
         "accesibility": [{
                 "name": "UX",
                 "value": 80,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/w3c.png\">"
             },
             {
                 "name": "UI",
                 "value": 80,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/w3c.png\">"
             },
             {
                 "name": "WCAG 2.0",
                 "value": 60,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/w3c.png\">"
             }
         ],
         "updates": [{
             "name": "Jenkins",
             "value": 70,
-            "icon": ""
+            "icon": "<img src=\"../src/img/ico/jenkins.svg\">"
         }],
         "agile": [{
                 "name": "Scrum",
                 "value": 100,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/scrum.jpg\">"
             },
             {
                 "name": "Lean",
                 "value": 50,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/scrum.jpg\">"
             }
         ],
         "dessign": [{
