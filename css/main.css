@@ -6415,6 +6415,10 @@ h2.section-title {
     font-size: 38px;
     line-height: 1.25; } }
 
+@media (max-width: 767.98px) {
+  h2.section-title {
+    display: none; } }
+
 @media (max-width: 575.98px) {
   h2.section-title {
     display: none; } }

@@ -89,7 +89,6 @@ ul {
 }
 
 .main-wrapper {
-    // padding-top: 2.25rem;
     background: $color_white;
 }
 
@@ -98,7 +97,6 @@ ul {
 }
 
 h2.section-title {
-    // margin: 0 30px 5px 0;
     font-size: 15px;
     text-transform: uppercase;
     text-align: right;
@@ -128,12 +126,7 @@ h2.section-title {
 @include media-breakpoint-down(md) {
     body {
         font-size: 15px;
-        // line-height: 20px;
     }
-
-    // .main-wrapper {
-    //     padding-top: 6.25rem;
-    // }
 
     .section-wrapper {
         margin: 30px 0;
@@ -148,9 +141,9 @@ h2.section-title {
 }
 
 @include media-breakpoint-down(sm) {
-    // .main-wrapper {
-    //     padding-top: 4.25rem;
-    // }
+    h2.section-title {
+        display: none;
+    }
 }
 
 @include media-breakpoint-down(xs) {
