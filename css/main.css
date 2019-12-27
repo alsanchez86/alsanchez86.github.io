@@ -6409,7 +6409,7 @@ h2.section-title {
   body {
     font-size: 15px; }
   .section-wrapper {
-    margin: 20px 0 30px 0; }
+    margin: 30px 0; }
   h2.section-title {
     margin-bottom: 20px;
     font-size: 38px;
@@ -6772,12 +6772,16 @@ a.project-item {
 @media (max-width: 767.98px) {
   .experience-item {
     margin-bottom: 30px; }
+    .experience-item .media {
+      margin-bottom: 0; }
     .experience-item .experience-item-intro {
       font-size: 13px; }
       .experience-item .experience-item-intro a {
         display: table; }
-    .experience-item .experience-item-batch .badge {
-      margin: 3px 1px; }
+    .experience-item .experience-item-batch {
+      margin-bottom: 40px; }
+      .experience-item .experience-item-batch .badge {
+        margin: 3px 1px; }
     .experience-item .glide-controls {
       display: none; } }
 

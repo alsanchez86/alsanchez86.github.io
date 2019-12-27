@@ -115,6 +115,10 @@
     .experience-item {
         margin-bottom: 30px;
 
+        .media {
+            margin-bottom: 0;
+        }
+
         .experience-item-intro {
             font-size: 13px;
 
@@ -124,6 +128,8 @@
         }
 
         .experience-item-batch {
+            margin-bottom: 40px;
+
             .badge {
                 margin: 3px 1px;
             }
