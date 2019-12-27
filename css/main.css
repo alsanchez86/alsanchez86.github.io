@@ -6709,6 +6709,10 @@ a.project-item {
     font-size: 15px; }
     .experience-item .experience-item-intro span {
       color: #adb5bd; }
+  .experience-item .company-map {
+    display: block; }
+    .experience-item .company-map img {
+      width: 60px; }
   .experience-item .experience-item-batch {
     margin-bottom: 50px; }
     .experience-item .experience-item-batch .experience-item-batch-frontend {
