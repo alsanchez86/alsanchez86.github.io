@@ -332,6 +332,7 @@
         "company_link": [{
             "link": "https://www.everis.com/"
         }],
+        "company_map": "../src/img/mapa-sevilla.png",
         "image_company_path": [{
             "image_name": "companies/everis.jpg"
         }],
@@ -354,6 +355,7 @@
         "company_link": [{
             "link": "https://www.linkedin.com/company/expertus-technology-software/"
         }],
+        "company_map": "../src/img/mapa-barcelona.png",
         "image_company_path": [{
             "image_name": "companies/betix.png"
         }],
@@ -560,6 +562,7 @@
         "company_link": [{
             "link": "https://crealogix.com/es/"
         }],
+        "company_map": "../src/img/mapa-barcelona.png",
         "image_company_path": [{
             "image_name": "companies/crealogix.png"
         }],
@@ -688,6 +691,7 @@
         "company_link": [{
             "link": "https://www.ximdex.com/"
         }],
+        "company_map": "../src/img/mapa-sevilla.png",
         "image_company_path": [{
             "image_name": "companies/ximdex.png"
         }],
@@ -940,6 +944,7 @@
         "company_link": [{
             "link": "https://www.existo.es/"
         }],
+        "company_map": "../src/img/mapa-sevilla.png",
         "image_company_path": [{
             "image_name": "companies/existo.svg"
         }],
@@ -1072,6 +1077,7 @@
             "link": "https://goo.gl/maps/R5TuoYYPKBv5HTdQ6"
         },
         "company_link": [],
+        "company_map": "../src/img/mapa-sevilla.png",
         "image_company_path": [],
         "position": "Desarrollador superior de páginas web.",
         "functions": [{
@@ -1130,6 +1136,7 @@
             "link": "https://goo.gl/maps/R5TuoYYPKBv5HTdQ6"
         },
         "company_link": [],
+        "company_map": "../src/img/mapa-sevilla.png",
         "image_company_path": [{
             "image_name": "companies/gaesa.jpeg"
         }],
