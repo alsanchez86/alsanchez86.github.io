@@ -336,9 +336,9 @@
         "image_company_path": [{
             "image_name": "companies/everis.jpg"
         }],
-        "position": "Senior frontend developer. Center Leader Developer (CLD).",
+        "position": "Senior frontend developer. Center Leader Developer, CLD.",
         "functions": [{
-            "name": "Center Leader Developer (CLD)."
+            "name": "Center Leader Developer, CLD."
         }],
         "showProjects": false,
         "projects": [],
