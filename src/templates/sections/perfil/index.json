@@ -281,12 +281,12 @@
         "agile": [{
                 "name": "Scrum",
                 "value": 100,
-                "icon": "<img src=\"../src/img/ico/scrum.jpg\">"
+                "icon": "<img src=\"../src/img/ico/scrum.png\">"
             },
             {
                 "name": "Lean",
                 "value": 50,
-                "icon": "<img src=\"../src/img/ico/scrum.jpg\">"
+                "icon": "<img src=\"../src/img/ico/scrum.png\">"
             }
         ],
         "dessign": [{
