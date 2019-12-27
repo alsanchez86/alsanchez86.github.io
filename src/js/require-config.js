@@ -45,7 +45,7 @@ require.config(
                     deps: ["jquery_cache_module"]
                 },
                 perfil_module: {
-                    deps: ["jquery_cache_module", "glide", "gh_buttons"]
+                    deps: ["jquery_cache_module", "glide"]
                 },
                 portfolio_module: {
                     deps: ["jquery_cache_module"]
