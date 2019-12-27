@@ -6694,6 +6694,7 @@ a.project-item {
     margin-bottom: 0;
     border: 0; }
   .experience-item h3 {
+    margin-bottom: 20px;
     font-size: 28px;
     text-transform: uppercase; }
   .experience-item h4 {
