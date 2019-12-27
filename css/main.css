@@ -6702,6 +6702,8 @@ a.project-item {
     font-weight: 700; }
   .experience-item ul {
     padding: 0; }
+  .experience-item .media {
+    margin-bottom: 30px; }
   .experience-item .media-left {
     padding-right: 35px; }
   .experience-item .experience-item-intro {
