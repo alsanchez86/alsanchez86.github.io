@@ -219,32 +219,32 @@
             {
                 "name": "SVG",
                 "value": 90,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/w3c.png\">"
             },
             {
                 "name": "XML",
                 "value": 80,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/w3c.png\">"
             },
             {
                 "name": "XSLT",
                 "value": 60,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/w3c.png\">"
             },
             {
                 "name": "RELAX-NG",
                 "value": 60,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/w3c.png\">"
             },
             {
                 "name": "JSON",
                 "value": 100,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/w3c.png\">"
             },
             {
                 "name": "JSON-LD",
                 "value": 70,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/w3c.png\">"
             },
             {
                 "name": "Amazon Web Services",
