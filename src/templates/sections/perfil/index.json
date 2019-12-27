@@ -336,7 +336,7 @@
         "image_company_path": [{
             "image_name": "companies/everis.jpg"
         }],
-        "position": "Center Leader Developer (CLD).",
+        "position": "Senior frontend developer. Center Leader Developer (CLD).",
         "functions": [{
             "name": "Center Leader Developer (CLD)."
         }],
@@ -1079,7 +1079,7 @@
         "company_link": [],
         "company_map": "../src/img/mapa-sevilla.png",
         "image_company_path": [],
-        "position": "Desarrollador superior de páginas web.",
+        "position": "Fullstack developer.",
         "functions": [{
                 "name": "Desarrollo íntegro de la plataforma online para estudiantes del Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla."
             },
@@ -1140,7 +1140,7 @@
         "image_company_path": [{
             "image_name": "companies/gaesa.jpeg"
         }],
-        "position": "Desarrollador superior de páginas web.",
+        "position": "Fullstack developer.",
         "functions": [{
             "name": "Desarrollador de plataformas web para estudiantes (e-learning) y aplicaciones multimedia desarrolladas con Adobe Flash (ActionScript 3.0)."
         }],
