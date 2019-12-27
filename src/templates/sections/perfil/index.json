@@ -292,7 +292,7 @@
         "dessign": [{
                 "name": "Illustrator",
                 "value": 85,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/illustrator.png\">"
             },
             {
                 "name": "Photoshop",
@@ -302,12 +302,12 @@
             {
                 "name": "Fireworks",
                 "value": 70,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/fireworks.png\">"
             },
             {
                 "name": "Adobe Flash (ActionScript 3)",
                 "value": 70,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/flash.png\">"
             },
             {
                 "name": "Inkscape",
