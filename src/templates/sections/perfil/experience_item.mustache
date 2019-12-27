@@ -5,23 +5,29 @@
                 {{ name }}
             </h3>
 
-            <p class="experience-item-intro">
-                <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                {{ date }}
-                <a href="{{ city.link }}" target="_blank">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    {{ city.name }}
-                </a>
-                {{#company_link}}
-                <a href="{{ link }}" target="_blank">
-                    <i class="fa fa-external-link" aria-hidden="true"></i>
-                    {{ link }}
-                </a>
-                {{/company_link}}
-            </p>
+            <div class="row">
+                <div class="col-9">
+                    <p class="experience-item-intro">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                        {{ date }}
+                        <a href="{{ city.link }}" target="_blank">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            {{ city.name }}
+                        </a>
+                        {{#company_link}}
+                        <a href="{{ link }}" target="_blank">
+                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                            {{ link }}
+                        </a>
+                        {{/company_link}}
+                    </p>
+                </div>
 
-            <div class="company-map">
-                <img src="{{ company_map }}">
+                <div class="col-3">
+                    <div class="company-map">
+                        <img src="{{ company_map }}">
+                    </div>
+                </div>
             </div>
 
             <div class="experience-item-batch">
