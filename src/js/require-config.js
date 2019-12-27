@@ -20,7 +20,6 @@ require.config(
                 jquery: _this.config.lib + "jquery.min",
                 bootstrap: _this.config.lib + "bootstrap.bundle.min",
                 glide: _this.config.lib + "glide",
-                gh_buttons: "https://buttons.github.io/buttons",
                 // modules
                 jquery_cache_module: _this.config.modules + "jquery_cache_module",
                 main_module: _this.config.modules + "main_module",
