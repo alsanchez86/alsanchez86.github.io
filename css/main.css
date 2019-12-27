@@ -6383,7 +6383,7 @@ ul {
   background: #FFF; }
 
 .section-wrapper {
-  padding: 50px 0; }
+  margin: 50px 0; }
 
 h2.section-title {
   font-size: 15px;
@@ -6409,7 +6409,7 @@ h2.section-title {
   body {
     font-size: 15px; }
   .section-wrapper {
-    padding: 20px 0; }
+    margin: 20px 0 30px 0; }
   h2.section-title {
     margin-bottom: 20px;
     font-size: 38px;
@@ -6771,7 +6771,7 @@ a.project-item {
 
 @media (max-width: 767.98px) {
   .experience-item {
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
     .experience-item .experience-item-intro {
       font-size: 13px; }
       .experience-item .experience-item-intro a {
