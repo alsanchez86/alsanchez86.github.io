@@ -214,7 +214,7 @@
         "others": [{
                 "name": "Analítica (GTM, DTM)",
                 "value": 85,
-                "icon": ""
+                "icon": "<img src=\"../src/img/ico/illustrator.png\">"
             },
             {
                 "name": "SVG",
