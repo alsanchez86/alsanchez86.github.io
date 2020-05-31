@@ -1,66 +1,66 @@
-'use strict';
+"use strict";
 
-const gulp = require('gulp');
-const sass = require('gulp-sass');
-const cleanCSS = require('gulp-clean-css');
-const concat = require('gulp-concat');
-const rename = require('gulp-rename');
-const rm = require('gulp-rm');
-const runSequence = require('run-sequence');
-const fs = require('fs');
+const gulp = require("gulp");
+const sass = require("gulp-sass");
+const cleanCSS = require("gulp-clean-css");
+const concat = require("gulp-concat");
+const rename = require("gulp-rename");
+const rm = require("gulp-rm");
+const runSequence = require("run-sequence");
+const fs = require("fs");
 const mustache = require("gulp-mustache");
-const htmlmin = require('gulp-htmlmin');
-const pkg = JSON.parse(fs.readFileSync('./package.json'));
+const htmlmin = require("gulp-htmlmin");
+const pkg = JSON.parse(fs.readFileSync("./package.json"));
 
 /*
  * Css tasks
  */
 
-gulp.task('css:reset', function () {
-    return gulp.src(pkg.css + '**/*', {
+gulp.task("css:reset", function () {
+    return gulp.src(pkg.css + "**/*", {
             read: false
         })
         .pipe(rm())
 });
 
-gulp.task('css:sass', function () {
-    return gulp.src([pkg.sass + 'main.scss'])
-        .pipe(sass.sync().on('error', sass.logError))
+gulp.task("css:sass", function () {
+    return gulp.src([pkg.sass + "main.scss"])
+        .pipe(sass.sync().on("error", sass.logError))
         .pipe(concat("sass.css"))
         .pipe(gulp.dest(pkg.css));
 });
 
-gulp.task('css:lib', function () {
+gulp.task("css:lib", function () {
     return gulp.src([
-            pkg.node_modules + 'font-awesome/css/font-awesome.css',
-            pkg.node_modules + '@glidejs/glide/dist/css/glide.core.min.css'
+            pkg.node_modules + "font-awesome/css/font-awesome.css",
+            pkg.node_modules + "@glidejs/glide/dist/css/glide.core.min.css"
         ])
         .pipe(concat("lib.css"))
         .pipe(gulp.dest(pkg.css));
 });
 
-gulp.task('css:concat', function () {
+gulp.task("css:concat", function () {
     return gulp.src([
-            pkg.css + 'sass.css',
-            pkg.css + 'lib.css'
+            pkg.css + "sass.css",
+            pkg.css + "lib.css"
         ])
         .pipe(concat("main.css"))
         .pipe(gulp.dest(pkg.css));
 });
 
-gulp.task('css:min', function () {
-    return gulp.src([pkg.css + 'main.css'])
+gulp.task("css:min", function () {
+    return gulp.src([pkg.css + "main.css"])
         .pipe(cleanCSS({
-            compatibility: 'ie8'
+            compatibility: "ie8"
         }))
         .pipe(rename({
-            suffix: '.min'
+            suffix: ".min"
         }))
         .pipe(gulp.dest(pkg.css));
 });
 
-gulp.task('css:clean', function () {
-    return gulp.src([pkg.css + 'lib.css', pkg.css + 'sass.css'], {
+gulp.task("css:clean", function () {
+    return gulp.src([pkg.css + "lib.css", pkg.css + "sass.css"], {
             read: false
         })
         .pipe(rm())
@@ -70,12 +70,12 @@ gulp.task('css:clean', function () {
  * Js tasks
  */
 
-gulp.task('js:lib', function () {
+gulp.task("js:lib", function () {
     return gulp.src([
             pkg.node_modules + "requirejs/require.js",
             pkg.node_modules + "jquery/dist/jquery.min.js",
-            pkg.node_modules + 'bootstrap/dist/js/bootstrap.bundle.min.js',
-            pkg.node_modules + '@glidejs/glide/dist/glide.js'
+            pkg.node_modules + "bootstrap/dist/js/bootstrap.bundle.min.js",
+            pkg.node_modules + "@glidejs/glide/dist/glide.js"
         ])
         .pipe(gulp.dest(pkg.lib));
 });
@@ -84,7 +84,7 @@ gulp.task('js:lib', function () {
  * Template tasks
  */
 
-gulp.task('templates', [], function (done) {
+gulp.task("templates", [], function (done) {
     const section = ((process && process.argv && process.argv[3]) || "");
     const root = [".", "src", "templates", "sections", section].filter(e => e).join("/").concat("/");
     const dirs = readDirs(root);
@@ -108,22 +108,22 @@ gulp.task('templates', [], function (done) {
  */
 
 // prod
-gulp.task('prod', [], function (done) {
-    runSequence('css:reset', 'css:sass', 'css:lib', 'css:concat', 'css:min', 'css:clean', 'js:lib', 'templates', function () {
+gulp.task("prod", [], function (done) {
+    runSequence("css:reset", "css:sass", "css:lib", "css:concat", "css:min", "css:clean", "js:lib", "templates", function () {
         done();
     });
 });
 
 // default
-gulp.task('default', ["prod"]);
+gulp.task("default", ["prod"]);
 
 /*
  * Watchers
  */
-gulp.task('watch', ['default'], function () {
+gulp.task("watch", ["default"], function () {
     gulp.watch([
-        pkg.sass + '**/*.scss'
-    ], ['default']);
+        pkg.sass + "**/*.scss"
+    ], ["default"]);
 });
 
 /**
