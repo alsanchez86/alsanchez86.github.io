@@ -86,7 +86,8 @@ function jsLibs (cb){
  * Template tasks
  */
 function templates (cb) {
-    const section = ((process && process.argv && process.argv[3]) || "");
+    // const section = ((process && process.argv && process.argv[3]) || "");
+    const section = "perfil";
     const root = [".", "src", "templates", "sections", section].filter(e => e).join("/").concat("/");
     const dirs = readDirs(root);
 
