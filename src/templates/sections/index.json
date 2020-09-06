@@ -1,7 +1,7 @@
 {
     "css_path": "/css",
-    "requirejs_path": "/lib",
-    "main_path": "/js",
+    "requirejs_path": "/src/js/lib",
+    "main_path": "/src/js",
     "section_module": "home_module",
     "menu_active_item": "home"
 }
