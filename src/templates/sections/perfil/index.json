@@ -413,7 +413,6 @@
           "name": "Gestión de equipos."
         }
       ],
-      "showProjects": false,
       "projects": [
         {
           "index": 0,
@@ -438,6 +437,7 @@
         }
       ],
       "showTechs": true,
+      "showProjects": false,
       "techs": [
         {
           "type": "frontend",
