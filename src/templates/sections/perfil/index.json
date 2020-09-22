@@ -387,11 +387,151 @@
         "position": "Senior frontend developer. Center Leader Developer, CLD.",
         "functions": [{
             "name": "Center Leader Developer, CLD."
+        }, {
+            "name": "Arquitecto Frontend."
+        },
+        {
+            "name": "Líder técnico de equipo."
+        },
+        {
+            "name": "Gestión de equipos."
         }],
         "showProjects": false,
-        "projects": [],
-        "showTechs": false,
-        "techs": []
+        "projects": [
+            {
+                "index": 0,
+                "name": "(Frontend) EPO: European Patent Office.",
+                "link": "https://www.epo.org/",
+                "target": "_blank",
+                "background": ""
+            },
+            {
+                "index": 1,
+                "name": "(Frontend) MetAJob. Plataforma Web APP para orientadores y demandantes de empleo.",
+                "link": "",
+                "target": "_blank",
+                "background": ""
+            },
+            {
+                "index": 2,
+                "name": "(Backend) API Rest Middleware. Proyecto iPasen. Junta de Andalucía.",
+                "link": "",
+                "target": "_blank",
+                "background": ""
+            }
+        ],
+        "showTechs": true,
+        "techs": [{
+            "type": "frontend",
+            "name": "Frontend",
+            "items": [{
+                    "name": "JavaScript"
+                },
+                {
+                    "name": "Nextjs (SSR)"
+                },
+                {
+                    "name": "React"
+                },
+                {
+                    "name": "Redux"
+                },
+                {
+                    "name": "Context API"
+                },
+                {
+                    "name": "Typescript"
+                },
+                {
+                    "name": "Primereact"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "Sass"
+                },
+                {
+                    "name": "Jest (unit y e2e)"
+                }
+            ]
+        }, {
+            "type": "backend",
+            "name": "Backend",
+            "items": [{
+                    "name": "Nodejs"
+                },
+                {
+                    "name": "Nestjs"
+                },
+                {
+                    "name": "Express"
+                },
+                {
+                    "name": "Mongodb"
+                }
+            ]
+        },
+        {
+            "type": "otros",
+            "name": "Otras tecnologías a destacar",
+            "items": [{
+                    "name": "RxJS"
+                },
+                {
+                    "name": "Docker"
+                },
+                {
+                    "name": "Amazon Web Services"
+                },
+                {
+                    "name": "Swagger"
+                },
+                {
+                    "name": "Jira"
+                }
+            ]
+        },
+        {
+            "type": "sistemas",
+            "name": "Sistemas",
+            "items": [{
+                    "name": "Linux"
+                },
+                {
+                    "name": "Windows"
+                }
+            ]
+        }, {
+            "type": "versiones",
+            "name": "Gestores de versiones",
+            "items": [
+                {
+                    "name": "Github"
+                }
+            ]
+        }, {
+            "type": "dependencias",
+            "name": "Gestores de dependencias",
+            "items": [{
+                "name": "npm"
+            }]
+        }, {
+            "type": "ma",
+            "name": "Metodologías ágiles",
+            "items": [{
+                "name": "Scrum"
+            }]
+        }, {
+            "type": "despliegues",
+            "name": "Despliegues",
+            "items": [{
+                "name": "Jenkins"
+            }]
+        }]
     }, {
         "id": "betix",
         "name": "BeTIX",
@@ -498,9 +638,6 @@
                     "name": "Analítica (GTM, DTM)"
                 },
                 {
-                    "name": "Amazon Web Services"
-                },
-                {
                     "name": "Jasmine"
                 },
                 {
@@ -553,7 +690,17 @@
                     "name": "Shell script"
                 }
             ]
-        }, {
+        },
+        {
+            "type": "otros",
+            "name": "Otras tecnologías a destacar",
+            "items": [
+                {
+                    "name": "Amazon Web Services"
+                }
+            ]
+        },
+        {
             "type": "sistemas",
             "name": "Sistemas",
             "items": [{
