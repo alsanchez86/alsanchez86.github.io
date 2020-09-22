@@ -2,89 +2,89 @@ $top_name: 80%;
 $delay_name: 0.15s;
 
 a.project-item {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 30px;
+  overflow: hidden;
+
+  border: 1px solid $color_border;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  // box-shadow: 0 6px 6px -6px $color_shadow;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    height: 250px;
-    margin-bottom: 30px;
+    height: 100%;
+    // background-color: rgba(0,0,0,0.15);
+  }
+
+  &:hover {
+    &:before {
+      background-color: transparent;
+    }
+  }
+
+  div.project-item-name {
+    display: none;
+    position: absolute;
+    top: $top-name;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
     overflow: hidden;
 
-    border: 1px solid $color_border;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    // box-shadow: 0 6px 6px -6px $color_shadow;
+    font-size: 11px;
+    line-height: 1.5;
+    color: $color_white;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    text-transform: uppercase;
 
-    &:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        // background-color: rgba(0,0,0,0.15);
-    }
+    animation-name: animateProjectName;
+    animation-iteration-count: $delay_name;
+    animation-timing-function: ease-in;
+    animation-duration: $delay_name;
+  }
 
-    &:hover {
-        &:before {
-            background-color: transparent;
-        }
-    }
+  &:hover {
+    text-decoration: none;
 
     div.project-item-name {
-        display: none;
-        position: absolute;
-        top: $top-name;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 50px;
-        padding: 10px;
-        overflow: hidden;
-
-        font-size: 11px;
-        line-height: 1.5;
-        color: $color_white;
-        background-color: rgba(0, 0, 0, 0.7);
-        text-align: center;
-        text-transform: uppercase;
-
-        animation-name: animateProjectName;
-        animation-iteration-count: $delay_name;
-        animation-timing-function: ease-in;
-        animation-duration: $delay_name;
+      display: block;
     }
-
-    &:hover {
-        text-decoration: none;
-
-        div.project-item-name {
-            display: block;
-        }
-    }
+  }
 }
 
 @include media-breakpoint-down(sm) {
-    a.project-item {
-        div.project-item-name {
-            display: block;
+  a.project-item {
+    div.project-item-name {
+      display: block;
 
-            -webkit-transition: none !important;
-            -moz-transition: none !important;
-            -o-transition: none !important;
-            -ms-transition: none !important;
-            transition: none !important;
-        }
+      -webkit-transition: none !important;
+      -moz-transition: none !important;
+      -o-transition: none !important;
+      -ms-transition: none !important;
+      transition: none !important;
     }
+  }
 }
 
 @keyframes animateProjectName {
-    0% {
-        top: 100%;
-    }
+  0% {
+    top: 100%;
+  }
 
-    100% {
-        top: $top_name;
-    }
+  100% {
+    top: $top_name;
+  }
 }

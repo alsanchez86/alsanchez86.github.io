@@ -1,142 +1,142 @@
 .experience-item {
-    margin-bottom: 125px;
+  margin-bottom: 125px;
 
-    &:last-child {
-        margin-bottom: 0;
-        border: 0;
+  &:last-child {
+    margin-bottom: 0;
+    border: 0;
+  }
+
+  h3 {
+    margin-bottom: 25px;
+
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  .media {
+    margin-bottom: 30px;
+  }
+
+  .media-left {
+    padding-right: 35px;
+  }
+
+  .experience-item-intro {
+    margin-bottom: 30px;
+    font-size: 15px;
+
+    span {
+      color: $color_gray;
+    }
+  }
+
+  .experience-item-batch {
+    margin-bottom: 50px;
+
+    .experience-item-batch-frontend {
+      @include experience_badge($color_frontend, $color_text);
     }
 
-    h3 {
-        margin-bottom: 25px;
-
-        font-size: 30px;
-        text-transform: uppercase;
+    .experience-item-batch-backend {
+      @include experience_badge($color_backend);
     }
 
-    h4 {
-        margin-bottom: 12px;
-        font-size: 16px;
-        font-weight: 700;
+    .experience-item-batch-sistemas {
+      @include experience_badge($color_systems);
     }
 
-    ul {
-        padding: 0;
+    .experience-item-batch-versiones {
+      @include experience_badge($color_versions);
     }
 
-    .media {
-        margin-bottom: 30px;
+    .experience-item-batch-despliegues {
+      @include experience_badge($color_updates);
     }
 
-    .media-left {
-        padding-right: 35px;
+    .experience-item-batch-dependencias {
+      @include experience_badge($color_dependencies);
     }
 
-    .experience-item-intro {
-        margin-bottom: 30px;
-        font-size: 15px;
-
-        span {
-            color: $color_gray;
-        }
+    .experience-item-batch-ma {
+      @include experience_badge($color_agile);
     }
 
-    .experience-item-batch {
-        margin-bottom: 50px;
-
-        .experience-item-batch-frontend {
-            @include experience_badge($color_frontend, $color_text);
-        }
-
-        .experience-item-batch-backend {
-            @include experience_badge($color_backend);
-        }
-
-        .experience-item-batch-sistemas {
-            @include experience_badge($color_systems);
-        }
-
-        .experience-item-batch-versiones {
-            @include experience_badge($color_versions);
-        }
-
-        .experience-item-batch-despliegues {
-            @include experience_badge($color_updates);
-        }
-
-        .experience-item-batch-dependencias {
-            @include experience_badge($color_dependencies);
-        }
-
-        .experience-item-batch-ma {
-            @include experience_badge($color_agile);
-        }
-
-        .experience-item-batch-otros {
-            @include experience_badge($color_others);
-        }
-
-        .experience-item-batch-accesibilidad {
-            @include experience_badge($color_accesibility);
-        }
-
-        .experience-item-batch-design {
-            @include experience_badge($color_design);
-        }
+    .experience-item-batch-otros {
+      @include experience_badge($color_others);
     }
 
+    .experience-item-batch-accesibilidad {
+      @include experience_badge($color_accesibility);
+    }
+
+    .experience-item-batch-design {
+      @include experience_badge($color_design);
+    }
+  }
+
+  a.project-item {
+    margin-bottom: 0;
+    // cursor: grab;
+  }
+
+  .glide--dragging {
     a.project-item {
-        margin-bottom: 0;
-        // cursor: grab;
+      cursor: grabbing;
     }
+  }
 
-    .glide--dragging {
-        a.project-item {
-            cursor: grabbing;
-        }
+  .glide-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .btn {
+      font-size: 9px;
+      color: $color_gray;
+
+      &.glide__bullet--active {
+        color: $color_blue;
+      }
     }
-
-    .glide-controls {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
-        .btn {
-            font-size: 9px;
-            color: $color_gray;
-
-            &.glide__bullet--active {
-                color: $color_blue;
-            }
-        }
-    }
+  }
 }
 
 @include media-breakpoint-down(sm) {
-    .experience-item {
-        margin-bottom: 50px;
+  .experience-item {
+    margin-bottom: 50px;
 
-        .media {
-            margin-bottom: 0;
-        }
-
-        .experience-item-intro {
-            font-size: 13px;
-
-            a {
-                display: table;
-            }
-        }
-
-        .experience-item-batch {
-            margin-bottom: 40px;
-
-            .badge {
-                margin: 3px 1px;
-            }
-        }
-
-        .glide-controls {
-            display: none;
-        }
+    .media {
+      margin-bottom: 0;
     }
+
+    .experience-item-intro {
+      font-size: 13px;
+
+      a {
+        display: table;
+      }
+    }
+
+    .experience-item-batch {
+      margin-bottom: 40px;
+
+      .badge {
+        margin: 3px 1px;
+      }
+    }
+
+    .glide-controls {
+      display: none;
+    }
+  }
 }

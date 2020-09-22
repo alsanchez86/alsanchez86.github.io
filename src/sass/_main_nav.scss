@@ -1,18 +1,18 @@
 .main-nav {
-    color: $color_white;
-    background-color: $color_black;
+  color: $color_white;
+  background-color: $color_black;
 
-    .navbar {
-        justify-content: flex-end;
-    }
+  .navbar {
+    justify-content: flex-end;
+  }
 }
 
 @include media-breakpoint-down(md) {
-    .main-nav {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
+  .main-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
 }
