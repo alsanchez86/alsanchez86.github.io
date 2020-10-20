@@ -60,9 +60,11 @@ function cssConcat(cb) {
 function cssMin(cb) {
   gulp
     .src([pkg.css + 'main.css'])
-    // .pipe(cleanCSS({
-    //     compatibility: "ie8"
-    // }))
+    .pipe(
+      cleanCSS({
+        compatibility: 'ie8',
+      }),
+    )
     .pipe(
       rename({
         suffix: '.min',
