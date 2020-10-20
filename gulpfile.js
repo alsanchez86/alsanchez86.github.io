@@ -30,35 +30,32 @@ function readDirs(source) {
  * Css tasks
  */
 function sassCompile(cb) {
-  gulp
+  return gulp
     .src([pkg.sass + 'main.scss'])
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(concat('sass.css'))
     .pipe(gulp.dest(pkg.css));
-  cb();
 }
 
 function cssLibs(cb) {
-  gulp
+  return gulp
     .src([
       pkg.node_modules + 'font-awesome/css/font-awesome.css',
       pkg.node_modules + '@glidejs/glide/dist/css/glide.core.min.css',
     ])
     .pipe(concat('lib.css'))
     .pipe(gulp.dest(pkg.css));
-  cb();
 }
 
 function cssConcat(cb) {
-  gulp
+  return gulp
     .src([pkg.css + 'sass.css', pkg.css + 'lib.css'], { allowEmpty: true })
     .pipe(concat('main.css'))
     .pipe(gulp.dest(pkg.css));
-  cb();
 }
 
 function cssMin(cb) {
-  gulp
+  return gulp
     .src([pkg.css + 'main.css'])
     .pipe(
       cleanCSS({
@@ -71,14 +68,13 @@ function cssMin(cb) {
       }),
     )
     .pipe(gulp.dest(pkg.css));
-  cb();
 }
 
 /*
  * Js tasks
  */
 function jsLibs(cb) {
-  gulp
+  return gulp
     .src([
       `${pkg.node_modules}requirejs/require.js`,
       `${pkg.node_modules}jquery/dist/jquery.min.js`,
@@ -86,7 +82,6 @@ function jsLibs(cb) {
       `${pkg.node_modules}@glidejs/glide/dist/glide.js`,
     ])
     .pipe(gulp.dest(pkg.lib));
-  cb();
 }
 
 /*
