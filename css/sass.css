@@ -6317,7 +6317,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
-  color: #010101;
+  color: #111;
   background: #fff; }
 
 textarea {
@@ -6679,7 +6679,7 @@ a.project-item {
       background: transparent; }
       .skills-item .progress-item .progress .progress-bar {
         opacity: 0;
-        background-color: #010101;
+        background-color: #111;
         box-shadow: none;
         text-align: right; }
 
@@ -6721,7 +6721,7 @@ a.project-item {
     margin-bottom: 45px; }
     .experience-item .experience-item-batch .experience-item-batch-frontend {
       font-weight: 400;
-      color: #010101;
+      color: #111;
       background-color: #fbbc05; }
     .experience-item .experience-item-batch .experience-item-batch-backend {
       font-weight: 400;
