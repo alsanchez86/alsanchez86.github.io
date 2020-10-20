@@ -8489,7 +8489,7 @@ a.text-dark:focus {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 28px;
   color: #010101;
@@ -8568,7 +8568,7 @@ ol {
 }
 ul li,
 ol li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 ul {
@@ -8779,7 +8779,7 @@ a.project-item:hover div.project-item-name {
 }
 
 .intro {
-  font-size: 16px;
+  font-size: 14px;
 }
 .intro .img-thumbnail {
   padding: 0;
@@ -9024,7 +9024,7 @@ a.project-item:hover div.project-item-name {
   color: #adb5bd;
 }
 .experience-item .experience-item-batch {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 .experience-item .experience-item-batch .experience-item-batch-frontend {
   font-weight: 400;
