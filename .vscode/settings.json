@@ -1,9 +1,9 @@
 {
   "files.exclude": {
-    "**/index.html": true,
-    "**/404": true,
-    "**/perfil": true,
-    "**/portfolio": true,
+    "/index.html": true,
+    "/404": true,
+    "/perfil": true,
+    "/portfolio": true,
     "**/css": true,
     "**/.vscode": true,
     "**/.hg": true,

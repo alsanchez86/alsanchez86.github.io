@@ -6327,7 +6327,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 15px;
   font-family: "Inter", sans-serif;
   line-height: 1em;
-  text-transform: uppercase;
   color: #333; }
 
 h1 {
@@ -6701,8 +6700,7 @@ a.project-item {
     border: 0; }
   .experience-item h3 {
     margin-bottom: 25px;
-    font-size: 30px;
-    text-transform: uppercase; }
+    font-size: 32px; }
   .experience-item h4 {
     margin-bottom: 12px;
     font-size: 16px;
@@ -6714,7 +6712,7 @@ a.project-item {
   .experience-item .media-left {
     padding-right: 35px; }
   .experience-item .experience-item-intro {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 15px; }
     .experience-item .experience-item-intro span {
       color: #adb5bd; }
