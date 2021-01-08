@@ -251,7 +251,7 @@
       {
         "name": "RxJS",
         "value": 60,
-        "icon": ""
+        "icon": "<img src=\"../src/img/ico/rxjs.png\">"
       },
       {
         "name": "Analítica (GTM, DTM)",
@@ -261,7 +261,7 @@
       {
         "name": "Docker",
         "value": 65,
-        "icon": ""
+        "icon": "<img src=\"../src/img/ico/docker.png\">"
       },
       {
         "name": "Amazon Web Services",
@@ -271,7 +271,7 @@
       {
         "name": "Swagger",
         "value": 80,
-        "icon": ""
+        "icon": "<img src=\"../src/img/ico/swagger.png\">"
       },
       {
         "name": "SVG",
