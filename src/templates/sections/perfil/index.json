@@ -1404,7 +1404,11 @@
         "name": "Sevilla, España.",
         "link": "https://goo.gl/maps/R5TuoYYPKBv5HTdQ6"
       },
-      "company_link": [],
+      "company_link": [
+        {
+          "link": "https://www.facebook.com/gaesasl"
+        }
+      ],
       "company_map": "../src/img/mapa-sevilla.png",
       "image_company_path": [],
       "position": "Fullstack developer.",
