@@ -2,6 +2,5 @@
 package-lock.json
 package.json
 index.html
-dist/
 node_modules/
 css/

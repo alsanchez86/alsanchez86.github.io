@@ -1,4 +1,5 @@
 {
+  "editor.formatOnSave": true,
   "files.exclude": {
     "/index.html": true,
     "/404": true,
