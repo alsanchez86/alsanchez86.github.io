@@ -11,7 +11,9 @@
   "lib": "./src/js/lib/",
   "node_modules": "./node_modules/",
   "css": "./css/",
-  "scripts": {},
+  "scripts": {
+    "gulp": "gulp --option perfil"
+  },
   "devDependencies": {
     "del": "^5.1.0",
     "gulp": "^4.0.2",

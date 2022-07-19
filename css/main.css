@@ -6405,6 +6405,9 @@ h2.section-title {
   background-repeat: no-repeat;
   background-position: center center; }
 
+.hidden {
+  overflow: hidden; }
+
 @media (max-width: 991.98px) {
   body {
     font-size: 15px; }
