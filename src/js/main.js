@@ -39,12 +39,6 @@ define(function () {
 
   function mainPageLoading(module, callback) {
     module.setPageLoading(false, function () {
-      // Highlight section menu item
-      if (menuActiveItem && menuActiveItem !== '') {
-        module.setActiveMenuItem(menuActiveItem);
-      }
-      // Menu tablet md
-      // module.mobileTabletMenu();
       // Callback
       if (typeof callback === 'function') {
         callback();

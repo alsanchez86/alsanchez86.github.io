@@ -1,11 +1,7 @@
 .git
-dist/
-node_modules/
 package-lock.json
 package.json
-css/
-404/
-perfil/
-portfolio/
 index.html
-404.html
+dist/
+node_modules/
+css/

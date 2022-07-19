@@ -22,41 +22,4 @@ define(['module', 'jquery_cache_module'], function (module, _$) {
       });
     }
   };
-
-  /**
-   * Set menu item class "active"
-   *
-   * @param {string} menuItem
-   * @return {void}
-   */
-  module.exports.setActiveMenuItem = function (menuItem) {
-    var _$menuItem = _$('#' + menuItem);
-
-    if (_$menuItem) {
-      _$menuItem.addClass('active');
-    }
-  };
-
-  /**
-   * xs: 0,
-   * sm: 576px,
-   * md: 768px,
-   * lg: 992px,
-   * xl: 1200px
-   */
-  module.exports.mobileTabletMenu = function () {
-    var last = 0;
-    var nav = _$('#main-nav');
-    var navClass = 'main-nav-hide';
-
-    _$(window).scroll(function (event) {
-      var current = _$(window).scrollTop();
-      (function () {
-        return current > last
-          ? nav.addClass(navClass)
-          : nav.removeClass(navClass);
-      })();
-      last = current;
-    });
-  };
 });

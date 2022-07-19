@@ -88,9 +88,7 @@ function jsLibs(cb) {
  * Template tasks
  */
 function templates(cb) {
-  // const section = ((process && process.argv && process.argv[3]) || "");
-  const section = 'perfil';
-  const root = ['.', 'src', 'templates', 'sections', section]
+  const root = ['.', 'src', 'templates', 'sections', 'home']
     .filter((e) => e)
     .join('/')
     .concat('/');
@@ -99,6 +97,7 @@ function templates(cb) {
   dirs.push(root); // push root index
   dirs.map((dir) => {
     let outputDir = dir.replace(root, './');
+
     gulp
       .src(dir + 'index.mustache')
       .pipe(
