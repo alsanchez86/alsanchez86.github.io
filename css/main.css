@@ -6697,7 +6697,7 @@ a.project-item {
     transform: translateX(0); } }
 
 .experience-item {
-  margin-bottom: 125px; }
+  margin-bottom: 80px; }
   .experience-item:last-child {
     margin-bottom: 0;
     border: 0; }
