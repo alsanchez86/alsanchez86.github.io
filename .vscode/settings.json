@@ -1,10 +1,9 @@
 {
   "editor.formatOnSave": true,
   "files.exclude": {
-    "/index.html": true,
-    "/404": true,
-    "/perfil": true,
-    "/portfolio": true,
+    "**/index.html": true,
+    "**/es": true,
+    "**/en": true,
     "**/css": true,
     "**/.vscode": true,
     "**/.hg": true,

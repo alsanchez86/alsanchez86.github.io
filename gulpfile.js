@@ -29,7 +29,7 @@ function readDirs(source) {
 /*
  * Css tasks
  */
-function sassCompile(cb) {
+function sassCompile() {
   return gulp
     .src([pkg.sass + 'main.scss'])
     .pipe(sass.sync().on('error', sass.logError))
@@ -37,7 +37,7 @@ function sassCompile(cb) {
     .pipe(gulp.dest(pkg.css));
 }
 
-function cssLibs(cb) {
+function cssLibs() {
   return gulp
     .src([
       pkg.node_modules + 'font-awesome/css/font-awesome.css',
@@ -47,14 +47,14 @@ function cssLibs(cb) {
     .pipe(gulp.dest(pkg.css));
 }
 
-function cssConcat(cb) {
+function cssConcat() {
   return gulp
     .src([pkg.css + 'sass.css', pkg.css + 'lib.css'], { allowEmpty: true })
     .pipe(concat('main.css'))
     .pipe(gulp.dest(pkg.css));
 }
 
-function cssMin(cb) {
+function cssMin() {
   return gulp
     .src([pkg.css + 'main.css'])
     .pipe(
@@ -73,7 +73,7 @@ function cssMin(cb) {
 /*
  * Js tasks
  */
-function jsLibs(cb) {
+function jsLibs() {
   return gulp
     .src([
       `${pkg.node_modules}requirejs/require.js`,
@@ -88,35 +88,64 @@ function jsLibs(cb) {
  * Template tasks
  */
 function templates(cb) {
+  const languages = [
+    {
+      id: 'es',
+      isRoot: true,
+    },
+    {
+      id: 'en',
+      isRoot: false,
+    },
+  ];
   const root = ['.', 'src', 'templates', 'sections', 'home']
-    .filter((e) => e)
     .join('/')
     .concat('/');
   const dirs = readDirs(root);
 
   dirs.push(root); // push root index
   dirs.map((dir) => {
-    let outputDir = dir.replace(root, './');
+    languages.map((language) => {
+      const outputDir = dir.replace(root, './' + language.id);
 
-    gulp
-      .src(dir + 'index.mustache')
-      .pipe(
-        mustache(
-          dir + 'index.json',
-          {
-            extension: '.html',
-          },
-          {},
-        ),
-      )
-      .pipe(
-        htmlmin({
-          collapseWhitespace: true,
-        }),
-      )
-      .pipe(gulp.dest(outputDir));
+      compileTemplate({ dir, language, outputDir });
+
+      if (language.isRoot) {
+        compileTemplate({ dir, language, outputDir: './' });
+      }
+    });
   });
+
   cb();
+}
+
+function compileTemplate({ dir, language, outputDir }) {
+  gulp
+    .src(dir + 'index.mustache')
+    .pipe(
+      mustache(
+        `${dir}index.json`,
+        {
+          extension: '.mustache',
+        },
+        {},
+      ),
+    )
+    .pipe(
+      mustache(
+        `${dir}${language.id}.json`,
+        {
+          extension: '.html',
+        },
+        {},
+      ),
+    )
+    .pipe(
+      htmlmin({
+        collapseWhitespace: true,
+      }),
+    )
+    .pipe(gulp.dest(outputDir));
 }
 
 exports.default = series(
