@@ -1394,7 +1394,11 @@
         "link": "https://goo.gl/maps/R5TuoYYPKBv5HTdQ6"
       },
       "company_link": [],
-      "image_company_path": [],
+      "image_company_path": [
+        {
+          "image_name": "companies/criminologia.png"
+        }
+      ],
       "position": "Fullstack developer.",
       "functions": [
         {
