@@ -406,6 +406,8 @@
           "name": "Gestión de equipos."
         }
       ],
+      "showProjects": false,
+      "showTechs": true,
       "projects": [
         {
           "index": 0,
@@ -429,8 +431,6 @@
           "background": ""
         }
       ],
-      "showTechs": true,
-      "showProjects": false,
       "techs": [
         {
           "type": "frontend",
@@ -594,6 +594,7 @@
         }
       ],
       "showProjects": true,
+      "showTechs": true,
       "projects": [
         {
           "index": 0,
@@ -611,7 +612,7 @@
         },
         {
           "index": 2,
-          "name": "Desarrollo de librerías JSES6 para la visualización de renderizados 3D en 360º",
+          "name": "Desarrollo de librerías JS para la visualización de renderizados 3D en 360º",
           "link": "https://static.expertustech.net/wiso_releases/2.0/demo/",
           "target": "_blank",
           "background": "../src/img/projects/wiso/preview.jpg"
@@ -645,7 +646,6 @@
           "background": "../src/img/projects/elche/preview.jpg"
         }
       ],
-      "showTechs": true,
       "techs": [
         {
           "type": "frontend",
@@ -832,6 +832,7 @@
         }
       ],
       "showProjects": true,
+      "showTechs": true,
       "projects": [
         {
           "index": 0,
@@ -848,14 +849,13 @@
           "background": "../src/img/projects/fontvella/preview.jpg"
         }
       ],
-      "showTechs": true,
       "techs": [
         {
           "type": "frontend",
           "name": "Frontend",
           "items": [
             {
-              "name": "JavaScript ES5"
+              "name": "JavaScript"
             },
             {
               "name": "Angular"
@@ -988,6 +988,7 @@
         }
       ],
       "showProjects": true,
+      "showTechs": true,
       "projects": [
         {
           "index": 0,
@@ -1053,14 +1054,13 @@
           "background": "../src/img/projects/united-english/preview.jpg"
         }
       ],
-      "showTechs": true,
       "techs": [
         {
           "type": "frontend",
           "name": "Frontend",
           "items": [
             {
-              "name": "JavaScript ES5"
+              "name": "JavaScript"
             },
             {
               "name": "jQuery"
@@ -1262,6 +1262,7 @@
         }
       ],
       "showProjects": true,
+      "showTechs": true,
       "projects": [
         {
           "index": 0,
@@ -1306,14 +1307,13 @@
           "background": "../src/img/projects/fourup/preview.jpg"
         }
       ],
-      "showTechs": true,
       "techs": [
         {
           "type": "frontend",
           "name": "Frontend",
           "items": [
             {
-              "name": "JavaScript ES5"
+              "name": "JavaScript"
             },
             {
               "name": "jQuery"
@@ -1404,7 +1404,8 @@
           "name": "Desarrollador (Frontend y Backend) de aplicaciones y portales web."
         }
       ],
-      "showProjects": true,
+      "showProjects": false,
+      "showTechs": true,
       "projects": [
         {
           "index": 0,
@@ -1414,14 +1415,13 @@
           "background": "../src/img/projects/iaic/preview.jpg"
         }
       ],
-      "showTechs": true,
       "techs": [
         {
           "type": "frontend",
           "name": "Frontend",
           "items": [
             {
-              "name": "JavaScript ES5"
+              "name": "JavaScript"
             },
             {
               "name": "jQuery"
@@ -1482,6 +1482,7 @@
         }
       ],
       "showProjects": false,
+      "showTechs": true,
       "projects": [
         {
           "name": "-",
@@ -1490,14 +1491,13 @@
           "background": "../src/img/projects/default.jpg"
         }
       ],
-      "showTechs": true,
       "techs": [
         {
           "type": "frontend",
           "name": "Frontend",
           "items": [
             {
-              "name": "JavaScript ES5"
+              "name": "JavaScript"
             },
             {
               "name": "HTML"
