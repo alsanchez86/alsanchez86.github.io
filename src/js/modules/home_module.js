@@ -55,19 +55,13 @@ define(['module', 'jquery_cache_module', 'glide'], function (
       .map(function (slider) {
         return new Glide('#glide-slider-' + slider.id, {
           type: 'carousel',
-          perView: 2,
+          perView: slider.perView,
           breakpoints: {
             576: {
               perView: 1,
             },
             768: {
               perView: 1,
-            },
-            992: {
-              perView: slider.perView,
-            },
-            1200: {
-              perView: slider.perView,
             },
           },
           autoplay: 5000,
