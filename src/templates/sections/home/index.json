@@ -374,8 +374,8 @@
   },
   "experience": [
     {
-      "id": "everis",
-      "name": "Everis",
+      "id": "ntt-data",
+      "name": "NTT Data",
       "date": "Enero 2020 - Actualmente.",
       "city": {
         "name": "Sevilla, España.",
@@ -383,12 +383,12 @@
       },
       "company_link": [
         {
-          "link": "https://www.everis.com/"
+          "link": "https://www.nttdata.com/global/en/"
         }
       ],
       "image_company_path": [
         {
-          "image_name": "companies/everis.jpg"
+          "image_name": "companies/nttdata.png"
         }
       ],
       "position": "Frontend Leader Specialist. Center Leader Specialist, CLS.",
@@ -950,7 +950,7 @@
     },
     {
       "id": "ximdex",
-      "name": "Open Ximdex Evolution",
+      "name": "Ximdex",
       "date": "Octubre de 2014 - Marzo de 2017.",
       "city": {
         "name": "Sevilla, España.",
