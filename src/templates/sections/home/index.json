@@ -4,6 +4,7 @@
   "main_path": "../src/js",
   "img_path": "../src/img",
   "section_module": "home_module",
+  "lang": "{{ lang }}",
   "skills": {
     "frontend": [
       {
