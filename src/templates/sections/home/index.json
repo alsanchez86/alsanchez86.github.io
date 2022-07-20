@@ -386,7 +386,6 @@
           "link": "https://www.everis.com/"
         }
       ],
-      "company_map": "../src/img/mapa-sevilla.png",
       "image_company_path": [
         {
           "image_name": "companies/everis.jpg"
@@ -574,7 +573,6 @@
           "link": "https://www.linkedin.com/company/expertus-technology-software/"
         }
       ],
-      "company_map": "../src/img/mapa-barcelona.png",
       "image_company_path": [
         {
           "image_name": "companies/betix.png"
@@ -813,7 +811,6 @@
           "link": "https://crealogix.com/es/"
         }
       ],
-      "company_map": "../src/img/mapa-barcelona.png",
       "image_company_path": [
         {
           "image_name": "companies/crealogix.png"
@@ -964,7 +961,6 @@
           "link": "https://www.ximdex.com/"
         }
       ],
-      "company_map": "../src/img/mapa-sevilla.png",
       "image_company_path": [
         {
           "image_name": "companies/ximdex.png"
@@ -1248,7 +1244,6 @@
           "link": "https://www.existo.es/"
         }
       ],
-      "company_map": "../src/img/mapa-sevilla.png",
       "image_company_path": [
         {
           "image_name": "companies/existo.svg"
@@ -1399,7 +1394,6 @@
         "link": "https://goo.gl/maps/R5TuoYYPKBv5HTdQ6"
       },
       "company_link": [],
-      "company_map": "../src/img/mapa-sevilla.png",
       "image_company_path": [],
       "position": "Fullstack developer.",
       "functions": [
@@ -1476,7 +1470,6 @@
           "link": "https://www.facebook.com/gaesasl"
         }
       ],
-      "company_map": "../src/img/mapa-sevilla.png",
       "image_company_path": [
         {
           "image_name": "companies/gaesa.jpg"

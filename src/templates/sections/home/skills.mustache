@@ -1,101 +1,97 @@
 <section class="skills-wrapper section-wrapper">
   <div class="container">
+    <h2 class="section-title">Conocimientos</h2>
+
     <div class="row">
-      <div class="col-lg-2">
-        <h2 class="section-title">Conocimientos</h2>
+      <div class="col-md-6">
+        <div id="skills-item-frontend" class="skills-item skills-item-frontend">
+          <h3>Frontend</h3>
+
+          {{#skills.frontend}}
+          {{>skills_item}}
+          {{/skills.frontend}}
+        </div>
       </div>
 
-      <div class="col-lg-10">
-        <div class="row">
-          <div class="col-md-6">
-            <div id="skills-item-frontend" class="skills-item skills-item-frontend">
-              <h3>Frontend</h3>
+      <div class="col-md-6">
+        <div id="skills-item-backend" class="skills-item skills-item-backend">
+          <h3>Backend</h3>
 
-              {{#skills.frontend}}
-              {{>skills_item}}
-              {{/skills.frontend}}
-            </div>
-          </div>
+          {{#skills.backend}}
+          {{>skills_item}}
+          {{/skills.backend}}
+        </div>
 
-          <div class="col-md-6">
-            <div id="skills-item-backend" class="skills-item skills-item-backend">
-              <h3>Backend</h3>
+        <div id="skills-item-sistemas" class="skills-item skills-item-sistemas">
+          <h3>Sistemas</h3>
 
-              {{#skills.backend}}
-              {{>skills_item}}
-              {{/skills.backend}}
-            </div>
+          {{#skills.systems}}
+          {{>skills_item}}
+          {{/skills.systems}}
+        </div>
 
-            <div id="skills-item-sistemas" class="skills-item skills-item-sistemas">
-              <h3>Sistemas</h3>
+        <div id="skills-item-versiones" class="skills-item skills-item-versiones">
+          <h3>Gestores de versiones</h3>
 
-              {{#skills.systems}}
-              {{>skills_item}}
-              {{/skills.systems}}
-            </div>
+          {{#skills.versions}}
+          {{>skills_item}}
+          {{/skills.versions}}
+        </div>
 
-            <div id="skills-item-versiones" class="skills-item skills-item-versiones">
-              <h3>Gestores de versiones</h3>
+        <div id="skills-item-dependencias" class="skills-item skills-item-dependencias">
+          <h3>Gestores de dependencias</h3>
 
-              {{#skills.versions}}
-              {{>skills_item}}
-              {{/skills.versions}}
-            </div>
+          {{#skills.dependencies}}
+          {{>skills_item}}
+          {{/skills.dependencies}}
+        </div>
+      </div>
 
-            <div id="skills-item-dependencias" class="skills-item skills-item-dependencias">
-              <h3>Gestores de dependencias</h3>
+      <div class="col-md-6">
+        <div id="skills-item-otros" class="skills-item skills-item-otros">
+          <h3>Otras tecnologías a destacar</h3>
 
-              {{#skills.dependencies}}
-              {{>skills_item}}
-              {{/skills.dependencies}}
-            </div>
-          </div>
+          {{#skills.others}}
+          {{>skills_item}}
+          {{/skills.others}}
+        </div>
 
-          <div class="col-md-6">
-            <div id="skills-item-otros" class="skills-item skills-item-otros">
-              <h3>Otras tecnologías a destacar</h3>
+        <div id="skills-item-design" class="skills-item skills-item-design">
+          <h3>Diseño gráfico</h3>
 
-              {{#skills.others}}
-              {{>skills_item}}
-              {{/skills.others}}
-            </div>
+          {{#skills.dessign}}
+          {{>skills_item}}
+          {{/skills.dessign}}
+        </div>
+      </div>
 
-            <div id="skills-item-design" class="skills-item skills-item-design">
-              <h3>Diseño gráfico</h3>
+      <div class="col-md-6">
+        <div id="skills-item-despliegues" class="skills-item skills-item-despliegues">
+          <h3>Despliegues</h3>
 
-              {{#skills.dessign}}
-              {{>skills_item}}
-              {{/skills.dessign}}
-            </div>
-          </div>
+          {{#skills.updates}}
+          {{>skills_item}}
+          {{/skills.updates}}
+        </div>
 
-          <div class="col-md-6">
-            <div id="skills-item-despliegues" class="skills-item skills-item-despliegues">
-              <h3>Despliegues</h3>
+        <div id="skills-item-ma" class="skills-item skills-item-ma">
+          <h3>Metodologías ágiles</h3>
 
-              {{#skills.updates}}
-              {{>skills_item}}
-              {{/skills.updates}}
-            </div>
+          {{#skills.agile}}
+          {{>skills_item}}
+          {{/skills.agile}}
+        </div>
 
-            <div id="skills-item-ma" class="skills-item skills-item-ma">
-              <h3>Metodologías ágiles</h3>
+        <div id="skills-item-accesibilidad" class="skills-item skills-item-accesibilidad">
+          <h3>Accesibilidad</h3>
 
-              {{#skills.agile}}
-              {{>skills_item}}
-              {{/skills.agile}}
-            </div>
-
-            <div id="skills-item-accesibilidad" class="skills-item skills-item-accesibilidad">
-              <h3>Accesibilidad</h3>
-
-              {{#skills.accesibility}}
-              {{>skills_item}}
-              {{/skills.accesibility}}
-            </div>
-          </div>
+          {{#skills.accesibility}}
+          {{>skills_item}}
+          {{/skills.accesibility}}
         </div>
       </div>
     </div>
+
+
   </div>
 </section>
