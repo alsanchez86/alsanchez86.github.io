@@ -6,6 +6,8 @@
   "section_module": "home_module",
   "lang": "{{ lang }}",
   "cvLastUpdated": "{{ cvLastUpdated }}",
+  "title": "{{ title }}",
+  "description": "{{ description }}",
   "skills": {
     "frontend": [
       {
