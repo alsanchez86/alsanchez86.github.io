@@ -37,7 +37,7 @@ define(['module', 'jquery_cache_module', 'glide'], function (
     [
       {
         id: 'betix',
-        perView: 2,
+        perView: 3,
       },
       {
         id: 'crealogix',
@@ -45,15 +45,11 @@ define(['module', 'jquery_cache_module', 'glide'], function (
       },
       {
         id: 'ximdex',
-        perView: 2,
+        perView: 3,
       },
       {
         id: 'existo',
-        perView: 2,
-      },
-      {
-        id: 'freelance',
-        perView: 1,
+        perView: 3,
       },
     ]
       .map(function (slider) {
