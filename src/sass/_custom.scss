@@ -137,20 +137,4 @@ h2.section-title {
   .section-wrapper {
     margin: 40px 0;
   }
-
-  h2.section-title {
-    display: none;
-  }
-}
-
-@include media-breakpoint-down(sm) {
-  h2.section-title {
-    display: none;
-  }
-}
-
-@include media-breakpoint-down(xs) {
-  h2.section-title {
-    display: none;
-  }
 }
