@@ -1393,7 +1393,11 @@
         "name": "Sevilla, España.",
         "link": "https://goo.gl/maps/R5TuoYYPKBv5HTdQ6"
       },
-      "company_link": [],
+      "company_link": [
+        {
+          "link": "https://iaic.us.es/"
+        }
+      ],
       "image_company_path": [
         {
           "image_name": "companies/criminologia.png"
