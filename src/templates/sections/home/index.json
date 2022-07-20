@@ -7,7 +7,7 @@
   "lang": "{{ lang }}",
   "cvLastUpdated": "{{ cvLastUpdated }}",
   "title": "{{ title }}",
-  "description": "{{ description }}",
+  "description": "{{{ description }}}",
   "skills": {
     "frontend": [
       {
