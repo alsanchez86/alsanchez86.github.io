@@ -6694,10 +6694,7 @@ a.project-item {
     transform: translateX(0); } }
 
 .experience-item {
-  margin-bottom: 80px; }
-  .experience-item:last-child {
-    margin-bottom: 0;
-    border: 0; }
+  margin-bottom: 100px; }
   .experience-item h3 {
     margin-bottom: 25px;
     font-size: 28px; }
