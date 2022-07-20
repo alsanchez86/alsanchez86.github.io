@@ -5,6 +5,7 @@
   "img_path": "../src/img",
   "section_module": "home_module",
   "lang": "{{ lang }}",
+  "cvLastUpdated": "{{ cvLastUpdated }}",
   "skills": {
     "frontend": [
       {
