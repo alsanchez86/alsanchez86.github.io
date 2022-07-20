@@ -6715,6 +6715,8 @@ a.project-item {
       color: #adb5bd; }
   .experience-item .experience-item-batch {
     margin-bottom: 45px; }
+    .experience-item .experience-item-batch:last-child {
+      margin-bottom: 0; }
     .experience-item .experience-item-batch .experience-item-batch-frontend {
       font-weight: 400;
       color: #111;
@@ -6780,6 +6782,8 @@ a.project-item {
         display: table; }
     .experience-item .experience-item-batch {
       margin-bottom: 40px; }
+      .experience-item .experience-item-batch:last-child {
+        margin-bottom: 0; }
       .experience-item .experience-item-batch .badge {
         margin: 3px 1px; }
     .experience-item .glide-controls {

@@ -37,6 +37,10 @@
   .experience-item-batch {
     margin-bottom: 45px;
 
+    &:last-child {
+      margin-bottom: 0;
+    }
+
     .experience-item-batch-frontend {
       @include experience_badge($color_frontend, $color_text);
     }
@@ -123,6 +127,10 @@
 
     .experience-item-batch {
       margin-bottom: 40px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
 
       .badge {
         margin: 3px 1px;
