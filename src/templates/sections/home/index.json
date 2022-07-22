@@ -8,6 +8,13 @@
   "cvLastUpdated": "{{ cvLastUpdated }}",
   "title": "{{ title }}",
   "description": "{{{ description }}}",
+  "dateBirth": "{{ dateBirth }}",
+  "dateBirthValue": "{{ dateBirthValue }}",
+  "nationality": "{{ nationality }}",
+  "nationalityValue": "{{ nationalityValue }}",
+  "languages": "{{ languages }}",
+  "languagesSpanish": "{{ languagesSpanish }}",
+  "languagesEnglish": "{{ languagesEnglish }}",
   "skills": {
     "frontend": [
       {
