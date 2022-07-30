@@ -10,5 +10,7 @@
   "nationalityValue": "Spanish",
   "languages": "Languages",
   "languagesSpanish": "Spanish (native)",
-  "languagesEnglish": "English (B1+)"
+  "languagesEnglish": "English (B1+)",
+  "skillsTitle": "Skills",
+  "functionalProgramming": "Functional programming"
 }
