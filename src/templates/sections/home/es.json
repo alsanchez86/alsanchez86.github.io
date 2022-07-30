@@ -12,5 +12,13 @@
   "languagesSpanish": "Español (nativo)",
   "languagesEnglish": "Inglés (B1+)",
   "skillsTitle": "Conocimientos",
-  "functionalProgramming": "Programación funcional"
+  "functionalProgramming": "Programación funcional",
+  "systems": "Sistemas",
+  "versionsManagers": "Gestores de dependencias",
+  "dependencyManagers": "Gestores de dependencias",
+  "otherTechnologies": "Otras tecnologías",
+  "graphicDesign": "Diseño gráfico",
+  "deployments": "Despliegues",
+  "agileMethodologies": "Metodologías ágiles",
+  "accessibility": "Accesibilidad"
 }

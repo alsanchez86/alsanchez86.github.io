@@ -17,6 +17,14 @@
   "languagesEnglish": "{{ languagesEnglish }}",
   "skillsTitle": "{{ skillsTitle }}",
   "functionalProgramming": "{{ functionalProgramming }}",
+  "systems": "{{ systems }}",
+  "versionsManagers": "{{ versionsManagers }}",
+  "dependencyManagers": "{{ dependencyManagers }}",
+  "otherTechnologies": "{{ otherTechnologies }}",
+  "graphicDesign": "{{ graphicDesign }}",
+  "deployments": "{{ deployments }}",
+  "agileMethodologies": "{{ agileMethodologies }}",
+  "accessibility": "{{ accessibility }}",
   "skills": {
     "frontend": [
       {

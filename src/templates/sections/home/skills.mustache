@@ -23,7 +23,7 @@
         </div>
 
         <div id="skills-item-sistemas" class="skills-item skills-item-sistemas">
-          <h3>Sistemas</h3>
+          <h3>{{ systems }}</h3>
 
           {{#skills.systems}}
           {{>skills_item}}
@@ -31,7 +31,7 @@
         </div>
 
         <div id="skills-item-versiones" class="skills-item skills-item-versiones">
-          <h3>Gestores de versiones</h3>
+          <h3>{{ versionsManagers }}</h3>
 
           {{#skills.versions}}
           {{>skills_item}}
@@ -39,7 +39,7 @@
         </div>
 
         <div id="skills-item-dependencias" class="skills-item skills-item-dependencias">
-          <h3>Gestores de dependencias</h3>
+          <h3>{{ dependencyManagers }}</h3>
 
           {{#skills.dependencies}}
           {{>skills_item}}
@@ -49,7 +49,7 @@
 
       <div class="col-md-6">
         <div id="skills-item-otros" class="skills-item skills-item-otros">
-          <h3>Otras tecnologías a destacar</h3>
+          <h3>{{ otherTechnologies }}</h3>
 
           {{#skills.others}}
           {{>skills_item}}
@@ -57,7 +57,7 @@
         </div>
 
         <div id="skills-item-design" class="skills-item skills-item-design">
-          <h3>Diseño gráfico</h3>
+          <h3>{{ graphicDesign }}</h3>
 
           {{#skills.dessign}}
           {{>skills_item}}
@@ -67,7 +67,7 @@
 
       <div class="col-md-6">
         <div id="skills-item-despliegues" class="skills-item skills-item-despliegues">
-          <h3>Despliegues</h3>
+          <h3>{{ deployments }}</h3>
 
           {{#skills.updates}}
           {{>skills_item}}
@@ -75,7 +75,7 @@
         </div>
 
         <div id="skills-item-ma" class="skills-item skills-item-ma">
-          <h3>Metodologías ágiles</h3>
+          <h3>{{ agileMethodologies }}</h3>
 
           {{#skills.agile}}
           {{>skills_item}}
@@ -83,7 +83,7 @@
         </div>
 
         <div id="skills-item-accesibilidad" class="skills-item skills-item-accesibilidad">
-          <h3>Accesibilidad</h3>
+          <h3>{{ accessibility }}</h3>
 
           {{#skills.accesibility}}
           {{>skills_item}}
