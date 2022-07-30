@@ -419,13 +419,13 @@
           "name": "Center Leader Specialist, CLS."
         },
         {
-          "name": "Arquitecto Frontend."
+          "name": "{{ nttDataFunctions1 }}"
         },
         {
-          "name": "Líder técnico de equipo."
+          "name": "{{ nttDataFunctions2 }}"
         },
         {
-          "name": "Gestión de equipos."
+          "name": "{{ nttDataFunctions3 }}"
         }
       ],
       "showProjects": false,
