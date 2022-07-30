@@ -12,6 +12,7 @@ define(['module', 'jquery_cache_module', 'glide'], function (
   module.exports.run = function () {
     animateProgressAll();
     initSliders();
+    initSwitchControl();
   };
 
   /**
@@ -75,5 +76,25 @@ define(['module', 'jquery_cache_module', 'glide'], function (
           })
           .mount();
       });
+  }
+
+  /**
+   *
+   *
+   */
+  function initSwitchControl() {
+    var darkModeClass = 'dark-mode';
+    var _$body = _$('body');
+    var _$switch = _$('#input-switch-mode');
+
+    _$switch.on('change', function (event) {
+      var isOn = _$switch.prop('checked');
+
+      if (isOn) {
+        _$body.addClass(darkModeClass);
+      } else {
+        _$body.removeClass(darkModeClass);
+      }
+    });
   }
 });

@@ -42,6 +42,7 @@ function cssLibs() {
     .src([
       pkg.node_modules + 'font-awesome/css/font-awesome.css',
       pkg.node_modules + '@glidejs/glide/dist/css/glide.core.min.css',
+      pkg.node_modules + 'bootstrap4-toggle/css/bootstrap4-toggle.min.css',
     ])
     .pipe(concat('lib.css'))
     .pipe(gulp.dest(pkg.css));
@@ -80,6 +81,7 @@ function jsLibs() {
       `${pkg.node_modules}jquery/dist/jquery.min.js`,
       `${pkg.node_modules}bootstrap/dist/js/bootstrap.bundle.min.js`,
       `${pkg.node_modules}@glidejs/glide/dist/glide.js`,
+      `${pkg.node_modules}bootstrap4-toggle/js/bootstrap4-toggle.min.js`,
     ])
     .pipe(gulp.dest(pkg.lib));
 }

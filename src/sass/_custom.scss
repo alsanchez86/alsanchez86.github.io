@@ -4,7 +4,7 @@ body {
   font-weight: 400;
   line-height: 28px;
   color: $color_text;
-  background: $color_white;
+  background-color: $color_white;
 }
 
 textarea {
@@ -89,7 +89,7 @@ ul {
 }
 
 .main-wrapper {
-  background: $color_white;
+  background-color: $color_white;
 }
 
 .section-wrapper {
@@ -124,6 +124,24 @@ h2.section-title {
 
 .hidden {
   overflow: hidden;
+}
+
+body.dark-mode {
+  color: $color_white;
+  background-color: $color_black1;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color_white;
+  }
+
+  .main-wrapper {
+    background-color: $color_black1;
+  }
 }
 
 @include media-breakpoint-down(lg) {
