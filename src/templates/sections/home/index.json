@@ -25,6 +25,7 @@
   "deployments": "{{ deployments }}",
   "agileMethodologies": "{{ agileMethodologies }}",
   "accessibility": "{{ accessibility }}",
+  "experienceTitle": "{{ experienceTitle }}",
   "skills": {
     "frontend": [
       {
@@ -397,9 +398,9 @@
     {
       "id": "ntt-data",
       "name": "NTT Data",
-      "date": "Enero 2020 - Actualmente.",
+      "date": "{{ nttDataDate }}",
       "city": {
-        "name": "Sevilla, España.",
+        "name": "{{ sevilla }}",
         "link": "https://goo.gl/maps/CXA2TL2b7F1MwZQ19"
       },
       "company_link": [

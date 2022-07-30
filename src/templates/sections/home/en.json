@@ -15,10 +15,14 @@
   "functionalProgramming": "Functional programming",
   "systems": "Systems",
   "versionsManagers": "Version Managers",
-  "dependencyManagers": "Dependency Managers",
+  "dependencyManagers": "Dependency Management",
   "otherTechnologies": "Other Technologies",
   "graphicDesign": "Graphic design",
   "deployments": "Deployments",
   "agileMethodologies": "Agile methodologies",
-  "accessibility": "Accessibility"
+  "accessibility": "Accessibility",
+  "experienceTitle": "Experience",
+  "nttDataDate": "January 2020 - Currently",
+  "sevilla": "Seville, Spain.",
+  "nttDataFunctions1": "Frontend Architech"
 }
