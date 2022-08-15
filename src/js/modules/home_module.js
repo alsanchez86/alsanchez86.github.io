@@ -87,14 +87,16 @@ define(['module', 'jquery_cache_module', 'glide'], function (
     var _$body = _$('body');
     var _$switch = _$('#input-switch-mode');
 
-    _$switch.on('change', function (event) {
-      var isOn = _$switch.prop('checked');
+    if (_$switch) {
+      _$switch.on('change', function (event) {
+        var isOn = _$switch.prop('checked');
 
-      if (isOn) {
-        _$body.addClass(darkModeClass);
-      } else {
-        _$body.removeClass(darkModeClass);
-      }
-    });
+        if (isOn) {
+          _$body.addClass(darkModeClass);
+        } else {
+          _$body.removeClass(darkModeClass);
+        }
+      });
+    }
   }
 });
