@@ -40,5 +40,12 @@
   "betixDataFunctions0": "Frontend developer of APP web platform with massive traffic for sale to the general public. Direct clients: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, etc.",
   "betixDataFunctions1": "Responsible for web analytics (GTM, DTM).",
   "betixDataFunctions2": "Developer of internal tools for 3D rendering processes with Nodejs, Python (Cinema4d) and Shell script.",
-  "betixDataFunctions3": "Project testing and maintenance tasks."
+  "betixDataFunctions3": "Project testing and maintenance tasks.",
+  "betixDataProjects0": "FC Barcelona. Official online ticket sales platform",
+  "betixDataProjects1": "El Corte Inglés. Official online ticket sales platform",
+  "betixDataProjects2": "Development of JS libraries for the visualization of 3D renderings in 360º",
+  "betixDataProjects3": "Atlético de Madrid. Official online ticket sales platform",
+  "betixDataProjects4": "Getafe FC. Official online ticket sales platform",
+  "betixDataProjects5": "Albacete Balompié. Official online ticket sales platform",
+  "betixDataProjects6": "Elche CF. Official online ticket sales platform"
 }
