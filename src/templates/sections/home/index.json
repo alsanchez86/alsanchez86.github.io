@@ -461,7 +461,6 @@
       "techs": [
         {
           "type": "frontend",
-          "name": "Frontend",
           "items": [
             {
               "name": "JavaScript"
@@ -500,7 +499,6 @@
         },
         {
           "type": "backend",
-          "name": "Backend",
           "items": [
             {
               "name": "Nodejs"
@@ -518,7 +516,6 @@
         },
         {
           "type": "otros",
-          "name": "Otras tecnologías a destacar",
           "items": [
             {
               "name": "RxJS"
@@ -539,7 +536,6 @@
         },
         {
           "type": "sistemas",
-          "name": "Sistemas",
           "items": [
             {
               "name": "Linux"
@@ -551,7 +547,6 @@
         },
         {
           "type": "versiones",
-          "name": "Gestores de versiones",
           "items": [
             {
               "name": "Github"
@@ -560,7 +555,6 @@
         },
         {
           "type": "dependencias",
-          "name": "Gestores de dependencias",
           "items": [
             {
               "name": "npm"
@@ -569,7 +563,6 @@
         },
         {
           "type": "ma",
-          "name": "Metodologías ágiles",
           "items": [
             {
               "name": "Scrum"
@@ -578,7 +571,6 @@
         },
         {
           "type": "despliegues",
-          "name": "Despliegues",
           "items": [
             {
               "name": "Jenkins"
@@ -590,9 +582,9 @@
     {
       "id": "betix",
       "name": "BeTIX",
-      "date": "Agosto 2017 - Diciembre 2019.",
+      "date": "{{ betixDataDate }}",
       "city": {
-        "name": "Barcelona, España.",
+        "name": "{{ barcelona }}",
         "link": "https://goo.gl/maps/rAn4XZm2Fe4eA3UP9"
       },
       "company_link": [
@@ -605,19 +597,19 @@
           "image_name": "companies/betix.png"
         }
       ],
-      "position": "Senior frontend developer.",
+      "position": "{{ betixDataPosition }}",
       "functions": [
         {
-          "name": "Desarrollador frontend de plataforma web APP de tráfico masivo para venta deventradas al gran publico. Clientes directos: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, etc."
+          "name": "{{ betixDataFunctions0 }}"
         },
         {
-          "name": "Responsable de analítica web (GTM, DTM)."
+          "name": "{{ betixDataFunctions1 }}"
         },
         {
-          "name": "Desarrollador de herramientas internas para procesos de renderización 3D con Nodejs, Python (Cinema4d) y Shell script."
+          "name": "{{ betixDataFunctions2 }}"
         },
         {
-          "name": "Tareas de testing y mantenimiento de proyectos."
+          "name": "{{ betixDataFunctions3 }}"
         }
       ],
       "showProjects": true,
@@ -676,7 +668,6 @@
       "techs": [
         {
           "type": "frontend",
-          "name": "Frontend",
           "items": [
             {
               "name": "JavaScript"
@@ -739,7 +730,6 @@
         },
         {
           "type": "backend",
-          "name": "Backend",
           "items": [
             {
               "name": "Nodejs"
@@ -757,7 +747,6 @@
         },
         {
           "type": "otros",
-          "name": "Otras tecnologías a destacar",
           "items": [
             {
               "name": "Amazon Web Services"
@@ -766,7 +755,6 @@
         },
         {
           "type": "sistemas",
-          "name": "Sistemas",
           "items": [
             {
               "name": "Linux"
@@ -778,7 +766,6 @@
         },
         {
           "type": "versiones",
-          "name": "Gestores de versiones",
           "items": [
             {
               "name": "Mercurial"
@@ -790,7 +777,6 @@
         },
         {
           "type": "dependencias",
-          "name": "Gestores de dependencias",
           "items": [
             {
               "name": "npm"
@@ -799,7 +785,6 @@
         },
         {
           "type": "ma",
-          "name": "Metodologías ágiles",
           "items": [
             {
               "name": "Scrum"
@@ -808,7 +793,6 @@
         },
         {
           "type": "despliegues",
-          "name": "Despliegues",
           "items": [
             {
               "name": "Jenkins"
@@ -879,7 +863,6 @@
       "techs": [
         {
           "type": "frontend",
-          "name": "Frontend",
           "items": [
             {
               "name": "JavaScript"
@@ -924,7 +907,6 @@
         },
         {
           "type": "backend",
-          "name": "Backend",
           "items": [
             {
               "name": "PHP"
@@ -945,7 +927,6 @@
         },
         {
           "type": "sistemas",
-          "name": "Sistemas",
           "items": [
             {
               "name": "Linux"
@@ -954,7 +935,6 @@
         },
         {
           "type": "versiones",
-          "name": "Gestores de versiones",
           "items": [
             {
               "name": "Github"
@@ -963,7 +943,6 @@
         },
         {
           "type": "dependencias",
-          "name": "Gestores de dependencias",
           "items": [
             {
               "name": "npm"
@@ -1084,7 +1063,6 @@
       "techs": [
         {
           "type": "frontend",
-          "name": "Frontend",
           "items": [
             {
               "name": "JavaScript"
@@ -1129,7 +1107,6 @@
         },
         {
           "type": "backend",
-          "name": "Backend",
           "items": [
             {
               "name": "PHP"
@@ -1156,7 +1133,6 @@
         },
         {
           "type": "sistemas",
-          "name": "Sistemas",
           "items": [
             {
               "name": "Linux"
@@ -1168,7 +1144,6 @@
         },
         {
           "type": "versiones",
-          "name": "Gestores de versiones",
           "items": [
             {
               "name": "Github"
@@ -1177,7 +1152,6 @@
         },
         {
           "type": "dependencias",
-          "name": "Gestores de dependencias",
           "items": [
             {
               "name": "npm"
@@ -1192,7 +1166,6 @@
         },
         {
           "type": "ma",
-          "name": "Metodologías ágiles",
           "items": [
             {
               "name": "Scrum"
@@ -1201,7 +1174,6 @@
         },
         {
           "type": "otros",
-          "name": "Otras tecnologías a destacar",
           "items": [
             {
               "name": "XML"
@@ -1222,7 +1194,6 @@
         },
         {
           "type": "accesibilidad",
-          "name": "Accesibilidad",
           "items": [
             {
               "name": "UX"
@@ -1237,7 +1208,6 @@
         },
         {
           "type": "design",
-          "name": "Diseño",
           "items": [
             {
               "name": "Illustrator"
@@ -1337,7 +1307,6 @@
       "techs": [
         {
           "type": "frontend",
-          "name": "Frontend",
           "items": [
             {
               "name": "JavaScript"
@@ -1364,7 +1333,6 @@
         },
         {
           "type": "backend",
-          "name": "Backend",
           "items": [
             {
               "name": "PHP"
@@ -1379,7 +1347,6 @@
         },
         {
           "type": "sistemas",
-          "name": "Sistemas",
           "items": [
             {
               "name": "Windows"
@@ -1388,7 +1355,6 @@
         },
         {
           "type": "ma",
-          "name": "Metodologías ágiles",
           "items": [
             {
               "name": "Lean"
@@ -1397,7 +1363,6 @@
         },
         {
           "type": "design",
-          "name": "Diseño",
           "items": [
             {
               "name": "Illustrator"
@@ -1529,7 +1494,6 @@
       "techs": [
         {
           "type": "frontend",
-          "name": "Frontend",
           "items": [
             {
               "name": "JavaScript"
@@ -1547,7 +1511,6 @@
         },
         {
           "type": "backend",
-          "name": "Backend",
           "items": [
             {
               "name": "PHP"
@@ -1559,7 +1522,6 @@
         },
         {
           "type": "sistemas",
-          "name": "Sistemas",
           "items": [
             {
               "name": "Windows"
@@ -1568,7 +1530,6 @@
         },
         {
           "type": "design",
-          "name": "Diseño",
           "items": [
             {
               "name": "Illustrator"
