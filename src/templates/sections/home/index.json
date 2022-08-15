@@ -812,9 +812,9 @@
     {
       "id": "crealogix",
       "name": "Crealogix",
-      "date": "Marzo de 2017 - Agosto de 2017.",
+      "date": "{{ crealogixDataDate }}",
       "city": {
-        "name": "Barcelona, España.",
+        "name": "{{ barcelona }}",
         "link": "https://goo.gl/maps/s7BCFbfeUkkTZm1H7"
       },
       "company_link": [
@@ -827,19 +827,19 @@
           "image_name": "companies/crealogix.png"
         }
       ],
-      "position": "Fullstack developer.",
+      "position": "{{ crealogixDataPosition }}",
       "functions": [
         {
-          "name": "Desarrollador (Frontend y Backend) de aplicaciones y portales web."
+          "name": "{{ crealogixDataFunctions0 }}"
         },
         {
-          "name": "Resolución de incidencias y mantenimiento de proyectos."
+          "name": "{{ crealogixDataFunctions1 }}"
         },
         {
-          "name": "Encargado del Workflow y gestión de los distintos repositorios Github."
+          "name": "{{ crealogixDataFunctions2 }}"
         },
         {
-          "name": "Documentación de proyectos."
+          "name": "{{ crealogixDataFunctions3 }}"
         }
       ],
       "showProjects": true,
@@ -847,14 +847,14 @@
       "projects": [
         {
           "index": 0,
-          "name": "Portal corporativo Danone S.A.",
+          "name": "{{ crealogixDataProjects0 }}",
           "link": "https://www.alimentasonrisas.es/",
           "target": "_blank",
           "background": "../src/img/projects/danone/preview.jpg"
         },
         {
           "index": 1,
-          "name": "Web APP FontVella 'Eres Impulso'",
+          "name": "{{ crealogixDataProjects1 }}",
           "link": "https://eresimpulso.fontvella.es/",
           "target": "_blank",
           "background": "../src/img/projects/fontvella/preview.jpg"
