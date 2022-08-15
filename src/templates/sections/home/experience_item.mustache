@@ -30,7 +30,7 @@
 
         <a href="{{ link }}" target="_blank">
           <i class="fa fa-external-link" aria-hidden="true"></i>
-          Página web.
+          {{ webPage }}
         </a>
 
         {{/company_link}}
@@ -39,7 +39,7 @@
   </div>
 
   <div class="experience-item-batch">
-    <h4>PUESTO</h4>
+    <h4>{{ positionTitle }}</h4>
 
     <ul>
       <li>{{ position }}</li>
@@ -47,7 +47,7 @@
   </div>
 
   <div class="experience-item-batch">
-    <h4>FUNCIONES</h4>
+    <h4>{{ functionsTitle }}</h4>
 
     <ul>
       {{#functions}}
@@ -58,7 +58,7 @@
 
   {{#showTechs}}
   <div class="experience-item-batch">
-    <h4>TECNOLOGÍAS</h4>
+    <h4>{{ technologiesTitle }}</h4>
 
     {{#techs}}
     {{#items}}
@@ -70,7 +70,7 @@
 
   {{#showProjects}}
   <div class="experience-item-batch">
-    <h4>PROYECTOS DESTACADOS</h4>
+    <h4>{{ featuredProjectsTitle }}</h4>
 
     <div id="glide-slider-{{ id }}" class="glide invisible">
       <div data-glide-el="track" class="glide__track">

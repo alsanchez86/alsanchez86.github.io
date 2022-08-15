@@ -22,9 +22,16 @@
   "agileMethodologies": "Agile methodologies",
   "accessibility": "Accessibility",
   "experienceTitle": "Experience",
-  "nttDataDate": "January 2020 - Currently.",
   "sevilla": "Seville, Spain.",
+  "webPage": "Web page.",
+  "nttDataDate": "January 2020 - Currently.",
+  "positionTitle": "Position",
+  "nttDataPosition": "Frontend Leader Specialist. Center Leader Specialist, CLS.",
+  "functionsTitle": "Functions",
+  "nttDataFunctions0": "Center Leader Specialist, CLS.",
   "nttDataFunctions1": "Frontend Architech.",
   "nttDataFunctions2": "Technical team leader.",
-  "nttDataFunctions3": "Team management."
+  "nttDataFunctions3": "Team management.",
+  "technologiesTitle": "Technologies",
+  "featuredProjectsTitle": "Featured projects"
 }

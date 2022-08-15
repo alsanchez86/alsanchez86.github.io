@@ -26,6 +26,11 @@
   "agileMethodologies": "{{ agileMethodologies }}",
   "accessibility": "{{ accessibility }}",
   "experienceTitle": "{{ experienceTitle }}",
+  "webPage": "{{ webPage }}",
+  "positionTitle": "{{ positionTitle }}",
+  "functionsTitle": "{{ functionsTitle }}",
+  "technologiesTitle": "{{ technologiesTitle }}",
+  "featuredProjectsTitle": "{{ featuredProjectsTitle }}",
   "skills": {
     "frontend": [
       {
@@ -413,10 +418,10 @@
           "image_name": "companies/nttdata.png"
         }
       ],
-      "position": "Frontend Leader Specialist. Center Leader Specialist, CLS.",
+      "position": "{{ nttDataPosition }}",
       "functions": [
         {
-          "name": "Center Leader Specialist, CLS."
+          "name": "{{ nttDataFunctions0 }}"
         },
         {
           "name": "{{ nttDataFunctions1 }}"
