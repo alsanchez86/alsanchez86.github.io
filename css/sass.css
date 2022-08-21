@@ -3346,7 +3346,7 @@ input[type="button"].btn-block {
 .badge {
   display: inline-block;
   padding: 0.4em 0.65em;
-  font-size: 90%;
+  font-size: 85%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
@@ -6378,6 +6378,19 @@ ol {
 
 ul {
   list-style: none; }
+  ul.list-with-points li::before {
+    content: '\2022';
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #adb5bd;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */ }
 
 .main-wrapper {
   background-color: #fff; }
@@ -6731,7 +6744,7 @@ body.dark-mode .footer {
     margin-bottom: 12px;
     font-size: 17px;
     font-weight: 700; }
-  .experience-item ul {
+  .experience-item ul:not(.list-with-points) {
     padding: 0; }
   .experience-item .media {
     margin-bottom: 30px; }

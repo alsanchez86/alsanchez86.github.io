@@ -49,7 +49,7 @@
   <div class="experience-item-batch">
     <h4>{{ functionsTitle }}</h4>
 
-    <ul>
+    <ul class="list-with-points">
       {{#functions}}
       <li>{{ name }}</li>
       {{/functions}}
@@ -57,50 +57,49 @@
   </div>
 
   {{#showTechs}}
-  <div class="experience-item-batch">
-    <h4>{{ technologiesTitle }}</h4>
+    <div class="experience-item-batch">
+      <h4>{{ technologiesTitle }}</h4>
 
-    {{#techs}}
-    {{#items}}
-    <span class="badge experience-item-batch-{{ type }}">{{ name }}</span>
-    {{/items}}
-    {{/techs}}
-  </div>
+      {{#techs}}
+      {{#items}}
+      <span class="badge experience-item-batch-{{ type }}">{{ name }}</span>
+      {{/items}}
+      {{/techs}}
+    </div>
   {{/showTechs}}
 
   {{#showProjects}}
-  <div class="experience-item-batch">
-    <h4>{{ featuredProjectsTitle }}</h4>
+    <div class="experience-item-batch">
+      <h4>{{ featuredProjectsTitle }}</h4>
 
-    <div id="glide-slider-{{ id }}" class="glide invisible">
-      <div data-glide-el="track" class="glide__track">
-        <ul class="glide__slides">
+      <div id="glide-slider-{{ id }}" class="glide invisible">
+        <div data-glide-el="track" class="glide__track">
+          <ul class="glide__slides">
+            {{#projects}}
+
+            <li class="glide__slide">
+              <a href="{{ link }}" target="{{ target }}" class="project-item"
+                style="background-image: url({{ background }})">
+                <div class="project-item-name">
+                  {{ name }}
+                </div>
+              </a>
+            </li>
+
+            {{/projects}}
+          </ul>
+        </div>
+
+        <div class="glide-controls" data-glide-el="controls[nav]">
           {{#projects}}
 
-          <li class="glide__slide">
-            <a href="{{ link }}" target="{{ target }}" class="project-item"
-              style="background-image: url({{ background }})">
-              <div class="project-item-name">
-                {{ name }}
-              </div>
-            </a>
-          </li>
+          <button class="btn btn-link" data-glide-dir="={{ index }}">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+          </button>
 
           {{/projects}}
-        </ul>
-      </div>
-
-      <div class="glide-controls" data-glide-el="controls[nav]">
-        {{#projects}}
-
-        <button class="btn btn-link" data-glide-dir="={{ index }}">
-          <i class="fa fa-circle" aria-hidden="true"></i>
-        </button>
-
-        {{/projects}}
+        </div>
       </div>
     </div>
-  </div>
-
   {{/showProjects}}
 </div>

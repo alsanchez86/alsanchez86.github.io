@@ -13,7 +13,7 @@
     font-weight: 700;
   }
 
-  ul {
+  ul:not(.list-with-points) {
     padding: 0;
   }
 
