@@ -1,0 +1,54 @@
+body.dark-mode {
+  color: $color_white;
+  background-color: $color_black1;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color_white;
+  }
+
+  .main-wrapper {
+    background-color: $color_black1;
+  }
+
+  .intro {
+    ul.social-list {
+      li {
+        a {
+          &.social-list-github {
+            @include link($color_white, $color_white);
+          }
+
+          &.social-list-linkedin {
+            @include link($color_white, $color_white);
+          }
+
+          &.social-list-twitter {
+            @include link($color_white, $color_white);
+          }
+
+          &.social-list-skype {
+            @include link($color_white, $color_white);
+          }
+
+          &.social-list-email {
+            @include link($color_white, $color_white);
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    color: $color_white;
+    background-color: $color_black1;
+
+    a {
+      @include link($color_white, $color_white);
+    }
+  }
+}

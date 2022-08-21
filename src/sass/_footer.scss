@@ -13,14 +13,3 @@
     }
   }
 }
-
-body.dark-mode {
-  .footer {
-    color: $color_white;
-    background-color: $color_black2;
-
-    a {
-      @include link($color_white, $color_white);
-    }
-  }
-}

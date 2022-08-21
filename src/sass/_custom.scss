@@ -137,24 +137,6 @@ h2.section-title {
   overflow: hidden;
 }
 
-body.dark-mode {
-  color: $color_white;
-  background-color: $color_black1;
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $color_white;
-  }
-
-  .main-wrapper {
-    background-color: $color_black1;
-  }
-}
-
 @include media-breakpoint-down(lg) {
 }
 

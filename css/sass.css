@@ -6421,19 +6421,6 @@ h2.section-title {
 .hidden {
   overflow: hidden; }
 
-body.dark-mode {
-  color: #fff;
-  background-color: #111; }
-  body.dark-mode h1,
-  body.dark-mode h2,
-  body.dark-mode h3,
-  body.dark-mode h4,
-  body.dark-mode h5,
-  body.dark-mode h6 {
-    color: #fff; }
-  body.dark-mode .main-wrapper {
-    background-color: #111; }
-
 @media (max-width: 991.98px) {
   body {
     font-size: 15px; }
@@ -6568,18 +6555,6 @@ a.project-item {
       background-color: transparent; }
     .footer a i {
       font-size: 22px; }
-
-body.dark-mode .footer {
-  color: #fff;
-  background-color: #000; }
-  body.dark-mode .footer a {
-    color: #fff;
-    text-decoration: none;
-    background-color: transparent; }
-    body.dark-mode .footer a:hover, body.dark-mode .footer a:focus, body.dark-mode .footer a.active, body.dark-mode .footer a:active {
-      color: #fff;
-      text-decoration: none;
-      background-color: transparent; }
 
 .controls {
   padding: 1rem 0 0 0;
@@ -6842,3 +6817,67 @@ body.dark-mode .footer {
   .education-item h4 {
     margin: 0;
     line-height: 1.8em; }
+
+body.dark-mode {
+  color: #fff;
+  background-color: #111; }
+  body.dark-mode h1,
+  body.dark-mode h2,
+  body.dark-mode h3,
+  body.dark-mode h4,
+  body.dark-mode h5,
+  body.dark-mode h6 {
+    color: #fff; }
+  body.dark-mode .main-wrapper {
+    background-color: #111; }
+  body.dark-mode .intro ul.social-list li a.social-list-github {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent; }
+    body.dark-mode .intro ul.social-list li a.social-list-github:hover, body.dark-mode .intro ul.social-list li a.social-list-github:focus, body.dark-mode .intro ul.social-list li a.social-list-github.active, body.dark-mode .intro ul.social-list li a.social-list-github:active {
+      color: #fff;
+      text-decoration: none;
+      background-color: transparent; }
+  body.dark-mode .intro ul.social-list li a.social-list-linkedin {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent; }
+    body.dark-mode .intro ul.social-list li a.social-list-linkedin:hover, body.dark-mode .intro ul.social-list li a.social-list-linkedin:focus, body.dark-mode .intro ul.social-list li a.social-list-linkedin.active, body.dark-mode .intro ul.social-list li a.social-list-linkedin:active {
+      color: #fff;
+      text-decoration: none;
+      background-color: transparent; }
+  body.dark-mode .intro ul.social-list li a.social-list-twitter {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent; }
+    body.dark-mode .intro ul.social-list li a.social-list-twitter:hover, body.dark-mode .intro ul.social-list li a.social-list-twitter:focus, body.dark-mode .intro ul.social-list li a.social-list-twitter.active, body.dark-mode .intro ul.social-list li a.social-list-twitter:active {
+      color: #fff;
+      text-decoration: none;
+      background-color: transparent; }
+  body.dark-mode .intro ul.social-list li a.social-list-skype {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent; }
+    body.dark-mode .intro ul.social-list li a.social-list-skype:hover, body.dark-mode .intro ul.social-list li a.social-list-skype:focus, body.dark-mode .intro ul.social-list li a.social-list-skype.active, body.dark-mode .intro ul.social-list li a.social-list-skype:active {
+      color: #fff;
+      text-decoration: none;
+      background-color: transparent; }
+  body.dark-mode .intro ul.social-list li a.social-list-email {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent; }
+    body.dark-mode .intro ul.social-list li a.social-list-email:hover, body.dark-mode .intro ul.social-list li a.social-list-email:focus, body.dark-mode .intro ul.social-list li a.social-list-email.active, body.dark-mode .intro ul.social-list li a.social-list-email:active {
+      color: #fff;
+      text-decoration: none;
+      background-color: transparent; }
+  body.dark-mode .footer {
+    color: #fff;
+    background-color: #111; }
+    body.dark-mode .footer a {
+      color: #fff;
+      text-decoration: none;
+      background-color: transparent; }
+      body.dark-mode .footer a:hover, body.dark-mode .footer a:focus, body.dark-mode .footer a.active, body.dark-mode .footer a:active {
+        color: #fff;
+        text-decoration: none;
+        background-color: transparent; }
