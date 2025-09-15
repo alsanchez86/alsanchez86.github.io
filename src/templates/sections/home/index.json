@@ -1412,7 +1412,7 @@
     {
       "id": "existo",
       "name": "Existo Diseño Web",
-      "date": "Junio de 2012 - Octubre de 2014.",
+      "date": "{{ existoDate }}",
       "city": {
         "name": "Alcalá de Guadaíra, Sevilla, España.",
         "link": "https://goo.gl/maps/XNdPw5qd7rKC487H6"
@@ -1427,16 +1427,16 @@
           "image_name": "companies/existo.jpg"
         }
       ],
-      "position": "Fullstack developer.",
+      "position": "{{ existoPosition }}",
       "functions": [
         {
-          "name": "Desarrollador de múltiples portales web corporativos y tiendas online (e-commerce)."
+          "name": "{{ existoFunctions0 }}"
         },
         {
-          "name": "Encargado del desarrollo del CMS propío de la empresa (e-conecta)."
+          "name": "{{ existoFunctions1 }}"
         },
         {
-          "name": "Técnico de soporte con e-conecta."
+          "name": "{{ existoFunctions2 }}"
         }
       ],
       "showProjects": true,
@@ -1444,42 +1444,42 @@
       "projects": [
         {
           "index": 0,
-          "name": "Portal web Centro BTT Nevada",
+          "name": "{{ existoProjects0 }}",
           "link": "http://sanchezpizarro.com/portfolio/centro-btt-nevada",
           "target": "_self",
           "background": "../src/img/projects/centro-btt-nevada/preview.jpg"
         },
         {
           "index": 1,
-          "name": "Web corporativa Grupo Hispasat",
+          "name": "{{ existoProjects1 }}",
           "link": "http://www.hispasat.com/",
           "target": "_blank",
           "background": "../src/img/projects/hispasat/preview.jpg"
         },
         {
           "index": 2,
-          "name": "Web corporativa Mercer Hoteles Barcelona",
+          "name": "{{ existoProjects2 }}",
           "link": "http://www.mercerbarcelona.com/",
           "target": "_blank",
           "background": "../src/img/projects/mercer/preview.jpg"
         },
         {
           "index": 3,
-          "name": "Tienda online Tramas + Malbatex",
+          "name": "{{ existoProjects3 }}",
           "link": "http://www.tramasmas.com/",
           "target": "_blank",
           "background": "../src/img/projects/tramasmas/preview.jpg"
         },
         {
           "index": 5,
-          "name": "Web corporativa Planvalore Avales Inmobiliarios, S.A.",
+          "name": "{{ existoProjects4 }}",
           "link": "http://www.planvalore.com/",
           "target": "_blank",
           "background": "../src/img/projects/planvalore/preview.jpg"
         },
         {
           "index": 6,
-          "name": "Web corporativa Fourup",
+          "name": "{{ existoProjects5 }}",
           "link": "http://www.fourup.es/",
           "target": "_blank",
           "background": "../src/img/projects/fourup/preview.jpg"
