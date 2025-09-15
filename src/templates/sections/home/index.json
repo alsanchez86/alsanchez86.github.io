@@ -16,6 +16,7 @@
   "languagesSpanish": "{{ languagesSpanish }}",
   "languagesEnglish": "{{ languagesEnglish }}",
   "skillsTitle": "{{ skillsTitle }}",
+  "educationTitle": "{{ educationTitle }}",
   "functionalProgramming": "{{ functionalProgramming }}",
   "systems": "{{ systems }}",
   "versionsManagers": "{{ versionsManagers }}",
