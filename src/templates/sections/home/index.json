@@ -1561,7 +1561,7 @@
     {
       "id": "freelance",
       "name": "Freelance",
-      "date": "Febrero de 2012 - Mayo de 2012.",
+      "date": "{{ freelanceDate }}",
       "city": {
         "name": "Sevilla, España.",
         "link": "https://goo.gl/maps/R5TuoYYPKBv5HTdQ6"
@@ -1576,13 +1576,13 @@
           "image_name": "companies/criminologia.png"
         }
       ],
-      "position": "Fullstack developer.",
+      "position": "{{ freelancePosition }}",
       "functions": [
         {
-          "name": "Desarrollo íntegro de la plataforma online para estudiantes del Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla."
+          "name": "{{ freelanceFunctions0 }}"
         },
         {
-          "name": "Desarrollador (Frontend y Backend) de aplicaciones y portales web."
+          "name": "{{ freelanceFunctions1 }}"
         }
       ],
       "showProjects": false,
@@ -1590,7 +1590,7 @@
       "projects": [
         {
           "index": 0,
-          "name": "Instituto Andaluz Interuniversitario de Criminología",
+          "name": "{{ freelanceProjects0 }}",
           "link": "http://www.iaic.us.es/",
           "target": "_blank",
           "background": "../src/img/projects/iaic/preview.jpg"
@@ -1641,7 +1641,7 @@
     {
       "id": "gaesa",
       "name": "Gaesa",
-      "date": "Julio de 2010 - Enero de 2012.",
+      "date": "{{ gaesaDate }}",
       "city": {
         "name": "Sevilla, España.",
         "link": "https://goo.gl/maps/R5TuoYYPKBv5HTdQ6"
@@ -1656,17 +1656,17 @@
           "image_name": "companies/gaesa.jpg"
         }
       ],
-      "position": "Fullstack developer.",
+      "position": "{{ gaesaPosition }}",
       "functions": [
         {
-          "name": "Desarrollador de plataformas web para estudiantes (e-learning) y aplicaciones multimedia desarrolladas con Adobe Flash (ActionScript 3.0)."
+          "name": "{{ gaesaFunctions0 }}"
         }
       ],
       "showProjects": false,
       "showTechs": true,
       "projects": [
         {
-          "name": "-",
+          "name": "{{ gaesaProjects0 }}",
           "link": "",
           "target": "_blank",
           "background": "../src/img/projects/default.jpg"
@@ -1729,20 +1729,20 @@
   "education": [
     {
       "date": "2008 - 2009",
-      "name": "Diseño y Programación Web, Ciencias de la computación.",
-      "location": "CEA. Confederación de Empresarios de Andalucía.",
+      "name": "{{ educationName0 }}",
+      "location": "{{ educationLocation0 }}",
       "city": "Sevilla, España."
     },
     {
       "date": "2007 - 2008",
-      "name": "Diseño Gráfico y Autoedición, Diseño gráfico.",
-      "location": "CEA. Confederación de Empresarios de Andalucía.",
+      "name": "{{ educationName1 }}",
+      "location": "{{ educationLocation1 }}",
       "city": "Sevilla, España."
     },
     {
       "date": "2005 - 2007",
-      "name": "Técnico Superior en Sistemas de Telecomunicación e Informáticos.",
-      "location": "I.E.S Torre de los Herberos.",
+      "name": "{{ educationName2 }}",
+      "location": "{{ educationLocation2 }}",
       "city": "Sevilla, España."
     }
   ]
