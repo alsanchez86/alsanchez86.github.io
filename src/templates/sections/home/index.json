@@ -432,7 +432,7 @@
           "name": "{{ cccFunctions1 }}"
         }
       ],
-      "showProjects": true,
+      "showProjects": false,
       "showTechs": true,
       "projects": [
         {
@@ -614,7 +614,7 @@
           "name": "{{ nttDataFunctions3 }}"
         }
       ],
-      "showProjects": true,
+      "showProjects": false,
       "showTechs": true,
       "projects": [
         {
@@ -1138,7 +1138,7 @@
     {
       "id": "ximdex",
       "name": "Ximdex",
-      "date": "Octubre de 2014 - Marzo de 2017.",
+      "date": "{{ ximdexDate }}",
       "city": {
         "name": "Sevilla, España.",
         "link": "https://goo.gl/maps/FeFb3RnHiqpCrs3F9"
@@ -1153,25 +1153,25 @@
           "image_name": "companies/ximdex.png"
         }
       ],
-      "position": "Fullstack developer. Soporte técnico.",
+      "position": "{{ ximdexPosition }}",
       "functions": [
         {
-          "name": "Desarrollador (programador, maquetador y diseñador) de aplicaciones web."
+          "name": "{{ ximdexFunctions0 }}"
         },
         {
-          "name": "Desarrollador y técnico de soporte con Ximdex CMS."
+          "name": "{{ ximdexFunctions1 }}"
         },
         {
-          "name": "Desarrollo de los distintos módulos de Ximdex CMS: XFIND, XOWL, XLYRE, XRANK."
+          "name": "{{ ximdexFunctions2 }}"
         },
         {
-          "name": "Despliegue de proyectos en producción junto a tareas de test y mantenimiento."
+          "name": "{{ ximdexFunctions3 }}"
         },
         {
-          "name": "Documentación de proyectos."
+          "name": "{{ ximdexFunctions4 }}"
         },
         {
-          "name": "Contacto directo con el cliente mediante soporte técnico."
+          "name": "{{ ximdexFunctions5 }}"
         }
       ],
       "showProjects": true,
@@ -1179,63 +1179,63 @@
       "projects": [
         {
           "index": 0,
-          "name": "Ximdex CMS: CMS semántico basado en tecnología XML",
+          "name": "{{ ximdexProjects0 }}",
           "link": "http://sanchezpizarro.com/portfolio/xcms/",
           "target": "_self",
           "background": "../src/img/projects/xcms/preview.jpg"
         },
         {
           "index": 1,
-          "name": "Demos módulos Ximdex CMS",
+          "name": "{{ ximdexProjects1 }}",
           "link": "http://demo.ximdex.com",
           "target": "_blank",
           "background": "../src/img/projects/demos-ximdex/preview.jpg"
         },
         {
           "index": 2,
-          "name": "XFIND Demo",
+          "name": "{{ ximdexProjects2 }}",
           "link": "http://demo.ximdex.com/xfind/",
           "target": "_blank",
           "background": "../src/img/projects/xfind/preview.jpg"
         },
         {
           "index": 3,
-          "name": "XOWL Demo",
+          "name": "{{ ximdexProjects3 }}",
           "link": "http://sanchezpizarro.com/portfolio/xowl/",
           "target": "_self",
           "background": "../src/img/projects/xowl/preview.jpg"
         },
         {
           "index": 4,
-          "name": "XHAWK Demo",
+          "name": "{{ ximdexProjects4 }}",
           "link": "http://demo.ximdex.com/xhawk/",
           "target": "_blank",
           "background": "../src/img/projects/xhawk/preview.jpg"
         },
         {
           "index": 5,
-          "name": "Web corporativa Open Ximdex Evolution",
+          "name": "{{ ximdexProjects5 }}",
           "link": "http://www.ximdex.com/",
           "target": "_blank",
           "background": "../src/img/projects/web-ximdex/preview.jpg"
         },
         {
           "index": 6,
-          "name": "Portal web AEPD: Agencia Española de Protección de Datos",
+          "name": "{{ ximdexProjects6 }}",
           "link": "http://www.agpd.es/",
           "target": "_blank",
           "background": "../src/img/projects/aepd/preview.jpg"
         },
         {
           "index": 7,
-          "name": "Portal web BRAE: Biblioteca de recursos para el aprendizaje del Español",
+          "name": "{{ ximdexProjects7 }}",
           "link": "http://brae.redhispanistas.es/",
           "target": "_blank",
           "background": "../src/img/projects/brae/preview.jpg"
         },
         {
           "index": 8,
-          "name": "Web corporativa United English Academy",
+          "name": "{{ ximdexProjects8 }}",
           "link": "http://www.unitedenglish.es/",
           "target": "_blank",
           "background": "../src/img/projects/united-english/preview.jpg"

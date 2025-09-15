@@ -29,6 +29,7 @@
   "sevilla": "Sevilla, España.",
   "barcelona": "Barcelona, España.",
   "webPage": "Pagina web.",
+
   "cccDate": "Septiembre 2022 - Actualmente.",
   "cccPosition": "Senior Frontend Architech",
   "cccFunctions0": "Arquitecto Frontend.",
@@ -36,6 +37,7 @@
   "cccProjects0": "(RFEI) Evidences Insight: Plataforma de extracción de datos de documentos científicos y médicos para la generación de informes en tiempo real.",
   "cccProjects1": "(RFTKT) Ticket management: Plataforma de gestion de tickets en tiempo real.",
   "cccProjects2": "(RFSA) Search & Analytics: Buscador semántico enriquecido para el sector farmacéutico.",
+
   "nttDataDate": "Enero 2020 - Agosto 2022.",
   "nttDataPosition": "Frontend Leader Specialist. Center Leader Specialist, CLS.",
   "nttDataFunctions0": "Center Leader Specialist, CLS.",
@@ -45,6 +47,7 @@
   "nttDataProjects0": "(Frontend) EPO: European Patent Office.",
   "nttDataProjects1": "(Frontend) MetAJob. Plataforma Web APP para orientadores y demandantes de empleo.",
   "nttDataProjects2": "(Backend) API Rest Middleware. Proyecto iPasen. Junta de Andalucía.",
+
   "betixDate": "Agosto 2017 - Diciembre 2019.",
   "betixPosition": "Senior frontend developer.",
   "betixFunctions0": "Desarrollador frontend de plataforma web APP de tráfico masivo para venta deventradas al gran publico. Clientes directos: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, etc.",
@@ -58,12 +61,31 @@
   "betixProjects4": "Getafe FC. Plataforma oficial de venta de entradas online",
   "betixProjects5": "Albacete Balompié. Plataforma oficial de venta de entradas online",
   "betixProjects6": "Elche CF. Plataforma oficial de venta de entradas online",
-  "crealogixDate": "Marzo de 2017 - Agosto de 2017.",
+
+  "crealogixDate": "Marzo 2017 - Agosto 2017.",
   "crealogixPosition": "Fullstack developer.",
   "crealogixFunctions0": "Desarrollador (Frontend y Backend) de aplicaciones y portales web.",
   "crealogixFunctions1": "Resolución de incidencias y mantenimiento de proyectos.",
   "crealogixFunctions2": "Encargado del Workflow y gestión de los distintos repositorios Github.",
   "crealogixFunctions3": "Documentación de proyectos.",
   "crealogixProjects0": "Portal corporativo Danone S.A.",
-  "crealogixProjects1": "Web APP FontVella 'Eres Impulso'"
+  "crealogixProjects1": "Web APP FontVella 'Eres Impulso'",
+
+  "ximdexDate": "Octubre 2014 - Marzo 2017.",
+  "ximdexPosition": "Fullstack developer & Soporte técnico",
+  "ximdexFunctions0": "Desarrollador de aplicaciones web. ",
+  "ximdexFunctions1": "Desarrollador y técnico de soporte con Ximdex CMS.",
+  "ximdexFunctions2": "Desarrollo de los distintos módulos de Ximdex CMS: XFIND, XOWL, XLYRE, XRANK.",
+  "ximdexFunctions3": "Despliegue de proyectos en producción junto a tareas de test y mantenimiento.",
+  "ximdexFunctions4": "Documentación de proyectos.",
+  "ximdexFunctions5": "Contacto directo con el cliente mediante soporte técnico.",
+  "ximdexProjects0": "Ximdex CMS: CMS semántico basado en tecnología XML",
+  "ximdexProjects1": "Demos módulos Ximdex CMS",
+  "ximdexProjects2": "XFIND Demo",
+  "ximdexProjects3": "XOWL Demo",
+  "ximdexProjects4": "XHAWK Demo",
+  "ximdexProjects5": "Web corporativa Open Ximdex Evolution",
+  "ximdexProjects6": "Portal web AEPD: Agencia Española de Protección de Datos",
+  "ximdexProjects7": "Portal web BRAE: Biblioteca de recursos para el aprendizaje del Español",
+  "ximdexProjects8": "Web corporativa United English Academy"
 }
