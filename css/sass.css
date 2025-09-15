@@ -6565,21 +6565,19 @@ a.project-item {
   .intro .img-thumbnail {
     padding: 0;
     border: 0; }
-  .intro .name-wrapper {
-    margin-bottom: 30px; }
-    .intro .name-wrapper h1 {
-      margin: 0 0 20px;
-      line-height: 1.25;
-      letter-spacing: 2px;
-      text-transform: uppercase; }
-    .intro .name-wrapper span {
-      font-size: 24px; }
-      .intro .name-wrapper span.position-name {
-        font-size: 19px; }
-    .intro .name-wrapper p {
-      line-height: 30px; }
-    .intro .name-wrapper img.logo-intro {
-      height: 20px; }
+  .intro .name-wrapper h1 {
+    margin: 0 0 20px;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .intro .name-wrapper span {
+    font-size: 24px; }
+    .intro .name-wrapper span.position-name {
+      font-size: 19px; }
+  .intro .name-wrapper p {
+    line-height: 30px; }
+  .intro .name-wrapper img.logo-intro {
+    height: 20px; }
   .intro p.personal-detail {
     margin: 10px 0;
     line-height: 25px; }
