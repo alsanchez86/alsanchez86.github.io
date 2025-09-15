@@ -9,7 +9,7 @@
   "nationalityValue": "Española",
   "languages": "Idiomas",
   "languagesSpanish": "Español (nativo)",
-  "languagesEnglish": "Inglés (B2)",
+  "languagesEnglish": "Inglés (B2+)",
   "skillsTitle": "Conocimientos",
   "educationTitle": "Estudios",
   "functionalProgramming": "Programación funcional",
@@ -29,14 +29,12 @@
   "sevilla": "Sevilla, España.",
   "barcelona": "Barcelona, España.",
   "webPage": "Pagina web.",
-
   "educationName0": "Diseño y Programación Web, Ciencias de la computación.",
   "educationLocation0": "CEA. Confederación de Empresarios de Andalucía.",
   "educationName1": "Diseño Gráfico y Autoedición, Diseño gráfico.",
   "educationLocation1": "CEA. Confederación de Empresarios de Andalucía.",
   "educationName2": "Técnico Superior en Sistemas de Telecomunicación e Informáticos.",
   "educationLocation2": "I.E.S Torre de los Herberos.",
-
   "cccDate": "Septiembre 2022 - Actualmente.",
   "cccPosition": "Senior Frontend Architech.",
   "cccFunctions0": "Arquitecto Frontend.",
@@ -44,7 +42,6 @@
   "cccProjects0": "(RFEI) Evidences Insight: Plataforma de extracción de datos de documentos científicos y médicos para la generación de informes en tiempo real.",
   "cccProjects1": "(RFTKT) Ticket management: Plataforma de gestion de tickets en tiempo real.",
   "cccProjects2": "(RFSA) Search & Analytics: Buscador semántico enriquecido para el sector farmacéutico.",
-
   "nttDataDate": "Enero 2020 - Agosto 2022.",
   "nttDataPosition": "Frontend Leader Specialist. Center Leader Specialist, CLS.",
   "nttDataFunctions0": "Center Leader Specialist, CLS.",
@@ -54,7 +51,6 @@
   "nttDataProjects0": "(Frontend) EPO: European Patent Office.",
   "nttDataProjects1": "(Frontend) MetAJob. Plataforma Web APP para orientadores y demandantes de empleo.",
   "nttDataProjects2": "(Backend) API Rest Middleware. Proyecto iPasen. Junta de Andalucía.",
-
   "betixDate": "Agosto 2017 - Diciembre 2019.",
   "betixPosition": "Senior frontend developer.",
   "betixFunctions0": "Desarrollador frontend de plataforma web APP de tráfico masivo para venta deventradas al gran publico. Clientes directos: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, etc.",
@@ -68,7 +64,6 @@
   "betixProjects4": "Getafe FC. Plataforma oficial de venta de entradas online",
   "betixProjects5": "Albacete Balompié. Plataforma oficial de venta de entradas online",
   "betixProjects6": "Elche CF. Plataforma oficial de venta de entradas online",
-
   "crealogixDate": "Marzo 2017 - Agosto 2017.",
   "crealogixPosition": "Fullstack developer.",
   "crealogixFunctions0": "Desarrollador (Frontend y Backend) de aplicaciones y portales web.",
@@ -77,7 +72,6 @@
   "crealogixFunctions3": "Documentación de proyectos.",
   "crealogixProjects0": "Portal corporativo Danone S.A.",
   "crealogixProjects1": "Web APP FontVella 'Eres Impulso'.",
-
   "ximdexDate": "Octubre 2014 - Marzo 2017.",
   "ximdexPosition": "Fullstack developer & Soporte técnico",
   "ximdexFunctions0": "Desarrollador de aplicaciones web.",
@@ -95,7 +89,6 @@
   "ximdexProjects6": "Portal web AEPD: Agencia Española de Protección de Datos.",
   "ximdexProjects7": "Portal web BRAE: Biblioteca de recursos para el aprendizaje del Español.",
   "ximdexProjects8": "Web corporativa United English Academy.",
-
   "existoDate": "Junio 2012 - Octubre 2014.",
   "existoPosition": "Fullstack developer.",
   "existoFunctions0": "Desarrollador de múltiples portales web corporativos y tiendas online (e-commerce).",
@@ -107,13 +100,11 @@
   "existoProjects3": "Tienda online Tramas + Malbatex.",
   "existoProjects4": "Web corporativa Planvalore Avales Inmobiliarios, S.A.",
   "existoProjects5": "Web corporativa Fourup.",
-
   "freelanceDate": "Febrero 2012 - Mayo 2012.",
   "freelancePosition": "Fullstack developer.",
   "freelanceFunctions0": "Desarrollo íntegro de la plataforma online para estudiantes del Instituto Andaluz Interuniversitario de Criminología, Universidad de Sevilla.",
   "freelanceFunctions1": "Desarrollador (Frontend y Backend) de aplicaciones y portales web.",
   "freelanceProjects0": "Universidad de Sevilla.",
-
   "gaesaDate": "Julio 2010 - Enero 2012.",
   "gaesaPosition": "Fullstack developer.",
   "gaesaFunctions0": "Desarrollador de plataformas web para estudiantes (e-learning) y aplicaciones multimedia desarrolladas con Adobe Flash (ActionScript 3.0).",

@@ -9,7 +9,7 @@
   "nationalityValue": "Spanish",
   "languages": "Languages",
   "languagesSpanish": "Spanish (native)",
-  "languagesEnglish": "English (B2)",
+  "languagesEnglish": "English (B2+)",
   "skillsTitle": "Skills",
   "educationTitle": "Education",
   "functionalProgramming": "Functional programming",
@@ -29,14 +29,12 @@
   "sevilla": "Seville, Spain.",
   "barcelona": "Barcelona, Spain.",
   "webPage": "Web page.",
-
   "educationName0": "Web Design and Programming, Computer Science.",
   "educationLocation0": "CEA. Andalusian Business Confederation.",
   "educationName1": "Graphic Design and Desktop Publishing, Graphic Design.",
   "educationLocation1": "CEA. Andalusian Business Confederation.",
   "educationName2": "Higher Technician in Telecommunications and Computer Systems.",
   "educationLocation2": "I.E.S Torre de los Herberos.",
-
   "cccDate": "September 2022 - Currently.",
   "cccPosition": "Senior Frontend Architech.",
   "cccFunctions0": "Frontend Architech.",
@@ -44,7 +42,6 @@
   "cccProjects0": "(RFEI) Evidences Insight: Data extraction platform for scientific and medical documents for real-time reporting.",
   "cccProjects1": "(RFTKT) Ticket management: Real-time ticket management platform.",
   "cccProjects2": "(RFSA) Search & Analytics: Rich semantic search engine for the pharmaceutical sector.",
-
   "nttDataDate": "January 2020 - August 2022.",
   "nttDataPosition": "Frontend Leader Specialist. Center Leader Specialist, CLS.",
   "nttDataFunctions0": "Center Leader Specialist, CLS.",
@@ -54,7 +51,6 @@
   "nttDataProjects0": "(Frontend) EPO: European Patent Office.",
   "nttDataProjects1": "(Frontend) MetAJob. Web app platform for job seekers and counselors.",
   "nttDataProjects2": "(Backend) REST API Middleware. iPasen Project. Andalusian Regional Government.",
-
   "betixDate": "August 2017 - December 2019.",
   "betixPosition": "Senior frontend developer.",
   "betixFunctions0": "Frontend developer of APP web platform with massive traffic for sale to the general public. Direct clients: FC Barcelona, Real Madrid, At.Madrid, El Corte Inglés, etc.",
@@ -68,7 +64,6 @@
   "betixProjects4": "Getafe FC. Official online ticket sales platform.",
   "betixProjects5": "Albacete Balompié. Official online ticket sales platform.",
   "betixProjects6": "Elche CF. Official online ticket sales platform.",
-
   "crealogixDate": "March 2017 - August 2017.",
   "crealogixPosition": "Fullstack developer.",
   "crealogixFunctions0": "Developer (Frontend and Backend) of applications and web portals.",
@@ -77,7 +72,6 @@
   "crealogixFunctions3": "Project documentation.",
   "crealogixProjects0": "Corporate website Danone S.A.",
   "crealogixProjects1": "Web APP FontVella 'Eres Impulso'.",
-
   "ximdexDate": "October 2014 - March 2017.",
   "ximdexPosition": "Fullstack developer & Technical support",
   "ximdexFunctions0": "Web application developer.",
@@ -95,7 +89,6 @@
   "ximdexProjects6": "AEPD Web Portal: Spanish Data Protection Agency.",
   "ximdexProjects7": "BRAE Web Portal: Library of Resources for Learning Spanish.",
   "ximdexProjects8": "United English Academy Corporate Website.",
-
   "existoDate": "June 2012 - October 2014",
   "existoPosition": "Fullstack developer.",
   "existoFunctions0": "Developer of multiple corporate web portals and online stores (e-commerce).",
@@ -107,13 +100,11 @@
   "existoProjects3": "Tramas + Malbatex Online Store.",
   "existoProjects4": "Planvalore Avales Inmobiliarios, S.A. Corporate Website.",
   "existoProjects5": "Fourup Corporate Website.",
-
   "freelanceDate": "February 2012 - May 2012.",
   "freelancePosition": "Fullstack developer.",
   "freelanceFunctions0": "Full development of the online platform for students of the Andalusian Interuniversity Institute of Criminology, University of Seville.",
   "freelanceFunctions1": "Developer (Frontend and Backend) of web applications and portals.",
   "freelanceProjects0": "University of Seville.",
-
   "gaesaDate": "July 2010 - January 2012.",
   "gaesaPosition": "Fullstack developer.",
   "gaesaFunctions0": "Developer of web platforms for students (e-learning) and multimedia applications developed with Adobe Flash (ActionScript 3.0).",
