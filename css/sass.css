@@ -6711,8 +6711,8 @@ a.project-item {
     transform: translateX(0); } }
 
 .experience-item {
-  padding-bottom: 70px;
-  margin-bottom: 70px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
   border-bottom: 1px solid #eee; }
   .experience-item:last-child {
     border: 0; }
