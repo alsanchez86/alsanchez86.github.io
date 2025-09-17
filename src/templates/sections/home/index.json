@@ -1732,19 +1732,19 @@
       "date": "2008 - 2009",
       "name": "{{ educationName0 }}",
       "location": "{{ educationLocation0 }}",
-      "city": "Sevilla, España."
+      "city": "{{ sevilla }}"
     },
     {
       "date": "2007 - 2008",
       "name": "{{ educationName1 }}",
       "location": "{{ educationLocation1 }}",
-      "city": "Sevilla, España."
+      "city": "{{ sevilla }}"
     },
     {
       "date": "2005 - 2007",
       "name": "{{ educationName2 }}",
       "location": "{{ educationLocation2 }}",
-      "city": "Sevilla, España."
+      "city": "{{ sevilla }}"
     }
   ]
 }
