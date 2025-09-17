@@ -6562,6 +6562,8 @@ a.project-item {
 
 .intro {
   font-size: 14px; }
+  .intro .language-selector {
+    text-align: right; }
   .intro .img-thumbnail {
     padding: 0;
     border: 0; }
