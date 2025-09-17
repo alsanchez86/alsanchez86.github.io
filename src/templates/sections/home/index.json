@@ -29,7 +29,7 @@
   "experienceTitle": "{{ experienceTitle }}",
   "webPage": "{{ webPage }}",
   "positionTitle": "{{ positionTitle }}",
-  "functionsTitle": "{{ functionsTitle }}",
+  "responsabilitiesTitle": "{{ responsabilitiesTitle }}",
   "technologiesTitle": "{{ technologiesTitle }}",
   "featuredProjectsTitle": "{{ featuredProjectsTitle }}",
   "skills": {
