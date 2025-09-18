@@ -431,6 +431,9 @@
         },
         {
           "name": "{{ cccFunctions1 }}"
+        },
+        {
+          "name": "{{ cccFunctions2 }}"
         }
       ],
       "showProjects": false,
