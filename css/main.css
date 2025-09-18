@@ -6392,6 +6392,7 @@ ul {
     margin-left: -1em;
     /* Also needed for space (tweak if needed) */ }
 
+b,
 strong {
   font-weight: 700; }
 
