@@ -27,7 +27,7 @@ function readDirs(source) {
 }
 
 /*
- * Css tasks
+ * CSS tasks
  */
 function sassCompile() {
   return gulp
@@ -37,6 +37,10 @@ function sassCompile() {
     .pipe(gulp.dest(pkg.css));
 }
 
+/**
+ * CSS libs.
+ *
+ */
 function cssLibs() {
   return gulp
     .src([
@@ -48,6 +52,10 @@ function cssLibs() {
     .pipe(gulp.dest(pkg.css));
 }
 
+/**
+ * CSS concat.
+ *
+ */
 function cssConcat() {
   return gulp
     .src([pkg.css + 'sass.css', pkg.css + 'lib.css'], { allowEmpty: true })
@@ -55,6 +63,10 @@ function cssConcat() {
     .pipe(gulp.dest(pkg.css));
 }
 
+/**
+ * CSS minify.
+ *
+ */
 function cssMin() {
   return gulp
     .src([pkg.css + 'main.css'])
@@ -72,7 +84,7 @@ function cssMin() {
 }
 
 /*
- * Js tasks
+ * JS tasks
  */
 function jsLibs() {
   return gulp
@@ -86,17 +98,18 @@ function jsLibs() {
     .pipe(gulp.dest(pkg.lib));
 }
 
-/*
- * Template tasks
+/**
+ * Template tasks.
+ *
  */
 function templates(cb) {
   const languages = [
     {
-      id: 'es',
+      id: 'en',
       isRoot: true,
     },
     {
-      id: 'en',
+      id: 'es',
       isRoot: false,
     },
   ];
@@ -121,6 +134,10 @@ function templates(cb) {
   cb();
 }
 
+/**
+ * Compile template.
+ *
+ */
 function compileTemplate({ dir, language, outputDir }) {
   gulp
     .src(dir + 'index.mustache')
