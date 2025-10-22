@@ -1,16 +1,11 @@
-.experience-wrapper {
-  .experience-item {
-    padding-bottom: 0px;
-    margin-bottom: 0;
-  }
-}
-
 .experience-item {
   padding-bottom: 60px;
   margin-bottom: 60px;
   border-bottom: 1px solid #d1e6f6;
 
   &:last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0;
     border: 0;
   }
 
