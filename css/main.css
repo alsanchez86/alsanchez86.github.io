@@ -6652,6 +6652,8 @@ a.project-item {
 
 .skills-item {
   margin-bottom: 75px; }
+  .skills-item:last-child {
+    margin: 0; }
   .skills-item h3 {
     font-size: 12px;
     text-transform: uppercase; }
