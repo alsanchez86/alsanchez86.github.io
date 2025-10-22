@@ -101,6 +101,7 @@
 
 @include media-breakpoint-down(md) {
   .intro-wrapper {
+    .language-selector,
     .name-wrapper {
       text-align: center;
     }
