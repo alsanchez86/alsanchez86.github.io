@@ -1,5 +1,7 @@
-.intro {
+.intro-wrapper {
+  margin-bottom: 40px;
   font-size: 14px;
+  background-color: #fafbfc;
 
   .language-selector {
     text-align: right;
@@ -97,7 +99,7 @@
 }
 
 @include media-breakpoint-down(md) {
-  .intro {
+  .intro-wrapper {
     .name-wrapper {
       text-align: center;
     }

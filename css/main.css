@@ -6400,7 +6400,7 @@ strong {
   background-color: #fff; }
 
 .section-wrapper {
-  margin: 50px 0; }
+  padding: 50px 0; }
 
 h2.section-title {
   margin-bottom: 2.5rem;
@@ -6429,7 +6429,7 @@ h2.section-title {
   body {
     font-size: 15px; }
   .section-wrapper {
-    margin: 40px 0; }
+    padding: 40px 0; }
   h2.section-title {
     margin-bottom: 1.5rem; } }
 
@@ -6564,92 +6564,94 @@ a.project-item {
   padding: 1rem 0 0 0;
   text-align: right; }
 
-.intro {
-  font-size: 14px; }
-  .intro .language-selector {
+.intro-wrapper {
+  margin-bottom: 40px;
+  font-size: 14px;
+  background-color: #fafbfc; }
+  .intro-wrapper .language-selector {
     text-align: right; }
-    .intro .language-selector svg,
-    .intro .language-selector img {
+    .intro-wrapper .language-selector svg,
+    .intro-wrapper .language-selector img {
       max-width: 1.15em;
       max-height: 1.15em; }
-  .intro .img-thumbnail {
+  .intro-wrapper .img-thumbnail {
     padding: 0;
     border: 0; }
-  .intro .name-wrapper h1 {
+  .intro-wrapper .name-wrapper h1 {
     margin: 0 0 20px;
     line-height: 1.25;
     letter-spacing: 2px;
     text-transform: uppercase; }
-  .intro .name-wrapper span {
+  .intro-wrapper .name-wrapper span {
     font-size: 24px; }
-    .intro .name-wrapper span.position-name {
+    .intro-wrapper .name-wrapper span.position-name {
       font-size: 19px; }
-  .intro .name-wrapper p {
+  .intro-wrapper .name-wrapper p {
     line-height: 30px; }
-  .intro .name-wrapper img.logo-intro {
+  .intro-wrapper .name-wrapper img.logo-intro {
     height: 20px; }
-  .intro p.personal-detail {
+  .intro-wrapper p.personal-detail {
     margin: 10px 0;
     line-height: 25px; }
-    .intro p.personal-detail strong {
+    .intro-wrapper p.personal-detail strong {
       font-size: 13px; }
-    .intro p.personal-detail small {
+    .intro-wrapper p.personal-detail small {
       font-size: 12px; }
-  .intro ul.social-list {
+  .intro-wrapper ul.social-list {
     margin: 15px 0 10px 0;
     padding: 0;
     display: block;
     text-align: center; }
-    .intro ul.social-list li {
+    .intro-wrapper ul.social-list li {
       display: inline-block;
       margin: 0 15px; }
-      .intro ul.social-list li a {
+      .intro-wrapper ul.social-list li a {
         display: block;
         font-size: 20px;
         line-height: 46px;
         text-align: center;
         border-radius: 2px; }
-        .intro ul.social-list li a.social-list-github {
+        .intro-wrapper ul.social-list li a.social-list-github {
           color: #333;
           text-decoration: none;
           background-color: transparent; }
-          .intro ul.social-list li a.social-list-github:hover, .intro ul.social-list li a.social-list-github:focus, .intro ul.social-list li a.social-list-github.active, .intro ul.social-list li a.social-list-github:active {
+          .intro-wrapper ul.social-list li a.social-list-github:hover, .intro-wrapper ul.social-list li a.social-list-github:focus, .intro-wrapper ul.social-list li a.social-list-github.active, .intro-wrapper ul.social-list li a.social-list-github:active {
             color: #333;
             text-decoration: none;
             background-color: transparent; }
-        .intro ul.social-list li a.social-list-linkedin {
+        .intro-wrapper ul.social-list li a.social-list-linkedin {
           color: #007bb6;
           text-decoration: none;
           background-color: transparent; }
-          .intro ul.social-list li a.social-list-linkedin:hover, .intro ul.social-list li a.social-list-linkedin:focus, .intro ul.social-list li a.social-list-linkedin.active, .intro ul.social-list li a.social-list-linkedin:active {
+          .intro-wrapper ul.social-list li a.social-list-linkedin:hover, .intro-wrapper ul.social-list li a.social-list-linkedin:focus, .intro-wrapper ul.social-list li a.social-list-linkedin.active, .intro-wrapper ul.social-list li a.social-list-linkedin:active {
             color: #007bb6;
             text-decoration: none;
             background-color: transparent; }
-        .intro ul.social-list li a.social-list-twitter {
+        .intro-wrapper ul.social-list li a.social-list-twitter {
           color: #00abf0;
           text-decoration: none;
           background-color: transparent; }
-          .intro ul.social-list li a.social-list-twitter:hover, .intro ul.social-list li a.social-list-twitter:focus, .intro ul.social-list li a.social-list-twitter.active, .intro ul.social-list li a.social-list-twitter:active {
+          .intro-wrapper ul.social-list li a.social-list-twitter:hover, .intro-wrapper ul.social-list li a.social-list-twitter:focus, .intro-wrapper ul.social-list li a.social-list-twitter.active, .intro-wrapper ul.social-list li a.social-list-twitter:active {
             color: #00abf0;
             text-decoration: none;
             background-color: transparent; }
-        .intro ul.social-list li a.social-list-email {
+        .intro-wrapper ul.social-list li a.social-list-email {
           color: #adb5bd;
           text-decoration: none;
           background-color: transparent; }
-          .intro ul.social-list li a.social-list-email:hover, .intro ul.social-list li a.social-list-email:focus, .intro ul.social-list li a.social-list-email.active, .intro ul.social-list li a.social-list-email:active {
+          .intro-wrapper ul.social-list li a.social-list-email:hover, .intro-wrapper ul.social-list li a.social-list-email:focus, .intro-wrapper ul.social-list li a.social-list-email.active, .intro-wrapper ul.social-list li a.social-list-email:active {
             color: #adb5bd;
             text-decoration: none;
             background-color: transparent; }
-  .intro .download-cv {
+  .intro-wrapper .download-cv {
     text-align: center; }
 
 @media (max-width: 991.98px) {
-  .intro .name-wrapper {
+  .intro-wrapper .name-wrapper {
     text-align: center; }
-  .intro ul.social-list {
+  .intro-wrapper ul.social-list {
     margin: 0 0 5px 0; }
-  .intro .download-cv {
+  .intro-wrapper .download-cv {
     margin: 0 0 35px 0; } }
 
 .skills-item {
@@ -6844,43 +6846,43 @@ body.dark-mode {
     color: #fff; }
   body.dark-mode .main-wrapper {
     background-color: #111; }
-  body.dark-mode .intro ul.social-list li a.social-list-github {
+  body.dark-mode .intro-wrapper ul.social-list li a.social-list-github {
     color: #fff;
     text-decoration: none;
     background-color: transparent; }
-    body.dark-mode .intro ul.social-list li a.social-list-github:hover, body.dark-mode .intro ul.social-list li a.social-list-github:focus, body.dark-mode .intro ul.social-list li a.social-list-github.active, body.dark-mode .intro ul.social-list li a.social-list-github:active {
+    body.dark-mode .intro-wrapper ul.social-list li a.social-list-github:hover, body.dark-mode .intro-wrapper ul.social-list li a.social-list-github:focus, body.dark-mode .intro-wrapper ul.social-list li a.social-list-github.active, body.dark-mode .intro-wrapper ul.social-list li a.social-list-github:active {
       color: #fff;
       text-decoration: none;
       background-color: transparent; }
-  body.dark-mode .intro ul.social-list li a.social-list-linkedin {
+  body.dark-mode .intro-wrapper ul.social-list li a.social-list-linkedin {
     color: #fff;
     text-decoration: none;
     background-color: transparent; }
-    body.dark-mode .intro ul.social-list li a.social-list-linkedin:hover, body.dark-mode .intro ul.social-list li a.social-list-linkedin:focus, body.dark-mode .intro ul.social-list li a.social-list-linkedin.active, body.dark-mode .intro ul.social-list li a.social-list-linkedin:active {
+    body.dark-mode .intro-wrapper ul.social-list li a.social-list-linkedin:hover, body.dark-mode .intro-wrapper ul.social-list li a.social-list-linkedin:focus, body.dark-mode .intro-wrapper ul.social-list li a.social-list-linkedin.active, body.dark-mode .intro-wrapper ul.social-list li a.social-list-linkedin:active {
       color: #fff;
       text-decoration: none;
       background-color: transparent; }
-  body.dark-mode .intro ul.social-list li a.social-list-twitter {
+  body.dark-mode .intro-wrapper ul.social-list li a.social-list-twitter {
     color: #fff;
     text-decoration: none;
     background-color: transparent; }
-    body.dark-mode .intro ul.social-list li a.social-list-twitter:hover, body.dark-mode .intro ul.social-list li a.social-list-twitter:focus, body.dark-mode .intro ul.social-list li a.social-list-twitter.active, body.dark-mode .intro ul.social-list li a.social-list-twitter:active {
+    body.dark-mode .intro-wrapper ul.social-list li a.social-list-twitter:hover, body.dark-mode .intro-wrapper ul.social-list li a.social-list-twitter:focus, body.dark-mode .intro-wrapper ul.social-list li a.social-list-twitter.active, body.dark-mode .intro-wrapper ul.social-list li a.social-list-twitter:active {
       color: #fff;
       text-decoration: none;
       background-color: transparent; }
-  body.dark-mode .intro ul.social-list li a.social-list-skype {
+  body.dark-mode .intro-wrapper ul.social-list li a.social-list-skype {
     color: #fff;
     text-decoration: none;
     background-color: transparent; }
-    body.dark-mode .intro ul.social-list li a.social-list-skype:hover, body.dark-mode .intro ul.social-list li a.social-list-skype:focus, body.dark-mode .intro ul.social-list li a.social-list-skype.active, body.dark-mode .intro ul.social-list li a.social-list-skype:active {
+    body.dark-mode .intro-wrapper ul.social-list li a.social-list-skype:hover, body.dark-mode .intro-wrapper ul.social-list li a.social-list-skype:focus, body.dark-mode .intro-wrapper ul.social-list li a.social-list-skype.active, body.dark-mode .intro-wrapper ul.social-list li a.social-list-skype:active {
       color: #fff;
       text-decoration: none;
       background-color: transparent; }
-  body.dark-mode .intro ul.social-list li a.social-list-email {
+  body.dark-mode .intro-wrapper ul.social-list li a.social-list-email {
     color: #fff;
     text-decoration: none;
     background-color: transparent; }
-    body.dark-mode .intro ul.social-list li a.social-list-email:hover, body.dark-mode .intro ul.social-list li a.social-list-email:focus, body.dark-mode .intro ul.social-list li a.social-list-email.active, body.dark-mode .intro ul.social-list li a.social-list-email:active {
+    body.dark-mode .intro-wrapper ul.social-list li a.social-list-email:hover, body.dark-mode .intro-wrapper ul.social-list li a.social-list-email:focus, body.dark-mode .intro-wrapper ul.social-list li a.social-list-email.active, body.dark-mode .intro-wrapper ul.social-list li a.social-list-email:active {
       color: #fff;
       text-decoration: none;
       background-color: transparent; }
