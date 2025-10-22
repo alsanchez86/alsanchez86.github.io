@@ -6570,8 +6570,8 @@ a.project-item {
     text-align: right; }
     .intro .language-selector svg,
     .intro .language-selector img {
-      max-width: 1.5em;
-      max-height: 1.5em; }
+      max-width: 1.15em;
+      max-height: 1.15em; }
   .intro .img-thumbnail {
     padding: 0;
     border: 0; }
