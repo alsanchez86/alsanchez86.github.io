@@ -1,7 +1,7 @@
 .intro-wrapper {
   font-size: 14px;
   background-color: $color_background;
-  border-bottom: 1px solid #7abaeb;
+  border-bottom: 1px solid #c5e6ff;
 
   .language-selector {
     text-align: right;
@@ -22,6 +22,7 @@
     h1 {
       margin: 0 0 20px;
 
+      color: #0023a9;
       line-height: 1.25;
       letter-spacing: 2px;
       text-transform: uppercase;

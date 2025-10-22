@@ -6549,7 +6549,7 @@ a.project-item {
   text-align: center;
   color: #adb5bd;
   background-color: #edf5fd;
-  border-top: 1px solid #d1e6f6; }
+  border-top: 1px solid #c5e6ff; }
   .footer a i {
     font-size: 22px; }
 
@@ -6560,7 +6560,7 @@ a.project-item {
 .intro-wrapper {
   font-size: 14px;
   background-color: #edf5fd;
-  border-bottom: 1px solid #7abaeb; }
+  border-bottom: 1px solid #c5e6ff; }
   .intro-wrapper .language-selector {
     text-align: right; }
     .intro-wrapper .language-selector svg,
@@ -6572,6 +6572,7 @@ a.project-item {
     border: 0; }
   .intro-wrapper .name-wrapper h1 {
     margin: 0 0 20px;
+    color: #0023a9;
     line-height: 1.25;
     letter-spacing: 2px;
     text-transform: uppercase; }
