@@ -6548,7 +6548,8 @@ a.project-item {
   font-size: 12px;
   text-align: center;
   color: #adb5bd;
-  background-color: #edf5fd; }
+  background-color: #edf5fd;
+  border-top: 1px solid #d1e6f6; }
   .footer a i {
     font-size: 22px; }
 
@@ -6712,14 +6713,14 @@ a.project-item {
   100% {
     transform: translateX(0); } }
 
-.experience-wrapper > .experience-item {
+.experience-wrapper .experience-item {
   padding-bottom: 0px;
   margin-bottom: 0; }
 
 .experience-item {
   padding-bottom: 60px;
   margin-bottom: 60px;
-  border-bottom: 1px solid #eee; }
+  border-bottom: 1px solid #d1e6f6; }
   .experience-item:last-child {
     border: 0; }
   .experience-item h3 {
