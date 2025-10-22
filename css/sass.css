@@ -6558,7 +6558,8 @@ a.project-item {
 
 .intro-wrapper {
   font-size: 14px;
-  background-color: #edf5fd; }
+  background-color: #edf5fd;
+  border-bottom: 1px solid #7abaeb; }
   .intro-wrapper .language-selector {
     text-align: right; }
     .intro-wrapper .language-selector svg,
