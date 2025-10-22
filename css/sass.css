@@ -6548,7 +6548,7 @@ a.project-item {
   font-size: 12px;
   text-align: center;
   color: #adb5bd;
-  background-color: #fafbfc; }
+  background-color: #f0f8ff; }
   .footer a {
     color: #adb5bd;
     text-decoration: none;
@@ -6567,7 +6567,7 @@ a.project-item {
 .intro-wrapper {
   margin-bottom: 40px;
   font-size: 14px;
-  background-color: #fafbfc; }
+  background-color: #f0f8ff; }
   .intro-wrapper .language-selector {
     text-align: right; }
     .intro-wrapper .language-selector svg,
@@ -6756,39 +6756,39 @@ a.project-item {
       background-color: #fbbc05; }
     .experience-item .experience-item-batch .experience-item-batch-backend {
       font-weight: 400;
-      color: #fafbfc;
+      color: #f0f8ff;
       background-color: #4285f4; }
     .experience-item .experience-item-batch .experience-item-batch-sistemas {
       font-weight: 400;
-      color: #fafbfc;
+      color: #f0f8ff;
       background-color: #34a853; }
     .experience-item .experience-item-batch .experience-item-batch-versiones {
       font-weight: 400;
-      color: #fafbfc;
+      color: #f0f8ff;
       background-color: crimson; }
     .experience-item .experience-item-batch .experience-item-batch-despliegues {
       font-weight: 400;
-      color: #fafbfc;
+      color: #f0f8ff;
       background-color: #00171f; }
     .experience-item .experience-item-batch .experience-item-batch-dependencias {
       font-weight: 400;
-      color: #fafbfc;
+      color: #f0f8ff;
       background-color: #6b23ae; }
     .experience-item .experience-item-batch .experience-item-batch-ma {
       font-weight: 400;
-      color: #fafbfc;
+      color: #f0f8ff;
       background-color: #f26419; }
     .experience-item .experience-item-batch .experience-item-batch-otros {
       font-weight: 400;
-      color: #fafbfc;
+      color: #f0f8ff;
       background-color: #7fc44b; }
     .experience-item .experience-item-batch .experience-item-batch-accesibilidad {
       font-weight: 400;
-      color: #fafbfc;
+      color: #f0f8ff;
       background-color: #084a62; }
     .experience-item .experience-item-batch .experience-item-batch-design {
       font-weight: 400;
-      color: #fafbfc;
+      color: #f0f8ff;
       background-color: #2d0320; }
   .experience-item a.project-item {
     margin-bottom: 0; }
