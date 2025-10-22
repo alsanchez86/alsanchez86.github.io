@@ -6370,7 +6370,6 @@ p {
 ul,
 ol {
   margin: 0 0 20px 0;
-  padding: 0 0 0 20px;
   line-height: 24px; }
   ul li,
   ol li {
@@ -6378,19 +6377,21 @@ ol {
 
 ul {
   list-style: none; }
-  ul.list-with-points li::before {
-    content: '\2022';
-    /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #adb5bd;
-    /* Change the color */
-    font-weight: bold;
-    /* If you want it to be bold */
-    display: inline-block;
-    /* Needed to add space between the bullet and the text */
-    width: 1em;
-    /* Also needed for space (tweak if needed) */
-    margin-left: -1em;
-    /* Also needed for space (tweak if needed) */ }
+  ul.list-with-points {
+    padding: 0 0 0 20px; }
+    ul.list-with-points li::before {
+      content: '\2022';
+      /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      color: #adb5bd;
+      /* Change the color */
+      font-weight: bold;
+      /* If you want it to be bold */
+      display: inline-block;
+      /* Needed to add space between the bullet and the text */
+      width: 1em;
+      /* Also needed for space (tweak if needed) */
+      margin-left: -1em;
+      /* Also needed for space (tweak if needed) */ }
 
 b,
 strong {
@@ -6729,8 +6730,6 @@ a.project-item {
     margin-bottom: 12px;
     font-size: 17px;
     font-weight: 700; }
-  .experience-item ul:not(.list-with-points) {
-    padding: 0; }
   .experience-item .company-logo {
     max-width: 110px; }
   .experience-item .media {
