@@ -6568,6 +6568,10 @@ a.project-item {
   font-size: 14px; }
   .intro .language-selector {
     text-align: right; }
+    .intro .language-selector > svg,
+    .intro .language-selector > img {
+      max-width: 1.5em;
+      max-height: 1.5em; }
   .intro .img-thumbnail {
     padding: 0;
     border: 0; }
