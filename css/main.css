@@ -8279,8 +8279,6 @@ a.project-item:hover div.project-item-name {
   font-size: 12px;
   text-align: center;
   color: #adb5bd;
-  background-color: #edf5fd;
-  border-top: 1px solid #d9efff;
 }
 .footer a i {
   font-size: 22px;
@@ -8708,17 +8706,13 @@ body.dark-mode .intro-wrapper ul.social-list li a.social-list-email:hover, body.
   text-decoration: none;
   background-color: transparent;
 }
-body.dark-mode .footer {
-  color: #fff;
-  background-color: #111;
-}
 body.dark-mode .footer a {
-  color: #fff;
+  color: #111;
   text-decoration: none;
   background-color: transparent;
 }
 body.dark-mode .footer a:hover, body.dark-mode .footer a:focus, body.dark-mode .footer a.active, body.dark-mode .footer a:active {
-  color: #fff;
+  color: #111;
   text-decoration: none;
   background-color: transparent;
 }

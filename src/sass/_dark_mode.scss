@@ -44,11 +44,8 @@ body.dark-mode {
   }
 
   .footer {
-    color: $color_white;
-    background-color: $color_black1;
-
     a {
-      @include link($color_white, $color_white);
+      @include link($color_black1, $color_black1);
     }
   }
 }
