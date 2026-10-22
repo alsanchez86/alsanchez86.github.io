@@ -1187,7 +1187,7 @@
         {
           "index": 0,
           "name": "{{ ximdexProjects0 }}",
-          "link": "http://sanchezpizarro.com/portfolio/xcms/",
+          "link": "https://www.sanchezpizarro.com/portfolio/xcms/",
           "target": "_self",
           "background": "../src/img/projects/xcms/preview.jpg"
         },
@@ -1208,7 +1208,7 @@
         {
           "index": 3,
           "name": "{{ ximdexProjects3 }}",
-          "link": "http://sanchezpizarro.com/portfolio/xowl/",
+          "link": "https://www.sanchezpizarro.com/portfolio/xowl/",
           "target": "_self",
           "background": "../src/img/projects/xowl/preview.jpg"
         },
@@ -1452,7 +1452,7 @@
         {
           "index": 0,
           "name": "{{ existoProjects0 }}",
-          "link": "http://sanchezpizarro.com/portfolio/centro-btt-nevada",
+          "link": "https://www.sanchezpizarro.com/portfolio/centro-btt-nevada",
           "target": "_self",
           "background": "../src/img/projects/centro-btt-nevada/preview.jpg"
         },
