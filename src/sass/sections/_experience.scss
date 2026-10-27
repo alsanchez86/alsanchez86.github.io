@@ -1,0 +1,90 @@
+.experience-item {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+
+  &:hover {
+    .badge {
+      color: $indigo;
+      background-color: $purple;
+    }
+  }
+
+  &:last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0;
+  }
+
+  .experience-item-header {
+    h3 {
+      margin-bottom: $spacer * 0.8;
+    }
+
+    span {
+      margin-left: 1rem;
+
+      font-size: $font-size-lg;
+    }
+
+    small {
+      margin-left: 1rem;
+
+      font-size: $font-size-sm;
+    }
+  }
+
+  div.experience-description {
+    margin-bottom: $spacer * 1.5;
+
+    p {
+      margin-bottom: $spacer * 0.85;
+      line-height: $line-height-xs;
+    }
+  }
+
+  .experience-item-batch {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .glide--dragging {
+    a.project-item {
+      cursor: grabbing;
+    }
+  }
+
+  .glide-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .btn {
+      font-size: 9px;
+      color: $gray-500;
+
+      &.glide__bullet--active {
+        color: $gray-900;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .experience-item {
+    margin-bottom: 1rem;
+
+    .experience-item-batch {
+      margin-bottom: 1rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .glide-controls {
+      display: none;
+    }
+  }
+}

@@ -1,8 +1,10 @@
 @mixin skills_progress_bar($color: $color) {
   .progress-item {
-    .progress {
-      .progress-bar {
-        background-color: $color;
+    &:hover {
+      .progress {
+        .progress-bar {
+          border-color: $color;
+        }
       }
     }
   }

@@ -1,9 +1,29 @@
 .main-nav {
-  color: $color_white;
-  background-color: $color_black;
+  backdrop-filter: blur(45px);
+  -webkit-backdrop-filter: blur(45px);
+  border-bottom: 1px dashed $gray-200;
 
-  .navbar {
-    justify-content: flex-end;
+  &.navbar {
+    padding: 1.25rem 0;
+
+    .navbar-nav {
+      margin: 0 0.75rem;
+    }
+
+    .nav-item {
+      margin: 0 0.5rem;
+
+      .nav-link {
+        font-family: $geist-mono;
+        font-size: $font-size-sm;
+      }
+    }
+  }
+
+  .language-selector {
+    .nav-item {
+      margin: 0 0.25rem;
+    }
   }
 }
 

@@ -1,0 +1,45 @@
+.intro-wrapper {
+  padding-top: 9rem;
+
+  .name-wrapper {
+    margin: 0 0 2.5rem;
+
+    h1 {
+      margin-bottom: 0.25rem;
+
+      letter-spacing: 0.15rem;
+    }
+
+    h2 {
+      font-size: $font-size-base * 1.5;
+      letter-spacing: 0.1rem;
+    }
+  }
+
+  .personal-detail {
+    line-height: $line-height-sm;
+
+    p {
+      margin: 0;
+    }
+
+    h3 {
+      margin-bottom: 0.5rem;
+
+      font-family: $font-family-base;
+      font-size: $font-size-sm;
+      font-weight: $font-weight-bold;
+      font-style: inherit;
+      text-transform: uppercase;
+      color: $body-color;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .intro-wrapper {
+    .name-wrapper {
+      text-align: center;
+    }
+  }
+}

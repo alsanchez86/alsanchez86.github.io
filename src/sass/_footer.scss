@@ -1,12 +1,7 @@
 .footer {
-  padding: 45px 0 100px;
-  font-size: 12px;
-  text-align: center;
-  color: $color_gray;
+  padding: 2rem 0 9rem;
 
-  a {
-    i {
-      font-size: 22px;
-    }
-  }
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+  color: $gray-600;
 }

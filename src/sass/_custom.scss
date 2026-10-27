@@ -1,14 +1,9 @@
-body {
-  font-family: $open;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 28px;
-  color: $color_text;
-  background-color: $color_white;
+::selection {
+  background-color: $purple;
 }
 
-textarea {
-  resize: none;
+::-moz-selection {
+  background-color: $purple;
 }
 
 h1,
@@ -17,67 +12,26 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 15px;
-
-  font-family: $inter;
-  line-height: 1em;
-  color: $color_black;
-}
-
-h1 {
-  font-size: 42px;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: 700;
-}
-
-h4 {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-h5 {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-h6 {
-  font-size: 16px;
-  font-weight: 500;
+  font-style: italic;
 }
 
 a {
-  color: $color_link;
-  text-decoration: none;
   outline: none;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-
-  &:focus,
-  &:hover {
-    color: $color_link;
-  }
+  -webkit-transition: $transition-base;
+  -moz-transition: $transition-base;
+  -o-transition: $transition-base;
+  transition: $transition-base;
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 1.75rem;
 }
 
 ul,
 ol {
   padding: 0;
   margin: 0 0 20px 0;
-  line-height: 24px;
+  line-height: $line-height-sm;
 
   li {
     margin-bottom: 5px;
@@ -92,8 +46,8 @@ ul {
 
     li::before {
       content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-      color: $color_gray; /* Change the color */
-      font-weight: bold; /* If you want it to be bold */
+      color: $gray-500; /* Change the color */
+      font-weight: 700; /* If you want it to be bold */
       display: inline-block; /* Needed to add space between the bullet and the text */
       width: 1em; /* Also needed for space (tweak if needed) */
       margin-left: -1em; /* Also needed for space (tweak if needed) */
@@ -101,37 +55,41 @@ ul {
   }
 }
 
+textarea {
+  resize: none;
+}
+
 b,
 strong {
   font-weight: 700;
 }
 
-.main-wrapper {
-  background-color: $color_white;
+.container-narrow {
+  @media (min-width: 992px) {
+    max-width: $container-narrow-width;
+  }
+}
+
+.wrapper-wave {
+  width: 100%;
+  margin: 0 0 1rem;
+  overflow: hidden;
+
+  svg {
+    display: block;
+    flex-shrink: 0;
+    min-width: $container-narrow-width * 2;
+    width: 100%;
+    height: 4rem;
+  }
 }
 
 .section-wrapper {
-  padding: 35px 0;
+  padding: 3rem 0;
 }
 
 h2.section-title {
-  margin-bottom: 2rem;
-
-  font-size: 25px;
-  text-transform: uppercase;
-}
-
-.navbar {
-  padding: 0.75rem;
-}
-
-.nav-link {
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.navbar-light .navbar-toggler {
-  border-color: transparent;
+  margin-bottom: 1.5rem;
 }
 
 .with-loader {
@@ -140,7 +98,7 @@ h2.section-title {
   background-position: center center;
 }
 
-.hidden {
+.overflow-hidden {
   overflow: hidden;
 }
 
@@ -149,26 +107,26 @@ h2.section-title {
 
 @include media-breakpoint-down(md) {
   body {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .section-wrapper {
-    padding: 30px 0;
+    padding: 1rem 0;
   }
 
   h2.section-title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
 }
 
 @include media-breakpoint-down(sm) {
   h2.section-title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
 }
 
 @include media-breakpoint-down(xs) {
   h2.section-title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
 }

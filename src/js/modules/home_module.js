@@ -11,7 +11,7 @@ define(['module', 'jquery_cache_module', 'glide'], function (
    */
   module.exports.run = function () {
     animateProgressAll();
-    initSliders();
+    // initSliders();
     initSwitchControl();
   };
 

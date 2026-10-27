@@ -1,21 +1,24 @@
 // Basics
 @import 'basics';
+
 // Bootstrap
 @import 'bootstrap_components';
 @import 'bootstrap_customize';
+
 // Custom
 @import 'custom';
 @import 'project_item';
+
 // Partials
 @import 'preloader';
 @import 'main_nav';
 @import 'footer';
+
 // Sections
-// Home
-@import 'home/main';
-@import 'home/intro';
-@import 'home/skills';
-@import 'home/experience';
-@import 'home/education';
-// Dark mode
-@import 'dark_mode';
+@import 'sections/intro';
+@import 'sections/skills';
+@import 'sections/experience';
+@import 'sections/education';
+
+// Components
+@import 'components/social_links';

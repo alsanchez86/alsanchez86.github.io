@@ -1,0 +1,14 @@
+.social-links {
+  text-align: right;
+
+  a {
+    display: inline-block;
+    margin: 0 1rem;
+
+    color: $gray-500;
+
+    &:hover {
+      color: $gray-600;
+    }
+  }
+}

@@ -45,7 +45,6 @@ function sassCompile() {
 function cssLibs() {
   return gulp
     .src([
-      pkg.node_modules + 'font-awesome/css/font-awesome.css',
       pkg.node_modules + '@glidejs/glide/dist/css/glide.core.min.css',
       pkg.node_modules + 'bootstrap4-toggle/css/bootstrap4-toggle.min.css',
     ])
@@ -114,9 +113,7 @@ function templates(cb) {
       isRoot: false,
     },
   ];
-  const root = ['.', 'src', 'templates', 'sections', 'home']
-    .join('/')
-    .concat('/');
+  const root = ['.', 'src', 'templates', 'sections'].join('/').concat('/');
   const dirs = readDirs(root);
 
   dirs.push(root); // push root index

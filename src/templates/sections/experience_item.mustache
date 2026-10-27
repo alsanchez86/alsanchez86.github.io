@@ -1,0 +1,28 @@
+<div class="experience-item">
+  <div class="experience-item-header">
+    {{#company_link}}
+    <h3>
+      <a href="{{ link }}" target="_blank">
+        {{ name }}
+      </a>
+
+      <span>{{ position }}</span>
+      <small>{{ date }}, {{ city }}</small>
+    </h3>
+    {{/company_link}}
+  </div>
+
+  <div class="experience-description">
+    {{ description }}
+  </div>
+
+  {{#showTechs}}
+  <div class="experience-item-batch">
+    {{#techs}}
+    {{#items}}
+    <span class="badge experience-item-batch-{{ type }}">{{ name }}</span>
+    {{/items}}
+    {{/techs}}
+  </div>
+  {{/showTechs}}
+</div>
