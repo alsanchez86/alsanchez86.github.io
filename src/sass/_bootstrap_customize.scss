@@ -8,7 +8,7 @@
     transparent 270deg 360deg
   );
   background-size: 8px 8px; /* cada cuadro individual mide 4px x 4px */
-  color: $white;
+  color: $gray-200;
   transition: $transition-base;
   text-transform: uppercase;
   border: 0;
@@ -20,7 +20,11 @@
   cursor: default;
 
   &:hover {
-    color: $indigo;
-    background-color: $purple;
+    color: theme-color('primary');
+    background-color: theme-color('secondary');
   }
+}
+
+.form-group {
+  border-top: 1px dashed $gray-200;
 }

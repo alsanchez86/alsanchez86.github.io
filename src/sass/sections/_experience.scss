@@ -1,11 +1,10 @@
 .experience-item {
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 
   &:hover {
     .badge {
-      color: $indigo;
-      background-color: $purple;
+      color: theme-color('primary');
+      background-color: theme-color('secondary');
     }
   }
 
@@ -15,20 +14,12 @@
   }
 
   .experience-item-header {
-    h3 {
-      margin-bottom: $spacer * 0.8;
-    }
-
-    span {
-      margin-left: 1rem;
-
+    p {
       font-size: $font-size-lg;
-    }
 
-    small {
-      margin-left: 1rem;
-
-      font-size: $font-size-sm;
+      small {
+        font-size: $font-size-sm;
+      }
     }
   }
 
@@ -36,7 +27,8 @@
     margin-bottom: $spacer * 1.5;
 
     p {
-      margin-bottom: $spacer * 0.85;
+      margin-bottom: $spacer * 0.875;
+
       line-height: $line-height-xs;
     }
   }
@@ -46,27 +38,6 @@
 
     &:last-child {
       margin-bottom: 0;
-    }
-  }
-
-  .glide--dragging {
-    a.project-item {
-      cursor: grabbing;
-    }
-  }
-
-  .glide-controls {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    .btn {
-      font-size: 9px;
-      color: $gray-500;
-
-      &.glide__bullet--active {
-        color: $gray-900;
-      }
     }
   }
 }
@@ -81,10 +52,6 @@
       &:last-child {
         margin-bottom: 0;
       }
-    }
-
-    .glide-controls {
-      display: none;
     }
   }
 }

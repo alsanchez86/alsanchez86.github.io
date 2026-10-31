@@ -1,6 +1,7 @@
 $top_name: 80%;
 $delay_name: 0.15s;
 
+// TODO: BORRAME
 a.project-item {
   position: relative;
   display: block;
@@ -44,7 +45,7 @@ a.project-item {
 
     font-size: 11px;
     line-height: 1.5;
-    color: $white;
+    color: $gray-100;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
 

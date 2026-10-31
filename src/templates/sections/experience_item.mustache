@@ -1,28 +1,35 @@
 <div class="experience-item">
-  <div class="experience-item-header">
-    {{#company_link}}
-    <h3>
-      <a href="{{ link }}" target="_blank">
-        {{ name }}
-      </a>
+  <div class="row">
+    <div class="col-9">
+      <div class="experience-item-header">
+        {{#company_link}}
+        <h3>
+          <a href="{{ link }}" target="_blank">
+            {{ name }}
+          </a>
+        </h3>
+        {{/company_link}}
 
-      <span>{{ position }}</span>
-      <small>{{ date }}, {{ city }}</small>
-    </h3>
-    {{/company_link}}
-  </div>
+        <p>
+          {{ position }}
+          <br />
+          <small>{{ date }}. {{ city }}</small>
+        </p>
+      </div>
 
-  <div class="experience-description">
-    {{ description }}
-  </div>
+      <div class="experience-description">
+        {{ description }}
+      </div>
 
-  {{#showTechs}}
-  <div class="experience-item-batch">
-    {{#techs}}
-    {{#items}}
-    <span class="badge experience-item-batch-{{ type }}">{{ name }}</span>
-    {{/items}}
-    {{/techs}}
+      <div class="experience-item-batch">
+        {{#techs}}
+        {{#items}}
+        <span class="badge experience-item-batch-{{ type }}">{{ name }}</span>
+        {{/items}}
+        {{/techs}}
+      </div>
+    </div>
+
+    <div class="col-3"></div>
   </div>
-  {{/showTechs}}
 </div>

@@ -19,8 +19,6 @@ require.config(
         // lib
         jquery: _this.config.lib + 'jquery.min',
         bootstrap: _this.config.lib + 'bootstrap.bundle.min',
-        glide: _this.config.lib + 'glide',
-        bootstrapToggle: _this.config.lib + 'bootstrap4-toggle.min',
         // modules
         jquery_cache_module: _this.config.modules + 'jquery_cache_module',
         main_module: _this.config.modules + 'main_module',
@@ -31,10 +29,6 @@ require.config(
         bootstrap: {
           deps: ['jquery'],
         },
-        bootstrapToggle: {
-          deps: ['bootstrap'],
-        },
-
         // modules
         jquery_cache_module: {
           deps: ['jquery'],
@@ -44,7 +38,7 @@ require.config(
           deps: ['jquery_cache_module'],
         },
         home_module: {
-          deps: ['jquery_cache_module', 'glide', 'bootstrapToggle'],
+          deps: ['jquery_cache_module'],
         },
       },
       callback: _this.callback,

@@ -1,0 +1,61 @@
+<header id="about" class="intro-wrapper section-wrapper">
+  <div class="container container-narrow">
+    <div class="row">
+      <div class="col-lg-4 d-none d-lg-block">
+        <img
+          class="img-fluid"
+          src="{{ img_path }}/profile-picture-bw.png"
+          alt="Ángel Luis Sánchez Pizarro"
+        />
+      </div>
+
+      <div class="col-12 col-lg-8">
+        <div class="name-wrapper">
+          <h1>Ángel Sánchez</h1>
+
+          <h2>
+            {{ title }}
+          </h2>
+        </div>
+
+        {{ description }}
+
+        <div class="row">
+          <div class="col-3">
+            <div class="personal-detail">
+              <h4>{{ dateBirth }}</h4>
+
+              <p>
+                <small>{{ dateBirthValue }}</small>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="personal-detail">
+              <h4>{{ nationality }}</h4>
+
+              <p>
+                <small>{{ nationalityValue }}</small>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="personal-detail">
+              <h4>{{ languages }}</h4>
+
+              <p>
+                <small>{{ languagesEnglish }}</small>
+                <br />
+                <small>{{ languagesSpanish }}</small>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

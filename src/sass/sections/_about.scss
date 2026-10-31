@@ -2,7 +2,7 @@
   padding-top: 9rem;
 
   .name-wrapper {
-    margin: 0 0 2.5rem;
+    margin: 0 0 ($spacer * 2);
 
     h1 {
       margin-bottom: 0.25rem;
@@ -17,21 +17,10 @@
   }
 
   .personal-detail {
-    line-height: $line-height-sm;
+    line-height: $line-height-xs;
 
     p {
       margin: 0;
-    }
-
-    h3 {
-      margin-bottom: 0.5rem;
-
-      font-family: $font-family-base;
-      font-size: $font-size-sm;
-      font-weight: $font-weight-bold;
-      font-style: inherit;
-      text-transform: uppercase;
-      color: $body-color;
     }
   }
 }

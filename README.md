@@ -27,3 +27,9 @@ Code for [www.sanchezpizarro.com](https://www.sanchezpizarro.com)
     - Puedo hacer que se abra un modal por cada badge de tecnologia, no se
 - 2. Añadir los posts de un blog que cree en alguna plataforma para mostrarlos en una sección aparte en mi web sobre programacion
   - Poner aqui el webmcp de ember, etc
+
+TODO:
+
+1. Hacer con IA las secciones de experiencia
+2. Seguir limpiando todo lo que pueda el codigo para facilitar la migracion a Astro
+3. Probar a actualizar a la ultima version de bootstrap

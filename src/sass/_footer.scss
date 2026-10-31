@@ -1,7 +1,21 @@
 .footer {
-  padding: 2rem 0 9rem;
+  padding: ($spacer * 1.25) 0 4rem;
 
-  font-size: $font-size-xs;
+  font-size: $font-size-sm;
   text-transform: uppercase;
   color: $gray-600;
+
+  a {
+    color: $gray-600;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: $spacer * 3;
+    align-items: center;
+  }
+
+  .copyright {
+    font-size: $font-size-xs * 0.9;
+  }
 }
