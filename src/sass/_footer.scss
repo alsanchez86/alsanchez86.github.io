@@ -9,13 +9,8 @@
     color: $gray-600;
   }
 
-  .footer-links {
-    display: flex;
-    gap: $spacer * 3;
-    align-items: center;
-  }
-
   .copyright {
     font-size: $font-size-xs * 0.9;
+    text-align: center;
   }
 }

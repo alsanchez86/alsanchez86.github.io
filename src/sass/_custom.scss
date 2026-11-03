@@ -19,12 +19,7 @@ h6 {
   font-style: italic;
 }
 
-h3 {
-  margin-bottom: $spacer * 0.8;
-}
-
-label,
-h4 {
+label {
   margin-bottom: $spacer * 0.4;
 
   font-family: $font-family-base;
@@ -86,6 +81,17 @@ strong {
   font-weight: 700;
 }
 
+.text-compacted {
+  margin-bottom: $spacer * 0.4;
+
+  font-family: $font-family-base;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+  font-style: inherit;
+  text-transform: uppercase;
+  color: $body-color;
+}
+
 .container-narrow {
   @media (min-width: 992px) {
     max-width: $container-narrow-width;
@@ -130,12 +136,8 @@ h2.section-title {
 }
 
 @include media-breakpoint-down(md) {
-  body {
-    font-size: 12px;
-  }
-
   .section-wrapper {
-    padding: 1rem 0;
+    padding: 0.75rem 0;
   }
 
   h2.section-title {

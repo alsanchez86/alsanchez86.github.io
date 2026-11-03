@@ -1,50 +1,54 @@
 .experience-item {
-  margin-bottom: 5rem;
+  margin-bottom: $spacer * 5.5;
 
-  &:hover {
-    .badge {
-      color: theme-color('primary');
-      background-color: theme-color('secondary');
-    }
-  }
-
-  &:last-child {
-    padding-bottom: 0px;
-    margin-bottom: 0;
-  }
-
-  .experience-item-header {
-    p {
-      font-size: $font-size-lg;
-
-      small {
-        font-size: $font-size-sm;
+  .experience-item-body {
+    &:hover {
+      .badge {
+        color: theme-color('primary');
+        background-color: theme-color('secondary');
       }
     }
-  }
-
-  div.experience-description {
-    margin-bottom: $spacer * 1.5;
-
-    p {
-      margin-bottom: $spacer * 0.875;
-
-      line-height: $line-height-xs;
-    }
-  }
-
-  .experience-item-batch {
-    margin-bottom: 2rem;
 
     &:last-child {
+      padding-bottom: 0px;
       margin-bottom: 0;
+    }
+
+    .experience-item-header {
+      margin-bottom: $spacer * 1.5;
+
+      p {
+        font-size: $font-size-lg;
+
+        small {
+          font-size: $font-size-sm;
+        }
+      }
+    }
+
+    .experience-description {
+      margin-bottom: $spacer * 1.5;
+
+      p {
+        margin-bottom: $spacer * 0.875;
+
+        line-height: $line-height-xs;
+      }
+    }
+
+    .experience-item-batch {
+      margin-bottom: 2rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
 
 @include media-breakpoint-down(sm) {
   .experience-item {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 
     .experience-item-batch {
       margin-bottom: 1rem;

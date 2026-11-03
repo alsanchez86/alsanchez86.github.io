@@ -1,7 +1,5 @@
 .main-nav {
-  backdrop-filter: blur(45px);
-  -webkit-backdrop-filter: blur(45px);
-  border-bottom: 1px dashed $gray-200;
+  @include blur(4rem);
 
   &.navbar {
     padding: 1.25rem 0;
@@ -29,10 +27,8 @@
 
 @include media-breakpoint-down(md) {
   .main-nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+    &.navbar {
+      padding: 0.75rem 0;
+    }
   }
 }
