@@ -1,5 +1,4 @@
-.btn {
-  font-size: $font-size-sm;
+.btn-primary {
   background-color: $gray-600;
   background-image: conic-gradient(
     rgba(255, 255, 255, 0.06) 0deg 90deg,
@@ -7,11 +6,8 @@
     rgba(255, 255, 255, 0.06) 180deg 270deg,
     transparent 270deg 360deg
   );
-  background-size: 8px 8px; /* cada cuadro individual mide 4px x 4px */
-  color: $gray-200;
+  background-size: 8px 8px;
   transition: $transition-base;
-  text-transform: uppercase;
-  border: 0;
 }
 
 .badge {

@@ -1,6 +1,10 @@
 .experience-item {
   margin-bottom: $spacer * 5.5;
 
+  &:last-child {
+    margin-bottom: 0;
+  }
+
   .experience-item-body {
     &:hover {
       .badge {
@@ -27,10 +31,10 @@
     }
 
     .experience-description {
-      margin-bottom: $spacer * 1.5;
+      margin-bottom: $spacer * 1.25;
 
       p {
-        margin-bottom: $spacer * 0.875;
+        margin-bottom: $spacer * 0.95;
 
         line-height: $line-height-xs;
       }
@@ -48,7 +52,7 @@
 
 @include media-breakpoint-down(sm) {
   .experience-item {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 
     .experience-item-batch {
       margin-bottom: 1rem;

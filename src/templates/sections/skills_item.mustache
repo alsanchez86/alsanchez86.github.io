@@ -1,11 +1,7 @@
 <div class="progress-item">
-  <div class="progress-item-icon">{{{ icon }}}</div>
-
-  <div class="progress-title">
+  <div class="progress-header">
+    <span class="progress-icon">{{{ icon }}}</span>
     <span class="progress-name">{{ name }}</span>
-    <small class="progress-value" style="left: {{ value }}%"
-      >{{ value }}%</small
-    >
   </div>
 
   <div class="progress">
@@ -16,6 +12,8 @@
       aria-valuemin="0"
       aria-valuemax="100"
       style="width: {{ value }}%"
-    ></div>
+    >
+      <small class="progress-value">{{ value }}%</small>
+    </div>
   </div>
 </div>
