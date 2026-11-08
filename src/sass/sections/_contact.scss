@@ -1,3 +1,10 @@
+.contact-form {
+  .alert {
+    margin-bottom: $form-group-margin-bottom;
+    font-size: $font-size-sm;
+  }
+}
+
 .contact-download-cv {
   margin-bottom: $spacer * 0.875;
 }

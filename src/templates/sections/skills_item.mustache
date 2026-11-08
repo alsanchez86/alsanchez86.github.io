@@ -1,4 +1,11 @@
-<div class="progress-item">
+<div
+  class="progress-item"
+  role="button"
+  aria-expanded="false"
+  aria-controls="collapse-{{ index }}"
+  data-toggle="collapse"
+  data-target="#collapse-{{ index }}"
+>
   <div class="progress-header">
     <span class="progress-icon">{{{ icon }}}</span>
     <span class="progress-name">{{ name }}</span>
@@ -15,5 +22,11 @@
     >
       <small class="progress-value">{{ value }}%</small>
     </div>
+  </div>
+</div>
+
+<div id="collapse-{{ index }}" class="collapse progress-item-collapse">
+  <div class="card card-body">
+    {{ name }}
   </div>
 </div>

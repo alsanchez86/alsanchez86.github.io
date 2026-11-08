@@ -1727,7 +1727,7 @@ textarea.form-control {
 }
 
 .form-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .form-text {
@@ -2046,7 +2046,7 @@ textarea.form-control {
   box-shadow: 0 0 0 0.2rem rgba(102, 16, 242, 0.25);
 }
 .btn.disabled, .btn:disabled {
-  opacity: 0.65;
+  opacity: 0.5;
 }
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
@@ -7996,11 +7996,20 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+button:focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
 .btn-primary {
   background-color: #6c757d;
   background-image: conic-gradient(rgba(255, 255, 255, 0.06) 0deg 90deg, transparent 90deg 180deg, rgba(255, 255, 255, 0.06) 180deg 270deg, transparent 270deg 360deg);
   background-size: 8px 8px;
   transition: all 0.15s ease-in-out;
+}
+.btn-primary[disabled] {
+  background-color: #6c757d;
 }
 
 .badge {
@@ -8015,6 +8024,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .form-group {
   border-top: 1px dashed #e9ecef;
+}
+
+.alert.alert-danger a {
+  color: #dc3545;
+}
+.alert.alert-success a {
+  color: #28a745;
 }
 
 ::selection {
@@ -8088,6 +8104,10 @@ strong {
   font-weight: 700;
 }
 
+[role=button] {
+  cursor: pointer;
+}
+
 .text-compacted {
   margin-bottom: 0.4rem;
   font-family: "Geist Mono", monospace;
@@ -8124,6 +8144,7 @@ strong {
 
 h2.section-title {
   margin-bottom: 1.5rem;
+  text-transform: capitalize;
 }
 
 .with-loader {
@@ -8301,7 +8322,12 @@ h2.section-title {
   column-gap: 2rem;
 }
 .skills-grid .skills-item {
+  display: inline-block;
+  width: 100%;
   margin-bottom: 2rem;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
 }
 .skills-grid .skills-item.skills-item-animated .progress-item .progress .progress-bar {
   opacity: 1;
@@ -8319,13 +8345,14 @@ h2.section-title {
   color: #6c757d;
   transition: all 0.15s ease-in-out;
 }
-.progress-item:hover {
+.progress-item:hover, .progress-item[aria-expanded=true] {
   color: #6610f2;
 }
-.progress-item:hover .progress .progress-bar {
+.progress-item:hover .progress .progress-bar, .progress-item[aria-expanded=true] .progress .progress-bar {
   border-color: #6610f2;
 }
-.progress-item:hover .progress .progress-bar .progress-value {
+.progress-item:hover .progress .progress-bar .progress-value, .progress-item[aria-expanded=true] .progress .progress-bar .progress-value {
+  display: block;
   opacity: 1;
 }
 .progress-item .progress-header {
@@ -8364,9 +8391,18 @@ h2.section-title {
   color: #495057;
 }
 .progress-item .progress .progress-bar .progress-value {
+  display: none;
   opacity: 0;
   color: #6610f2;
   transition: opacity 0.4s ease, display 0.4s ease allow-discrete;
+}
+
+.progress-item-collapse {
+  margin-bottom: 1rem;
+  font-size: 0.595rem;
+}
+.progress-item-collapse .card {
+  border-style: dashed;
 }
 
 @keyframes animateBar {
@@ -8442,6 +8478,11 @@ h2.section-title {
 }
 .education-item p {
   margin-bottom: 0;
+}
+
+.contact-form .alert {
+  margin-bottom: 1.25rem;
+  font-size: 0.665rem;
 }
 
 .contact-download-cv {

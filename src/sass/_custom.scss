@@ -72,6 +72,10 @@ strong {
   font-weight: 700;
 }
 
+[role='button'] {
+  cursor: pointer;
+}
+
 .text-compacted {
   margin-bottom: $spacer * 0.4;
 
@@ -111,6 +115,7 @@ strong {
 
 h2.section-title {
   margin-bottom: 1.5rem;
+  text-transform: capitalize;
 }
 
 .with-loader {
@@ -130,6 +135,7 @@ h2.section-title {
 }
 
 @include media-breakpoint-down(lg) {
+  // noop
 }
 
 @include media-breakpoint-down(md) {

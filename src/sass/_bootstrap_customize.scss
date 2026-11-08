@@ -1,3 +1,11 @@
+button,
+.btn {
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
 .btn-primary {
   background-color: $gray-600;
   background-image: conic-gradient(
@@ -8,6 +16,10 @@
   );
   background-size: 8px 8px;
   transition: $transition-base;
+
+  &[disabled] {
+    background-color: $gray-600;
+  }
 }
 
 .badge {
@@ -23,4 +35,18 @@
 
 .form-group {
   border-top: 1px dashed $gray-200;
+}
+
+.alert {
+  &.alert-danger {
+    a {
+      color: theme-color('danger');
+    }
+  }
+
+  &.alert-success {
+    a {
+      color: theme-color('success');
+    }
+  }
 }

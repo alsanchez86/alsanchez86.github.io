@@ -3,27 +3,27 @@
     <div class="main-nav-content">
       <ul class="navbar-nav nav-links">
         <li class="nav-item">
-          <a class="nav-link" href="#about">about</a>
+          <a class="nav-link" href="#about">{{ menuAbout }}</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#skills">skills</a>
+          <a class="nav-link" href="#skills">{{ menuSkills }}</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#experience">experience</a>
+          <a class="nav-link" href="#experience">{{ menuExperience }}</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#education">education</a>
+          <a class="nav-link" href="#education">{{ menuEducation }}</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#contact">contact</a>
+          <a class="nav-link" href="#contact">{{ menuContact }}</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#blog">blog</a>
+          <a class="nav-link" href="#blog">{{ menuBlog }}</a>
         </li>
       </ul>
     </div>
@@ -31,15 +31,14 @@
     <div class="main-nav-header">
       <ul class="navbar-nav nav-links">
         <li class="nav-item">
-          <a class="nav-link" href="/en" target="_self" title="English"
-            >english</a
+          <a
+            class="nav-link"
+            href="/{{ switchLangUrl }}"
+            target="_self"
+            title="{{ switchLangTitle }}"
           >
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/es" target="_self" title="Español"
-            >español</a
-          >
+            {{ switchLangText }}
+          </a>
         </li>
       </ul>
 

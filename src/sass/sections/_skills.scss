@@ -3,7 +3,12 @@
   column-gap: $spacer * 2;
 
   .skills-item {
+    display: inline-block;
+    width: 100%;
     margin-bottom: $spacer * 2;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
 
     &.skills-item-animated {
       .progress-item {
@@ -29,7 +34,8 @@
   color: $gray-600;
   transition: $transition-base;
 
-  &:hover {
+  &:hover,
+  &[aria-expanded='true'] {
     color: theme-color('primary');
 
     .progress {
@@ -37,6 +43,7 @@
         border-color: theme-color('primary');
 
         .progress-value {
+          display: block;
           opacity: 1;
         }
       }
@@ -82,11 +89,21 @@
       color: $body-color;
 
       .progress-value {
+        display: none;
         opacity: 0;
         color: theme-color('primary');
         transition: $transition-fade;
       }
     }
+  }
+}
+
+.progress-item-collapse {
+  margin-bottom: $spacer;
+  font-size: $font-size-xs;
+
+  .card {
+    border-style: dashed;
   }
 }
 
