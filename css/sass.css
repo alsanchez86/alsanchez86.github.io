@@ -385,7 +385,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 0.7rem;
+  font-size: 0.735rem;
 }
 
 .lead {
@@ -8384,10 +8384,9 @@ h2.section-title {
   justify-content: center;
   position: relative;
   opacity: 0;
-  background-color: transparent;
+  background: transparent;
   border-bottom: 1px dashed #adb5bd;
   box-shadow: none;
-  background: transparent;
   color: #495057;
 }
 .progress-item .progress .progress-bar .progress-value {
@@ -8402,7 +8401,13 @@ h2.section-title {
   font-size: 0.595rem;
 }
 .progress-item-collapse .card {
+  color: #6610f2;
   border-style: dashed;
+  border-color: #e3d4ff;
+  transition: all 0.15s ease-in-out;
+}
+.progress-item-collapse.collapsing {
+  transition: all 0.15s ease-in-out;
 }
 
 @keyframes animateBar {
@@ -8433,12 +8438,15 @@ h2.section-title {
   margin-bottom: 0;
 }
 .experience-item .experience-item-body .experience-item-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
 }
-.experience-item .experience-item-body .experience-item-header p {
+.experience-item .experience-item-body .experience-item-header h4 {
+  margin-bottom: 0.25rem;
   font-size: 0.875rem;
 }
-.experience-item .experience-item-body .experience-item-header p small {
+.experience-item .experience-item-body .experience-item-header h5,
+.experience-item .experience-item-body .experience-item-header h6 {
+  margin-bottom: 0.25rem;
   font-size: 0.665rem;
 }
 .experience-item .experience-item-body .experience-description {

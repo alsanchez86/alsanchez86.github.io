@@ -2,7 +2,7 @@
   <div class="container container-narrow">
     <h2 class="section-title">{{ skillsTitle }}</h2>
 
-    <div class="skills-grid">
+    <div id="skills-accordion" class="skills-grid">
       <div class="skills-item">
         <h4 class="text-compacted">Frontend</h4>
         {{#skills.frontend}}
@@ -54,9 +54,9 @@
 
       <div class="skills-item">
         <h4 class="text-compacted">{{ deployments }}</h4>
-        {{#skills.updates}}
+        {{#skills.deployments}}
         {{>skills_item}}
-        {{/skills.updates}}
+        {{/skills.deployments}}
       </div>
 
       <div class="skills-item">

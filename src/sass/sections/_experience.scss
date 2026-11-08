@@ -19,14 +19,17 @@
     }
 
     .experience-item-header {
-      margin-bottom: $spacer * 1.5;
+      margin-bottom: $spacer * 1.75;
 
-      p {
+      h4 {
+        margin-bottom: $spacer * 0.25;
         font-size: $font-size-lg;
+      }
 
-        small {
-          font-size: $font-size-sm;
-        }
+      h5,
+      h6 {
+        margin-bottom: $spacer * 0.25;
+        font-size: $font-size-sm;
       }
     }
 
