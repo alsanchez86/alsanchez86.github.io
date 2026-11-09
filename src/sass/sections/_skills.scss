@@ -9,20 +9,6 @@
     break-inside: avoid;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
-
-    &.skills-item-animated {
-      .progress-item {
-        .progress {
-          .progress-bar {
-            opacity: 1;
-            animation-name: animateBar;
-            animation-iteration-count: 1;
-            animation-timing-function: ease-in;
-            animation-duration: 1s;
-          }
-        }
-      }
-    }
   }
 }
 
@@ -34,8 +20,21 @@
   color: $gray-600;
   transition: $transition-base;
 
-  &:hover,
-  &[aria-expanded='true'] {
+  &.progress-item-animated {
+    .progress {
+      .progress-bar {
+        opacity: 1;
+        animation-name: animateBar;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+
+  &.progress-item-animated-completed:hover,
+  &.progress-item-animated-completed[aria-expanded='true'] {
     color: theme-color('primary');
 
     .progress {
@@ -102,14 +101,13 @@
   font-size: $font-size-xs;
 
   .card {
-    color: theme-color('primary');
-    border-style: dashed;
-    border-color: theme-color('secondary');
-    transition: $transition-base;
+    padding: 0 $spacer;
+    border: 0;
+    transition: none;
   }
 
   &.collapsing {
-    transition: $transition-base;
+    transition: none;
   }
 }
 

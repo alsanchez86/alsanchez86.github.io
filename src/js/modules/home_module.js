@@ -2,14 +2,10 @@
 
 define(['module', 'jquery_cache_module'], function (module, _$) {
   module.exports.run = () => {
-    animateProgressAll();
     mainNavToggleButton();
+    animateSkills();
     handleContactForm();
   };
-
-  function animateProgressAll() {
-    _$('.skills-item').addClass('skills-item-animated');
-  }
 
   function mainNavToggleButton() {
     const isOpenClass = 'is-open';
@@ -46,6 +42,16 @@ define(['module', 'jquery_cache_module'], function (module, _$) {
       $body.toggleClass(noScrollClass, isOpen);
       $menuToggleButton.attr('aria-expanded', isOpen.toString());
     }
+  }
+
+  function animateSkills() {
+    const $items = _$('.progress-item');
+
+    $items.addClass('progress-item-animated');
+
+    setTimeout(() => {
+      $items.addClass('progress-item-animated-completed');
+    }, 1000);
   }
 
   function handleContactForm() {

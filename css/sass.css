@@ -8143,7 +8143,7 @@ strong {
 }
 
 h2.section-title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   text-transform: capitalize;
 }
 
@@ -8166,19 +8166,6 @@ h2.section-title {
 @media (max-width: 991.98px) {
   .section-wrapper {
     padding: 0.75rem 0;
-  }
-  h2.section-title {
-    margin-bottom: 1.25rem;
-  }
-}
-@media (max-width: 767.98px) {
-  h2.section-title {
-    margin-bottom: 1.25rem;
-  }
-}
-@media (max-width: 575.98px) {
-  h2.section-title {
-    margin-bottom: 1.25rem;
   }
 }
 .preloader {
@@ -8329,13 +8316,6 @@ h2.section-title {
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
 }
-.skills-grid .skills-item.skills-item-animated .progress-item .progress .progress-bar {
-  opacity: 1;
-  animation-name: animateBar;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 1s;
-}
 
 .progress-item {
   position: relative;
@@ -8345,13 +8325,21 @@ h2.section-title {
   color: #6c757d;
   transition: all 0.15s ease-in-out;
 }
-.progress-item:hover, .progress-item[aria-expanded=true] {
+.progress-item.progress-item-animated .progress .progress-bar {
+  opacity: 1;
+  animation-name: animateBar;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.progress-item.progress-item-animated-completed:hover, .progress-item.progress-item-animated-completed[aria-expanded=true] {
   color: #6610f2;
 }
-.progress-item:hover .progress .progress-bar, .progress-item[aria-expanded=true] .progress .progress-bar {
+.progress-item.progress-item-animated-completed:hover .progress .progress-bar, .progress-item.progress-item-animated-completed[aria-expanded=true] .progress .progress-bar {
   border-color: #6610f2;
 }
-.progress-item:hover .progress .progress-bar .progress-value, .progress-item[aria-expanded=true] .progress .progress-bar .progress-value {
+.progress-item.progress-item-animated-completed:hover .progress .progress-bar .progress-value, .progress-item.progress-item-animated-completed[aria-expanded=true] .progress .progress-bar .progress-value {
   display: block;
   opacity: 1;
 }
@@ -8401,13 +8389,12 @@ h2.section-title {
   font-size: 0.595rem;
 }
 .progress-item-collapse .card {
-  color: #6610f2;
-  border-style: dashed;
-  border-color: #e3d4ff;
-  transition: all 0.15s ease-in-out;
+  padding: 0 1rem;
+  border: 0;
+  transition: none;
 }
 .progress-item-collapse.collapsing {
-  transition: all 0.15s ease-in-out;
+  transition: none;
 }
 
 @keyframes animateBar {
