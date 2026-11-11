@@ -3,10 +3,10 @@
 
   font-size: $font-size-sm;
   text-transform: uppercase;
-  color: $gray-600;
+  color: theme-color('primary');
 
   a {
-    color: $gray-600;
+    color: theme-color('primary');
   }
 
   .copyright {

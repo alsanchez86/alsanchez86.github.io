@@ -18,6 +18,13 @@
       </div>
 
       <div class="skills-item">
+        <h4 class="text-compacted">{{ ia }}</h4>
+        {{#skills.ia}}
+        {{>skills_item}}
+        {{/skills.ia}}
+      </div>
+
+      <div class="skills-item">
         <h4 class="text-compacted">{{ systems }}</h4>
         {{#skills.systems}}
         {{>skills_item}}
