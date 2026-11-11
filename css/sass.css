@@ -1727,7 +1727,7 @@ textarea.form-control {
 }
 
 .form-group {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .form-text {
@@ -4883,7 +4883,7 @@ button.close {
   word-wrap: break-word;
   background-color: #fafafa;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #e3d4ff;
   border-radius: 0.3rem;
 }
 .popover .arrow {
@@ -4914,7 +4914,7 @@ button.close {
 }
 .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^=top] .arrow::before {
   bottom: 0;
-  border-top-color: rgba(0, 0, 0, 0.25);
+  border-top-color: #e3d4ff;
 }
 .bs-popover-top .arrow::after, .bs-popover-auto[x-placement^=top] .arrow::after {
   bottom: 1px;
@@ -4937,7 +4937,7 @@ button.close {
 }
 .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^=right] .arrow::before {
   left: 0;
-  border-right-color: rgba(0, 0, 0, 0.25);
+  border-right-color: #e3d4ff;
 }
 .bs-popover-right .arrow::after, .bs-popover-auto[x-placement^=right] .arrow::after {
   left: 1px;
@@ -4957,7 +4957,7 @@ button.close {
 }
 .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^=bottom] .arrow::before {
   top: 0;
-  border-bottom-color: rgba(0, 0, 0, 0.25);
+  border-bottom-color: #e3d4ff;
 }
 .bs-popover-bottom .arrow::after, .bs-popover-auto[x-placement^=bottom] .arrow::after {
   top: 1px;
@@ -4971,7 +4971,7 @@ button.close {
   width: 1rem;
   margin-left: -0.5rem;
   content: "";
-  border-bottom: 1px solid rgb(95.0392156863%, 95.0392156863%, 95.0392156863%);
+  border-bottom: 1px solid #fafafa;
 }
 
 .bs-popover-left, .bs-popover-auto[x-placement^=left] {
@@ -4990,7 +4990,7 @@ button.close {
 }
 .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^=left] .arrow::before {
   right: 0;
-  border-left-color: rgba(0, 0, 0, 0.25);
+  border-left-color: #e3d4ff;
 }
 .bs-popover-left .arrow::after, .bs-popover-auto[x-placement^=left] .arrow::after {
   right: 1px;
@@ -5001,9 +5001,9 @@ button.close {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 0.7rem;
-  color: #212529;
-  background-color: rgb(95.0392156863%, 95.0392156863%, 95.0392156863%);
-  border-bottom: 1px solid rgb(90.0392156863%, 90.0392156863%, 90.0392156863%);
+  color: #495057;
+  background-color: #fafafa;
+  border-bottom: 1px solid rgb(93.0392156863%, 93.0392156863%, 93.0392156863%);
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
 }
@@ -8022,15 +8022,33 @@ button:focus,
   background-color: #e3d4ff;
 }
 
-.form-group {
-  border-top: 1px dashed #e9ecef;
-}
-
 .alert.alert-danger a {
   color: #dc3545;
 }
 .alert.alert-success a {
   color: #28a745;
+}
+
+.popover {
+  backdrop-filter: blur(0.75rem);
+  -webkit-backdrop-filter: blur(0.75rem);
+  background-color: transparent;
+  box-shadow: 0 0.25rem 0.5rem #e9ecef;
+  border-style: dashed;
+}
+.popover .popover-header {
+  background-color: transparent;
+  border: 0;
+  font-family: "Geist Mono", monospace;
+  font-size: 0.595rem;
+  font-weight: 600;
+  font-style: inherit;
+  text-transform: uppercase;
+  color: #6610f2;
+}
+.popover .popover-body {
+  background-color: transparent;
+  color: #6610f2;
 }
 
 ::selection {
@@ -8170,6 +8188,7 @@ h2.section-title {
 }
 .preloader {
   backdrop-filter: blur(0.75rem);
+  -webkit-backdrop-filter: blur(0.75rem);
   background: rgba(255, 255, 255, 0.4);
   bottom: 0;
   left: 0;
@@ -8197,7 +8216,9 @@ h2.section-title {
 
 .main-nav {
   backdrop-filter: blur(1.5rem);
+  -webkit-backdrop-filter: blur(1.5rem);
   padding: 1rem 0;
+  z-index: 99999;
 }
 .main-nav .nav-item {
   margin: 0 0.5rem;
@@ -8384,19 +8405,6 @@ h2.section-title {
   transition: opacity 0.4s ease, display 0.4s ease allow-discrete;
 }
 
-.progress-item-collapse {
-  margin-bottom: 1rem;
-  font-size: 0.595rem;
-}
-.progress-item-collapse .card {
-  padding: 0 1rem;
-  border: 0;
-  transition: none;
-}
-.progress-item-collapse.collapsing {
-  transition: none;
-}
-
 @keyframes animateBar {
   0% {
     transform: translateX(-100%);
@@ -8476,7 +8484,7 @@ h2.section-title {
 }
 
 .contact-form .alert {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   font-size: 0.665rem;
 }
 

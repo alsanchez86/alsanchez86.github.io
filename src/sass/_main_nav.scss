@@ -1,6 +1,7 @@
 .main-nav {
   @include blur(1.5rem);
   padding: $spacer 0;
+  z-index: 99999;
 
   .nav-item {
     margin: 0 calc($spacer / 2);

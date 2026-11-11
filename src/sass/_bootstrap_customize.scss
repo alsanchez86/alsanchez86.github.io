@@ -33,10 +33,6 @@ button,
   }
 }
 
-.form-group {
-  border-top: 1px dashed $gray-200;
-}
-
 .alert {
   &.alert-danger {
     a {
@@ -48,5 +44,28 @@ button,
     a {
       color: theme-color('success');
     }
+  }
+}
+
+.popover {
+  @include blur(0.75rem);
+  background-color: transparent;
+  box-shadow: 0 0.25rem 0.5rem $gray-200;
+  border-style: dashed;
+
+  .popover-header {
+    background-color: transparent;
+    border: 0;
+    font-family: $font-family-base;
+    font-size: $font-size-xs;
+    font-weight: $font-weight-bold;
+    font-style: inherit;
+    text-transform: uppercase;
+    color: theme-color('primary');
+  }
+
+  .popover-body {
+    background-color: transparent;
+    color: theme-color('primary');
   }
 }

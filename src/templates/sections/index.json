@@ -10,7 +10,6 @@
   "menuExperience": "{{ menuExperience }}",
   "menuEducation": "{{ menuEducation }}",
   "menuContact": "{{ menuContact }}",
-  "menuBlog": "{{ menuBlog }}",
   "switchLangUrl": "{{ switchLangUrl }}",
   "switchLangText": "{{ switchLangText }}",
   "switchLangTitle": "{{ switchLangTitle }}",

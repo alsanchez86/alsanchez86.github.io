@@ -1,10 +1,11 @@
 <div
   class="progress-item"
-  role="button"
+  tabindex="0"
   aria-expanded="false"
-  aria-controls="collapse-{{ index }}"
-  data-toggle="collapse"
-  data-target="#collapse-{{ index }}"
+  title="{{ name }}"
+  data-toggle="popover"
+  data-content="{{ description }}"
+  data-trigger="hover focus"
 >
   <div class="progress-header">
     <span class="progress-icon">{{{ icon }}}</span>
@@ -22,15 +23,5 @@
     >
       <small class="progress-value">{{ value }}%</small>
     </div>
-  </div>
-</div>
-
-<div
-  id="collapse-{{ index }}"
-  class="collapse progress-item-collapse"
-  data-parent="#skills-accordion"
->
-  <div class="card card-body">
-    {{ description }}
   </div>
 </div>

@@ -1,7 +1,6 @@
 'use strict';
 
-define(['exports', 'jquery'], function (exports, $) {
-  // Private Vars
+define(['exports', 'jquery'], function (_, $) {
   var _cache = {};
 
   /**
@@ -14,10 +13,8 @@ define(['exports', 'jquery'], function (exports, $) {
       // Already on cache. Return jquery object from cache
       return _cache[selector];
     }
-    // Save on cache
-    _set(selector, element);
-    // Return jquery object from cache
-    return _cache[selector];
+
+    return _set(selector, element);
   };
 
   /**
@@ -34,5 +31,7 @@ define(['exports', 'jquery'], function (exports, $) {
     } else if (forceCreate) {
       _cache[selector] = $(element);
     }
+
+    return _cache[selector];
   }
 });

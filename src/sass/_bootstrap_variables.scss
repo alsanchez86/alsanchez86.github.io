@@ -469,7 +469,7 @@ $form-check-input-margin-x: 0.25rem !default;
 $form-check-inline-margin-x: 0.75rem !default;
 $form-check-inline-input-margin-x: 0.3125rem !default;
 
-$form-group-margin-bottom: ($spacer * 1.25) !default;
+$form-group-margin-bottom: $spacer !default;
 
 $input-group-addon-color: $input-color !default;
 $input-group-addon-bg: $gray-200 !default;
@@ -788,14 +788,14 @@ $popover-font-size: $font-size-sm !default;
 $popover-bg: $gray-100 !default;
 $popover-max-width: 276px !default;
 $popover-border-width: $border-width !default;
-$popover-border-color: rgba($black, 0.2) !default;
+$popover-border-color: $purple !default;
 $popover-border-radius: $border-radius-lg !default;
-$popover-box-shadow: 0 0.25rem 0.5rem rgba($black, 0.2) !default;
+$popover-box-shadow: none !default;
 
-$popover-header-bg: darken($popover-bg, 3%) !default;
-$popover-header-color: $headings-color !default;
-$popover-header-padding-y: 0.5rem !default;
-$popover-header-padding-x: 0.75rem !default;
+$popover-header-bg: $body-bg !default;
+$popover-header-color: $body-color !default;
+$popover-header-padding-y: $spacer * 0.5 !default;
+$popover-header-padding-x: $spacer * 0.75 !default;
 
 $popover-body-color: $body-color !default;
 $popover-body-padding-y: $popover-header-padding-y !default;

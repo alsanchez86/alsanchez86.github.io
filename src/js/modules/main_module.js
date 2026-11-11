@@ -1,23 +1,66 @@
 'use strict';
 
 define(['module', 'jquery_cache_module'], function (module, _$) {
-  /**
-   * Set page loading to true or false
-   * If true, preloader will be showed
-   * If false, preloader will be hide with a fadeOut effect
-   *
-   * @param {boolean} is_loading
-   * @param {function} callback
-   * @return {void}
-   */
-  module.exports.setPageLoading = function (is_loading, callback) {
-    var _callback = typeof callback === 'function' ? callback : function () {};
-    var _$preLoader = _$('#preloader');
+  module.exports.run = function (
+    { isLoading = false, callback } = { isLoading: false, callback: () => {} },
+  ) {
+    initPopovers();
+    mainNavToggleButton();
 
-    if (!is_loading) {
-      _$preLoader.delay(100).fadeOut('slow', function () {
-        _callback();
-      });
+    if (!isLoading) {
+      _$('#preloader').delay(100).fadeOut('slow', callback);
     }
   };
+
+  function initPopovers() {
+    $('[data-toggle="popover"]').popover({
+      trigger: 'hover focus',
+      offset: '0, 5px',
+      container: 'body',
+      placement: function (context, source) {
+        if ($(window).width() < 768) {
+          return 'bottom';
+        }
+
+        return 'left';
+      },
+    });
+  }
+
+  function mainNavToggleButton() {
+    const isOpenClass = 'is-open';
+    const noScrollClass = 'no-scroll';
+    const $body = _$('body');
+    const $mainNav = _$('#main-nav');
+    const $menuToggleButton = _$('#main-nav-toggle-button');
+    const $navLinks = _$('#main-nav .nav-link');
+
+    $menuToggleButton.on('click', function (event) {
+      event.stopPropagation();
+      toggleNav();
+    });
+
+    $navLinks.on('click', function () {
+      closeNav();
+    });
+
+    _$(document).on('keydown', function (event) {
+      if (event.key === 'Escape' && $mainNav.hasClass(isOpenClass)) {
+        closeNav();
+      }
+    });
+
+    function closeNav() {
+      $mainNav.removeClass(isOpenClass);
+      $body.removeClass(noScrollClass);
+      $menuToggleButton.attr('aria-expanded', 'false');
+    }
+
+    function toggleNav() {
+      const isOpen = $mainNav.toggleClass(isOpenClass).hasClass(isOpenClass);
+
+      $body.toggleClass(noScrollClass, isOpen);
+      $menuToggleButton.attr('aria-expanded', isOpen.toString());
+    }
+  }
 });

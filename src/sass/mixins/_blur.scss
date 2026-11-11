@@ -1,4 +1,4 @@
 @mixin blur($value: 3rem) {
   backdrop-filter: blur($value);
-  // -webkit-backdrop-filter: blur($value);
+  -webkit-backdrop-filter: blur($value);
 }

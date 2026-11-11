@@ -96,21 +96,6 @@
   }
 }
 
-.progress-item-collapse {
-  margin-bottom: $spacer;
-  font-size: $font-size-xs;
-
-  .card {
-    padding: 0 $spacer;
-    border: 0;
-    transition: none;
-  }
-
-  &.collapsing {
-    transition: none;
-  }
-}
-
 @keyframes animateBar {
   0% {
     transform: translateX(-100%);
