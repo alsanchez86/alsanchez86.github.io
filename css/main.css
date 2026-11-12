@@ -8195,7 +8195,7 @@ h2.section-title {
   position: fixed;
   right: 0;
   top: 0;
-  z-index: 9999;
+  z-index: 999999;
   overflow: hidden;
 }
 .preloader .status,
@@ -8421,40 +8421,43 @@ h2.section-title {
 .experience-item {
   margin-bottom: 5.5rem;
 }
-.experience-item:last-child {
-  margin-bottom: 0;
+.experience-item:hover .experience-item-header h3 {
+  color: #6610f2;
 }
-.experience-item .experience-item-body:hover .badge {
+.experience-item:hover .experience-item-header h3 a {
+  color: #6610f2;
+}
+.experience-item:hover .experience-item-batch .badge {
   color: #6610f2;
   background-color: #e3d4ff;
 }
-.experience-item .experience-item-body:last-child {
+.experience-item:last-child {
   padding-bottom: 0px;
   margin-bottom: 0;
 }
-.experience-item .experience-item-body .experience-item-header {
+.experience-item .experience-item-header {
   margin-bottom: 1.75rem;
 }
-.experience-item .experience-item-body .experience-item-header h4 {
+.experience-item .experience-item-header h4 {
   margin-bottom: 0.25rem;
   font-size: 0.875rem;
 }
-.experience-item .experience-item-body .experience-item-header h5,
-.experience-item .experience-item-body .experience-item-header h6 {
+.experience-item .experience-item-header h5,
+.experience-item .experience-item-header h6 {
   margin-bottom: 0.25rem;
   font-size: 0.665rem;
 }
-.experience-item .experience-item-body .experience-description {
+.experience-item .experience-description {
   margin-bottom: 1.25rem;
 }
-.experience-item .experience-item-body .experience-description p {
+.experience-item .experience-description p {
   margin-bottom: 0.95rem;
   line-height: 1.5;
 }
-.experience-item .experience-item-body .experience-item-batch {
+.experience-item .experience-item-batch {
   margin-bottom: 2rem;
 }
-.experience-item .experience-item-body .experience-item-batch:last-child {
+.experience-item .experience-item-batch:last-child {
   margin-bottom: 0;
 }
 

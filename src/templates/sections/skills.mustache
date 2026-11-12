@@ -18,6 +18,20 @@
       </div>
 
       <div class="skills-item">
+        <h4 class="text-compacted">{{ databasesAndSearch }}</h4>
+        {{#skills.databases_and_search}}
+        {{>skills_item}}
+        {{/skills.databases_and_search}}
+      </div>
+
+      <div class="skills-item">
+        <h4 class="text-compacted">{{ apisAndDataFormats }}</h4>
+        {{#skills.apis_and_data_formats}}
+        {{>skills_item}}
+        {{/skills.apis_and_data_formats}}
+      </div>
+
+      <div class="skills-item">
         <h4 class="text-compacted">{{ ia }}</h4>
         {{#skills.ia}}
         {{>skills_item}}
@@ -25,52 +39,38 @@
       </div>
 
       <div class="skills-item">
-        <h4 class="text-compacted">{{ systems }}</h4>
-        {{#skills.systems}}
+        <h4 class="text-compacted">{{ testing }}</h4>
+        {{#skills.testing}}
         {{>skills_item}}
-        {{/skills.systems}}
+        {{/skills.testing}}
       </div>
 
       <div class="skills-item">
-        <h4 class="text-compacted">{{ versionsManagers }}</h4>
-        {{#skills.versions}}
+        <h4 class="text-compacted">{{ toolingAndVcs }}</h4>
+        {{#skills.tooling_and_vcs}}
         {{>skills_item}}
-        {{/skills.versions}}
+        {{/skills.tooling_and_vcs}}
       </div>
 
       <div class="skills-item">
-        <h4 class="text-compacted">{{ dependencyManagers }}</h4>
-        {{#skills.dependencies}}
+        <h4 class="text-compacted">{{ devopsAndSystems }}</h4>
+        {{#skills.devops_and_systems}}
         {{>skills_item}}
-        {{/skills.dependencies}}
-      </div>
-
-      <div class="skills-item">
-        <h4 class="text-compacted">{{ otherTechnologies }}</h4>
-        {{#skills.others}}
-        {{>skills_item}}
-        {{/skills.others}}
+        {{/skills.devops_and_systems}}
       </div>
 
       <div class="skills-item">
         <h4 class="text-compacted">{{ graphicDesign }}</h4>
-        {{#skills.dessign}}
+        {{#skills.design}}
         {{>skills_item}}
-        {{/skills.dessign}}
+        {{/skills.design}}
       </div>
 
       <div class="skills-item">
-        <h4 class="text-compacted">{{ deployments }}</h4>
-        {{#skills.deployments}}
+        <h4 class="text-compacted">{{ managementAndStrategy }}</h4>
+        {{#skills.management_and_strategy}}
         {{>skills_item}}
-        {{/skills.deployments}}
-      </div>
-
-      <div class="skills-item">
-        <h4 class="text-compacted">{{ agileMethodologies }}</h4>
-        {{#skills.agile}}
-        {{>skills_item}}
-        {{/skills.agile}}
+        {{/skills.management_and_strategy}}
       </div>
     </div>
   </div>

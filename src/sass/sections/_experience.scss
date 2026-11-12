@@ -1,54 +1,60 @@
 .experience-item {
   margin-bottom: $spacer * 5.5;
 
-  &:last-child {
-    margin-bottom: 0;
-  }
+  &:hover {
+    .experience-item-header {
+      h3 {
+        color: theme-color('primary');
 
-  .experience-item-body {
-    &:hover {
+        a {
+          color: theme-color('primary');
+        }
+      }
+    }
+
+    .experience-item-batch {
       .badge {
         color: theme-color('primary');
         background-color: theme-color('secondary');
       }
     }
+  }
+
+  &:last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0;
+  }
+
+  .experience-item-header {
+    margin-bottom: $spacer * 1.75;
+
+    h4 {
+      margin-bottom: $spacer * 0.25;
+      font-size: $font-size-lg;
+    }
+
+    h5,
+    h6 {
+      margin-bottom: $spacer * 0.25;
+      font-size: $font-size-sm;
+    }
+  }
+
+  .experience-description {
+    margin-bottom: $spacer * 1.25;
+
+    p {
+      margin-bottom: $spacer * 0.95;
+
+      line-height: $line-height-xs;
+    }
+  }
+
+  .experience-item-batch {
+    margin-bottom: 2rem;
 
     &:last-child {
-      padding-bottom: 0px;
       margin-bottom: 0;
-    }
-
-    .experience-item-header {
-      margin-bottom: $spacer * 1.75;
-
-      h4 {
-        margin-bottom: $spacer * 0.25;
-        font-size: $font-size-lg;
-      }
-
-      h5,
-      h6 {
-        margin-bottom: $spacer * 0.25;
-        font-size: $font-size-sm;
-      }
-    }
-
-    .experience-description {
-      margin-bottom: $spacer * 1.25;
-
-      p {
-        margin-bottom: $spacer * 0.95;
-
-        line-height: $line-height-xs;
-      }
-    }
-
-    .experience-item-batch {
-      margin-bottom: 2rem;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
     }
   }
 }
