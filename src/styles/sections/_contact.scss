@@ -5,6 +5,23 @@
   }
 }
 
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 100%;
+  white-space: nowrap;
+
+  svg {
+    flex-shrink: 0;
+  }
+
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 .contact-download-cv {
   margin-bottom: $spacer * 0.875;
 }

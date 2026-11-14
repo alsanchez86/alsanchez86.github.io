@@ -72,7 +72,7 @@ const pageDescription = description ?? t('meta.description');
       offset: '0, 5px',
       container: 'body',
       placement: function () {
-        return ($(window).width() || 0) < 768 ? 'bottom' : 'left';
+        return ($(window).width() || 0) < 768 ? 'top' : 'left';
       },
     });
   }
