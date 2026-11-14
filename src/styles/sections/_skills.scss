@@ -1,0 +1,113 @@
+.skills-grid {
+  column-count: 1;
+  column-gap: $spacer * 2;
+
+  .skills-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: $spacer * 2;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+.progress-item {
+  position: relative;
+  margin-bottom: $spacer * 0.75;
+  overflow: hidden;
+  font-size: $font-size-xs;
+  color: $gray-600;
+  transition: $transition-base;
+
+  &.progress-item-animated {
+    .progress {
+      .progress-bar {
+        opacity: 1;
+        animation-name: animateBar;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+
+  &.progress-item-animated-completed:hover,
+  &.progress-item-animated-completed[aria-expanded='true'] {
+    color: theme-color('primary');
+
+    .progress {
+      .progress-bar {
+        border-color: theme-color('primary');
+
+        .progress-value {
+          display: block;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .progress-header {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    line-height: 1;
+
+    .progress-icon {
+      margin-right: $spacer / 2;
+
+      svg {
+        fill: currentColor;
+      }
+    }
+  }
+
+  .progress {
+    grid-column: 1 / -1;
+    height: 1.75rem;
+    font-size: $font-size-xs;
+    box-shadow: none;
+    border-radius: 0;
+    background: transparent;
+
+    .progress-bar {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      position: relative;
+      opacity: 0;
+      background: transparent;
+      border-bottom: 1px dashed $gray-500;
+      box-shadow: none;
+      color: $body-color;
+
+      .progress-value {
+        display: none;
+        opacity: 0;
+        color: theme-color('primary');
+        transition: $transition-fade;
+      }
+    }
+  }
+}
+
+@keyframes animateBar {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .skills-grid {
+    column-count: 2;
+  }
+}

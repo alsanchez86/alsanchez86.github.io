@@ -1,0 +1,171 @@
+::selection {
+  background-color: theme-color('secondary');
+}
+
+::-moz-selection {
+  background-color: theme-color('secondary');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+label {
+  margin-bottom: $spacer * 0.4;
+
+  font-family: $font-family-base;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+  font-style: inherit;
+  text-transform: uppercase;
+  color: $body-color;
+}
+
+a {
+  outline: none;
+  -webkit-transition: $transition-base;
+  -moz-transition: $transition-base;
+  -o-transition: $transition-base;
+  transition: $transition-base;
+}
+
+p {
+  margin-bottom: 1.75rem;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 20px 0;
+  line-height: $line-height-sm;
+
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+ul {
+  list-style: none;
+
+  &.list-with-points {
+    padding: 0 0 0 20px;
+
+    li::before {
+      content: '\2022';
+      color: $gray-500;
+      font-weight: 700;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+}
+
+textarea {
+  min-height: 4rem;
+  height: 4rem;
+  resize: vertical;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+[role='button'] {
+  cursor: pointer;
+}
+
+.text-compacted {
+  margin-bottom: $spacer * 0.4;
+
+  font-family: $font-family-base;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+  font-style: inherit;
+  text-transform: uppercase;
+  color: $body-color;
+}
+
+.container-narrow {
+  @media (min-width: 992px) {
+    max-width: $container-narrow-width;
+  }
+}
+
+.wrapper-wave {
+  width: 100%;
+  padding: ($spacer * 0.25) 0;
+
+  overflow: hidden;
+
+  svg {
+    display: block;
+    flex-shrink: 0;
+    min-width: $container-narrow-width * 2;
+    width: 100%;
+    height: 4rem;
+  }
+}
+
+.section-wrapper {
+  scroll-margin-top: 4rem;
+  padding: ($spacer * 2.5) 0;
+}
+
+h2.section-title {
+  margin-bottom: $spacer * 1.25;
+  text-transform: capitalize;
+}
+
+.with-loader {
+  background-image: url(../../src/img/ajax-loader.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+  touch-action: none;
+}
+
+.sr-only {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+  clip: rect(1px 1px 1px 1px);
+  /* maybe deprecated but we need to support legacy browsers */
+  clip: rect(1px, 1px, 1px, 1px);
+  /* modern browsers, clip-path works inwards from each corner */
+  clip-path: inset(50%);
+  /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
+  white-space: nowrap;
+}
+
+@include media-breakpoint-down(lg) {
+  // noop
+}
+
+@include media-breakpoint-down(md) {
+  .section-wrapper {
+    padding: 0.75rem 0;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  // noop
+}
+
+@include media-breakpoint-down(xs) {
+  // noop
+}

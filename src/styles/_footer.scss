@@ -1,0 +1,16 @@
+.footer {
+  padding: ($spacer * 1.25) 0 4rem;
+
+  font-size: $font-size-sm;
+  text-transform: uppercase;
+  color: theme-color('primary');
+
+  a {
+    color: theme-color('primary');
+  }
+
+  .copyright {
+    font-size: $font-size-xs * 0.9;
+    text-align: center;
+  }
+}

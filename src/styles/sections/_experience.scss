@@ -1,0 +1,74 @@
+.experience-item {
+  margin-bottom: $spacer * 5.5;
+
+  &:hover {
+    .experience-item-header {
+      h3 {
+        color: theme-color('primary');
+
+        a {
+          color: theme-color('primary');
+        }
+      }
+    }
+
+    .experience-item-batch {
+      .badge {
+        color: theme-color('primary');
+        background-color: theme-color('secondary');
+      }
+    }
+  }
+
+  &:last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0;
+  }
+
+  .experience-item-header {
+    margin-bottom: $spacer * 1.75;
+
+    h4 {
+      margin-bottom: $spacer * 0.25;
+      font-size: $font-size-lg;
+    }
+
+    h5,
+    h6 {
+      margin-bottom: $spacer * 0.25;
+      font-size: $font-size-sm;
+    }
+  }
+
+  .experience-description {
+    margin-bottom: $spacer * 1.25;
+
+    p {
+      margin-bottom: $spacer * 0.95;
+
+      line-height: $line-height-xs;
+    }
+  }
+
+  .experience-item-batch {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .experience-item {
+    margin-bottom: 4rem;
+
+    .experience-item-batch {
+      margin-bottom: 1rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
