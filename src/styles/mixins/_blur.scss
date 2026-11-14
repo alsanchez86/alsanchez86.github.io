@@ -1,4 +1,9 @@
+/**
+ * Applies a frosted-glass backdrop blur effect with WebKit support.
+ *
+ * @param {Length} $value - Blur radius intensity.
+ */
 @mixin blur($value: 3rem) {
-  backdrop-filter: blur($value);
   -webkit-backdrop-filter: blur($value);
+  backdrop-filter: blur($value);
 }
