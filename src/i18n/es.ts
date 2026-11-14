@@ -26,7 +26,6 @@ export const es = {
     'Dominio integral del framework para la maquetación rápida de interfaces con enfoque Mobile First. Uso exhaustivo del sistema de rejilla flexible, personalización avanzada de variables vía SCSS y adaptación estructural de componentes preconstruidos.',
   bowerSkill:
     'Manejo fundamental del gestor histórico de dependencias front-end, utilizado ampliamente para la integración de librerías planas, frameworks y activos estáticos en arquitecturas web tradicionales.',
-  blog: 'Blog',
   cccDate: 'Septiembre 2022 - Actualmente',
   cccDescription:
     '<p>Líder técnico y referente de UI con experiencia en proyectos de alto impacto dentro de sectores especializados como el farmacéutico, colaborando con clientes de primer nivel como Pfizer o Boehringer.</p><p>Especializado en el desarrollo de motores de búsqueda semántica avanzada, interfaces conversacionales interactivas con agentes de IA, sistemas de gestión en tiempo real y herramientas de extracción documental orientadas a generar informes médicos instantáneos a partir de literatura científica.</p><p>A cargo de coordinar equipos de más de 4 desarrolladores, definir la arquitectura técnica y guiar la toma de decisiones estratégicas de negocio.</p><p>Impulsor activo de la calidad del código mediante la redacción de documentación técnica orientada a mitigar la deuda técnica del proyecto, junto con mentorías transversales para potenciar el talento del equipo.</p><p>Especialista en el ecosistema <strong>Ember</strong>, con sólido dominio en arquitecturas <strong>SSR</strong>, integración con <strong>AWS</strong>, adopción de protocolos <strong>WebMCP</strong> y suites de pruebas automatizadas con <strong>QUnit</strong>.</p><p>Reconocido en 2026 con el premio <span class="text-primary font-weight-bold">Most Business Focused</span> en el hackathon de Copyright Clearance Center, compitiendo frente a otros 20 equipos internacionales de países como EEUU, Ucrania, Reino Unido y España, tras liderar el desarrollo integral de un agente de IA para la automatización de procesos en la plataforma web corporativa mediante protocolos <strong>WebMCP</strong>.</p>',
@@ -168,6 +167,7 @@ export const es = {
   menuEducation: 'educación',
   menuExperience: 'experiencia',
   menuSkills: 'habilidades',
+  menuBlog: 'blog',
   mercurialSkill:
     'Experiencia sólida en la gestión descentralizada de repositorios y control de revisiones durante etapas de desarrollo corporativo, facilitando el trabajo paralelo y la trazabilidad del código fuente.',
   mochaSkill:

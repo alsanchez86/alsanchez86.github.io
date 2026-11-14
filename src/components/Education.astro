@@ -1,0 +1,20 @@
+---
+import type { Education } from '@data/education';
+
+interface Props {
+  education: Education;
+}
+
+const { education } = Astro.props;
+const { t } = Astro.locals;
+---
+
+<div class="education-item">
+  <small>{education.date}</small>
+
+  <h3>{t(education.name)}</h3>
+
+  <h4 class="text-compacted">{t(education.location)}</h4>
+
+  <p>{t(education.city)}</p>
+</div>

@@ -20,7 +20,6 @@ const {
   image = FallbackImage,
   isTranslated = true,
 } = Astro.props;
-
 const { t, locale } = Astro.locals;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const cleanPath = getCleanPath(Astro.url.pathname);
@@ -29,6 +28,7 @@ const cleanPath = getCleanPath(Astro.url.pathname);
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+
 <link rel="icon" href="/favicon.ico" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link

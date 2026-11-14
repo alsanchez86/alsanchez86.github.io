@@ -24,7 +24,6 @@ export const en = {
     'Comprehensive mastery of the framework for rapid UI prototyping with a Mobile First approach. Extensive use of the flexible grid system, advanced variable customization via SCSS, and structural adaptation of pre-built components.',
   bowerSkill:
     'Fundamental handling of the legacy front-end dependency manager, widely used for integrating flat libraries, frameworks, and static assets in traditional web architectures.',
-  blog: 'Blog',
   cccDate: 'September 2022 - Present',
   cccDescription:
     '<p>Technical UI Lead experienced in high-impact projects within specialized industries such as pharmaceuticals, collaborating with top-tier clients such as Pfizer or Boehringer.</p><p>Specialized in developing advanced semantic search engines, interactive conversational interfaces with AI agents, real-time management systems, and document data extraction tools to generate instant medical reports from scientific literature.</p><p>Responsible for leading teams of at least 4 developers, defining technical architecture, and guiding strategic business decisions.</p><p>Active driver of code quality by authoring technical documentation aimed at reducing project technical debt, alongside cross-functional mentoring to foster team growth.</p><p>Specialized in the <strong>Ember</strong> ecosystem, with strong expertise in <strong>SSR</strong> architectures, <strong>AWS</strong> integration, adoption of <strong>WebMCP</strong> protocols, and automated test suites with <strong>QUnit</strong>.</p><p>Awarded <span class="text-primary font-weight-bold">Most Business Focused</span> in 2026 at the Copyright Clearance Center hackathon, competing against 20 international teams from countries such as the US, Ukraine, the UK, and Spain, after leading the end-to-end development of an AI agent for corporate web platform task automation using <strong>WebMCP</strong> protocols.</p>',
@@ -166,6 +165,7 @@ export const en = {
   menuEducation: 'education',
   menuExperience: 'experience',
   menuSkills: 'skills',
+  menuBlog: 'blog',
   mercurialSkill:
     'Solid experience in decentralized repository management and revision control during corporate development stages, facilitating parallel workflows and source code traceability.',
   mochaSkill:

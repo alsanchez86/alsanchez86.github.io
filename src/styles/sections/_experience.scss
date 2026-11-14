@@ -1,6 +1,12 @@
 .experience-item {
   margin-bottom: $spacer * 5.5;
 
+  .experience-item-batch {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacer / 2;
+  }
+
   &:hover {
     .experience-item-header {
       h3 {
