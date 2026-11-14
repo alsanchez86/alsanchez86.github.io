@@ -33,7 +33,7 @@ const { t } = Astro.locals;
           <Fragment set:html={t('description')} />
 
           <div class="row">
-            <div class="col-3">
+            <div class="col-4 col-sm-3">
               <div class="personal-detail">
                 <h4 class="text-compacted">{t('languages')}</h4>
 
@@ -45,7 +45,7 @@ const { t } = Astro.locals;
               </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-4 col-sm-3">
               <div class="personal-detail">
                 <h4 class="text-compacted">{t('nationality')}</h4>
 
@@ -55,7 +55,7 @@ const { t } = Astro.locals;
               </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-4 col-sm-3">
               <div class="personal-detail">
                 <h4 class="text-compacted">{t('dateBirth')}</h4>
 
@@ -65,7 +65,7 @@ const { t } = Astro.locals;
               </div>
             </div>
 
-            <div class="col-3"></div>
+            <div class="d-none d-md-block col-sm-3"></div>
           </div>
         </div>
       </div>
