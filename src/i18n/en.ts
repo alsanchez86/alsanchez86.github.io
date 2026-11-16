@@ -18,8 +18,6 @@ export const en = {
   apacheSolrTKey:
     'Integration and querying of Lucene-based enterprise search engines, configuration of structured indexing schemas, faceted search, tokenization, and results relevance optimization.',
   apisAndDataFormats: 'APIs & Data Formats',
-  architectureTKey:
-    'Design of scalable and maintainable software systems. Definition of structural guidelines, technology stack selection, and integration patterns to support critical business requirements.',
   awsLambdaS3Ec2: 'AWS (Lambda, S3, EC2)',
   awsLambdaS3Ec2TKey:
     'Operation and deployment on cloud infrastructure, including static storage, provisioning of scalable elastic compute servers, and serverless function orchestration.',
@@ -281,6 +279,7 @@ export const en = {
   requirejs: 'RequireJS',
   requirejsTKey:
     'Implementation of AMD (Asynchronous Module Definition) patterns for asynchronous dependency loading, source code modularization, and performance optimization in architectures prior to native ES6 standards.',
+  restApi: 'Rest API',
   restApiTKey:
     'Design and development of robust, stateless RESTful architectures. Handling of HTTP methods, status codes, authentication mechanisms, and JSON payload structuring for scalable communication.',
   riot: 'Riot',
@@ -300,6 +299,9 @@ export const en = {
   shellScriptTKey:
     'Automation of server tasks and deployment pipelines. Writing efficient Bash scripts for process management, file manipulation, and system monitoring in Unix/Linux environments.',
   skillsTitle: 'Skills',
+  softwareArchitecture: 'Software Architecture',
+  softwareArchitectureTKey:
+    'Design of scalable and maintainable software systems. Definition of structural guidelines, technology stack selection, and integration patterns to support critical business requirements.',
   smarty: 'Smarty',
   smartyTKey:
     'Consolidated experience in managing and implementing this template engine in legacy projects, facilitating safe data interpolation and visual layer organization in traditional PHP architectures.',

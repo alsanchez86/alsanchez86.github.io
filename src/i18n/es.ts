@@ -20,8 +20,6 @@ export const es = {
   apacheSolrTKey:
     'Integración y consulta de motores de búsqueda empresarial basados en Lucene, configuración de esquemas de indexación estructurada, búsqueda facetada, tokenización y optimización de relevancia de resultados.',
   apisAndDataFormats: 'APIs y formatos de datos',
-  architectureTKey:
-    'Diseño de sistemas de software escalables y mantenibles. Definición de directrices estructurales, selección de stack tecnológico y patrones de integración para soportar requisitos de negocio críticos.',
   awsLambdaS3Ec2: 'AWS (Lambda, S3, EC2)',
   awsLambdaS3Ec2TKey:
     'Operación y despliegue sobre infraestructura en la nube, incluyendo almacenamiento estático, provisión de servidores escalables de cómputo elástico y orquestación de funciones serverless.',
@@ -283,6 +281,7 @@ export const es = {
   requirejs: 'RequireJS',
   requirejsTKey:
     'Implementación de patrones AMD (Asynchronous Module Definition) para la carga asíncrona de dependencias, modularización del código fuente y optimización del rendimiento en arquitecturas previas a los estándares nativos de ES6.',
+  restApi: 'Rest API',
   restApiTKey:
     'Diseño y desarrollo de arquitecturas RESTful robustas y sin estado. Manejo de métodos HTTP, códigos de estado, mecanismos de autenticación y estructuración de payloads JSON para una comunicación escalable.',
   riot: 'Riot',
@@ -302,6 +301,9 @@ export const es = {
   shellScriptTKey:
     'Automatización de tareas de servidor y pipelines de despliegue. Creación de scripts Bash eficientes para la gestión de procesos, manipulación de archivos y monitorización de sistemas en entornos Unix/Linux.',
   skillsTitle: 'Habilidades',
+  softwareArchitecture: 'Arquitectura del software',
+  softwareArchitectureTKey:
+    'Diseño de sistemas de software escalables y mantenibles. Definición de directrices estructurales, selección de stack tecnológico y patrones de integración para soportar requisitos de negocio críticos.',
   smarty: 'Smarty',
   smartyTKey:
     'Experiencia consolidada en la gestión e implementación de este motor de plantillas en proyectos legacy, facilitando la interpolación segura de datos y la organización de la capa visual en arquitecturas PHP tradicionales.',
