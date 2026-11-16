@@ -1,5 +1,5 @@
 import { Locale, defaultLocale, Translation } from '@/i18n/consts';
-import type { TFunction } from '@/types/i18n';
+import type { TFunction, TKey } from '@/types/i18n';
 
 /**
  * Type guard that checks whether a string is a supported locale.
@@ -64,3 +64,13 @@ export const getCleanPath = (pathname: string): string => {
 
   return pathname.replace(localeRegex, '/');
 };
+
+/**
+ * Get translation (if exists) or return value.
+ *
+ * @param {TFunction} t
+ * @param {string} value
+ * @returns {}
+ */
+export const getTranslation = (t: TFunction, value: string): string =>
+  t(value as TKey) || value;

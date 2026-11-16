@@ -8,14 +8,18 @@ import { experiences } from '@data/experience';
 import Experience from '@components/Experience.astro';
 import { educations } from '@data/education';
 import Education from '@components/Education.astro';
+import Divider from '@/components/Divider.astro';
+import { getTranslation } from '@i18n/utils';
 
 export { getStaticPaths } from '@i18n/utils';
 
 const { t } = Astro.locals;
 ---
 
-<Base title={t('meta.title')} description={t('meta.description')}>
-  <!-- About -->
+<Base
+  title={getTranslation(t, 'meta.title')}
+  description={getTranslation(t, 'meta.description')}
+>
   <section id="about" class="intro-wrapper section-wrapper">
     <div class="container container-narrow">
       <div class="row">
@@ -27,40 +31,42 @@ const { t } = Astro.locals;
           <header class="name-wrapper">
             <h1>Ángel Sánchez</h1>
 
-            <h2>{t('title')}</h2>
+            <h2>{getTranslation(t, 'title')}</h2>
           </header>
 
-          <Fragment set:html={t('description')} />
+          <Fragment set:html={getTranslation(t, 'description')} />
 
           <div class="row">
             <div class="col-4 col-sm-3">
               <div class="personal-detail">
-                <h4 class="text-compacted">{t('languages')}</h4>
+                <h4 class="text-compacted">{getTranslation(t, 'languages')}</h4>
 
                 <p>
-                  <small>{t('languagesEnglish')}</small>
+                  <small>{getTranslation(t, 'languagesEnglish')}</small>
                   <br />
-                  <small>{t('languagesSpanish')}</small>
+                  <small>{getTranslation(t, 'languagesSpanish')}</small>
                 </p>
               </div>
             </div>
 
             <div class="col-4 col-sm-3">
               <div class="personal-detail">
-                <h4 class="text-compacted">{t('nationality')}</h4>
+                <h4 class="text-compacted">
+                  {getTranslation(t, 'nationality')}
+                </h4>
 
                 <p>
-                  <small>{t('nationalityValue')}</small>
+                  <small>{getTranslation(t, 'nationalityValue')}</small>
                 </p>
               </div>
             </div>
 
             <div class="col-4 col-sm-3">
               <div class="personal-detail">
-                <h4 class="text-compacted">{t('dateBirth')}</h4>
+                <h4 class="text-compacted">{getTranslation(t, 'dateBirth')}</h4>
 
                 <p>
-                  <small>{t('dateBirthValue')}</small>
+                  <small>{getTranslation(t, 'dateBirthValue')}</small>
                 </p>
               </div>
             </div>
@@ -72,60 +78,18 @@ const { t } = Astro.locals;
     </div>
   </section>
 
-  <!-- Divider 1 -->
-  <div class="wrapper-wave">
-    <svg
-      viewBox="0 0 1440 180"
-      preserveAspectRatio="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <defs>
-        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#f7f2ff" />
-          <stop offset="50%" stop-color="#caa8ff" />
-          <stop offset="100%" stop-color="#f7f2ff" />
-        </linearGradient>
-      </defs>
+  <Divider variant={1} />
 
-      <path
-        d="M0,60 C 340,125 680,25 1000,85 C 1160,110 1320,75 1440,62"
-        fill="none"
-        stroke="#6610f2"
-        stroke-width="1.5"
-        stroke-dasharray="4 4"
-        stroke-opacity="0.6"
-      />
-
-      <path
-        d="M0,75 C 340,140 680,40 1000,100 C 1160,125 1320,90 1440,77"
-        fill="none"
-        stroke="url(#gradient)"
-        stroke-width="2"
-        stroke-dasharray="5 5"
-      />
-
-      <path
-        d="M0,90 C 320,175 660,75 980,125 C 1140,150 1300,110 1440,92"
-        fill="none"
-        stroke="url(#gradient)"
-        stroke-width="1.5"
-        stroke-dasharray="3 4"
-        stroke-opacity="0.8"
-      />
-    </svg>
-  </div>
-
-  <!-- Skills -->
   <section id="skills" class="section-wrapper">
     <div class="container container-narrow">
       <header>
-        <h2 class="section-title">{t('skillsTitle')}</h2>
+        <h2 class="section-title">{getTranslation(t, 'skillsTitle')}</h2>
       </header>
 
       <div class="skills-grid">
-        {skills.map(({ title, items }) => (
+        {skills.map(({ type, items }) => (
           <div class="skills-item">
-            <h4 class="text-compacted">{t(title)}</h4>
+            <h4 class="text-compacted">{getTranslation(t, type)}</h4>
 
             {items.map((skill) => (
               <Skill skill={skill} />
@@ -136,54 +100,12 @@ const { t } = Astro.locals;
     </div>
   </section>
 
-  <!-- Divider 2 -->
-  <div class="wrapper-wave">
-    <svg
-      viewBox="0 0 1440 180"
-      preserveAspectRatio="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <defs>
-        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#f7f2ff" />
-          <stop offset="50%" stop-color="#caa8ff" />
-          <stop offset="100%" stop-color="#f7f2ff" />
-        </linearGradient>
-      </defs>
+  <Divider variant={2} />
 
-      <path
-        d="M0,60 C 340,125 680,25 1000,85 C 1160,110 1320,75 1440,62"
-        fill="none"
-        stroke="#6610f2"
-        stroke-width="1.5"
-        stroke-dasharray="4 4"
-        stroke-opacity="0.6"
-      />
-
-      <path
-        d="M0,75 C 340,140 680,40 1000,100 C 1160,125 1320,90 1440,77"
-        fill="none"
-        stroke="url(#gradient)"
-        stroke-width="2"
-        stroke-dasharray="5 5"
-      />
-
-      <path
-        d="M0,90 C 320,175 660,75 980,125 C 1140,150 1300,110 1440,92"
-        fill="none"
-        stroke="url(#gradient)"
-        stroke-width="1.5"
-        stroke-dasharray="3 4"
-        stroke-opacity="0.8"
-      />
-    </svg>
-  </div>
-
-  <!-- Experience -->
   <section id="experience" class="section-wrapper">
     <div class="container container-narrow">
       <header>
-        <h2 class="section-title">{t('experienceTitle')}</h2>
+        <h2 class="section-title">{getTranslation(t, 'experienceTitle')}</h2>
       </header>
 
       {experiences.map((experience) => (
@@ -192,54 +114,12 @@ const { t } = Astro.locals;
     </div>
   </section>
 
-  <!-- Divider 3 -->
-  <div class="wrapper-wave">
-    <svg
-      viewBox="0 0 1440 180"
-      preserveAspectRatio="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <defs>
-        <linearGradient id="gradient-3" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#f7f2ff" />
-          <stop offset="50%" stop-color="#caa8ff" />
-          <stop offset="100%" stop-color="#f7f2ff" />
-        </linearGradient>
-      </defs>
+  <Divider variant={3} />
 
-      <path
-        d="M0,25 C 300,100 640,30 960,110 C 1120,145 1280,105 1440,120"
-        fill="none"
-        stroke="#6610f2"
-        stroke-width="1.5"
-        stroke-dasharray="4 4"
-        stroke-opacity="0.6"
-      />
-
-      <path
-        d="M0,40 C 300,115 640,45 960,125 C 1120,160 1280,120 1440,135"
-        fill="none"
-        stroke="url(#gradient-3)"
-        stroke-width="2"
-        stroke-dasharray="5 5"
-      />
-
-      <path
-        d="M0,55 C 280,135 620,65 940,145 C 1100,175 1260,135 1440,150"
-        fill="none"
-        stroke="url(#gradient-3)"
-        stroke-width="1.5"
-        stroke-dasharray="3 4"
-        stroke-opacity="0.8"
-      />
-    </svg>
-  </div>
-
-  <!-- Education -->
   <section id="education" class="section-wrapper">
     <div class="container container-narrow">
       <header>
-        <h2 class="section-title">{t('educationTitle')}</h2>
+        <h2 class="section-title">{getTranslation(t, 'educationTitle')}</h2>
       </header>
 
       {educations.map((education) => (
@@ -248,54 +128,12 @@ const { t } = Astro.locals;
     </div>
   </section>
 
-  <!-- Divider 4 -->
-  <div class="wrapper-wave">
-    <svg
-      viewBox="0 0 1440 180"
-      preserveAspectRatio="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <defs>
-        <linearGradient id="gradient-4" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#f7f2ff" />
-          <stop offset="50%" stop-color="#caa8ff" />
-          <stop offset="100%" stop-color="#965bf6" />
-        </linearGradient>
-      </defs>
+  <Divider variant={4} />
 
-      <path
-        d="M0,95 C 400,155 760,15 1060,55 C 1200,75 1340,50 1440,70"
-        fill="none"
-        stroke="#6610f2"
-        stroke-width="1.5"
-        stroke-dasharray="4 4"
-        stroke-opacity="0.6"
-      />
-
-      <path
-        d="M0,110 C 400,170 760,30 1060,70 C 1200,90 1340,65 1440,85"
-        fill="none"
-        stroke="url(#gradient-4)"
-        stroke-width="2"
-        stroke-dasharray="5 5"
-      />
-
-      <path
-        d="M0,125 C 380,185 740,45 1040,85 C 1180,105 1320,80 1440,100"
-        fill="none"
-        stroke="url(#gradient-4)"
-        stroke-width="1.5"
-        stroke-dasharray="3 4"
-        stroke-opacity="0.8"
-      />
-    </svg>
-  </div>
-
-  <!-- Contact -->
   <section id="contact" class="section-wrapper">
     <div class="container container-narrow">
       <header>
-        <h2 class="section-title">{t('contact')}</h2>
+        <h2 class="section-title">{getTranslation(t, 'contact')}</h2>
       </header>
 
       <div class="row">
@@ -315,10 +153,10 @@ const { t } = Astro.locals;
 
               <div class="form-group">
                 <label for="contact-form-name">
-                  {t('contactFormName')}
+                  {getTranslation(t, 'contactFormName')}
                   &nbsp;
                   <small class="text-muted">
-                    <i>({t('contactFormFieldsRequired')})</i>
+                    <i>({getTranslation(t, 'contactFormFieldsRequired')})</i>
                   </small>
                 </label>
 
@@ -327,17 +165,17 @@ const { t } = Astro.locals;
                   type="text"
                   class="form-control"
                   name="name"
-                  placeholder={t('contactFormNamePlaceholder')}
+                  placeholder={getTranslation(t, 'contactFormNamePlaceholder')}
                   required
                 />
               </div>
 
               <div class="form-group">
                 <label for="contact-form-email">
-                  {t('contactFormEmail')}
+                  {getTranslation(t, 'contactFormEmail')}
                   &nbsp;
                   <small class="text-muted">
-                    <i>({t('contactFormFieldsRequired')})</i>
+                    <i>({getTranslation(t, 'contactFormFieldsRequired')})</i>
                   </small>
                 </label>
 
@@ -346,17 +184,17 @@ const { t } = Astro.locals;
                   type="email"
                   class="form-control"
                   name="email"
-                  placeholder={t('contactFormEmailPlaceholder')}
+                  placeholder={getTranslation(t, 'contactFormEmailPlaceholder')}
                   required
                 />
               </div>
 
               <div class="form-group">
                 <label for="contact-form-message">
-                  {t('contactFormMessage')}
+                  {getTranslation(t, 'contactFormMessage')}
                   &nbsp;
                   <small class="text-muted">
-                    <i>({t('contactFormFieldsRequired')})</i>
+                    <i>({getTranslation(t, 'contactFormFieldsRequired')})</i>
                   </small>
                 </label>
 
@@ -365,7 +203,10 @@ const { t } = Astro.locals;
                   class="form-control"
                   name="message"
                   rows="4"
-                  placeholder={t('contactFormMessagePlaceholder')}
+                  placeholder={getTranslation(
+                    t,
+                    'contactFormMessagePlaceholder',
+                  )}
                   required
                 ></textarea>
               </div>
@@ -383,12 +224,12 @@ const { t } = Astro.locals;
                       width="16"
                       height="16"
                       fill="currentColor"
-                      class="bi bi-send"
+                      class="bi bi-send-fill"
                       viewBox="0 0 16 16"
                     >
-                      <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
+                      <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z" />
                     </svg>
-                    &nbsp;{t('contactFormSubmit')}
+                    &nbsp;{getTranslation(t, 'contactFormSubmit')}
                   </button>
                 </div>
               </div>
@@ -399,7 +240,7 @@ const { t } = Astro.locals;
                 role="alert"
                 aria-live="polite"
               >
-                {t('contactFormSuccess')}
+                {getTranslation(t, 'contactFormSuccess')}
 
                 <button
                   id="contact-form-status-error-success-close"
@@ -427,7 +268,7 @@ const { t } = Astro.locals;
                 role="alert"
                 aria-live="polite"
               >
-                {t('contactFormError')}
+                {getTranslation(t, 'contactFormError')}
                 &nbsp;
                 <a href="mailto:sanchezpizarro86@gmail.com" title="Email">
                   sanchezpizarro86@gmail.com
@@ -578,15 +419,16 @@ const { t } = Astro.locals;
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-arrow-bar-down"
+                class="bi bi-cloud-arrow-down"
                 viewBox="0 0 16 16"
               >
                 <path
                   fill-rule="evenodd"
-                  d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5M8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6"
+                  d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708z"
                 />
+                <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
               </svg>
-              &nbsp;{t('contactDownloadCV')}
+              &nbsp;{getTranslation(t, 'contactDownloadCV')}
             </a>
           </p>
         </div>
@@ -596,9 +438,13 @@ const { t } = Astro.locals;
 </Base>
 
 <script>
+  animateSkills();
+  initForm();
+  document.addEventListener('astro:page-load', animateSkills);
+  document.addEventListener('astro:page-load', initForm);
+
   /**
    * Animate skills progress bars.
-   *
    */
   function animateSkills() {
     const items = document.querySelectorAll<HTMLElement>('.progress-item');
@@ -723,9 +569,4 @@ const { t } = Astro.locals;
       statusError.classList.add('d-none');
     }
   }
-
-  animateSkills();
-  initForm();
-  document.addEventListener('astro:page-load', animateSkills);
-  document.addEventListener('astro:page-load', initForm);
 </script>

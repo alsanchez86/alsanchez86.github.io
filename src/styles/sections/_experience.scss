@@ -5,11 +5,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: $spacer / 3;
-
-    .badge {
-      color: theme-color('primary');
-      background-color: theme-color('secondary');
-    }
   }
 
   &:last-child {

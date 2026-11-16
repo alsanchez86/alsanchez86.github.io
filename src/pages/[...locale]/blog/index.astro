@@ -4,6 +4,7 @@ import { getRelativeLocaleUrl } from 'astro:i18n';
 import { Image } from 'astro:assets';
 import Base from '@layouts/Base.astro';
 import Date from '@components/Date.astro';
+import { getTranslation } from '@i18n/utils';
 
 export { getStaticPaths } from '@i18n/utils';
 
@@ -13,7 +14,10 @@ const posts = (
 ).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<Base title={t('meta.title')} description={t('meta.description')}>
+<Base
+  title={getTranslation(t, 'meta.title')}
+  description={getTranslation(t, 'meta.description')}
+>
   <ul>
     {posts.map((post) => {
       const slug = post.id.replace(`${locale}/`, '');

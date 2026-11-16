@@ -1,4 +1,5 @@
 ---
+import { getTranslation } from '@/i18n/utils';
 import type { Skill } from '@data/skill';
 
 interface Props {
@@ -7,30 +8,29 @@ interface Props {
 
 const { skill } = Astro.props;
 const { t } = Astro.locals;
+const skillName = getTranslation(t, skill.name);
 ---
 
-<div
-  class="progress-item"
-  tabindex="0"
-  aria-expanded="false"
-  title={skill.name}
-  data-toggle="popover"
-  data-content={t(skill.description)}
-  data-trigger="hover focus"
->
+<div class="progress-item">
   <div class="progress-header">
     <span class="progress-icon" set:html={skill.icon} />
-    <span class="progress-name">{skill.name}</span>
+    <span class="progress-name">{skillName}</span>
   </div>
 
   <div class="progress">
     <div
       class="progress-bar"
       role="progressbar"
+      tabindex="0"
+      aria-expanded="false"
       aria-valuenow={skill.value}
       aria-valuemin="0"
       aria-valuemax="100"
       style={`width: ${skill.value}%`}
+      title={skillName}
+      data-toggle="popover"
+      data-content={getTranslation(t, skill.description)}
+      data-trigger="hover focus"
     >
       <small class="progress-value">{skill.value}%</small>
     </div>

@@ -2,7 +2,8 @@ button,
 .btn {
   text-decoration: none;
 
-  &:focus {
+  &:focus,
+  &:hover {
     outline: 0;
     box-shadow: none;
   }
@@ -25,9 +26,10 @@ button,
 }
 
 .badge {
-  background-color: $gray-400;
+  color: theme-color('primary');
+  background-color: theme-color('secondary');
   transition: $transition-base;
-  cursor: default;
+  cursor: pointer;
 
   &:hover {
     color: theme-color('primary');
@@ -50,9 +52,8 @@ button,
 }
 
 .popover {
-  @include blur(0.75rem);
-  background-color: transparent;
-  box-shadow: 0 0.3rem 0.45rem $gray-300;
+  background-color: $body-bg;
+  box-shadow: $box-shadow;
   border-style: dashed;
 
   .popover-header {

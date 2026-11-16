@@ -64,17 +64,32 @@ const pageDescription = description ?? t('meta.description');
 
   await import('bootstrap');
 
+  const desktopQuery = window.matchMedia('(min-width: 768px)');
+
   function initPopovers() {
     $('[data-toggle="popover"]').popover({
       trigger: 'hover focus',
-      offset: '0, 5px',
+      offset: '0, 8px',
       container: 'body',
-      placement: function () {
-        return ($(window).width() || 0) < 768 ? 'top' : 'left';
-      },
     });
+
+    syncPopovers();
+  }
+
+  function syncPopovers() {
+    const $popovers = $('[data-toggle="popover"]');
+
+    if (desktopQuery.matches) {
+      $popovers.popover('enable');
+    } else {
+      $popovers.popover('hide').popover('disable');
+    }
   }
 
   initPopovers();
+  desktopQuery.addEventListener('change', syncPopovers);
   document.addEventListener('astro:page-load', initPopovers);
+  document.addEventListener('astro:before-swap', () => {
+    $('[data-toggle="popover"]').popover('dispose');
+  });
 </script>

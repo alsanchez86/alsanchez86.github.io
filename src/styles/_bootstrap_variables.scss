@@ -260,7 +260,7 @@ $font-family-monospace: $geist-mono !default;
 $font-family-base: $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
 
-$font-size-base: 0.695rem !default; // Assumes the browser default, typically `16px`
+$font-size-base: 0.7rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg: ($font-size-base * 1.225) !default;
 $font-size-sm: ($font-size-base * 0.95) !default;
 $font-size-xs: ($font-size-base * 0.85) !default;
@@ -274,8 +274,8 @@ $font-weight-base: $font-weight-normal !default;
 $line-height-base: $line-height-md !default;
 
 $h1-font-size: $font-size-base * 2.5 !default;
-$h2-font-size: $font-size-base * 2.15 !default;
-$h3-font-size: $font-size-base * 1.65 !default;
+$h2-font-size: $font-size-base * 1.85 !default;
+$h3-font-size: $font-size-base * 1.55 !default;
 $h4-font-size: $font-size-base * 1.35 !default;
 $h5-font-size: $font-size-base * 1.15 !default;
 $h6-font-size: $font-size-base * 1.05 !default;
@@ -361,7 +361,7 @@ $input-btn-line-height: $line-height-base !default;
 
 $input-btn-focus-width: 0.2rem !default;
 $input-btn-focus-color: rgba($component-active-bg, 0.25) !default;
-$input-btn-focus-box-shadow: 0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+$input-btn-focus-box-shadow: none !default;
 
 $input-btn-padding-y-sm: 0.2rem !default;
 $input-btn-padding-x-sm: 0.4rem !default;

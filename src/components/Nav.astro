@@ -1,7 +1,7 @@
 ---
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { Locale } from '@i18n/consts';
-import { getCleanPath } from '@i18n/utils';
+import { getCleanPath, getTranslation } from '@i18n/utils';
 import Link from '@components/Link.astro';
 import type { TKey } from '@/types/i18n';
 
@@ -32,14 +32,14 @@ const navAnchors: NavAnchorItem[] = [
               class="nav-link"
               href={`${getRelativeLocaleUrl(locale, '/')}#${id}`}
             >
-              {t(labelKey)}
+              {getTranslation(t, labelKey)}
             </Link>
           </li>
         ))}
 
         <!-- <li class="nav-item">
           <Link class="nav-link" href={getRelativeLocaleUrl(locale, '/blog')}>
-            {t('menuBlog')}
+            {getTranslation(t, 'menuBlog')}
           </Link>
         </li> -->
       </ul>
@@ -51,9 +51,9 @@ const navAnchors: NavAnchorItem[] = [
           <a
             class="nav-link"
             href={getRelativeLocaleUrl(altLocale, cleanPath)}
-            title={t('switchLangTitle')}
+            title={getTranslation(t, 'switchLangTitle')}
           >
-            {t('switchLangText')}
+            {getTranslation(t, 'switchLangText')}
           </a>
         </li>
       </ul>

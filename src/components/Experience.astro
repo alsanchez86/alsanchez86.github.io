@@ -1,6 +1,6 @@
 ---
-import type { Experience, TechItem } from '@data/experience';
-import type { TKey } from '@/types/i18n';
+import type { Experience } from '@data/experience';
+import { getTranslation } from '@/i18n/utils';
 
 interface Props {
   experience: Experience;
@@ -8,17 +8,16 @@ interface Props {
 
 const { experience } = Astro.props;
 const { t } = Astro.locals;
-const getTechLabel = (name: TechItem['name']) => t(name as TKey) || name;
 ---
 
-<div class="experience-item">
+<div id={experience.id} class="experience-item">
   <div class="row">
     <div class="col-sm-12 col-md-9">
       <div class="experience-item-header">
-        {experience.company_link ? (
+        {experience.companyLink ? (
           <h3>
             <a
-              href={experience.company_link}
+              href={experience.companyLink}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -40,24 +39,37 @@ const getTechLabel = (name: TechItem['name']) => t(name as TKey) || name;
           <h3>{experience.name}</h3>
         )}
 
-        <h4>{t(experience.position)}</h4>
+        <h4>{getTranslation(t, experience.position)}</h4>
 
-        <h5>{t(experience.date)}</h5>
+        <h5>{getTranslation(t, experience.date)}</h5>
 
-        <h6>{t(experience.city)}</h6>
+        <h6>{getTranslation(t, experience.city)}</h6>
       </div>
 
       <div class="experience-description">
-        <Fragment set:html={t(experience.description)} />
+        <Fragment set:html={getTranslation(t, experience.description)} />
       </div>
 
       <div class="experience-item-batch">
         {experience.techs.map(({ items, type }) =>
-          items.map(({ name }) => (
-            <span class={`badge experience-item-batch-${type}`}>
-              {getTechLabel(name)}
-            </span>
-          )),
+          items.map(({ name, description }) => {
+            const techName = getTranslation(t, name);
+
+            return (
+              <span
+                class={`badge experience-item-batch-${type}`}
+                tabindex="0"
+                aria-expanded="false"
+                title={techName}
+                data-toggle="popover"
+                data-placement="top"
+                data-content={getTranslation(t, description)}
+                data-trigger="hover focus"
+              >
+                {techName}
+              </span>
+            );
+          }),
         )}
       </div>
     </div>

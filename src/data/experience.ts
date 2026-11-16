@@ -1,11 +1,27 @@
+import {
+  ApisAndDataFormats,
+  Backend,
+  DatabasesAndSearch,
+  Design,
+  DevopsAndSystems,
+  Frontend,
+  Ia,
+  ManagementAndStrategy,
+  TechType,
+  Testing,
+  ToolingAndVcs,
+  type TechTypeValues,
+  type TechValues,
+} from '@/constants/tech';
 import type { TKey } from '@/types/i18n';
 
 export interface TechItem {
-  name: string;
+  name: TechValues;
+  description: TKey;
 }
 
 export interface Tech {
-  type: string;
+  type: TechTypeValues;
   items: TechItem[];
 }
 
@@ -17,7 +33,7 @@ export interface Experience {
   position: TKey;
   description: TKey;
   techs: Tech[];
-  company_link?: string;
+  companyLink?: string;
 }
 
 export const experiences = [
@@ -26,72 +42,94 @@ export const experiences = [
     name: 'Copyright Clearance Center',
     date: 'cccDate',
     city: 'sevilla',
-    company_link: 'https://www.copyright.com/',
+    companyLink: 'https://www.copyright.com/',
     position: 'cccPosition',
     description: 'cccDescription',
     techs: [
       {
-        type: 'frontend',
+        type: TechType.Frontend,
         items: [
-          { name: 'Typescript' },
-          { name: 'JavaScript' },
-          { name: 'Ember' },
-          { name: 'Fastboot (SSR)' },
-          { name: 'Redux and Context API' },
-          { name: 'd3' },
-          { name: 'HTML' },
-          { name: 'CSS' },
-          { name: 'Sass' },
-          { name: 'Tailwind' },
-          { name: 'functionalProgramming' },
+          { name: Frontend.Typescript, description: 'typescriptTKey' },
+          { name: Frontend.Javascript, description: 'javascriptTKey' },
+          { name: Frontend.Ember, description: 'emberTKey' },
+          { name: Frontend.FastbootSsr, description: 'fastbootSsrTKey' },
+          {
+            name: Frontend.ReduxAndContextApi,
+            description: 'reduxAndContextApiTKey',
+          },
+          { name: Frontend.D3, description: 'd3TKey' },
+          { name: Frontend.Html, description: 'htmlTKey' },
+          { name: Frontend.Css, description: 'cssTKey' },
+          { name: Frontend.Sass, description: 'sassTKey' },
+          { name: Frontend.Tailwind, description: 'tailwindTKey' },
+          {
+            name: Frontend.FunctionalProgramming,
+            description: 'functionalProgrammingTKey',
+          },
         ],
       },
       {
-        type: 'backend',
-        items: [{ name: 'Nodejs' }, { name: 'Handlebars' }],
-      },
-      {
-        type: 'testing',
-        items: [{ name: 'Qunit' }, { name: 'MSW' }, { name: 'Jest' }],
-      },
-      {
-        type: 'tooling_and_vcs',
+        type: TechType.Backend,
         items: [
-          { name: 'Prettier' },
-          { name: 'ESLint' },
-          { name: 'Github' },
-          { name: 'npm' },
+          { name: Backend.Nodejs, description: 'nodejsTKey' },
+          { name: Backend.Handlebars, description: 'handlebarsTKey' },
         ],
       },
       {
-        type: 'devops_and_systems',
+        type: TechType.Testing,
         items: [
-          { name: 'Docker' },
-          { name: 'AWS (Lambda, S3, EC2)' },
-          { name: 'Linux' },
-          { name: 'macOS' },
-          { name: 'Jenkins' },
+          { name: Testing.Qunit, description: 'qunitTKey' },
+          { name: Testing.Msw, description: 'mswTKey' },
+          { name: Testing.Jest, description: 'jestTKey' },
         ],
       },
       {
-        type: 'apis_and_data_formats',
+        type: TechType.ToolingAndVcs,
         items: [
-          { name: 'Swagger' },
-          { name: 'Postman' },
-          { name: 'Technical Documentation' },
+          { name: ToolingAndVcs.Prettier, description: 'prettierTKey' },
+          { name: ToolingAndVcs.Eslint, description: 'eslintTKey' },
+          { name: ToolingAndVcs.Github, description: 'githubTKey' },
+          { name: ToolingAndVcs.Npm, description: 'npmTKey' },
         ],
       },
       {
-        type: 'management_and_strategy',
+        type: TechType.DevopsAndSystems,
         items: [
-          { name: 'Jira' },
-          { name: 'Scrum' },
-          { name: 'Analítica (GTM, DTM)' },
+          { name: DevopsAndSystems.Docker, description: 'dockerTKey' },
+          {
+            name: DevopsAndSystems.AwsLambdaS3Ec2,
+            description: 'awsLambdaS3Ec2TKey',
+          },
+          { name: DevopsAndSystems.Linux, description: 'linuxTKey' },
+          { name: DevopsAndSystems.Macos, description: 'macosTKey' },
+          { name: DevopsAndSystems.Jenkins, description: 'jenkinsTKey' },
         ],
       },
       {
-        type: 'ia',
-        items: [{ name: 'WebMCP' }],
+        type: TechType.ApisAndDataFormats,
+        items: [
+          { name: ApisAndDataFormats.Swagger, description: 'swaggerTKey' },
+          { name: ApisAndDataFormats.Postman, description: 'postmanTKey' },
+          {
+            name: ApisAndDataFormats.TechnicalDocumentation,
+            description: 'technicalDocumentationTKey',
+          },
+        ],
+      },
+      {
+        type: TechType.ManagementAndStrategy,
+        items: [
+          { name: ManagementAndStrategy.Jira, description: 'jiraTKey' },
+          { name: ManagementAndStrategy.Scrum, description: 'scrumTKey' },
+          {
+            name: ManagementAndStrategy.AnaliticaGtmDtm,
+            description: 'analiticaGtmDtmTKey',
+          },
+        ],
+      },
+      {
+        type: TechType.Ia,
+        items: [{ name: Ia.Webmcp, description: 'webmcpTKey' }],
       },
     ],
   },
@@ -100,58 +138,78 @@ export const experiences = [
     name: 'NTT Data',
     date: 'nttDataDate',
     city: 'sevilla',
-    company_link: 'https://www.nttdata.com/global/en/',
+    companyLink: 'https://www.nttdata.com/global/en/',
     position: 'nttDataPosition',
     description: 'nttDataDescription',
     techs: [
       {
-        type: 'frontend',
+        type: TechType.Frontend,
         items: [
-          { name: 'Typescript' },
-          { name: 'JavaScript' },
-          { name: 'Nextjs' },
-          { name: 'React' },
-          { name: 'Redux and Context API' },
-          { name: 'Primereact' },
-          { name: 'RxJS' },
-          { name: 'HTML' },
-          { name: 'CSS' },
-          { name: 'Sass' },
+          { name: Frontend.Typescript, description: 'typescriptTKey' },
+          { name: Frontend.Javascript, description: 'javascriptTKey' },
+          { name: Frontend.Nextjs, description: 'nextjsTKey' },
+          { name: Frontend.React, description: 'reactTKey' },
+          {
+            name: Frontend.ReduxAndContextApi,
+            description: 'reduxAndContextApiTKey',
+          },
+          { name: Frontend.Primereact, description: 'primereactTKey' },
+          { name: Frontend.Rxjs, description: 'rxjsTKey' },
+          { name: Frontend.Html, description: 'htmlTKey' },
+          { name: Frontend.Css, description: 'cssTKey' },
+          { name: Frontend.Sass, description: 'sassTKey' },
         ],
       },
       {
-        type: 'backend',
-        items: [{ name: 'Nodejs' }, { name: 'Nestjs' }, { name: 'Express' }],
-      },
-      {
-        type: 'databases_and_search',
-        items: [{ name: 'Mongodb' }],
-      },
-      {
-        type: 'testing',
-        items: [{ name: 'Jest' }],
-      },
-      {
-        type: 'apis_and_data_formats',
-        items: [{ name: 'Swagger' }],
-      },
-      {
-        type: 'tooling_and_vcs',
-        items: [{ name: 'Github' }, { name: 'npm' }],
-      },
-      {
-        type: 'devops_and_systems',
+        type: TechType.Backend,
         items: [
-          { name: 'Docker' },
-          { name: 'AWS (Lambda, S3, EC2)' },
-          { name: 'Linux' },
-          { name: 'Windows' },
-          { name: 'Jenkins' },
+          { name: Backend.Nodejs, description: 'nodejsTKey' },
+          { name: Backend.Nestjs, description: 'nestjsTKey' },
+          { name: Backend.Express, description: 'expressTKey' },
         ],
       },
       {
-        type: 'management_and_strategy',
-        items: [{ name: 'Jira' }, { name: 'Scrum' }],
+        type: TechType.DatabasesAndSearch,
+        items: [
+          { name: DatabasesAndSearch.Mongodb, description: 'mongodbTKey' },
+        ],
+      },
+      {
+        type: TechType.Testing,
+        items: [{ name: Testing.Jest, description: 'jestTKey' }],
+      },
+      {
+        type: TechType.ApisAndDataFormats,
+        items: [
+          { name: ApisAndDataFormats.Swagger, description: 'swaggerTKey' },
+        ],
+      },
+      {
+        type: TechType.ToolingAndVcs,
+        items: [
+          { name: ToolingAndVcs.Github, description: 'githubTKey' },
+          { name: ToolingAndVcs.Npm, description: 'npmTKey' },
+        ],
+      },
+      {
+        type: TechType.DevopsAndSystems,
+        items: [
+          { name: DevopsAndSystems.Docker, description: 'dockerTKey' },
+          {
+            name: DevopsAndSystems.AwsLambdaS3Ec2,
+            description: 'awsLambdaS3Ec2TKey',
+          },
+          { name: DevopsAndSystems.Linux, description: 'linuxTKey' },
+          { name: DevopsAndSystems.Windows, description: 'windowsTKey' },
+          { name: DevopsAndSystems.Jenkins, description: 'jenkinsTKey' },
+        ],
+      },
+      {
+        type: TechType.ManagementAndStrategy,
+        items: [
+          { name: ManagementAndStrategy.Jira, description: 'jiraTKey' },
+          { name: ManagementAndStrategy.Scrum, description: 'scrumTKey' },
+        ],
       },
     ],
   },
@@ -160,61 +218,83 @@ export const experiences = [
     name: 'BeTIX',
     date: 'betixDate',
     city: 'barcelona',
-    company_link:
+    companyLink:
       'https://www.linkedin.com/company/expertus-technology-software/',
     position: 'betixPosition',
     description: 'betixDescription',
     techs: [
       {
-        type: 'frontend',
+        type: TechType.Frontend,
         items: [
-          { name: 'Typescript' },
-          { name: 'JavaScript' },
-          { name: 'React' },
-          { name: 'Redux and Context API' },
-          { name: 'AngularJS' },
-          { name: 'Bootstrap' },
-          { name: 'd3' },
-          { name: 'Konva' },
-          { name: 'HTML' },
-          { name: 'CSS' },
-          { name: 'Sass' },
-          { name: 'Less' },
+          { name: Frontend.Typescript, description: 'typescriptTKey' },
+          { name: Frontend.Javascript, description: 'javascriptTKey' },
+          { name: Frontend.React, description: 'reactTKey' },
+          {
+            name: Frontend.ReduxAndContextApi,
+            description: 'reduxAndContextApiTKey',
+          },
+          { name: Frontend.Angularjs, description: 'angularjsTKey' },
+          { name: Frontend.Bootstrap, description: 'bootstrapTKey' },
+          { name: Frontend.D3, description: 'd3TKey' },
+          { name: Frontend.Konva, description: 'konvaTKey' },
+          { name: Frontend.Html, description: 'htmlTKey' },
+          { name: Frontend.Css, description: 'cssTKey' },
+          { name: Frontend.Sass, description: 'sassTKey' },
+          { name: Frontend.Less, description: 'lessTKey' },
         ],
       },
       {
-        type: 'backend',
-        items: [{ name: 'Nodejs' }, { name: 'Python' }, { name: 'Java' }],
-      },
-      {
-        type: 'testing',
-        items: [{ name: 'Jasmine' }, { name: 'Mocha' }],
-      },
-      {
-        type: 'tooling_and_vcs',
+        type: TechType.Backend,
         items: [
-          { name: 'RequireJS' },
-          { name: 'Grunt' },
-          { name: 'Gulp' },
-          { name: 'webpack' },
-          { name: 'Mercurial' },
-          { name: 'Github' },
-          { name: 'npm' },
+          { name: Backend.Nodejs, description: 'nodejsTKey' },
+          { name: Backend.Python, description: 'pythonTKey' },
+          { name: Backend.Java, description: 'javaTKey' },
         ],
       },
       {
-        type: 'devops_and_systems',
+        type: TechType.Testing,
         items: [
-          { name: 'Shell script' },
-          { name: 'AWS (Lambda, S3, EC2)' },
-          { name: 'Linux' },
-          { name: 'Windows' },
-          { name: 'Jenkins' },
+          { name: Testing.Jasmine, description: 'jasmineTKey' },
+          { name: Testing.Mocha, description: 'mochaTKey' },
         ],
       },
       {
-        type: 'management_and_strategy',
-        items: [{ name: 'Analítica (GTM, DTM)' }, { name: 'Scrum' }],
+        type: TechType.ToolingAndVcs,
+        items: [
+          { name: ToolingAndVcs.Requirejs, description: 'requirejsTKey' },
+          { name: ToolingAndVcs.Grunt, description: 'gruntTKey' },
+          { name: ToolingAndVcs.Gulp, description: 'gulpTKey' },
+          { name: ToolingAndVcs.Webpack, description: 'webpackTKey' },
+          { name: ToolingAndVcs.Mercurial, description: 'mercurialTKey' },
+          { name: ToolingAndVcs.Github, description: 'githubTKey' },
+          { name: ToolingAndVcs.Npm, description: 'npmTKey' },
+        ],
+      },
+      {
+        type: TechType.DevopsAndSystems,
+        items: [
+          {
+            name: DevopsAndSystems.ShellScript,
+            description: 'shellScriptTKey',
+          },
+          {
+            name: DevopsAndSystems.AwsLambdaS3Ec2,
+            description: 'awsLambdaS3Ec2TKey',
+          },
+          { name: DevopsAndSystems.Linux, description: 'linuxTKey' },
+          { name: DevopsAndSystems.Windows, description: 'windowsTKey' },
+          { name: DevopsAndSystems.Jenkins, description: 'jenkinsTKey' },
+        ],
+      },
+      {
+        type: TechType.ManagementAndStrategy,
+        items: [
+          {
+            name: ManagementAndStrategy.AnaliticaGtmDtm,
+            description: 'analiticaGtmDtmTKey',
+          },
+          { name: ManagementAndStrategy.Scrum, description: 'scrumTKey' },
+        ],
       },
     ],
   },
@@ -223,47 +303,51 @@ export const experiences = [
     name: 'Crealogix',
     date: 'crealogixDate',
     city: 'barcelona',
-    company_link: 'https://www.linkedin.com/company/crealogix/',
+    companyLink: 'https://www.linkedin.com/company/crealogix/',
     position: 'crealogixPosition',
     description: 'crealogixDescription',
     techs: [
       {
-        type: 'frontend',
+        type: TechType.Frontend,
         items: [
-          { name: 'JavaScript' },
-          { name: 'Angular' },
-          { name: 'AngularJS' },
-          { name: 'jQuery' },
-          { name: 'Typescript' },
-          { name: 'Bootstrap' },
-          { name: 'Foundation' },
-          { name: 'HTML' },
-          { name: 'CSS' },
-          { name: 'Sass' },
-          { name: 'Less' },
+          { name: Frontend.Javascript, description: 'javascriptTKey' },
+          { name: Frontend.Angular, description: 'angularTKey' },
+          { name: Frontend.Angularjs, description: 'angularjsTKey' },
+          { name: Frontend.Jquery, description: 'jqueryTKey' },
+          { name: Frontend.Typescript, description: 'typescriptTKey' },
+          { name: Frontend.Bootstrap, description: 'bootstrapTKey' },
+          { name: Frontend.Foundation, description: 'foundationTKey' },
+          { name: Frontend.Html, description: 'htmlTKey' },
+          { name: Frontend.Css, description: 'cssTKey' },
+          { name: Frontend.Sass, description: 'sassTKey' },
+          { name: Frontend.Less, description: 'lessTKey' },
         ],
       },
       {
-        type: 'backend',
-        items: [{ name: 'PHP' }, { name: 'Twig' }, { name: 'Blade' }],
-      },
-      {
-        type: 'databases_and_search',
-        items: [{ name: 'SQL' }],
-      },
-      {
-        type: 'tooling_and_vcs',
+        type: TechType.Backend,
         items: [
-          { name: 'Grunt' },
-          { name: 'Gulp' },
-          { name: 'Github' },
-          { name: 'npm' },
-          { name: 'Bower' },
+          { name: Backend.Php, description: 'phpTKey' },
+          { name: Backend.Twig, description: 'twigTKey' },
+          { name: Backend.Blade, description: 'bladeTKey' },
         ],
       },
       {
-        type: 'devops_and_systems',
-        items: [{ name: 'Linux' }],
+        type: TechType.DatabasesAndSearch,
+        items: [{ name: DatabasesAndSearch.Sql, description: 'sqlTKey' }],
+      },
+      {
+        type: TechType.ToolingAndVcs,
+        items: [
+          { name: ToolingAndVcs.Grunt, description: 'gruntTKey' },
+          { name: ToolingAndVcs.Gulp, description: 'gulpTKey' },
+          { name: ToolingAndVcs.Github, description: 'githubTKey' },
+          { name: ToolingAndVcs.Npm, description: 'npmTKey' },
+          { name: ToolingAndVcs.Bower, description: 'bowerTKey' },
+        ],
+      },
+      {
+        type: TechType.DevopsAndSystems,
+        items: [{ name: DevopsAndSystems.Linux, description: 'linuxTKey' }],
       },
     ],
   },
@@ -272,79 +356,91 @@ export const experiences = [
     name: 'Ximdex',
     date: 'ximdexDate',
     city: 'sevilla',
-    company_link: 'https://www.ximdex.com/',
+    companyLink: 'https://www.ximdex.com/',
     position: 'ximdexPosition',
     description: 'ximdexDescription',
     techs: [
       {
-        type: 'frontend',
+        type: TechType.Frontend,
         items: [
-          { name: 'JavaScript' },
-          { name: 'jQuery' },
-          { name: 'Riot' },
-          { name: 'AngularJS' },
-          { name: 'CoffeeScript' },
-          { name: 'Bootstrap' },
-          { name: 'HTML' },
-          { name: 'CSS' },
-          { name: 'Less' },
-          { name: 'Sass' },
+          { name: Frontend.Javascript, description: 'javascriptTKey' },
+          { name: Frontend.Jquery, description: 'jqueryTKey' },
+          { name: Frontend.Riot, description: 'riotTKey' },
+          { name: Frontend.Angularjs, description: 'angularjsTKey' },
+          { name: Frontend.Coffeescript, description: 'coffeescriptTKey' },
+          { name: Frontend.Bootstrap, description: 'bootstrapTKey' },
+          { name: Frontend.Html, description: 'htmlTKey' },
+          { name: Frontend.Css, description: 'cssTKey' },
+          { name: Frontend.Less, description: 'lessTKey' },
+          { name: Frontend.Sass, description: 'sassTKey' },
         ],
       },
       {
-        type: 'backend',
+        type: TechType.Backend,
         items: [
-          { name: 'PHP' },
-          { name: 'Twig' },
-          { name: 'Blade' },
-          { name: 'Smarty' },
+          { name: Backend.Php, description: 'phpTKey' },
+          { name: Backend.Twig, description: 'twigTKey' },
+          { name: Backend.Blade, description: 'bladeTKey' },
+          { name: Backend.Smarty, description: 'smartyTKey' },
         ],
       },
       {
-        type: 'databases_and_search',
+        type: TechType.DatabasesAndSearch,
         items: [
-          { name: 'SQL' },
-          { name: 'Apache Solr' },
-          { name: 'ElasticSearch' },
+          { name: DatabasesAndSearch.Sql, description: 'sqlTKey' },
+          {
+            name: DatabasesAndSearch.ApacheSolr,
+            description: 'apacheSolrTKey',
+          },
+          {
+            name: DatabasesAndSearch.Elasticsearch,
+            description: 'elasticsearchTKey',
+          },
         ],
       },
       {
-        type: 'apis_and_data_formats',
+        type: TechType.ApisAndDataFormats,
         items: [
-          { name: 'XML' },
-          { name: 'XSLT' },
-          { name: 'RELAXNG' },
-          { name: 'JSON' },
-          { name: 'JSON-LD' },
+          { name: ApisAndDataFormats.Xml, description: 'xmlTKey' },
+          { name: ApisAndDataFormats.Xslt, description: 'xsltTKey' },
+          { name: ApisAndDataFormats.Relaxng, description: 'relaxngTKey' },
+          { name: ApisAndDataFormats.Json, description: 'jsonTKey' },
+          { name: ApisAndDataFormats.JsonLd, description: 'jsonLdTKey' },
         ],
       },
       {
-        type: 'tooling_and_vcs',
+        type: TechType.ToolingAndVcs,
         items: [
-          { name: 'Grunt' },
-          { name: 'Gulp' },
-          { name: 'Github' },
-          { name: 'npm' },
-          { name: 'Composer' },
-          { name: 'Bower' },
+          { name: ToolingAndVcs.Grunt, description: 'gruntTKey' },
+          { name: ToolingAndVcs.Gulp, description: 'gulpTKey' },
+          { name: ToolingAndVcs.Github, description: 'githubTKey' },
+          { name: ToolingAndVcs.Npm, description: 'npmTKey' },
+          { name: ToolingAndVcs.Composer, description: 'composerTKey' },
+          { name: ToolingAndVcs.Bower, description: 'bowerTKey' },
         ],
       },
       {
-        type: 'devops_and_systems',
-        items: [{ name: 'Linux' }, { name: 'Windows' }],
-      },
-      {
-        type: 'management_and_strategy',
-        items: [{ name: 'Kibana' }, { name: 'Scrum' }],
-      },
-      {
-        type: 'design',
+        type: TechType.DevopsAndSystems,
         items: [
-          { name: 'Illustrator' },
-          { name: 'Photoshop' },
-          { name: 'Fireworks' },
-          { name: 'Inkscape' },
-          { name: 'Gimp' },
+          { name: DevopsAndSystems.Linux, description: 'linuxTKey' },
+          { name: DevopsAndSystems.Windows, description: 'windowsTKey' },
+        ],
+      },
+      {
+        type: TechType.ManagementAndStrategy,
+        items: [
+          { name: ManagementAndStrategy.Kibana, description: 'kibanaTKey' },
+          { name: ManagementAndStrategy.Scrum, description: 'scrumTKey' },
+        ],
+      },
+      {
+        type: TechType.Design,
+        items: [
+          { name: Design.Illustrator, description: 'illustratorTKey' },
+          { name: Design.Photoshop, description: 'photoshopTKey' },
+          { name: Design.Fireworks, description: 'fireworksTKey' },
+          { name: Design.Inkscape, description: 'inkscapeTKey' },
+          { name: Design.Gimp, description: 'gimpTKey' },
         ],
       },
     ],
@@ -354,44 +450,47 @@ export const experiences = [
     name: 'Existo Diseño Web',
     date: 'existoDate',
     city: 'sevilla',
-    company_link: 'https://www.existo.es/',
+    companyLink: 'https://www.existo.es/',
     position: 'existoPosition',
     description: 'existoDescription',
     techs: [
       {
-        type: 'frontend',
+        type: TechType.Frontend,
         items: [
-          { name: 'JavaScript' },
-          { name: 'jQuery' },
-          { name: 'Bootstrap' },
-          { name: 'HTML' },
-          { name: 'CSS' },
-          { name: 'Less' },
-          { name: 'Sass' },
+          { name: Frontend.Javascript, description: 'javascriptTKey' },
+          { name: Frontend.Jquery, description: 'jqueryTKey' },
+          { name: Frontend.Bootstrap, description: 'bootstrapTKey' },
+          { name: Frontend.Html, description: 'htmlTKey' },
+          { name: Frontend.Css, description: 'cssTKey' },
+          { name: Frontend.Less, description: 'lessTKey' },
+          { name: Frontend.Sass, description: 'sassTKey' },
         ],
       },
       {
-        type: 'backend',
-        items: [{ name: 'PHP' }, { name: 'Smarty' }],
-      },
-      {
-        type: 'databases_and_search',
-        items: [{ name: 'SQL' }],
-      },
-      {
-        type: 'devops_and_systems',
-        items: [{ name: 'Windows' }],
-      },
-      {
-        type: 'management_and_strategy',
-        items: [{ name: 'Lean' }],
-      },
-      {
-        type: 'design',
+        type: TechType.Backend,
         items: [
-          { name: 'Illustrator' },
-          { name: 'Photoshop' },
-          { name: 'Fireworks' },
+          { name: Backend.Php, description: 'phpTKey' },
+          { name: Backend.Smarty, description: 'smartyTKey' },
+        ],
+      },
+      {
+        type: TechType.DatabasesAndSearch,
+        items: [{ name: DatabasesAndSearch.Sql, description: 'sqlTKey' }],
+      },
+      {
+        type: TechType.DevopsAndSystems,
+        items: [{ name: DevopsAndSystems.Windows, description: 'windowsTKey' }],
+      },
+      {
+        type: TechType.ManagementAndStrategy,
+        items: [{ name: ManagementAndStrategy.Lean, description: 'leanTKey' }],
+      },
+      {
+        type: TechType.Design,
+        items: [
+          { name: Design.Illustrator, description: 'illustratorTKey' },
+          { name: Design.Photoshop, description: 'photoshopTKey' },
+          { name: Design.Fireworks, description: 'fireworksTKey' },
         ],
       },
     ],
@@ -401,30 +500,30 @@ export const experiences = [
     name: 'Freelance',
     date: 'freelanceDate',
     city: 'sevilla',
-    company_link: 'https://iaic.us.es/',
+    companyLink: 'https://iaic.us.es/',
     position: 'freelancePosition',
     description: 'freelanceDescription',
     techs: [
       {
-        type: 'frontend',
+        type: TechType.Frontend,
         items: [
-          { name: 'JavaScript' },
-          { name: 'jQuery' },
-          { name: 'HTML' },
-          { name: 'CSS' },
+          { name: Frontend.Javascript, description: 'javascriptTKey' },
+          { name: Frontend.Jquery, description: 'jqueryTKey' },
+          { name: Frontend.Html, description: 'htmlTKey' },
+          { name: Frontend.Css, description: 'cssTKey' },
         ],
       },
       {
-        type: 'backend',
-        items: [{ name: 'PHP' }],
+        type: TechType.Backend,
+        items: [{ name: Backend.Php, description: 'phpTKey' }],
       },
       {
-        type: 'databases_and_search',
-        items: [{ name: 'SQL' }],
+        type: TechType.DatabasesAndSearch,
+        items: [{ name: DatabasesAndSearch.Sql, description: 'sqlTKey' }],
       },
       {
-        type: 'devops_and_systems',
-        items: [{ name: 'Windows' }],
+        type: TechType.DevopsAndSystems,
+        items: [{ name: DevopsAndSystems.Windows, description: 'windowsTKey' }],
       },
     ],
   },
@@ -437,28 +536,35 @@ export const experiences = [
     description: 'gaesaDescription',
     techs: [
       {
-        type: 'frontend',
-        items: [{ name: 'JavaScript' }, { name: 'HTML' }, { name: 'CSS' }],
-      },
-      {
-        type: 'backend',
-        items: [{ name: 'PHP' }],
-      },
-      {
-        type: 'databases_and_search',
-        items: [{ name: 'SQL' }],
-      },
-      {
-        type: 'devops_and_systems',
-        items: [{ name: 'Windows' }],
-      },
-      {
-        type: 'design',
+        type: TechType.Frontend,
         items: [
-          { name: 'Illustrator' },
-          { name: 'Photoshop' },
-          { name: 'Fireworks' },
-          { name: 'Adobe Flash (ActionScript 3)' },
+          { name: Frontend.Javascript, description: 'javascriptTKey' },
+          { name: Frontend.Html, description: 'htmlTKey' },
+          { name: Frontend.Css, description: 'cssTKey' },
+        ],
+      },
+      {
+        type: TechType.Backend,
+        items: [{ name: Backend.Php, description: 'phpTKey' }],
+      },
+      {
+        type: TechType.DatabasesAndSearch,
+        items: [{ name: DatabasesAndSearch.Sql, description: 'sqlTKey' }],
+      },
+      {
+        type: TechType.DevopsAndSystems,
+        items: [{ name: DevopsAndSystems.Windows, description: 'windowsTKey' }],
+      },
+      {
+        type: TechType.Design,
+        items: [
+          { name: Design.Illustrator, description: 'illustratorTKey' },
+          { name: Design.Photoshop, description: 'photoshopTKey' },
+          { name: Design.Fireworks, description: 'fireworksTKey' },
+          {
+            name: Design.AdobeFlashActionscript,
+            description: 'adobeFlashActionscriptTKey',
+          },
         ],
       },
     ],

@@ -1,4 +1,5 @@
 ---
+import { getTranslation } from '@/i18n/utils';
 import type { Education } from '@data/education';
 
 interface Props {
@@ -12,9 +13,9 @@ const { t } = Astro.locals;
 <div class="education-item">
   <small>{education.date}</small>
 
-  <h3>{t(education.name)}</h3>
+  <h3>{getTranslation(t, education.name)}</h3>
 
-  <h4 class="text-compacted">{t(education.location)}</h4>
+  <h4 class="text-compacted">{getTranslation(t, education.location)}</h4>
 
-  <p>{t(education.city)}</p>
+  <p>{getTranslation(t, education.city)}</p>
 </div>

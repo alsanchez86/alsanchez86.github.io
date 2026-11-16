@@ -14,7 +14,7 @@
 
 .progress-item {
   position: relative;
-  margin-bottom: $spacer * 0.75;
+  margin-bottom: $spacer * 0.65;
   overflow: hidden;
   font-size: $font-size-xs;
   color: $gray-600;
@@ -33,16 +33,32 @@
     }
   }
 
-  &.progress-item-animated-completed:hover,
-  &.progress-item-animated-completed[aria-expanded='true'] {
-    color: theme-color('primary');
+  &.progress-item-animated-completed {
+    &:has(.progress-bar:hover),
+    &:has(.progress-bar:focus),
+    &:has(.progress-bar[aria-expanded='true']) {
+      .progress-header {
+        .progress-icon,
+        .progress-name {
+          color: theme-color('primary');
+        }
+      }
+    }
 
     .progress {
       .progress-bar {
-        border-color: theme-color('primary');
-
         .progress-value {
-          color: theme-color('primary');
+          opacity: 1;
+        }
+
+        &:hover,
+        &:focus,
+        &[aria-expanded='true'] {
+          border-color: theme-color('primary');
+
+          .progress-value {
+            color: theme-color('primary');
+          }
         }
       }
     }
@@ -56,6 +72,12 @@
     align-items: center;
     white-space: nowrap;
     line-height: 1;
+    pointer-events: none;
+
+    .progress-icon,
+    .progress-name {
+      transition: $transition-base;
+    }
 
     .progress-icon {
       margin-right: $spacer / 2;
@@ -84,10 +106,12 @@
       border-bottom: 1px dashed $gray-500;
       box-shadow: none;
       color: $body-color;
+      cursor: pointer;
 
       .progress-value {
+        opacity: 0;
         color: $gray-400;
-        transition: $transition-fade;
+        transition: $transition-base;
       }
     }
   }

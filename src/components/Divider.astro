@@ -1,0 +1,83 @@
+---
+interface Props {
+  variant?: 1 | 2 | 3 | 4;
+  class?: string;
+}
+
+const { variant = 1, class: className } = Astro.props;
+
+const divider1And2 = {
+  endColor: '#f7f2ff',
+  paths: [
+    'M0,60 C 340,125 680,25 1000,85 C 1160,110 1320,75 1440,62',
+    'M0,75 C 340,140 680,40 1000,100 C 1160,125 1320,90 1440,77',
+    'M0,90 C 320,175 660,75 980,125 C 1140,150 1300,110 1440,92',
+  ],
+} as const;
+
+const waves = {
+  1: divider1And2,
+  2: divider1And2,
+  3: {
+    endColor: '#f7f2ff',
+    paths: [
+      'M0,25 C 300,100 640,30 960,110 C 1120,145 1280,105 1440,120',
+      'M0,40 C 300,115 640,45 960,125 C 1120,160 1280,120 1440,135',
+      'M0,55 C 280,135 620,65 940,145 C 1100,175 1260,135 1440,150',
+    ],
+  },
+  4: {
+    endColor: '#965bf6',
+    paths: [
+      'M0,95 C 400,155 760,15 1060,55 C 1200,75 1340,50 1440,70',
+      'M0,110 C 400,170 760,30 1060,70 C 1200,90 1340,65 1440,85',
+      'M0,125 C 380,185 740,45 1040,85 C 1180,105 1320,80 1440,100',
+    ],
+  },
+} as const;
+
+const current = waves[variant];
+const gradientId = `wave-gradient-${variant}-${Math.random().toString(36).slice(2, 7)}`;
+---
+
+<div class:list={['wrapper-wave', className]}>
+  <svg
+    viewBox="0 0 1440 180"
+    preserveAspectRatio="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#f7f2ff" />
+        <stop offset="50%" stop-color="#caa8ff" />
+        <stop offset="100%" stop-color={current.endColor} />
+      </linearGradient>
+    </defs>
+
+    <path
+      d={current.paths[0]}
+      fill="none"
+      stroke="#6610f2"
+      stroke-width="1.5"
+      stroke-dasharray="4 4"
+      stroke-opacity="0.6"
+    />
+
+    <path
+      d={current.paths[1]}
+      fill="none"
+      stroke={`url(#${gradientId})`}
+      stroke-width="2"
+      stroke-dasharray="5 5"
+    />
+
+    <path
+      d={current.paths[2]}
+      fill="none"
+      stroke={`url(#${gradientId})`}
+      stroke-width="1.5"
+      stroke-dasharray="3 4"
+      stroke-opacity="0.8"
+    />
+  </svg>
+</div>
