@@ -326,7 +326,7 @@ export const en = {
   technicalDocumentationTKey:
     'Creation of clear, maintainable technical specifications and architectural decision records (ADRs). Translating complex system behaviors into accessible documentation for developer teams.',
   testing: 'Testing',
-  title: 'Senior Frontend Architect and Team Leader',
+  title: 'Senior Software Architect and Team Leader',
   toolingAndVcs: 'Tooling & Version Control',
   twig: 'Twig',
   twigTKey:
