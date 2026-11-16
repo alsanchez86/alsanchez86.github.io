@@ -42,8 +42,7 @@
         border-color: theme-color('primary');
 
         .progress-value {
-          display: block;
-          opacity: 1;
+          color: theme-color('primary');
         }
       }
     }
@@ -87,9 +86,7 @@
       color: $body-color;
 
       .progress-value {
-        display: none;
-        opacity: 0;
-        color: theme-color('primary');
+        color: $gray-400;
         transition: $transition-fade;
       }
     }

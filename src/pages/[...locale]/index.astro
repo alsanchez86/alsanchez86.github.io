@@ -90,7 +90,7 @@ const { t } = Astro.locals;
       <path
         d="M0,60 C 340,125 680,25 1000,85 C 1160,110 1320,75 1440,62"
         fill="none"
-        stroke="#9e61ff"
+        stroke="#6610f2"
         stroke-width="1.5"
         stroke-dasharray="4 4"
         stroke-opacity="0.6"
@@ -125,7 +125,7 @@ const { t } = Astro.locals;
       <div class="skills-grid">
         {skills.map(({ title, items }) => (
           <div class="skills-item">
-            <h4 class="text-compacted">{title}</h4>
+            <h4 class="text-compacted">{t(title)}</h4>
 
             {items.map((skill) => (
               <Skill skill={skill} />
@@ -210,7 +210,7 @@ const { t } = Astro.locals;
       <path
         d="M0,25 C 300,100 640,30 960,110 C 1120,145 1280,105 1440,120"
         fill="none"
-        stroke="#965bf6"
+        stroke="#6610f2"
         stroke-width="1.5"
         stroke-dasharray="4 4"
         stroke-opacity="0.6"
@@ -266,7 +266,7 @@ const { t } = Astro.locals;
       <path
         d="M0,95 C 400,155 760,15 1060,55 C 1200,75 1340,50 1440,70"
         fill="none"
-        stroke="#9e61ff"
+        stroke="#6610f2"
         stroke-width="1.5"
         stroke-dasharray="4 4"
         stroke-opacity="0.6"

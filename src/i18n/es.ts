@@ -6,15 +6,16 @@ export const es = {
     'Diseño y despliegue de agentes de IA autónomos. Estructuración de capacidades de tool-calling, retención de contexto y ciclos de razonamiento multi-paso para automatizar tareas web complejas.',
   analyticsSkill:
     'Implementación técnica y configuración estratégica de analítica web orientada a e-commerce y portales de alto tráfico, mediante la inyección estructurada de data layers, etiquetas, variables y disparadores personalizados.',
-  angularSkill:
-    'Conocimientos fundamentales en el framework moderno, abarcando la creación y estructuración de componentes, módulos y servicios, uso de directivas estructurales y configuración básica del sistema de enrutamiento.',
   angularjsSkill:
     'Conocimientos sólidos en la arquitectura MVC clásica del framework, implementando el binding bidireccional, creación de directivas personalizadas, inyección de dependencias, definición de servicios y control del ciclo de digestión.',
+  angularSkill:
+    'Conocimientos fundamentales en el framework moderno, abarcando la creación y estructuración de componentes, módulos y servicios, uso de directivas estructurales y configuración básica del sistema de enrutamiento.',
   apisAndDataFormats: 'APIs y formatos de datos',
   architectureSkill:
     'Diseño de sistemas de software escalables y mantenibles. Definición de directrices estructurales, selección de stack tecnológico y patrones de integración para soportar requisitos de negocio críticos.',
   awsSkill:
     'Operación y despliegue sobre infraestructura en la nube, incluyendo almacenamiento estático, provisión de servidores escalables de cómputo elástico y orquestación de funciones serverless.',
+  backend: 'Backend',
   barcelona: 'Barcelona, España',
   betixDate: 'Agosto 2017 - Diciembre 2019',
   betixDescription:
@@ -63,6 +64,7 @@ export const es = {
   deployments: 'Despliegues',
   description:
     '<p>Arquitecto de software con <strong>más de 15 años de experiencia</strong> especializado en aplicaciones web escalables de alta concurrencia, sistemas de componentes UI e integración de flujos agénticos e IA, respaldado por un perfil transversal en fullstack, bases de datos y sistemas que facilita una visión global de la infraestructura y el producto.</p><p>Enfocado en maximizar la calidad del software (Clean Code, testing automatizado, control de deuda técnica) y liderar equipos, traduciendo los objetivos de negocio en estándares arquitectónicos sólidos y sostenibles.</p>',
+  design: 'Diseño',
   devopsAndSystems: 'DevOps y sistemas',
   dockerSkill:
     'Despliegue ágil mediante la contenedorización de servicios, orquestación básica con Docker Compose, creación de imágenes personalizadas y aislamiento de entornos para homogeneizar el flujo desde desarrollo hasta producción.',
@@ -102,6 +104,7 @@ export const es = {
   freelanceDescription:
     '<p>Desarrollo íntegro de la plataforma online para la comunidad de estudiantes del <strong>Instituto Andaluz Interuniversitario de Criminología de la Universidad de Sevilla</strong>.</p><p>Cobertura del ciclo completo del proyecto: definición de la arquitectura técnica, lógica del servidor e implementación de una interfaz web accesible e intuitiva.</p><p>Gestión directa de requisitos funcionales con el ámbito universitario para entregar un entorno seguro, funcional y alineado con los estándares académicos requeridos.</p>',
   freelancePosition: 'Fullstack Developer',
+  frontend: 'Frontend',
   functionalProgramming: 'Programación funcional',
   gaesaDate: 'Julio 2010 - Enero 2012',
   gaesaDescription:
@@ -137,12 +140,12 @@ export const es = {
     'Gestión ágil de proyectos y seguimiento de incidencias. Configuración de tableros Scrum/Kanban, planificación de sprints, gestión del ciclo de vida de tickets y coordinación de equipos transversales.',
   jquerySkill:
     'Dominio absoluto en la manipulación directa del DOM, gestión avanzada de eventos, manejo de animaciones e integración de peticiones AJAX. Experiencia consolidada en la optimización y el mantenimiento escalable de bases de código legacy.',
-  jsSkill:
-    'Dominio avanzado y transversal de todo el lenguaje a través de conceptos clave como closures, prototypes, event loop, promises, async/await, memory management, módulos y contexto de ejecución.',
   jsonLdSkill:
     'Implementación de Linked Data en formato JSON. Estructuración de contenido web semántico para mejorar el SEO, rich snippets y la integración de datos legibles por máquinas.',
   jsonSkill:
     'Dominio en la estructuración, serialización y parseo de formatos ligeros de intercambio de datos. Esencial para la comunicación de APIs REST, gestión de configuraciones e hidratación de estado frontend.',
+  jsSkill:
+    'Dominio avanzado y transversal de todo el lenguaje a través de conceptos clave como closures, prototypes, event loop, promises, async/await, memory management, módulos y contexto de ejecución.',
   kibanaSkill:
     'Visualización de datos y análisis de logs dentro del Elastic Stack. Creación de dashboards interactivos, seguimiento de métricas en tiempo real y consultas complejas para la monitorización en producción.',
   konvaSkill:
@@ -163,21 +166,21 @@ export const es = {
     'Entorno principal de desarrollo, dominio del ecosistema Apple para la gestión eficiente del flujo de trabajo, configuración de herramientas de desarrollo (Homebrew, terminales personalizadas) y pruebas multiplataforma.',
   managementAndStrategy: 'Gestión y estrategia',
   menuAbout: 'sobre mí',
+  menuBlog: 'blog',
   menuContact: 'contacto',
   menuEducation: 'educación',
   menuExperience: 'experiencia',
   menuSkills: 'habilidades',
-  menuBlog: 'blog',
   mercurialSkill:
     'Experiencia sólida en la gestión descentralizada de repositorios y control de revisiones durante etapas de desarrollo corporativo, facilitando el trabajo paralelo y la trazabilidad del código fuente.',
+  'meta.description': 'Ángel Sánchez - Arquitecto de Software Senior',
+  'meta.title': 'Ángel Sánchez - Arquitecto de Software Senior',
   mochaSkill:
     'Conocimiento fundamental para la estructuración y ejecución de suites de pruebas asíncronas en entornos JavaScript, habitualmente en conjunción con librerías externas dedicadas a aserciones y mocking (como Chai y Sinon).',
   mongodbSkill:
     'Diseño y modelado de bases de datos NoSQL. Implementación de pipelines de agregación complejos, estrategias de indexación y estructuras de datos orientadas a documentos para sistemas backend de alto rendimiento.',
   mswSkill:
     'Interceptación y simulación de peticiones de red a nivel de Service Worker y Node.js. Configuración de handlers REST y GraphQL para el desarrollo desacoplado de frontend y ejecución de pruebas de integración deterministas sin depender de APIs reales.',
-  'meta.title': 'Ángel Sánchez - Arquitecto de Software Senior',
-  'meta.description': 'Ángel Sánchez - Arquitecto de Software Senior',
   nationality: 'Nacionalidad',
   nationalityValue: 'Española',
   nestjsSkill:

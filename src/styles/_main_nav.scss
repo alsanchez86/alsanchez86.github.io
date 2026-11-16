@@ -16,9 +16,6 @@
     &.navbar-expand {
       .container {
         flex-direction: column;
-        width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
       }
     }
 
@@ -27,7 +24,7 @@
       order: 1;
       flex: 0 0 auto;
       width: 100%;
-      padding: $spacer 0;
+      padding: ($spacer * 0.75) 0;
       align-items: center;
       justify-content: space-between;
 

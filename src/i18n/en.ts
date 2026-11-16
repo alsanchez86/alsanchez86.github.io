@@ -13,6 +13,7 @@ export const en = {
     'Design of scalable and maintainable software systems. Definition of structural guidelines, technology stack selection, and integration patterns to support critical business requirements.',
   awsSkill:
     'Operation and deployment on cloud infrastructure, including static storage, provisioning of scalable elastic compute servers, and serverless function orchestration.',
+  backend: 'Backend',
   barcelona: 'Barcelona, Spain',
   betixDate: 'August 2017 - December 2019',
   betixDescription:
@@ -27,7 +28,7 @@ export const en = {
   cccDate: 'September 2022 - Present',
   cccDescription:
     '<p>Technical UI Lead experienced in high-impact projects within specialized industries such as pharmaceuticals, collaborating with top-tier clients such as Pfizer or Boehringer.</p><p>Specialized in developing advanced semantic search engines, interactive conversational interfaces with AI agents, real-time management systems, and document data extraction tools to generate instant medical reports from scientific literature.</p><p>Responsible for leading teams of at least 4 developers, defining technical architecture, and guiding strategic business decisions.</p><p>Active driver of code quality by authoring technical documentation aimed at reducing project technical debt, alongside cross-functional mentoring to foster team growth.</p><p>Specialized in the <strong>Ember</strong> ecosystem, with strong expertise in <strong>SSR</strong> architectures, <strong>AWS</strong> integration, adoption of <strong>WebMCP</strong> protocols, and automated test suites with <strong>QUnit</strong>.</p><p>Awarded <span class="text-primary font-weight-bold">Most Business Focused</span> in 2026 at the Copyright Clearance Center hackathon, competing against 20 international teams from countries such as the US, Ukraine, the UK, and Spain, after leading the end-to-end development of an AI agent for corporate web platform task automation using <strong>WebMCP</strong> protocols.</p>',
-  cccPosition: 'Senior Frontend Architect & Team Leader',
+  cccPosition: 'Senior Frontend Architect and Team Leader',
   coffeeSkill:
     'Fluent mastery in writing concise and expressive code, deep understanding of its compilation to standard JavaScript, class management, and lexical contexts in architectures that heavily adopted this language.',
   composerSkill:
@@ -61,6 +62,7 @@ export const en = {
   deployments: 'Deployments',
   description:
     '<p>Software architect with <strong>over 15 years of experience</strong> specializing in high-concurrency, scalable web applications, UI component systems, and the integration of agentic workflows and AI, backed by a cross-functional background in full-stack development, databases, and systems that enables an end-to-end view of infrastructure and product.</p><p>Focused on maximizing software quality (Clean Code, automated testing, technical debt control) and leading teams, translating business goals into solid, sustainable architectural standards.</p>',
+  design: 'Design',
   devopsAndSystems: 'DevOps & Systems',
   dockerSkill:
     'Agile deployment via service containerization, basic orchestration with Docker Compose, custom image creation, and environment isolation to standardize workflows from development to production.',
@@ -100,6 +102,7 @@ export const en = {
   freelanceDescription:
     '<p>End-to-end development of the online platform for the student community of the <strong>Andalusian Interuniversity Institute of Criminology at the University of Seville</strong>.</p><p>Full-cycle project coverage: definition of technical architecture, server-side logic, and implementation of an accessible and intuitive web interface.</p><p>Direct management of functional requirements with the university sector to deliver a secure, functional environment aligned with required academic standards.</p>',
   freelancePosition: 'Fullstack Developer',
+  frontend: 'Frontend',
   functionalProgramming: 'Functional programming',
   gaesaDate: 'July 2010 - January 2012',
   gaesaDescription:
@@ -135,12 +138,12 @@ export const en = {
     'Agile project management and issue tracking. Configuration of Scrum/Kanban boards, sprint planning, ticket lifecycle management, and cross-functional team coordination.',
   jquerySkill:
     'Absolute mastery in direct DOM manipulation, advanced event management, animation handling, and AJAX request integration. Solid experience in optimizing and scalably maintaining legacy codebases.',
-  jsSkill:
-    'Advanced and comprehensive mastery of the language through key concepts such as closures, prototypes, event loop, promises, async/await, memory management, modules, and execution context.',
   jsonLdSkill:
     'Implementation of Linked Data in JSON format. Structuring semantic web content for enhanced SEO, rich snippets, and machine-readable data integration.',
   jsonSkill:
     'Mastery in structuring, serializing, and parsing lightweight data interchange formats. Essential for REST API communication, configuration management, and frontend state hydration.',
+  jsSkill:
+    'Advanced and comprehensive mastery of the language through key concepts such as closures, prototypes, event loop, promises, async/await, memory management, modules, and execution context.',
   kibanaSkill:
     'Data visualization and log analysis within the Elastic Stack. Creation of interactive dashboards, real-time metrics tracking, and complex querying for production environment monitoring.',
   konvaSkill:
@@ -161,21 +164,21 @@ export const en = {
     'Primary development environment, mastery of the Apple ecosystem for efficient workflow management, setup of developer tools (Homebrew, custom terminals), and cross-platform testing.',
   managementAndStrategy: 'Management & Strategy',
   menuAbout: 'about me',
+  menuBlog: 'blog',
   menuContact: 'contact',
   menuEducation: 'education',
   menuExperience: 'experience',
   menuSkills: 'skills',
-  menuBlog: 'blog',
   mercurialSkill:
     'Solid experience in decentralized repository management and revision control during corporate development stages, facilitating parallel workflows and source code traceability.',
+  'meta.description': 'Ángel Sánchez - Senior Software Architect',
+  'meta.title': 'Ángel Sánchez - Senior Software Architect',
   mochaSkill:
     'Fundamental knowledge for structuring and executing asynchronous test suites in JavaScript environments, usually in conjunction with external libraries dedicated to assertions and mocking (such as Chai and Sinon).',
   mongodbSkill:
     'Design and modeling of NoSQL databases. Implementation of complex aggregation pipelines, indexing strategies, and document-oriented data structures for high-performance backend systems.',
   mswSkill:
     'Network request interception and mocking at the Service Worker and Node.js levels. Configuration of REST and GraphQL handlers for decoupled frontend development and deterministic integration testing without relying on live APIs.',
-  'meta.title': 'Ángel Sánchez - Senior Software Architect',
-  'meta.description': 'Ángel Sánchez - Senior Software Architect',
   nationality: 'Nationality',
   nationalityValue: 'Spanish',
   nestjsSkill:
@@ -247,8 +250,8 @@ export const en = {
     'Rapid UI development using utility-first CSS. Configuration of design systems, responsive breakpoints, custom themes, and state variants to build scalable and highly maintainable interfaces.',
   techDocSkill:
     'Creation of clear, maintainable technical specifications and architectural decision records (ADRs). Translating complex system behaviors into accessible documentation for developer teams.',
-  testing: 'Testing & QA',
-  title: 'Senior Frontend Architect & Team Leader',
+  testing: 'Testing',
+  title: 'Senior Frontend Architect and Team Leader',
   toolingAndVcs: 'Tooling & Version Control',
   tsSkill:
     'Advanced level focused on strict typing, generics, utility types, scalable interfaces, and decorators. Ability to design large-scale architectures ensuring robustness, type safety, and ease of refactoring.',

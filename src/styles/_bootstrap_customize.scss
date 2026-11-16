@@ -1,5 +1,7 @@
 button,
 .btn {
+  text-decoration: none;
+
   &:focus {
     outline: 0;
     box-shadow: none;
@@ -9,12 +11,12 @@ button,
 .btn-primary {
   background-color: $gray-600;
   background-image: conic-gradient(
-    rgba(255, 255, 255, 0.06) 0deg 90deg,
+    rgba(255, 255, 255, 0.085) 0deg 90deg,
     transparent 90deg 180deg,
-    rgba(255, 255, 255, 0.06) 180deg 270deg,
+    rgba(255, 255, 255, 0.085) 180deg 270deg,
     transparent 270deg 360deg
   );
-  background-size: 8px 8px;
+  background-size: 10px 10px;
   transition: $transition-base;
 
   &[disabled] {
@@ -50,7 +52,7 @@ button,
 .popover {
   @include blur(0.75rem);
   background-color: transparent;
-  box-shadow: 0 0.25rem 0.5rem $gray-200;
+  box-shadow: 0 0.3rem 0.45rem $gray-300;
   border-style: dashed;
 
   .popover-header {
@@ -68,4 +70,8 @@ button,
     background-color: transparent;
     color: theme-color('primary');
   }
+}
+
+.nav-link {
+  text-decoration: none;
 }

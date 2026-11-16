@@ -1,7 +1,7 @@
 import type { TKey } from '@/types/i18n';
 
 export interface SkillCategory {
-  title: string;
+  title: TKey;
   items: Array<Skill>;
 }
 
@@ -234,7 +234,7 @@ export const skills = [
     ],
   },
   {
-    title: 'databases_and_search',
+    title: 'databasesAndSearch',
     items: [
       {
         name: 'SQL',
@@ -263,7 +263,7 @@ export const skills = [
     ],
   },
   {
-    title: 'apis_and_data_formats',
+    title: 'apisAndDataFormats',
     items: [
       {
         name: 'REST APIs',
@@ -351,7 +351,7 @@ export const skills = [
     ],
   },
   {
-    title: 'tooling_and_vcs',
+    title: 'toolingAndVcs',
     items: [
       {
         name: 'Github',
@@ -422,7 +422,7 @@ export const skills = [
     ],
   },
   {
-    title: 'devops_and_systems',
+    title: 'devopsAndSystems',
     items: [
       {
         name: 'Linux',
@@ -527,7 +527,7 @@ export const skills = [
     ],
   },
   {
-    title: 'management_and_strategy',
+    title: 'managementAndStrategy',
     items: [
       {
         name: 'Software Architecture',

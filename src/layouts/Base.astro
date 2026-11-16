@@ -1,7 +1,6 @@
 ---
 import Head from '@components/Head.astro';
 import Footer from '@components/Footer.astro';
-import Loader from '@components/Loader.astro';
 import Nav from '@components/Nav.astro';
 
 interface Props {
@@ -22,7 +21,6 @@ const pageDescription = description ?? t('meta.description');
   </head>
 
   <body>
-    <Loader />
     <Nav />
 
     <main>

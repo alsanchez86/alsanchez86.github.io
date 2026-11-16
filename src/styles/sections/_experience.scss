@@ -5,24 +5,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: $spacer / 3;
-  }
 
-  &:hover {
-    .experience-item-header {
-      h3 {
-        color: theme-color('primary');
-
-        a {
-          color: theme-color('primary');
-        }
-      }
-    }
-
-    .experience-item-batch {
-      .badge {
-        color: theme-color('primary');
-        background-color: theme-color('secondary');
-      }
+    .badge {
+      color: theme-color('primary');
+      background-color: theme-color('secondary');
     }
   }
 
@@ -50,7 +36,7 @@
     margin-bottom: $spacer * 1.25;
 
     p {
-      margin-bottom: $spacer * 0.95;
+      margin-bottom: $spacer * 1.25;
 
       line-height: $line-height-xs;
     }
