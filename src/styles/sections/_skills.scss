@@ -117,18 +117,26 @@
   }
 }
 
-@keyframes animateBar {
-  0% {
-    transform: translateX(-100%);
+@include media-breakpoint-up(md) {
+  .skills-grid {
+    column-count: 2;
   }
 
-  100% {
-    transform: translateX(0);
+  .experience-item {
+    margin-bottom: 4rem;
+
+    .experience-item-batch {
+      margin-bottom: 1rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
-@media (min-width: 768px) {
-  .skills-grid {
-    column-count: 2;
+@include media-breakpoint-down(sm) {
+  .progress-item {
+    margin-bottom: $spacer * 0.5;
   }
 }

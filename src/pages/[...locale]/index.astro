@@ -1,5 +1,5 @@
 ---
-import Base from '@layouts/Base.astro';
+import BaseLayout from '@layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
 import profilePicture from '@assets/profile-picture-bw.png';
 import { skills } from '@data/skill';
@@ -16,7 +16,7 @@ export { getStaticPaths } from '@i18n/utils';
 const { t } = Astro.locals;
 ---
 
-<Base
+<BaseLayout
   title={getTranslation(t, 'meta.title')}
   description={getTranslation(t, 'meta.description')}
 >
@@ -435,7 +435,7 @@ const { t } = Astro.locals;
       </div>
     </div>
   </section>
-</Base>
+</BaseLayout>
 
 <script>
   animateSkills();

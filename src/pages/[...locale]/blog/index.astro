@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { Image } from 'astro:assets';
-import Base from '@layouts/Base.astro';
+import BaseLayout from '@layouts/BaseLayout.astro';
 import Date from '@components/Date.astro';
 import { getTranslation } from '@i18n/utils';
 
@@ -14,7 +14,7 @@ const posts = (
 ).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<Base
+<BaseLayout
   title={getTranslation(t, 'meta.title')}
   description={getTranslation(t, 'meta.description')}
 >
@@ -44,4 +44,4 @@ const posts = (
       );
     })}
   </ul>
-</Base>
+</BaseLayout>

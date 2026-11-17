@@ -164,22 +164,22 @@ $sizes: map-merge(
 // Settings for the `<body>` element.
 
 $body-bg: $gray-100 !default;
-$body-color: $gray-700 !default;
+$body-color: $gray-800 !default;
 
 // Links
 //
 // Style anchor elements.
 
-$link-color: $body-color !default;
+$link-color: $gray-700 !default;
 $link-decoration: underline !default;
-$link-hover-color: $body-color !default;
+$link-hover-color: theme-color('primary') !default;
 $link-hover-decoration: underline !default;
 
 // Paragraphs
 //
 // Style p element.
 
-$paragraph-margin-bottom: ($spacer * 0.85) !default;
+$paragraph-margin-bottom: ($spacer * 1.25) !default;
 
 // Grid breakpoints
 //
@@ -226,7 +226,7 @@ $grid-gutter-width: 30px !default;
 $line-height-lg: 2.25 !default;
 $line-height-md: 2 !default;
 $line-height-sm: 1.75 !default;
-$line-height-xs: 1.5 !default;
+$line-height-xs: 1.55 !default;
 
 $border-width: 1px !default;
 $border-color: $gray-300 !default;
@@ -271,11 +271,11 @@ $font-weight-semibold: 500 !default;
 $font-weight-bold: 700 !default;
 
 $font-weight-base: $font-weight-normal !default;
-$line-height-base: $line-height-md !default;
+$line-height-base: $line-height-xs !default;
 
-$h1-font-size: $font-size-base * 2.5 !default;
-$h2-font-size: $font-size-base * 1.85 !default;
-$h3-font-size: $font-size-base * 1.55 !default;
+$h1-font-size: $font-size-base * 2.25 !default;
+$h2-font-size: $font-size-base * 1.75 !default;
+$h3-font-size: $font-size-base * 1.5 !default;
 $h4-font-size: $font-size-base * 1.35 !default;
 $h5-font-size: $font-size-base * 1.15 !default;
 $h6-font-size: $font-size-base * 1.05 !default;

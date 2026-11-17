@@ -207,12 +207,12 @@ export const en = {
   macosTKey:
     'Primary development environment, mastery of the Apple ecosystem for efficient workflow management, setup of developer tools (Homebrew, custom terminals), and cross-platform testing.',
   managementAndStrategy: 'Management & Strategy',
-  menuAbout: 'about me',
-  menuBlog: 'blog',
-  menuContact: 'contact',
-  menuEducation: 'education',
-  menuExperience: 'experience',
-  menuSkills: 'skills',
+  menuAbout: 'About me',
+  menuBlog: 'Blog',
+  menuContact: 'Contact',
+  menuEducation: 'Education',
+  menuExperience: 'Experience',
+  menuSkills: 'Skills',
   mercurial: 'Mercurial',
   mercurialTKey:
     'Solid experience in decentralized repository management and revision control during corporate development stages, facilitating parallel workflows and source code traceability.',
@@ -313,8 +313,7 @@ export const en = {
   swagger: 'Swagger',
   swaggerTKey:
     'Interactive documentation and technical standardization under OpenAPI, enabling the generation of robust client-server contracts, endpoint validation, and easing RESTful API integration.',
-  switchLangText: 'español',
-  switchLangTitle: 'Español',
+  switchLangText: 'Español',
   switchLangUrl: 'es',
   symfonyTKey:
     'Fundamental knowledge of the modern enterprise PHP framework, covering bundle structuring, routing system, controllers, and dependency management using Composer.',
@@ -326,7 +325,7 @@ export const en = {
   technicalDocumentationTKey:
     'Creation of clear, maintainable technical specifications and architectural decision records (ADRs). Translating complex system behaviors into accessible documentation for developer teams.',
   testing: 'Testing',
-  title: 'Senior Software Architect and Team Leader',
+  title: 'Senior Software Architect',
   toolingAndVcs: 'Tooling & Version Control',
   twig: 'Twig',
   twigTKey:

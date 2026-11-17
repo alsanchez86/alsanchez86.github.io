@@ -209,12 +209,12 @@ export const es = {
   macosTKey:
     'Entorno principal de desarrollo, dominio del ecosistema Apple para la gestión eficiente del flujo de trabajo, configuración de herramientas de desarrollo (Homebrew, terminales personalizadas) y pruebas multiplataforma.',
   managementAndStrategy: 'Gestión y estrategia',
-  menuAbout: 'sobre mí',
-  menuBlog: 'blog',
-  menuContact: 'contacto',
-  menuEducation: 'educación',
-  menuExperience: 'experiencia',
-  menuSkills: 'habilidades',
+  menuAbout: 'Sobre mí',
+  menuBlog: 'Blog',
+  menuContact: 'Contacto',
+  menuEducation: 'Educación',
+  menuExperience: 'Experiencia',
+  menuSkills: 'Habilidades',
   mercurial: 'Mercurial',
   mercurialTKey:
     'Experiencia sólida en la gestión descentralizada de repositorios y control de revisiones durante etapas de desarrollo corporativo, facilitando el trabajo paralelo y la trazabilidad del código fuente.',
@@ -315,8 +315,7 @@ export const es = {
   swagger: 'Swagger',
   swaggerTKey:
     'Documentación interactiva y estandarización técnica bajo OpenAPI, permitiendo la generación de contratos robustos entre cliente y servidor, validación de endpoints y facilitando la integración de APIs RESTful.',
-  switchLangText: 'english',
-  switchLangTitle: 'English',
+  switchLangText: 'English',
   switchLangUrl: 'en',
   symfonyTKey:
     'Conocimientos fundamentales en el framework PHP empresarial moderno, abarcando la estructuración mediante bundles, sistema de enrutamiento, controladores y gestión de dependencias mediante Composer.',
@@ -328,7 +327,7 @@ export const es = {
   technicalDocumentationTKey:
     'Creación de especificaciones técnicas claras y registros de decisiones arquitectónicas (ADRs). Traducción de comportamientos complejos de sistemas en documentación accesible para los equipos de desarrollo.',
   testing: 'Testing',
-  title: 'Senior Software Architect y Líder de Equipo',
+  title: 'Senior Software Architect',
   toolingAndVcs: 'Herramientas y control de versiones',
   twig: 'Twig',
   twigTKey:
