@@ -5,12 +5,21 @@
   text-transform: uppercase;
   color: theme-color('primary');
 
+  .social {
+    margin-bottom: $spacer / 2;
+  }
+
   a {
-    color: theme-color('primary');
+    color: $indigo_2;
+
+    svg {
+      transform: scale(0.85);
+    }
   }
 
   .copyright {
     font-size: $font-size-xs * 0.9;
     text-align: center;
+    color: $indigo_2;
   }
 }

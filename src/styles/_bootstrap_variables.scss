@@ -47,6 +47,7 @@ $grays: map-merge(
 
 $blue: #1479cc !default;
 $indigo: #6610f2 !default;
+$indigo_2: lighten($indigo, 10%) !default;
 $purple: #e3d4ff !default;
 $pink: #e83e8c !default;
 $red: #dc3545 !default;
