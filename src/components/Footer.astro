@@ -1,11 +1,14 @@
 ---
 import { getTranslation } from '@/i18n/utils';
+import Social from '@/components/Social.astro';
 
 const { t } = Astro.locals;
 ---
 
 <footer class="footer">
   <div class="container">
+    <Social showPopovers={false} />
+
     <p class="copyright">
       <svg
         xmlns="http://www.w3.org/2000/svg"

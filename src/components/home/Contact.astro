@@ -1,0 +1,288 @@
+---
+import { getTranslation } from '@i18n/utils';
+
+export { getStaticPaths } from '@i18n/utils';
+
+const { t } = Astro.locals;
+---
+
+<section id="contact" class="section-wrapper">
+  <div class="container container-narrow">
+    <header>
+      <h2 class="section-title">{getTranslation(t, 'contact')}</h2>
+    </header>
+
+    <div class="row">
+      <div class="col-12 col-md-7">
+        <div class="contact-form">
+          <form
+            id="contact-form"
+            action="https://api.web3forms.com/submit"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="9a6335de-2fb4-45fa-9016-82903a54e52e"
+            />
+            <input type="checkbox" name="botcheck" class="d-none" />
+
+            <div class="form-group">
+              <label for="contact-form-name">
+                {getTranslation(t, 'contactFormName')}
+                &nbsp;
+                <small class="text-muted">
+                  <i>({getTranslation(t, 'contactFormFieldsRequired')})</i>
+                </small>
+              </label>
+
+              <input
+                id="contact-form-name"
+                type="text"
+                class="form-control"
+                name="name"
+                placeholder={getTranslation(t, 'contactFormNamePlaceholder')}
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-form-email">
+                {getTranslation(t, 'contactFormEmail')}
+                &nbsp;
+                <small class="text-muted">
+                  <i>({getTranslation(t, 'contactFormFieldsRequired')})</i>
+                </small>
+              </label>
+
+              <input
+                id="contact-form-email"
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder={getTranslation(t, 'contactFormEmailPlaceholder')}
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-form-message">
+                {getTranslation(t, 'contactFormMessage')}
+                &nbsp;
+                <small class="text-muted">
+                  <i>({getTranslation(t, 'contactFormFieldsRequired')})</i>
+                </small>
+              </label>
+
+              <textarea
+                id="contact-form-message"
+                class="form-control"
+                name="message"
+                rows="4"
+                placeholder={getTranslation(t, 'contactFormMessagePlaceholder')}
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <div class="d-flex justify-content-end">
+                <button
+                  id="contact-form-submit-btn"
+                  type="submit"
+                  class="btn btn-primary"
+                  disabled
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-send-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z" />
+                  </svg>
+                  &nbsp;{getTranslation(t, 'contactFormSubmit')}
+                </button>
+              </div>
+            </div>
+
+            <div
+              id="contact-form-status-success"
+              class="d-none alert alert-success alert-dismissible"
+              role="alert"
+              aria-live="polite"
+            >
+              {getTranslation(t, 'contactFormSuccess')}
+
+              <button
+                id="contact-form-status-error-success-close"
+                type="button"
+                class="btn btn-text close"
+                aria-label="Close"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="main-nav-toggle-button-close bi bi-x-square"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                </svg>
+              </button>
+            </div>
+
+            <div
+              id="contact-form-status-error"
+              class="d-none alert alert-danger alert-dismissible"
+              role="alert"
+              aria-live="polite"
+            >
+              {getTranslation(t, 'contactFormError')}
+              &nbsp;
+              <a href="mailto:sanchezpizarro86@gmail.com" title="Email">
+                sanchezpizarro86@gmail.com
+              </a>
+              <button
+                id="contact-form-status-error-btn-close"
+                type="button"
+                class="btn-text close"
+                aria-label="Close"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="main-nav-toggle-button-close bi bi-x-square"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  initForm();
+  document.addEventListener('astro:page-load', initForm);
+
+  /**
+   * Initializes validation, alert dismissal, and asynchronous Web3Forms submission for the contact form.
+   */
+  function initForm() {
+    const form = document.getElementById('contact-form') as HTMLFormElement;
+    const nameInput = document.getElementById(
+      'contact-form-name',
+    ) as HTMLInputElement;
+    const emailInput = document.getElementById(
+      'contact-form-email',
+    ) as HTMLInputElement;
+    const messageInput = document.getElementById(
+      'contact-form-message',
+    ) as HTMLTextAreaElement;
+    const submitBtn = document.getElementById(
+      'contact-form-submit-btn',
+    ) as HTMLButtonElement;
+    const statusSuccess = document.getElementById(
+      'contact-form-status-success',
+    ) as HTMLDivElement;
+    const statusError = document.getElementById(
+      'contact-form-status-error',
+    ) as HTMLDivElement;
+    const statusErrorBtnClose = document.getElementById(
+      'contact-form-status-error-btn-close',
+    ) as HTMLButtonElement;
+    const statusSuccessBtnClose = document.getElementById(
+      'contact-form-status-error-success-close',
+    ) as HTMLButtonElement;
+
+    form.dataset.initialized = 'true';
+    statusErrorBtnClose?.addEventListener('click', clearStatus);
+    statusSuccessBtnClose?.addEventListener('click', clearStatus);
+    [nameInput, emailInput, messageInput].forEach((field) => {
+      const handleFieldUpdate = () => {
+        validateForm();
+        clearStatus();
+      };
+
+      field.addEventListener('input', handleFieldUpdate);
+      field.addEventListener('change', handleFieldUpdate);
+    });
+
+    form.addEventListener('submit', async (event: SubmitEvent) => {
+      event.preventDefault();
+
+      clearStatus();
+      submitBtn.disabled = true;
+
+      try {
+        const formData = new FormData(form);
+        const payload = Object.fromEntries(formData.entries());
+        const response = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify(payload),
+        });
+        const data = await response.json();
+
+        if (response.ok && data.success) {
+          showStatus('success');
+          form.reset();
+        } else {
+          throw new Error();
+        }
+      } catch {
+        showStatus('error');
+      } finally {
+        validateForm();
+      }
+    });
+
+    /**
+     * Validates all required form fields and updates the submit button state.
+     */
+    function validateForm() {
+      const isNameValid = nameInput.value.trim().length > 0;
+      const isMessageValid = messageInput.value.trim().length > 0;
+      const isEmailValid =
+        emailInput.value.trim().length > 0 && emailInput.checkValidity();
+
+      submitBtn.disabled = !(isNameValid && isEmailValid && isMessageValid);
+    }
+
+    /**
+     * Displays the feedback alert corresponding to the submission outcome.
+     *
+     * @param type Outcome status to display (`'success'` or `'error'`).
+     */
+    function showStatus(type: 'success' | 'error') {
+      if (type === 'success') {
+        statusSuccess.classList.remove('d-none');
+      } else {
+        statusError.classList.remove('d-none');
+      }
+    }
+
+    /**
+     * Hides both success and error feedback alerts.
+     *
+     */
+    function clearStatus() {
+      statusSuccess.classList.add('d-none');
+      statusError.classList.add('d-none');
+    }
+  }
+</script>

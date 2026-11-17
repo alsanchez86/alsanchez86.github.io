@@ -1,0 +1,21 @@
+---
+import { experiences } from '@data/experience';
+import Experience from '@components/home/Experience.astro';
+import { getTranslation } from '@i18n/utils';
+
+export { getStaticPaths } from '@i18n/utils';
+
+const { t } = Astro.locals;
+---
+
+<section id="experience" class="section-wrapper">
+  <div class="container container-narrow">
+    <header>
+      <h2 class="section-title">{getTranslation(t, 'experienceTitle')}</h2>
+    </header>
+
+    {experiences.map((experience) => (
+      <Experience experience={experience} />
+    ))}
+  </div>
+</section>

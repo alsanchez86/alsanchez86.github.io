@@ -72,5 +72,5 @@ export const getCleanPath = (pathname: string): string => {
  * @param {string} value
  * @returns {}
  */
-export const getTranslation = (t: TFunction, value: string): string =>
+export const getTranslation = (t: TFunction, value: string = ''): string =>
   t(value as TKey) || value;

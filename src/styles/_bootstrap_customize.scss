@@ -57,6 +57,8 @@ button,
   border: 0;
 
   .popover-header {
+    padding-bottom: 0;
+
     font-family: $font-family-base;
     font-size: $font-size-xs;
     font-weight: $font-weight-bold;
@@ -68,4 +70,8 @@ button,
 
 .nav-link {
   text-decoration: none;
+}
+
+.list-group-item {
+  line-height: 1;
 }

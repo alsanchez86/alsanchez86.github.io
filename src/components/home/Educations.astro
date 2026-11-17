@@ -1,0 +1,21 @@
+---
+import { educations } from '@data/education';
+import Education from '@components/home/Education.astro';
+import { getTranslation } from '@i18n/utils';
+
+export { getStaticPaths } from '@i18n/utils';
+
+const { t } = Astro.locals;
+---
+
+<section id="education" class="section-wrapper">
+  <div class="container container-narrow">
+    <header>
+      <h2 class="section-title">{getTranslation(t, 'educationTitle')}</h2>
+    </header>
+
+    {educations.map((education) => (
+      <Education education={education} />
+    ))}
+  </div>
+</section>

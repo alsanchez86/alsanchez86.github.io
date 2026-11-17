@@ -1,0 +1,51 @@
+---
+import { skills } from '@data/skill';
+import Skill from '@components/home/Skill.astro';
+import { getTranslation } from '@i18n/utils';
+
+export { getStaticPaths } from '@i18n/utils';
+
+const { t } = Astro.locals;
+---
+
+<section id="skills" class="section-wrapper">
+  <div class="container container-narrow">
+    <header>
+      <h2 class="section-title">{getTranslation(t, 'skillsTitle')}</h2>
+    </header>
+
+    <div class="skills-grid">
+      {skills.map(({ type, items }) => (
+        <div class="skills-item">
+          <h4 class="text-compacted">{getTranslation(t, type)}</h4>
+
+          {items.map((skill) => (
+            <Skill skill={skill} />
+          ))}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script>
+  animateSkills();
+  document.addEventListener('astro:page-load', animateSkills);
+
+  /**
+   * Animate skills progress bars.
+   */
+  function animateSkills() {
+    const items = document.querySelectorAll<HTMLElement>('.progress-item');
+
+    items.forEach((item) => {
+      item.classList.add('progress-item-animated');
+    });
+
+    setTimeout(() => {
+      items.forEach((item) => {
+        item.classList.add('progress-item-animated-completed');
+      });
+    }, 1250);
+  }
+</script>

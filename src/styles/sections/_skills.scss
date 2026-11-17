@@ -34,31 +34,10 @@
   }
 
   &.progress-item-animated-completed {
-    &:has(.progress-bar:hover),
-    &:has(.progress-bar:focus),
-    &:has(.progress-bar[aria-expanded='true']) {
-      .progress-header {
-        .progress-icon,
-        .progress-name {
-          color: theme-color('primary');
-        }
-      }
-    }
-
     .progress {
       .progress-bar {
         .progress-value {
           opacity: 1;
-        }
-
-        &:hover,
-        &:focus,
-        &[aria-expanded='true'] {
-          border-color: theme-color('primary');
-
-          .progress-value {
-            color: theme-color('primary');
-          }
         }
       }
     }
@@ -130,6 +109,35 @@
 
       &:last-child {
         margin-bottom: 0;
+      }
+    }
+  }
+
+  .progress-item {
+    &.progress-item-animated-completed {
+      &:has(.progress-bar:hover),
+      &:has(.progress-bar:focus),
+      &:has(.progress-bar[aria-expanded='true']) {
+        .progress-header {
+          .progress-icon,
+          .progress-name {
+            color: theme-color('primary');
+          }
+        }
+      }
+
+      .progress {
+        .progress-bar {
+          &:hover,
+          &:focus,
+          &[aria-expanded='true'] {
+            border-color: theme-color('primary');
+
+            .progress-value {
+              color: theme-color('primary');
+            }
+          }
+        }
       }
     }
   }

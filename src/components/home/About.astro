@@ -1,0 +1,72 @@
+---
+import { Image } from 'astro:assets';
+import profilePicture from '@assets/profile-picture-bw.png';
+import Social from '@/components/Social.astro';
+import { getTranslation } from '@i18n/utils';
+
+export { getStaticPaths } from '@i18n/utils';
+
+const { t } = Astro.locals;
+---
+
+<section id="about" class="about-wrapper section-wrapper">
+  <div class="container container-narrow">
+    <div class="row">
+      <div class="d-none d-lg-block col-lg-4">
+        <Image class="img-fluid" src={profilePicture} alt="Ángel Sánchez" />
+      </div>
+
+      <div class="col-12 col-lg-8">
+        <header class="name-wrapper">
+          <h1>Ángel Sánchez</h1>
+
+          <h2>{getTranslation(t, 'title')}</h2>
+        </header>
+
+        <Fragment set:html={getTranslation(t, 'description')} />
+
+        <div class="spacer-2">
+          <div class="row">
+            <div class="col-4 col-sm-3">
+              <div class="personal-detail">
+                <h4 class="text-compacted">{getTranslation(t, 'languages')}</h4>
+
+                <p>
+                  <small>{getTranslation(t, 'languagesEnglish')}</small>
+                  <br />
+                  <small>{getTranslation(t, 'languagesSpanish')}</small>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-4 col-sm-3">
+              <div class="personal-detail">
+                <h4 class="text-compacted">
+                  {getTranslation(t, 'nationality')}
+                </h4>
+
+                <p>
+                  <small>{getTranslation(t, 'nationalityValue')}</small>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-4 col-sm-3">
+              <div class="personal-detail">
+                <h4 class="text-compacted">{getTranslation(t, 'dateBirth')}</h4>
+
+                <p>
+                  <small>{getTranslation(t, 'dateBirthValue')}</small>
+                </p>
+              </div>
+            </div>
+
+            <div class="d-none d-md-block col-sm-3"></div>
+          </div>
+        </div>
+
+        <Social />
+      </div>
+    </div>
+  </div>
+</section>
