@@ -3,6 +3,7 @@ interface Props {
   showPopovers?: boolean;
 }
 
+const { t } = Astro.locals;
 const { showPopovers = true } = Astro.props;
 const getPopoverAttrs = (content: string) => {
   return showPopovers
@@ -22,7 +23,8 @@ const getPopoverAttrs = (content: string) => {
       href="/cv-angel-sanchez.pdf"
       target="_blank"
       rel="noopener noreferrer"
-      {...getPopoverAttrs('Click to download my CV')}
+      aria-label={t('downloadCv')}
+      {...getPopoverAttrs(t('downloadCv'))}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +46,8 @@ const getPopoverAttrs = (content: string) => {
       href="https://www.linkedin.com/in/sanchezpizarro/"
       target="_blank"
       rel="noopener noreferrer"
-      {...getPopoverAttrs('sanchezpizarro')}
+      aria-label="Linkedin"
+      {...getPopoverAttrs('Linkedin')}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -63,6 +66,7 @@ const getPopoverAttrs = (content: string) => {
     <a
       class="contact-link d-inline-flex align-items-center text-nowrap"
       href="mailto:sanchezpizarro86@gmail.com"
+      aria-label="sanchezpizarro86@gmail.com"
       {...getPopoverAttrs('sanchezpizarro86@gmail.com')}
     >
       <svg
@@ -84,6 +88,7 @@ const getPopoverAttrs = (content: string) => {
       href="https://github.com/alsanchez86"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="alsanchez86"
       {...getPopoverAttrs('alsanchez86')}
     >
       <svg
@@ -105,6 +110,7 @@ const getPopoverAttrs = (content: string) => {
       href="https://x.com/_sanchezpizarro"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="@_sanchezpizarro"
       {...getPopoverAttrs('@_sanchezpizarro')}
     >
       <svg

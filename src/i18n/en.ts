@@ -82,6 +82,7 @@ export const en = {
   docker: 'Docker',
   dockerTKey:
     'Agile deployment via service containerization, basic orchestration with Docker Compose, custom image creation, and environment isolation to standardize workflows from development to production.',
+  downloadCv: 'Download CV',
   educationLocation0: 'CEA. Confederation of Employers of Andalusia',
   educationLocation1: 'CEA. Confederation of Employers of Andalusia',
   educationLocation2: 'I.E.S Torre de los Herberos',

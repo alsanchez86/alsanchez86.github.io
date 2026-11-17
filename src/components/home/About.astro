@@ -13,7 +13,13 @@ const { t } = Astro.locals;
   <div class="container container-narrow">
     <div class="row">
       <div class="d-none d-lg-block col-lg-4">
-        <Image class="img-fluid" src={profilePicture} alt="Ángel Sánchez" />
+        <Image
+          class="img-fluid"
+          src={profilePicture}
+          alt="Ángel Sánchez"
+          aria-label="Ángel Sánchez"
+          loading="eager"
+        />
       </div>
 
       <div class="col-12 col-lg-8">

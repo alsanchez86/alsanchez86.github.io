@@ -84,6 +84,7 @@ export const es = {
   docker: 'Docker',
   dockerTKey:
     'Despliegue ágil mediante la contenedorización de servicios, orquestación básica con Docker Compose, creación de imágenes personalizadas y aislamiento de entornos para homogeneizar el flujo desde desarrollo hasta producción.',
+  downloadCv: 'Descargar CV',
   educationLocation0: 'CEA. Confederación de Empresarios de Andalucía',
   educationLocation1: 'CEA. Confederación de Empresarios de Andalucía',
   educationLocation2: 'I.E.S Torre de los Herberos',
