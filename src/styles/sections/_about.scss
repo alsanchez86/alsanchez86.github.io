@@ -1,5 +1,5 @@
 .intro-wrapper {
-  padding-top: 9rem;
+  padding-top: 8rem;
 
   .name-wrapper {
     margin: 0 0 ($spacer * 2);
@@ -11,7 +11,7 @@
     }
 
     h2 {
-      font-size: $font-size-base * 1.5;
+      font-size: $font-size-lg;
       letter-spacing: 0.1rem;
     }
   }
@@ -27,6 +27,6 @@
 
 @include media-breakpoint-down(md) {
   .intro-wrapper {
-    padding-top: 6rem;
+    padding-top: $spacer * 5;
   }
 }
