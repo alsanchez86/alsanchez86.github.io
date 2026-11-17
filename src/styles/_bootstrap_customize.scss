@@ -57,19 +57,12 @@ button,
   border: 0;
 
   .popover-header {
-    background-color: transparent;
-    border: 0;
     font-family: $font-family-base;
     font-size: $font-size-xs;
     font-weight: $font-weight-bold;
     font-style: inherit;
     text-transform: uppercase;
-    color: theme-color('primary');
-  }
-
-  .popover-body {
-    background-color: transparent;
-    color: theme-color('primary');
+    border: 0;
   }
 }
 
