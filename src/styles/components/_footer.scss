@@ -10,7 +10,7 @@
   }
 
   a {
-    color: $indigo_2;
+    color: theme-color('primary');
 
     svg {
       transform: scale(0.85);
@@ -20,6 +20,6 @@
   .copyright {
     font-size: $font-size-xs * 0.9;
     text-align: center;
-    color: $indigo_2;
+    color: theme-color('primary');
   }
 }

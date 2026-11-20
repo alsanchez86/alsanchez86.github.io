@@ -1,6 +1,11 @@
 /**
- * Tech
+ * Skill
  */
+export const Language = {
+  English: 'english',
+  Spanish: 'spanish',
+};
+
 export const Frontend = {
   Typescript: 'typescript',
   Javascript: 'javascript',
@@ -39,7 +44,7 @@ export const Backend = {
   Twig: 'twig',
   Blade: 'blade',
   Smarty: 'smarty',
-  Symfony: 'symphony',
+  Symfony: 'symfony',
 } as const;
 
 export const Testing = {
@@ -117,7 +122,8 @@ export const Design = {
   AdobeFlashActionscript: 'adobeFlashActionscript',
 } as const;
 
-export const Tech = {
+export const Skill = {
+  ...Language,
   ...Frontend,
   ...Backend,
   ...Testing,
@@ -130,15 +136,16 @@ export const Tech = {
   ...Design,
 } as const;
 
-export type Tech = typeof Tech;
-export type TechKey = keyof Tech;
-export type TechValue<K extends TechKey> = Tech[K];
-export type TechValues = ValuesFromConst<Tech>;
+export type Skill = typeof Skill;
+export type SkillKey = keyof Skill;
+export type SkillValue<K extends SkillKey> = Skill[K];
+export type SkillValues = ValuesFromConst<Skill>;
 
 /**
- * Tech types
+ * Skill types
  */
-export const TechType = {
+export const SkillType = {
+  Language: 'language',
   Frontend: 'frontend',
   Backend: 'backend',
   Testing: 'testing',
@@ -151,20 +158,21 @@ export const TechType = {
   Design: 'design',
 } as const;
 
-export const TechByType = {
-  [TechType.Frontend]: Frontend,
-  [TechType.Backend]: Backend,
-  [TechType.Testing]: Testing,
-  [TechType.ToolingAndVcs]: ToolingAndVcs,
-  [TechType.DevopsAndSystems]: DevopsAndSystems,
-  [TechType.ApisAndDataFormats]: ApisAndDataFormats,
-  [TechType.ManagementAndStrategy]: ManagementAndStrategy,
-  [TechType.Ia]: Ia,
-  [TechType.DatabasesAndSearch]: DatabasesAndSearch,
-  [TechType.Design]: Design,
+export const SkillByType = {
+  [SkillType.Language]: Language,
+  [SkillType.Frontend]: Frontend,
+  [SkillType.Backend]: Backend,
+  [SkillType.Testing]: Testing,
+  [SkillType.ToolingAndVcs]: ToolingAndVcs,
+  [SkillType.DevopsAndSystems]: DevopsAndSystems,
+  [SkillType.ApisAndDataFormats]: ApisAndDataFormats,
+  [SkillType.ManagementAndStrategy]: ManagementAndStrategy,
+  [SkillType.Ia]: Ia,
+  [SkillType.DatabasesAndSearch]: DatabasesAndSearch,
+  [SkillType.Design]: Design,
 } as const;
 
-export type TechType = typeof TechType;
-export type TechTypeKey = keyof TechType;
-export type TechTypeValue<K extends TechTypeKey> = TechType[K];
-export type TechTypeValues = ValuesFromConst<TechType>;
+export type SkillType = typeof SkillType;
+export type SkillTypeKey = keyof SkillType;
+export type SkillTypeValue<K extends SkillTypeKey> = SkillType[K];
+export type SkillTypeValues = ValuesFromConst<SkillType>;

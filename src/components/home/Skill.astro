@@ -11,7 +11,12 @@ const { t } = Astro.locals;
 const skillName = getTranslation(t, skill.name);
 ---
 
-<div class="progress-item">
+<div
+  class:list={[
+    'progress-item',
+    { 'progress-item-is-important': skill.isImportant },
+  ]}
+>
   <div class="progress-header">
     <span class="progress-icon" set:html={skill.icon} />
     <span class="progress-name">{skillName}</span>
@@ -30,6 +35,7 @@ const skillName = getTranslation(t, skill.name);
       data-toggle="popover"
       data-content={getTranslation(t, skill.description)}
       data-trigger="hover focus"
+      data-custom-class={skill.isImportant ? 'popover-primary' : undefined}
     >
       <small class="progress-value">{skill.value}%</small>
     </div>

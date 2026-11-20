@@ -71,8 +71,6 @@ export const en = {
   d3TKey:
     'High level in creating complex and interactive data visualizations, rendering dynamic SVG graphics through the deep use of scales, vector axes, transitions, physical force layouts, and hierarchical structures.',
   databasesAndSearch: 'Databases & Search',
-  dateBirth: 'Date of birth',
-  dateBirthValue: 'July 21, 1986',
   dependencyManagers: 'Package managers',
   deployments: 'Deployments',
   description:
@@ -97,6 +95,9 @@ export const en = {
   ember: 'Ember',
   emberTKey:
     "Expert level in the framework's complete ecosystem. Deep understanding of advanced routing, services, adapters, Ember Data serializers, component lifecycle, and application of the convention-over-configuration philosophy.",
+  english: 'English (B2+)',
+  englishTKey:
+    'Professional working proficiency (B2+), enabling fluent communication in technical environments with effective participation in international teams.',
   eslint: 'ESLint',
   eslintTKey:
     'Static code analysis to identify and fix problematic patterns in JavaScript/TypeScript. Configuration of strict rule sets to ensure code quality, prevent bugs, and maintain architectural standards.',
@@ -228,8 +229,6 @@ export const en = {
   msw: 'MSW',
   mswTKey:
     'Network request interception and mocking at the Service Worker and Node.js levels. Configuration of REST and GraphQL handlers for decoupled frontend development and deterministic integration testing without relying on live APIs.',
-  nationality: 'Nationality',
-  nationalityValue: 'Spanish',
   nestjs: 'NestJS',
   nestjsTKey:
     'Robust backend architecture through dependency injection and modularity, creation of scalable RESTful APIs, management of middlewares, guards, interceptors, and efficient database connections.',
@@ -300,12 +299,15 @@ export const en = {
   shellScriptTKey:
     'Automation of server tasks and deployment pipelines. Writing efficient Bash scripts for process management, file manipulation, and system monitoring in Unix/Linux environments.',
   skillsTitle: 'Skills',
-  softwareArchitecture: 'Software Architecture',
-  softwareArchitectureTKey:
-    'Design of scalable and maintainable software systems. Definition of structural guidelines, technology stack selection, and integration patterns to support critical business requirements.',
   smarty: 'Smarty',
   smartyTKey:
     'Consolidated experience in managing and implementing this template engine in legacy projects, facilitating safe data interpolation and visual layer organization in traditional PHP architectures.',
+  softwareArchitecture: 'Software Architecture',
+  softwareArchitectureTKey:
+    'Design of scalable and maintainable software systems. Definition of structural guidelines, technology stack selection, and integration patterns to support critical business requirements.',
+  spanish: 'Spanish',
+  spanishTKey:
+    'Native proficiency, encompassing complete mastery of the language for both professional technical discourse and everyday communication.',
   sql: 'SQL',
   sqlTKey:
     'Advanced level in relational schema design, complex queries, joins, subqueries, index optimization, stored procedures, and referential integrity in transactional production environments.',
@@ -316,6 +318,7 @@ export const en = {
     'Interactive documentation and technical standardization under OpenAPI, enabling the generation of robust client-server contracts, endpoint validation, and easing RESTful API integration.',
   switchLangText: 'Español',
   switchLangUrl: 'es',
+  symfony: 'Symfony',
   symfonyTKey:
     'Fundamental knowledge of the modern enterprise PHP framework, covering bundle structuring, routing system, controllers, and dependency management using Composer.',
   systems: 'Systems',

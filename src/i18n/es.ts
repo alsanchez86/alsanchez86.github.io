@@ -73,12 +73,10 @@ export const es = {
   d3TKey:
     'Alto nivel en la creación de visualizaciones de datos interactivas y complejas, renderizando gráficos SVG dinámicos mediante el uso profundo de escalas, ejes vectoriales, transiciones, layouts de fuerza física y estructuras jerárquicas.',
   databasesAndSearch: 'Bases de datos y búsqueda',
-  dateBirth: 'Fecha de nacimiento',
-  dateBirthValue: '21 de julio de 1986',
   dependencyManagers: 'Gestores de dependencias',
   deployments: 'Despliegues',
   description:
-    '<p>Arquitecto de software con <strong>más de 15 años de experiencia</strong> especializado en aplicaciones web escalables de alta concurrencia, sistemas de componentes UI e integración de flujos agénticos e IA, respaldado por un perfil transversal en fullstack, bases de datos y sistemas que facilita una visión global de la infraestructura y el producto.</p><p>Enfocado en maximizar la calidad del software (Clean Code, testing automatizado, control de deuda técnica) y liderar equipos, traduciendo los objetivos de negocio en estándares arquitectónicos sólidos y sostenibles.</p>',
+    '<p>Arquitecto de software con <strong>más de 15 años de experiencia</strong> especializado en aplicaciones web escalables de alta concurrencia, sistemas de componentes UI e integración de flujos agénticos e IA, respaldado por un perfil fullstack, bases de datos y sistemas que facilita una visión global de la infraestructura y el producto.</p><p>Enfocado en maximizar la calidad del software (Clean Code, testing automatizado, control de deuda técnica) y liderar equipos, traduciendo los objetivos de negocio en estándares arquitectónicos sólidos y sostenibles.</p>',
   design: 'Diseño',
   devopsAndSystems: 'DevOps y sistemas',
   docker: 'Docker',
@@ -99,6 +97,9 @@ export const es = {
   ember: 'Ember',
   emberTKey:
     'Nivel experto en el ecosistema completo del framework. Profundo conocimiento en enrutamiento avanzado, servicios, adaptadores, serializadores de Ember Data, ciclo de vida de componentes y aplicación de la convención sobre configuración.',
+  english: 'Inglés (B2+)',
+  englishTKey:
+    'Competencia profesional (B2+), permitiendo una comunicación fluida en entornos técnicos con participación activa en equipos internacionales.',
   eslint: 'ESLint',
   eslintTKey:
     'Análisis estático de código para identificar y corregir patrones problemáticos en JavaScript/TypeScript. Configuración de reglas estrictas para asegurar la calidad, prevenir bugs y mantener estándares arquitectónicos.',
@@ -230,8 +231,6 @@ export const es = {
   msw: 'MSW',
   mswTKey:
     'Interceptación y simulación de peticiones de red a nivel de Service Worker y Node.js. Configuración de handlers REST y GraphQL para el desarrollo desacoplado de frontend y ejecución de pruebas de integración deterministas sin depender de APIs reales.',
-  nationality: 'Nacionalidad',
-  nationalityValue: 'Española',
   nestjs: 'NestJS',
   nestjsTKey:
     'Arquitectura de backend robusta mediante inyección de dependencias y modularidad, creación de APIs RESTful escalables, manejo de middlewares, guards, interceptors y conexión eficiente con bases de datos.',
@@ -302,12 +301,15 @@ export const es = {
   shellScriptTKey:
     'Automatización de tareas de servidor y pipelines de despliegue. Creación de scripts Bash eficientes para la gestión de procesos, manipulación de archivos y monitorización de sistemas en entornos Unix/Linux.',
   skillsTitle: 'Habilidades',
-  softwareArchitecture: 'Arquitectura del software',
-  softwareArchitectureTKey:
-    'Diseño de sistemas de software escalables y mantenibles. Definición de directrices estructurales, selección de stack tecnológico y patrones de integración para soportar requisitos de negocio críticos.',
   smarty: 'Smarty',
   smartyTKey:
     'Experiencia consolidada en la gestión e implementación de este motor de plantillas en proyectos legacy, facilitando la interpolación segura de datos y la organización de la capa visual en arquitecturas PHP tradicionales.',
+  softwareArchitecture: 'Arquitectura del software',
+  softwareArchitectureTKey:
+    'Diseño de sistemas de software escalables y mantenibles. Definición de directrices estructurales, selección de stack tecnológico y patrones de integración para soportar requisitos de negocio críticos.',
+  spanish: 'Español',
+  spanishTKey:
+    'Competencia nativa, abarcando el dominio completo del idioma tanto para el discurso técnico profesional como para la comunicación cotidiana.',
   sql: 'SQL',
   sqlTKey:
     'Nivel avanzado en el diseño de esquemas relacionales, consultas complejas, joins, subconsultas, optimización de índices, procedimientos almacenados e integridad referencial en entornos de producción transaccionales.',
@@ -318,6 +320,7 @@ export const es = {
     'Documentación interactiva y estandarización técnica bajo OpenAPI, permitiendo la generación de contratos robustos entre cliente y servidor, validación de endpoints y facilitando la integración de APIs RESTful.',
   switchLangText: 'English',
   switchLangUrl: 'en',
+  symfony: 'Symfony',
   symfonyTKey:
     'Conocimientos fundamentales en el framework PHP empresarial moderno, abarcando la estructuración mediante bundles, sistema de enrutamiento, controladores y gestión de dependencias mediante Composer.',
   systems: 'Sistemas',
@@ -362,4 +365,4 @@ export const es = {
   xslt: 'XSLT',
   xsltTKey:
     'Conocimientos sólidos en la transformación, reestructuración y renderizado de documentos XML complejos hacia múltiples formatos de salida dentro de arquitecturas semánticas basadas en contenido.',
-} as const satisfies Record<keyof typeof en, string>;
+} as const satisfies Record<keyof typeof en, string | number>;
