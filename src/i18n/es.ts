@@ -181,9 +181,6 @@ export const es = {
   jqueryTKey:
     'Dominio absoluto en la manipulación directa del DOM, gestión avanzada de eventos, manejo de animaciones e integración de peticiones AJAX. Experiencia consolidada en la optimización y el mantenimiento escalable de bases de código legacy.',
   json: 'JSON',
-  jsonLd: 'JSON-LD',
-  jsonLdTKey:
-    'Implementación de Linked Data en formato JSON. Estructuración de contenido web semántico para mejorar el SEO, rich snippets y la integración de datos legibles por máquinas.',
   jsonTKey:
     'Dominio en la estructuración, serialización y parseo de formatos ligeros de intercambio de datos. Esencial para la comunicación de APIs REST, gestión de configuraciones e hidratación de estado frontend.',
   kibana: 'Kibana',
@@ -275,9 +272,6 @@ export const es = {
   reduxAndContextApi: 'Redux y Context API',
   reduxAndContextApiTKey:
     'Gestión centralizada y predecible del estado global. Manejo de flujos de datos asíncronos complejos, implementación de reducers, middlewares, selectores memoizados y proveedores de contexto para evitar el prop drilling.',
-  relaxng: 'RELAXNG',
-  relaxngTKey:
-    'Validación estructural y definición esquemática estricta para asegurar la integridad, formato y jerarquía de grandes volúmenes de XML en sistemas de gestión documental y CMS semánticos.',
   requirejs: 'RequireJS',
   requirejsTKey:
     'Implementación de patrones AMD (Asynchronous Module Definition) para la carga asíncrona de dependencias, modularización del código fuente y optimización del rendimiento en arquitecturas previas a los estándares nativos de ES6.',
@@ -359,10 +353,4 @@ export const es = {
   ximdexDescription:
     '<p>Construcción y evolución de un CMS semántico basado en tecnologías XML y orientado a la gestión avanzada de contenidos estructurados.</p><p>Desarrollo de módulos centrales de la plataforma como <strong>XFIND</strong>, <strong>XOWL</strong>, <strong>XLYRE</strong> y <strong>XRANK</strong>, e implementación de portales para entidades como la <strong>Agencia Española de Protección de Datos (AEPD)</strong>, la plataforma <strong>BRAE</strong> y el sitio corporativo de <strong>Open Ximdex Evolution</strong>.</p><p>Desarrollo integral fullstack, despliegues en producción, testing y soporte técnico especializado directo al cliente para la resolución ágil de incidencias.</p>',
   ximdexPosition: 'Fullstack Developer y Soporte Técnico',
-  xml: 'XML',
-  xmlTKey:
-    'Estructuración y procesamiento de datos de marcado extensible. Parseo, validación y transformación de documentos XML complejos para el intercambio de datos corporativos e integraciones CMS semánticas.',
-  xslt: 'XSLT',
-  xsltTKey:
-    'Conocimientos sólidos en la transformación, reestructuración y renderizado de documentos XML complejos hacia múltiples formatos de salida dentro de arquitecturas semánticas basadas en contenido.',
 } as const satisfies Record<keyof typeof en, string | number>;

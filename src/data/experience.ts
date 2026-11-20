@@ -400,13 +400,7 @@ export const experiences = [
       },
       {
         type: SkillType.ApisAndDataFormats,
-        items: [
-          { name: ApisAndDataFormats.Xml, description: 'xmlTKey' },
-          { name: ApisAndDataFormats.Xslt, description: 'xsltTKey' },
-          { name: ApisAndDataFormats.Relaxng, description: 'relaxngTKey' },
-          { name: ApisAndDataFormats.Json, description: 'jsonTKey' },
-          { name: ApisAndDataFormats.JsonLd, description: 'jsonLdTKey' },
-        ],
+        items: [{ name: ApisAndDataFormats.Json, description: 'jsonTKey' }],
       },
       {
         type: SkillType.ToolingAndVcs,

@@ -85,11 +85,7 @@ export const ApisAndDataFormats = {
   Swagger: 'swagger',
   Postman: 'postman',
   TechnicalDocumentation: 'technicalDocumentation',
-  Xml: 'xml',
-  Xslt: 'xslt',
-  Relaxng: 'relaxng',
   Json: 'json',
-  JsonLd: 'jsonLd',
 } as const;
 
 export const ManagementAndStrategy = {

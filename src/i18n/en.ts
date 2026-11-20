@@ -179,9 +179,6 @@ export const en = {
   jqueryTKey:
     'Absolute mastery in direct DOM manipulation, advanced event management, animation handling, and AJAX request integration. Solid experience in optimizing and scalably maintaining legacy codebases.',
   json: 'JSON',
-  jsonLd: 'JSON-LD',
-  jsonLdTKey:
-    'Implementation of Linked Data in JSON format. Structuring semantic web content for enhanced SEO, rich snippets, and machine-readable data integration.',
   jsonTKey:
     'Mastery in structuring, serializing, and parsing lightweight data interchange formats. Essential for REST API communication, configuration management, and frontend state hydration.',
   kibana: 'Kibana',
@@ -273,9 +270,6 @@ export const en = {
   reduxAndContextApi: 'Redux & Context API',
   reduxAndContextApiTKey:
     'Centralized and predictable global state management. Handling of complex asynchronous data flows, implementation of reducers, middlewares, memoized selectors, and context providers to avoid prop drilling.',
-  relaxng: 'RELAXNG',
-  relaxngTKey:
-    'Structural validation and strict schema definition to ensure the integrity, format, and hierarchy of large volumes of XML data in document management systems and semantic CMS.',
   requirejs: 'RequireJS',
   requirejsTKey:
     'Implementation of AMD (Asynchronous Module Definition) patterns for asynchronous dependency loading, source code modularization, and performance optimization in architectures prior to native ES6 standards.',
@@ -357,10 +351,4 @@ export const en = {
   ximdexDescription:
     '<p>Construction and evolution of an XML-based semantic CMS focused on advanced structured content management.</p><p>Development of core platform modules such as <strong>XFIND</strong>, <strong>XOWL</strong>, <strong>XLYRE</strong>, and <strong>XRANK</strong>, and implementation of portals for entities such as the <strong>Spanish Data Protection Agency (AEPD)</strong>, the <strong>BRAE</strong> platform, and the <strong>Open Ximdex Evolution</strong> corporate site.</p><p>Comprehensive fullstack development, production deployments, testing, and specialized direct technical support to clients for agile incident resolution.</p>',
   ximdexPosition: 'Fullstack Developer and Technical Support',
-  xml: 'XML',
-  xmlTKey:
-    'Structuring and processing of extensible markup data. Parsing, validation, and transformation of complex XML documents for enterprise data exchange and semantic CMS integrations.',
-  xslt: 'XSLT',
-  xsltTKey:
-    'Solid knowledge in the transformation, restructuring, and rendering of complex XML documents into multiple output formats within content-based semantic architectures.',
 } as const;
