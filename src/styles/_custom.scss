@@ -166,6 +166,10 @@ h2.section-title {
   .section-wrapper {
     padding: 0.75rem 0;
   }
+
+  h2.section-title {
+    margin-bottom: $spacer * 0.5;
+  }
 }
 
 @include media-breakpoint-down(sm) {

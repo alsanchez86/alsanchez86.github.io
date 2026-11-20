@@ -88,3 +88,33 @@ button,
 .list-group-item {
   line-height: 1;
 }
+
+@include media-breakpoint-down(md) {
+  body {
+    font-size: $font-size-base * 0.9;
+  }
+
+  h1 {
+    font-size: $font-size-base * 2;
+  }
+
+  h2 {
+    font-size: $font-size-base * 1.5;
+  }
+
+  h3 {
+    font-size: $font-size-base * 1.25;
+  }
+
+  h4 {
+    font-size: $font-size-base * 1.15;
+  }
+
+  h5 {
+    font-size: $font-size-base * 1.05;
+  }
+
+  h6 {
+    font-size: $font-size-base;
+  }
+}
