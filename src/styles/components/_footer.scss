@@ -3,14 +3,14 @@
 
   font-size: $font-size-sm;
   text-transform: uppercase;
-  color: theme-color('primary');
+  color: theme-color('tertiary');
 
   .social {
     margin-bottom: $spacer / 2;
   }
 
   a {
-    color: theme-color('primary');
+    color: theme-color('tertiary');
 
     svg {
       transform: scale(0.85);
@@ -20,6 +20,6 @@
   .copyright {
     font-size: $font-size-xs * 0.9;
     text-align: center;
-    color: theme-color('primary');
+    color: theme-color('tertiary');
   }
 }

@@ -5,7 +5,6 @@ interface Props {
 }
 
 const { variant = 1, class: className } = Astro.props;
-
 const divider1And2 = {
   endColor: '#f7f2ff',
   paths: [
@@ -14,7 +13,6 @@ const divider1And2 = {
     'M0,90 C 320,175 660,75 980,125 C 1140,150 1300,110 1440,92',
   ],
 } as const;
-
 const waves = {
   1: divider1And2,
   2: divider1And2,
@@ -35,7 +33,6 @@ const waves = {
     ],
   },
 } as const;
-
 const current = waves[variant];
 const gradientId = `wave-gradient-${variant}-${Math.random().toString(36).slice(2, 7)}`;
 ---

@@ -84,12 +84,11 @@
       background: transparent;
       border-bottom: 1px dashed $gray-500;
       box-shadow: none;
-      color: $body-color;
       cursor: pointer;
 
       .progress-value {
         opacity: 0;
-        color: $gray-400;
+        color: $gray-500;
         transition: $transition-base;
       }
     }
@@ -118,16 +117,16 @@
       .progress-header {
         .progress-icon,
         .progress-name {
-          color: theme-color('primary');
+          color: theme-color('tertiary');
         }
       }
 
       .progress {
         .progress-bar {
-          border-color: theme-color('primary');
+          border-color: theme-color('tertiary');
 
           .progress-value {
-            color: theme-color('primary');
+            color: theme-color('tertiary');
           }
         }
       }

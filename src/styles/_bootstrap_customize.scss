@@ -56,6 +56,13 @@ button,
   box-shadow: $box-shadow;
   border: 0;
 
+  &.popover-primary {
+    .popover-header,
+    .popover-body {
+      color: theme-color('tertiary');
+    }
+  }
+
   .popover-header {
     padding-bottom: 0;
 
@@ -67,10 +74,9 @@ button,
     border: 0;
   }
 
-  &.popover-primary {
-    .popover-header,
-    .popover-body {
-      color: theme-color('primary');
+  .arrow {
+    &::before {
+      border-color: transparent;
     }
   }
 }
