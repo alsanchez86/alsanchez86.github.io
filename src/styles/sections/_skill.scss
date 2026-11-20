@@ -95,6 +95,27 @@
   }
 }
 
+.progress-item-is-important {
+  &.progress-item-animated-completed {
+    .progress-header {
+      .progress-icon,
+      .progress-name {
+        color: theme-color('tertiary');
+      }
+    }
+
+    .progress {
+      .progress-bar {
+        border-color: theme-color('tertiary');
+
+        .progress-value {
+          color: theme-color('tertiary');
+        }
+      }
+    }
+  }
+}
+
 @include media-breakpoint-up(md) {
   .skills-grid {
     column-count: 2;
@@ -108,27 +129,6 @@
 
       &:last-child {
         margin-bottom: 0;
-      }
-    }
-  }
-
-  .progress-item-is-important {
-    &.progress-item-animated-completed {
-      .progress-header {
-        .progress-icon,
-        .progress-name {
-          color: theme-color('tertiary');
-        }
-      }
-
-      .progress {
-        .progress-bar {
-          border-color: theme-color('tertiary');
-
-          .progress-value {
-            color: theme-color('tertiary');
-          }
-        }
       }
     }
   }
