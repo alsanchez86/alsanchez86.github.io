@@ -6,7 +6,7 @@ interface Props {
 
 const { variant = 1, class: className } = Astro.props;
 const divider1And2 = {
-  endColor: '#f7f2ff',
+  endColor: '#6610f2',
   paths: [
     'M0,60 C 340,125 680,25 1000,85 C 1160,110 1320,75 1440,62',
     'M0,75 C 340,140 680,40 1000,100 C 1160,125 1320,90 1440,77',
@@ -46,7 +46,7 @@ const gradientId = `wave-gradient-${variant}-${Math.random().toString(36).slice(
     <defs>
       <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#f7f2ff" />
-        <stop offset="50%" stop-color="#caa8ff" />
+        <stop offset="50%" stop-color="#6610f2" />
         <stop offset="100%" stop-color={current.endColor} />
       </linearGradient>
     </defs>
