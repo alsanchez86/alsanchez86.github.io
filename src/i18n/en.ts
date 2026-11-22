@@ -92,9 +92,9 @@ export const en = {
   elasticsearch: 'Elasticsearch',
   elasticsearchTKey:
     'Fundamental knowledge of the distributed search and analytics engine, JSON document indexing, and RESTful query structuring for fast retrieval of complex data.',
-  ember: 'Ember',
+  ember: 'Ember (Fastboot SSR)',
   emberTKey:
-    "Expert level in the framework's complete ecosystem. Deep understanding of advanced routing, services, adapters, Ember Data serializers, component lifecycle, and application of the convention-over-configuration philosophy.",
+    "Expert level in the framework's complete ecosystem. Deep understanding of advanced routing, services, adapters, Ember Data serializers, component lifecycle, and application of the convention-over-configuration philosophy. Implementation of Server-Side Rendering (SSR) for Ember.js applications.",
   english: 'English (B2+)',
   englishTKey:
     'Professional working proficiency (B2+), enabling fluent communication in technical environments with effective participation in international teams.',
@@ -109,9 +109,6 @@ export const en = {
   express: 'Express',
   expressTKey:
     'Fundamental configuration of HTTP servers in Node.js, creation of basic REST routes, request/response management, and middleware coupling for lightweight web applications.',
-  fastbootSsr: 'Fastboot (SSR)',
-  fastbootSsrTKey:
-    'Implementation of Server-Side Rendering (SSR) for Ember.js applications. Optimization of initial load times, SEO improvements, and efficient client-side hydration for high-performance web experiences.',
   fireworks: 'Fireworks',
   fireworksTKey:
     'Prior experience in rapid slicing and layout of web-oriented digital interfaces, high-fidelity prototyping, and efficient extraction of visual assets within classic design workflows.',
@@ -154,9 +151,6 @@ export const en = {
   illustrator: 'Illustrator',
   illustratorTKey:
     'Problem-solving ability in editing, scaling, and optimized exporting of vector graphics (SVG), iconography adaptation, and technical preparation of visual assets for direct implementation in the DOM.',
-  inkscape: 'Inkscape',
-  inkscapeTKey:
-    'Functional use of open-source vector software for tracing, geometric manipulation, and generation of clean SVG graphics that are easily integrated into modern web architectures.',
   jasmine: 'Jasmine',
   jasmineTKey:
     'Development and maintenance of unit tests implementing a BDD (Behavior-Driven Development) approach. Writing clear specifications, logical assertions, and using spies to validate functional code behavior.',

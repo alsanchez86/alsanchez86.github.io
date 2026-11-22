@@ -94,9 +94,9 @@ export const es = {
   elasticsearch: 'Elasticsearch',
   elasticsearchTKey:
     'Conocimientos fundamentales en el motor de búsqueda y análisis distribuido, indexación de documentos JSON y estructuración de consultas RESTful para la recuperación rápida de datos complejos.',
-  ember: 'Ember',
+  ember: 'Ember (Fastboot SSR)',
   emberTKey:
-    'Nivel experto en el ecosistema completo del framework. Profundo conocimiento en enrutamiento avanzado, servicios, adaptadores, serializadores de Ember Data, ciclo de vida de componentes y aplicación de la convención sobre configuración.',
+    'Nivel experto en el ecosistema completo del framework. Profundo conocimiento en enrutamiento avanzado, servicios, adaptadores, serializadores de Ember Data, ciclo de vida de componentes y aplicación de la convención sobre configuración. Implementación de Server-Side Rendering (SSR) con Fastboot',
   english: 'Inglés (B2+)',
   englishTKey:
     'Competencia profesional (B2+), permitiendo una comunicación fluida en entornos técnicos con participación activa en equipos internacionales.',
@@ -111,9 +111,6 @@ export const es = {
   express: 'Express',
   expressTKey:
     'Configuración fundamental de servidores HTTP en Node.js, creación de rutas REST básicas, gestión de peticiones/respuestas y acoplamiento de middlewares para aplicaciones web ligeras.',
-  fastbootSsr: 'Fastboot (SSR)',
-  fastbootSsrTKey:
-    'Implementación de Server-Side Rendering (SSR) para aplicaciones Ember.js. Optimización de tiempos de carga inicial, mejoras en SEO e hidratación eficiente en el cliente para experiencias web de alto rendimiento.',
   fireworks: 'Fireworks',
   fireworksTKey:
     'Experiencia previa en la maquetación y corte rápido de interfaces digitales orientadas a la web, prototipado de alta fidelidad y extracción eficiente de assets visuales en flujos de diseño clásico.',
@@ -156,9 +153,6 @@ export const es = {
   illustrator: 'Illustrator',
   illustratorTKey:
     'Capacidad resolutiva en la edición, escalado y exportación optimizada de gráficos vectoriales (SVG), adaptación de iconografía y preparación técnica de recursos visuales para su implementación directa en el DOM.',
-  inkscape: 'Inkscape',
-  inkscapeTKey:
-    'Uso funcional de software libre vectorial para el trazado, manipulación geométrica y generación de gráficos limpios en formato SVG integrables en arquitecturas web modernas.',
   jasmine: 'Jasmine',
   jasmineTKey:
     'Desarrollo y mantenimiento de pruebas unitarias implementando un enfoque BDD (Behavior-Driven Development). Escritura de especificaciones claras, aserciones lógicas y uso de espías (spies) para validar el comportamiento funcional del código.',

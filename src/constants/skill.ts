@@ -10,7 +10,6 @@ export const Frontend = {
   Typescript: 'typescript',
   Javascript: 'javascript',
   Ember: 'ember',
-  FastbootSsr: 'fastbootSsr',
   ReduxAndContextApi: 'reduxAndContextApi',
   D3: 'd3',
   Html: 'html',
@@ -113,7 +112,6 @@ export const Design = {
   Illustrator: 'illustrator',
   Photoshop: 'photoshop',
   Fireworks: 'fireworks',
-  Inkscape: 'inkscape',
   Gimp: 'gimp',
   AdobeFlashActionscript: 'adobeFlashActionscript',
 } as const;

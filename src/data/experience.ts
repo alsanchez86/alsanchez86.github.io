@@ -52,7 +52,6 @@ export const experiences = [
           { name: Frontend.Typescript, description: 'typescriptTKey' },
           { name: Frontend.Javascript, description: 'javascriptTKey' },
           { name: Frontend.Ember, description: 'emberTKey' },
-          { name: Frontend.FastbootSsr, description: 'fastbootSsrTKey' },
           {
             name: Frontend.ReduxAndContextApi,
             description: 'reduxAndContextApiTKey',
@@ -433,7 +432,6 @@ export const experiences = [
           { name: Design.Illustrator, description: 'illustratorTKey' },
           { name: Design.Photoshop, description: 'photoshopTKey' },
           { name: Design.Fireworks, description: 'fireworksTKey' },
-          { name: Design.Inkscape, description: 'inkscapeTKey' },
           { name: Design.Gimp, description: 'gimpTKey' },
         ],
       },

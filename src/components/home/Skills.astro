@@ -19,9 +19,11 @@ const { t } = Astro.locals;
         <div class="skills-item">
           <h4 class="text-compacted">{getTranslation(t, type)}</h4>
 
-          {items.map((skill) => (
-            <Skill skill={skill} />
-          ))}
+          {items
+            .sort((a, b) => b.value - a.value)
+            .map((skill) => (
+              <Skill skill={skill} />
+            ))}
         </div>
       ))}
     </div>
