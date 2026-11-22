@@ -19,8 +19,8 @@ export async function GET(context: APIContext) {
   );
 
   return rss({
-    title: t('meta.title'),
-    description: t('meta.description'),
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     site: context.site!,
     customData: `<language>${LocaleTag[defaultLocale]}</language>`,
     items: posts.map((post) => {

@@ -1,6 +1,4 @@
 .about-wrapper {
-  padding-top: 8rem;
-
   .avatar {
     filter: drop-shadow(0 0 0.75rem $gray-500);
     transition: filter 2s ease;
@@ -32,8 +30,6 @@
 
 @include media-breakpoint-down(md) {
   .about-wrapper {
-    padding-top: $spacer * 5;
-
     .name-wrapper {
       text-align: center;
     }

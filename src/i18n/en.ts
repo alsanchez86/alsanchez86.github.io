@@ -209,8 +209,8 @@ export const en = {
   mercurial: 'Mercurial',
   mercurialTKey:
     'Solid experience in decentralized repository management and revision control during corporate development stages, facilitating parallel workflows and source code traceability.',
-  'meta.description': 'Ángel Sánchez - Senior Software Architect',
-  'meta.title': 'Ángel Sánchez - Senior Software Architect',
+  metaDescription: 'Ángel Sánchez - Senior Software Architect',
+  metaTitle: 'Ángel Sánchez - Senior Software Architect',
   mocha: 'Mocha',
   mochaTKey:
     'Fundamental knowledge for structuring and executing asynchronous test suites in JavaScript environments, usually in conjunction with external libraries dedicated to assertions and mocking (such as Chai and Sinon).',
