@@ -33,11 +33,11 @@ export const Frontend = {
   Twig: 'twig',
   Blade: 'blade',
   Smarty: 'smarty',
+  Handlebars: 'handlebars',
 } as const;
 
 export const Backend = {
   Nodejs: 'nodejs',
-  Handlebars: 'handlebars',
   Nestjs: 'nestjs',
   Express: 'express',
   Python: 'python',
