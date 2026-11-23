@@ -109,8 +109,8 @@ svg {
 }
 
 .section-wrapper {
-  scroll-margin-top: 4rem;
-  padding: ($spacer * 2.25) 0;
+  scroll-margin-top: $spacer * 10;
+  padding: ($spacer * 1.75) 0;
 }
 
 h2.section-title {
@@ -159,7 +159,7 @@ h2.section-title {
 }
 
 .main-wrapper {
-  padding-top: $spacer * 8;
+  padding-top: $spacer * 6;
 }
 
 @include media-breakpoint-down(lg) {
@@ -169,10 +169,6 @@ h2.section-title {
 @include media-breakpoint-down(md) {
   .main-wrapper {
     padding-top: $spacer * 5;
-  }
-
-  .section-wrapper {
-    padding: 0.75rem 0;
   }
 
   h2.section-title {

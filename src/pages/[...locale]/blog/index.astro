@@ -18,30 +18,51 @@ const posts = (
   title={getTranslation(t, 'metaTitle')}
   description={getTranslation(t, 'metaDescription')}
 >
-  <ul>
-    {posts.map((post) => {
-      const slug = post.id.replace(`${locale}/`, '');
+  <section id="blog" class="blog-wrapper section-wrapper">
+    <div class="container container-narrow">
+      {posts.map((post) => {
+        const slug = post.id.replace(`${locale}/`, '');
+        const postUrl = getRelativeLocaleUrl(locale, `/blog/${slug}`);
+        const data = post.data as Record<string, any>;
 
-      return (
-        <li>
-          <a href={getRelativeLocaleUrl(locale, `/blog/${slug}`)}>
-            {post.data.title}
-
+        return (
+          <article class="post-row position-relative d-flex align-items-start py-4">
             {post.data.heroImage && (
-              <Image
-                width={720}
-                height={360}
-                src={post.data.heroImage}
-                alt=""
-              />
+              <div class="post-thumb-wrapper mr-3 mr-sm-4 flex-shrink-0">
+                <Image
+                  width={240}
+                  height={240}
+                  src={post.data.heroImage}
+                  alt=""
+                  class="post-thumb"
+                />
+              </div>
             )}
-          </a>
 
-          <p class="date">
-            <Date date={post.data.pubDate} />
-          </p>
-        </li>
-      );
-    })}
-  </ul>
+            <div class="post-content flex-grow-1">
+              <div class="post-meta text-muted small mb-1">
+                <Date date={post.data.pubDate} />
+                {data.category && (
+                  <>
+                    <span class="mx-1">/</span>
+                    <span>{data.category}</span>
+                  </>
+                )}
+              </div>
+
+              <h2 class="post-title h5 font-weight-bold mb-1">
+                <a href={postUrl} class="text-dark stretched-link">
+                  {post.data.title}
+                </a>
+              </h2>
+
+              {data.description && (
+                <p class="post-excerpt text-muted mb-0">{data.description}</p>
+              )}
+            </div>
+          </article>
+        );
+      })}
+    </div>
+  </section>
 </BaseLayout>

@@ -22,10 +22,16 @@ const navAnchors: NavAnchorItem[] = [
 ];
 ---
 
-<div id="main-nav" class="main-nav navbar navbar-expand fixed-top">
+<div id="main-nav" class="main-nav navbar navbar-expand">
   <div class="container container-narrow">
     <div class="main-nav-content" id="nav-content">
       <ul class="navbar-nav nav-links">
+        <!-- <li class="nav-item">
+          <Link class="nav-link" href={getRelativeLocaleUrl(locale, '/blog')}>
+            {getTranslation(t, 'menuBlog')}
+          </Link>
+        </li> -->
+
         {navAnchors.map(({ id, labelKey }) => (
           <li class="nav-item">
             <Link
@@ -36,12 +42,6 @@ const navAnchors: NavAnchorItem[] = [
             </Link>
           </li>
         ))}
-
-        <!-- <li class="nav-item">
-          <Link class="nav-link" href={getRelativeLocaleUrl(locale, '/blog')}>
-            {getTranslation(t, 'menuBlog')}
-          </Link>
-        </li> -->
       </ul>
     </div>
 
@@ -103,6 +103,9 @@ const navAnchors: NavAnchorItem[] = [
   const noScrollClass = 'no-scroll';
   const isOpenClass = 'is-open';
 
+  nav();
+  document.addEventListener('astro:page-load', nav);
+
   /**
    * Toggles the visibility of the mobile navigation menu.
    *
@@ -140,7 +143,4 @@ const navAnchors: NavAnchorItem[] = [
       }
     });
   }
-
-  nav();
-  document.addEventListener('astro:page-load', nav);
 </script>

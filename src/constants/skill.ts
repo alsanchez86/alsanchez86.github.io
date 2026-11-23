@@ -30,6 +30,9 @@ export const Frontend = {
   Foundation: 'foundation',
   Riot: 'riot',
   Coffeescript: 'coffeescript',
+  Twig: 'twig',
+  Blade: 'blade',
+  Smarty: 'smarty',
 } as const;
 
 export const Backend = {
@@ -40,9 +43,6 @@ export const Backend = {
   Python: 'python',
   Java: 'java',
   Php: 'php',
-  Twig: 'twig',
-  Blade: 'blade',
-  Smarty: 'smarty',
   Symfony: 'symfony',
 } as const;
 
