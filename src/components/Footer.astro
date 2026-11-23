@@ -5,49 +5,51 @@ import Social from '@/components/Social.astro';
 const { t } = Astro.locals;
 ---
 
-<div class="wrapper-wave">
-  <svg
-    viewBox="0 0 1440 180"
-    preserveAspectRatio="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <defs>
-      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#f7f2ff" />
-        <stop offset="50%" stop-color="#caa8ff" />
-        <stop offset="100%" stop-color="#f7f2ff" />
-      </linearGradient>
-    </defs>
+<div>
+  <div class="wrapper-wave">
+    <svg
+      viewBox="0 0 1440 180"
+      preserveAspectRatio="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#f7f2ff" />
+          <stop offset="50%" stop-color="#caa8ff" />
+          <stop offset="100%" stop-color="#f7f2ff" />
+        </linearGradient>
+      </defs>
 
-    <path
-      fill="#cfb5ff"
-      fill-opacity="0.35"
-      d="M0,55 C 320,115 650,25 980,85 C 1140,110 1300,75 1440,60 L 1440,78 C 1280,105 1120,140 960,115 C 640,65 300,165 0,72 Z"
-    />
+      <path
+        fill="#cfb5ff"
+        fill-opacity="0.35"
+        d="M0,55 C 320,115 650,25 980,85 C 1140,110 1300,75 1440,60 L 1440,78 C 1280,105 1120,140 960,115 C 640,65 300,165 0,72 Z"
+      />
 
-    <path
-      fill="url(#gradient)"
-      d="M0,70 C 340,135 680,35 1000,95 C 1160,120 1320,85 1440,72 L 1440,92 C 1300,115 1140,155 980,130 C 660,75 320,180 0,90 Z"
-    />
-  </svg>
-</div>
-
-<footer class="footer">
-  <div class="container">
-    <Social showPopovers={false} />
-
-    <p class="copyright">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        class="bi bi-c-circle"
-        viewBox="0 0 16 16"
-      >
-        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512" />
-      </svg>
-      &nbsp;{getTranslation(t, 'footerCopy')}
-    </p>
+      <path
+        fill="url(#gradient)"
+        d="M0,70 C 340,135 680,35 1000,95 C 1160,120 1320,85 1440,72 L 1440,92 C 1300,115 1140,155 980,130 C 660,75 320,180 0,90 Z"
+      />
+    </svg>
   </div>
-</footer>
+
+  <footer class="footer">
+    <div class="container">
+      <Social showPopovers={false} />
+
+      <p class="copyright">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-c-circle"
+          viewBox="0 0 16 16"
+        >
+          <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512" />
+        </svg>
+        &nbsp;{getTranslation(t, 'footerCopy')}
+      </p>
+    </div>
+  </footer>
+</div>

@@ -1,0 +1,29 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+import { getTranslation } from '@/i18n/utils';
+import type { SkillValues } from '@/constants/skill';
+
+interface Props {
+  name: SkillValues;
+  description?: string;
+}
+
+const { name, description } = Astro.props;
+const { t } = Astro.locals;
+const skillName = getTranslation(t, name);
+const popoverContent = description ? getTranslation(t, description) : undefined;
+const popoverAttrs: HTMLAttributes<'span'> = popoverContent
+  ? {
+      tabindex: 0,
+      'aria-expanded': false,
+      'data-toggle': 'popover',
+      'data-placement': 'top',
+      'data-content': popoverContent,
+      'data-trigger': 'hover focus',
+    }
+  : {};
+---
+
+<span class="badge" title={skillName} {...popoverAttrs}>
+  {skillName}
+</span>

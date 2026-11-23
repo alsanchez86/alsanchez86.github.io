@@ -1,17 +1,17 @@
 ---
 import { getCollection } from 'astro:content';
 import { getRelativeLocaleUrl } from 'astro:i18n';
-import { Image } from 'astro:assets';
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Date from '@components/Date.astro';
 import { getTranslation } from '@i18n/utils';
+import SkillBadge from '@/components/SkillBadge.astro';
 
 export { getStaticPaths } from '@i18n/utils';
 
 const { locale, t } = Astro.locals;
 const posts = (
   await getCollection('blog', ({ id }) => id.startsWith(`${locale}/`))
-).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
 <BaseLayout
@@ -20,49 +20,38 @@ const posts = (
 >
   <section id="blog" class="blog-wrapper section-wrapper">
     <div class="container container-narrow">
-      {posts.map((post) => {
-        const slug = post.id.replace(`${locale}/`, '');
-        const postUrl = getRelativeLocaleUrl(locale, `/blog/${slug}`);
-        const data = post.data as Record<string, any>;
+      <header>
+        <h1 class="section-title">{getTranslation(t, 'blogTitle')}</h1>
+      </header>
 
-        return (
-          <article class="post-row position-relative d-flex align-items-start py-4">
-            {post.data.heroImage && (
-              <div class="post-thumb-wrapper mr-3 mr-sm-4 flex-shrink-0">
-                <Image
-                  width={240}
-                  height={240}
-                  src={post.data.heroImage}
-                  alt=""
-                  class="post-thumb"
-                />
+      <div class="post-list">
+        {posts.map((post) => {
+          const slug = post.id.replace(`${locale}/`, '');
+          const postUrl = getRelativeLocaleUrl(locale, `/blog/${slug}`);
+
+          return (
+            <article class="post-row">
+              <small>
+                <Date date={post.data.date} />
+              </small>
+
+              <header>
+                <h3 class="post-title">
+                  <a href={postUrl}>{post.data.title}</a>
+                </h3>
+              </header>
+
+              <p>{post.data.description}</p>
+
+              <div class="skill-item-batch">
+                {post.data.skills.map((name) => (
+                  <SkillBadge name={name} />
+                ))}
               </div>
-            )}
-
-            <div class="post-content flex-grow-1">
-              <div class="post-meta text-muted small mb-1">
-                <Date date={post.data.pubDate} />
-                {data.category && (
-                  <>
-                    <span class="mx-1">/</span>
-                    <span>{data.category}</span>
-                  </>
-                )}
-              </div>
-
-              <h2 class="post-title h5 font-weight-bold mb-1">
-                <a href={postUrl} class="text-dark stretched-link">
-                  {post.data.title}
-                </a>
-              </h2>
-
-              {data.description && (
-                <p class="post-excerpt text-muted mb-0">{data.description}</p>
-              )}
-            </div>
-          </article>
-        );
-      })}
+            </article>
+          );
+        })}
+      </div>
     </div>
   </section>
 </BaseLayout>

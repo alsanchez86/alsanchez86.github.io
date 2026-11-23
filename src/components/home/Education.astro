@@ -10,12 +10,14 @@ const { education } = Astro.props;
 const { t } = Astro.locals;
 ---
 
-<div class="education-item">
+<article class="education-item">
   <small>{education.date}</small>
 
-  <h3>{getTranslation(t, education.name)}</h3>
+  <header>
+    <h3>{getTranslation(t, education.name)}</h3>
+  </header>
 
   <h4 class="text-compacted">{getTranslation(t, education.location)}</h4>
 
   <p>{getTranslation(t, education.city)}</p>
-</div>
+</article>

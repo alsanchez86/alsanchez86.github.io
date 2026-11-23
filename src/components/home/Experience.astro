@@ -1,6 +1,7 @@
 ---
 import type { Experience } from '@data/experience';
 import { getTranslation } from '@/i18n/utils';
+import SkillBadge from '@components/SkillBadge.astro';
 
 interface Props {
   experience: Experience;
@@ -10,34 +11,36 @@ const { experience } = Astro.props;
 const { t } = Astro.locals;
 ---
 
-<div id={experience.id} class="experience-item">
+<article id={experience.id} class="experience-item">
   <div class="row">
     <div class="col-sm-12 col-md-9">
       <div class="experience-item-header">
-        {experience.companyLink ? (
-          <h3>
-            <a
-              href={experience.companyLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {experience.name}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-link-45deg"
-                viewBox="0 0 16 16"
+        <header>
+          {experience.companyLink ? (
+            <h3>
+              <a
+                href={experience.companyLink}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z" />
-                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z" />
-              </svg>
-            </a>
-          </h3>
-        ) : (
-          <h3>{experience.name}</h3>
-        )}
+                {experience.name}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-link-45deg"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z" />
+                  <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z" />
+                </svg>
+              </a>
+            </h3>
+          ) : (
+            <h3>{experience.name}</h3>
+          )}
+        </header>
 
         <h4>{getTranslation(t, experience.position)}</h4>
 
@@ -50,30 +53,15 @@ const { t } = Astro.locals;
         <Fragment set:html={getTranslation(t, experience.description)} />
       </div>
 
-      <div class="experience-item-batch">
-        {experience.skills.map(({ items, type }) =>
-          items.map(({ name, description }) => {
-            const skillName = getTranslation(t, name);
-
-            return (
-              <span
-                class={`badge experience-item-batch-${type}`}
-                tabindex="0"
-                aria-expanded="false"
-                title={skillName}
-                data-toggle="popover"
-                data-placement="top"
-                data-content={getTranslation(t, description)}
-                data-trigger="hover focus"
-              >
-                {skillName}
-              </span>
-            );
-          }),
+      <div class="skill-item-batch">
+        {experience.skills.map(({ items }) =>
+          items.map(({ name, description }) => (
+            <SkillBadge name={name} description={description} />
+          )),
         )}
       </div>
     </div>
 
     <div class="d-none d-md-block col-md-3"></div>
   </div>
-</div>
+</article>

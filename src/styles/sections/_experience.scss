@@ -1,12 +1,6 @@
 .experience-item {
   margin-bottom: $spacer * 5.5;
 
-  .experience-item-batch {
-    display: flex;
-    flex-wrap: wrap;
-    gap: $spacer / 4;
-  }
-
   &:last-child {
     padding-bottom: 0px;
     margin-bottom: 0;
@@ -29,26 +23,10 @@
   .experience-description {
     margin-bottom: $paragraph-margin-bottom;
   }
-
-  .experience-item-batch {
-    margin-bottom: 2rem;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
 }
 
 @include media-breakpoint-down(sm) {
   .experience-item {
     margin-bottom: 4rem;
-
-    .experience-item-batch {
-      margin-bottom: 1rem;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
   }
 }

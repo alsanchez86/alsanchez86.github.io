@@ -289,6 +289,7 @@ export const es = {
   shellScriptTKey:
     'Automatización de tareas de servidor y pipelines de despliegue. Creación de scripts Bash eficientes para la gestión de procesos, manipulación de archivos y monitorización de sistemas en entornos Unix/Linux.',
   skillsTitle: 'Habilidades',
+  blogTitle: 'Blog',
   smarty: 'Smarty',
   smartyTKey:
     'Experiencia consolidada en la gestión e implementación de este motor de plantillas en proyectos legacy, facilitando la interpolación segura de datos y la organización de la capa visual en arquitecturas PHP tradicionales.',

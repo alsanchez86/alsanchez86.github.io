@@ -30,6 +30,7 @@ export const en = {
   blade: 'Blade',
   bladeTKey:
     "Advanced use of Laravel's templating system, component injection, conditional directives, and master layouts to generate dynamic and maintainable views in modern web applications.",
+  blogTitle: 'Blog',
   bootstrap: 'Bootstrap',
   bootstrapTKey:
     'Comprehensive mastery of the framework for rapid UI prototyping with a Mobile First approach. Extensive use of the flexible grid system, advanced variable customization via SCSS, and structural adaptation of pre-built components.',

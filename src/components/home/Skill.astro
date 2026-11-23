@@ -11,7 +11,7 @@ const { t } = Astro.locals;
 const skillName = getTranslation(t, skill.name);
 ---
 
-<div
+<article
   class:list={[
     'progress-item',
     { 'progress-item-is-important': skill.isImportant },
@@ -19,7 +19,8 @@ const skillName = getTranslation(t, skill.name);
 >
   <div class="progress-header">
     <span class="progress-icon" set:html={skill.icon} />
-    <span class="progress-name">{skillName}</span>
+
+    <header class="progress-name">{skillName}</header>
   </div>
 
   <div class="progress">
@@ -40,4 +41,4 @@ const skillName = getTranslation(t, skill.name);
       <small class="progress-value">{skill.value}</small>
     </div>
   </div>
-</div>
+</article>

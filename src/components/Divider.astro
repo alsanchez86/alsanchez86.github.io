@@ -6,7 +6,7 @@ interface Props {
 
 const { variant = 1, class: className } = Astro.props;
 const divider1And2 = {
-  endColor: '#6610f2',
+  endColor: '#e3d4ff',
   paths: [
     'M0,60 C 340,125 680,25 1000,85 C 1160,110 1320,75 1440,62',
     'M0,75 C 340,140 680,40 1000,100 C 1160,125 1320,90 1440,77',
@@ -25,7 +25,7 @@ const waves = {
     ],
   },
   4: {
-    endColor: '#965bf6',
+    endColor: '#bd94ff',
     paths: [
       'M0,95 C 400,155 760,15 1060,55 C 1200,75 1340,50 1440,70',
       'M0,110 C 400,170 760,30 1060,70 C 1200,90 1340,65 1440,85',
@@ -45,8 +45,8 @@ const gradientId = `wave-gradient-${variant}-${Math.random().toString(36).slice(
   >
     <defs>
       <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#f7f2ff" />
-        <stop offset="50%" stop-color="#6610f2" />
+        <stop offset="0%" stop-color="#e3d4ff" />
+        <stop offset="50%" stop-color="#8c4ef1" />
         <stop offset="100%" stop-color={current.endColor} />
       </linearGradient>
     </defs>
@@ -54,7 +54,7 @@ const gradientId = `wave-gradient-${variant}-${Math.random().toString(36).slice(
     <path
       d={current.paths[0]}
       fill="none"
-      stroke="#6610f2"
+      stroke="#8c4ef1"
       stroke-width="1.5"
       stroke-dasharray="4 4"
       stroke-opacity="0.6"

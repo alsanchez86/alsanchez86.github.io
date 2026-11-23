@@ -15,7 +15,7 @@ import { defaultLocale, LocaleTag } from '@i18n/consts';
 export async function GET(context: APIContext) {
   const { t } = context.locals;
   const posts = (await getCollection('blog')).sort(
-    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
   );
 
   return rss({

@@ -65,14 +65,12 @@ export const experiences = [
             name: Frontend.FunctionalProgramming,
             description: 'functionalProgrammingTKey',
           },
+          { name: Frontend.Handlebars, description: 'handlebarsTKey' },
         ],
       },
       {
         type: SkillType.Backend,
-        items: [
-          { name: Backend.Nodejs, description: 'nodejsTKey' },
-          { name: Backend.Handlebars, description: 'handlebarsTKey' },
-        ],
+        items: [{ name: Backend.Nodejs, description: 'nodejsTKey' }],
       },
       {
         type: SkillType.Testing,
@@ -320,15 +318,13 @@ export const experiences = [
           { name: Frontend.Css, description: 'cssTKey' },
           { name: Frontend.Sass, description: 'sassTKey' },
           { name: Frontend.Less, description: 'lessTKey' },
+          { name: Frontend.Twig, description: 'twigTKey' },
+          { name: Frontend.Blade, description: 'bladeTKey' },
         ],
       },
       {
         type: SkillType.Backend,
-        items: [
-          { name: Backend.Php, description: 'phpTKey' },
-          { name: Backend.Twig, description: 'twigTKey' },
-          { name: Backend.Blade, description: 'bladeTKey' },
-        ],
+        items: [{ name: Backend.Php, description: 'phpTKey' }],
       },
       {
         type: SkillType.DatabasesAndSearch,
@@ -372,16 +368,14 @@ export const experiences = [
           { name: Frontend.Css, description: 'cssTKey' },
           { name: Frontend.Less, description: 'lessTKey' },
           { name: Frontend.Sass, description: 'sassTKey' },
+          { name: Frontend.Twig, description: 'twigTKey' },
+          { name: Frontend.Blade, description: 'bladeTKey' },
+          { name: Frontend.Smarty, description: 'smartyTKey' },
         ],
       },
       {
         type: SkillType.Backend,
-        items: [
-          { name: Backend.Php, description: 'phpTKey' },
-          { name: Backend.Twig, description: 'twigTKey' },
-          { name: Backend.Blade, description: 'bladeTKey' },
-          { name: Backend.Smarty, description: 'smartyTKey' },
-        ],
+        items: [{ name: Backend.Php, description: 'phpTKey' }],
       },
       {
         type: SkillType.DatabasesAndSearch,
@@ -395,6 +389,7 @@ export const experiences = [
             name: DatabasesAndSearch.Elasticsearch,
             description: 'elasticsearchTKey',
           },
+          { name: DatabasesAndSearch.Kibana, description: 'kibanaTKey' },
         ],
       },
       {
@@ -422,7 +417,6 @@ export const experiences = [
       {
         type: SkillType.ManagementAndStrategy,
         items: [
-          { name: ManagementAndStrategy.Kibana, description: 'kibanaTKey' },
           { name: ManagementAndStrategy.Scrum, description: 'scrumTKey' },
         ],
       },
@@ -456,14 +450,12 @@ export const experiences = [
           { name: Frontend.Css, description: 'cssTKey' },
           { name: Frontend.Less, description: 'lessTKey' },
           { name: Frontend.Sass, description: 'sassTKey' },
+          { name: Frontend.Smarty, description: 'smartyTKey' },
         ],
       },
       {
         type: SkillType.Backend,
-        items: [
-          { name: Backend.Php, description: 'phpTKey' },
-          { name: Backend.Smarty, description: 'smartyTKey' },
-        ],
+        items: [{ name: Backend.Php, description: 'phpTKey' }],
       },
       {
         type: SkillType.DatabasesAndSearch,
