@@ -91,7 +91,6 @@ export const ManagementAndStrategy = {
   Jira: 'jira',
   Scrum: 'scrum',
   AnaliticaGtmDtm: 'analiticaGtmDtm',
-  Kibana: 'kibana',
   Lean: 'lean',
   SoftwareArchitecture: 'softwareArchitecture',
   TechnicalDocumentation: 'technicalDocumentation',
@@ -106,6 +105,7 @@ export const DatabasesAndSearch = {
   Sql: 'sql',
   ApacheSolr: 'apacheSolr',
   Elasticsearch: 'elasticsearch',
+  Kibana: 'kibana',
 } as const;
 
 export const Design = {
