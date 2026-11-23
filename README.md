@@ -1,6 +1,12 @@
-# Code for https://www.sanchezpizarro.com
+Code for https://www.sanchezpizarro.com. Static web page created with Astro.
 
-Static web page created with Astro.
+## Prerequisites
+
+TODO
+
+## Dependencies
+
+TODO
 
 ## 🚀 Project Structure
 
