@@ -9,6 +9,10 @@
 
   .nav-item {
     margin: 0 calc($spacer / 2);
+
+    a {
+      color: $body-color;
+    }
   }
 }
 
