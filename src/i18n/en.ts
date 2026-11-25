@@ -60,7 +60,7 @@ export const en = {
   contactFormNamePlaceholder: 'Enter your name',
   contactFormSubmit: 'Send',
   contactFormSuccess:
-    'Message sent successfully. I will get back to you as soon as possible. Thank you!',
+    'Message sent successfully. I will get back to you as soon as possible.',
   crealogixDate: 'March 2017 - August 2017',
   crealogixDescription:
     "<p>End-to-end development and evolution of web applications for major consumer brands, highlighting the <strong>Danone S.A.</strong> corporate portal and the <em>'Eres Impulso'</em> web app for <strong>Font Vella</strong>.</p><p>Fullstack technical implementation, complex incident resolution, and continuous performance optimization to ensure operational stability.</p><p>Workflow management in <strong>GitHub</strong>, standardization of code conventions, and creation of technical documentation to guarantee scalability.</p>",

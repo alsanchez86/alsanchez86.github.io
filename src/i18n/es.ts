@@ -61,7 +61,7 @@ export const es = {
   contactFormNamePlaceholder: 'Introduce tu nombre',
   contactFormSubmit: 'Enviar',
   contactFormSuccess:
-    'Mensaje enviado correctamente. Me pondré en contacto contigo lo antes posible. ¡Gracias!',
+    'Mensaje enviado correctamente. Me pondré en contacto contigo lo antes posible.',
   crealogixDate: 'Marzo 2017 - Agosto 2017',
   crealogixDescription:
     "<p>Desarrollo end-to-end y evolución de aplicaciones web para marcas de gran consumo, destacando el portal corporativo de <strong>Danone S.A.</strong> y la web app <em>'Eres Impulso'</em> de <strong>Font Vella</strong>.</p><p>Implementación técnica fullstack, resolución de incidencias complejas y optimización continua del rendimiento para asegurar la estabilidad operativa del entorno.</p><p>Gestión del flujo de trabajo en <strong>GitHub</strong>, estandarización de convenciones de código y elaboración de documentación técnica para garantizar la escalabilidad.</p>",

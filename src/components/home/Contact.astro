@@ -4,6 +4,7 @@ import { getTranslation } from '@i18n/utils';
 export { getStaticPaths } from '@i18n/utils';
 
 const { t } = Astro.locals;
+const web3FormsKey = import.meta.env.PUBLIC_WEB3FORMS_KEY;
 ---
 
 <section id="contact" class="section-wrapper">
@@ -20,12 +21,16 @@ const { t } = Astro.locals;
             action="https://api.web3forms.com/submit"
             method="POST"
           >
+            <input type="hidden" name="access_key" value={web3FormsKey} />
+
             <input
-              type="hidden"
-              name="access_key"
-              value="9a6335de-2fb4-45fa-9016-82903a54e52e"
+              class="d-none"
+              type="checkbox"
+              name="botcheck"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
             />
-            <input type="checkbox" name="botcheck" class="d-none" />
 
             <div class="form-group">
               <label for="contact-form-name">
@@ -41,6 +46,7 @@ const { t } = Astro.locals;
                 type="text"
                 class="form-control"
                 name="name"
+                maxlength="100"
                 placeholder={getTranslation(t, 'contactFormNamePlaceholder')}
                 required
               />
@@ -60,6 +66,7 @@ const { t } = Astro.locals;
                 type="email"
                 class="form-control"
                 name="email"
+                maxlength="254"
                 placeholder={getTranslation(t, 'contactFormEmailPlaceholder')}
                 required
               />
@@ -79,6 +86,7 @@ const { t } = Astro.locals;
                 class="form-control"
                 name="message"
                 rows="4"
+                maxlength="2000"
                 placeholder={getTranslation(t, 'contactFormMessagePlaceholder')}
                 required
               ></textarea>
@@ -133,9 +141,7 @@ const { t } = Astro.locals;
             >
               {getTranslation(t, 'contactFormError')}
               &nbsp;
-              <a href="mailto:sanchezpizarro86@gmail.com" title="Email">
-                sanchezpizarro86@gmail.com
-              </a>
+              <span id="contact-form-fallback-email"></span>
               <button
                 id="contact-form-status-error-btn-close"
                 type="button"
@@ -163,14 +169,37 @@ const { t } = Astro.locals;
 </section>
 
 <script>
+  const MIN_SUBMIT_DELAY_MS = 2500;
+  const MAX_NAME_LENGTH = 100;
+  const MAX_EMAIL_LENGTH = 254;
+  const MAX_MESSAGE_LENGTH = 2000;
+
   initForm();
   document.addEventListener('astro:page-load', initForm);
 
   /**
-   * Initializes validation, alert dismissal, and asynchronous Web3Forms submission for the contact form.
+   * Finds the contact form in the DOM and initializes it once per page load.
    */
   function initForm() {
-    const form = document.getElementById('contact-form') as HTMLFormElement;
+    const form = document.getElementById(
+      'contact-form',
+    ) as HTMLFormElement | null;
+
+    if (form && form.dataset.initialized !== 'true') {
+      form.dataset.initialized = 'true';
+      setupForm(form);
+    }
+  }
+
+  /**
+   * Binds validation, anti-spam checks, alert dismissal, and async submission
+   * handlers to the contact form.
+   *
+   * @param form The contact form element to configure.
+   */
+  function setupForm(form: HTMLFormElement) {
+    let loadedAt = Date.now();
+
     const nameInput = document.getElementById(
       'contact-form-name',
     ) as HTMLInputElement;
@@ -195,10 +224,13 @@ const { t } = Astro.locals;
     const statusSuccessBtnClose = document.getElementById(
       'contact-form-status-error-success-close',
     ) as HTMLButtonElement;
+    const fallbackEmailContainer = document.getElementById(
+      'contact-form-fallback-email',
+    ) as HTMLSpanElement;
 
-    form.dataset.initialized = 'true';
     statusErrorBtnClose?.addEventListener('click', clearStatus);
     statusSuccessBtnClose?.addEventListener('click', clearStatus);
+
     [nameInput, emailInput, messageInput].forEach((field) => {
       const handleFieldUpdate = () => {
         validateForm();
@@ -212,11 +244,26 @@ const { t } = Astro.locals;
     form.addEventListener('submit', async (event: SubmitEvent) => {
       event.preventDefault();
 
+      const formData = new FormData(form);
+      const isHumanSubmission =
+        Date.now() - loadedAt >= MIN_SUBMIT_DELAY_MS &&
+        !formData.get('botcheck');
+
+      if (isHumanSubmission) {
+        await submitContactForm(formData);
+      }
+    });
+
+    /**
+     * Sends the form payload to Web3Forms and updates the UI according to the response.
+     *
+     * @param formData Collected form entries to submit.
+     */
+    async function submitContactForm(formData: FormData) {
       clearStatus();
       submitBtn.disabled = true;
 
       try {
-        const formData = new FormData(form);
         const payload = Object.fromEntries(formData.entries());
         const response = await fetch('https://api.web3forms.com/submit', {
           method: 'POST',
@@ -231,6 +278,7 @@ const { t } = Astro.locals;
         if (response.ok && data.success) {
           showStatus('success');
           form.reset();
+          loadedAt = Date.now();
         } else {
           throw new Error();
         }
@@ -239,18 +287,41 @@ const { t } = Astro.locals;
       } finally {
         validateForm();
       }
-    });
+    }
 
     /**
-     * Validates all required form fields and updates the submit button state.
+     * Validates required fields and length constraints, toggling the submit button state.
      */
     function validateForm() {
-      const isNameValid = nameInput.value.trim().length > 0;
-      const isMessageValid = messageInput.value.trim().length > 0;
+      const nameLength = nameInput.value.trim().length;
+      const emailLength = emailInput.value.trim().length;
+      const messageLength = messageInput.value.trim().length;
+      const isNameValid = nameLength > 0 && nameLength <= MAX_NAME_LENGTH;
+      const isMessageValid =
+        messageLength > 0 && messageLength <= MAX_MESSAGE_LENGTH;
       const isEmailValid =
-        emailInput.value.trim().length > 0 && emailInput.checkValidity();
+        emailLength > 0 &&
+        emailLength <= MAX_EMAIL_LENGTH &&
+        emailInput.checkValidity();
 
       submitBtn.disabled = !(isNameValid && isEmailValid && isMessageValid);
+    }
+
+    /**
+     * Builds and appends the fallback `mailto:` link into the error alert container
+     * to keep the address out of the initial static HTML.
+     */
+    function injectFallbackEmail() {
+      const user = 'sanchezpizarro86';
+      const domain = 'gmail.com';
+      const email = `${user}@${domain}`;
+
+      const link = document.createElement('a');
+      link.href = `mailto:${email}`;
+      link.title = 'Email';
+      link.textContent = email;
+
+      fallbackEmailContainer.appendChild(link);
     }
 
     /**
@@ -262,13 +333,16 @@ const { t } = Astro.locals;
       if (type === 'success') {
         statusSuccess.classList.remove('d-none');
       } else {
+        if (fallbackEmailContainer && !fallbackEmailContainer.hasChildNodes()) {
+          injectFallbackEmail();
+        }
+
         statusError.classList.remove('d-none');
       }
     }
 
     /**
      * Hides both success and error feedback alerts.
-     *
      */
     function clearStatus() {
       statusSuccess.classList.add('d-none');
