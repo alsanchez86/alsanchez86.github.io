@@ -6,6 +6,7 @@
   right: 0;
   padding: $spacer 0;
   z-index: 99999;
+  background-color: rgba($body-bg, 0.7);
 
   .nav-item {
     margin: 0 calc($spacer / 2);
