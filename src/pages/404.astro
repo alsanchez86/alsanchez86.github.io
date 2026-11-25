@@ -1,0 +1,31 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getTranslation } from '@i18n/utils';
+
+export { getStaticPaths } from '@i18n/utils';
+
+const { t } = Astro.locals;
+---
+
+<BaseLayout
+  title={getTranslation(t, 'metaTitle')}
+  description={getTranslation(t, 'metaDescription')}
+>
+  <section id="about" class="not-found-wrapper section-wrapper">
+    <div class="container container-narrow">
+      <header>
+        <h1>404</h1>
+      </header>
+
+      <h2>File not found</h2>
+
+      <p>The page you are looking for is not available.</p>
+
+      <p>
+        <a class="btn btn-primary" href="/">
+          Go home
+        </a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>
